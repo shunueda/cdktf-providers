@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#metadata DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#metadata DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2ManifestMetadata;
   /**
   * Spec defines the desired state of BackendLBPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#spec DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#spec DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#spec}
   */
   readonly spec: DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#annotations DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#annotations DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#labels DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#labels DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#name DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#name DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#namespace DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#namespace DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2ManifestSpe
   /**
   * LifetimeType specifies whether the cookie has a permanent or session-based lifetime. A permanent cookie persists until its specified expiry time, defined by the Expires or Max-Age cookie attributes, while a session cookie is deleted when the current session ends. When set to 'Permanent', AbsoluteTimeout indicates the cookie's lifetime via the Expires or Max-Age cookie attributes and is required. When set to 'Session', AbsoluteTimeout indicates the absolute lifetime of the cookie tracked by the gateway and is optional. Support: Core for 'Session' type Support: Extended for 'Permanent' type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#lifetime_type DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#lifetime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#lifetime_type DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#lifetime_type}
   */
   readonly lifetimeType?: string;
 }
@@ -315,31 +315,31 @@ export interface DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2ManifestSpe
   /**
   * AbsoluteTimeout defines the absolute timeout of the persistent session. Once the AbsoluteTimeout duration has elapsed, the session becomes invalid. Support: Extended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#absolute_timeout DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#absolute_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#absolute_timeout DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#absolute_timeout}
   */
   readonly absoluteTimeout?: string;
   /**
   * CookieConfig provides configuration settings that are specific to cookie-based session persistence. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#cookie_config DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#cookie_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#cookie_config DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#cookie_config}
   */
   readonly cookieConfig?: DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2ManifestSpecSessionPersistenceCookieConfig;
   /**
   * IdleTimeout defines the idle timeout of the persistent session. Once the session has been idle for more than the specified IdleTimeout duration, the session becomes invalid. Support: Extended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#idle_timeout DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#idle_timeout DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * SessionName defines the name of the persistent session token which may be reflected in the cookie or the header. Users should avoid reusing session names to prevent unintended consequences, such as rejection or unpredictable behavior. Support: Implementation-specific
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#session_name DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#session_name DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#session_name}
   */
   readonly sessionName?: string;
   /**
   * Type defines the type of session persistence such as through the use a header or cookie. Defaults to cookie based session persistence. Support: Core for 'Cookie' type Support: Extended for 'Header' type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#type DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#type DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#type}
   */
   readonly type?: string;
 }
@@ -551,19 +551,19 @@ export interface DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2ManifestSpe
   /**
   * Group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#group DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#group DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#group}
   */
   readonly group: string;
   /**
   * Kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#kind DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#kind DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#name DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#name DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#name}
   */
   readonly name: string;
 }
@@ -730,13 +730,13 @@ export interface DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2ManifestSpe
   /**
   * SessionPersistence defines and configures session persistence for the backend. Support: Extended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#session_persistence DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#session_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#session_persistence DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#session_persistence}
   */
   readonly sessionPersistence?: DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2ManifestSpecSessionPersistence;
   /**
   * TargetRef identifies an API object to apply policy to. Currently, Backends (i.e. Service, ServiceImport, or any implementation-specific backendRef) are the only valid API target references.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#target_refs DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#target_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#target_refs DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest#target_refs}
   */
   readonly targetRefs: DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2ManifestSpecTargetRefs[] | cdktf.IResolvable;
 }
@@ -856,7 +856,7 @@ export class DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2ManifestSpecOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest k8s_gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest k8s_gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest}
 */
 export class DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -872,7 +872,7 @@ export class DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest extend
   * Generates CDKTF code for importing a DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -884,7 +884,7 @@ export class DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest k8s_gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest k8s_gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -895,8 +895,8 @@ export class DataK8SGatewayNetworkingK8SIoBackendLbPolicyV1Alpha2Manifest extend
       terraformResourceType: 'k8s_gateway_networking_k8s_io_backend_lb_policy_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#metadata DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#metadata DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestMetadata;
   /**
   * JindoRuntimeSpec defines the desired state of JindoRuntime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#spec DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#spec DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#annotations DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#annotations DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#namespace DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#namespace DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecCleanCachePol
   /**
   * Optional duration in seconds the cache needs to clean gracefully. May be decreased in delete runtime request. Value must be non-negative integer. The value zero indicates clean immediately via the timeout command (no opportunity to shut down). If this value is nil, the default grace period will be used instead. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with timeout command. Set this value longer than the expected cleanup time for your process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#grace_period_seconds DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#grace_period_seconds DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#grace_period_seconds}
   */
   readonly gracePeriodSeconds?: number;
   /**
   * Optional max retry Attempts when cleanCache function returns an error after execution, runtime attempts to run it three more times by default. With Maximum Retry Attempts, you can customize the maximum number of retries. This gives you the option to continue processing retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#max_retry_attempts DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#max_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#max_retry_attempts DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#max_retry_attempts}
   */
   readonly maxRetryAttempts?: number;
 }
@@ -350,7 +350,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecFuseImagePull
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -468,13 +468,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecFuseMetrics {
   /**
   * Enabled decides whether to expose client metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#enabled DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#enabled DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * ScrapeTarget decides which fuse component will be scraped by Prometheus. It is a list separated by comma where supported items are [MountPod, Sidecar, All (indicates MountPod and Sidecar), None]. Defaults to None when it is not explicitly set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#scrape_target DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#scrape_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#scrape_target DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#scrape_target}
   */
   readonly scrapeTarget?: string;
 }
@@ -599,13 +599,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecFusePodMetada
   /**
   * Annotations are annotations of pod specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#annotations DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#annotations DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels are labels of pod specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -730,7 +730,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecFuseResources
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -845,19 +845,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecFuseResources
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#claims DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#claims DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecFuseResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#limits DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#limits DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#requests DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#requests DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1011,31 +1011,31 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecFuseToleratio
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#effect DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#effect DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#operator DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#operator DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#toleration_seconds DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#toleration_seconds DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#value DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#value DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1269,95 +1269,95 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecFuse {
   /**
   * Arguments that will be passed to Jindo Fuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#args DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#args DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * CleanPolicy decides when to clean JindoFS Fuse pods. Currently Fluid supports two policies: OnDemand and OnRuntimeDeleted OnDemand cleans fuse pod once th fuse pod on some node is not needed OnRuntimeDeleted cleans fuse pod only when the cache runtime is deleted Defaults to OnRuntimeDeleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#clean_policy DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#clean_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#clean_policy DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#clean_policy}
   */
   readonly cleanPolicy?: string;
   /**
   * If disable JindoFS fuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#disabled DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#disabled DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Environment variables that will be used by Jindo Fuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#env DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#env DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * Image for Jindo Fuse(e.g. jindo/jindo-fuse)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * One of the three policies: 'Always', 'IfNotPresent', 'Never'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image_pull_policy DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image_pull_policy DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * ImagePullSecrets that will be used to pull images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image_pull_secrets DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image_pull_secrets DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecFuseImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Image Tag for Jindo Fuse(e.g. 2.3.0-SNAPSHOT)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image_tag DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image_tag DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image_tag}
   */
   readonly imageTag?: string;
   /**
   * Labels will be added on all the JindoFS pods. DEPRECATED: this is a deprecated field. Please use PodMetadata.Labels instead. Note: this field is set to be exclusive with PodMetadata.Labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#log_config DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#log_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#log_config DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#log_config}
   */
   readonly logConfig?: { [key: string]: string };
   /**
   * Define whether fuse metrics will be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#metrics DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#metrics DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecFuseMetrics;
   /**
   * NodeSelector is a selector which must be true for the fuse client to fit on a node, this option only effect when global is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#node_selector DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#node_selector DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PodMetadata defines labels and annotations that will be propagated to Jindo's fuse pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pod_metadata DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pod_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pod_metadata DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pod_metadata}
   */
   readonly podMetadata?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecFusePodMetadata;
   /**
   * Configurable properties for Jindo System. <br>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#properties DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#properties DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Resources that will be requested by Jindo Fuse. <br> <br> Resources are not allowed for ephemeral containers. Ephemeral containers use spare resources already allocated to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resources DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resources DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecFuseResources;
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#tolerations DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#tolerations DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecFuseTolerations[] | cdktf.IResolvable;
 }
@@ -1888,7 +1888,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecImagePullSecr
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2006,19 +2006,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecJindoVersion 
   /**
   * Image (e.g. alluxio/alluxio)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * One of the three policies: 'Always', 'IfNotPresent', 'Never'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image_pull_policy DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image_pull_policy DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Image tag (e.g. 2.3.0-SNAPSHOT)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image_tag DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image_tag DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image_tag}
   */
   readonly imageTag?: string;
 }
@@ -2172,7 +2172,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecMasterImagePu
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2290,13 +2290,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecMasterPodMeta
   /**
   * Annotations are annotations of pod specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#annotations DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#annotations DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels are labels of pod specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -2421,7 +2421,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecMasterResourc
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2536,19 +2536,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecMasterResourc
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#claims DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#claims DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecMasterResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#limits DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#limits DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#requests DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#requests DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2702,31 +2702,31 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecMasterTolerat
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#effect DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#effect DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#operator DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#operator DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#toleration_seconds DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#toleration_seconds DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#value DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#value DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2960,37 +2960,37 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecMasterVolumeM
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mount_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mount_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mount_propagation DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mount_propagation DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#sub_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#sub_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#sub_path_expr DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#sub_path_expr DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -3247,71 +3247,71 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecMaster {
   /**
   * If disable JindoFS master or worker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#disabled DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#disabled DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Environment variables that will be used by Jindo component. <br>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#env DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#env DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * ImagePullSecrets that will be used to pull images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image_pull_secrets DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image_pull_secrets DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecMasterImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Labels will be added on JindoFS Master or Worker pods. DEPRECATED: This is a deprecated field. Please use PodMetadata instead. Note: this field is set to be exclusive with PodMetadata.Labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * NodeSelector is a selector which must be true for the master to fit on a node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#node_selector DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#node_selector DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PodMetadata defines labels and annotations that will be propagated to Jindo's pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pod_metadata DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pod_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pod_metadata DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pod_metadata}
   */
   readonly podMetadata?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecMasterPodMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#ports DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#ports DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#ports}
   */
   readonly ports?: { [key: string]: string };
   /**
   * Configurable properties for the Jindo component. <br>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#properties DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#properties DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Replicas is the desired number of replicas of the given template. If unspecified, defaults to 1. replicas is the min replicas of dataset in the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources that will be requested by the Jindo component. <br> <br> Resources are not allowed for ephemeral containers. Ephemeral containers use spare resources already allocated to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resources DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resources DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecMasterResources;
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#tolerations DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#tolerations DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecMasterTolerations[] | cdktf.IResolvable;
   /**
   * VolumeMounts specifies the volumes listed in '.spec.volumes' to mount into the jindo runtime component's filesystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_mounts DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_mounts DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecMasterVolumeMounts[] | cdktf.IResolvable;
 }
@@ -3726,13 +3726,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecPodMetadata {
   /**
   * Annotations are annotations of pod specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#annotations DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#annotations DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels are labels of pod specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -3857,25 +3857,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecRunAs {
   /**
   * The gid to run the alluxio runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#gid DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#gid DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#gid}
   */
   readonly gid: number;
   /**
   * The group name to run the alluxio runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#group DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#group DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#group}
   */
   readonly group: string;
   /**
   * The uid to run the alluxio runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#uid DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#uid DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#uid}
   */
   readonly uid: number;
   /**
   * The user name to run the alluxio runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#user DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#user DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#user}
   */
   readonly user: string;
 }
@@ -4046,25 +4046,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#partition DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#partition DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * readOnly value true will force the readOnly setting in VolumeMounts. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID is unique ID of the persistent disk resource in AWS (Amazon EBS volume). More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -4244,37 +4244,37 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * cachingMode is the Host Caching mode: None, Read Only, Read Write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#caching_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#caching_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
   * diskName is the Name of the data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#disk_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#disk_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#disk_name}
   */
   readonly diskName: string;
   /**
   * diskURI is the URI of data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#disk_uri DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#disk_uri DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
   * fsType is Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * kind expected values are Shared: multiple blob disks per storage account Dedicated: single blob disk per storage account Managed: azure managed data disk (only in managed availability set). defaults to shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#kind DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#kind DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -4509,19 +4509,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of secret that contains Azure Storage Account Name and Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * shareName is the azure share Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#share_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#share_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -4669,7 +4669,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4765,37 +4765,37 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * monitors is Required: Monitors is a collection of Ceph monitors More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#monitors DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#monitors DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * path is Optional: Used as the mounted root, rather than the full Ceph tree, default is /
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretFile is Optional: SecretFile is the path to key ring for User, default is /etc/ceph/user.secret More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_file DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_file DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
   * secretRef is Optional: SecretRef is reference to the authentication secret for User, default is empty. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceCephfsSecretRef;
   /**
   * user is optional: User is the rados user name, default is admin More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#user DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#user DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -5033,7 +5033,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5129,25 +5129,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is optional: points to a secret object containing parameters used to connect to OpenStack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceCinderSecretRef;
   /**
   * volumeID used to identify the volume in cinder. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -5327,19 +5327,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -5509,25 +5509,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * defaultMode is optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5710,7 +5710,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5806,31 +5806,31 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * driver is the name of the CSI driver that handles this volume. Consult with your admin for the correct name as registered in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#driver DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#driver DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType to mount. Ex. 'ext4', 'xfs', 'ntfs'. If not provided, the empty value is passed to the associated CSI driver which will determine the default filesystem to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * nodePublishSecretRef is a reference to the secret object containing sensitive information to pass to the CSI driver to complete the CSI NodePublishVolume and NodeUnpublishVolume calls. This field is optional, and may be empty if no secret is required. If the secret object contains more than one secret, all secret references are passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#node_publish_secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#node_publish_secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceCsiNodePublishSecretRef;
   /**
   * readOnly specifies a read-only configuration for the volume. Defaults to false (read/write).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeAttributes stores driver-specific properties that are passed to the CSI driver. Consult your driver's documentation for supported values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_attributes DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_attributes DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -6039,13 +6039,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#api_version DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#api_version DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#field_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#field_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -6167,19 +6167,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#container_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#container_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#divisor DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#divisor DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resource DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resource DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -6330,25 +6330,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Required: Selects a field of the pod: only annotations, labels, name and namespace are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#field_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#field_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resource_field_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resource_field_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceDownwardApiItemsResourceFieldRef;
 }
@@ -6550,13 +6550,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Optional: mode bits to use on created files by default. Must be a Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * Items is a list of downward API volume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -6681,13 +6681,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * medium represents what type of storage medium should back this directory. The default is '' which means to use the node's default medium. Must be an empty string (default) or Memory. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#medium DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#medium DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
   /**
   * sizeLimit is the total amount of local storage required for this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#size_limit DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#size_limit DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -6812,19 +6812,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#api_group DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#api_group DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#kind DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#kind DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -6972,25 +6972,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#api_group DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#api_group DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#kind DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#kind DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#namespace DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#namespace DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -7167,13 +7167,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#limits DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#limits DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#requests DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#requests DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7298,19 +7298,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#operator DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#operator DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#values DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#values DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7480,13 +7480,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#match_expressions DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#match_expressions DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#match_labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#match_labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7611,55 +7611,55 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#access_modes DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#access_modes DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#data_source DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#data_source DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceEphemeralVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#data_source_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#data_source_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resources DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resources DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceEphemeralVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#selector DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#selector DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceEphemeralVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_class_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_class_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#volumeattributesclass (Alpha) Using this field requires the VolumeAttributesClass feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_attributes_class_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_attributes_class_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -7987,13 +7987,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * May contain labels and annotations that will be copied into the PVC when creating it. No other fields are allowed and will be rejected during validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#metadata DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#metadata DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The specification for the PersistentVolumeClaim. The entire content is copied unchanged into the PVC that gets created from this template. The same fields as in a PersistentVolumeClaim are also valid here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#spec DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#spec DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceEphemeralVolumeClaimTemplateSpec;
 }
@@ -8115,7 +8115,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Will be used to create a stand-alone PVC to provision the volume. The pod in which this EphemeralVolumeSource is embedded will be the owner of the PVC, i.e. the PVC will be deleted together with the pod. The name of the PVC will be '<pod name>-<volume name>' where '<volume name>' is the name from the 'PodSpec.Volumes' array entry. Pod validation will reject the pod if the concatenated name is not valid for a PVC (for example, too long). An existing PVC with that name that is not owned by the pod will *not* be used for the pod to avoid using an unrelated volume by mistake. Starting the pod is then blocked until the unrelated PVC is removed. If such a pre-created PVC is meant to be used by the pod, the PVC has to updated with an owner reference to the pod once the pod exists. Normally this should not be necessary, but it may be useful when manually reconstructing a broken cluster. This field is read-only and no changes will be made by Kubernetes to the PVC after it has been created. Required, must not be nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_claim_template DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_claim_template DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceEphemeralVolumeClaimTemplate;
 }
@@ -8211,31 +8211,31 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * lun is Optional: FC target lun number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#lun DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#lun DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#lun}
   */
   readonly lun?: number;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * targetWWNs is Optional: FC target worldwide names (WWNs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#target_ww_ns DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#target_ww_ns DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
   * wwids Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#wwids DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#wwids DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -8447,7 +8447,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8543,31 +8543,31 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * driver is the name of the driver to use for this volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#driver DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#driver DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. The default filesystem depends on FlexVolume script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * options is Optional: this field holds extra command options if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#options DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#options DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * readOnly is Optional: defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is Optional: secretRef is reference to the secret object containing sensitive information to pass to the plugin scripts. This may be empty if no secret object is specified. If the secret object contains more than one secret, all secrets are passed to the plugin scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceFlexVolumeSecretRef;
 }
@@ -8776,13 +8776,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * datasetName is Name of the dataset stored as metadata -> name on the dataset for Flocker should be considered as deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#dataset_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#dataset_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
   * datasetUUID is the UUID of the dataset. This is unique identifier of a Flocker dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#dataset_uuid DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#dataset_uuid DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -8907,25 +8907,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * fsType is filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty). More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#partition DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#partition DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * pdName is unique name of the PD resource in GCE. Used to identify the disk in GCE. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pd_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pd_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -9105,19 +9105,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * directory is the target directory name. Must not contain or start with '..'. If '.' is supplied, the volume directory will be the git repository. Otherwise, if specified, the volume will contain the git repository in the subdirectory with the given name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#directory DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#directory DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#directory}
   */
   readonly directory?: string;
   /**
   * repository is the URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#repository DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#repository DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#repository}
   */
   readonly repository: string;
   /**
   * revision is the commit hash for the specified revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#revision DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#revision DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -9268,19 +9268,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * endpoints is the endpoint name that details Glusterfs topology. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#endpoints DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#endpoints DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
   * path is the Glusterfs volume path. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the Glusterfs volume to be mounted with read-only permissions. Defaults to false. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -9428,13 +9428,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * path of the directory on the host. If the path is a symlink, it will follow the link to the real path. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * type for HostPath Volume Defaults to '' More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -9556,7 +9556,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9652,67 +9652,67 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#chap_auth_discovery DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#chap_auth_discovery DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
   * chapAuthSession defines whether support iSCSI Session CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#chap_auth_session DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#chap_auth_session DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#iscsi TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * initiatorName is the custom iSCSI Initiator Name. If initiatorName is specified with iscsiInterface simultaneously, new iSCSI interface <target portal>:<volume name> will be created for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#initiator_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#initiator_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
   * iqn is the target iSCSI Qualified Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#iqn DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#iqn DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#iqn}
   */
   readonly iqn: string;
   /**
   * iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#iscsi_interface DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#iscsi_interface DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
   * lun represents iSCSI Target Lun number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#lun DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#lun DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#lun}
   */
   readonly lun: number;
   /**
   * portals is the iSCSI Target Portal List. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#portals DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#portals DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#portals}
   */
   readonly portals?: string[];
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is the CHAP Secret for iSCSI target and initiator authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceIscsiSecretRef;
   /**
   * targetPortal is iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#target_portal DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#target_portal DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -10089,19 +10089,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the NFS export to be mounted with read-only permissions. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * server is the hostname or IP address of the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#server DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#server DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#server}
   */
   readonly server: string;
 }
@@ -10249,13 +10249,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#claim_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#claim_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -10377,13 +10377,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * pdID is the ID that identifies Photon Controller persistent disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pd_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pd_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -10505,19 +10505,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * fSType represents the filesystem type to mount Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID uniquely identifies a Portworx volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -10668,19 +10668,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#operator DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#operator DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#values DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#values DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10850,13 +10850,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#match_expressions DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#match_expressions DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#match_labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#match_labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10981,31 +10981,31 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Select all ClusterTrustBundles that match this label selector. Only has effect if signerName is set. Mutually-exclusive with name. If unset, interpreted as 'match nothing'. If set but empty, interpreted as 'match everything'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#label_selector DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#label_selector DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceProjectedSourcesClusterTrustBundleLabelSelector;
   /**
   * Select a single ClusterTrustBundle by object name. Mutually-exclusive with signerName and labelSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * If true, don't block pod startup if the referenced ClusterTrustBundle(s) aren't available. If using name, then the named ClusterTrustBundle is allowed not to exist. If using signerName, then the combination of signerName and labelSelector is allowed to match zero ClusterTrustBundles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * Relative path from the volume root to write the bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Select all ClusterTrustBundles that match this signer name. Mutually-exclusive with name. The contents of all selected ClusterTrustBundles will be unified and deduplicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#signer_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#signer_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -11214,19 +11214,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -11396,19 +11396,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11562,13 +11562,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#api_version DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#api_version DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#field_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#field_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -11690,19 +11690,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#container_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#container_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#divisor DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#divisor DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resource DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resource DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -11853,25 +11853,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Required: Selects a field of the pod: only annotations, labels, name and namespace are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#field_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#field_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceProjectedSourcesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resource_field_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resource_field_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -12073,7 +12073,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Items is a list of DownwardAPIVolume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -12169,19 +12169,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -12351,19 +12351,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12517,19 +12517,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#audience DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#audience DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#expiration_seconds DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#expiration_seconds DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -12680,31 +12680,31 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * ClusterTrustBundle allows a pod to access the '.spec.trustBundle' field of ClusterTrustBundle objects in an auto-updating file. Alpha, gated by the ClusterTrustBundleProjection feature gate. ClusterTrustBundle objects can either be selected by name, or by the combination of signer name and a label selector. Kubelet performs aggressive normalization of the PEM contents written into the pod filesystem. Esoteric PEM features such as inter-block comments and block headers are stripped. Certificates are deduplicated. The ordering of certificates within the file is arbitrary, and Kubelet may change the order over time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#cluster_trust_bundle DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#cluster_trust_bundle DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceProjectedSourcesClusterTrustBundle;
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#config_map DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#config_map DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceProjectedSourcesConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#downward_api DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#downward_api DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceProjectedSourcesDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceProjectedSourcesSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#service_account_token DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#service_account_token DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceProjectedSourcesServiceAccountToken;
 }
@@ -12938,13 +12938,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * defaultMode are the mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * sources is the list of volume projections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#sources DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#sources DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#sources}
   */
   readonly sources?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceProjectedSources[] | cdktf.IResolvable;
 }
@@ -13069,37 +13069,37 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * group to map volume access to Default is no group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#group DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#group DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * readOnly here will force the Quobyte volume to be mounted with read-only permissions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#registry DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#registry DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#registry}
   */
   readonly registry: string;
   /**
   * tenant owning the given Quobyte volume in the Backend Used with dynamically provisioned Quobyte volumes, value is set by the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#tenant DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#tenant DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
   * user to map volume access to Defaults to serivceaccount user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#user DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#user DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#user}
   */
   readonly user?: string;
   /**
   * volume is a string that references an already created Quobyte volume by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -13334,7 +13334,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -13430,49 +13430,49 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#rbd TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#keyring DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#keyring DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
   * monitors is a collection of Ceph monitors. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#monitors DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#monitors DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * pool is the rados pool name. Default is rbd. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pool DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pool DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pool}
   */
   readonly pool?: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is name of the authentication secret for RBDUser. If provided overrides keyring. Default is nil. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceRbdSecretRef;
   /**
   * user is the rados user name. Default is admin. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#user DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#user DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -13765,7 +13765,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -13861,61 +13861,61 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Default is 'xfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * gateway is the host address of the ScaleIO API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#gateway DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#gateway DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#gateway}
   */
   readonly gateway: string;
   /**
   * protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#protection_domain DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#protection_domain DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef references to the secret for ScaleIO user and other sensitive information. If this is not provided, Login operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceScaleIoSecretRef;
   /**
   * sslEnabled Flag enable/disable SSL communication with Gateway, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#ssl_enabled DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#ssl_enabled DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * storagePool is the ScaleIO Storage Pool associated with the protection domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_pool DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_pool DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
   * system is the name of the storage system as configured in ScaleIO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#system DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#system DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
   * volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -14263,19 +14263,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -14445,25 +14445,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -14646,7 +14646,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -14742,31 +14742,31 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef specifies the secret to use for obtaining the StorageOS API credentials. If not specified, default values will be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceStorageosSecretRef;
   /**
   * volumeName is the human-readable name of the StorageOS volume. Volume names are only unique within a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volumeNamespace specifies the scope of the volume within StorageOS. If no namespace is specified then the Pod's namespace will be used. This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to 'default' if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_namespace DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_namespace DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -14978,25 +14978,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_policy_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_policy_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_policy_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_policy_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -15176,175 +15176,175 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * awsElasticBlockStore represents an AWS Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#aws_elastic_block_store DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#aws_elastic_block_store DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceAwsElasticBlockStore;
   /**
   * azureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#azure_disk DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#azure_disk DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceAzureDisk;
   /**
   * azureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#azure_file DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#azure_file DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceAzureFile;
   /**
   * cephFS represents a Ceph FS mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#cephfs DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#cephfs DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceCephfs;
   /**
   * cinder represents a cinder volume attached and mounted on kubelets host machine. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#cinder DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#cinder DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#cinder}
   */
   readonly cinder?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceCinder;
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#config_map DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#config_map DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceConfigMap;
   /**
   * csi (Container Storage Interface) represents ephemeral storage that is handled by certain external CSI drivers (Beta feature).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#csi DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#csi DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#csi}
   */
   readonly csi?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceCsi;
   /**
   * downwardAPI represents downward API about the pod that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#downward_api DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#downward_api DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceDownwardApi;
   /**
   * emptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#empty_dir DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#empty_dir DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceEmptyDir;
   /**
   * ephemeral represents a volume that is handled by a cluster storage driver. The volume's lifecycle is tied to the pod that defines it - it will be created before the pod starts, and deleted when the pod is removed. Use this if: a) the volume is only needed while the pod runs, b) features of normal volumes like restoring from snapshot or capacity tracking are needed, c) the storage driver is specified through a storage class, and d) the storage driver supports dynamic volume provisioning through a PersistentVolumeClaim (see EphemeralVolumeSource for more information on the connection between this volume type and PersistentVolumeClaim). Use PersistentVolumeClaim or one of the vendor-specific APIs for volumes that persist for longer than the lifecycle of an individual pod. Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information. A pod can use both types of ephemeral volumes and persistent volumes at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#ephemeral DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#ephemeral DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceEphemeral;
   /**
   * fc represents a Fibre Channel resource that is attached to a kubelet's host machine and then exposed to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fc DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fc DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fc}
   */
   readonly fc?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceFc;
   /**
   * flexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#flex_volume DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#flex_volume DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceFlexVolume;
   /**
   * flocker represents a Flocker volume attached to a kubelet's host machine. This depends on the Flocker control service being running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#flocker DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#flocker DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#flocker}
   */
   readonly flocker?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceFlocker;
   /**
   * gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#gce_persistent_disk DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#gce_persistent_disk DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceGcePersistentDisk;
   /**
   * gitRepo represents a git repository at a particular revision. DEPRECATED: GitRepo is deprecated. To provision a container with a git repo, mount an EmptyDir into an InitContainer that clones the repo using git, then mount the EmptyDir into the Pod's container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#git_repo DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#git_repo DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceGitRepo;
   /**
   * glusterfs represents a Glusterfs mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/glusterfs/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#glusterfs DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#glusterfs DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceGlusterfs;
   /**
   * hostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath --- TODO(jonesdl) We need to restrict who can use host directory mounts and who can/can not mount host directories as read/write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#host_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#host_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceHostPath;
   /**
   * iscsi represents an ISCSI Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://examples.k8s.io/volumes/iscsi/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#iscsi DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#iscsi DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceIscsi;
   /**
   * nfs represents an NFS mount on the host that shares a pod's lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#nfs DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#nfs DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#nfs}
   */
   readonly nfs?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceNfs;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#persistent_volume_claim DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#persistent_volume_claim DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourcePersistentVolumeClaim;
   /**
   * photonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#photon_persistent_disk DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#photon_persistent_disk DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourcePhotonPersistentDisk;
   /**
   * portworxVolume represents a portworx volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#portworx_volume DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#portworx_volume DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourcePortworxVolume;
   /**
   * projected items for all in one resources secrets, configmaps, and downward API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#projected DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#projected DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#projected}
   */
   readonly projected?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceProjected;
   /**
   * quobyte represents a Quobyte mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#quobyte DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#quobyte DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceQuobyte;
   /**
   * rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/rbd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#rbd DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#rbd DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#rbd}
   */
   readonly rbd?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceRbd;
   /**
   * scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#scale_io DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#scale_io DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceScaleIo;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceSecret;
   /**
   * storageOS represents a StorageOS volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storageos DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storageos DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storageos}
   */
   readonly storageos?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceStorageos;
   /**
   * vsphereVolume represents a vSphere volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#vsphere_volume DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#vsphere_volume DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSourceVsphereVolume;
 }
@@ -16252,49 +16252,49 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLe
   /**
   * Ratio of high watermark of the tier (e.g. 0.9)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#high DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#high DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#high}
   */
   readonly high?: string;
   /**
   * Ratio of low watermark of the tier (e.g. 0.7)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#low DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#low DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#low}
   */
   readonly low?: string;
   /**
   * Medium Type of the tier. One of the three types: 'MEM', 'SSD', 'HDD'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mediumtype DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mediumtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mediumtype DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mediumtype}
   */
   readonly mediumtype: string;
   /**
   * File paths to be used for the tier. Multiple paths are supported. Multiple paths should be separated with comma. For example: '/mnt/cache1,/mnt/cache2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Quota for the whole tier. (e.g. 100Gi) Please note that if there're multiple paths used for this tierstore, the quota will be equally divided into these paths. If you'd like to set quota for each, path, see QuotaList for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#quota DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#quota DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#quota}
   */
   readonly quota?: string;
   /**
   * QuotaList are quotas used to set quota on multiple paths. Quotas should be separated with comma. Quotas in this list will be set to paths with the same order in Path. For example, with Path defined with '/mnt/cache1,/mnt/cache2' and QuotaList set to '100Gi, 50Gi', then we get 100GiB cache storage under '/mnt/cache1' and 50GiB under '/mnt/cache2'. Also note that num of quotas must be consistent with the num of paths defined in Path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#quota_list DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#quota_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#quota_list DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#quota_list}
   */
   readonly quotaList?: string;
   /**
   * VolumeSource is the volume source of the tier. It follows the form of corev1.VolumeSource. For now, users should only specify VolumeSource when VolumeType is set to emptyDir.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_source DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_source DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_source}
   */
   readonly volumeSource?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevelsVolumeSource;
   /**
   * VolumeType is the volume type of the tier. Should be one of the three types: 'hostPath', 'emptyDir' and 'volumeTemplate'. If not set, defaults to hostPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -16612,7 +16612,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstore {
   /**
   * configurations for multiple tiers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#levels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#levels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#levels}
   */
   readonly levels?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstoreLevels[] | cdktf.IResolvable;
 }
@@ -16708,25 +16708,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesAwsEla
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#partition DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#partition DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * readOnly value true will force the readOnly setting in VolumeMounts. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID is unique ID of the persistent disk resource in AWS (Amazon EBS volume). More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -16906,37 +16906,37 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesAzureD
   /**
   * cachingMode is the Host Caching mode: None, Read Only, Read Write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#caching_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#caching_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
   * diskName is the Name of the data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#disk_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#disk_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#disk_name}
   */
   readonly diskName: string;
   /**
   * diskURI is the URI of data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#disk_uri DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#disk_uri DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
   * fsType is Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * kind expected values are Shared: multiple blob disks per storage account Dedicated: single blob disk per storage account Managed: azure managed data disk (only in managed availability set). defaults to shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#kind DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#kind DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -17171,19 +17171,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesAzureF
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of secret that contains Azure Storage Account Name and Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * shareName is the azure share Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#share_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#share_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -17331,7 +17331,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesCephfs
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -17427,37 +17427,37 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesCephfs
   /**
   * monitors is Required: Monitors is a collection of Ceph monitors More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#monitors DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#monitors DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * path is Optional: Used as the mounted root, rather than the full Ceph tree, default is /
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretFile is Optional: SecretFile is the path to key ring for User, default is /etc/ceph/user.secret More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_file DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_file DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
   * secretRef is Optional: SecretRef is reference to the authentication secret for User, default is empty. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesCephfsSecretRef;
   /**
   * user is optional: User is the rados user name, default is admin More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#user DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#user DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -17695,7 +17695,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesCinder
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -17791,25 +17791,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesCinder
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is optional: points to a secret object containing parameters used to connect to OpenStack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesCinderSecretRef;
   /**
   * volumeID used to identify the volume in cinder. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -17989,19 +17989,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesConfig
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -18171,25 +18171,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesConfig
   /**
   * defaultMode is optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18372,7 +18372,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesCsiNod
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -18468,31 +18468,31 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesCsi {
   /**
   * driver is the name of the CSI driver that handles this volume. Consult with your admin for the correct name as registered in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#driver DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#driver DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType to mount. Ex. 'ext4', 'xfs', 'ntfs'. If not provided, the empty value is passed to the associated CSI driver which will determine the default filesystem to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * nodePublishSecretRef is a reference to the secret object containing sensitive information to pass to the CSI driver to complete the CSI NodePublishVolume and NodeUnpublishVolume calls. This field is optional, and may be empty if no secret is required. If the secret object contains more than one secret, all secret references are passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#node_publish_secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#node_publish_secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesCsiNodePublishSecretRef;
   /**
   * readOnly specifies a read-only configuration for the volume. Defaults to false (read/write).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeAttributes stores driver-specific properties that are passed to the CSI driver. Consult your driver's documentation for supported values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_attributes DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_attributes DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -18701,13 +18701,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesDownwa
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#api_version DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#api_version DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#field_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#field_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -18829,19 +18829,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesDownwa
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#container_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#container_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#divisor DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#divisor DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resource DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resource DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -18992,25 +18992,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesDownwa
   /**
   * Required: Selects a field of the pod: only annotations, labels, name and namespace are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#field_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#field_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resource_field_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resource_field_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesDownwardApiItemsResourceFieldRef;
 }
@@ -19212,13 +19212,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesDownwa
   /**
   * Optional: mode bits to use on created files by default. Must be a Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * Items is a list of downward API volume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -19343,13 +19343,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEmptyD
   /**
   * medium represents what type of storage medium should back this directory. The default is '' which means to use the node's default medium. Must be an empty string (default) or Memory. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#medium DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#medium DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
   /**
   * sizeLimit is the total amount of local storage required for this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#size_limit DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#size_limit DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -19474,19 +19474,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEpheme
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#api_group DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#api_group DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#kind DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#kind DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -19634,25 +19634,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEpheme
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#api_group DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#api_group DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#kind DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#kind DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#namespace DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#namespace DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -19829,13 +19829,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEpheme
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#limits DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#limits DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#requests DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#requests DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -19960,19 +19960,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEpheme
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#operator DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#operator DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#values DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#values DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20142,13 +20142,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEpheme
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#match_expressions DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#match_expressions DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#match_labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#match_labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20273,55 +20273,55 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEpheme
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#access_modes DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#access_modes DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#data_source DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#data_source DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#data_source_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#data_source_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resources DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resources DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#selector DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#selector DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_class_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_class_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#volumeattributesclass (Alpha) Using this field requires the VolumeAttributesClass feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_attributes_class_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_attributes_class_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -20649,13 +20649,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEpheme
   /**
   * May contain labels and annotations that will be copied into the PVC when creating it. No other fields are allowed and will be rejected during validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#metadata DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#metadata DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The specification for the PersistentVolumeClaim. The entire content is copied unchanged into the PVC that gets created from this template. The same fields as in a PersistentVolumeClaim are also valid here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#spec DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#spec DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -20777,7 +20777,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEpheme
   /**
   * Will be used to create a stand-alone PVC to provision the volume. The pod in which this EphemeralVolumeSource is embedded will be the owner of the PVC, i.e. the PVC will be deleted together with the pod. The name of the PVC will be '<pod name>-<volume name>' where '<volume name>' is the name from the 'PodSpec.Volumes' array entry. Pod validation will reject the pod if the concatenated name is not valid for a PVC (for example, too long). An existing PVC with that name that is not owned by the pod will *not* be used for the pod to avoid using an unrelated volume by mistake. Starting the pod is then blocked until the unrelated PVC is removed. If such a pre-created PVC is meant to be used by the pod, the PVC has to updated with an owner reference to the pod once the pod exists. Normally this should not be necessary, but it may be useful when manually reconstructing a broken cluster. This field is read-only and no changes will be made by Kubernetes to the PVC after it has been created. Required, must not be nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_claim_template DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_claim_template DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplate;
 }
@@ -20873,31 +20873,31 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesFc {
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * lun is Optional: FC target lun number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#lun DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#lun DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#lun}
   */
   readonly lun?: number;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * targetWWNs is Optional: FC target worldwide names (WWNs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#target_ww_ns DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#target_ww_ns DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
   * wwids Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#wwids DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#wwids DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -21109,7 +21109,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesFlexVo
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -21205,31 +21205,31 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesFlexVo
   /**
   * driver is the name of the driver to use for this volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#driver DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#driver DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. The default filesystem depends on FlexVolume script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * options is Optional: this field holds extra command options if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#options DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#options DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * readOnly is Optional: defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is Optional: secretRef is reference to the secret object containing sensitive information to pass to the plugin scripts. This may be empty if no secret object is specified. If the secret object contains more than one secret, all secrets are passed to the plugin scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesFlexVolumeSecretRef;
 }
@@ -21438,13 +21438,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesFlocke
   /**
   * datasetName is Name of the dataset stored as metadata -> name on the dataset for Flocker should be considered as deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#dataset_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#dataset_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
   * datasetUUID is the UUID of the dataset. This is unique identifier of a Flocker dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#dataset_uuid DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#dataset_uuid DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -21569,25 +21569,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesGcePer
   /**
   * fsType is filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty). More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#partition DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#partition DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * pdName is unique name of the PD resource in GCE. Used to identify the disk in GCE. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pd_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pd_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -21767,19 +21767,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesGitRep
   /**
   * directory is the target directory name. Must not contain or start with '..'. If '.' is supplied, the volume directory will be the git repository. Otherwise, if specified, the volume will contain the git repository in the subdirectory with the given name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#directory DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#directory DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#directory}
   */
   readonly directory?: string;
   /**
   * repository is the URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#repository DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#repository DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#repository}
   */
   readonly repository: string;
   /**
   * revision is the commit hash for the specified revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#revision DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#revision DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -21930,19 +21930,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesGluste
   /**
   * endpoints is the endpoint name that details Glusterfs topology. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#endpoints DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#endpoints DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
   * path is the Glusterfs volume path. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the Glusterfs volume to be mounted with read-only permissions. Defaults to false. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -22090,13 +22090,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesHostPa
   /**
   * path of the directory on the host. If the path is a symlink, it will follow the link to the real path. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * type for HostPath Volume Defaults to '' More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -22218,7 +22218,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesIscsiS
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -22314,67 +22314,67 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesIscsi 
   /**
   * chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#chap_auth_discovery DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#chap_auth_discovery DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
   * chapAuthSession defines whether support iSCSI Session CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#chap_auth_session DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#chap_auth_session DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#iscsi TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * initiatorName is the custom iSCSI Initiator Name. If initiatorName is specified with iscsiInterface simultaneously, new iSCSI interface <target portal>:<volume name> will be created for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#initiator_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#initiator_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
   * iqn is the target iSCSI Qualified Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#iqn DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#iqn DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#iqn}
   */
   readonly iqn: string;
   /**
   * iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#iscsi_interface DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#iscsi_interface DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
   * lun represents iSCSI Target Lun number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#lun DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#lun DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#lun}
   */
   readonly lun: number;
   /**
   * portals is the iSCSI Target Portal List. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#portals DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#portals DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#portals}
   */
   readonly portals?: string[];
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is the CHAP Secret for iSCSI target and initiator authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesIscsiSecretRef;
   /**
   * targetPortal is iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#target_portal DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#target_portal DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -22751,19 +22751,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesNfs {
   /**
   * path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the NFS export to be mounted with read-only permissions. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * server is the hostname or IP address of the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#server DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#server DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#server}
   */
   readonly server: string;
 }
@@ -22911,13 +22911,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesPersis
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#claim_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#claim_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -23039,13 +23039,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesPhoton
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * pdID is the ID that identifies Photon Controller persistent disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pd_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pd_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -23167,19 +23167,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesPortwo
   /**
   * fSType represents the filesystem type to mount Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID uniquely identifies a Portworx volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -23330,19 +23330,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#operator DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#operator DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#values DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#values DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23512,13 +23512,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#match_expressions DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#match_expressions DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#match_labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#match_labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -23643,31 +23643,31 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjec
   /**
   * Select all ClusterTrustBundles that match this label selector. Only has effect if signerName is set. Mutually-exclusive with name. If unset, interpreted as 'match nothing'. If set but empty, interpreted as 'match everything'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#label_selector DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#label_selector DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjectedSourcesClusterTrustBundleLabelSelector;
   /**
   * Select a single ClusterTrustBundle by object name. Mutually-exclusive with signerName and labelSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * If true, don't block pod startup if the referenced ClusterTrustBundle(s) aren't available. If using name, then the named ClusterTrustBundle is allowed not to exist. If using signerName, then the combination of signerName and labelSelector is allowed to match zero ClusterTrustBundles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * Relative path from the volume root to write the bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Select all ClusterTrustBundles that match this signer name. Mutually-exclusive with name. The contents of all selected ClusterTrustBundles will be unified and deduplicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#signer_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#signer_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -23876,19 +23876,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjec
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -24058,19 +24058,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjec
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24224,13 +24224,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjec
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#api_version DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#api_version DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#field_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#field_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -24352,19 +24352,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjec
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#container_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#container_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#divisor DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#divisor DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resource DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resource DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -24515,25 +24515,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjec
   /**
   * Required: Selects a field of the pod: only annotations, labels, name and namespace are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#field_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#field_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resource_field_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resource_field_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -24735,7 +24735,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjec
   /**
   * Items is a list of DownwardAPIVolume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -24831,19 +24831,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjec
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -25013,19 +25013,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjec
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -25179,19 +25179,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjec
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#audience DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#audience DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#expiration_seconds DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#expiration_seconds DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -25342,31 +25342,31 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjec
   /**
   * ClusterTrustBundle allows a pod to access the '.spec.trustBundle' field of ClusterTrustBundle objects in an auto-updating file. Alpha, gated by the ClusterTrustBundleProjection feature gate. ClusterTrustBundle objects can either be selected by name, or by the combination of signer name and a label selector. Kubelet performs aggressive normalization of the PEM contents written into the pod filesystem. Esoteric PEM features such as inter-block comments and block headers are stripped. Certificates are deduplicated. The ordering of certificates within the file is arbitrary, and Kubelet may change the order over time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#cluster_trust_bundle DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#cluster_trust_bundle DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjectedSourcesClusterTrustBundle;
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#config_map DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#config_map DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjectedSourcesConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#downward_api DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#downward_api DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjectedSourcesDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjectedSourcesSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#service_account_token DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#service_account_token DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjectedSourcesServiceAccountToken;
 }
@@ -25600,13 +25600,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjec
   /**
   * defaultMode are the mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * sources is the list of volume projections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#sources DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#sources DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#sources}
   */
   readonly sources?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -25731,37 +25731,37 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesQuobyt
   /**
   * group to map volume access to Default is no group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#group DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#group DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * readOnly here will force the Quobyte volume to be mounted with read-only permissions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#registry DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#registry DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#registry}
   */
   readonly registry: string;
   /**
   * tenant owning the given Quobyte volume in the Backend Used with dynamically provisioned Quobyte volumes, value is set by the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#tenant DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#tenant DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
   * user to map volume access to Defaults to serivceaccount user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#user DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#user DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#user}
   */
   readonly user?: string;
   /**
   * volume is a string that references an already created Quobyte volume by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -25996,7 +25996,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesRbdSec
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -26092,49 +26092,49 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesRbd {
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#rbd TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#keyring DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#keyring DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
   * monitors is a collection of Ceph monitors. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#monitors DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#monitors DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * pool is the rados pool name. Default is rbd. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pool DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pool DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pool}
   */
   readonly pool?: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is name of the authentication secret for RBDUser. If provided overrides keyring. Default is nil. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesRbdSecretRef;
   /**
   * user is the rados user name. Default is admin. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#user DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#user DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -26427,7 +26427,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesScaleI
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -26523,61 +26523,61 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesScaleI
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Default is 'xfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * gateway is the host address of the ScaleIO API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#gateway DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#gateway DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#gateway}
   */
   readonly gateway: string;
   /**
   * protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#protection_domain DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#protection_domain DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef references to the secret for ScaleIO user and other sensitive information. If this is not provided, Login operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesScaleIoSecretRef;
   /**
   * sslEnabled Flag enable/disable SSL communication with Gateway, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#ssl_enabled DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#ssl_enabled DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * storagePool is the ScaleIO Storage Pool associated with the protection domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_pool DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_pool DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
   * system is the name of the storage system as configured in ScaleIO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#system DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#system DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
   * volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -26925,19 +26925,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesSecret
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -27107,25 +27107,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesSecret
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#items DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -27308,7 +27308,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesStorag
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -27404,31 +27404,31 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesStorag
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef specifies the secret to use for obtaining the StorageOS API credentials. If not specified, default values will be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesStorageosSecretRef;
   /**
   * volumeName is the human-readable name of the StorageOS volume. Volume names are only unique within a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volumeNamespace specifies the scope of the volume within StorageOS. If no namespace is specified then the Pod's namespace will be used. This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to 'default' if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_namespace DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_namespace DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -27640,25 +27640,25 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesVspher
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_policy_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_policy_id DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_policy_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storage_policy_name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -27838,181 +27838,181 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumes {
   /**
   * awsElasticBlockStore represents an AWS Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#aws_elastic_block_store DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#aws_elastic_block_store DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesAwsElasticBlockStore;
   /**
   * azureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#azure_disk DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#azure_disk DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesAzureDisk;
   /**
   * azureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#azure_file DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#azure_file DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesAzureFile;
   /**
   * cephFS represents a Ceph FS mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#cephfs DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#cephfs DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesCephfs;
   /**
   * cinder represents a cinder volume attached and mounted on kubelets host machine. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#cinder DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#cinder DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#cinder}
   */
   readonly cinder?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesCinder;
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#config_map DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#config_map DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesConfigMap;
   /**
   * csi (Container Storage Interface) represents ephemeral storage that is handled by certain external CSI drivers (Beta feature).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#csi DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#csi DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#csi}
   */
   readonly csi?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesCsi;
   /**
   * downwardAPI represents downward API about the pod that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#downward_api DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#downward_api DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesDownwardApi;
   /**
   * emptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#empty_dir DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#empty_dir DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEmptyDir;
   /**
   * ephemeral represents a volume that is handled by a cluster storage driver. The volume's lifecycle is tied to the pod that defines it - it will be created before the pod starts, and deleted when the pod is removed. Use this if: a) the volume is only needed while the pod runs, b) features of normal volumes like restoring from snapshot or capacity tracking are needed, c) the storage driver is specified through a storage class, and d) the storage driver supports dynamic volume provisioning through a PersistentVolumeClaim (see EphemeralVolumeSource for more information on the connection between this volume type and PersistentVolumeClaim). Use PersistentVolumeClaim or one of the vendor-specific APIs for volumes that persist for longer than the lifecycle of an individual pod. Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information. A pod can use both types of ephemeral volumes and persistent volumes at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#ephemeral DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#ephemeral DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesEphemeral;
   /**
   * fc represents a Fibre Channel resource that is attached to a kubelet's host machine and then exposed to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fc DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fc DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fc}
   */
   readonly fc?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesFc;
   /**
   * flexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#flex_volume DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#flex_volume DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesFlexVolume;
   /**
   * flocker represents a Flocker volume attached to a kubelet's host machine. This depends on the Flocker control service being running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#flocker DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#flocker DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#flocker}
   */
   readonly flocker?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesFlocker;
   /**
   * gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#gce_persistent_disk DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#gce_persistent_disk DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesGcePersistentDisk;
   /**
   * gitRepo represents a git repository at a particular revision. DEPRECATED: GitRepo is deprecated. To provision a container with a git repo, mount an EmptyDir into an InitContainer that clones the repo using git, then mount the EmptyDir into the Pod's container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#git_repo DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#git_repo DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesGitRepo;
   /**
   * glusterfs represents a Glusterfs mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/glusterfs/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#glusterfs DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#glusterfs DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesGlusterfs;
   /**
   * hostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath --- TODO(jonesdl) We need to restrict who can use host directory mounts and who can/can not mount host directories as read/write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#host_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#host_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesHostPath;
   /**
   * iscsi represents an ISCSI Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://examples.k8s.io/volumes/iscsi/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#iscsi DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#iscsi DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesIscsi;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * nfs represents an NFS mount on the host that shares a pod's lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#nfs DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#nfs DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#nfs}
   */
   readonly nfs?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesNfs;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#persistent_volume_claim DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#persistent_volume_claim DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesPersistentVolumeClaim;
   /**
   * photonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#photon_persistent_disk DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#photon_persistent_disk DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesPhotonPersistentDisk;
   /**
   * portworxVolume represents a portworx volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#portworx_volume DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#portworx_volume DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesPortworxVolume;
   /**
   * projected items for all in one resources secrets, configmaps, and downward API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#projected DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#projected DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#projected}
   */
   readonly projected?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesProjected;
   /**
   * quobyte represents a Quobyte mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#quobyte DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#quobyte DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesQuobyte;
   /**
   * rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/rbd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#rbd DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#rbd DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#rbd}
   */
   readonly rbd?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesRbd;
   /**
   * scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#scale_io DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#scale_io DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesScaleIo;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesSecret;
   /**
   * storageOS represents a StorageOS volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storageos DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#storageos DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#storageos}
   */
   readonly storageos?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesStorageos;
   /**
   * vsphereVolume represents a vSphere volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#vsphere_volume DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#vsphere_volume DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumesVsphereVolume;
 }
@@ -28968,7 +28968,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecWorkerImagePu
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -29086,13 +29086,13 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecWorkerPodMeta
   /**
   * Annotations are annotations of pod specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#annotations DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#annotations DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels are labels of pod specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -29217,7 +29217,7 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecWorkerResourc
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -29332,19 +29332,19 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecWorkerResourc
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#claims DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#claims DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecWorkerResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#limits DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#limits DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#requests DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#requests DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -29498,31 +29498,31 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecWorkerTolerat
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#effect DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#effect DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#key DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#operator DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#operator DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#toleration_seconds DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#toleration_seconds DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#value DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#value DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -29756,37 +29756,37 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecWorkerVolumeM
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mount_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mount_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mount_propagation DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#mount_propagation DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#name DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#sub_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#sub_path DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#sub_path_expr DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#sub_path_expr DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -30043,71 +30043,71 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecWorker {
   /**
   * If disable JindoFS master or worker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#disabled DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#disabled DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Environment variables that will be used by Jindo component. <br>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#env DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#env DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * ImagePullSecrets that will be used to pull images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image_pull_secrets DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image_pull_secrets DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecWorkerImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Labels will be added on JindoFS Master or Worker pods. DEPRECATED: This is a deprecated field. Please use PodMetadata instead. Note: this field is set to be exclusive with PodMetadata.Labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * NodeSelector is a selector which must be true for the master to fit on a node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#node_selector DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#node_selector DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PodMetadata defines labels and annotations that will be propagated to Jindo's pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pod_metadata DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pod_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pod_metadata DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pod_metadata}
   */
   readonly podMetadata?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecWorkerPodMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#ports DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#ports DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#ports}
   */
   readonly ports?: { [key: string]: string };
   /**
   * Configurable properties for the Jindo component. <br>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#properties DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#properties DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Replicas is the desired number of replicas of the given template. If unspecified, defaults to 1. replicas is the min replicas of dataset in the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources that will be requested by the Jindo component. <br> <br> Resources are not allowed for ephemeral containers. Ephemeral containers use spare resources already allocated to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resources DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#resources DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecWorkerResources;
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#tolerations DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#tolerations DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecWorkerTolerations[] | cdktf.IResolvable;
   /**
   * VolumeMounts specifies the volumes listed in '.spec.volumes' to mount into the jindo runtime component's filesystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_mounts DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volume_mounts DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecWorkerVolumeMounts[] | cdktf.IResolvable;
 }
@@ -30522,103 +30522,103 @@ export interface DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpec {
   /**
   * CleanCachePolicy defines cleanCache Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#clean_cache_policy DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#clean_cache_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#clean_cache_policy DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#clean_cache_policy}
   */
   readonly cleanCachePolicy?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecCleanCachePolicy;
   /**
   * The component spec of Jindo Fuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fuse DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#fuse DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#fuse}
   */
   readonly fuse?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecFuse;
   /**
   * Name of the configMap used to support HDFS configurations when using HDFS as Jindo's UFS. The configMap must be in the same namespace with the JindoRuntime. The configMap should contain user-specific HDFS conf files in it. For now, only 'hdfs-site.xml' and 'core-site.xml' are supported. It must take the filename of the conf file as the key and content of the file as the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#hadoop_config DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#hadoop_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#hadoop_config DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#hadoop_config}
   */
   readonly hadoopConfig?: string;
   /**
   * ImagePullSecrets that will be used to pull images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image_pull_secrets DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#image_pull_secrets DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * The version information that instructs fluid to orchestrate a particular version of Jindo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#jindo_version DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#jindo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#jindo_version DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#jindo_version}
   */
   readonly jindoVersion?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecJindoVersion;
   /**
   * Labels will be added on all the JindoFS pods. DEPRECATED: this is a deprecated field. Please use PodMetadata.Labels instead. Note: this field is set to be exclusive with PodMetadata.Labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#log_config DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#log_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#log_config DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#log_config}
   */
   readonly logConfig?: { [key: string]: string };
   /**
   * The component spec of Jindo master
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#master DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#master DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#master}
   */
   readonly master?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecMaster;
   /**
   * Whether to use hostnetwork or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#networkmode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#networkmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#networkmode DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#networkmode}
   */
   readonly networkmode?: string;
   /**
   * PodMetadata defines labels and annotations that will be propagated to all Jindo's fuse pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pod_metadata DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pod_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#pod_metadata DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#pod_metadata}
   */
   readonly podMetadata?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecPodMetadata;
   /**
   * Configurable properties for Jindo system. <br>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#properties DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#properties DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * The replicas of the worker, need to be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Manage the user to run Jindo Runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#run_as DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#run_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#run_as DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#run_as}
   */
   readonly runAs?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecRunAs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#secret DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#secret}
   */
   readonly secret?: string;
   /**
   * Tiered storage used by Jindo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#tieredstore DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#tieredstore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#tieredstore DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#tieredstore}
   */
   readonly tieredstore?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecTieredstore;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#user DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#user DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#user}
   */
   readonly user?: string;
   /**
   * Volumes is the list of Kubernetes volumes that can be mounted by the jindo runtime components and/or fuses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volumes DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#volumes DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecVolumes[] | cdktf.IResolvable;
   /**
   * The component spec of Jindo worker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#worker DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#worker DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest#worker}
   */
   readonly worker?: DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecWorker;
 }
@@ -31205,7 +31205,7 @@ export class DataK8SDataFluidIoJindoRuntimeV1Alpha1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest k8s_data_fluid_io_jindo_runtime_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest k8s_data_fluid_io_jindo_runtime_v1alpha1_manifest}
 */
 export class DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -31221,7 +31221,7 @@ export class DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -31233,7 +31233,7 @@ export class DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest k8s_data_fluid_io_jindo_runtime_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_jindo_runtime_v1alpha1_manifest k8s_data_fluid_io_jindo_runtime_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -31244,8 +31244,8 @@ export class DataK8SDataFluidIoJindoRuntimeV1Alpha1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_data_fluid_io_jindo_runtime_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

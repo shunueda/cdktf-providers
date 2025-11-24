@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#metadata DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#metadata DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestMetadata;
   /**
   * Specification of the desired state for Tigera intrusion detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#spec DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#spec DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#annotations DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#annotations DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#labels DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#labels DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecAnomalyD
   /**
   * StorageClassName is now deprecated, and configuring it has no effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#storage_class_name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#storage_class_name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
 }
@@ -283,7 +283,7 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecComponen
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#name}
   */
   readonly name: string;
 }
@@ -398,19 +398,19 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecComponen
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#claims DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#claims DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecComponentResourcesResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#limits DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#limits DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#requests DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#requests DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -564,13 +564,13 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecComponen
   /**
   * ComponentName is an enum which identifies the component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#component_name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#component_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#component_name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#component_name}
   */
   readonly componentName: string;
   /**
   * ResourceRequirements allows customization of limits and requests for compute resources such as cpu and memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#resource_requirements DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#resource_requirements DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#resource_requirements}
   */
   readonly resourceRequirements: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecComponentResourcesResourceRequirements;
 }
@@ -711,7 +711,7 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecDeepPack
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#name}
   */
   readonly name: string;
 }
@@ -826,19 +826,19 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecDeepPack
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#claims DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#claims DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecDeepPacketInspectionDaemonsetSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#limits DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#limits DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#requests DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#requests DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -992,19 +992,19 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecDeepPack
   /**
   * Image name for the init container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#image DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#image DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#image}
   */
   readonly image: string;
   /**
   * Name is an enum that identifies the init container by its name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the init container's resources. If omitted, the default values will be used for the init container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#resources DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#resources DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecDeepPacketInspectionDaemonsetSpecTemplateSpecInitContainersResources;
 }
@@ -1174,7 +1174,7 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecDeepPack
   /**
   * List of DPI Daemonset Init containers definitions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#init_containers DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#init_containers DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecDeepPacketInspectionDaemonsetSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -1270,7 +1270,7 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecDeepPack
   /**
   * Spec specifies DPI Daemonset Template Spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#spec DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#spec DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecDeepPacketInspectionDaemonsetSpecTemplateSpec;
 }
@@ -1366,7 +1366,7 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecDeepPack
   /**
   * Template specifies DPI Daemonset Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#template DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#template DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecDeepPacketInspectionDaemonsetSpecTemplate;
 }
@@ -1462,7 +1462,7 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecDeepPack
   /**
   * DPIDaemonsetSpec configures the DPI Daemonset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#spec DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#spec DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecDeepPacketInspectionDaemonsetSpec;
 }
@@ -1558,7 +1558,7 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusio
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1673,19 +1673,19 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusio
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#claims DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#claims DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusionDetectionControllerDeploymentSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#limits DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#limits DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#requests DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#requests DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1839,13 +1839,13 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusio
   /**
   * Name is an enum which identifies the IntrusionDetectionController Deployment container by name. Supported values are: controller, webhooks-processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named IntrusionDetectionController Deployment container's resources. If omitted, the IntrusionDetection Deployment will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#resources DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#resources DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusionDetectionControllerDeploymentSpecTemplateSpecContainersResources;
 }
@@ -1989,7 +1989,7 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusio
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2104,19 +2104,19 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusio
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#claims DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#claims DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusionDetectionControllerDeploymentSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#limits DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#limits DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#requests DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#requests DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2270,13 +2270,13 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusio
   /**
   * Name is an enum which identifies the IntrusionDetectionController Deployment init container by name. Supported values are: intrusion-detection-tls-key-cert-provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#name DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named IntrusionDetectionController Deployment init container's resources. If omitted, the IntrusionDetectionController Deployment will use its default value for this init container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#resources DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#resources DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusionDetectionControllerDeploymentSpecTemplateSpecInitContainersResources;
 }
@@ -2420,13 +2420,13 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusio
   /**
   * Containers is a list of IntrusionDetectionController containers. If specified, this overrides the specified IntrusionDetectionController Deployment containers. If omitted, the IntrusionDetectionController Deployment will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#containers DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#containers DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusionDetectionControllerDeploymentSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of IntrusionDetectionController init containers. If specified, this overrides the specified IntrusionDetectionController Deployment init containers. If omitted, the IntrusionDetectionController Deployment will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#init_containers DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#init_containers DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusionDetectionControllerDeploymentSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -2551,7 +2551,7 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusio
   /**
   * Spec is the IntrusionDetectionController Deployment's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#spec DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#spec DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusionDetectionControllerDeploymentSpecTemplateSpec;
 }
@@ -2647,7 +2647,7 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusio
   /**
   * Template describes the IntrusionDetectionController Deployment pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#template DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#template DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusionDetectionControllerDeploymentSpecTemplate;
 }
@@ -2743,7 +2743,7 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusio
   /**
   * Spec is the specification of the IntrusionDetectionController Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#spec DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#spec DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusionDetectionControllerDeploymentSpec;
 }
@@ -2839,25 +2839,25 @@ export interface DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpec {
   /**
   * AnomalyDetection is now deprecated, and configuring it has no effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#anomaly_detection DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#anomaly_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#anomaly_detection DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#anomaly_detection}
   */
   readonly anomalyDetection?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecAnomalyDetection;
   /**
   * ComponentResources can be used to customize the resource requirements for each component. Only DeepPacketInspection is supported for this spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#component_resources DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#component_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#component_resources DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#component_resources}
   */
   readonly componentResources?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecComponentResources[] | cdktf.IResolvable;
   /**
   * DeepPacketInspectionDaemonset configures the DPI Daemonset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#deep_packet_inspection_daemonset DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#deep_packet_inspection_daemonset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#deep_packet_inspection_daemonset DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#deep_packet_inspection_daemonset}
   */
   readonly deepPacketInspectionDaemonset?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecDeepPacketInspectionDaemonset;
   /**
   * IntrusionDetectionControllerDeployment configures the IntrusionDetection Controller Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#intrusion_detection_controller_deployment DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#intrusion_detection_controller_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#intrusion_detection_controller_deployment DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest#intrusion_detection_controller_deployment}
   */
   readonly intrusionDetectionControllerDeployment?: DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecIntrusionDetectionControllerDeployment;
 }
@@ -3038,7 +3038,7 @@ export class DataK8SOperatorTigeraIoIntrusionDetectionV1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest k8s_operator_tigera_io_intrusion_detection_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest k8s_operator_tigera_io_intrusion_detection_v1_manifest}
 */
 export class DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest extends cdktf.TerraformDataSource {
 
@@ -3054,7 +3054,7 @@ export class DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3066,7 +3066,7 @@ export class DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest k8s_operator_tigera_io_intrusion_detection_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_intrusion_detection_v1_manifest k8s_operator_tigera_io_intrusion_detection_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3077,8 +3077,8 @@ export class DataK8SOperatorTigeraIoIntrusionDetectionV1Manifest extends cdktf.T
       terraformResourceType: 'k8s_operator_tigera_io_intrusion_detection_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlatformSecretWinrmConfig extends cdktf.TerraformMetaArguments 
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#description PlatformSecretWinrm#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#description PlatformSecretWinrm#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#id PlatformSecretWinrm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#id PlatformSecretWinrm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface PlatformSecretWinrmConfig extends cdktf.TerraformMetaArguments 
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#identifier PlatformSecretWinrm#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#identifier PlatformSecretWinrm#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#name PlatformSecretWinrm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#name PlatformSecretWinrm#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#org_id PlatformSecretWinrm#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#org_id PlatformSecretWinrm#org_id}
   */
   readonly orgId?: string;
   /**
   * WinRM port. Default is 5986 for HTTPS, 5985 for HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#port PlatformSecretWinrm#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#port PlatformSecretWinrm#port}
   */
   readonly port?: number;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#project_id PlatformSecretWinrm#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#project_id PlatformSecretWinrm#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#tags PlatformSecretWinrm#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#tags PlatformSecretWinrm#tags}
   */
   readonly tags?: string[];
   /**
   * kerberos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#kerberos PlatformSecretWinrm#kerberos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#kerberos PlatformSecretWinrm#kerberos}
   */
   readonly kerberos?: PlatformSecretWinrmKerberos;
   /**
   * ntlm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#ntlm PlatformSecretWinrm#ntlm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#ntlm PlatformSecretWinrm#ntlm}
   */
   readonly ntlm?: PlatformSecretWinrmNtlm;
 }
@@ -73,7 +73,7 @@ export interface PlatformSecretWinrmKerberosTgtKeyTabFilePathSpec {
   /**
   * Path to the key tab file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#key_path PlatformSecretWinrm#key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#key_path PlatformSecretWinrm#key_path}
   */
   readonly keyPath: string;
 }
@@ -156,7 +156,7 @@ export interface PlatformSecretWinrmKerberosTgtPasswordSpec {
   /**
   * Reference to a secret containing the password. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account' to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#password_ref PlatformSecretWinrm#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#password_ref PlatformSecretWinrm#password_ref}
   */
   readonly passwordRef: string;
 }
@@ -239,49 +239,49 @@ export interface PlatformSecretWinrmKerberos {
   /**
   * Kerberos principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#principal PlatformSecretWinrm#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#principal PlatformSecretWinrm#principal}
   */
   readonly principal: string;
   /**
   * Kerberos realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#realm PlatformSecretWinrm#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#realm PlatformSecretWinrm#realm}
   */
   readonly realm: string;
   /**
   * Skip certificate verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#skip_cert_check PlatformSecretWinrm#skip_cert_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#skip_cert_check PlatformSecretWinrm#skip_cert_check}
   */
   readonly skipCertCheck?: boolean | cdktf.IResolvable;
   /**
   * Method to generate TGT (Ticket Granting Ticket).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#tgt_generation_method PlatformSecretWinrm#tgt_generation_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#tgt_generation_method PlatformSecretWinrm#tgt_generation_method}
   */
   readonly tgtGenerationMethod?: string;
   /**
   * Use no profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#use_no_profile PlatformSecretWinrm#use_no_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#use_no_profile PlatformSecretWinrm#use_no_profile}
   */
   readonly useNoProfile?: boolean | cdktf.IResolvable;
   /**
   * Use SSL/TLS for WinRM communication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#use_ssl PlatformSecretWinrm#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#use_ssl PlatformSecretWinrm#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
   * tgt_key_tab_file_path_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#tgt_key_tab_file_path_spec PlatformSecretWinrm#tgt_key_tab_file_path_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#tgt_key_tab_file_path_spec PlatformSecretWinrm#tgt_key_tab_file_path_spec}
   */
   readonly tgtKeyTabFilePathSpec?: PlatformSecretWinrmKerberosTgtKeyTabFilePathSpec;
   /**
   * tgt_password_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#tgt_password_spec PlatformSecretWinrm#tgt_password_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#tgt_password_spec PlatformSecretWinrm#tgt_password_spec}
   */
   readonly tgtPasswordSpec?: PlatformSecretWinrmKerberosTgtPasswordSpec;
 }
@@ -564,37 +564,37 @@ export interface PlatformSecretWinrmNtlm {
   /**
   * Domain name for NTLM authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#domain PlatformSecretWinrm#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#domain PlatformSecretWinrm#domain}
   */
   readonly domain?: string;
   /**
   * Reference to a secret containing the password to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account' to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#password_ref PlatformSecretWinrm#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#password_ref PlatformSecretWinrm#password_ref}
   */
   readonly passwordRef: string;
   /**
   * Skip certificate verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#skip_cert_check PlatformSecretWinrm#skip_cert_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#skip_cert_check PlatformSecretWinrm#skip_cert_check}
   */
   readonly skipCertCheck?: boolean | cdktf.IResolvable;
   /**
   * Use no profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#use_no_profile PlatformSecretWinrm#use_no_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#use_no_profile PlatformSecretWinrm#use_no_profile}
   */
   readonly useNoProfile?: boolean | cdktf.IResolvable;
   /**
   * Use SSL/TLS for WinRM communication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#use_ssl PlatformSecretWinrm#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#use_ssl PlatformSecretWinrm#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
   * Username to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#username PlatformSecretWinrm#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#username PlatformSecretWinrm#username}
   */
   readonly username: string;
 }
@@ -817,7 +817,7 @@ export class PlatformSecretWinrmNtlmOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm harness_platform_secret_winrm}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm harness_platform_secret_winrm}
 */
 export class PlatformSecretWinrm extends cdktf.TerraformResource {
 
@@ -833,7 +833,7 @@ export class PlatformSecretWinrm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformSecretWinrm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformSecretWinrm to import
-  * @param importFromId The id of the existing PlatformSecretWinrm that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformSecretWinrm that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformSecretWinrm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -845,7 +845,7 @@ export class PlatformSecretWinrm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_secret_winrm harness_platform_secret_winrm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_secret_winrm harness_platform_secret_winrm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -856,8 +856,8 @@ export class PlatformSecretWinrm extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_secret_winrm',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

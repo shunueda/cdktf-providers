@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_custom_tags
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_custom_tags
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AzureCustomTagsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Custom tags to add to cloud resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_custom_tags#custom_tags AzureCustomTags#custom_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_custom_tags#custom_tags AzureCustomTags#custom_tags}
   */
   readonly customTags: { [key: string]: string };
   /**
   * Should custom tags overwrite existing tags with the same keys. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_custom_tags#override_resource_tags AzureCustomTags#override_resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_custom_tags#override_resource_tags AzureCustomTags#override_resource_tags}
   */
   readonly overrideResourceTags?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_custom_tags polaris_azure_custom_tags}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_custom_tags polaris_azure_custom_tags}
 */
 export class AzureCustomTags extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class AzureCustomTags extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureCustomTags resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureCustomTags to import
-  * @param importFromId The id of the existing AzureCustomTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_custom_tags#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureCustomTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_custom_tags#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureCustomTags to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class AzureCustomTags extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_custom_tags polaris_azure_custom_tags} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_custom_tags polaris_azure_custom_tags} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class AzureCustomTags extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_azure_custom_tags',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

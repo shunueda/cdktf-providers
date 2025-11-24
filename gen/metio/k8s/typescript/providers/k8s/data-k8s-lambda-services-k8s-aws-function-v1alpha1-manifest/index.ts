@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#metadata DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#metadata DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestMetadata;
   /**
   * FunctionSpec defines the desired state of Function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#spec DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#spec DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#annotations DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#annotations DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#labels DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#labels DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestMetadataOutputRe
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecCodeS3BucketRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -346,7 +346,7 @@ export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecCodeS3Bu
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecCodeS3BucketRefFrom;
 }
@@ -440,33 +440,33 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecCodeS3Bucket
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecCode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#image_uri DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#image_uri DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#image_uri}
   */
   readonly imageUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#s3_bucket DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#s3_bucket DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#s3_bucket}
   */
   readonly s3Bucket?: string;
   /**
   * Reference field for S3Bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#s3_bucket_ref DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#s3_bucket_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#s3_bucket_ref DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#s3_bucket_ref}
   */
   readonly s3BucketRef?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecCodeS3BucketRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#s3_key DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#s3_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#s3_key DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#s3_key}
   */
   readonly s3Key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#s3_object_version DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#s3_object_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#s3_object_version DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#s3_object_version}
   */
   readonly s3ObjectVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#sha256 DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#sha256 DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#sha256}
   */
   readonly sha256?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#zip_file DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#zip_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#zip_file DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#zip_file}
   */
   readonly zipFile?: string;
 }
@@ -734,7 +734,7 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecCodeOutputRe
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecDeadLetterConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#target_arn DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#target_arn DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#target_arn}
   */
   readonly targetArn?: string;
 }
@@ -828,7 +828,7 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecDeadLetterCo
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#variables DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#variables DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#variables}
   */
   readonly variables?: { [key: string]: string };
 }
@@ -922,7 +922,7 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecEnvironmentO
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecEphemeralStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#size DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#size DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#size}
   */
   readonly size?: number;
 }
@@ -1016,11 +1016,11 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecEphemeralSto
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecFileSystemConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#arn DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#arn DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#arn}
   */
   readonly arn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#local_mount_path DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#local_mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#local_mount_path DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#local_mount_path}
   */
   readonly localMountPath?: string;
 }
@@ -1165,7 +1165,7 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecFileSystemCo
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecFunctionEventInvokeConfigDestinationConfigOnFailure {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#destination DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#destination DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#destination}
   */
   readonly destination?: string;
 }
@@ -1259,7 +1259,7 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecFunctionEven
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecFunctionEventInvokeConfigDestinationConfigOnSuccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#destination DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#destination DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#destination}
   */
   readonly destination?: string;
 }
@@ -1355,13 +1355,13 @@ export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecFunction
   /**
   * A destination for events that failed processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#on_failure DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#on_failure DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#on_failure}
   */
   readonly onFailure?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecFunctionEventInvokeConfigDestinationConfigOnFailure;
   /**
   * A destination for events that were processed successfully.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#on_success DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#on_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#on_success DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#on_success}
   */
   readonly onSuccess?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecFunctionEventInvokeConfigDestinationConfigOnSuccess;
 }
@@ -1486,23 +1486,23 @@ export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecFunction
   /**
   * A configuration object that specifies the destination of an event after Lambda processes it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#destination_config DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#destination_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#destination_config DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#destination_config}
   */
   readonly destinationConfig?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecFunctionEventInvokeConfigDestinationConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#function_name DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#function_name DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#function_name}
   */
   readonly functionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#maximum_event_age_in_seconds DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#maximum_event_age_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#maximum_event_age_in_seconds DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#maximum_event_age_in_seconds}
   */
   readonly maximumEventAgeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#maximum_retry_attempts DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#maximum_retry_attempts DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#qualifier DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#qualifier DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#qualifier}
   */
   readonly qualifier?: string;
 }
@@ -1712,15 +1712,15 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecFunctionEven
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecImageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#command DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#command DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#entry_point DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#entry_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#entry_point DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#entry_point}
   */
   readonly entryPoint?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#working_directory DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#working_directory DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#working_directory}
   */
   readonly workingDirectory?: string;
 }
@@ -1872,11 +1872,11 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecImageConfigO
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecKmsKeyRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2001,7 +2001,7 @@ export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecKmsKeyRe
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecKmsKeyRefFrom;
 }
@@ -2095,11 +2095,11 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecKmsKeyRefOut
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecRoleRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2224,7 +2224,7 @@ export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecRoleRef 
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecRoleRefFrom;
 }
@@ -2318,7 +2318,7 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecRoleRefOutpu
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecSnapStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#apply_on DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#apply_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#apply_on DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#apply_on}
   */
   readonly applyOn?: string;
 }
@@ -2412,7 +2412,7 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecSnapStartOut
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecTracingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#mode DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#mode DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#mode}
   */
   readonly mode?: string;
 }
@@ -2506,11 +2506,11 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecTracingConfi
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecVpcConfigSecurityGroupRefsFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2635,7 +2635,7 @@ export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecVpcConfi
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecVpcConfigSecurityGroupRefsFrom;
 }
@@ -2751,11 +2751,11 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecVpcConfigSec
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecVpcConfigSubnetRefsFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2880,7 +2880,7 @@ export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecVpcConfi
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#from DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecVpcConfigSubnetRefsFrom;
 }
@@ -2996,23 +2996,23 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecVpcConfigSub
 }
 export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#security_group_i_ds DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#security_group_i_ds DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#security_group_i_ds}
   */
   readonly securityGroupIDs?: string[];
   /**
   * Reference field for SecurityGroupIDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#security_group_refs DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#security_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#security_group_refs DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#security_group_refs}
   */
   readonly securityGroupRefs?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecVpcConfigSecurityGroupRefs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#subnet_i_ds DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#subnet_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#subnet_i_ds DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#subnet_i_ds}
   */
   readonly subnetIDs?: string[];
   /**
   * Reference field for SubnetIDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#subnet_refs DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#subnet_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#subnet_refs DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#subnet_refs}
   */
   readonly subnetRefs?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecVpcConfigSubnetRefs[] | cdktf.IResolvable;
 }
@@ -3195,163 +3195,163 @@ export interface DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpec {
   /**
   * The instruction set architecture that the function supports. Enter a string array with one of the valid values (arm64 or x86_64). The default value is x86_64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#architectures DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#architectures DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#architectures}
   */
   readonly architectures?: string[];
   /**
   * The code for the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#code DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#code DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#code}
   */
   readonly code: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecCode;
   /**
   * To enable code signing for this function, specify the ARN of a code-signing configuration. A code-signing configuration includes a set of signing profiles, which define the trusted publishers for this function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#code_signing_config_arn DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#code_signing_config_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#code_signing_config_arn DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#code_signing_config_arn}
   */
   readonly codeSigningConfigArn?: string;
   /**
   * A dead-letter queue configuration that specifies the queue or topic where Lambda sends asynchronous events when they fail processing. For more information, see Dead-letter queues (https://docs.aws.amazon.com/lambda/latest/dg/invocation-async.html#invocation-dlq).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#dead_letter_config DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#dead_letter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#dead_letter_config DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#dead_letter_config}
   */
   readonly deadLetterConfig?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecDeadLetterConfig;
   /**
   * A description of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#description DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#description DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * Environment variables that are accessible from function code during execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#environment DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#environment DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#environment}
   */
   readonly environment?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecEnvironment;
   /**
   * The size of the function's /tmp directory in MB. The default value is 512, but can be any whole number between 512 and 10,240 MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#ephemeral_storage DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#ephemeral_storage DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#ephemeral_storage}
   */
   readonly ephemeralStorage?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecEphemeralStorage;
   /**
   * Connection settings for an Amazon EFS file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#file_system_configs DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#file_system_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#file_system_configs DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#file_system_configs}
   */
   readonly fileSystemConfigs?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecFileSystemConfigs[] | cdktf.IResolvable;
   /**
   * Configures options for asynchronous invocation on a function. - DestinationConfig A destination for events after they have been sent to a function for processing. Types of Destinations: Function - The Amazon Resource Name (ARN) of a Lambda function. Queue - The ARN of a standard SQS queue. Topic - The ARN of a standard SNS topic. Event Bus - The ARN of an Amazon EventBridge event bus. - MaximumEventAgeInSeconds The maximum age of a request that Lambda sends to a function for processing. - MaximumRetryAttempts The maximum number of times to retry when the function returns an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#function_event_invoke_config DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#function_event_invoke_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#function_event_invoke_config DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#function_event_invoke_config}
   */
   readonly functionEventInvokeConfig?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecFunctionEventInvokeConfig;
   /**
   * The name of the method within your code that Lambda calls to run your function. Handler is required if the deployment package is a .zip file archive. The format includes the file name. It can also include namespaces and other qualifiers, depending on the runtime. For more information, see Lambda programming model (https://docs.aws.amazon.com/lambda/latest/dg/foundation-progmodel.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#handler DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#handler DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#handler}
   */
   readonly handler?: string;
   /**
   * Container image configuration values (https://docs.aws.amazon.com/lambda/latest/dg/configuration-images.html#configuration-images-settings) that override the values in the container image Dockerfile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#image_config DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#image_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#image_config DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#image_config}
   */
   readonly imageConfig?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecImageConfig;
   /**
   * The ARN of the Key Management Service (KMS) key that's used to encrypt your function's environment variables. If it's not provided, Lambda uses a default service key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#kms_key_arn DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#kms_key_arn DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#kms_key_ref DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#kms_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#kms_key_ref DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#kms_key_ref}
   */
   readonly kmsKeyRef?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecKmsKeyRef;
   /**
   * A list of function layers (https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html) to add to the function's execution environment. Specify each layer by its ARN, including the version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#layers DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#layers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#layers DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#layers}
   */
   readonly layers?: string[];
   /**
   * The amount of memory available to the function (https://docs.aws.amazon.com/lambda/latest/dg/configuration-function-common.html#configuration-memory-console) at runtime. Increasing the function memory also increases its CPU allocation. The default value is 128 MB. The value can be any multiple of 1 MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#memory_size DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#memory_size DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#memory_size}
   */
   readonly memorySize?: number;
   /**
   * The name of the Lambda function. Name formats * Function name – my-function. * Function ARN – arn:aws:lambda:us-west-2:123456789012:function:my-function. * Partial ARN – 123456789012:function:my-function. The length constraint applies only to the full ARN. If you specify only the function name, it is limited to 64 characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The type of deployment package. Set to Image for container image and set to Zip for .zip file archive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#package_type DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#package_type DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#package_type}
   */
   readonly packageType?: string;
   /**
   * Set to true to publish the first version of the function during creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#publish DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#publish DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#publish}
   */
   readonly publish?: boolean | cdktf.IResolvable;
   /**
   * The number of simultaneous executions to reserve for the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#reserved_concurrent_executions DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#reserved_concurrent_executions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#reserved_concurrent_executions DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#reserved_concurrent_executions}
   */
   readonly reservedConcurrentExecutions?: number;
   /**
   * The Amazon Resource Name (ARN) of the function's execution role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#role DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#role DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#role_ref DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#role_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#role_ref DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#role_ref}
   */
   readonly roleRef?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecRoleRef;
   /**
   * The identifier of the function's runtime (https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html). Runtime is required if the deployment package is a .zip file archive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#runtime DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#runtime DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#runtime}
   */
   readonly runtime?: string;
   /**
   * The function's SnapStart (https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html) setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#snap_start DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#snap_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#snap_start DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#snap_start}
   */
   readonly snapStart?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecSnapStart;
   /**
   * A list of tags (https://docs.aws.amazon.com/lambda/latest/dg/tagging.html) to apply to the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#tags DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#tags DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The amount of time (in seconds) that Lambda allows a function to run before stopping it. The default is 3 seconds. The maximum allowed value is 900 seconds. For more information, see Lambda execution environment (https://docs.aws.amazon.com/lambda/latest/dg/runtimes-context.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#timeout DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#timeout DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#timeout}
   */
   readonly timeout?: number;
   /**
   * Set Mode to Active to sample and trace a subset of incoming requests with X-Ray (https://docs.aws.amazon.com/lambda/latest/dg/services-xray.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#tracing_config DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#tracing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#tracing_config DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#tracing_config}
   */
   readonly tracingConfig?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecTracingConfig;
   /**
   * For network connectivity to Amazon Web Services resources in a VPC, specify a list of security groups and subnets in the VPC. When you connect a function to a VPC, it can access resources and the internet only through that VPC. For more information, see Configuring a Lambda function to access resources in a VPC (https://docs.aws.amazon.com/lambda/latest/dg/configuration-vpc.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#vpc_config DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#vpc_config DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest#vpc_config}
   */
   readonly vpcConfig?: DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecVpcConfig;
 }
@@ -4193,7 +4193,7 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest k8s_lambda_services_k8s_aws_function_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest k8s_lambda_services_k8s_aws_function_v1alpha1_manifest}
 */
 export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -4209,7 +4209,7 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4221,7 +4221,7 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest k8s_lambda_services_k8s_aws_function_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_function_v1alpha1_manifest k8s_lambda_services_k8s_aws_function_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4232,8 +4232,8 @@ export class DataK8SLambdaServicesK8SAwsFunctionV1Alpha1Manifest extends cdktf.T
       terraformResourceType: 'k8s_lambda_services_k8s_aws_function_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

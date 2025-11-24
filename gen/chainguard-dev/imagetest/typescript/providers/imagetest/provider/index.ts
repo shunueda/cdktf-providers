@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs
+// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface ImagetestProviderConfig {
   /**
   * An optional list of extra oci registries to wire in auth credentials for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#extra_repos ImagetestProvider#extra_repos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#extra_repos ImagetestProvider#extra_repos}
   */
   readonly extraRepos?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#harnesses ImagetestProvider#harnesses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#harnesses ImagetestProvider#harnesses}
   */
   readonly harnesses?: ImagetestProviderHarnesses;
   /**
   * Configuration for test log output to files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#logs ImagetestProvider#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#logs ImagetestProvider#logs}
   */
   readonly logs?: ImagetestProviderLogs;
   /**
   * The target repository the provider will use for pushing/pulling dynamically built images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#repo ImagetestProvider#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#repo ImagetestProvider#repo}
   */
   readonly repo?: string;
   /**
   * The optional configuration for all test sandboxes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#sandbox ImagetestProvider#sandbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#sandbox ImagetestProvider#sandbox}
   */
   readonly sandbox?: ImagetestProviderSandbox;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#test_execution ImagetestProvider#test_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#test_execution ImagetestProvider#test_execution}
   */
   readonly testExecution?: ImagetestProviderTestExecution;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#alias ImagetestProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#alias ImagetestProvider#alias}
   */
   readonly alias?: string;
 }
@@ -50,7 +50,7 @@ export interface ImagetestProviderHarnessesCluster {
   /**
   * The relative or absolute path on the host to the source directory to mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#kubeconfig ImagetestProvider#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#kubeconfig ImagetestProvider#kubeconfig}
   */
   readonly kubeconfig: string;
 }
@@ -88,13 +88,13 @@ export interface ImagetestProviderHarnessesDockerMounts {
   /**
   * The absolute path on the container to mount the source directory to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#destination ImagetestProvider#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#destination ImagetestProvider#destination}
   */
   readonly destination: string;
   /**
   * The relative or absolute path on the host to the source directory to mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#source ImagetestProvider#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#source ImagetestProvider#source}
   */
   readonly source: string;
 }
@@ -139,7 +139,7 @@ export interface ImagetestProviderHarnessesDockerNetworks {
   /**
   * The name of the existing network to attach the container to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#name ImagetestProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#name ImagetestProvider#name}
   */
   readonly name: string;
 }
@@ -175,15 +175,15 @@ export function imagetestProviderHarnessesDockerNetworksToHclTerraform(struct?: 
 
 export interface ImagetestProviderHarnessesDockerRegistriesAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#auth ImagetestProvider#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#auth ImagetestProvider#auth}
   */
   readonly auth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#password ImagetestProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#password ImagetestProvider#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#username ImagetestProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#username ImagetestProvider#username}
   */
   readonly username?: string;
 }
@@ -233,7 +233,7 @@ export function imagetestProviderHarnessesDockerRegistriesAuthToHclTerraform(str
 
 export interface ImagetestProviderHarnessesDockerRegistries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#auth ImagetestProvider#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#auth ImagetestProvider#auth}
   */
   readonly auth?: ImagetestProviderHarnessesDockerRegistriesAuth;
 }
@@ -271,31 +271,31 @@ export interface ImagetestProviderHarnessesDocker {
   /**
   * Environment variables to set on the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#envs ImagetestProvider#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#envs ImagetestProvider#envs}
   */
   readonly envs?: { [key: string]: string };
   /**
   * The Docker host socket path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#host_socket_path ImagetestProvider#host_socket_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#host_socket_path ImagetestProvider#host_socket_path}
   */
   readonly hostSocketPath?: string;
   /**
   * The list of mounts to create on the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#mounts ImagetestProvider#mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#mounts ImagetestProvider#mounts}
   */
   readonly mounts?: ImagetestProviderHarnessesDockerMounts[] | cdktf.IResolvable;
   /**
   * A map of existing networks to attach the container to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#networks ImagetestProvider#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#networks ImagetestProvider#networks}
   */
   readonly networks?: { [key: string]: ImagetestProviderHarnessesDockerNetworks } | cdktf.IResolvable;
   /**
   * A map of registries containing configuration for optional auth, tls, and mirror configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#registries ImagetestProvider#registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#registries ImagetestProvider#registries}
   */
   readonly registries?: { [key: string]: ImagetestProviderHarnessesDockerRegistries } | cdktf.IResolvable;
 }
@@ -361,7 +361,7 @@ export interface ImagetestProviderHarnessesK3SNetworks {
   /**
   * The name of the existing network to attach the harness containers to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#name ImagetestProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#name ImagetestProvider#name}
   */
   readonly name: string;
 }
@@ -397,15 +397,15 @@ export function imagetestProviderHarnessesK3SNetworksToHclTerraform(struct?: Ima
 
 export interface ImagetestProviderHarnessesK3SRegistriesAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#auth ImagetestProvider#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#auth ImagetestProvider#auth}
   */
   readonly auth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#password ImagetestProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#password ImagetestProvider#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#username ImagetestProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#username ImagetestProvider#username}
   */
   readonly username?: string;
 }
@@ -455,7 +455,7 @@ export function imagetestProviderHarnessesK3SRegistriesAuthToHclTerraform(struct
 
 export interface ImagetestProviderHarnessesK3SRegistriesMirror {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#endpoints ImagetestProvider#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#endpoints ImagetestProvider#endpoints}
   */
   readonly endpoints?: string[];
 }
@@ -491,15 +491,15 @@ export function imagetestProviderHarnessesK3SRegistriesMirrorToHclTerraform(stru
 
 export interface ImagetestProviderHarnessesK3SRegistriesTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#ca_file ImagetestProvider#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#ca_file ImagetestProvider#ca_file}
   */
   readonly caFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#cert_file ImagetestProvider#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#cert_file ImagetestProvider#cert_file}
   */
   readonly certFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#key_file ImagetestProvider#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#key_file ImagetestProvider#key_file}
   */
   readonly keyFile?: string;
 }
@@ -549,15 +549,15 @@ export function imagetestProviderHarnessesK3SRegistriesTlsToHclTerraform(struct?
 
 export interface ImagetestProviderHarnessesK3SRegistries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#auth ImagetestProvider#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#auth ImagetestProvider#auth}
   */
   readonly auth?: ImagetestProviderHarnessesK3SRegistriesAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#mirror ImagetestProvider#mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#mirror ImagetestProvider#mirror}
   */
   readonly mirror?: ImagetestProviderHarnessesK3SRegistriesMirror;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#tls ImagetestProvider#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#tls ImagetestProvider#tls}
   */
   readonly tls?: ImagetestProviderHarnessesK3SRegistriesTls;
 }
@@ -609,13 +609,13 @@ export interface ImagetestProviderHarnessesK3S {
   /**
   * A map of existing networks to attach the harness containers to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#networks ImagetestProvider#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#networks ImagetestProvider#networks}
   */
   readonly networks?: { [key: string]: ImagetestProviderHarnessesK3SNetworks } | cdktf.IResolvable;
   /**
   * A map of registries containing configuration for optional auth, tls, and mirror configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#registries ImagetestProvider#registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#registries ImagetestProvider#registries}
   */
   readonly registries?: { [key: string]: ImagetestProviderHarnessesK3SRegistries } | cdktf.IResolvable;
 }
@@ -658,15 +658,15 @@ export function imagetestProviderHarnessesK3SToHclTerraform(struct?: ImagetestPr
 
 export interface ImagetestProviderHarnesses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#cluster ImagetestProvider#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#cluster ImagetestProvider#cluster}
   */
   readonly cluster?: ImagetestProviderHarnessesCluster;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#docker ImagetestProvider#docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#docker ImagetestProvider#docker}
   */
   readonly docker?: ImagetestProviderHarnessesDocker;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#k3s ImagetestProvider#k3s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#k3s ImagetestProvider#k3s}
   */
   readonly k3S?: ImagetestProviderHarnessesK3S;
 }
@@ -718,7 +718,7 @@ export interface ImagetestProviderLogs {
   /**
   * Base directory where test logs will be written. Each test resource creates its own subdirectory. Can be overridden by IMAGETEST_LOGS environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#directory ImagetestProvider#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#directory ImagetestProvider#directory}
   */
   readonly directory?: string;
 }
@@ -756,19 +756,19 @@ export interface ImagetestProviderSandbox {
   /**
   * A list of additional keyrings to use for the sandbox.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#extra_keyrings ImagetestProvider#extra_keyrings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#extra_keyrings ImagetestProvider#extra_keyrings}
   */
   readonly extraKeyrings?: string[];
   /**
   * A list of additional packages to use for the sandbox.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#extra_packages ImagetestProvider#extra_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#extra_packages ImagetestProvider#extra_packages}
   */
   readonly extraPackages?: string[];
   /**
   * A list of additional repositories to use for the sandbox.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#extra_repos ImagetestProvider#extra_repos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#extra_repos ImagetestProvider#extra_repos}
   */
   readonly extraRepos?: string[];
 }
@@ -820,25 +820,25 @@ export interface ImagetestProviderTestExecution {
   /**
   * Skip features with matching label values. If `include_by_label` is present, the set of included tests are evaluated for skipping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#exclude_by_label ImagetestProvider#exclude_by_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#exclude_by_label ImagetestProvider#exclude_by_label}
   */
   readonly excludeByLabel?: { [key: string]: string };
   /**
   * Run features with matching label values. Any tests which do not contain all of the provided labels will be skipped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#include_by_label ImagetestProvider#include_by_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#include_by_label ImagetestProvider#include_by_label}
   */
   readonly includeByLabel?: { [key: string]: string };
   /**
   * Skips all features and harnesses. All tests can also be skipped by setting the environment variable `IMAGETEST_SKIP_ALL` to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#skip_all_tests ImagetestProvider#skip_all_tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#skip_all_tests ImagetestProvider#skip_all_tests}
   */
   readonly skipAllTests?: boolean | cdktf.IResolvable;
   /**
   * Skips the teardown of test harnesses to allow debugging test failures. Harness teardown can also be skipped by setting the environment variable `IMAGETEST_SKIP_TEARDOWN` to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#skip_teardown ImagetestProvider#skip_teardown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#skip_teardown ImagetestProvider#skip_teardown}
   */
   readonly skipTeardown?: boolean | cdktf.IResolvable;
 }
@@ -895,7 +895,7 @@ export function imagetestProviderTestExecutionToHclTerraform(struct?: ImagetestP
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs imagetest}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs imagetest}
 */
 export class ImagetestProvider extends cdktf.TerraformProvider {
 
@@ -911,7 +911,7 @@ export class ImagetestProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ImagetestProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImagetestProvider to import
-  * @param importFromId The id of the existing ImagetestProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImagetestProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImagetestProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -923,7 +923,7 @@ export class ImagetestProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs imagetest} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs imagetest} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -934,8 +934,8 @@ export class ImagetestProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'imagetest',
       terraformGeneratorMetadata: {
         providerName: 'imagetest',
-        providerVersion: '0.0.103',
-        providerVersionConstraint: '0.0.103'
+        providerVersion: '0.0.104',
+        providerVersionConstraint: '0.0.104'
       },
       terraformProviderSource: 'chainguard-dev/imagetest'
     });

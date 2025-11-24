@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PlatformConnectorBitbucketConfig extends cdktf.TerraformMetaArg
   /**
   * Whether the connection we're making is to a BitBucket repository or a BitBucket account. Valid values are Account, Repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#connection_type PlatformConnectorBitbucket#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#connection_type PlatformConnectorBitbucket#connection_type}
   */
   readonly connectionType: string;
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#delegate_selectors PlatformConnectorBitbucket#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#delegate_selectors PlatformConnectorBitbucket#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#description PlatformConnectorBitbucket#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#description PlatformConnectorBitbucket#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#id PlatformConnectorBitbucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#id PlatformConnectorBitbucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface PlatformConnectorBitbucketConfig extends cdktf.TerraformMetaArg
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#identifier PlatformConnectorBitbucket#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#identifier PlatformConnectorBitbucket#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#name PlatformConnectorBitbucket#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#name PlatformConnectorBitbucket#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#org_id PlatformConnectorBitbucket#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#org_id PlatformConnectorBitbucket#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#project_id PlatformConnectorBitbucket#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#project_id PlatformConnectorBitbucket#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#tags PlatformConnectorBitbucket#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#tags PlatformConnectorBitbucket#tags}
   */
   readonly tags?: string[];
   /**
   * URL of the BitBucket repository or account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#url PlatformConnectorBitbucket#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#url PlatformConnectorBitbucket#url}
   */
   readonly url: string;
   /**
   * Repository to test the connection with. This is only used when `connection_type` is `Account`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#validation_repo PlatformConnectorBitbucket#validation_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#validation_repo PlatformConnectorBitbucket#validation_repo}
   */
   readonly validationRepo?: string;
   /**
   * api_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#api_authentication PlatformConnectorBitbucket#api_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#api_authentication PlatformConnectorBitbucket#api_authentication}
   */
   readonly apiAuthentication?: PlatformConnectorBitbucketApiAuthentication;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#credentials PlatformConnectorBitbucket#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#credentials PlatformConnectorBitbucket#credentials}
   */
   readonly credentials: PlatformConnectorBitbucketCredentials;
 }
@@ -91,19 +91,19 @@ export interface PlatformConnectorBitbucketApiAuthentication {
   /**
   * Personal access token for interacting with the BitBucket api. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#token_ref PlatformConnectorBitbucket#token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#token_ref PlatformConnectorBitbucket#token_ref}
   */
   readonly tokenRef: string;
   /**
   * The username used for connecting to the api.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#username PlatformConnectorBitbucket#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#username PlatformConnectorBitbucket#username}
   */
   readonly username?: string;
   /**
   * The name of the Harness secret containing the username. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#username_ref PlatformConnectorBitbucket#username_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#username_ref PlatformConnectorBitbucket#username_ref}
   */
   readonly usernameRef?: string;
 }
@@ -244,19 +244,19 @@ export interface PlatformConnectorBitbucketCredentialsHttp {
   /**
   * Reference to a secret containing the password to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#password_ref PlatformConnectorBitbucket#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#password_ref PlatformConnectorBitbucket#password_ref}
   */
   readonly passwordRef?: string;
   /**
   * Username to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#username PlatformConnectorBitbucket#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#username PlatformConnectorBitbucket#username}
   */
   readonly username?: string;
   /**
   * Reference to a secret containing the username to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#username_ref PlatformConnectorBitbucket#username_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#username_ref PlatformConnectorBitbucket#username_ref}
   */
   readonly usernameRef?: string;
 }
@@ -400,7 +400,7 @@ export interface PlatformConnectorBitbucketCredentialsSsh {
   /**
   * Reference to the Harness secret containing the ssh key. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#ssh_key_ref PlatformConnectorBitbucket#ssh_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#ssh_key_ref PlatformConnectorBitbucket#ssh_key_ref}
   */
   readonly sshKeyRef: string;
 }
@@ -483,13 +483,13 @@ export interface PlatformConnectorBitbucketCredentials {
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#http PlatformConnectorBitbucket#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#http PlatformConnectorBitbucket#http}
   */
   readonly http?: PlatformConnectorBitbucketCredentialsHttp;
   /**
   * ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#ssh PlatformConnectorBitbucket#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#ssh PlatformConnectorBitbucket#ssh}
   */
   readonly ssh?: PlatformConnectorBitbucketCredentialsSsh;
 }
@@ -602,7 +602,7 @@ export class PlatformConnectorBitbucketCredentialsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket harness_platform_connector_bitbucket}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket harness_platform_connector_bitbucket}
 */
 export class PlatformConnectorBitbucket extends cdktf.TerraformResource {
 
@@ -618,7 +618,7 @@ export class PlatformConnectorBitbucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorBitbucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorBitbucket to import
-  * @param importFromId The id of the existing PlatformConnectorBitbucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorBitbucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorBitbucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -630,7 +630,7 @@ export class PlatformConnectorBitbucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_bitbucket harness_platform_connector_bitbucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_bitbucket harness_platform_connector_bitbucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -641,8 +641,8 @@ export class PlatformConnectorBitbucket extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_bitbucket',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

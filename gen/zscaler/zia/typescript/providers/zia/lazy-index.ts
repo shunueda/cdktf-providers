@@ -53,6 +53,7 @@ Object.defineProperty(exports, 'securitySettings', { get: function () { return r
 Object.defineProperty(exports, 'sslInspectionRules', { get: function () { return require('./ssl-inspection-rules'); } });
 Object.defineProperty(exports, 'subscriptionAlert', { get: function () { return require('./subscription-alert'); } });
 Object.defineProperty(exports, 'tenantRestrictionProfile', { get: function () { return require('./tenant-restriction-profile'); } });
+Object.defineProperty(exports, 'trafficCaptureRules', { get: function () { return require('./traffic-capture-rules'); } });
 Object.defineProperty(exports, 'trafficForwardingGreTunnel', { get: function () { return require('./traffic-forwarding-gre-tunnel'); } });
 Object.defineProperty(exports, 'trafficForwardingStaticIp', { get: function () { return require('./traffic-forwarding-static-ip'); } });
 Object.defineProperty(exports, 'trafficForwardingVpnCredentials', { get: function () { return require('./traffic-forwarding-vpn-credentials'); } });
@@ -142,6 +143,7 @@ Object.defineProperty(exports, 'dataZiaSecuritySettings', { get: function () { r
 Object.defineProperty(exports, 'dataZiaSslInspectionRules', { get: function () { return require('./data-zia-ssl-inspection-rules'); } });
 Object.defineProperty(exports, 'dataZiaSubscriptionAlert', { get: function () { return require('./data-zia-subscription-alert'); } });
 Object.defineProperty(exports, 'dataZiaTenantRestrictionProfile', { get: function () { return require('./data-zia-tenant-restriction-profile'); } });
+Object.defineProperty(exports, 'dataZiaTrafficCaptureRules', { get: function () { return require('./data-zia-traffic-capture-rules'); } });
 Object.defineProperty(exports, 'dataZiaTrafficForwardingGreTunnel', { get: function () { return require('./data-zia-traffic-forwarding-gre-tunnel'); } });
 Object.defineProperty(exports, 'dataZiaTrafficForwardingGreTunnelInfo', { get: function () { return require('./data-zia-traffic-forwarding-gre-tunnel-info'); } });
 Object.defineProperty(exports, 'dataZiaTrafficForwardingGreVipRecommendedList', { get: function () { return require('./data-zia-traffic-forwarding-gre-vip-recommended-list'); } });

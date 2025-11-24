@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_private_container_registry
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_private_container_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AzurePrivateContainerRegistryConfig extends cdktf.TerraformMeta
   /**
   * Azure app registration application ID. Also known as the client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_private_container_registry#app_id AzurePrivateContainerRegistry#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_private_container_registry#app_id AzurePrivateContainerRegistry#app_id}
   */
   readonly appId: string;
   /**
   * RSC cloud account ID (UUID). Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_private_container_registry#cloud_account_id AzurePrivateContainerRegistry#cloud_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_private_container_registry#cloud_account_id AzurePrivateContainerRegistry#cloud_account_id}
   */
   readonly cloudAccountId: string;
   /**
   * URL for customer provided private container registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_private_container_registry#url AzurePrivateContainerRegistry#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_private_container_registry#url AzurePrivateContainerRegistry#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_private_container_registry polaris_azure_private_container_registry}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_private_container_registry polaris_azure_private_container_registry}
 */
 export class AzurePrivateContainerRegistry extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class AzurePrivateContainerRegistry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzurePrivateContainerRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzurePrivateContainerRegistry to import
-  * @param importFromId The id of the existing AzurePrivateContainerRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_private_container_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzurePrivateContainerRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_private_container_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzurePrivateContainerRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class AzurePrivateContainerRegistry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_private_container_registry polaris_azure_private_container_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_private_container_registry polaris_azure_private_container_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class AzurePrivateContainerRegistry extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_azure_private_container_registry',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

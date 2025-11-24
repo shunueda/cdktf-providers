@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PlatformMonitoredServiceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#id PlatformMonitoredService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#id PlatformMonitoredService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface PlatformMonitoredServiceConfig extends cdktf.TerraformMetaArgum
   /**
   * Identifier of the monitored service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#identifier PlatformMonitoredService#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#identifier PlatformMonitoredService#identifier}
   */
   readonly identifier: string;
   /**
   * Identifier of the organization in which the monitored service is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#org_id PlatformMonitoredService#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#org_id PlatformMonitoredService#org_id}
   */
   readonly orgId: string;
   /**
   * Identifier of the project in which the monitored service is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#project_id PlatformMonitoredService#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#project_id PlatformMonitoredService#project_id}
   */
   readonly projectId: string;
   /**
   * request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#request PlatformMonitoredService#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#request PlatformMonitoredService#request}
   */
   readonly request?: PlatformMonitoredServiceRequest;
 }
@@ -43,37 +43,37 @@ export interface PlatformMonitoredServiceRequestChangeSources {
   /**
   * Category of the change source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#category PlatformMonitoredService#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#category PlatformMonitoredService#category}
   */
   readonly category: string;
   /**
   * Enable or disable the change source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#enabled PlatformMonitoredService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#enabled PlatformMonitoredService#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Identifier of the change source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#identifier PlatformMonitoredService#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#identifier PlatformMonitoredService#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the change source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#name PlatformMonitoredService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#name PlatformMonitoredService#name}
   */
   readonly name: string;
   /**
   * Specification of the change source. Depends on the type of the change source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#spec PlatformMonitoredService#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#spec PlatformMonitoredService#spec}
   */
   readonly spec?: string;
   /**
   * Type of the change source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#type PlatformMonitoredService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#type PlatformMonitoredService#type}
   */
   readonly type: string;
 }
@@ -324,19 +324,19 @@ export interface PlatformMonitoredServiceRequestDependencies {
   /**
   * Dependency metadata for the monitored service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#dependency_metadata PlatformMonitoredService#dependency_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#dependency_metadata PlatformMonitoredService#dependency_metadata}
   */
   readonly dependencyMetadata?: string;
   /**
   * Monitored service identifier of the dependency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#monitored_service_identifier PlatformMonitoredService#monitored_service_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#monitored_service_identifier PlatformMonitoredService#monitored_service_identifier}
   */
   readonly monitoredServiceIdentifier: string;
   /**
   * Type of the service dependency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#type PlatformMonitoredService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#type PlatformMonitoredService#type}
   */
   readonly type: string;
 }
@@ -506,31 +506,31 @@ export interface PlatformMonitoredServiceRequestHealthSources {
   /**
   * Identifier of the health source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#identifier PlatformMonitoredService#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#identifier PlatformMonitoredService#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the health source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#name PlatformMonitoredService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#name PlatformMonitoredService#name}
   */
   readonly name: string;
   /**
   * Specification of the health source. Depends on the type of the health source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#spec PlatformMonitoredService#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#spec PlatformMonitoredService#spec}
   */
   readonly spec: string;
   /**
   * Type of the health source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#type PlatformMonitoredService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#type PlatformMonitoredService#type}
   */
   readonly type: string;
   /**
   * Version of the health source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#version PlatformMonitoredService#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#version PlatformMonitoredService#version}
   */
   readonly version?: string;
 }
@@ -752,13 +752,13 @@ export interface PlatformMonitoredServiceRequestNotificationRuleRefs {
   /**
   * Enable or disable notification rule reference for the monitored service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#enabled PlatformMonitoredService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#enabled PlatformMonitoredService#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Notification rule reference for the monitored service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#notification_rule_ref PlatformMonitoredService#notification_rule_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#notification_rule_ref PlatformMonitoredService#notification_rule_ref}
   */
   readonly notificationRuleRef: string;
 }
@@ -899,85 +899,85 @@ export interface PlatformMonitoredServiceRequest {
   /**
   * Description for the monitored service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#description PlatformMonitoredService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#description PlatformMonitoredService#description}
   */
   readonly description?: string;
   /**
   * Enable or disable the monitored service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#enabled PlatformMonitoredService#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#enabled PlatformMonitoredService#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Environment in which the service is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#environment_ref PlatformMonitoredService#environment_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#environment_ref PlatformMonitoredService#environment_ref}
   */
   readonly environmentRef: string;
   /**
   * Environment reference list for the monitored service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#environment_ref_list PlatformMonitoredService#environment_ref_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#environment_ref_list PlatformMonitoredService#environment_ref_list}
   */
   readonly environmentRefList?: string[];
   /**
   * Name for the monitored service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#name PlatformMonitoredService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#name PlatformMonitoredService#name}
   */
   readonly name: string;
   /**
   * Service reference for the monitored service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#service_ref PlatformMonitoredService#service_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#service_ref PlatformMonitoredService#service_ref}
   */
   readonly serviceRef: string;
   /**
   * Tags for the monitored service. comma-separated key value string pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#tags PlatformMonitoredService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#tags PlatformMonitoredService#tags}
   */
   readonly tags?: string[];
   /**
   * Template reference for the monitored service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#template_ref PlatformMonitoredService#template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#template_ref PlatformMonitoredService#template_ref}
   */
   readonly templateRef?: string;
   /**
   * Type of the monitored service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#type PlatformMonitoredService#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#type PlatformMonitoredService#type}
   */
   readonly type: string;
   /**
   * Template version label for the monitored service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#version_label PlatformMonitoredService#version_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#version_label PlatformMonitoredService#version_label}
   */
   readonly versionLabel?: string;
   /**
   * change_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#change_sources PlatformMonitoredService#change_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#change_sources PlatformMonitoredService#change_sources}
   */
   readonly changeSources?: PlatformMonitoredServiceRequestChangeSources[] | cdktf.IResolvable;
   /**
   * dependencies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#dependencies PlatformMonitoredService#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#dependencies PlatformMonitoredService#dependencies}
   */
   readonly dependencies?: PlatformMonitoredServiceRequestDependencies[] | cdktf.IResolvable;
   /**
   * health_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#health_sources PlatformMonitoredService#health_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#health_sources PlatformMonitoredService#health_sources}
   */
   readonly healthSources?: PlatformMonitoredServiceRequestHealthSources[] | cdktf.IResolvable;
   /**
   * notification_rule_refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#notification_rule_refs PlatformMonitoredService#notification_rule_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#notification_rule_refs PlatformMonitoredService#notification_rule_refs}
   */
   readonly notificationRuleRefs?: PlatformMonitoredServiceRequestNotificationRuleRefs[] | cdktf.IResolvable;
 }
@@ -1426,7 +1426,7 @@ export class PlatformMonitoredServiceRequestOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service harness_platform_monitored_service}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service harness_platform_monitored_service}
 */
 export class PlatformMonitoredService extends cdktf.TerraformResource {
 
@@ -1442,7 +1442,7 @@ export class PlatformMonitoredService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformMonitoredService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformMonitoredService to import
-  * @param importFromId The id of the existing PlatformMonitoredService that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformMonitoredService that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformMonitoredService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1454,7 +1454,7 @@ export class PlatformMonitoredService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_monitored_service harness_platform_monitored_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_monitored_service harness_platform_monitored_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1465,8 +1465,8 @@ export class PlatformMonitoredService extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_monitored_service',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

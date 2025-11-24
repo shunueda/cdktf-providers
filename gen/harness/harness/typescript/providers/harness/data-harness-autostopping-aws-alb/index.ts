@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_aws_alb
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_aws_alb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface DataHarnessAutostoppingAwsAlbConfig extends cdktf.TerraformMeta
   /**
   * Arn of AWS ALB to be imported. Required only for importing existing ALB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_aws_alb#alb_arn DataHarnessAutostoppingAwsAlb#alb_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_aws_alb#alb_arn DataHarnessAutostoppingAwsAlb#alb_arn}
   */
   readonly albArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_aws_alb#certificate_id DataHarnessAutostoppingAwsAlb#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_aws_alb#certificate_id DataHarnessAutostoppingAwsAlb#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * Id of the cloud connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_aws_alb#cloud_connector_id DataHarnessAutostoppingAwsAlb#cloud_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_aws_alb#cloud_connector_id DataHarnessAutostoppingAwsAlb#cloud_connector_id}
   */
   readonly cloudConnectorId: string;
   /**
   * Governs how the loadabalancer entity will be deleted on Terraform destroy. When set to true, the associated ALB will be deleted permanently from AWS account. Be fully aware of the consequneces of settting this to true, as the action is irreversible. When set to false, solely the Harness LB representation will be deleted, leaving the cloud resources intact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_aws_alb#delete_cloud_resources_on_destroy DataHarnessAutostoppingAwsAlb#delete_cloud_resources_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_aws_alb#delete_cloud_resources_on_destroy DataHarnessAutostoppingAwsAlb#delete_cloud_resources_on_destroy}
   */
   readonly deleteCloudResourcesOnDestroy: boolean | cdktf.IResolvable;
   /**
   * Hostname for the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_aws_alb#host_name DataHarnessAutostoppingAwsAlb#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_aws_alb#host_name DataHarnessAutostoppingAwsAlb#host_name}
   */
   readonly hostName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_aws_alb#id DataHarnessAutostoppingAwsAlb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_aws_alb#id DataHarnessAutostoppingAwsAlb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,37 +45,37 @@ export interface DataHarnessAutostoppingAwsAlbConfig extends cdktf.TerraformMeta
   /**
   * Name of the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_aws_alb#name DataHarnessAutostoppingAwsAlb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_aws_alb#name DataHarnessAutostoppingAwsAlb#name}
   */
   readonly name: string;
   /**
   * Region in which cloud resources are hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_aws_alb#region DataHarnessAutostoppingAwsAlb#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_aws_alb#region DataHarnessAutostoppingAwsAlb#region}
   */
   readonly region: string;
   /**
   * Route 53 hosted zone id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_aws_alb#route53_hosted_zone_id DataHarnessAutostoppingAwsAlb#route53_hosted_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_aws_alb#route53_hosted_zone_id DataHarnessAutostoppingAwsAlb#route53_hosted_zone_id}
   */
   readonly route53HostedZoneId?: string;
   /**
   * Security Group to define the security rules that determine the inbound and outbound traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_aws_alb#security_groups DataHarnessAutostoppingAwsAlb#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_aws_alb#security_groups DataHarnessAutostoppingAwsAlb#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * VPC in which cloud resources are hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_aws_alb#vpc DataHarnessAutostoppingAwsAlb#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_aws_alb#vpc DataHarnessAutostoppingAwsAlb#vpc}
   */
   readonly vpc: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_aws_alb harness_autostopping_aws_alb}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_aws_alb harness_autostopping_aws_alb}
 */
 export class DataHarnessAutostoppingAwsAlb extends cdktf.TerraformDataSource {
 
@@ -91,7 +91,7 @@ export class DataHarnessAutostoppingAwsAlb extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessAutostoppingAwsAlb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessAutostoppingAwsAlb to import
-  * @param importFromId The id of the existing DataHarnessAutostoppingAwsAlb that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_aws_alb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessAutostoppingAwsAlb that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_aws_alb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessAutostoppingAwsAlb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -103,7 +103,7 @@ export class DataHarnessAutostoppingAwsAlb extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_aws_alb harness_autostopping_aws_alb} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_aws_alb harness_autostopping_aws_alb} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -114,8 +114,8 @@ export class DataHarnessAutostoppingAwsAlb extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_autostopping_aws_alb',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

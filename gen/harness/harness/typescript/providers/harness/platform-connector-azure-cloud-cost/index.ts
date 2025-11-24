@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PlatformConnectorAzureCloudCostConfig extends cdktf.TerraformMe
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#description PlatformConnectorAzureCloudCost#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#description PlatformConnectorAzureCloudCost#description}
   */
   readonly description?: string;
   /**
   * Indicates which feature to enable among Billing, Optimization, Visibility and Governance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#features_enabled PlatformConnectorAzureCloudCost#features_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#features_enabled PlatformConnectorAzureCloudCost#features_enabled}
   */
   readonly featuresEnabled: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#id PlatformConnectorAzureCloudCost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#id PlatformConnectorAzureCloudCost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface PlatformConnectorAzureCloudCostConfig extends cdktf.TerraformMe
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#identifier PlatformConnectorAzureCloudCost#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#identifier PlatformConnectorAzureCloudCost#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#name PlatformConnectorAzureCloudCost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#name PlatformConnectorAzureCloudCost#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#org_id PlatformConnectorAzureCloudCost#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#org_id PlatformConnectorAzureCloudCost#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#project_id PlatformConnectorAzureCloudCost#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#project_id PlatformConnectorAzureCloudCost#project_id}
   */
   readonly projectId?: string;
   /**
   * Subsription id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#subscription_id PlatformConnectorAzureCloudCost#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#subscription_id PlatformConnectorAzureCloudCost#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#tags PlatformConnectorAzureCloudCost#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#tags PlatformConnectorAzureCloudCost#tags}
   */
   readonly tags?: string[];
   /**
   * Tenant id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#tenant_id PlatformConnectorAzureCloudCost#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#tenant_id PlatformConnectorAzureCloudCost#tenant_id}
   */
   readonly tenantId: string;
   /**
   * billing_export_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#billing_export_spec PlatformConnectorAzureCloudCost#billing_export_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#billing_export_spec PlatformConnectorAzureCloudCost#billing_export_spec}
   */
   readonly billingExportSpec?: PlatformConnectorAzureCloudCostBillingExportSpec;
   /**
   * billing_export_spec2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#billing_export_spec2 PlatformConnectorAzureCloudCost#billing_export_spec2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#billing_export_spec2 PlatformConnectorAzureCloudCost#billing_export_spec2}
   */
   readonly billingExportSpec2?: PlatformConnectorAzureCloudCostBillingExportSpec2;
 }
@@ -85,37 +85,37 @@ export interface PlatformConnectorAzureCloudCostBillingExportSpec {
   /**
   * Billing type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#billing_type PlatformConnectorAzureCloudCost#billing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#billing_type PlatformConnectorAzureCloudCost#billing_type}
   */
   readonly billingType: string;
   /**
   * Name of the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#container_name PlatformConnectorAzureCloudCost#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#container_name PlatformConnectorAzureCloudCost#container_name}
   */
   readonly containerName: string;
   /**
   * Name of the directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#directory_name PlatformConnectorAzureCloudCost#directory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#directory_name PlatformConnectorAzureCloudCost#directory_name}
   */
   readonly directoryName: string;
   /**
   * Name of the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#report_name PlatformConnectorAzureCloudCost#report_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#report_name PlatformConnectorAzureCloudCost#report_name}
   */
   readonly reportName: string;
   /**
   * Name of the storage account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#storage_account_name PlatformConnectorAzureCloudCost#storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#storage_account_name PlatformConnectorAzureCloudCost#storage_account_name}
   */
   readonly storageAccountName: string;
   /**
   * Subsription Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#subscription_id PlatformConnectorAzureCloudCost#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#subscription_id PlatformConnectorAzureCloudCost#subscription_id}
   */
   readonly subscriptionId: string;
 }
@@ -328,37 +328,37 @@ export interface PlatformConnectorAzureCloudCostBillingExportSpec2 {
   /**
   * Billing type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#billing_type PlatformConnectorAzureCloudCost#billing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#billing_type PlatformConnectorAzureCloudCost#billing_type}
   */
   readonly billingType: string;
   /**
   * Name of the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#container_name PlatformConnectorAzureCloudCost#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#container_name PlatformConnectorAzureCloudCost#container_name}
   */
   readonly containerName: string;
   /**
   * Name of the directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#directory_name PlatformConnectorAzureCloudCost#directory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#directory_name PlatformConnectorAzureCloudCost#directory_name}
   */
   readonly directoryName: string;
   /**
   * Name of the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#report_name PlatformConnectorAzureCloudCost#report_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#report_name PlatformConnectorAzureCloudCost#report_name}
   */
   readonly reportName: string;
   /**
   * Name of the storage account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#storage_account_name PlatformConnectorAzureCloudCost#storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#storage_account_name PlatformConnectorAzureCloudCost#storage_account_name}
   */
   readonly storageAccountName: string;
   /**
   * Subsription Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#subscription_id PlatformConnectorAzureCloudCost#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#subscription_id PlatformConnectorAzureCloudCost#subscription_id}
   */
   readonly subscriptionId: string;
 }
@@ -569,7 +569,7 @@ export class PlatformConnectorAzureCloudCostBillingExportSpec2OutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost harness_platform_connector_azure_cloud_cost}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost harness_platform_connector_azure_cloud_cost}
 */
 export class PlatformConnectorAzureCloudCost extends cdktf.TerraformResource {
 
@@ -585,7 +585,7 @@ export class PlatformConnectorAzureCloudCost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorAzureCloudCost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorAzureCloudCost to import
-  * @param importFromId The id of the existing PlatformConnectorAzureCloudCost that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorAzureCloudCost that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorAzureCloudCost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -597,7 +597,7 @@ export class PlatformConnectorAzureCloudCost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_cost harness_platform_connector_azure_cloud_cost} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_cloud_cost harness_platform_connector_azure_cloud_cost} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -608,8 +608,8 @@ export class PlatformConnectorAzureCloudCost extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_azure_cloud_cost',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

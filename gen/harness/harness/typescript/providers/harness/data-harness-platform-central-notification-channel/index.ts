@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataHarnessPlatformCentralNotificationChannelConfig extends cdk
   /**
   * Account identifier associated with this notification channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#account DataHarnessPlatformCentralNotificationChannel#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#account DataHarnessPlatformCentralNotificationChannel#account}
   */
   readonly account?: string;
   /**
   * Timestamp when the notification channel was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#created DataHarnessPlatformCentralNotificationChannel#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#created DataHarnessPlatformCentralNotificationChannel#created}
   */
   readonly created?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#id DataHarnessPlatformCentralNotificationChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#id DataHarnessPlatformCentralNotificationChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface DataHarnessPlatformCentralNotificationChannelConfig extends cdk
   /**
   * Unique identifier of the notification channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#identifier DataHarnessPlatformCentralNotificationChannel#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#identifier DataHarnessPlatformCentralNotificationChannel#identifier}
   */
   readonly identifier: string;
   /**
   * Timestamp when the notification channel was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#last_modified DataHarnessPlatformCentralNotificationChannel#last_modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#last_modified DataHarnessPlatformCentralNotificationChannel#last_modified}
   */
   readonly lastModified?: number;
   /**
   * Name of the notification channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#name DataHarnessPlatformCentralNotificationChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#name DataHarnessPlatformCentralNotificationChannel#name}
   */
   readonly name?: string;
   /**
   * Type of notification channel. One of: EMAIL, SLACK, PAGERDUTY, MSTeams, WEBHOOK, DATADOG.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#notification_channel_type DataHarnessPlatformCentralNotificationChannel#notification_channel_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#notification_channel_type DataHarnessPlatformCentralNotificationChannel#notification_channel_type}
   */
   readonly notificationChannelType?: string;
   /**
   * Identifier of the organization the notification channel is scoped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#org DataHarnessPlatformCentralNotificationChannel#org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#org DataHarnessPlatformCentralNotificationChannel#org}
   */
   readonly org?: string;
   /**
   * Identifier of the project the notification channel is scoped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#project DataHarnessPlatformCentralNotificationChannel#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#project DataHarnessPlatformCentralNotificationChannel#project}
   */
   readonly project?: string;
   /**
   * Status of the notification channel. Possible values are ENABLED or DISABLED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#status DataHarnessPlatformCentralNotificationChannel#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#status DataHarnessPlatformCentralNotificationChannel#status}
   */
   readonly status?: string;
   /**
   * channel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#channel DataHarnessPlatformCentralNotificationChannel#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#channel DataHarnessPlatformCentralNotificationChannel#channel}
   */
   readonly channel?: DataHarnessPlatformCentralNotificationChannelChannel[] | cdktf.IResolvable;
 }
@@ -79,13 +79,13 @@ export interface DataHarnessPlatformCentralNotificationChannelChannelHeaders {
   /**
   * Header key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#key DataHarnessPlatformCentralNotificationChannel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#key DataHarnessPlatformCentralNotificationChannel#key}
   */
   readonly key: string;
   /**
   * Header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#value DataHarnessPlatformCentralNotificationChannel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#value DataHarnessPlatformCentralNotificationChannel#value}
   */
   readonly value: string;
 }
@@ -226,7 +226,7 @@ export interface DataHarnessPlatformCentralNotificationChannelChannelUserGroups 
   /**
   * Identifier of the user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#identifier DataHarnessPlatformCentralNotificationChannel#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#identifier DataHarnessPlatformCentralNotificationChannel#identifier}
   */
   readonly identifier?: string;
 }
@@ -344,67 +344,67 @@ export interface DataHarnessPlatformCentralNotificationChannelChannel {
   /**
   * API key for the webhook or integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#api_key DataHarnessPlatformCentralNotificationChannel#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#api_key DataHarnessPlatformCentralNotificationChannel#api_key}
   */
   readonly apiKey?: string;
   /**
   * List of Datadog webhook URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#datadog_urls DataHarnessPlatformCentralNotificationChannel#datadog_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#datadog_urls DataHarnessPlatformCentralNotificationChannel#datadog_urls}
   */
   readonly datadogUrls?: string[];
   /**
   * List of delegate selectors to use for sending notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#delegate_selectors DataHarnessPlatformCentralNotificationChannel#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#delegate_selectors DataHarnessPlatformCentralNotificationChannel#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * List of email addresses to notify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#email_ids DataHarnessPlatformCentralNotificationChannel#email_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#email_ids DataHarnessPlatformCentralNotificationChannel#email_ids}
   */
   readonly emailIds?: string[];
   /**
   * Whether to execute the notification logic on delegate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#execute_on_delegate DataHarnessPlatformCentralNotificationChannel#execute_on_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#execute_on_delegate DataHarnessPlatformCentralNotificationChannel#execute_on_delegate}
   */
   readonly executeOnDelegate?: boolean | cdktf.IResolvable;
   /**
   * List of Microsoft Teams integration keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#ms_team_keys DataHarnessPlatformCentralNotificationChannel#ms_team_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#ms_team_keys DataHarnessPlatformCentralNotificationChannel#ms_team_keys}
   */
   readonly msTeamKeys?: string[];
   /**
   * List of PagerDuty integration keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#pager_duty_integration_keys DataHarnessPlatformCentralNotificationChannel#pager_duty_integration_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#pager_duty_integration_keys DataHarnessPlatformCentralNotificationChannel#pager_duty_integration_keys}
   */
   readonly pagerDutyIntegrationKeys?: string[];
   /**
   * List of Slack webhook URLs to send notifications to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#slack_webhook_urls DataHarnessPlatformCentralNotificationChannel#slack_webhook_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#slack_webhook_urls DataHarnessPlatformCentralNotificationChannel#slack_webhook_urls}
   */
   readonly slackWebhookUrls?: string[];
   /**
   * List of generic webhook URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#webhook_urls DataHarnessPlatformCentralNotificationChannel#webhook_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#webhook_urls DataHarnessPlatformCentralNotificationChannel#webhook_urls}
   */
   readonly webhookUrls?: string[];
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#headers DataHarnessPlatformCentralNotificationChannel#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#headers DataHarnessPlatformCentralNotificationChannel#headers}
   */
   readonly headers?: DataHarnessPlatformCentralNotificationChannelChannelHeaders[] | cdktf.IResolvable;
   /**
   * user_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#user_groups DataHarnessPlatformCentralNotificationChannel#user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#user_groups DataHarnessPlatformCentralNotificationChannel#user_groups}
   */
   readonly userGroups?: DataHarnessPlatformCentralNotificationChannelChannelUserGroups[] | cdktf.IResolvable;
 }
@@ -810,7 +810,7 @@ export class DataHarnessPlatformCentralNotificationChannelChannelList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel harness_platform_central_notification_channel}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel harness_platform_central_notification_channel}
 */
 export class DataHarnessPlatformCentralNotificationChannel extends cdktf.TerraformDataSource {
 
@@ -826,7 +826,7 @@ export class DataHarnessPlatformCentralNotificationChannel extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataHarnessPlatformCentralNotificationChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformCentralNotificationChannel to import
-  * @param importFromId The id of the existing DataHarnessPlatformCentralNotificationChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformCentralNotificationChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformCentralNotificationChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -838,7 +838,7 @@ export class DataHarnessPlatformCentralNotificationChannel extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_central_notification_channel harness_platform_central_notification_channel} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_central_notification_channel harness_platform_central_notification_channel} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -849,8 +849,8 @@ export class DataHarnessPlatformCentralNotificationChannel extends cdktf.Terrafo
       terraformResourceType: 'harness_platform_central_notification_channel',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

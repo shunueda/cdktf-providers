@@ -1,15 +1,15 @@
 import * as cdktf from 'cdktf';
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -158,11 +158,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#api_version DataK8SRegistryApicurIoApicurioRegistryV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#api_version DataK8SRegistryApicurIoApicurioRegistryV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#field_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#field_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -282,15 +282,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#container_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#container_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#divisor DataK8SRegistryApicurIoApicurioRegistryV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#divisor DataK8SRegistryApicurIoApicurioRegistryV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -439,15 +439,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -596,19 +596,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#config_map_key_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#config_map_key_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#field_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#field_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource_field_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource_field_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_key_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_key_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnvValueFromSecretKeyRef;
 }
@@ -789,15 +789,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value_from DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value_from DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnvValueFrom;
 }
@@ -968,11 +968,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1095,11 +1095,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1222,15 +1222,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#config_map_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#config_map_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#prefix DataK8SRegistryApicurIoApicurioRegistryV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#prefix DataK8SRegistryApicurIoApicurioRegistryV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnvFromSecretRef;
 }
@@ -1404,7 +1404,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -1498,11 +1498,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
   */
   readonly value: string;
 }
@@ -1641,23 +1641,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -1864,7 +1864,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePostStartSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -1955,11 +1955,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
 }
@@ -2079,19 +2079,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
   */
   readonly exec?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sleep DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sleep DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sleep}
   */
   readonly sleep?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePostStartSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePostStartTcpSocket;
 }
@@ -2272,7 +2272,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -2366,11 +2366,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
   */
   readonly value: string;
 }
@@ -2509,23 +2509,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -2732,7 +2732,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePreStopSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -2823,11 +2823,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
 }
@@ -2947,19 +2947,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
   */
   readonly exec?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sleep DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sleep DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sleep}
   */
   readonly sleep?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePreStopSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePreStopTcpSocket;
 }
@@ -3140,11 +3140,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#post_start DataK8SRegistryApicurIoApicurioRegistryV1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#post_start DataK8SRegistryApicurIoApicurioRegistryV1Manifest#post_start}
   */
   readonly postStart?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#pre_stop DataK8SRegistryApicurIoApicurioRegistryV1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#pre_stop DataK8SRegistryApicurIoApicurioRegistryV1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecyclePreStop;
 }
@@ -3267,7 +3267,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -3361,11 +3361,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#service DataK8SRegistryApicurIoApicurioRegistryV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#service DataK8SRegistryApicurIoApicurioRegistryV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -3485,11 +3485,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
   */
   readonly value: string;
 }
@@ -3628,23 +3628,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -3851,11 +3851,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
 }
@@ -3975,43 +3975,43 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
   */
   readonly exec?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#failure_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#failure_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#grpc DataK8SRegistryApicurIoApicurioRegistryV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#grpc DataK8SRegistryApicurIoApicurioRegistryV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#initial_delay_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#initial_delay_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#success_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#success_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_grace_period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_grace_period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#timeout_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#timeout_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -4366,23 +4366,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#container_port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#container_port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host_ip DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host_ip DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host_port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host_port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#protocol DataK8SRegistryApicurIoApicurioRegistryV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#protocol DataK8SRegistryApicurIoApicurioRegistryV1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -4611,7 +4611,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -4705,11 +4705,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#service DataK8SRegistryApicurIoApicurioRegistryV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#service DataK8SRegistryApicurIoApicurioRegistryV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -4829,11 +4829,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
   */
   readonly value: string;
 }
@@ -4972,23 +4972,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -5195,11 +5195,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
 }
@@ -5319,43 +5319,43 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
   */
   readonly exec?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#failure_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#failure_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#grpc DataK8SRegistryApicurIoApicurioRegistryV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#grpc DataK8SRegistryApicurIoApicurioRegistryV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#initial_delay_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#initial_delay_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#success_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#success_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_grace_period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_grace_period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#timeout_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#timeout_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -5710,11 +5710,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersResizePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#restart_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#restart_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -5853,7 +5853,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
 }
@@ -5966,15 +5966,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#claims DataK8SRegistryApicurIoApicurioRegistryV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#claims DataK8SRegistryApicurIoApicurioRegistryV1Manifest#claims}
   */
   readonly claims?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#limits DataK8SRegistryApicurIoApicurioRegistryV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#limits DataK8SRegistryApicurIoApicurioRegistryV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#requests DataK8SRegistryApicurIoApicurioRegistryV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#requests DataK8SRegistryApicurIoApicurioRegistryV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6126,11 +6126,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#add DataK8SRegistryApicurIoApicurioRegistryV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#add DataK8SRegistryApicurIoApicurioRegistryV1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#drop DataK8SRegistryApicurIoApicurioRegistryV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#drop DataK8SRegistryApicurIoApicurioRegistryV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -6253,19 +6253,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#level DataK8SRegistryApicurIoApicurioRegistryV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#level DataK8SRegistryApicurIoApicurioRegistryV1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#role DataK8SRegistryApicurIoApicurioRegistryV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#role DataK8SRegistryApicurIoApicurioRegistryV1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#user DataK8SRegistryApicurIoApicurioRegistryV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#user DataK8SRegistryApicurIoApicurioRegistryV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -6446,11 +6446,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#localhost_profile DataK8SRegistryApicurIoApicurioRegistryV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#localhost_profile DataK8SRegistryApicurIoApicurioRegistryV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#type}
   */
   readonly type: string;
 }
@@ -6570,19 +6570,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#gmsa_credential_spec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#gmsa_credential_spec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#gmsa_credential_spec_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#gmsa_credential_spec_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host_process DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host_process DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_user_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_user_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -6763,47 +6763,47 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#allow_privilege_escalation DataK8SRegistryApicurIoApicurioRegistryV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#allow_privilege_escalation DataK8SRegistryApicurIoApicurioRegistryV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#capabilities DataK8SRegistryApicurIoApicurioRegistryV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#capabilities DataK8SRegistryApicurIoApicurioRegistryV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#privileged DataK8SRegistryApicurIoApicurioRegistryV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#privileged DataK8SRegistryApicurIoApicurioRegistryV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#proc_mount DataK8SRegistryApicurIoApicurioRegistryV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#proc_mount DataK8SRegistryApicurIoApicurioRegistryV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only_root_filesystem DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only_root_filesystem DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_group DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_group DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_non_root DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_non_root DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_user DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_user DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#se_linux_options DataK8SRegistryApicurIoApicurioRegistryV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#se_linux_options DataK8SRegistryApicurIoApicurioRegistryV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#seccomp_profile DataK8SRegistryApicurIoApicurioRegistryV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#seccomp_profile DataK8SRegistryApicurIoApicurioRegistryV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#windows_options DataK8SRegistryApicurIoApicurioRegistryV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#windows_options DataK8SRegistryApicurIoApicurioRegistryV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersSecurityContextWindowsOptions;
 }
@@ -7187,7 +7187,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -7281,11 +7281,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#service DataK8SRegistryApicurIoApicurioRegistryV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#service DataK8SRegistryApicurIoApicurioRegistryV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -7405,11 +7405,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
   */
   readonly value: string;
 }
@@ -7548,23 +7548,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -7771,11 +7771,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
 }
@@ -7895,43 +7895,43 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
   */
   readonly exec?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#failure_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#failure_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#grpc DataK8SRegistryApicurIoApicurioRegistryV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#grpc DataK8SRegistryApicurIoApicurioRegistryV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#initial_delay_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#initial_delay_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#success_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#success_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_grace_period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_grace_period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#timeout_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#timeout_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -8286,11 +8286,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#device_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#device_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
 }
@@ -8429,27 +8429,27 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#mount_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#mount_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#mount_propagation DataK8SRegistryApicurIoApicurioRegistryV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#mount_propagation DataK8SRegistryApicurIoApicurioRegistryV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sub_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sub_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sub_path_expr DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sub_path_expr DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -8704,103 +8704,103 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#args DataK8SRegistryApicurIoApicurioRegistryV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#args DataK8SRegistryApicurIoApicurioRegistryV1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#env DataK8SRegistryApicurIoApicurioRegistryV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#env DataK8SRegistryApicurIoApicurioRegistryV1Manifest#env}
   */
   readonly env?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#env_from DataK8SRegistryApicurIoApicurioRegistryV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#env_from DataK8SRegistryApicurIoApicurioRegistryV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#image DataK8SRegistryApicurIoApicurioRegistryV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#image DataK8SRegistryApicurIoApicurioRegistryV1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#image_pull_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#image_pull_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#lifecycle DataK8SRegistryApicurIoApicurioRegistryV1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#lifecycle DataK8SRegistryApicurIoApicurioRegistryV1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#liveness_probe DataK8SRegistryApicurIoApicurioRegistryV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#liveness_probe DataK8SRegistryApicurIoApicurioRegistryV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#ports DataK8SRegistryApicurIoApicurioRegistryV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#ports DataK8SRegistryApicurIoApicurioRegistryV1Manifest#ports}
   */
   readonly ports?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#readiness_probe DataK8SRegistryApicurIoApicurioRegistryV1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#readiness_probe DataK8SRegistryApicurIoApicurioRegistryV1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resize_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resize_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersResizePolicy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resources DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resources DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resources}
   */
   readonly resources?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#restart_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#restart_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#security_context DataK8SRegistryApicurIoApicurioRegistryV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#security_context DataK8SRegistryApicurIoApicurioRegistryV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#startup_probe DataK8SRegistryApicurIoApicurioRegistryV1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#startup_probe DataK8SRegistryApicurIoApicurioRegistryV1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#stdin DataK8SRegistryApicurIoApicurioRegistryV1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#stdin DataK8SRegistryApicurIoApicurioRegistryV1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#stdin_once DataK8SRegistryApicurIoApicurioRegistryV1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#stdin_once DataK8SRegistryApicurIoApicurioRegistryV1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#target_container_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#target_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#target_container_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#target_container_name}
   */
   readonly targetContainerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_message_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_message_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_message_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_message_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tty DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tty DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_devices DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_devices DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_mounts DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_mounts DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecEphemeralContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#working_dir DataK8SRegistryApicurIoApicurioRegistryV1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#working_dir DataK8SRegistryApicurIoApicurioRegistryV1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -9609,11 +9609,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecHostAliases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#hostnames DataK8SRegistryApicurIoApicurioRegistryV1Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#hostnames DataK8SRegistryApicurIoApicurioRegistryV1Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#ip DataK8SRegistryApicurIoApicurioRegistryV1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#ip DataK8SRegistryApicurIoApicurioRegistryV1Manifest#ip}
   */
   readonly ip?: string;
 }
@@ -9758,7 +9758,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9874,15 +9874,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10031,11 +10031,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#api_version DataK8SRegistryApicurIoApicurioRegistryV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#api_version DataK8SRegistryApicurIoApicurioRegistryV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#field_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#field_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -10155,15 +10155,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#container_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#container_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#divisor DataK8SRegistryApicurIoApicurioRegistryV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#divisor DataK8SRegistryApicurIoApicurioRegistryV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -10312,15 +10312,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10469,19 +10469,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#config_map_key_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#config_map_key_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#field_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#field_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource_field_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource_field_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_key_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_key_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnvValueFromSecretKeyRef;
 }
@@ -10662,15 +10662,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value_from DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value_from DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnvValueFrom;
 }
@@ -10841,11 +10841,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10968,11 +10968,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11095,15 +11095,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#config_map_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#config_map_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#prefix DataK8SRegistryApicurIoApicurioRegistryV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#prefix DataK8SRegistryApicurIoApicurioRegistryV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnvFromSecretRef;
 }
@@ -11277,7 +11277,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -11371,11 +11371,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
   */
   readonly value: string;
 }
@@ -11514,23 +11514,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -11737,7 +11737,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePostStartSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -11828,11 +11828,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
 }
@@ -11952,19 +11952,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
   */
   readonly exec?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sleep DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sleep DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sleep}
   */
   readonly sleep?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePostStartSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePostStartTcpSocket;
 }
@@ -12145,7 +12145,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -12239,11 +12239,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
   */
   readonly value: string;
 }
@@ -12382,23 +12382,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -12605,7 +12605,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePreStopSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -12696,11 +12696,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
 }
@@ -12820,19 +12820,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
   */
   readonly exec?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sleep DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sleep DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sleep}
   */
   readonly sleep?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePreStopSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePreStopTcpSocket;
 }
@@ -13013,11 +13013,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#post_start DataK8SRegistryApicurIoApicurioRegistryV1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#post_start DataK8SRegistryApicurIoApicurioRegistryV1Manifest#post_start}
   */
   readonly postStart?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#pre_stop DataK8SRegistryApicurIoApicurioRegistryV1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#pre_stop DataK8SRegistryApicurIoApicurioRegistryV1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecyclePreStop;
 }
@@ -13140,7 +13140,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -13234,11 +13234,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#service DataK8SRegistryApicurIoApicurioRegistryV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#service DataK8SRegistryApicurIoApicurioRegistryV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -13358,11 +13358,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
   */
   readonly value: string;
 }
@@ -13501,23 +13501,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -13724,11 +13724,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
 }
@@ -13848,43 +13848,43 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
   */
   readonly exec?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#failure_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#failure_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#grpc DataK8SRegistryApicurIoApicurioRegistryV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#grpc DataK8SRegistryApicurIoApicurioRegistryV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#initial_delay_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#initial_delay_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#success_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#success_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_grace_period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_grace_period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#timeout_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#timeout_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -14239,23 +14239,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#container_port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#container_port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host_ip DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host_ip DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host_port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host_port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#protocol DataK8SRegistryApicurIoApicurioRegistryV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#protocol DataK8SRegistryApicurIoApicurioRegistryV1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -14484,7 +14484,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -14578,11 +14578,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#service DataK8SRegistryApicurIoApicurioRegistryV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#service DataK8SRegistryApicurIoApicurioRegistryV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -14702,11 +14702,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
   */
   readonly value: string;
 }
@@ -14845,23 +14845,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -15068,11 +15068,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
 }
@@ -15192,43 +15192,43 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
   */
   readonly exec?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#failure_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#failure_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#grpc DataK8SRegistryApicurIoApicurioRegistryV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#grpc DataK8SRegistryApicurIoApicurioRegistryV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#initial_delay_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#initial_delay_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#success_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#success_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_grace_period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_grace_period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#timeout_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#timeout_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -15583,11 +15583,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersResizePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#restart_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#restart_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -15726,7 +15726,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
 }
@@ -15839,15 +15839,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#claims DataK8SRegistryApicurIoApicurioRegistryV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#claims DataK8SRegistryApicurIoApicurioRegistryV1Manifest#claims}
   */
   readonly claims?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#limits DataK8SRegistryApicurIoApicurioRegistryV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#limits DataK8SRegistryApicurIoApicurioRegistryV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#requests DataK8SRegistryApicurIoApicurioRegistryV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#requests DataK8SRegistryApicurIoApicurioRegistryV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -15999,11 +15999,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#add DataK8SRegistryApicurIoApicurioRegistryV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#add DataK8SRegistryApicurIoApicurioRegistryV1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#drop DataK8SRegistryApicurIoApicurioRegistryV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#drop DataK8SRegistryApicurIoApicurioRegistryV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -16126,19 +16126,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#level DataK8SRegistryApicurIoApicurioRegistryV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#level DataK8SRegistryApicurIoApicurioRegistryV1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#role DataK8SRegistryApicurIoApicurioRegistryV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#role DataK8SRegistryApicurIoApicurioRegistryV1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#user DataK8SRegistryApicurIoApicurioRegistryV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#user DataK8SRegistryApicurIoApicurioRegistryV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -16319,11 +16319,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#localhost_profile DataK8SRegistryApicurIoApicurioRegistryV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#localhost_profile DataK8SRegistryApicurIoApicurioRegistryV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#type}
   */
   readonly type: string;
 }
@@ -16443,19 +16443,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#gmsa_credential_spec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#gmsa_credential_spec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#gmsa_credential_spec_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#gmsa_credential_spec_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host_process DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host_process DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_user_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_user_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -16636,47 +16636,47 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#allow_privilege_escalation DataK8SRegistryApicurIoApicurioRegistryV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#allow_privilege_escalation DataK8SRegistryApicurIoApicurioRegistryV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#capabilities DataK8SRegistryApicurIoApicurioRegistryV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#capabilities DataK8SRegistryApicurIoApicurioRegistryV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#privileged DataK8SRegistryApicurIoApicurioRegistryV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#privileged DataK8SRegistryApicurIoApicurioRegistryV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#proc_mount DataK8SRegistryApicurIoApicurioRegistryV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#proc_mount DataK8SRegistryApicurIoApicurioRegistryV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only_root_filesystem DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only_root_filesystem DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_group DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_group DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_non_root DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_non_root DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_user DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_user DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#se_linux_options DataK8SRegistryApicurIoApicurioRegistryV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#se_linux_options DataK8SRegistryApicurIoApicurioRegistryV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#seccomp_profile DataK8SRegistryApicurIoApicurioRegistryV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#seccomp_profile DataK8SRegistryApicurIoApicurioRegistryV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#windows_options DataK8SRegistryApicurIoApicurioRegistryV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#windows_options DataK8SRegistryApicurIoApicurioRegistryV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersSecurityContextWindowsOptions;
 }
@@ -17060,7 +17060,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -17154,11 +17154,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#service DataK8SRegistryApicurIoApicurioRegistryV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#service DataK8SRegistryApicurIoApicurioRegistryV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -17278,11 +17278,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
   */
   readonly value: string;
 }
@@ -17421,23 +17421,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_headers DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#scheme DataK8SRegistryApicurIoApicurioRegistryV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -17644,11 +17644,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#port DataK8SRegistryApicurIoApicurioRegistryV1Manifest#port}
   */
   readonly port: string;
 }
@@ -17768,43 +17768,43 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#exec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#exec}
   */
   readonly exec?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#failure_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#failure_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#grpc DataK8SRegistryApicurIoApicurioRegistryV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#grpc DataK8SRegistryApicurIoApicurioRegistryV1Manifest#grpc}
   */
   readonly grpc?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#http_get DataK8SRegistryApicurIoApicurioRegistryV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#initial_delay_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#initial_delay_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#success_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#success_threshold DataK8SRegistryApicurIoApicurioRegistryV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tcp_socket DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_grace_period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_grace_period_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#timeout_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#timeout_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -18159,11 +18159,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#device_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#device_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
 }
@@ -18302,27 +18302,27 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#mount_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#mount_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#mount_propagation DataK8SRegistryApicurIoApicurioRegistryV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#mount_propagation DataK8SRegistryApicurIoApicurioRegistryV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sub_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sub_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sub_path_expr DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sub_path_expr DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -18577,99 +18577,99 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#args DataK8SRegistryApicurIoApicurioRegistryV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#args DataK8SRegistryApicurIoApicurioRegistryV1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#command DataK8SRegistryApicurIoApicurioRegistryV1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#env DataK8SRegistryApicurIoApicurioRegistryV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#env DataK8SRegistryApicurIoApicurioRegistryV1Manifest#env}
   */
   readonly env?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#env_from DataK8SRegistryApicurIoApicurioRegistryV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#env_from DataK8SRegistryApicurIoApicurioRegistryV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#image DataK8SRegistryApicurIoApicurioRegistryV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#image DataK8SRegistryApicurIoApicurioRegistryV1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#image_pull_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#image_pull_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#lifecycle DataK8SRegistryApicurIoApicurioRegistryV1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#lifecycle DataK8SRegistryApicurIoApicurioRegistryV1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#liveness_probe DataK8SRegistryApicurIoApicurioRegistryV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#liveness_probe DataK8SRegistryApicurIoApicurioRegistryV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#ports DataK8SRegistryApicurIoApicurioRegistryV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#ports DataK8SRegistryApicurIoApicurioRegistryV1Manifest#ports}
   */
   readonly ports?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#readiness_probe DataK8SRegistryApicurIoApicurioRegistryV1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#readiness_probe DataK8SRegistryApicurIoApicurioRegistryV1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resize_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resize_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersResizePolicy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resources DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resources DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resources}
   */
   readonly resources?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#restart_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#restart_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#security_context DataK8SRegistryApicurIoApicurioRegistryV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#security_context DataK8SRegistryApicurIoApicurioRegistryV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#startup_probe DataK8SRegistryApicurIoApicurioRegistryV1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#startup_probe DataK8SRegistryApicurIoApicurioRegistryV1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#stdin DataK8SRegistryApicurIoApicurioRegistryV1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#stdin DataK8SRegistryApicurIoApicurioRegistryV1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#stdin_once DataK8SRegistryApicurIoApicurioRegistryV1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#stdin_once DataK8SRegistryApicurIoApicurioRegistryV1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_message_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_message_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_message_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#termination_message_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tty DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#tty DataK8SRegistryApicurIoApicurioRegistryV1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_devices DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_devices DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_mounts DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_mounts DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecInitContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#working_dir DataK8SRegistryApicurIoApicurioRegistryV1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#working_dir DataK8SRegistryApicurIoApicurioRegistryV1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -19449,7 +19449,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecOs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
 }
@@ -19540,7 +19540,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecReadinessGates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#condition_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#condition_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#condition_type}
   */
   readonly conditionType: string;
 }
@@ -19653,19 +19653,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#level DataK8SRegistryApicurIoApicurioRegistryV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#level DataK8SRegistryApicurIoApicurioRegistryV1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#role DataK8SRegistryApicurIoApicurioRegistryV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#role DataK8SRegistryApicurIoApicurioRegistryV1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#user DataK8SRegistryApicurIoApicurioRegistryV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#user DataK8SRegistryApicurIoApicurioRegistryV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -19846,11 +19846,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#localhost_profile DataK8SRegistryApicurIoApicurioRegistryV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#localhost_profile DataK8SRegistryApicurIoApicurioRegistryV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#type}
   */
   readonly type: string;
 }
@@ -19970,11 +19970,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecSecurityContextSysctls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
   */
   readonly value: string;
 }
@@ -20113,19 +20113,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#gmsa_credential_spec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#gmsa_credential_spec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#gmsa_credential_spec_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#gmsa_credential_spec_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host_process DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#host_process DataK8SRegistryApicurIoApicurioRegistryV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_user_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_user_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -20306,43 +20306,43 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_group DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_group DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_group_change_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_group_change_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_group DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_group DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_non_root DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_non_root DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_user DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#run_as_user DataK8SRegistryApicurIoApicurioRegistryV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#se_linux_options DataK8SRegistryApicurIoApicurioRegistryV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#se_linux_options DataK8SRegistryApicurIoApicurioRegistryV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#seccomp_profile DataK8SRegistryApicurIoApicurioRegistryV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#seccomp_profile DataK8SRegistryApicurIoApicurioRegistryV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#supplemental_groups DataK8SRegistryApicurIoApicurioRegistryV1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#supplemental_groups DataK8SRegistryApicurIoApicurioRegistryV1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sysctls DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#sysctls DataK8SRegistryApicurIoApicurioRegistryV1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecSecurityContextSysctls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#windows_options DataK8SRegistryApicurIoApicurioRegistryV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#windows_options DataK8SRegistryApicurIoApicurioRegistryV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecSecurityContextWindowsOptions;
 }
@@ -20697,23 +20697,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#effect DataK8SRegistryApicurIoApicurioRegistryV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#effect DataK8SRegistryApicurIoApicurioRegistryV1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#operator DataK8SRegistryApicurIoApicurioRegistryV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#operator DataK8SRegistryApicurIoApicurioRegistryV1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#toleration_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#toleration_seconds DataK8SRegistryApicurIoApicurioRegistryV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#value DataK8SRegistryApicurIoApicurioRegistryV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -20945,15 +20945,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecTopologySpreadConstraintsLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#operator DataK8SRegistryApicurIoApicurioRegistryV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#operator DataK8SRegistryApicurIoApicurioRegistryV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#values DataK8SRegistryApicurIoApicurioRegistryV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#values DataK8SRegistryApicurIoApicurioRegistryV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21121,11 +21121,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecTopologySpreadConstraintsLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#match_expressions DataK8SRegistryApicurIoApicurioRegistryV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#match_expressions DataK8SRegistryApicurIoApicurioRegistryV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#match_labels DataK8SRegistryApicurIoApicurioRegistryV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#match_labels DataK8SRegistryApicurIoApicurioRegistryV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21248,35 +21248,35 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecTopologySpreadConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#label_selector DataK8SRegistryApicurIoApicurioRegistryV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#label_selector DataK8SRegistryApicurIoApicurioRegistryV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecTopologySpreadConstraintsLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#match_label_keys DataK8SRegistryApicurIoApicurioRegistryV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#match_label_keys DataK8SRegistryApicurIoApicurioRegistryV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#max_skew DataK8SRegistryApicurIoApicurioRegistryV1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#max_skew DataK8SRegistryApicurIoApicurioRegistryV1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#min_domains DataK8SRegistryApicurIoApicurioRegistryV1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#min_domains DataK8SRegistryApicurIoApicurioRegistryV1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#node_affinity_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#node_affinity_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#node_taints_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#node_taints_policy DataK8SRegistryApicurIoApicurioRegistryV1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#topology_key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#topology_key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#when_unsatisfiable DataK8SRegistryApicurIoApicurioRegistryV1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#when_unsatisfiable DataK8SRegistryApicurIoApicurioRegistryV1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -21586,19 +21586,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesAwsElasticBlockStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#partition DataK8SRegistryApicurIoApicurioRegistryV1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#partition DataK8SRegistryApicurIoApicurioRegistryV1Manifest#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_id DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_id DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -21776,27 +21776,27 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesAzureDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#caching_mode DataK8SRegistryApicurIoApicurioRegistryV1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#caching_mode DataK8SRegistryApicurIoApicurioRegistryV1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#disk_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#disk_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#disk_name}
   */
   readonly diskName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#disk_uri DataK8SRegistryApicurIoApicurioRegistryV1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#disk_uri DataK8SRegistryApicurIoApicurioRegistryV1Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#kind DataK8SRegistryApicurIoApicurioRegistryV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#kind DataK8SRegistryApicurIoApicurioRegistryV1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -22029,15 +22029,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesAzureFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#share_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#share_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -22183,7 +22183,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesCephfsSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -22277,27 +22277,27 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesCephfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#monitors DataK8SRegistryApicurIoApicurioRegistryV1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#monitors DataK8SRegistryApicurIoApicurioRegistryV1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_file DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_file DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesCephfsSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#user DataK8SRegistryApicurIoApicurioRegistryV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#user DataK8SRegistryApicurIoApicurioRegistryV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -22533,7 +22533,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesCinderSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -22627,19 +22627,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesCinder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesCinderSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_id DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_id DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -22817,15 +22817,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#mode DataK8SRegistryApicurIoApicurioRegistryV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#mode DataK8SRegistryApicurIoApicurioRegistryV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path: string;
 }
@@ -22993,19 +22993,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#default_mode DataK8SRegistryApicurIoApicurioRegistryV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#default_mode DataK8SRegistryApicurIoApicurioRegistryV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#items DataK8SRegistryApicurIoApicurioRegistryV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#items DataK8SRegistryApicurIoApicurioRegistryV1Manifest#items}
   */
   readonly items?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23186,7 +23186,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesCsiNodePublishSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -23280,23 +23280,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesCsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#driver DataK8SRegistryApicurIoApicurioRegistryV1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#driver DataK8SRegistryApicurIoApicurioRegistryV1Manifest#driver}
   */
   readonly driver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#node_publish_secret_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#node_publish_secret_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesCsiNodePublishSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_attributes DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_attributes DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -23503,11 +23503,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#api_version DataK8SRegistryApicurIoApicurioRegistryV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#api_version DataK8SRegistryApicurIoApicurioRegistryV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#field_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#field_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -23627,15 +23627,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#container_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#container_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#divisor DataK8SRegistryApicurIoApicurioRegistryV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#divisor DataK8SRegistryApicurIoApicurioRegistryV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -23784,19 +23784,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#field_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#field_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#mode DataK8SRegistryApicurIoApicurioRegistryV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#mode DataK8SRegistryApicurIoApicurioRegistryV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource_field_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource_field_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesDownwardApiItemsResourceFieldRef;
 }
@@ -23996,11 +23996,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#default_mode DataK8SRegistryApicurIoApicurioRegistryV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#default_mode DataK8SRegistryApicurIoApicurioRegistryV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#items DataK8SRegistryApicurIoApicurioRegistryV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#items DataK8SRegistryApicurIoApicurioRegistryV1Manifest#items}
   */
   readonly items?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -24123,11 +24123,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#medium DataK8SRegistryApicurIoApicurioRegistryV1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#medium DataK8SRegistryApicurIoApicurioRegistryV1Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#size_limit DataK8SRegistryApicurIoApicurioRegistryV1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#size_limit DataK8SRegistryApicurIoApicurioRegistryV1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -24250,15 +24250,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesEphemeralVolumeClaimTemplateSpecDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#api_group DataK8SRegistryApicurIoApicurioRegistryV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#api_group DataK8SRegistryApicurIoApicurioRegistryV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#kind DataK8SRegistryApicurIoApicurioRegistryV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#kind DataK8SRegistryApicurIoApicurioRegistryV1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
 }
@@ -24404,19 +24404,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#api_group DataK8SRegistryApicurIoApicurioRegistryV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#api_group DataK8SRegistryApicurIoApicurioRegistryV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#kind DataK8SRegistryApicurIoApicurioRegistryV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#kind DataK8SRegistryApicurIoApicurioRegistryV1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#namespace DataK8SRegistryApicurIoApicurioRegistryV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#namespace DataK8SRegistryApicurIoApicurioRegistryV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -24591,11 +24591,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesEphemeralVolumeClaimTemplateSpecResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#limits DataK8SRegistryApicurIoApicurioRegistryV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#limits DataK8SRegistryApicurIoApicurioRegistryV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#requests DataK8SRegistryApicurIoApicurioRegistryV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#requests DataK8SRegistryApicurIoApicurioRegistryV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -24718,15 +24718,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#operator DataK8SRegistryApicurIoApicurioRegistryV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#operator DataK8SRegistryApicurIoApicurioRegistryV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#values DataK8SRegistryApicurIoApicurioRegistryV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#values DataK8SRegistryApicurIoApicurioRegistryV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24894,11 +24894,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesEphemeralVolumeClaimTemplateSpecSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#match_expressions DataK8SRegistryApicurIoApicurioRegistryV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#match_expressions DataK8SRegistryApicurIoApicurioRegistryV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#match_labels DataK8SRegistryApicurIoApicurioRegistryV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#match_labels DataK8SRegistryApicurIoApicurioRegistryV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -25021,39 +25021,39 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesEphemeralVolumeClaimTemplateSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#access_modes DataK8SRegistryApicurIoApicurioRegistryV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#access_modes DataK8SRegistryApicurIoApicurioRegistryV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#data_source DataK8SRegistryApicurIoApicurioRegistryV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#data_source DataK8SRegistryApicurIoApicurioRegistryV1Manifest#data_source}
   */
   readonly dataSource?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#data_source_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#data_source_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resources DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resources DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resources}
   */
   readonly resources?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#selector DataK8SRegistryApicurIoApicurioRegistryV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#selector DataK8SRegistryApicurIoApicurioRegistryV1Manifest#selector}
   */
   readonly selector?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#storage_class_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#storage_class_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_attributes_class_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_attributes_class_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_mode DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_mode DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -25379,11 +25379,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesEphemeralVolumeClaimTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#metadata DataK8SRegistryApicurIoApicurioRegistryV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#metadata DataK8SRegistryApicurIoApicurioRegistryV1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#spec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#spec DataK8SRegistryApicurIoApicurioRegistryV1Manifest#spec}
   */
   readonly spec: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -25503,7 +25503,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesEphemeral {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_claim_template DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_claim_template DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesEphemeralVolumeClaimTemplate;
 }
@@ -25597,23 +25597,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesFc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#lun DataK8SRegistryApicurIoApicurioRegistryV1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#lun DataK8SRegistryApicurIoApicurioRegistryV1Manifest#lun}
   */
   readonly lun?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#target_ww_ns DataK8SRegistryApicurIoApicurioRegistryV1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#target_ww_ns DataK8SRegistryApicurIoApicurioRegistryV1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#wwids DataK8SRegistryApicurIoApicurioRegistryV1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#wwids DataK8SRegistryApicurIoApicurioRegistryV1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -25823,7 +25823,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesFlexVolumeSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -25917,23 +25917,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesFlexVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#driver DataK8SRegistryApicurIoApicurioRegistryV1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#driver DataK8SRegistryApicurIoApicurioRegistryV1Manifest#driver}
   */
   readonly driver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#options DataK8SRegistryApicurIoApicurioRegistryV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#options DataK8SRegistryApicurIoApicurioRegistryV1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesFlexVolumeSecretRef;
 }
@@ -26140,11 +26140,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesFlocker {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#dataset_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#dataset_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#dataset_uuid DataK8SRegistryApicurIoApicurioRegistryV1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#dataset_uuid DataK8SRegistryApicurIoApicurioRegistryV1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -26267,19 +26267,19 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesGcePersistentDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#partition DataK8SRegistryApicurIoApicurioRegistryV1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#partition DataK8SRegistryApicurIoApicurioRegistryV1Manifest#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#pd_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#pd_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -26457,15 +26457,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesGitRepo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#directory DataK8SRegistryApicurIoApicurioRegistryV1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#directory DataK8SRegistryApicurIoApicurioRegistryV1Manifest#directory}
   */
   readonly directory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#repository DataK8SRegistryApicurIoApicurioRegistryV1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#repository DataK8SRegistryApicurIoApicurioRegistryV1Manifest#repository}
   */
   readonly repository: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#revision DataK8SRegistryApicurIoApicurioRegistryV1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#revision DataK8SRegistryApicurIoApicurioRegistryV1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -26614,15 +26614,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesGlusterfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#endpoints DataK8SRegistryApicurIoApicurioRegistryV1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#endpoints DataK8SRegistryApicurIoApicurioRegistryV1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -26768,11 +26768,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -26892,7 +26892,7 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesIscsiSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -26986,47 +26986,47 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesIscsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#chap_auth_discovery DataK8SRegistryApicurIoApicurioRegistryV1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#chap_auth_discovery DataK8SRegistryApicurIoApicurioRegistryV1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#chap_auth_session DataK8SRegistryApicurIoApicurioRegistryV1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#chap_auth_session DataK8SRegistryApicurIoApicurioRegistryV1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#initiator_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#initiator_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#iqn DataK8SRegistryApicurIoApicurioRegistryV1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#iqn DataK8SRegistryApicurIoApicurioRegistryV1Manifest#iqn}
   */
   readonly iqn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#iscsi_interface DataK8SRegistryApicurIoApicurioRegistryV1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#iscsi_interface DataK8SRegistryApicurIoApicurioRegistryV1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#lun DataK8SRegistryApicurIoApicurioRegistryV1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#lun DataK8SRegistryApicurIoApicurioRegistryV1Manifest#lun}
   */
   readonly lun: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#portals DataK8SRegistryApicurIoApicurioRegistryV1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#portals DataK8SRegistryApicurIoApicurioRegistryV1Manifest#portals}
   */
   readonly portals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#secret_ref DataK8SRegistryApicurIoApicurioRegistryV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesIscsiSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#target_portal DataK8SRegistryApicurIoApicurioRegistryV1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#target_portal DataK8SRegistryApicurIoApicurioRegistryV1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -27401,15 +27401,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesNfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#server DataK8SRegistryApicurIoApicurioRegistryV1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#server DataK8SRegistryApicurIoApicurioRegistryV1Manifest#server}
   */
   readonly server: string;
 }
@@ -27555,11 +27555,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesPersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#claim_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#claim_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -27679,11 +27679,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesPhotonPersistentDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#pd_id DataK8SRegistryApicurIoApicurioRegistryV1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#pd_id DataK8SRegistryApicurIoApicurioRegistryV1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -27803,15 +27803,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesPortworxVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#fs_type DataK8SRegistryApicurIoApicurioRegistryV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#read_only DataK8SRegistryApicurIoApicurioRegistryV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_id DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#volume_id DataK8SRegistryApicurIoApicurioRegistryV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -27960,15 +27960,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#operator DataK8SRegistryApicurIoApicurioRegistryV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#operator DataK8SRegistryApicurIoApicurioRegistryV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#values DataK8SRegistryApicurIoApicurioRegistryV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#values DataK8SRegistryApicurIoApicurioRegistryV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -28136,11 +28136,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesProjectedSourcesClusterTrustBundleLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#match_expressions DataK8SRegistryApicurIoApicurioRegistryV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#match_expressions DataK8SRegistryApicurIoApicurioRegistryV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#match_labels DataK8SRegistryApicurIoApicurioRegistryV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#match_labels DataK8SRegistryApicurIoApicurioRegistryV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -28263,23 +28263,23 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesProjectedSourcesClusterTrustBundle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#label_selector DataK8SRegistryApicurIoApicurioRegistryV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#label_selector DataK8SRegistryApicurIoApicurioRegistryV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesProjectedSourcesClusterTrustBundleLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#signer_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#signer_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -28486,15 +28486,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesProjectedSourcesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#key DataK8SRegistryApicurIoApicurioRegistryV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#mode DataK8SRegistryApicurIoApicurioRegistryV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#mode DataK8SRegistryApicurIoApicurioRegistryV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#path}
   */
   readonly path: string;
 }
@@ -28662,15 +28662,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesProjectedSourcesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#items DataK8SRegistryApicurIoApicurioRegistryV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#items DataK8SRegistryApicurIoApicurioRegistryV1Manifest#items}
   */
   readonly items?: DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#optional DataK8SRegistryApicurIoApicurioRegistryV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -28822,11 +28822,11 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesProjectedSourcesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#api_version DataK8SRegistryApicurIoApicurioRegistryV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#api_version DataK8SRegistryApicurIoApicurioRegistryV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#field_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#field_path DataK8SRegistryApicurIoApicurioRegistryV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -28946,15 +28946,15 @@ export class DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodT
 }
 export interface DataK8SRegistryApicurIoApicurioRegistryV1ManifestSpecDeploymentPodTemplateSpecPreviewSpecVolumesProjectedSourcesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#container_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#container_name DataK8SRegistryApicurIoApicurioRegistryV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#divisor DataK8SRegistryApicurIoApicurioRegistryV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#divisor DataK8SRegistryApicurIoApicurioRegistryV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_apicur_io_apicurio_registry_v1_manifest#resource DataK8SRegistryApicurIoApicurioRegistryV1Manifest#resource}
   */
   readonly resource: string;
 }

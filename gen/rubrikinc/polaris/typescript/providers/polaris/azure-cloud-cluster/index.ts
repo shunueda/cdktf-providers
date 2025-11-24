@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AzureCloudClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * RSC cloud account ID (UUID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#cloud_account_id AzureCloudCluster#cloud_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#cloud_account_id AzureCloudCluster#cloud_account_id}
   */
   readonly cloudAccountId: string;
   /**
   * cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#cluster_config AzureCloudCluster#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#cluster_config AzureCloudCluster#cluster_config}
   */
   readonly clusterConfig: AzureCloudClusterClusterConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#timeouts AzureCloudCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#timeouts AzureCloudCluster#timeouts}
   */
   readonly timeouts?: AzureCloudClusterTimeouts;
   /**
   * vm_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#vm_config AzureCloudCluster#vm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#vm_config AzureCloudCluster#vm_config}
   */
   readonly vmConfig: AzureCloudClusterVmConfig;
 }
@@ -36,49 +36,49 @@ export interface AzureCloudClusterClusterConfig {
   /**
   * Email address for the cluster admin user. Changing this value will have no effect on the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#admin_email AzureCloudCluster#admin_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#admin_email AzureCloudCluster#admin_email}
   */
   readonly adminEmail: string;
   /**
   * Password for the cluster admin user. Changing this value will have no effect on the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#admin_password AzureCloudCluster#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#admin_password AzureCloudCluster#admin_password}
   */
   readonly adminPassword: string;
   /**
   * Unique name to assign to the cloud cluster. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#cluster_name AzureCloudCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#cluster_name AzureCloudCluster#cluster_name}
   */
   readonly clusterName: string;
   /**
   * DNS name servers for the cluster. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#dns_name_servers AzureCloudCluster#dns_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#dns_name_servers AzureCloudCluster#dns_name_servers}
   */
   readonly dnsNameServers: string[];
   /**
   * DNS search domains for the cluster. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#dns_search_domains AzureCloudCluster#dns_search_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#dns_search_domains AzureCloudCluster#dns_search_domains}
   */
   readonly dnsSearchDomains?: string[];
   /**
   * Whether to keep the cluster on failure (can be useful for troubleshooting). Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#keep_cluster_on_failure AzureCloudCluster#keep_cluster_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#keep_cluster_on_failure AzureCloudCluster#keep_cluster_on_failure}
   */
   readonly keepClusterOnFailure: boolean | cdktf.IResolvable;
   /**
   * NTP servers for the cluster. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#ntp_servers AzureCloudCluster#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#ntp_servers AzureCloudCluster#ntp_servers}
   */
   readonly ntpServers: string[];
   /**
   * Number of nodes in the cluster. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#num_nodes AzureCloudCluster#num_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#num_nodes AzureCloudCluster#num_nodes}
   */
   readonly numNodes: number;
 }
@@ -344,15 +344,15 @@ export class AzureCloudClusterClusterConfigOutputReference extends cdktf.Complex
 }
 export interface AzureCloudClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#create AzureCloudCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#create AzureCloudCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#default AzureCloudCluster#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#default AzureCloudCluster#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#read AzureCloudCluster#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#read AzureCloudCluster#read}
   */
   readonly read?: string;
 }
@@ -506,91 +506,91 @@ export interface AzureCloudClusterVmConfig {
   /**
   * CDM version to use. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#cdm_version AzureCloudCluster#cdm_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#cdm_version AzureCloudCluster#cdm_version}
   */
   readonly cdmVersion: string;
   /**
   * Azure storage container name for the cluster. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#container_name AzureCloudCluster#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#container_name AzureCloudCluster#container_name}
   */
   readonly containerName: string;
   /**
   * Whether to enable immutability for the storage account. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#enable_immutability AzureCloudCluster#enable_immutability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#enable_immutability AzureCloudCluster#enable_immutability}
   */
   readonly enableImmutability: boolean | cdktf.IResolvable;
   /**
   * Azure instance type for the cluster nodes. Allowed values are `STANDARD_DS5_V2`, `STANDARD_D16S_V5`, `STANDARD_D8S_V5`, `STANDARD_D32S_V5`, `STANDARD_E16S_V5`, `STANDARD_D8AS_V5`, `STANDARD_D16AS_V5`, `STANDARD_D32AS_V5` and `STANDARD_E16AS_V5`. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#instance_type AzureCloudCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#instance_type AzureCloudCluster#instance_type}
   */
   readonly instanceType: string;
   /**
   * Azure resource group name for network resources. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#network_resource_group AzureCloudCluster#network_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#network_resource_group AzureCloudCluster#network_resource_group}
   */
   readonly networkResourceGroup: string;
   /**
   * Azure network security group name. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#network_security_group AzureCloudCluster#network_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#network_security_group AzureCloudCluster#network_security_group}
   */
   readonly networkSecurityGroup: string;
   /**
   * Azure resource group name for the network security group. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#network_security_resource_group AzureCloudCluster#network_security_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#network_security_resource_group AzureCloudCluster#network_security_resource_group}
   */
   readonly networkSecurityResourceGroup: string;
   /**
   * Azure region to deploy the cluster in. The format should be the native Azure format, e.g. `eastus`, `westus`, etc. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#region AzureCloudCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#region AzureCloudCluster#region}
   */
   readonly region: string;
   /**
   * Azure resource group name where the cluster will be deployed. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#resource_group_name AzureCloudCluster#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#resource_group_name AzureCloudCluster#resource_group_name}
   */
   readonly resourceGroupName: string;
   /**
   * Azure storage account name for the cluster. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#storage_account_name AzureCloudCluster#storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#storage_account_name AzureCloudCluster#storage_account_name}
   */
   readonly storageAccountName: string;
   /**
   * Azure subnet name for the cluster nodes. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#subnet AzureCloudCluster#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#subnet AzureCloudCluster#subnet}
   */
   readonly subnet: string;
   /**
   * Name of the user-assigned managed identity. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#user_assigned_managed_identity_name AzureCloudCluster#user_assigned_managed_identity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#user_assigned_managed_identity_name AzureCloudCluster#user_assigned_managed_identity_name}
   */
   readonly userAssignedManagedIdentityName: string;
   /**
   * VM type for the cluster. Changing this forces a new resource to be created. Possible values are `STANDARD`, `DENSE` and `EXTRA_DENSE`. `EXTRA_DENSE` is recommended for CCES.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#vm_type AzureCloudCluster#vm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#vm_type AzureCloudCluster#vm_type}
   */
   readonly vmType?: string;
   /**
   * Azure virtual network name. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#vnet AzureCloudCluster#vnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#vnet AzureCloudCluster#vnet}
   */
   readonly vnet: string;
   /**
   * Azure resource group name for the virtual network. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#vnet_resource_group AzureCloudCluster#vnet_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#vnet_resource_group AzureCloudCluster#vnet_resource_group}
   */
   readonly vnetResourceGroup: string;
 }
@@ -1043,7 +1043,7 @@ export class AzureCloudClusterVmConfigOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster polaris_azure_cloud_cluster}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster polaris_azure_cloud_cluster}
 */
 export class AzureCloudCluster extends cdktf.TerraformResource {
 
@@ -1059,7 +1059,7 @@ export class AzureCloudCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureCloudCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureCloudCluster to import
-  * @param importFromId The id of the existing AzureCloudCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureCloudCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureCloudCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1071,7 +1071,7 @@ export class AzureCloudCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_cloud_cluster polaris_azure_cloud_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_cloud_cluster polaris_azure_cloud_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1082,8 +1082,8 @@ export class AzureCloudCluster extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_azure_cloud_cluster',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

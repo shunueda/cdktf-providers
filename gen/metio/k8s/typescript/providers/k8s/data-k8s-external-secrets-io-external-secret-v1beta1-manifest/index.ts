@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#metadata DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#metadata DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestMetadata;
   /**
   * ExternalSecretSpec defines the desired state of ExternalSecret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#spec DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#spec DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#annotations DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#annotations DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#labels DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#labels DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#namespace DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#namespace DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,37 +219,37 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataRe
   /**
   * Used to define a conversion Strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#conversion_strategy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#conversion_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#conversion_strategy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#conversion_strategy}
   */
   readonly conversionStrategy?: string;
   /**
   * Used to define a decoding Strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#decoding_strategy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#decoding_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#decoding_strategy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#decoding_strategy}
   */
   readonly decodingStrategy?: string;
   /**
   * Key is the key used in the Provider, mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#key DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#key DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Policy for fetching tags/labels from provider secrets, possible options are Fetch, None. Defaults to None
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#metadata_policy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#metadata_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#metadata_policy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#metadata_policy}
   */
   readonly metadataPolicy?: string;
   /**
   * Used to select a specific property of the Provider value (if a map), if supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#property DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#property DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#property}
   */
   readonly property?: string;
   /**
   * Used to select a specific version of the Provider value, if supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#version DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#version DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#version}
   */
   readonly version?: string;
 }
@@ -487,19 +487,19 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataSo
   /**
   * Specify the apiVersion of the generator resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#api_version DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#api_version DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Specify the Kind of the resource, e.g. Password, ACRAccessToken etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#kind DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#kind DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Specify the name of the generator resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -647,13 +647,13 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataSo
   /**
   * Kind of the SecretStore resource (SecretStore or ClusterSecretStore) Defaults to 'SecretStore'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#kind DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#kind DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the SecretStore resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -775,13 +775,13 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataSo
   /**
   * GeneratorRef points to a generator custom resource. Deprecated: The generatorRef is not implemented in .data[]. this will be removed with v1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#generator_ref DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#generator_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#generator_ref DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#generator_ref}
   */
   readonly generatorRef?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataSourceRefGeneratorRef;
   /**
   * SecretStoreRef defines which SecretStore to fetch the ExternalSecret data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#store_ref DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#store_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#store_ref DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#store_ref}
   */
   readonly storeRef?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataSourceRefStoreRef;
 }
@@ -906,19 +906,19 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecData {
   /**
   * RemoteRef points to the remote secret and defines which secret (version/property/..) to fetch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#remote_ref DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#remote_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#remote_ref DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#remote_ref}
   */
   readonly remoteRef: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataRemoteRef;
   /**
   * SecretKey defines the key in which the controller stores the value. This is the key in the Kind=Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#secret_key DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#secret_key DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#secret_key}
   */
   readonly secretKey: string;
   /**
   * SourceRef allows you to override the source from which the value will pulled from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#source_ref DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#source_ref DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#source_ref}
   */
   readonly sourceRef?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataSourceRef;
 }
@@ -1088,37 +1088,37 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFr
   /**
   * Used to define a conversion Strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#conversion_strategy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#conversion_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#conversion_strategy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#conversion_strategy}
   */
   readonly conversionStrategy?: string;
   /**
   * Used to define a decoding Strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#decoding_strategy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#decoding_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#decoding_strategy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#decoding_strategy}
   */
   readonly decodingStrategy?: string;
   /**
   * Key is the key used in the Provider, mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#key DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#key DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Policy for fetching tags/labels from provider secrets, possible options are Fetch, None. Defaults to None
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#metadata_policy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#metadata_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#metadata_policy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#metadata_policy}
   */
   readonly metadataPolicy?: string;
   /**
   * Used to select a specific property of the Provider value (if a map), if supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#property DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#property DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#property}
   */
   readonly property?: string;
   /**
   * Used to select a specific version of the Provider value, if supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#version DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#version DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#version}
   */
   readonly version?: string;
 }
@@ -1356,7 +1356,7 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFr
   /**
   * Finds secrets base
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#regexp DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#regexp DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#regexp}
   */
   readonly regexp?: string;
 }
@@ -1452,31 +1452,31 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFr
   /**
   * Used to define a conversion Strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#conversion_strategy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#conversion_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#conversion_strategy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#conversion_strategy}
   */
   readonly conversionStrategy?: string;
   /**
   * Used to define a decoding Strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#decoding_strategy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#decoding_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#decoding_strategy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#decoding_strategy}
   */
   readonly decodingStrategy?: string;
   /**
   * Finds secrets based on the name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
   */
   readonly name?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFromFindName;
   /**
   * A root path to start the find operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#path DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#path DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Find secrets based on tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#tags DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#tags DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1688,13 +1688,13 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFr
   /**
   * Used to define the regular expression of a re.Compiler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#source DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#source DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#source}
   */
   readonly source: string;
   /**
   * Used to define the target pattern of a ReplaceAll operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#target DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#target DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#target}
   */
   readonly target: string;
 }
@@ -1813,7 +1813,7 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFr
   /**
   * Used to define the template to apply on the secret name. '.value ' will specify the secret name in the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#template DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#template DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#template}
   */
   readonly template: string;
 }
@@ -1906,13 +1906,13 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFr
   /**
   * Used to rewrite with regular expressions. The resulting key will be the output of a regexp.ReplaceAll operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#regexp DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#regexp DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#regexp}
   */
   readonly regexp?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFromRewriteRegexp;
   /**
   * Used to apply string transformation on the secrets. The resulting key will be the output of the template applied by the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#transform DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#transform DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#transform}
   */
   readonly transform?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFromRewriteTransform;
 }
@@ -2059,19 +2059,19 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFr
   /**
   * Specify the apiVersion of the generator resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#api_version DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#api_version DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Specify the Kind of the resource, e.g. Password, ACRAccessToken etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#kind DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#kind DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Specify the name of the generator resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -2219,13 +2219,13 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFr
   /**
   * Kind of the SecretStore resource (SecretStore or ClusterSecretStore) Defaults to 'SecretStore'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#kind DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#kind DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the SecretStore resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -2347,13 +2347,13 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFr
   /**
   * GeneratorRef points to a generator custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#generator_ref DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#generator_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#generator_ref DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#generator_ref}
   */
   readonly generatorRef?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFromSourceRefGeneratorRef;
   /**
   * SecretStoreRef defines which SecretStore to fetch the ExternalSecret data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#store_ref DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#store_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#store_ref DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#store_ref}
   */
   readonly storeRef?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFromSourceRefStoreRef;
 }
@@ -2478,25 +2478,25 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFr
   /**
   * Used to extract multiple key/value pairs from one secret Note: Extract does not support sourceRef.Generator or sourceRef.GeneratorRef.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#extract DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#extract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#extract DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#extract}
   */
   readonly extract?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFromExtract;
   /**
   * Used to find secrets based on tags or regular expressions Note: Find does not support sourceRef.Generator or sourceRef.GeneratorRef.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#find DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#find}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#find DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#find}
   */
   readonly find?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFromFind;
   /**
   * Used to rewrite secret Keys after getting them from the secret Provider Multiple Rewrite operations can be provided. They are applied in a layered order (first to last)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#rewrite DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#rewrite DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#rewrite}
   */
   readonly rewrite?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFromRewrite[] | cdktf.IResolvable;
   /**
   * SourceRef points to a store or generator which contains secret values ready to use. Use this in combination with Extract or Find pull values out of a specific SecretStore. When sourceRef points to a generator Extract or Find is not supported. The generator returns a static map of values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#source_ref DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#source_ref DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#source_ref}
   */
   readonly sourceRef?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFromSourceRef;
 }
@@ -2701,13 +2701,13 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecSecret
   /**
   * Kind of the SecretStore resource (SecretStore or ClusterSecretStore) Defaults to 'SecretStore'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#kind DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#kind DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the SecretStore resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -2827,11 +2827,11 @@ export class DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecSecretStor
 }
 export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#annotations DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#annotations DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#labels DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#labels DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -2954,11 +2954,11 @@ export class DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemp
 }
 export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemplateTemplateFromConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#key DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#key DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#template_as DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#template_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#template_as DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#template_as}
   */
   readonly templateAs?: string;
 }
@@ -3100,11 +3100,11 @@ export class DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemp
 }
 export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemplateTemplateFromConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#items DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#items DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#items}
   */
   readonly items: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemplateTemplateFromConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -3221,11 +3221,11 @@ export class DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemp
 }
 export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemplateTemplateFromSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#key DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#key DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#template_as DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#template_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#template_as DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#template_as}
   */
   readonly templateAs?: string;
 }
@@ -3367,11 +3367,11 @@ export class DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemp
 }
 export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemplateTemplateFromSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#items DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#items DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#items}
   */
   readonly items: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemplateTemplateFromSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -3488,19 +3488,19 @@ export class DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemp
 }
 export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemplateTemplateFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#config_map DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#config_map DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemplateTemplateFromConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#literal DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#literal DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#literal}
   */
   readonly literal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#secret DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#secret DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemplateTemplateFromSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#target DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#target DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#target}
   */
   readonly target?: string;
 }
@@ -3703,31 +3703,31 @@ export class DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemp
 }
 export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#data DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#data DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#data}
   */
   readonly data?: { [key: string]: string };
   /**
   * EngineVersion specifies the template engine version that should be used to compile/execute the template specified in .data and .templateFrom[].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#engine_version DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#engine_version DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#merge_policy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#merge_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#merge_policy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#merge_policy}
   */
   readonly mergePolicy?: string;
   /**
   * ExternalSecretTemplateMetadata defines metadata fields for the Secret blueprint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#metadata DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#metadata DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemplateMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#template_from DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#template_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#template_from DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#template_from}
   */
   readonly templateFrom?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemplateTemplateFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#type DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#type DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -3968,31 +3968,31 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTarget
   /**
   * CreationPolicy defines rules on how to create the resulting Secret Defaults to 'Owner'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#creation_policy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#creation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#creation_policy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#creation_policy}
   */
   readonly creationPolicy?: string;
   /**
   * DeletionPolicy defines rules on how to delete the resulting Secret Defaults to 'Retain'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#deletion_policy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#deletion_policy DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Immutable defines if the final secret will be immutable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#immutable DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#immutable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#immutable DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#immutable}
   */
   readonly immutable?: boolean | cdktf.IResolvable;
   /**
   * Name defines the name of the Secret resource to be managed This field is immutable Defaults to the .metadata.name of the ExternalSecret resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#name DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Template defines a blueprint for the created Secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#template DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#template DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#template}
   */
   readonly template?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTargetTemplate;
 }
@@ -4204,31 +4204,31 @@ export interface DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpec {
   /**
   * Data defines the connection between the Kubernetes Secret keys and the Provider data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#data DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#data DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#data}
   */
   readonly data?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecData[] | cdktf.IResolvable;
   /**
   * DataFrom is used to fetch all properties from a specific Provider data If multiple entries are specified, the Secret keys are merged in the specified order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#data_from DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#data_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#data_from DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#data_from}
   */
   readonly dataFrom?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecDataFrom[] | cdktf.IResolvable;
   /**
   * RefreshInterval is the amount of time before the values are read again from the SecretStore provider Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h' May be set to zero to fetch and create it once. Defaults to 1h.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#refresh_interval DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#refresh_interval DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#refresh_interval}
   */
   readonly refreshInterval?: string;
   /**
   * SecretStoreRef defines which SecretStore to fetch the ExternalSecret data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#secret_store_ref DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#secret_store_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#secret_store_ref DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#secret_store_ref}
   */
   readonly secretStoreRef?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecSecretStoreRef;
   /**
   * ExternalSecretTarget defines the Kubernetes Secret to be created There can be only one target per ExternalSecret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#target DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#target DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest#target}
   */
   readonly target?: DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecTarget;
 }
@@ -4438,7 +4438,7 @@ export class DataK8SExternalSecretsIoExternalSecretV1Beta1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest k8s_external_secrets_io_external_secret_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest k8s_external_secrets_io_external_secret_v1beta1_manifest}
 */
 export class DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -4454,7 +4454,7 @@ export class DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4466,7 +4466,7 @@ export class DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest k8s_external_secrets_io_external_secret_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/external_secrets_io_external_secret_v1beta1_manifest k8s_external_secrets_io_external_secret_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4477,8 +4477,8 @@ export class DataK8SExternalSecretsIoExternalSecretV1Beta1Manifest extends cdktf
       terraformResourceType: 'k8s_external_secrets_io_external_secret_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

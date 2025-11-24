@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_archival_location
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_archival_location
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface AzureArchivalLocationConfig extends cdktf.TerraformMetaArgument
   /**
   * RSC cloud account ID (UUID). Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_archival_location#cloud_account_id AzureArchivalLocation#cloud_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_archival_location#cloud_account_id AzureArchivalLocation#cloud_account_id}
   */
   readonly cloudAccountId: string;
   /**
   * Cloud native archival location name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_archival_location#name AzureArchivalLocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_archival_location#name AzureArchivalLocation#name}
   */
   readonly name: string;
   /**
   * Azure storage redundancy. Possible values are `GRS`, `GZRS`, `LRS`, `RA_GRS`, `RA_GZRS` and `ZRS`. Default value is `LRS`. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_archival_location#redundancy AzureArchivalLocation#redundancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_archival_location#redundancy AzureArchivalLocation#redundancy}
   */
   readonly redundancy?: string;
   /**
   * Azure storage account name prefix. The storage account name prefix cannot be longer than 14 characters and can only consist of numbers and lower case letters. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_archival_location#storage_account_name_prefix AzureArchivalLocation#storage_account_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_archival_location#storage_account_name_prefix AzureArchivalLocation#storage_account_name_prefix}
   */
   readonly storageAccountNamePrefix: string;
   /**
   * Azure region to store the snapshots in. If not specified, the snapshots will be stored in the same region as the workload. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_archival_location#storage_account_region AzureArchivalLocation#storage_account_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_archival_location#storage_account_region AzureArchivalLocation#storage_account_region}
   */
   readonly storageAccountRegion?: string;
   /**
   * Azure storage account tags. Each tag will be added to the storage account created by RSC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_archival_location#storage_account_tags AzureArchivalLocation#storage_account_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_archival_location#storage_account_tags AzureArchivalLocation#storage_account_tags}
   */
   readonly storageAccountTags?: { [key: string]: string };
   /**
   * Azure storage tier. Possible values are `COOL` and `HOT`. Default value is `COOL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_archival_location#storage_tier AzureArchivalLocation#storage_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_archival_location#storage_tier AzureArchivalLocation#storage_tier}
   */
   readonly storageTier?: string;
   /**
   * customer_managed_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_archival_location#customer_managed_key AzureArchivalLocation#customer_managed_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_archival_location#customer_managed_key AzureArchivalLocation#customer_managed_key}
   */
   readonly customerManagedKey?: AzureArchivalLocationCustomerManagedKey[] | cdktf.IResolvable;
 }
@@ -60,19 +60,19 @@ export interface AzureArchivalLocationCustomerManagedKey {
   /**
   * Key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_archival_location#name AzureArchivalLocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_archival_location#name AzureArchivalLocation#name}
   */
   readonly name: string;
   /**
   * The region in which the key will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_archival_location#region AzureArchivalLocation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_archival_location#region AzureArchivalLocation#region}
   */
   readonly region: string;
   /**
   * Key vault name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_archival_location#vault_name AzureArchivalLocation#vault_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_archival_location#vault_name AzureArchivalLocation#vault_name}
   */
   readonly vaultName: string;
 }
@@ -237,7 +237,7 @@ export class AzureArchivalLocationCustomerManagedKeyList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_archival_location polaris_azure_archival_location}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_archival_location polaris_azure_archival_location}
 */
 export class AzureArchivalLocation extends cdktf.TerraformResource {
 
@@ -253,7 +253,7 @@ export class AzureArchivalLocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureArchivalLocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureArchivalLocation to import
-  * @param importFromId The id of the existing AzureArchivalLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_archival_location#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureArchivalLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_archival_location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureArchivalLocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +265,7 @@ export class AzureArchivalLocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_archival_location polaris_azure_archival_location} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_archival_location polaris_azure_archival_location} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,8 +276,8 @@ export class AzureArchivalLocation extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_azure_archival_location',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline
+// https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface EntityMatchingPipelineConfig extends cdktf.TerraformMetaArgumen
   /**
   * Your own description of the resource. Must be less than or equal to 256 UTF-8 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline#description EntityMatchingPipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline#description EntityMatchingPipeline#description}
   */
   readonly description?: string;
   /**
   * The display name for the instance. Can be updated without creating a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline#display_name EntityMatchingPipeline#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline#display_name EntityMatchingPipeline#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline#id EntityMatchingPipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline#id EntityMatchingPipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,65 +29,65 @@ export interface EntityMatchingPipelineConfig extends cdktf.TerraformMetaArgumen
   /**
   * Identifier of Location, where to create resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline#location EntityMatchingPipeline#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline#location EntityMatchingPipeline#location}
   */
   readonly location: string;
   /**
   * Unique client assigned immutable identifier. Can not be updated without creating a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline#name EntityMatchingPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline#name EntityMatchingPipeline#name}
   */
   readonly name: string;
   /**
   * RerunInterval is the time between scheduled re-runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline#rerun_interval EntityMatchingPipeline#rerun_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline#rerun_interval EntityMatchingPipeline#rerun_interval}
   */
   readonly rerunInterval?: string;
   /**
-  * Similarity score cutoff to be used in the entity matching pipeline.
+  * Similarity score cutoff to be used in the entity matching pipeline. Defaults to 0.5 if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline#similarity_score_cutoff EntityMatchingPipeline#similarity_score_cutoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline#similarity_score_cutoff EntityMatchingPipeline#similarity_score_cutoff}
   */
   readonly similarityScoreCutoff?: number;
   /**
   * List of source node types to be used in the entity matching pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline#source_node_filter EntityMatchingPipeline#source_node_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline#source_node_filter EntityMatchingPipeline#source_node_filter}
   */
   readonly sourceNodeFilter: string[];
   /**
   * List of target node types to be used in the entity matching pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline#target_node_filter EntityMatchingPipeline#target_node_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline#target_node_filter EntityMatchingPipeline#target_node_filter}
   */
   readonly targetNodeFilter: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline#timeouts EntityMatchingPipeline#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline#timeouts EntityMatchingPipeline#timeouts}
   */
   readonly timeouts?: EntityMatchingPipelineTimeouts;
 }
 export interface EntityMatchingPipelineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline#create EntityMatchingPipeline#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline#create EntityMatchingPipeline#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline#default EntityMatchingPipeline#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline#default EntityMatchingPipeline#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline#delete EntityMatchingPipeline#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline#delete EntityMatchingPipeline#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline#read EntityMatchingPipeline#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline#read EntityMatchingPipeline#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline#update EntityMatchingPipeline#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline#update EntityMatchingPipeline#update}
   */
   readonly update?: string;
 }
@@ -297,7 +297,7 @@ export class EntityMatchingPipelineTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline indykite_entity_matching_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline indykite_entity_matching_pipeline}
 */
 export class EntityMatchingPipeline extends cdktf.TerraformResource {
 
@@ -313,7 +313,7 @@ export class EntityMatchingPipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EntityMatchingPipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EntityMatchingPipeline to import
-  * @param importFromId The id of the existing EntityMatchingPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EntityMatchingPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EntityMatchingPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -325,7 +325,7 @@ export class EntityMatchingPipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/entity_matching_pipeline indykite_entity_matching_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/entity_matching_pipeline indykite_entity_matching_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -336,8 +336,8 @@ export class EntityMatchingPipeline extends cdktf.TerraformResource {
       terraformResourceType: 'indykite_entity_matching_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'indykite',
-        providerVersion: '0.27.0',
-        providerVersionConstraint: '0.27.0'
+        providerVersion: '0.28.0',
+        providerVersionConstraint: '0.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

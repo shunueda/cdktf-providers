@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PlatformServiceOverridesV2Config extends cdktf.TerraformMetaArg
   /**
   * The cluster ID to which the overrides are associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#cluster_id PlatformServiceOverridesV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#cluster_id PlatformServiceOverridesV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * The environment ID to which the overrides are associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#env_id PlatformServiceOverridesV2#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#env_id PlatformServiceOverridesV2#env_id}
   */
   readonly envId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#id PlatformServiceOverridesV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#id PlatformServiceOverridesV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface PlatformServiceOverridesV2Config extends cdktf.TerraformMetaArg
   /**
   * The identifier of the override entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#identifier PlatformServiceOverridesV2#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#identifier PlatformServiceOverridesV2#identifier}
   */
   readonly identifier?: string;
   /**
   * import override from git
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#import_from_git PlatformServiceOverridesV2#import_from_git}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#import_from_git PlatformServiceOverridesV2#import_from_git}
   */
   readonly importFromGit?: boolean | cdktf.IResolvable;
   /**
   * The infrastructure ID to which the overrides are associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#infra_id PlatformServiceOverridesV2#infra_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#infra_id PlatformServiceOverridesV2#infra_id}
   */
   readonly infraId?: string;
   /**
   * force import override from remote even if same file path already exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#is_force_import PlatformServiceOverridesV2#is_force_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#is_force_import PlatformServiceOverridesV2#is_force_import}
   */
   readonly isForceImport?: boolean | cdktf.IResolvable;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#org_id PlatformServiceOverridesV2#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#org_id PlatformServiceOverridesV2#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#project_id PlatformServiceOverridesV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#project_id PlatformServiceOverridesV2#project_id}
   */
   readonly projectId?: string;
   /**
   * The service ID to which the overrides applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#service_id PlatformServiceOverridesV2#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#service_id PlatformServiceOverridesV2#service_id}
   */
   readonly serviceId?: string;
   /**
   * The type of the overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#type PlatformServiceOverridesV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#type PlatformServiceOverridesV2#type}
   */
   readonly type: string;
   /**
   * The yaml of the overrides spec object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#yaml PlatformServiceOverridesV2#yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#yaml PlatformServiceOverridesV2#yaml}
   */
   readonly yaml?: string;
   /**
   * git_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#git_details PlatformServiceOverridesV2#git_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#git_details PlatformServiceOverridesV2#git_details}
   */
   readonly gitDetails?: PlatformServiceOverridesV2GitDetails;
 }
@@ -91,79 +91,79 @@ export interface PlatformServiceOverridesV2GitDetails {
   /**
   * Name of the default branch (this checks out a new branch titled by branch_name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#base_branch PlatformServiceOverridesV2#base_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#base_branch PlatformServiceOverridesV2#base_branch}
   */
   readonly baseBranch?: string;
   /**
   * Name of the branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#branch PlatformServiceOverridesV2#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#branch PlatformServiceOverridesV2#branch}
   */
   readonly branch?: string;
   /**
   * Commit message used for the merge commit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#commit_message PlatformServiceOverridesV2#commit_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#commit_message PlatformServiceOverridesV2#commit_message}
   */
   readonly commitMessage?: string;
   /**
   * Identifier of the Harness Connector used for CRUD operations on the Entity. To reference a connector at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a connector at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#connector_ref PlatformServiceOverridesV2#connector_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#connector_ref PlatformServiceOverridesV2#connector_ref}
   */
   readonly connectorRef?: string;
   /**
   * File path of the Entity in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#file_path PlatformServiceOverridesV2#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#file_path PlatformServiceOverridesV2#file_path}
   */
   readonly filePath?: string;
   /**
   * If the repo is in harness code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#is_harness_code_repo PlatformServiceOverridesV2#is_harness_code_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#is_harness_code_repo PlatformServiceOverridesV2#is_harness_code_repo}
   */
   readonly isHarnessCodeRepo?: boolean | cdktf.IResolvable;
   /**
   * If the branch being created is new
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#is_new_branch PlatformServiceOverridesV2#is_new_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#is_new_branch PlatformServiceOverridesV2#is_new_branch}
   */
   readonly isNewBranch?: boolean | cdktf.IResolvable;
   /**
   * Last commit identifier (for Git Repositories other than Github). To be provided only when updating override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#last_commit_id PlatformServiceOverridesV2#last_commit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#last_commit_id PlatformServiceOverridesV2#last_commit_id}
   */
   readonly lastCommitId?: string;
   /**
   * Last object identifier (for Github). To be provided only when updating override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#last_object_id PlatformServiceOverridesV2#last_object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#last_object_id PlatformServiceOverridesV2#last_object_id}
   */
   readonly lastObjectId?: string;
   /**
   * Load service yaml from catch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#load_from_cache PlatformServiceOverridesV2#load_from_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#load_from_cache PlatformServiceOverridesV2#load_from_cache}
   */
   readonly loadFromCache?: boolean | cdktf.IResolvable;
   /**
   * Load service yaml from fallback branch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#load_from_fallback_branch PlatformServiceOverridesV2#load_from_fallback_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#load_from_fallback_branch PlatformServiceOverridesV2#load_from_fallback_branch}
   */
   readonly loadFromFallbackBranch?: boolean | cdktf.IResolvable;
   /**
   * Name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#repo_name PlatformServiceOverridesV2#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#repo_name PlatformServiceOverridesV2#repo_name}
   */
   readonly repoName?: string;
   /**
   * Specifies whether the Entity is to be stored in Git or not. Possible values: INLINE, REMOTE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#store_type PlatformServiceOverridesV2#store_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#store_type PlatformServiceOverridesV2#store_type}
   */
   readonly storeType?: string;
 }
@@ -595,7 +595,7 @@ export class PlatformServiceOverridesV2GitDetailsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2 harness_platform_service_overrides_v2}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2 harness_platform_service_overrides_v2}
 */
 export class PlatformServiceOverridesV2 extends cdktf.TerraformResource {
 
@@ -611,7 +611,7 @@ export class PlatformServiceOverridesV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformServiceOverridesV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformServiceOverridesV2 to import
-  * @param importFromId The id of the existing PlatformServiceOverridesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformServiceOverridesV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformServiceOverridesV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -623,7 +623,7 @@ export class PlatformServiceOverridesV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_service_overrides_v2 harness_platform_service_overrides_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_service_overrides_v2 harness_platform_service_overrides_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -634,8 +634,8 @@ export class PlatformServiceOverridesV2 extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_service_overrides_v2',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

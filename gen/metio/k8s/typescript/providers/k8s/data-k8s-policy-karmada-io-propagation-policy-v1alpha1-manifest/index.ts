@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#metadata DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#metadata DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestMetadata;
   /**
   * Spec represents the desired behavior of PropagationPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#spec DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#spec DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#annotations DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#annotations DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#labels DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#labels DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#name DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#name DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#namespace DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#namespace DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecFail
   /**
   * TolerationSeconds represents the period of time Karmada should wait after reaching the desired state before performing failover process. If not specified, Karmada will immediately perform failover process. Defaults to 300s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#toleration_seconds DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#toleration_seconds DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
 }
@@ -315,19 +315,19 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecFail
   /**
   * DecisionConditions indicates the decision conditions of performing the failover process. Only when all conditions are met can the failover process be performed. Currently, DecisionConditions includes several conditions: - TolerationSeconds (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#decision_conditions DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#decision_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#decision_conditions DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#decision_conditions}
   */
   readonly decisionConditions: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecFailoverApplicationDecisionConditions;
   /**
   * GracePeriodSeconds is the maximum waiting duration in seconds before application on the migrated cluster should be deleted. Required only when PurgeMode is 'Graciously' and defaults to 600s. If the application on the new cluster cannot reach a Healthy state, Karmada will delete the application after GracePeriodSeconds is reached. Value must be positive integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#grace_period_seconds DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#grace_period_seconds DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#grace_period_seconds}
   */
   readonly gracePeriodSeconds?: number;
   /**
   * PurgeMode represents how to deal with the legacy applications on the cluster from which the application is migrated. Valid options are 'Immediately', 'Graciously' and 'Never'. Defaults to 'Graciously'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#purge_mode DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#purge_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#purge_mode DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#purge_mode}
   */
   readonly purgeMode?: string;
 }
@@ -478,7 +478,7 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecFail
   /**
   * Application indicates failover behaviors in case of application failure. If this value is nil, failover is disabled. If set, the PropagateDeps should be true so that the dependencies could be migrated along with the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#application DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#application DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#application}
   */
   readonly application?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecFailoverApplication;
 }
@@ -574,19 +574,19 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -756,7 +756,7 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * A list of field selector requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementClusterAffinitiesFieldSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -852,19 +852,19 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1034,13 +1034,13 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementClusterAffinitiesLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_labels DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_labels DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1165,31 +1165,31 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * AffinityName is the name of the cluster group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#affinity_name DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#affinity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#affinity_name DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#affinity_name}
   */
   readonly affinityName: string;
   /**
   * ClusterNames is the list of clusters to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#cluster_names DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#cluster_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#cluster_names DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#cluster_names}
   */
   readonly clusterNames?: string[];
   /**
   * ExcludedClusters is the list of clusters to be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#exclude DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#exclude DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#exclude}
   */
   readonly exclude?: string[];
   /**
   * FieldSelector is a filter to select member clusters by fields. The key(field) of the match expression should be 'provider', 'region', or 'zone', and the operator of the match expression should be 'In' or 'NotIn'. If non-nil and non-empty, only the clusters match this filter will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#field_selector DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#field_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#field_selector DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#field_selector}
   */
   readonly fieldSelector?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementClusterAffinitiesFieldSelector;
   /**
   * LabelSelector is a filter to select member clusters by labels. If non-nil and non-empty, only the clusters match this filter will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#label_selector DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#label_selector DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementClusterAffinitiesLabelSelector;
 }
@@ -1420,19 +1420,19 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1602,7 +1602,7 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * A list of field selector requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementClusterAffinityFieldSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -1698,19 +1698,19 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1880,13 +1880,13 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementClusterAffinityLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_labels DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_labels DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2011,25 +2011,25 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * ClusterNames is the list of clusters to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#cluster_names DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#cluster_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#cluster_names DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#cluster_names}
   */
   readonly clusterNames?: string[];
   /**
   * ExcludedClusters is the list of clusters to be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#exclude DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#exclude DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#exclude}
   */
   readonly exclude?: string[];
   /**
   * FieldSelector is a filter to select member clusters by fields. The key(field) of the match expression should be 'provider', 'region', or 'zone', and the operator of the match expression should be 'In' or 'NotIn'. If non-nil and non-empty, only the clusters match this filter will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#field_selector DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#field_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#field_selector DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#field_selector}
   */
   readonly fieldSelector?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementClusterAffinityFieldSelector;
   /**
   * LabelSelector is a filter to select member clusters by labels. If non-nil and non-empty, only the clusters match this filter will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#label_selector DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#label_selector DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementClusterAffinityLabelSelector;
 }
@@ -2212,31 +2212,31 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#effect DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#effect DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#toleration_seconds DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#toleration_seconds DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#value DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2470,19 +2470,19 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2652,7 +2652,7 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * A list of field selector requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementReplicaSchedulingWeightPreferenceStaticWeightListTargetClusterFieldSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -2748,19 +2748,19 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2930,13 +2930,13 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementReplicaSchedulingWeightPreferenceStaticWeightListTargetClusterLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_labels DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_labels DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3061,25 +3061,25 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * ClusterNames is the list of clusters to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#cluster_names DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#cluster_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#cluster_names DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#cluster_names}
   */
   readonly clusterNames?: string[];
   /**
   * ExcludedClusters is the list of clusters to be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#exclude DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#exclude DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#exclude}
   */
   readonly exclude?: string[];
   /**
   * FieldSelector is a filter to select member clusters by fields. The key(field) of the match expression should be 'provider', 'region', or 'zone', and the operator of the match expression should be 'In' or 'NotIn'. If non-nil and non-empty, only the clusters match this filter will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#field_selector DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#field_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#field_selector DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#field_selector}
   */
   readonly fieldSelector?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementReplicaSchedulingWeightPreferenceStaticWeightListTargetClusterFieldSelector;
   /**
   * LabelSelector is a filter to select member clusters by labels. If non-nil and non-empty, only the clusters match this filter will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#label_selector DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#label_selector DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementReplicaSchedulingWeightPreferenceStaticWeightListTargetClusterLabelSelector;
 }
@@ -3262,13 +3262,13 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * TargetCluster describes the filter to select clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#target_cluster DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#target_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#target_cluster DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#target_cluster}
   */
   readonly targetCluster: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementReplicaSchedulingWeightPreferenceStaticWeightListTargetCluster;
   /**
   * Weight expressing the preference to the cluster(s) specified by 'TargetCluster'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#weight DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#weight DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -3409,13 +3409,13 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * DynamicWeight specifies the factor to generates dynamic weight list. If specified, StaticWeightList will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#dynamic_weight DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#dynamic_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#dynamic_weight DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#dynamic_weight}
   */
   readonly dynamicWeight?: string;
   /**
   * StaticWeightList defines the static cluster weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#static_weight_list DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#static_weight_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#static_weight_list DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#static_weight_list}
   */
   readonly staticWeightList?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementReplicaSchedulingWeightPreferenceStaticWeightListStruct[] | cdktf.IResolvable;
 }
@@ -3540,19 +3540,19 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * ReplicaDivisionPreference determines how the replicas is divided when ReplicaSchedulingType is 'Divided'. Valid options are Aggregated and Weighted. 'Aggregated' divides replicas into clusters as few as possible, while respecting clusters' resource availabilities during the division. 'Weighted' divides replicas by weight according to WeightPreference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#replica_division_preference DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#replica_division_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#replica_division_preference DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#replica_division_preference}
   */
   readonly replicaDivisionPreference?: string;
   /**
   * ReplicaSchedulingType determines how the replicas is scheduled when karmada propagating a resource. Valid options are Duplicated and Divided. 'Duplicated' duplicates the same replicas to each candidate member cluster from resource. 'Divided' divides replicas into parts according to number of valid candidate member clusters, and exact replicas for each cluster are determined by ReplicaDivisionPreference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#replica_scheduling_type DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#replica_scheduling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#replica_scheduling_type DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#replica_scheduling_type}
   */
   readonly replicaSchedulingType?: string;
   /**
   * WeightPreference describes weight for each cluster or for each group of cluster If ReplicaDivisionPreference is set to 'Weighted', and WeightPreference is not set, scheduler will weight all clusters the same.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#weight_preference DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#weight_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#weight_preference DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#weight_preference}
   */
   readonly weightPreference?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementReplicaSchedulingWeightPreference;
 }
@@ -3706,25 +3706,25 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * MaxGroups restricts the maximum number of cluster groups to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#max_groups DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#max_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#max_groups DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#max_groups}
   */
   readonly maxGroups?: number;
   /**
   * MinGroups restricts the minimum number of cluster groups to be selected. Defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#min_groups DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#min_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#min_groups DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#min_groups}
   */
   readonly minGroups?: number;
   /**
   * SpreadByField represents the fields on Karmada cluster API used for dynamically grouping member clusters into different groups. Resources will be spread among different cluster groups. Available fields for spreading are: cluster, region, zone, and provider. SpreadByField should not co-exist with SpreadByLabel. If both SpreadByField and SpreadByLabel are empty, SpreadByField will be set to 'cluster' by system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#spread_by_field DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#spread_by_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#spread_by_field DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#spread_by_field}
   */
   readonly spreadByField?: string;
   /**
   * SpreadByLabel represents the label key used for grouping member clusters into different groups. Resources will be spread among different cluster groups. SpreadByLabel should not co-exist with SpreadByField.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#spread_by_label DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#spread_by_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#spread_by_label DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#spread_by_label}
   */
   readonly spreadByLabel?: string;
 }
@@ -3929,31 +3929,31 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlac
   /**
   * ClusterAffinities represents scheduling restrictions to multiple cluster groups that indicated by ClusterAffinityTerm. The scheduler will evaluate these groups one by one in the order they appear in the spec, the group that does not satisfy scheduling restrictions will be ignored which means all clusters in this group will not be selected unless it also belongs to the next group(a cluster could belong to multiple groups). If none of the groups satisfy the scheduling restrictions, then scheduling fails, which means no cluster will be selected. Note: 1. ClusterAffinities can not co-exist with ClusterAffinity. 2. If both ClusterAffinity and ClusterAffinities are not set, any cluster can be scheduling candidates. Potential use case 1: The private clusters in the local data center could be the main group, and the managed clusters provided by cluster providers could be the secondary group. So that the Karmada scheduler would prefer to schedule workloads to the main group and the second group will only be considered in case of the main group does not satisfy restrictions(like, lack of resources). Potential use case 2: For the disaster recovery scenario, the clusters could be organized to primary and backup groups, the workloads would be scheduled to primary clusters firstly, and when primary cluster fails(like data center power off), Karmada scheduler could migrate workloads to the backup clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#cluster_affinities DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#cluster_affinities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#cluster_affinities DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#cluster_affinities}
   */
   readonly clusterAffinities?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementClusterAffinities[] | cdktf.IResolvable;
   /**
   * ClusterAffinity represents scheduling restrictions to a certain set of clusters. Note: 1. ClusterAffinity can not co-exist with ClusterAffinities. 2. If both ClusterAffinity and ClusterAffinities are not set, any cluster can be scheduling candidates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#cluster_affinity DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#cluster_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#cluster_affinity DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#cluster_affinity}
   */
   readonly clusterAffinity?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementClusterAffinity;
   /**
   * ClusterTolerations represents the tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#cluster_tolerations DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#cluster_tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#cluster_tolerations DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#cluster_tolerations}
   */
   readonly clusterTolerations?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementClusterTolerations[] | cdktf.IResolvable;
   /**
   * ReplicaScheduling represents the scheduling policy on dealing with the number of replicas when propagating resources that have replicas in spec (e.g. deployments, statefulsets) to member clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#replica_scheduling DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#replica_scheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#replica_scheduling DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#replica_scheduling}
   */
   readonly replicaScheduling?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementReplicaScheduling;
   /**
   * SpreadConstraints represents a list of the scheduling constraints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#spread_constraints DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#spread_constraints DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#spread_constraints}
   */
   readonly spreadConstraints?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacementSpreadConstraints[] | cdktf.IResolvable;
 }
@@ -4165,19 +4165,19 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecReso
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#key DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#operator DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#values DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4347,13 +4347,13 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecReso
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_expressions DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecResourceSelectorsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_labels DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#match_labels DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4478,31 +4478,31 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecReso
   /**
   * APIVersion represents the API version of the target resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#api_version DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#api_version DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Kind represents the Kind of the target resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#kind DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#kind DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * A label query over a set of resources. If name is not empty, labelSelector will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#label_selector DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#label_selector DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecResourceSelectorsLabelSelector;
   /**
   * Name of the target resource. Default is empty, which means selecting all resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#name DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#name DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the target resource. Default is empty, which means inherit from the parent object scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#namespace DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#namespace DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -4730,7 +4730,7 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecSusp
   /**
   * ClusterNames is the list of clusters to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#cluster_names DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#cluster_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#cluster_names DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#cluster_names}
   */
   readonly clusterNames?: string[];
 }
@@ -4826,13 +4826,13 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecSusp
   /**
   * Dispatching controls whether dispatching should be suspended. nil means not suspend, no default value, only accepts 'true'. Note: true means stop propagating to all clusters. Can not co-exist with DispatchingOnClusters which is used to suspend particular clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#dispatching DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#dispatching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#dispatching DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#dispatching}
   */
   readonly dispatching?: boolean | cdktf.IResolvable;
   /**
   * DispatchingOnClusters declares a list of clusters to which the dispatching should be suspended. Note: Can not co-exist with Dispatching which is used to suspend all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#dispatching_on_clusters DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#dispatching_on_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#dispatching_on_clusters DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#dispatching_on_clusters}
   */
   readonly dispatchingOnClusters?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecSuspensionDispatchingOnClusters;
 }
@@ -4957,79 +4957,79 @@ export interface DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpec {
   /**
   * ActivationPreference indicates how the referencing resource template will be propagated, in case of policy changes. If empty, the resource template will respond to policy changes immediately, in other words, any policy changes will drive the resource template to be propagated immediately as per the current propagation rules. If the value is 'Lazy' means the policy changes will not take effect for now but defer to the resource template changes, in other words, the resource template will not be propagated as per the current propagation rules until there is an update on it. This is an experimental feature that might help in a scenario where a policy manages huge amount of resource templates, changes to a policy typically affect numerous applications simultaneously. A minor misconfiguration could lead to widespread failures. With this feature, the change can be gradually rolled out through iterative modifications of resource templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#activation_preference DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#activation_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#activation_preference DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#activation_preference}
   */
   readonly activationPreference?: string;
   /**
   * Association tells if relevant resources should be selected automatically. e.g. a ConfigMap referred by a Deployment. default false. Deprecated: in favor of PropagateDeps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#association DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#association DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#association}
   */
   readonly association?: boolean | cdktf.IResolvable;
   /**
   * ConflictResolution declares how potential conflict should be handled when a resource that is being propagated already exists in the target cluster. It defaults to 'Abort' which means stop propagating to avoid unexpected overwrites. The 'Overwrite' might be useful when migrating legacy cluster resources to Karmada, in which case conflict is predictable and can be instructed to Karmada take over the resource by overwriting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#conflict_resolution DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#conflict_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#conflict_resolution DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#conflict_resolution}
   */
   readonly conflictResolution?: string;
   /**
   * DependentOverrides represents the list of overrides(OverridePolicy) which must present before the current PropagationPolicy takes effect. It used to explicitly specify overrides which current PropagationPolicy rely on. A typical scenario is the users create OverridePolicy(ies) and resources at the same time, they want to ensure the new-created policies would be adopted. Note: For the overrides, OverridePolicy(ies) in current namespace and ClusterOverridePolicy(ies), which not present in this list will still be applied if they matches the resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#dependent_overrides DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#dependent_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#dependent_overrides DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#dependent_overrides}
   */
   readonly dependentOverrides?: string[];
   /**
   * Failover indicates how Karmada migrates applications in case of failures. If this value is nil, failover is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#failover DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#failover DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#failover}
   */
   readonly failover?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecFailover;
   /**
   * Placement represents the rule for select clusters to propagate resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#placement DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#placement DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#placement}
   */
   readonly placement?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecPlacement;
   /**
   * Preemption declares the behaviors for preempting. Valid options are 'Always' and 'Never'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#preemption DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#preemption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#preemption DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#preemption}
   */
   readonly preemption?: string;
   /**
   * PreserveResourcesOnDeletion controls whether resources should be preserved on the member clusters when the resource template is deleted. If set to true, resources will be preserved on the member clusters. Default is false, which means resources will be deleted along with the resource template. This setting is particularly useful during workload migration scenarios to ensure that rollback can occur quickly without affecting the workloads running on the member clusters. Additionally, this setting applies uniformly across all member clusters and will not selectively control preservation on only some clusters. Note: This setting does not apply to the deletion of the policy itself. When the policy is deleted, the resource templates and their corresponding propagated resources in member clusters will remain unchanged unless explicitly deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#preserve_resources_on_deletion DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#preserve_resources_on_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#preserve_resources_on_deletion DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#preserve_resources_on_deletion}
   */
   readonly preserveResourcesOnDeletion?: boolean | cdktf.IResolvable;
   /**
   * Priority indicates the importance of a policy(PropagationPolicy or ClusterPropagationPolicy). A policy will be applied for the matched resource templates if there is no other policies with higher priority at the point of the resource template be processed. Once a resource template has been claimed by a policy, by default it will not be preempted by following policies even with a higher priority. See Preemption for more details. In case of two policies have the same priority, the one with a more precise matching rules in ResourceSelectors wins: - matching by name(resourceSelector.name) has higher priority than by selector(resourceSelector.labelSelector) - matching by selector(resourceSelector.labelSelector) has higher priority than by APIVersion(resourceSelector.apiVersion) and Kind(resourceSelector.kind). If there is still no winner at this point, the one with the lower alphabetic order wins, e.g. policy 'bar' has higher priority than 'foo'. The higher the value, the higher the priority. Defaults to zero.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#priority DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#priority DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * PropagateDeps tells if relevant resources should be propagated automatically. Take 'Deployment' which referencing 'ConfigMap' and 'Secret' as an example, when 'propagateDeps' is 'true', the referencing resources could be omitted(for saving config effort) from 'resourceSelectors' as they will be propagated along with the Deployment. In addition to the propagating process, the referencing resources will be migrated along with the Deployment in the fail-over scenario. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#propagate_deps DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#propagate_deps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#propagate_deps DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#propagate_deps}
   */
   readonly propagateDeps?: boolean | cdktf.IResolvable;
   /**
   * ResourceSelectors used to select resources. Nil or empty selector is not allowed and doesn't mean match all kinds of resources for security concerns that sensitive resources(like Secret) might be accidentally propagated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#resource_selectors DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#resource_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#resource_selectors DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#resource_selectors}
   */
   readonly resourceSelectors: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecResourceSelectors[] | cdktf.IResolvable;
   /**
   * SchedulerName represents which scheduler to proceed the scheduling. If specified, the policy will be dispatched by specified scheduler. If not specified, the policy will be dispatched by default scheduler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#scheduler_name DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#scheduler_name DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
   * Suspension declares the policy for suspending different aspects of propagation. nil means no suspension. no default values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#suspension DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#suspension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#suspension DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest#suspension}
   */
   readonly suspension?: DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecSuspension;
 }
@@ -5468,7 +5468,7 @@ export class DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1ManifestSpecOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest k8s_policy_karmada_io_propagation_policy_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest k8s_policy_karmada_io_propagation_policy_v1alpha1_manifest}
 */
 export class DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -5484,7 +5484,7 @@ export class DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5496,7 +5496,7 @@ export class DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest k8s_policy_karmada_io_propagation_policy_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_karmada_io_propagation_policy_v1alpha1_manifest k8s_policy_karmada_io_propagation_policy_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5507,8 +5507,8 @@ export class DataK8SPolicyKarmadaIoPropagationPolicyV1Alpha1Manifest extends cdk
       terraformResourceType: 'k8s_policy_karmada_io_propagation_policy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

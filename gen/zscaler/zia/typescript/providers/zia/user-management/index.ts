@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management
+// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface UserManagementConfig extends cdktf.TerraformMetaArguments {
   /**
   * Accepted Authentication Methods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management#auth_methods UserManagement#auth_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management#auth_methods UserManagement#auth_methods}
   */
   readonly authMethods?: string[];
   /**
   * Additional information about this user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management#comments UserManagement#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management#comments UserManagement#comments}
   */
   readonly comments?: string;
   /**
   * User email consists of a user name and domain name. It does not have to be a valid email address, but it must be unique and its domain must belong to the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management#email UserManagement#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management#email UserManagement#email}
   */
   readonly email: string;
   /**
   * User name. This appears when choosing users for policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management#name UserManagement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management#name UserManagement#name}
   */
   readonly name: string;
   /**
   * User's password. Applicable only when authentication type is Hosted DB. Password strength must follow what is defined in the auth settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management#password UserManagement#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management#password UserManagement#password}
   */
   readonly password: string;
   /**
   * Temporary Authentication Email. If you enabled one-time tokens or links, enter the email address to which the Zscaler service sends the tokens or links. If this is empty, the service will send the email to the User email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management#temp_auth_email UserManagement#temp_auth_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management#temp_auth_email UserManagement#temp_auth_email}
   */
   readonly tempAuthEmail?: string;
   /**
   * department block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management#department UserManagement#department}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management#department UserManagement#department}
   */
   readonly department: UserManagementDepartment;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management#groups UserManagement#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management#groups UserManagement#groups}
   */
   readonly groups?: UserManagementGroups;
 }
@@ -60,15 +60,15 @@ export interface UserManagementDepartment {
   /**
   * Additional information about this department
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management#comments UserManagement#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management#comments UserManagement#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management#deleted UserManagement#deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management#deleted UserManagement#deleted}
   */
   readonly deleted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management#id UserManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management#id UserManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,13 +77,13 @@ export interface UserManagementDepartment {
   /**
   * Identity provider (IdP) ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management#idp_id UserManagement#idp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management#idp_id UserManagement#idp_id}
   */
   readonly idpId?: number;
   /**
   * Department name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management#name UserManagement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management#name UserManagement#name}
   */
   readonly name?: string;
 }
@@ -283,7 +283,7 @@ export class UserManagementDepartmentOutputReference extends cdktf.ComplexObject
 }
 export interface UserManagementGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management#id UserManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management#id UserManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -370,7 +370,7 @@ export class UserManagementGroupsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management zia_user_management}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management zia_user_management}
 */
 export class UserManagement extends cdktf.TerraformResource {
 
@@ -386,7 +386,7 @@ export class UserManagement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserManagement to import
-  * @param importFromId The id of the existing UserManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -398,7 +398,7 @@ export class UserManagement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/user_management zia_user_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/user_management zia_user_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -409,8 +409,8 @@ export class UserManagement extends cdktf.TerraformResource {
       terraformResourceType: 'zia_user_management',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.2',
-        providerVersionConstraint: '4.6.2'
+        providerVersion: '4.6.3',
+        providerVersionConstraint: '4.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

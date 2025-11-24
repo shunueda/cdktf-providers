@@ -15,19 +15,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#key DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#key DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -178,25 +178,25 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#config_map_key_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#config_map_key_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#field_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#field_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resource_field_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resource_field_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#secret_key_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#secret_key_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersEnvValueFromSecretKeyRef;
 }
@@ -379,19 +379,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value_from DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value_from DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersEnvValueFrom;
 }
@@ -564,13 +564,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -695,13 +695,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -826,19 +826,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#config_map_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#config_map_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#prefix DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#prefix DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#secret_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#secret_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersEnvFromSecretRef;
 }
@@ -1014,7 +1014,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -1110,13 +1110,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -1257,31 +1257,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -1490,7 +1490,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -1583,13 +1583,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -1711,25 +1711,25 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLifecyclePostStartHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sleep DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sleep DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sleep}
   */
   readonly sleep?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLifecyclePostStartSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLifecyclePostStartTcpSocket;
 }
@@ -1912,7 +1912,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -2008,13 +2008,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -2155,31 +2155,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -2388,7 +2388,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -2481,13 +2481,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -2609,25 +2609,25 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLifecyclePreStopHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sleep DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sleep DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sleep}
   */
   readonly sleep?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLifecyclePreStopSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLifecyclePreStopTcpSocket;
 }
@@ -2810,13 +2810,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#post_start DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#post_start DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#pre_stop DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#pre_stop DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLifecyclePreStop;
 }
@@ -2941,7 +2941,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -3037,13 +3037,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -3165,13 +3165,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -3312,31 +3312,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -3545,13 +3545,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -3673,61 +3673,61 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -4084,31 +4084,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#container_port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#container_port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_ip DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_ip DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#protocol DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#protocol DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -4339,7 +4339,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -4435,13 +4435,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -4563,13 +4563,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -4710,31 +4710,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -4943,13 +4943,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -5071,61 +5071,61 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -5482,13 +5482,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resource_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resource_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#restart_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#restart_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -5629,13 +5629,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#request DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#request DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#request}
   */
   readonly request?: string;
 }
@@ -5779,19 +5779,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#claims DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#claims DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#limits DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#limits DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#requests DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#requests DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5945,13 +5945,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#localhost_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#localhost_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -6073,13 +6073,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#add DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#add DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#drop DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#drop DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -6204,25 +6204,25 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#level DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#level DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#role DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#role DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#user DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#user DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -6405,13 +6405,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#localhost_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#localhost_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -6533,25 +6533,25 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#gmsa_credential_spec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#gmsa_credential_spec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#gmsa_credential_spec_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#gmsa_credential_spec_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_process DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_process DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_user_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_user_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -6734,73 +6734,73 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#allow_privilege_escalation DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#allow_privilege_escalation DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * appArmorProfile is the AppArmor options to use by this container. If set, this profile overrides the pod's appArmorProfile. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#app_armor_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#app_armor_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersSecurityContextAppArmorProfile;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#capabilities DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#capabilities DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#privileged DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#privileged DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default value is Default which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#proc_mount DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#proc_mount DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#read_only_root_filesystem DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#read_only_root_filesystem DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_group DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_group DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_non_root DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_non_root DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_user DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_user DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#se_linux_options DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#se_linux_options DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seccomp_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seccomp_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#windows_options DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#windows_options DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersSecurityContextWindowsOptions;
 }
@@ -7215,7 +7215,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -7311,13 +7311,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -7439,13 +7439,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -7586,31 +7586,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -7819,13 +7819,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -7947,61 +7947,61 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -8358,13 +8358,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#device_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#device_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -8505,43 +8505,43 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#mount_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#mount_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10. When RecursiveReadOnly is set to IfPossible or to Enabled, MountPropagation must be None or unspecified (which defaults to None).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#mount_propagation DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#mount_propagation DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#read_only DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#read_only DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * RecursiveReadOnly specifies whether read-only mounts should be handled recursively. If ReadOnly is false, this field has no meaning and must be unspecified. If ReadOnly is true, and this field is set to Disabled, the mount is not made recursively read-only. If this field is set to IfPossible, the mount is made recursively read-only, if it is supported by the container runtime. If this field is set to Enabled, the mount is made recursively read-only if it is supported by the container runtime, otherwise the pod will not be started and an error will be generated to indicate the reason. If this field is set to IfPossible or Enabled, MountPropagation must be set to None (or be unspecified, which defaults to None). If this field is not specified, it is treated as an equivalent of Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#recursive_read_only DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#recursive_read_only DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sub_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sub_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sub_path_expr DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sub_path_expr DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -8827,145 +8827,145 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Arguments to the entrypoint. The container image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#args DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#args DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The container image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#env DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#env DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#env_from DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#env_from DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#image DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#image DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#image_pull_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#image_pull_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Actions that the management system should take in response to container lifecycle events. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#lifecycle DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#lifecycle DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLifecycle;
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#liveness_probe DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#liveness_probe DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersLivenessProbe;
   /**
   * Name of the container specified as a DNS_LABEL. Each container in a pod must have a unique name (DNS_LABEL). Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * List of ports to expose from the container. Not specifying a port here DOES NOT prevent that port from being exposed. Any port which is listening on the default '0.0.0.0' address inside a container will be accessible from the network. Modifying this array with strategic merge patch may corrupt the data. For more information See https://github.com/kubernetes/kubernetes/issues/108255. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#ports DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#ports DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersPorts[] | cdktf.IResolvable;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#readiness_probe DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#readiness_probe DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersReadinessProbe;
   /**
   * Resources resize policy for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resize_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resize_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersResizePolicy[] | cdktf.IResolvable;
   /**
   * Compute Resources required by this container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resources DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resources DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersResources;
   /**
   * RestartPolicy defines the restart behavior of individual containers in a pod. This field may only be set for init containers, and the only allowed value is 'Always'. For non-init containers or when this field is not specified, the restart behavior is defined by the Pod's restart policy and the container type. Setting the RestartPolicy as 'Always' for the init container will have the following effect: this init container will be continually restarted on exit until all regular containers have terminated. Once all regular containers have completed, all init containers with restartPolicy 'Always' will be shut down. This lifecycle differs from normal init containers and is often referred to as a 'sidecar' container. Although this init container still starts in the init container sequence, it does not wait for the container to complete before proceeding to the next init container. Instead, the next init container starts immediately after this init container is started, or after any startupProbe has successfully completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#restart_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#restart_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * SecurityContext defines the security options the container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext. More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#security_context DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#security_context DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersSecurityContext;
   /**
   * StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#startup_probe DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#startup_probe DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#stdin DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#stdin DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#stdin_once DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#stdin_once DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_message_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_message_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_message_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_message_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tty DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tty DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#volume_devices DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#volume_devices DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#volume_mounts DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#volume_mounts DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecContainersVolumeMounts[] | cdktf.IResolvable;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#working_dir DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#working_dir DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -9747,11 +9747,11 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -9898,19 +9898,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * A list of DNS name server IP addresses. This will be appended to the base nameservers generated from DNSPolicy. Duplicated nameservers will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#nameservers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#nameservers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#nameservers}
   */
   readonly nameservers?: string[];
   /**
   * A list of DNS resolver options. This will be merged with the base options generated from DNSPolicy. Duplicated entries will be removed. Resolution options given in Options will override those that appear in the base DNSPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#options DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#options DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#options}
   */
   readonly options?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecDnsConfigOptions[] | cdktf.IResolvable;
   /**
   * A list of DNS search domains for host-name lookup. This will be appended to the base search paths generated from DNSPolicy. Duplicated search paths will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#searches DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#searches DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#searches}
   */
   readonly searches?: string[];
 }
@@ -10064,19 +10064,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#key DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#key DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10227,13 +10227,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#api_version DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#api_version DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#field_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#field_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -10355,19 +10355,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#container_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#container_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#divisor DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#divisor DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resource DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resource DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -10518,19 +10518,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#key DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#key DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10681,25 +10681,25 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#config_map_key_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#config_map_key_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#field_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#field_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resource_field_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resource_field_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#secret_key_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#secret_key_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersEnvValueFromSecretKeyRef;
 }
@@ -10882,19 +10882,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value_from DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value_from DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersEnvValueFrom;
 }
@@ -11067,13 +11067,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11198,13 +11198,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11329,19 +11329,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#config_map_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#config_map_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#prefix DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#prefix DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#secret_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#secret_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersEnvFromSecretRef;
 }
@@ -11517,7 +11517,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -11613,13 +11613,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -11760,31 +11760,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -11993,7 +11993,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -12086,13 +12086,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -12214,25 +12214,25 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLifecyclePostStartHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sleep DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sleep DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sleep}
   */
   readonly sleep?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLifecyclePostStartSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLifecyclePostStartTcpSocket;
 }
@@ -12415,7 +12415,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -12511,13 +12511,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -12658,31 +12658,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -12891,7 +12891,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -12984,13 +12984,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -13112,25 +13112,25 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLifecyclePreStopHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sleep DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sleep DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sleep}
   */
   readonly sleep?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLifecyclePreStopSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLifecyclePreStopTcpSocket;
 }
@@ -13313,13 +13313,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#post_start DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#post_start DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#pre_stop DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#pre_stop DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLifecyclePreStop;
 }
@@ -13444,7 +13444,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -13540,13 +13540,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -13668,13 +13668,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -13815,31 +13815,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -14048,13 +14048,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -14176,61 +14176,61 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -14587,31 +14587,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#container_port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#container_port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_ip DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_ip DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#protocol DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#protocol DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -14842,7 +14842,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -14938,13 +14938,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -15066,13 +15066,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -15213,31 +15213,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -15446,13 +15446,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -15574,61 +15574,61 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -15985,13 +15985,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resource_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resource_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#restart_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#restart_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -16132,13 +16132,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#request DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#request DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#request}
   */
   readonly request?: string;
 }
@@ -16282,19 +16282,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#claims DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#claims DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#limits DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#limits DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#requests DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#requests DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -16448,13 +16448,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#localhost_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#localhost_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -16576,13 +16576,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#add DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#add DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#drop DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#drop DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -16707,25 +16707,25 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#level DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#level DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#role DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#role DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#user DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#user DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -16908,13 +16908,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#localhost_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#localhost_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -17036,25 +17036,25 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#gmsa_credential_spec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#gmsa_credential_spec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#gmsa_credential_spec_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#gmsa_credential_spec_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_process DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_process DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_user_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_user_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -17237,73 +17237,73 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#allow_privilege_escalation DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#allow_privilege_escalation DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * appArmorProfile is the AppArmor options to use by this container. If set, this profile overrides the pod's appArmorProfile. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#app_armor_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#app_armor_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersSecurityContextAppArmorProfile;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#capabilities DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#capabilities DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#privileged DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#privileged DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default value is Default which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#proc_mount DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#proc_mount DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#read_only_root_filesystem DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#read_only_root_filesystem DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_group DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_group DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_non_root DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_non_root DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_user DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_user DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#se_linux_options DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#se_linux_options DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seccomp_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seccomp_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#windows_options DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#windows_options DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersSecurityContextWindowsOptions;
 }
@@ -17718,7 +17718,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -17814,13 +17814,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -17942,13 +17942,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -18089,31 +18089,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -18322,13 +18322,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -18450,61 +18450,61 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -18861,13 +18861,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#device_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#device_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -19008,43 +19008,43 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#mount_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#mount_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10. When RecursiveReadOnly is set to IfPossible or to Enabled, MountPropagation must be None or unspecified (which defaults to None).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#mount_propagation DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#mount_propagation DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#read_only DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#read_only DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * RecursiveReadOnly specifies whether read-only mounts should be handled recursively. If ReadOnly is false, this field has no meaning and must be unspecified. If ReadOnly is true, and this field is set to Disabled, the mount is not made recursively read-only. If this field is set to IfPossible, the mount is made recursively read-only, if it is supported by the container runtime. If this field is set to Enabled, the mount is made recursively read-only if it is supported by the container runtime, otherwise the pod will not be started and an error will be generated to indicate the reason. If this field is set to IfPossible or Enabled, MountPropagation must be set to None (or be unspecified, which defaults to None). If this field is not specified, it is treated as an equivalent of Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#recursive_read_only DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#recursive_read_only DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sub_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sub_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sub_path_expr DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sub_path_expr DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -19330,151 +19330,151 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Arguments to the entrypoint. The image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#args DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#args DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#env DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#env DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#env_from DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#env_from DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#image DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#image DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#image_pull_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#image_pull_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Lifecycle is not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#lifecycle DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#lifecycle DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLifecycle;
   /**
   * Probes are not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#liveness_probe DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#liveness_probe DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersLivenessProbe;
   /**
   * Name of the ephemeral container specified as a DNS_LABEL. This name must be unique among all containers, init containers and ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Ports are not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#ports DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#ports DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersPorts[] | cdktf.IResolvable;
   /**
   * Probes are not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#readiness_probe DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#readiness_probe DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersReadinessProbe;
   /**
   * Resources resize policy for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resize_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resize_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersResizePolicy[] | cdktf.IResolvable;
   /**
   * Resources are not allowed for ephemeral containers. Ephemeral containers use spare resources already allocated to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resources DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resources DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersResources;
   /**
   * Restart policy for the container to manage the restart behavior of each container within a pod. This may only be set for init containers. You cannot set this field on ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#restart_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#restart_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * Optional: SecurityContext defines the security options the ephemeral container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#security_context DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#security_context DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersSecurityContext;
   /**
   * Probes are not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#startup_probe DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#startup_probe DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#stdin DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#stdin DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#stdin_once DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#stdin_once DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * If set, the name of the container from PodSpec that this ephemeral container targets. The ephemeral container will be run in the namespaces (IPC, PID, etc) of this container. If not set then the ephemeral container uses the namespaces configured in the Pod spec. The container runtime must implement support for this feature. If the runtime does not support namespace targeting then the result of setting this field is undefined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#target_container_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#target_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#target_container_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#target_container_name}
   */
   readonly targetContainerName?: string;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_message_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_message_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_message_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_message_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tty DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tty DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#volume_devices DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#volume_devices DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Subpath mounts are not allowed for ephemeral containers. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#volume_mounts DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#volume_mounts DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecEphemeralContainersVolumeMounts[] | cdktf.IResolvable;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#working_dir DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#working_dir DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -20285,13 +20285,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Hostnames for the above IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#hostnames DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#hostnames DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
   * IP address of the host file entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#ip DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#ip DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#ip}
   */
   readonly ip: string;
 }
@@ -20435,7 +20435,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -20553,19 +20553,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#key DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#key DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20716,13 +20716,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#api_version DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#api_version DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#field_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#field_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -20844,19 +20844,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#container_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#container_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#divisor DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#divisor DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resource DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resource DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -21007,19 +21007,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#key DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#key DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21170,25 +21170,25 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#config_map_key_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#config_map_key_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#field_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#field_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resource_field_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resource_field_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#secret_key_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#secret_key_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersEnvValueFromSecretKeyRef;
 }
@@ -21371,19 +21371,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value_from DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value_from DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersEnvValueFrom;
 }
@@ -21556,13 +21556,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21687,13 +21687,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#optional DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21818,19 +21818,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#config_map_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#config_map_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#prefix DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#prefix DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#secret_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#secret_ref DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersEnvFromSecretRef;
 }
@@ -22006,7 +22006,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -22102,13 +22102,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -22249,31 +22249,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -22482,7 +22482,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -22575,13 +22575,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -22703,25 +22703,25 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLifecyclePostStartHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sleep DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sleep DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sleep}
   */
   readonly sleep?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLifecyclePostStartSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLifecyclePostStartTcpSocket;
 }
@@ -22904,7 +22904,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -23000,13 +23000,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -23147,31 +23147,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -23380,7 +23380,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -23473,13 +23473,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -23601,25 +23601,25 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLifecyclePreStopHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sleep DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sleep DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sleep}
   */
   readonly sleep?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLifecyclePreStopSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLifecyclePreStopTcpSocket;
 }
@@ -23802,13 +23802,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#post_start DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#post_start DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#pre_stop DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#pre_stop DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLifecyclePreStop;
 }
@@ -23933,7 +23933,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -24029,13 +24029,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -24157,13 +24157,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -24304,31 +24304,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -24537,13 +24537,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -24665,61 +24665,61 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -25076,31 +25076,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#container_port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#container_port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_ip DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_ip DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#protocol DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#protocol DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -25331,7 +25331,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -25427,13 +25427,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -25555,13 +25555,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -25702,31 +25702,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -25935,13 +25935,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -26063,61 +26063,61 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -26474,13 +26474,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resource_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#resource_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#restart_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#restart_policy DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -26621,13 +26621,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#request DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#request DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#request}
   */
   readonly request?: string;
 }
@@ -26771,19 +26771,19 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#claims DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#claims DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#limits DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#limits DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#requests DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#requests DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -26937,13 +26937,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#localhost_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#localhost_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -27065,13 +27065,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#add DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#add DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#drop DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#drop DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -27196,25 +27196,25 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#level DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#level DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#role DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#role DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#user DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#user DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -27397,13 +27397,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#localhost_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#localhost_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#type DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -27525,25 +27525,25 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#gmsa_credential_spec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#gmsa_credential_spec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#gmsa_credential_spec_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#gmsa_credential_spec_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_process DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host_process DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_user_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_user_name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -27726,73 +27726,73 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#allow_privilege_escalation DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#allow_privilege_escalation DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * appArmorProfile is the AppArmor options to use by this container. If set, this profile overrides the pod's appArmorProfile. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#app_armor_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#app_armor_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersSecurityContextAppArmorProfile;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#capabilities DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#capabilities DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#privileged DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#privileged DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default value is Default which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#proc_mount DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#proc_mount DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#read_only_root_filesystem DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#read_only_root_filesystem DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_group DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_group DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_non_root DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_non_root DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_user DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#run_as_user DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#se_linux_options DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#se_linux_options DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seccomp_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#seccomp_profile DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#windows_options DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#windows_options DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersSecurityContextWindowsOptions;
 }
@@ -28207,7 +28207,7 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#command DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -28303,13 +28303,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#service DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -28431,13 +28431,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#value DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -28578,31 +28578,31 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_headers DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#scheme DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -28811,13 +28811,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#host DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#port DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -28939,61 +28939,61 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#exec DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#failure_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#grpc DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#http_get DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#initial_delay_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#success_threshold DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#tcp_socket DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPodTemplateSpecInitContainersStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#timeout_seconds DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -29350,13 +29350,13 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#device_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#device_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -29497,43 +29497,43 @@ export interface DataK8SAgentK8SElasticCoAgentV1Alpha1ManifestSpecStatefulSetPod
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#mount_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#mount_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10. When RecursiveReadOnly is set to IfPossible or to Enabled, MountPropagation must be None or unspecified (which defaults to None).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#mount_propagation DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#mount_propagation DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#name DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#read_only DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#read_only DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * RecursiveReadOnly specifies whether read-only mounts should be handled recursively. If ReadOnly is false, this field has no meaning and must be unspecified. If ReadOnly is true, and this field is set to Disabled, the mount is not made recursively read-only. If this field is set to IfPossible, the mount is made recursively read-only, if it is supported by the container runtime. If this field is set to Enabled, the mount is made recursively read-only if it is supported by the container runtime, otherwise the pod will not be started and an error will be generated to indicate the reason. If this field is set to IfPossible or Enabled, MountPropagation must be set to None (or be unspecified, which defaults to None). If this field is not specified, it is treated as an equivalent of Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#recursive_read_only DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#recursive_read_only DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sub_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sub_path DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sub_path_expr DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/agent_k8s_elastic_co_agent_v1alpha1_manifest#sub_path_expr DataK8SAgentK8SElasticCoAgentV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }

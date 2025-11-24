@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_setting
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_discovery_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ServiceDiscoverySettingConfig extends cdktf.TerraformMetaArgume
   /**
   * Correlation ID for the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_setting#correlation_id ServiceDiscoverySetting#correlation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_discovery_setting#correlation_id ServiceDiscoverySetting#correlation_id}
   */
   readonly correlationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_setting#id ServiceDiscoverySetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_discovery_setting#id ServiceDiscoverySetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface ServiceDiscoverySettingConfig extends cdktf.TerraformMetaArgume
   /**
   * The organization identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_setting#org_identifier ServiceDiscoverySetting#org_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_discovery_setting#org_identifier ServiceDiscoverySetting#org_identifier}
   */
   readonly orgIdentifier?: string;
   /**
   * The project identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_setting#project_identifier ServiceDiscoverySetting#project_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_discovery_setting#project_identifier ServiceDiscoverySetting#project_identifier}
   */
   readonly projectIdentifier?: string;
   /**
   * image_registry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_setting#image_registry ServiceDiscoverySetting#image_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_discovery_setting#image_registry ServiceDiscoverySetting#image_registry}
   */
   readonly imageRegistry?: ServiceDiscoverySettingImageRegistry;
 }
@@ -43,19 +43,19 @@ export interface ServiceDiscoverySettingImageRegistry {
   /**
   * The account name for the image registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_setting#account ServiceDiscoverySetting#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_discovery_setting#account ServiceDiscoverySetting#account}
   */
   readonly account: string;
   /**
   * List of secrets for the image registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_setting#secrets ServiceDiscoverySetting#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_discovery_setting#secrets ServiceDiscoverySetting#secrets}
   */
   readonly secrets?: string[];
   /**
   * The server URL for the image registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_setting#server ServiceDiscoverySetting#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_discovery_setting#server ServiceDiscoverySetting#server}
   */
   readonly server: string;
 }
@@ -191,7 +191,7 @@ export class ServiceDiscoverySettingImageRegistryOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_setting harness_service_discovery_setting}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_discovery_setting harness_service_discovery_setting}
 */
 export class ServiceDiscoverySetting extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class ServiceDiscoverySetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceDiscoverySetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceDiscoverySetting to import
-  * @param importFromId The id of the existing ServiceDiscoverySetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceDiscoverySetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_discovery_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceDiscoverySetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class ServiceDiscoverySetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_setting harness_service_discovery_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_discovery_setting harness_service_discovery_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class ServiceDiscoverySetting extends cdktf.TerraformResource {
       terraformResourceType: 'harness_service_discovery_setting',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

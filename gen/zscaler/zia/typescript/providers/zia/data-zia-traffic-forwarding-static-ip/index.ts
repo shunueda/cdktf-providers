@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/traffic_forwarding_static_ip
+// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/traffic_forwarding_static_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,14 +8,14 @@ import * as cdktf from 'cdktf';
 
 export interface DataZiaTrafficForwardingStaticIpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/traffic_forwarding_static_ip#id DataZiaTrafficForwardingStaticIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/traffic_forwarding_static_ip#id DataZiaTrafficForwardingStaticIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/traffic_forwarding_static_ip#ip_address DataZiaTrafficForwardingStaticIp#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/traffic_forwarding_static_ip#ip_address DataZiaTrafficForwardingStaticIp#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -267,7 +267,7 @@ export class DataZiaTrafficForwardingStaticIpManagedByList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/traffic_forwarding_static_ip zia_traffic_forwarding_static_ip}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/traffic_forwarding_static_ip zia_traffic_forwarding_static_ip}
 */
 export class DataZiaTrafficForwardingStaticIp extends cdktf.TerraformDataSource {
 
@@ -283,7 +283,7 @@ export class DataZiaTrafficForwardingStaticIp extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataZiaTrafficForwardingStaticIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaTrafficForwardingStaticIp to import
-  * @param importFromId The id of the existing DataZiaTrafficForwardingStaticIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/traffic_forwarding_static_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaTrafficForwardingStaticIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/traffic_forwarding_static_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaTrafficForwardingStaticIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class DataZiaTrafficForwardingStaticIp extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/traffic_forwarding_static_ip zia_traffic_forwarding_static_ip} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/traffic_forwarding_static_ip zia_traffic_forwarding_static_ip} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class DataZiaTrafficForwardingStaticIp extends cdktf.TerraformDataSource 
       terraformResourceType: 'zia_traffic_forwarding_static_ip',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.2',
-        providerVersionConstraint: '4.6.2'
+        providerVersion: '4.6.3',
+        providerVersionConstraint: '4.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

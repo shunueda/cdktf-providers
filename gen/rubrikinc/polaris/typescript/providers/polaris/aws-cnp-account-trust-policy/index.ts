@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_trust_policy
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account_trust_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AwsCnpAccountTrustPolicyConfig extends cdktf.TerraformMetaArgum
   /**
   * RSC cloud account ID (UUID). Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_trust_policy#account_id AwsCnpAccountTrustPolicy#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account_trust_policy#account_id AwsCnpAccountTrustPolicy#account_id}
   */
   readonly accountId: string;
   /**
   * Trust policy external ID. If not specified, RSC will generate an external ID. Note, once the external ID has been set it cannot be changed. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_trust_policy#external_id AwsCnpAccountTrustPolicy#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account_trust_policy#external_id AwsCnpAccountTrustPolicy#external_id}
   */
   readonly externalId?: string;
   /**
-  * RSC features. Possible values are `CLOUD_NATIVE_ARCHIVAL`, `CLOUD_NATIVE_PROTECTION`, `CLOUD_NATIVE_DYNAMODB_PROTECTION`, `CLOUD_NATIVE_S3_PROTECTION`, `SERVERS_AND_APPS`, `EXOCOMPUTE` and `RDS_PROTECTION`. **Deprecated:** no longer used by the provider, any value set is ignored.
+  * RSC features. Possible values are `CLOUD_NATIVE_ARCHIVAL`, `CLOUD_NATIVE_PROTECTION`, `CLOUD_NATIVE_DYNAMODB_PROTECTION`, `KUBERNETES_PROTECTION`, `CLOUD_NATIVE_S3_PROTECTION`, `SERVERS_AND_APPS`, `EXOCOMPUTE` and `RDS_PROTECTION`. **Deprecated:** no longer used by the provider, any value set is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_trust_policy#features AwsCnpAccountTrustPolicy#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account_trust_policy#features AwsCnpAccountTrustPolicy#features}
   */
   readonly features?: string[];
   /**
   * RSC artifact key for the AWS role. Possible values are `CROSSACCOUNT`, `EXOCOMPUTE_EKS_MASTERNODE`, `EXOCOMPUTE_EKS_WORKERNODE` and `EXOCOMPUTE_EKS_LAMBDA`. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_trust_policy#role_key AwsCnpAccountTrustPolicy#role_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account_trust_policy#role_key AwsCnpAccountTrustPolicy#role_key}
   */
   readonly roleKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_trust_policy polaris_aws_cnp_account_trust_policy}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account_trust_policy polaris_aws_cnp_account_trust_policy}
 */
 export class AwsCnpAccountTrustPolicy extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class AwsCnpAccountTrustPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsCnpAccountTrustPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsCnpAccountTrustPolicy to import
-  * @param importFromId The id of the existing AwsCnpAccountTrustPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_trust_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsCnpAccountTrustPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account_trust_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsCnpAccountTrustPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class AwsCnpAccountTrustPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account_trust_policy polaris_aws_cnp_account_trust_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account_trust_policy polaris_aws_cnp_account_trust_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class AwsCnpAccountTrustPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_aws_cnp_account_trust_policy',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

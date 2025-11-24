@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#metadata DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#metadata DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestMetadata;
   /**
   * SqlJobSpec defines the desired state of SqlJob
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#spec DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#spec DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#annotations DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#annotations DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespace DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespace DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAf
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,19 +401,19 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAf
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -583,13 +583,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAf
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_fields DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_fields DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -714,13 +714,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAf
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#preference DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#preference DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#weight DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#weight DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -861,19 +861,19 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAf
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1043,19 +1043,19 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAf
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1225,13 +1225,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAf
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_fields DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_fields DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1378,7 +1378,7 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAf
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#node_selector_terms DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#node_selector_terms DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1471,13 +1471,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAf
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1602,19 +1602,19 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAff
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1784,13 +1784,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAff
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1915,19 +1915,19 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAff
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2097,13 +2097,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAff
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2228,25 +2228,25 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAff
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#label_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#label_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespace_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespace_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespaces DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespaces DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#topology_key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#topology_key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2426,13 +2426,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAff
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#pod_affinity_term DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#pod_affinity_term DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#weight DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#weight DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2573,19 +2573,19 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAff
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2755,13 +2755,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAff
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2886,19 +2886,19 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAff
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3068,13 +3068,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAff
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3199,25 +3199,25 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAff
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#label_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#label_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespace_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespace_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespaces DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespaces DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#topology_key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#topology_key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3419,13 +3419,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAff
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3550,19 +3550,19 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAnt
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3732,13 +3732,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAnt
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3863,19 +3863,19 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAnt
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4045,13 +4045,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAnt
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4176,25 +4176,25 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAnt
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#label_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#label_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespace_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespace_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespaces DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespaces DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#topology_key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#topology_key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4374,13 +4374,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAnt
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#pod_affinity_term DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#pod_affinity_term DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#weight DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#weight DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4521,19 +4521,19 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAnt
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4703,13 +4703,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAnt
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4834,19 +4834,19 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAnt
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#values DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5016,13 +5016,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAnt
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_expressions DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#match_labels DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5147,25 +5147,25 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAnt
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#label_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#label_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespace_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespace_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespaces DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespaces DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#topology_key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#topology_key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5367,13 +5367,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAnt
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5498,19 +5498,19 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinity {
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#node_affinity DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#node_affinity DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#pod_affinity DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#pod_affinity DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#pod_anti_affinity DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#pod_anti_affinity DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinityPodAntiAffinity;
 }
@@ -5664,7 +5664,7 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecDependsOn {
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5782,49 +5782,49 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecMariaDbRef {
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#api_version DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#api_version DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#field_path DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#field_path DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#kind DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#kind DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespace DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#namespace DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#resource_version DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#resource_version DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#uid DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#uid DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
   /**
   * WaitForIt indicates whether the controller using this reference should wait for MariaDB to be ready.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#wait_for_it DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#wait_for_it}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#wait_for_it DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#wait_for_it}
   */
   readonly waitForIt?: boolean | cdktf.IResolvable;
 }
@@ -6123,19 +6123,19 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecPasswordSecret
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#optional DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#optional DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6286,25 +6286,25 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecPodSecurityCon
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#level DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#level DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#role DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#role DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#type DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#type DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#user DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#user DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -6487,13 +6487,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecPodSecurityCon
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#localhost_profile DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#localhost_profile DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#type DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#type DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -6615,13 +6615,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecPodSecurityCon
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#value DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#value DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -6762,25 +6762,25 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecPodSecurityCon
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#gmsa_credential_spec DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#gmsa_credential_spec DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#gmsa_credential_spec_name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#gmsa_credential_spec_name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#host_process DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#host_process DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#run_as_user_name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#run_as_user_name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -6963,61 +6963,61 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecPodSecurityCon
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#fs_group DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#fs_group DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#fs_group_change_policy DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#fs_group_change_policy DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#run_as_group DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#run_as_group DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#run_as_non_root DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#run_as_non_root DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#run_as_user DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#run_as_user DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#se_linux_options DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#se_linux_options DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecPodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#seccomp_profile DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#seccomp_profile DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecPodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#supplemental_groups DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#supplemental_groups DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#sysctls DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#sysctls DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#windows_options DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#windows_options DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecPodSecurityContextWindowsOptions;
 }
@@ -7374,7 +7374,7 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecResourcesClaim
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -7489,19 +7489,19 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#claims DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#claims DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#limits DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#limits DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#requests DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#requests DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7655,13 +7655,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecSchedule {
   /**
   * Cron is a cron expression that defines the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#cron DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#cron DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#cron}
   */
   readonly cron: string;
   /**
   * Suspend defines whether the schedule is active or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#suspend DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#suspend DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
 }
@@ -7783,13 +7783,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecSecurityContex
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#add DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#add DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#drop DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#drop DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -7914,25 +7914,25 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecSecurityContex
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#level DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#level DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#role DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#role DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#type DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#type DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#user DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#user DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -8115,13 +8115,13 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecSecurityContex
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#localhost_profile DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#localhost_profile DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#type DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#type DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -8243,25 +8243,25 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecSecurityContex
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#gmsa_credential_spec DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#gmsa_credential_spec DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#gmsa_credential_spec_name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#gmsa_credential_spec_name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#host_process DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#host_process DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#run_as_user_name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#run_as_user_name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -8444,67 +8444,67 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecSecurityContex
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#allow_privilege_escalation DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#allow_privilege_escalation DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#capabilities DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#capabilities DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#privileged DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#privileged DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#proc_mount DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#proc_mount DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#read_only_root_filesystem DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#read_only_root_filesystem DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#run_as_group DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#run_as_group DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#run_as_non_root DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#run_as_non_root DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#run_as_user DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#run_as_user DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#se_linux_options DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#se_linux_options DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#seccomp_profile DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#seccomp_profile DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#windows_options DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#windows_options DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecSecurityContextWindowsOptions;
 }
@@ -8890,19 +8890,19 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecSqlConfigMapKe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#name DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#optional DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#optional DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9053,31 +9053,31 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecTolerations {
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#effect DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#effect DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#key DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#operator DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#toleration_seconds DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#toleration_seconds DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#value DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#value DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -9311,97 +9311,97 @@ export interface DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpec {
   /**
   * Affinity to be used in the SqlJob Pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#affinity DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#affinity DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecAffinity;
   /**
   * BackoffLimit defines the maximum number of attempts to successfully execute a SqlJob.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#backoff_limit DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#backoff_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#backoff_limit DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#backoff_limit}
   */
   readonly backoffLimit?: number;
   /**
   * Username to be used when executing the SqlJob.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#database DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#database DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#database}
   */
   readonly database?: string;
   /**
   * DependsOn defines dependencies with other SqlJob objectecs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#depends_on DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#depends_on DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#depends_on}
   */
   readonly dependsOn?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecDependsOn[] | cdktf.IResolvable;
   /**
   * MariaDBRef is a reference to a MariaDB object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#maria_db_ref DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#maria_db_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#maria_db_ref DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#maria_db_ref}
   */
   readonly mariaDbRef: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecMariaDbRef;
   /**
   * NodeSelector to be used in the SqlJob Pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#node_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#node_selector DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * UserPasswordSecretKeyRef is a reference to the impersonated user's password to be used when executing the SqlJob.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#password_secret_key_ref DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#password_secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#password_secret_key_ref DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#password_secret_key_ref}
   */
   readonly passwordSecretKeyRef: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecPasswordSecretKeyRef;
   /**
   * SecurityContext holds pod-level security attributes and common container settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#pod_security_context DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#pod_security_context DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecPodSecurityContext;
   /**
   * Resouces describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#resources DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#resources DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecResources;
   /**
   * RestartPolicy to be added to the SqlJob Pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#restart_policy DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#restart_policy DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * Schedule defines when the SqlJob will be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#schedule DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#schedule DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#schedule}
   */
   readonly schedule?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecSchedule;
   /**
   * SecurityContext holds security configuration that will be applied to a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#security_context DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#security_context DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecSecurityContext;
   /**
   * Sql is the script to be executed by the SqlJob.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#sql DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#sql DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#sql}
   */
   readonly sql?: string;
   /**
   * SqlConfigMapKeyRef is a reference to a ConfigMap containing the Sql script. It is defaulted to a ConfigMap with the contents of the Sql field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#sql_config_map_key_ref DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#sql_config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#sql_config_map_key_ref DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#sql_config_map_key_ref}
   */
   readonly sqlConfigMapKeyRef?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecSqlConfigMapKeyRef;
   /**
   * Tolerations to be used in the SqlJob Pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#tolerations DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#tolerations DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecTolerations[] | cdktf.IResolvable;
   /**
   * Username to be impersonated when executing the SqlJob.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#username DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#username DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest#username}
   */
   readonly username: string;
 }
@@ -9921,7 +9921,7 @@ export class DataK8SMariadbMmontesIoSqlJobV1Alpha1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest k8s_mariadb_mmontes_io_sql_job_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest k8s_mariadb_mmontes_io_sql_job_v1alpha1_manifest}
 */
 export class DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -9937,7 +9937,7 @@ export class DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9949,7 +9949,7 @@ export class DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest k8s_mariadb_mmontes_io_sql_job_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/mariadb_mmontes_io_sql_job_v1alpha1_manifest k8s_mariadb_mmontes_io_sql_job_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9960,8 +9960,8 @@ export class DataK8SMariadbMmontesIoSqlJobV1Alpha1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_mariadb_mmontes_io_sql_job_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

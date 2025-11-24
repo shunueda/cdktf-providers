@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_secret_text
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_text
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHarnessPlatformSecretTextConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_secret_text#id DataHarnessPlatformSecretText#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_text#id DataHarnessPlatformSecretText#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataHarnessPlatformSecretTextConfig extends cdktf.TerraformMeta
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_secret_text#identifier DataHarnessPlatformSecretText#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_text#identifier DataHarnessPlatformSecretText#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_secret_text#name DataHarnessPlatformSecretText#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_text#name DataHarnessPlatformSecretText#name}
   */
   readonly name?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_secret_text#org_id DataHarnessPlatformSecretText#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_text#org_id DataHarnessPlatformSecretText#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_secret_text#project_id DataHarnessPlatformSecretText#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_text#project_id DataHarnessPlatformSecretText#project_id}
   */
   readonly projectId?: string;
   /**
   * additional_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_secret_text#additional_metadata DataHarnessPlatformSecretText#additional_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_text#additional_metadata DataHarnessPlatformSecretText#additional_metadata}
   */
   readonly additionalMetadata?: DataHarnessPlatformSecretTextAdditionalMetadata[] | cdktf.IResolvable;
 }
 export interface DataHarnessPlatformSecretTextAdditionalMetadataValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_secret_text#version DataHarnessPlatformSecretText#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_text#version DataHarnessPlatformSecretText#version}
   */
   readonly version?: string;
 }
@@ -165,7 +165,7 @@ export interface DataHarnessPlatformSecretTextAdditionalMetadata {
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_secret_text#values DataHarnessPlatformSecretText#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_text#values DataHarnessPlatformSecretText#values}
   */
   readonly values?: DataHarnessPlatformSecretTextAdditionalMetadataValues[] | cdktf.IResolvable;
 }
@@ -281,7 +281,7 @@ export class DataHarnessPlatformSecretTextAdditionalMetadataList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_secret_text harness_platform_secret_text}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_text harness_platform_secret_text}
 */
 export class DataHarnessPlatformSecretText extends cdktf.TerraformDataSource {
 
@@ -297,7 +297,7 @@ export class DataHarnessPlatformSecretText extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessPlatformSecretText resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformSecretText to import
-  * @param importFromId The id of the existing DataHarnessPlatformSecretText that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_secret_text#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformSecretText that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_text#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformSecretText to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -309,7 +309,7 @@ export class DataHarnessPlatformSecretText extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_secret_text harness_platform_secret_text} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_secret_text harness_platform_secret_text} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -320,8 +320,8 @@ export class DataHarnessPlatformSecretText extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_platform_secret_text',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

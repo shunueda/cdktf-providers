@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestMetadata;
   /**
   * ClusterSpec defines the desired state of Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecBundle
   /**
   * APIVersion refers to the Bundles APIVersion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#api_version DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#api_version DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Name refers to the name of the Bundles object in the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace refers to the Bundles's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -376,37 +376,37 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecCluste
   /**
   * EgressMasquaradeInterfaces determines which network interfaces are used for masquerading. Accepted values are a valid interface name or interface prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#egress_masquerade_interfaces DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#egress_masquerade_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#egress_masquerade_interfaces DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#egress_masquerade_interfaces}
   */
   readonly egressMasqueradeInterfaces?: string;
   /**
   * IPv4NativeRoutingCIDR specifies the CIDR to use when RoutingMode is set to direct. When specified, Cilium assumes networking for this CIDR is preconfigured and hands traffic destined for that range to the Linux network stack without applying any SNAT. If this is not set autoDirectNodeRoutes will be set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#ipv4_native_routing_cidr DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#ipv4_native_routing_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#ipv4_native_routing_cidr DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#ipv4_native_routing_cidr}
   */
   readonly ipv4NativeRoutingCidr?: string;
   /**
   * IPv6NativeRoutingCIDR specifies the IPv6 CIDR to use when RoutingMode is set to direct. When specified, Cilium assumes networking for this CIDR is preconfigured and hands traffic destined for that range to the Linux network stack without applying any SNAT. If this is not set autoDirectNodeRoutes will be set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#ipv6_native_routing_cidr DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#ipv6_native_routing_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#ipv6_native_routing_cidr DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#ipv6_native_routing_cidr}
   */
   readonly ipv6NativeRoutingCidr?: string;
   /**
   * PolicyEnforcementMode determines communication allowed between pods. Accepted values are default, always, never.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#policy_enforcement_mode DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#policy_enforcement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#policy_enforcement_mode DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#policy_enforcement_mode}
   */
   readonly policyEnforcementMode?: string;
   /**
   * RoutingMode indicates the routing tunnel mode to use for Cilium. Accepted values are overlay (geneve tunnel with overlay) or direct (tunneling disabled with direct routing) Defaults to overlay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#routing_mode DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#routing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#routing_mode DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#routing_mode}
   */
   readonly routingMode?: string;
   /**
   * SkipUpgrade indicicates that Cilium maintenance should be skipped during upgrades. This can be used when operators wish to self manage the Cilium installation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#skip_upgrade DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#skip_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#skip_upgrade DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#skip_upgrade}
   */
   readonly skipUpgrade?: boolean | cdktf.IResolvable;
 }
@@ -647,13 +647,13 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecCluste
   /**
   * CiliumConfig contains configuration specific to the Cilium CNI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cilium DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cilium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cilium DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cilium}
   */
   readonly cilium?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecClusterNetworkCniConfigCilium;
   /**
   * KindnetdConfig contains configuration specific to the Kindnetd CNI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kindnetd DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kindnetd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kindnetd DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kindnetd}
   */
   readonly kindnetd?: { [key: string]: string };
 }
@@ -778,7 +778,7 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecCluste
   /**
   * Path defines the path to the file that contains the DNS resolver configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#path DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#path DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -874,7 +874,7 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecCluste
   /**
   * ResolvConf refers to the DNS resolver configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#resolv_conf DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#resolv_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#resolv_conf DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#resolv_conf}
   */
   readonly resolvConf?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecClusterNetworkDnsResolvConf;
 }
@@ -970,7 +970,7 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecCluste
   /**
   * CIDRMaskSize defines the mask size for node cidr in the cluster, default for ipv4 is 24. This is an optional field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cidr_mask_size DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cidr_mask_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cidr_mask_size DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cidr_mask_size}
   */
   readonly cidrMaskSize?: number;
 }
@@ -1064,7 +1064,7 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecClusterNet
 }
 export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecClusterNetworkPods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cidr_blocks DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cidr_blocks DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cidr_blocks}
   */
   readonly cidrBlocks?: string[];
 }
@@ -1158,7 +1158,7 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecClusterNet
 }
 export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecClusterNetworkServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cidr_blocks DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cidr_blocks DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cidr_blocks}
   */
   readonly cidrBlocks?: string[];
 }
@@ -1254,31 +1254,31 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecCluste
   /**
   * Deprecated. Use CNIConfig
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cni DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cni DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cni}
   */
   readonly cni?: string;
   /**
   * CNIConfig specifies the CNI plugin to be installed in the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cni_config DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cni_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cni_config DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cni_config}
   */
   readonly cniConfig?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecClusterNetworkCniConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#dns DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#dns DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#dns}
   */
   readonly dns?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecClusterNetworkDns;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#nodes DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#nodes DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#nodes}
   */
   readonly nodes?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecClusterNetworkNodes;
   /**
   * Comma-separated list of CIDR blocks to use for pod and service subnets. Defaults to 192.168.0.0/16 for pod subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#pods DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#pods DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#pods}
   */
   readonly pods?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecClusterNetworkPods;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#services DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#services DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#services}
   */
   readonly services?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecClusterNetworkServices;
 }
@@ -1519,7 +1519,7 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecContro
   /**
   * Host defines the ip that you want to use to connect to the control plane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#host DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#host DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#host}
   */
   readonly host: string;
 }
@@ -1610,11 +1610,11 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecControlPla
 }
 export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecControlPlaneConfigurationMachineGroupRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1739,19 +1739,19 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecContro
   /**
   * MaxUnhealthy is used to configure the maximum number of unhealthy machines in machine health checks. This setting applies to both control plane and worker machines. If the number of unhealthy machines exceeds the limit set by maxUnhealthy, further remediation will not be performed. If not configured, the default value is set to '100%' for controlplane machines and '40%' for worker machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#max_unhealthy DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#max_unhealthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#max_unhealthy DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#max_unhealthy}
   */
   readonly maxUnhealthy?: string;
   /**
   * NodeStartupTimeout is used to configure the node startup timeout in machine health checks. It determines how long a MachineHealthCheck should wait for a Node to join the cluster, before considering a Machine unhealthy. If not configured, the default value is set to '10m0s' (10 minutes) for all providers. For Tinkerbell provider the default is '20m0s'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#node_startup_timeout DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#node_startup_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#node_startup_timeout DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#node_startup_timeout}
   */
   readonly nodeStartupTimeout?: string;
   /**
   * UnhealthyMachineTimeout is used to configure the unhealthy machine timeout in machine health checks. If any unhealthy conditions are met for the amount of time specified as the timeout, the machines are considered unhealthy. If not configured, the default value is set to '5m0s' (5 minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#unhealthy_machine_timeout DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#unhealthy_machine_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#unhealthy_machine_timeout DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#unhealthy_machine_timeout}
   */
   readonly unhealthyMachineTimeout?: string;
 }
@@ -1905,25 +1905,25 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecContro
   /**
   * Required. The effect of the taint on pods that do not tolerate the taint. Valid effects are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#effect DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#effect DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#effect}
   */
   readonly effect: string;
   /**
   * Required. The taint key to be applied to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#key DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#key DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * TimeAdded represents the time at which the taint was added. It is only written for NoExecute taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#time_added DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#time_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#time_added DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#time_added}
   */
   readonly timeAdded?: string;
   /**
   * The taint value corresponding to the taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#value DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#value DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2120,7 +2120,7 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecControlPla
 }
 export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecControlPlaneConfigurationUpgradeRolloutStrategyRollingUpdate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#max_surge DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#max_surge DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#max_surge}
   */
   readonly maxSurge: number;
 }
@@ -2213,13 +2213,13 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecContro
   /**
   * ControlPlaneRollingUpdateParams is API for rolling update strategy knobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#rolling_update DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#rolling_update DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecControlPlaneConfigurationUpgradeRolloutStrategyRollingUpdate;
   /**
   * UpgradeRolloutStrategyType defines the types of upgrade rollout strategies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2344,67 +2344,67 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecContro
   /**
   * APIServerExtraArgs defines the flags to configure for the API server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#api_server_extra_args DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#api_server_extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#api_server_extra_args DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#api_server_extra_args}
   */
   readonly apiServerExtraArgs?: { [key: string]: string };
   /**
   * CertSANs is a slice of domain names or IPs to be added as Subject Name Alternatives of the Kube API Servers Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cert_sans DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cert_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cert_sans DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cert_sans}
   */
   readonly certSans?: string[];
   /**
   * Count defines the number of desired control plane nodes. Defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#count DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#count DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#count}
   */
   readonly count?: number;
   /**
   * Endpoint defines the host ip and port to use for the control plane.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#endpoint DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#endpoint DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#endpoint}
   */
   readonly endpoint?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecControlPlaneConfigurationEndpoint;
   /**
   * KubeletConfiguration is a struct that exposes the Kubelet settings for the user to set on control plane nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kubelet_configuration DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kubelet_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kubelet_configuration DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kubelet_configuration}
   */
   readonly kubeletConfiguration?: { [key: string]: string };
   /**
   * Labels define the labels to assign to the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * MachineGroupRef defines the machine group configuration for the control plane.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#machine_group_ref DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#machine_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#machine_group_ref DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#machine_group_ref}
   */
   readonly machineGroupRef?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecControlPlaneConfigurationMachineGroupRef;
   /**
   * MachineHealthCheck is a control-plane level override for the timeouts and maxUnhealthy specified in the top-level MHC configuration. If not configured, the defaults in the top-level MHC configuration are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#machine_health_check DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#machine_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#machine_health_check DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#machine_health_check}
   */
   readonly machineHealthCheck?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecControlPlaneConfigurationMachineHealthCheck;
   /**
   * SkipLoadBalancerDeployment skip deploying control plane load balancer. Make sure your infrastructure can handle control plane load balancing when you set this field to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#skip_load_balancer_deployment DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#skip_load_balancer_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#skip_load_balancer_deployment DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#skip_load_balancer_deployment}
   */
   readonly skipLoadBalancerDeployment?: boolean | cdktf.IResolvable;
   /**
   * Taints define the set of taints to be applied on control plane nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#taints DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#taints DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#taints}
   */
   readonly taints?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecControlPlaneConfigurationTaints[] | cdktf.IResolvable;
   /**
   * UpgradeRolloutStrategy determines the rollout strategy to use for rolling upgrades and related parameters/knobs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#upgrade_rollout_strategy DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#upgrade_rollout_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#upgrade_rollout_strategy DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#upgrade_rollout_strategy}
   */
   readonly upgradeRolloutStrategy?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecControlPlaneConfigurationUpgradeRolloutStrategy;
 }
@@ -2788,11 +2788,11 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecControlPla
 }
 export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecDatacenterRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2917,25 +2917,25 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecEtcdEn
   /**
   * CacheSize defines the maximum number of encrypted objects to be cached in memory. The default value is 1000. You can set this to a negative value to disable caching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cachesize DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cachesize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cachesize DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cachesize}
   */
   readonly cachesize?: number;
   /**
   * Name defines the name of KMS plugin to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * SocketListenAddress defines a UNIX socket address that the KMS provider listens on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#socket_listen_address DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#socket_listen_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#socket_listen_address DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#socket_listen_address}
   */
   readonly socketListenAddress: string;
   /**
   * Timeout for kube-apiserver to wait for KMS plugin. Default is 3s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#timeout DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#timeout DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -3112,7 +3112,7 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecEtcdEn
   /**
   * KMS defines the configuration for KMS Encryption provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kms DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kms DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kms}
   */
   readonly kms: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecEtcdEncryptionProvidersKms;
 }
@@ -3225,13 +3225,13 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecEtcdEncryp
 }
 export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecEtcdEncryption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#providers DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#providers DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#providers}
   */
   readonly providers: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecEtcdEncryptionProviders[] | cdktf.IResolvable;
   /**
   * Resources defines a list of objects and custom resources definitions that should be encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#resources DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#resources DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#resources}
   */
   readonly resources: string[];
 }
@@ -3370,11 +3370,11 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecEtcdEncryp
 }
 export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecExternalEtcdConfigurationMachineGroupRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3497,13 +3497,13 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecExternalEt
 }
 export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecExternalEtcdConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#count DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#count DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#count}
   */
   readonly count?: number;
   /**
   * MachineGroupRef defines the machine group configuration for the etcd machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#machine_group_ref DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#machine_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#machine_group_ref DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#machine_group_ref}
   */
   readonly machineGroupRef?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecExternalEtcdConfigurationMachineGroupRef;
 }
@@ -3626,11 +3626,11 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecExternalEt
 }
 export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecGitOpsRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3753,11 +3753,11 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecGitOpsRefO
 }
 export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecIdentityProviderRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3904,19 +3904,19 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecMachin
   /**
   * MaxUnhealthy is used to configure the maximum number of unhealthy machines in machine health checks. This setting applies to both control plane and worker machines. If the number of unhealthy machines exceeds the limit set by maxUnhealthy, further remediation will not be performed. If not configured, the default value is set to '100%' for controlplane machines and '40%' for worker machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#max_unhealthy DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#max_unhealthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#max_unhealthy DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#max_unhealthy}
   */
   readonly maxUnhealthy?: string;
   /**
   * NodeStartupTimeout is used to configure the node startup timeout in machine health checks. It determines how long a MachineHealthCheck should wait for a Node to join the cluster, before considering a Machine unhealthy. If not configured, the default value is set to '10m0s' (10 minutes) for all providers. For Tinkerbell provider the default is '20m0s'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#node_startup_timeout DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#node_startup_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#node_startup_timeout DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#node_startup_timeout}
   */
   readonly nodeStartupTimeout?: string;
   /**
   * UnhealthyMachineTimeout is used to configure the unhealthy machine timeout in machine health checks. If any unhealthy conditions are met for the amount of time specified as the timeout, the machines are considered unhealthy. If not configured, the default value is set to '5m0s' (5 minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#unhealthy_machine_timeout DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#unhealthy_machine_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#unhealthy_machine_timeout DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#unhealthy_machine_timeout}
   */
   readonly unhealthyMachineTimeout?: string;
 }
@@ -4068,7 +4068,7 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecMachineHea
 }
 export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecManagementCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4164,13 +4164,13 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecPackag
   /**
   * CPU image cpu
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cpu DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cpu DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
   * Memory image memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#memory DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#memory DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -4295,13 +4295,13 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecPackag
   /**
   * CPU image cpu
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cpu DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cpu DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
   * Memory image memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#memory DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#memory DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -4426,13 +4426,13 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecPackag
   /**
   * ImageResource resources for container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#limits DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#limits DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#limits}
   */
   readonly limits?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecPackagesControllerResourcesLimits;
   /**
   * Requests for image resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#requests DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#requests DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#requests}
   */
   readonly requests?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecPackagesControllerResourcesRequests;
 }
@@ -4557,37 +4557,37 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecPackag
   /**
   * Digest package controller digest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#digest DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#digest DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#digest}
   */
   readonly digest?: string;
   /**
   * DisableWebhooks on package controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#disable_webhooks DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#disable_webhooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#disable_webhooks DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#disable_webhooks}
   */
   readonly disableWebhooks?: boolean | cdktf.IResolvable;
   /**
   * Env of package controller in the format 'key=value'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#env DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#env DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#env}
   */
   readonly env?: string[];
   /**
   * Repository package controller repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#repository DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#repository DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Resources of package controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#resources DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#resources DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecPackagesControllerResources;
   /**
   * Tag package controller tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#tag DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#tag DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -4828,25 +4828,25 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecPackag
   /**
   * Digest ecr token refresher digest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#digest DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#digest DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#digest}
   */
   readonly digest?: string;
   /**
   * Disable on cron job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#disable DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#disable DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Repository ecr token refresher repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#repository DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#repository DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Tag ecr token refresher tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#tag DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#tag DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -5029,19 +5029,19 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecPackag
   /**
   * Controller package controller configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#controller DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#controller DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#controller}
   */
   readonly controller?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecPackagesController;
   /**
   * Cronjob for ecr token refresher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cronjob DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cronjob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cronjob DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cronjob}
   */
   readonly cronjob?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecPackagesCronjob;
   /**
   * Disable package controller on cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#disable DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#disable DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
 }
@@ -5193,7 +5193,7 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecPackagesOu
 }
 export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecPodIamConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#service_account_issuer DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#service_account_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#service_account_issuer DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#service_account_issuer}
   */
   readonly serviceAccountIssuer: string;
 }
@@ -5284,15 +5284,15 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecPodIamConf
 }
 export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecProxyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#http_proxy DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#http_proxy DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#http_proxy}
   */
   readonly httpProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#https_proxy DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#https_proxy DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#no_proxy DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#no_proxy DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string[];
 }
@@ -5446,13 +5446,13 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecRegist
   /**
   * Namespace refers to the name of a namespace in the local registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
   /**
   * Registry refers to the name of the upstream registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#registry DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#registry DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#registry}
   */
   readonly registry: string;
 }
@@ -5593,37 +5593,37 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecRegist
   /**
   * Authenticate defines if registry requires authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#authenticate DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#authenticate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#authenticate DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#authenticate}
   */
   readonly authenticate?: boolean | cdktf.IResolvable;
   /**
   * CACertContent defines the contents registry mirror CA certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#ca_cert_content DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#ca_cert_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#ca_cert_content DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#ca_cert_content}
   */
   readonly caCertContent?: string;
   /**
   * Endpoint defines the registry mirror endpoint to use for pulling images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#endpoint DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#endpoint DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
   * InsecureSkipVerify skips the registry certificate verification. Only use this solution for isolated testing or in a tightly controlled, air-gapped environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#insecure_skip_verify DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#insecure_skip_verify DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * OCINamespaces defines the mapping from an upstream registry to a local namespace where upstream artifacts are placed into
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#oci_namespaces DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#oci_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#oci_namespaces DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#oci_namespaces}
   */
   readonly ociNamespaces?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecRegistryMirrorConfigurationOciNamespaces[] | cdktf.IResolvable;
   /**
   * Port defines the port exposed for registry mirror endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#port DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#port DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#port}
   */
   readonly port?: string;
 }
@@ -5864,13 +5864,13 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecWorker
   /**
   * MaxCount defines the maximum number of nodes for the associated resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#max_count DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#max_count DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#max_count}
   */
   readonly maxCount?: number;
   /**
   * MinCount defines the minimum number of nodes for the associated resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#min_count DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#min_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#min_count DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#min_count}
   */
   readonly minCount?: number;
 }
@@ -5993,11 +5993,11 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecWorkerNode
 }
 export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecWorkerNodeGroupConfigurationsMachineGroupRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6122,19 +6122,19 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecWorker
   /**
   * MaxUnhealthy is used to configure the maximum number of unhealthy machines in machine health checks. This setting applies to both control plane and worker machines. If the number of unhealthy machines exceeds the limit set by maxUnhealthy, further remediation will not be performed. If not configured, the default value is set to '100%' for controlplane machines and '40%' for worker machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#max_unhealthy DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#max_unhealthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#max_unhealthy DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#max_unhealthy}
   */
   readonly maxUnhealthy?: string;
   /**
   * NodeStartupTimeout is used to configure the node startup timeout in machine health checks. It determines how long a MachineHealthCheck should wait for a Node to join the cluster, before considering a Machine unhealthy. If not configured, the default value is set to '10m0s' (10 minutes) for all providers. For Tinkerbell provider the default is '20m0s'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#node_startup_timeout DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#node_startup_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#node_startup_timeout DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#node_startup_timeout}
   */
   readonly nodeStartupTimeout?: string;
   /**
   * UnhealthyMachineTimeout is used to configure the unhealthy machine timeout in machine health checks. If any unhealthy conditions are met for the amount of time specified as the timeout, the machines are considered unhealthy. If not configured, the default value is set to '5m0s' (5 minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#unhealthy_machine_timeout DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#unhealthy_machine_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#unhealthy_machine_timeout DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#unhealthy_machine_timeout}
   */
   readonly unhealthyMachineTimeout?: string;
 }
@@ -6288,25 +6288,25 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecWorker
   /**
   * Required. The effect of the taint on pods that do not tolerate the taint. Valid effects are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#effect DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#effect DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#effect}
   */
   readonly effect: string;
   /**
   * Required. The taint key to be applied to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#key DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#key DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * TimeAdded represents the time at which the taint was added. It is only written for NoExecute taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#time_added DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#time_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#time_added DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#time_added}
   */
   readonly timeAdded?: string;
   /**
   * The taint value corresponding to the taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#value DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#value DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6503,11 +6503,11 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecWorkerNode
 }
 export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecWorkerNodeGroupConfigurationsUpgradeRolloutStrategyRollingUpdate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#max_surge DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#max_surge DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#max_surge}
   */
   readonly maxSurge: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#max_unavailable DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#max_unavailable DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable: number;
 }
@@ -6626,13 +6626,13 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecWorker
   /**
   * WorkerNodesRollingUpdateParams is API for rolling update strategy knobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#rolling_update DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#rolling_update DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecWorkerNodeGroupConfigurationsUpgradeRolloutStrategyRollingUpdate;
   /**
   * UpgradeRolloutStrategyType defines the types of upgrade rollout strategies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -6757,61 +6757,61 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecWorker
   /**
   * AutoScalingConfiguration defines the auto scaling configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#autoscaling_configuration DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#autoscaling_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#autoscaling_configuration DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#autoscaling_configuration}
   */
   readonly autoscalingConfiguration?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecWorkerNodeGroupConfigurationsAutoscalingConfiguration;
   /**
   * Count defines the number of desired worker nodes. Defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#count DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#count DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#count}
   */
   readonly count?: number;
   /**
   * KubeletConfiguration is a struct that exposes the Kubelet settings for the user to set on worker nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kubelet_configuration DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kubelet_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kubelet_configuration DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kubelet_configuration}
   */
   readonly kubeletConfiguration?: { [key: string]: string };
   /**
   * KubernetesVersion defines the version for worker nodes. If not set, the top level spec kubernetesVersion will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kubernetes_version DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kubernetes_version DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kubernetes_version}
   */
   readonly kubernetesVersion?: string;
   /**
   * Labels define the labels to assign to the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * MachineGroupRef defines the machine group configuration for the worker nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#machine_group_ref DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#machine_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#machine_group_ref DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#machine_group_ref}
   */
   readonly machineGroupRef?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecWorkerNodeGroupConfigurationsMachineGroupRef;
   /**
   * MachineHealthCheck is a worker node level override for the timeouts and maxUnhealthy specified in the top-level MHC configuration. If not configured, the defaults in the top-level MHC configuration are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#machine_health_check DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#machine_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#machine_health_check DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#machine_health_check}
   */
   readonly machineHealthCheck?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecWorkerNodeGroupConfigurationsMachineHealthCheck;
   /**
   * Name refers to the name of the worker node group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Taints define the set of taints to be applied on worker nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#taints DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#taints DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#taints}
   */
   readonly taints?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecWorkerNodeGroupConfigurationsTaints[] | cdktf.IResolvable;
   /**
   * UpgradeRolloutStrategy determines the rollout strategy to use for rolling upgrades and related parameters/knobs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#upgrade_rollout_strategy DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#upgrade_rollout_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#upgrade_rollout_strategy DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#upgrade_rollout_strategy}
   */
   readonly upgradeRolloutStrategy?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecWorkerNodeGroupConfigurationsUpgradeRolloutStrategy;
 }
@@ -7190,81 +7190,81 @@ export interface DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpec {
   /**
   * BundlesRef contains a reference to the Bundles containing the desired dependencies for the cluster. DEPRECATED: Use EksaVersion instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#bundles_ref DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#bundles_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#bundles_ref DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#bundles_ref}
   */
   readonly bundlesRef?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecBundlesRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cluster_network DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cluster_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#cluster_network DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#cluster_network}
   */
   readonly clusterNetwork?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecClusterNetwork;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#control_plane_configuration DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#control_plane_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#control_plane_configuration DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#control_plane_configuration}
   */
   readonly controlPlaneConfiguration?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecControlPlaneConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#datacenter_ref DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#datacenter_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#datacenter_ref DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#datacenter_ref}
   */
   readonly datacenterRef?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecDatacenterRef;
   /**
   * EksaVersion is the semver identifying the release of eks-a used to populate the cluster components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#eksa_version DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#eksa_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#eksa_version DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#eksa_version}
   */
   readonly eksaVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#etcd_encryption DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#etcd_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#etcd_encryption DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#etcd_encryption}
   */
   readonly etcdEncryption?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecEtcdEncryption[] | cdktf.IResolvable;
   /**
   * ExternalEtcdConfiguration defines the configuration options for using unstacked etcd topology.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#external_etcd_configuration DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#external_etcd_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#external_etcd_configuration DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#external_etcd_configuration}
   */
   readonly externalEtcdConfiguration?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecExternalEtcdConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#git_ops_ref DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#git_ops_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#git_ops_ref DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#git_ops_ref}
   */
   readonly gitOpsRef?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecGitOpsRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#identity_provider_refs DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#identity_provider_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#identity_provider_refs DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#identity_provider_refs}
   */
   readonly identityProviderRefs?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecIdentityProviderRefs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kubernetes_version DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#kubernetes_version DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#kubernetes_version}
   */
   readonly kubernetesVersion?: string;
   /**
   * MachineHealthCheck allows to configure timeouts for machine health checks. Machine Health Checks are responsible for remediating unhealthy Machines. Configuring these values will decide how long to wait to remediate unhealthy machine or determine health of nodes' machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#machine_health_check DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#machine_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#machine_health_check DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#machine_health_check}
   */
   readonly machineHealthCheck?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecMachineHealthCheck;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#management_cluster DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#management_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#management_cluster DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#management_cluster}
   */
   readonly managementCluster?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecManagementCluster;
   /**
   * PackageConfiguration for installing EKS Anywhere curated packages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#packages DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#packages DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#packages}
   */
   readonly packages?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecPackages;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#pod_iam_config DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#pod_iam_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#pod_iam_config DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#pod_iam_config}
   */
   readonly podIamConfig?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecPodIamConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#proxy_configuration DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#proxy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#proxy_configuration DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#proxy_configuration}
   */
   readonly proxyConfiguration?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecProxyConfiguration;
   /**
   * RegistryMirrorConfiguration defines the settings for image registry mirror.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#registry_mirror_configuration DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#registry_mirror_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#registry_mirror_configuration DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#registry_mirror_configuration}
   */
   readonly registryMirrorConfiguration?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecRegistryMirrorConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#worker_node_group_configurations DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#worker_node_group_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#worker_node_group_configurations DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest#worker_node_group_configurations}
   */
   readonly workerNodeGroupConfigurations?: DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecWorkerNodeGroupConfigurations[] | cdktf.IResolvable;
 }
@@ -7822,7 +7822,7 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest}
 */
 export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -7838,7 +7838,7 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7850,7 +7850,7 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7861,8 +7861,8 @@ export class DataK8SAnywhereEksAmazonawsComClusterV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_anywhere_eks_amazonaws_com_cluster_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

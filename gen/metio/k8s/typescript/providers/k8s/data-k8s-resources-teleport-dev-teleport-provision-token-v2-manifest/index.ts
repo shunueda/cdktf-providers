@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#metadata DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#metadata DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#metadata}
   */
   readonly metadata: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestMetadata;
   /**
   * ProvisionToken resource definition v2 from Teleport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#spec DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#spec DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#spec}
   */
   readonly spec?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#annotations DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#annotations DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#labels DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#labels DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#name DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#name DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#namespace DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#namespace DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpec
   /**
   * AWSAccount is the AWS account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#aws_account DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#aws_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#aws_account DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#aws_account}
   */
   readonly awsAccount?: string;
   /**
   * AWSARN is used for the IAM join method, the AWS identity of joining nodes must match this ARN. Supports wildcards '*' and '?'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#aws_arn DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#aws_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#aws_arn DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#aws_arn}
   */
   readonly awsArn?: string;
   /**
   * AWSRegions is used for the EC2 join method and is a list of AWS regions a node is allowed to join from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#aws_regions DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#aws_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#aws_regions DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#aws_regions}
   */
   readonly awsRegions?: string[];
   /**
   * AWSRole is used for the EC2 join method and is the ARN of the AWS role that the Auth Service will assume in order to call the ec2 API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#aws_role DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#aws_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#aws_role DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#aws_role}
   */
   readonly awsRole?: string;
 }
@@ -440,11 +440,11 @@ export class DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecAllo
 }
 export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecAzureAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#resource_groups DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#resource_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#resource_groups DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#resource_groups}
   */
   readonly resourceGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#subscription DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#subscription DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#subscription}
   */
   readonly subscription?: string;
 }
@@ -591,7 +591,7 @@ export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpec
   /**
   * Allow is a list of Rules, nodes using this token must match one allow rule to use this token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
   */
   readonly allow?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecAzureAllow[] | cdktf.IResolvable;
 }
@@ -685,11 +685,11 @@ export class DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecAzur
 }
 export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecCircleciAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#context_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#context_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#context_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#context_id}
   */
   readonly contextId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#project_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#project_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#project_id}
   */
   readonly projectId?: string;
 }
@@ -836,11 +836,11 @@ export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpec
   /**
   * Allow is a list of TokenRules, nodes using this token must match one allow rule to use this token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
   */
   readonly allow?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecCircleciAllow[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#organization_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#organization_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#organization_id}
   */
   readonly organizationId?: string;
 }
@@ -963,15 +963,15 @@ export class DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecCirc
 }
 export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecGcpAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#locations DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#locations DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#locations}
   */
   readonly locations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#project_ids DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#project_ids DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#project_ids}
   */
   readonly projectIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#service_accounts DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#service_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#service_accounts DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#service_accounts}
   */
   readonly serviceAccounts?: string[];
 }
@@ -1147,7 +1147,7 @@ export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpec
   /**
   * Allow is a list of Rules, nodes using this token must match one allow rule to use this token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
   */
   readonly allow?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecGcpAllow[] | cdktf.IResolvable;
 }
@@ -1241,35 +1241,35 @@ export class DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecGcpO
 }
 export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecGithubAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#actor DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#actor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#actor DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#actor}
   */
   readonly actor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#environment DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#environment DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ref DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ref DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ref}
   */
   readonly ref?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ref_type DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ref_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ref_type DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ref_type}
   */
   readonly refType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#repository DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#repository DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#repository}
   */
   readonly repository?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#repository_owner DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#repository_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#repository_owner DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#repository_owner}
   */
   readonly repositoryOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#sub DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#sub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#sub DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#sub}
   */
   readonly sub?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#workflow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#workflow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#workflow}
   */
   readonly workflow?: string;
 }
@@ -1590,19 +1590,19 @@ export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpec
   /**
   * Allow is a list of TokenRules, nodes using this token must match one allow rule to use this token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
   */
   readonly allow?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecGithubAllow[] | cdktf.IResolvable;
   /**
   * EnterpriseServerHost allows joining from runners associated with a GitHub Enterprise Server instance. When unconfigured, tokens will be validated against github.com, but when configured to the host of a GHES instance, then the tokens will be validated against host. This value should be the hostname of the GHES instance, and should not include the scheme or a path. The instance must be accessible over HTTPS at this hostname and the certificate must be trusted by the Auth Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#enterprise_server_host DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#enterprise_server_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#enterprise_server_host DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#enterprise_server_host}
   */
   readonly enterpriseServerHost?: string;
   /**
   * EnterpriseSlug allows the slug of a GitHub Enterprise organisation to be included in the expected issuer of the OIDC tokens. This is for compatibility with the 'include_enterprise_slug' option in GHE. This field should be set to the slug of your enterprise if this is enabled. If this is not enabled, then this field must be left empty. This field cannot be specified if 'enterprise_server_host' is specified. See https://docs.github.com/en/enterprise-cloud@latest/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect#customizing-the-issuer-value-for-an-enterprise for more information about customized issuer values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#enterprise_slug DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#enterprise_slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#enterprise_slug DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#enterprise_slug}
   */
   readonly enterpriseSlug?: string;
 }
@@ -1754,67 +1754,67 @@ export class DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecGith
 }
 export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecGitlabAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ci_config_ref_uri DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ci_config_ref_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ci_config_ref_uri DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ci_config_ref_uri}
   */
   readonly ciConfigRefUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ci_config_sha DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ci_config_sha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ci_config_sha DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ci_config_sha}
   */
   readonly ciConfigSha?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#deployment_tier DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#deployment_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#deployment_tier DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#deployment_tier}
   */
   readonly deploymentTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#environment DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#environment DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#environment}
   */
   readonly environment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#environment_protected DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#environment_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#environment_protected DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#environment_protected}
   */
   readonly environmentProtected?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#namespace_path DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#namespace_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#namespace_path DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#namespace_path}
   */
   readonly namespacePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#pipeline_source DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#pipeline_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#pipeline_source DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#pipeline_source}
   */
   readonly pipelineSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#project_path DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#project_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#project_path DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#project_path}
   */
   readonly projectPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#project_visibility DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#project_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#project_visibility DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#project_visibility}
   */
   readonly projectVisibility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ref DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ref DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ref}
   */
   readonly ref?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ref_protected DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ref_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ref_protected DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ref_protected}
   */
   readonly refProtected?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ref_type DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ref_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ref_type DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ref_type}
   */
   readonly refType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#sub DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#sub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#sub DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#sub}
   */
   readonly sub?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#user_email DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#user_email DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#user_email}
   */
   readonly userEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#user_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#user_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#user_id}
   */
   readonly userId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#user_login DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#user_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#user_login DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#user_login}
   */
   readonly userLogin?: string;
 }
@@ -2367,13 +2367,13 @@ export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpec
   /**
   * Allow is a list of TokenRules, nodes using this token must match one allow rule to use this token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
   */
   readonly allow?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecGitlabAllow[] | cdktf.IResolvable;
   /**
   * Domain is the domain of your GitLab instance. This will default to 'gitlab.com' - but can be set to the domain of your self-hosted GitLab e.g 'gitlab.example.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#domain DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#domain DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#domain}
   */
   readonly domain?: string;
 }
@@ -2496,7 +2496,7 @@ export class DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecGitl
 }
 export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecKubernetesAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#service_account DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#service_account DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#service_account}
   */
   readonly serviceAccount?: string;
 }
@@ -2612,7 +2612,7 @@ export class DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecKube
 }
 export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecKubernetesStaticJwks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#jwks DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#jwks DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#jwks}
   */
   readonly jwks?: string;
 }
@@ -2708,19 +2708,19 @@ export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpec
   /**
   * Allow is a list of Rules, nodes using this token must match one allow rule to use this token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
   */
   readonly allow?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecKubernetesAllow[] | cdktf.IResolvable;
   /**
   * StaticJWKS is the configuration specific to the 'static_jwks' type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#static_jwks DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#static_jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#static_jwks DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#static_jwks}
   */
   readonly staticJwks?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecKubernetesStaticJwks;
   /**
   * Type controls which behavior should be used for validating the Kubernetes Service Account token. Support values: - 'in_cluster' - 'static_jwks' If unset, this defaults to 'in_cluster'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#type DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#type DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#type}
   */
   readonly type?: string;
 }
@@ -2872,19 +2872,19 @@ export class DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecKube
 }
 export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecSpaceliftAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#caller_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#caller_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#caller_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#caller_id}
   */
   readonly callerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#caller_type DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#caller_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#caller_type DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#caller_type}
   */
   readonly callerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#scope DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#scope DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#space_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#space_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#space_id}
   */
   readonly spaceId?: string;
 }
@@ -3089,13 +3089,13 @@ export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpec
   /**
   * Allow is a list of Rules, nodes using this token must match one allow rule to use this token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
   */
   readonly allow?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecSpaceliftAllow[] | cdktf.IResolvable;
   /**
   * Hostname is the hostname of the Spacelift tenant that tokens will originate from. E.g 'example.app.spacelift.io'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#hostname DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#hostname DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#hostname}
   */
   readonly hostname?: string;
 }
@@ -3218,31 +3218,31 @@ export class DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecSpac
 }
 export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecTerraformCloudAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#organization_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#organization_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#organization_id}
   */
   readonly organizationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#organization_name DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#organization_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#organization_name DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#organization_name}
   */
   readonly organizationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#project_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#project_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#project_id}
   */
   readonly projectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#project_name DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#project_name DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#run_phase DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#run_phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#run_phase DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#run_phase}
   */
   readonly runPhase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#workspace_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#workspace_id DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#workspace_id}
   */
   readonly workspaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#workspace_name DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#workspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#workspace_name DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#workspace_name}
   */
   readonly workspaceName?: string;
 }
@@ -3534,19 +3534,19 @@ export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpec
   /**
   * Allow is a list of Rules, nodes using this token must match one allow rule to use this token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
   */
   readonly allow?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecTerraformCloudAllow[] | cdktf.IResolvable;
   /**
   * Audience is the JWT audience as configured in the TFC_WORKLOAD_IDENTITY_AUDIENCE(_$TAG) variable in Terraform Cloud. If unset, defaults to the Teleport cluster name. For example, if 'TFC_WORKLOAD_IDENTITY_AUDIENCE_TELEPORT=foo' is set in Terraform Cloud, this value should be 'foo'. If the variable is set to match the cluster name, it does not need to be set here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#audience DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#audience DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#audience}
   */
   readonly audience?: string;
   /**
   * Hostname is the hostname of the Terraform Enterprise instance expected to issue JWTs allowed by this token. This may be unset for regular Terraform Cloud use, in which case it will be assumed to be 'app.terraform.io'. Otherwise, it must both match the 'iss' (issuer) field included in JWTs, and provide standard JWKS endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#hostname DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#hostname DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#hostname}
   */
   readonly hostname?: string;
 }
@@ -3698,15 +3698,15 @@ export class DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecTerr
 }
 export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecTpmAllow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#description DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#description DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ek_certificate_serial DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ek_certificate_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ek_certificate_serial DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ek_certificate_serial}
   */
   readonly ekCertificateSerial?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ek_public_hash DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ek_public_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ek_public_hash DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ek_public_hash}
   */
   readonly ekPublicHash?: string;
 }
@@ -3882,13 +3882,13 @@ export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpec
   /**
   * Allow is a list of Rules, the presented delegated identity must match one allow rule to permit joining.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
   */
   readonly allow?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecTpmAllow[] | cdktf.IResolvable;
   /**
   * EKCertAllowedCAs is a list of CA certificates that will be used to validate TPM EKCerts. When specified, joining TPMs must present an EKCert signed by one of the specified CAs. TPMs that do not present an EKCert will be not permitted to join. When unspecified, TPMs will be allowed to join with either an EKCert or an EKPubHash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ekcert_allowed_cas DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ekcert_allowed_cas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#ekcert_allowed_cas DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#ekcert_allowed_cas}
   */
   readonly ekcertAllowedCas?: string[];
 }
@@ -4013,97 +4013,97 @@ export interface DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpec
   /**
   * Allow is a list of TokenRules, nodes using this token must match one allow rule to use this token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#allow DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#allow}
   */
   readonly allow?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecAllow[] | cdktf.IResolvable;
   /**
   * AWSIIDTTL is the TTL to use for AWS EC2 Instance Identity Documents used to join the cluster with this token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#aws_iid_ttl DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#aws_iid_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#aws_iid_ttl DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#aws_iid_ttl}
   */
   readonly awsIidTtl?: string;
   /**
   * Azure allows the configuration of options specific to the 'azure' join method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#azure DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#azure DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#azure}
   */
   readonly azure?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecAzure;
   /**
   * BotName is the name of the bot this token grants access to, if any
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#bot_name DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#bot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#bot_name DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#bot_name}
   */
   readonly botName?: string;
   /**
   * CircleCI allows the configuration of options specific to the 'circleci' join method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#circleci DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#circleci}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#circleci DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#circleci}
   */
   readonly circleci?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecCircleci;
   /**
   * GCP allows the configuration of options specific to the 'gcp' join method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#gcp DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#gcp DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#gcp}
   */
   readonly gcp?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecGcp;
   /**
   * GitHub allows the configuration of options specific to the 'github' join method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#github DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#github}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#github DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#github}
   */
   readonly github?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecGithub;
   /**
   * GitLab allows the configuration of options specific to the 'gitlab' join method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#gitlab DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#gitlab DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#gitlab}
   */
   readonly gitlab?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecGitlab;
   /**
   * JoinMethod is the joining method required in order to use this token. Supported joining methods include: azure, circleci, ec2, gcp, github, gitlab, iam, kubernetes, spacelift, token, tpm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#join_method DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#join_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#join_method DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#join_method}
   */
   readonly joinMethod?: string;
   /**
   * Kubernetes allows the configuration of options specific to the 'kubernetes' join method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#kubernetes DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#kubernetes DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#kubernetes}
   */
   readonly kubernetes?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecKubernetes;
   /**
   * Roles is a list of roles associated with the token, that will be converted to metadata in the SSH and X509 certificates issued to the user of the token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#roles DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#roles DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Spacelift allows the configuration of options specific to the 'spacelift' join method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#spacelift DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#spacelift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#spacelift DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#spacelift}
   */
   readonly spacelift?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecSpacelift;
   /**
   * SuggestedAgentMatcherLabels is a set of labels to be used by agents to match on resources. When an agent uses this token, the agent should monitor resources that match those labels. For databases, this means adding the labels to 'db_service.resources.labels'. Currently, only node-join scripts create a configuration according to the suggestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#suggested_agent_matcher_labels DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#suggested_agent_matcher_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#suggested_agent_matcher_labels DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#suggested_agent_matcher_labels}
   */
   readonly suggestedAgentMatcherLabels?: { [key: string]: string };
   /**
   * SuggestedLabels is a set of labels that resources should set when using this token to enroll themselves in the cluster. Currently, only node-join scripts create a configuration according to the suggestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#suggested_labels DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#suggested_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#suggested_labels DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#suggested_labels}
   */
   readonly suggestedLabels?: { [key: string]: string };
   /**
   * TerraformCloud allows the configuration of options specific to the 'terraform_cloud' join method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#terraform_cloud DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#terraform_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#terraform_cloud DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#terraform_cloud}
   */
   readonly terraformCloud?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecTerraformCloud;
   /**
   * TPM allows the configuration of options specific to the 'tpm' join method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#tpm DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#tpm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#tpm DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest#tpm}
   */
   readonly tpm?: DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecTpm;
 }
@@ -4632,7 +4632,7 @@ export class DataK8SResourcesTeleportDevTeleportProvisionTokenV2ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest k8s_resources_teleport_dev_teleport_provision_token_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest k8s_resources_teleport_dev_teleport_provision_token_v2_manifest}
 */
 export class DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest extends cdktf.TerraformDataSource {
 
@@ -4648,7 +4648,7 @@ export class DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest extends
   * Generates CDKTF code for importing a DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest to import
-  * @param importFromId The id of the existing DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4660,7 +4660,7 @@ export class DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest k8s_resources_teleport_dev_teleport_provision_token_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/resources_teleport_dev_teleport_provision_token_v2_manifest k8s_resources_teleport_dev_teleport_provision_token_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4671,8 +4671,8 @@ export class DataK8SResourcesTeleportDevTeleportProvisionTokenV2Manifest extends
       terraformResourceType: 'k8s_resources_teleport_dev_teleport_provision_token_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

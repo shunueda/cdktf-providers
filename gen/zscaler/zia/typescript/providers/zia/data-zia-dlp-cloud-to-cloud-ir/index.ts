@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_cloud_to_cloud_ir
+// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/dlp_cloud_to_cloud_ir
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataZiaDlpCloudToCloudIrConfig extends cdktf.TerraformMetaArgum
   /**
   * System-generated unique ID of the Cloud-to-Cloud DLP Incident Forwarding tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_cloud_to_cloud_ir#id DataZiaDlpCloudToCloudIr#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/dlp_cloud_to_cloud_ir#id DataZiaDlpCloudToCloudIr#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataZiaDlpCloudToCloudIrConfig extends cdktf.TerraformMetaArgum
   /**
   * User-provided name for the SaaS application tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_cloud_to_cloud_ir#name DataZiaDlpCloudToCloudIr#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/dlp_cloud_to_cloud_ir#name DataZiaDlpCloudToCloudIr#name}
   */
   readonly name?: string;
 }
@@ -907,7 +907,7 @@ export class DataZiaDlpCloudToCloudIrOnboardableEntityList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_cloud_to_cloud_ir zia_dlp_cloud_to_cloud_ir}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/dlp_cloud_to_cloud_ir zia_dlp_cloud_to_cloud_ir}
 */
 export class DataZiaDlpCloudToCloudIr extends cdktf.TerraformDataSource {
 
@@ -923,7 +923,7 @@ export class DataZiaDlpCloudToCloudIr extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaDlpCloudToCloudIr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaDlpCloudToCloudIr to import
-  * @param importFromId The id of the existing DataZiaDlpCloudToCloudIr that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_cloud_to_cloud_ir#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaDlpCloudToCloudIr that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/dlp_cloud_to_cloud_ir#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaDlpCloudToCloudIr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -935,7 +935,7 @@ export class DataZiaDlpCloudToCloudIr extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/dlp_cloud_to_cloud_ir zia_dlp_cloud_to_cloud_ir} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/dlp_cloud_to_cloud_ir zia_dlp_cloud_to_cloud_ir} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -946,8 +946,8 @@ export class DataZiaDlpCloudToCloudIr extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_dlp_cloud_to_cloud_ir',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.2',
-        providerVersionConstraint: '4.6.2'
+        providerVersion: '4.6.3',
+        providerVersionConstraint: '4.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

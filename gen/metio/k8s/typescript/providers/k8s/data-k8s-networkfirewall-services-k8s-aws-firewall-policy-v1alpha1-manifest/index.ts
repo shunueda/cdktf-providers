@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manif
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#metadata DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#metadata DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestMetadata;
   /**
   * FirewallPolicySpec defines the desired state of FirewallPolicy. The firewall policy defines the behavior of a firewall using a collection of stateless and stateful rule groups and other settings. You can use one firewall policy for multiple firewalls. This, along with FirewallPolicyResponse, define the policy. You can retrieve all objects for a firewall policy by calling DescribeFirewallPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#spec DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#spec DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manif
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#annotations DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#annotations DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#labels DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#labels DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#name DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#name DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#namespace DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#namespace DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestM
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecEncryptionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#key_id DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#key_id DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#key_id}
   */
   readonly keyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#type_ DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#type_ DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#type_}
   */
   readonly type?: string;
 }
@@ -344,7 +344,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestS
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyPolicyVariablesRuleVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#definition DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#definition DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#definition}
   */
   readonly definition?: string[];
 }
@@ -438,7 +438,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestS
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyPolicyVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#rule_variables DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#rule_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#rule_variables DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#rule_variables}
   */
   readonly ruleVariables?: DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyPolicyVariablesRuleVariables;
 }
@@ -532,11 +532,11 @@ export class DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestS
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyStatefulEngineOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#rule_order DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#rule_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#rule_order DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#rule_order}
   */
   readonly ruleOrder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#stream_exception_policy DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#stream_exception_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#stream_exception_policy DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#stream_exception_policy}
   */
   readonly streamExceptionPolicy?: string;
 }
@@ -659,7 +659,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestS
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyStatefulRuleGroupReferencesOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#action DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#action DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#action}
   */
   readonly action?: string;
 }
@@ -755,15 +755,15 @@ export interface DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manif
   /**
   * The setting that allows the policy owner to change the behavior of the rule group within a policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#override DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#override DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#override}
   */
   readonly override?: DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyStatefulRuleGroupReferencesOverride;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#priority DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#priority DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#resource_arn DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#resource_arn DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#resource_arn}
   */
   readonly resourceArn?: string;
 }
@@ -937,7 +937,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestS
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyStatelessCustomActionsActionDefinitionPublishMetricActionDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#value DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#value DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1053,7 +1053,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestS
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyStatelessCustomActionsActionDefinitionPublishMetricAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#dimensions DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#dimensions DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#dimensions}
   */
   readonly dimensions?: DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyStatelessCustomActionsActionDefinitionPublishMetricActionDimensions[] | cdktf.IResolvable;
 }
@@ -1149,7 +1149,7 @@ export interface DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manif
   /**
   * Stateless inspection criteria that publishes the specified metrics to Amazon CloudWatch for the matching packet. This setting defines a CloudWatch dimension value to be published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#publish_metric_action DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#publish_metric_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#publish_metric_action DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#publish_metric_action}
   */
   readonly publishMetricAction?: DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyStatelessCustomActionsActionDefinitionPublishMetricAction;
 }
@@ -1245,11 +1245,11 @@ export interface DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manif
   /**
   * A custom action to use in stateless rule actions settings. This is used in CustomAction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#action_definition DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#action_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#action_definition DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#action_definition}
   */
   readonly actionDefinition?: DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyStatelessCustomActionsActionDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#action_name DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#action_name DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#action_name}
   */
   readonly actionName?: string;
 }
@@ -1394,11 +1394,11 @@ export class DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestS
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyStatelessRuleGroupReferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#priority DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#priority DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#resource_arn DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#resource_arn DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#resource_arn}
   */
   readonly resourceArn?: string;
 }
@@ -1545,41 +1545,41 @@ export interface DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manif
   /**
   * Contains variables that you can use to override default Suricata settings in your firewall policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#policy_variables DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#policy_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#policy_variables DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#policy_variables}
   */
   readonly policyVariables?: DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyPolicyVariables;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#stateful_default_actions DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#stateful_default_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#stateful_default_actions DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#stateful_default_actions}
   */
   readonly statefulDefaultActions?: string[];
   /**
   * Configuration settings for the handling of the stateful rule groups in a firewall policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#stateful_engine_options DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#stateful_engine_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#stateful_engine_options DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#stateful_engine_options}
   */
   readonly statefulEngineOptions?: DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyStatefulEngineOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#stateful_rule_group_references DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#stateful_rule_group_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#stateful_rule_group_references DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#stateful_rule_group_references}
   */
   readonly statefulRuleGroupReferences?: DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyStatefulRuleGroupReferences[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#stateless_custom_actions DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#stateless_custom_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#stateless_custom_actions DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#stateless_custom_actions}
   */
   readonly statelessCustomActions?: DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyStatelessCustomActions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#stateless_default_actions DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#stateless_default_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#stateless_default_actions DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#stateless_default_actions}
   */
   readonly statelessDefaultActions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#stateless_fragment_default_actions DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#stateless_fragment_default_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#stateless_fragment_default_actions DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#stateless_fragment_default_actions}
   */
   readonly statelessFragmentDefaultActions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#stateless_rule_group_references DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#stateless_rule_group_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#stateless_rule_group_references DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#stateless_rule_group_references}
   */
   readonly statelessRuleGroupReferences?: DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicyStatelessRuleGroupReferences[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#tls_inspection_configuration_arn DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#tls_inspection_configuration_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#tls_inspection_configuration_arn DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#tls_inspection_configuration_arn}
   */
   readonly tlsInspectionConfigurationArn?: string;
 }
@@ -1905,11 +1905,11 @@ export class DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestS
 }
 export interface DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#key DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#key DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#value DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#value DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2056,31 +2056,31 @@ export interface DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manif
   /**
   * A description of the firewall policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#description DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#description DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * A complex type that contains settings for encryption of your firewall policy resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#encryption_configuration DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#encryption_configuration DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#encryption_configuration}
   */
   readonly encryptionConfiguration?: DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecEncryptionConfiguration;
   /**
   * The rule groups and policy actions to use in the firewall policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#firewall_policy DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#firewall_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#firewall_policy DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#firewall_policy}
   */
   readonly firewallPolicy: DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecFirewallPolicy;
   /**
   * The descriptive name of the firewall policy. You can't change the name of a firewall policy after you create it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#firewall_policy_name DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#firewall_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#firewall_policy_name DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#firewall_policy_name}
   */
   readonly firewallPolicyName: string;
   /**
   * The key:value pairs to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#tags DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#tags DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
 }
@@ -2284,7 +2284,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1ManifestS
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest k8s_networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest k8s_networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest}
 */
 export class DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2300,7 +2300,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest 
   * Generates CDKTF code for importing a DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2312,7 +2312,7 @@ export class DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest k8s_networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest k8s_networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2323,8 +2323,8 @@ export class DataK8SNetworkfirewallServicesK8SAwsFirewallPolicyV1Alpha1Manifest 
       terraformResourceType: 'k8s_networkfirewall_services_k8s_aws_firewall_policy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

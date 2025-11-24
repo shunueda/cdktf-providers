@@ -9,6 +9,8 @@ export * as eventSink from './event-sink';
 export * as externalDataResolver from './external-data-resolver';
 export * as ingestPipeline from './ingest-pipeline';
 export * as knowledgeQuery from './knowledge-query';
+export * as serviceAccount from './service-account';
+export * as serviceAccountCredential from './service-account-credential';
 export * as tokenIntrospect from './token-introspect';
 export * as trustScoreProfile from './trust-score-profile';
 export * as dataIndykiteApplication from './data-indykite-application';

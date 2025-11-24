@@ -159,19 +159,19 @@ export interface DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesSecr
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#key DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#key DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#mode DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#path DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#path DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -341,25 +341,25 @@ export interface DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesSecr
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#default_mode DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#items DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#items DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#optional DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#secret_name DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#secret_name DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -542,7 +542,7 @@ export interface DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesStor
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#name DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#name DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -638,31 +638,31 @@ export interface DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesStor
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef specifies the secret to use for obtaining the StorageOS API credentials. If not specified, default values will be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#secret_ref DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesStorageosSecretRef;
   /**
   * volumeName is the human-readable name of the StorageOS volume. Volume names are only unique within a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#volume_name DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#volume_name DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volumeNamespace specifies the scope of the volume within StorageOS. If no namespace is specified then the Pod's namespace will be used. This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to 'default' if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#volume_namespace DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#volume_namespace DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -874,25 +874,25 @@ export interface DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesVsph
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#fs_type DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#storage_policy_id DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#storage_policy_id DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#storage_policy_name DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#storage_policy_name DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#volume_path DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#volume_path DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -1072,181 +1072,181 @@ export interface DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumes {
   /**
   * awsElasticBlockStore represents an AWS Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#aws_elastic_block_store DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#aws_elastic_block_store DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesAwsElasticBlockStore;
   /**
   * azureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#azure_disk DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#azure_disk DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesAzureDisk;
   /**
   * azureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#azure_file DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#azure_file DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesAzureFile;
   /**
   * cephFS represents a Ceph FS mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#cephfs DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#cephfs DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesCephfs;
   /**
   * cinder represents a cinder volume attached and mounted on kubelets host machine. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#cinder DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#cinder DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#cinder}
   */
   readonly cinder?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesCinder;
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#config_map DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#config_map DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesConfigMap;
   /**
   * csi (Container Storage Interface) represents ephemeral storage that is handled by certain external CSI drivers (Beta feature).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#csi DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#csi DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#csi}
   */
   readonly csi?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesCsi;
   /**
   * downwardAPI represents downward API about the pod that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#downward_api DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#downward_api DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesDownwardApi;
   /**
   * emptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#empty_dir DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#empty_dir DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesEmptyDir;
   /**
   * ephemeral represents a volume that is handled by a cluster storage driver. The volume's lifecycle is tied to the pod that defines it - it will be created before the pod starts, and deleted when the pod is removed. Use this if: a) the volume is only needed while the pod runs, b) features of normal volumes like restoring from snapshot or capacity tracking are needed, c) the storage driver is specified through a storage class, and d) the storage driver supports dynamic volume provisioning through a PersistentVolumeClaim (see EphemeralVolumeSource for more information on the connection between this volume type and PersistentVolumeClaim). Use PersistentVolumeClaim or one of the vendor-specific APIs for volumes that persist for longer than the lifecycle of an individual pod. Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information. A pod can use both types of ephemeral volumes and persistent volumes at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#ephemeral DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#ephemeral DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesEphemeral;
   /**
   * fc represents a Fibre Channel resource that is attached to a kubelet's host machine and then exposed to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#fc DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#fc DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#fc}
   */
   readonly fc?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesFc;
   /**
   * flexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#flex_volume DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#flex_volume DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesFlexVolume;
   /**
   * flocker represents a Flocker volume attached to a kubelet's host machine. This depends on the Flocker control service being running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#flocker DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#flocker DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#flocker}
   */
   readonly flocker?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesFlocker;
   /**
   * gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#gce_persistent_disk DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#gce_persistent_disk DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesGcePersistentDisk;
   /**
   * gitRepo represents a git repository at a particular revision. DEPRECATED: GitRepo is deprecated. To provision a container with a git repo, mount an EmptyDir into an InitContainer that clones the repo using git, then mount the EmptyDir into the Pod's container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#git_repo DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#git_repo DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesGitRepo;
   /**
   * glusterfs represents a Glusterfs mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/glusterfs/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#glusterfs DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#glusterfs DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesGlusterfs;
   /**
   * hostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath --- TODO(jonesdl) We need to restrict who can use host directory mounts and who can/can not mount host directories as read/write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#host_path DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#host_path DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesHostPath;
   /**
   * iscsi represents an ISCSI Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://examples.k8s.io/volumes/iscsi/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#iscsi DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#iscsi DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesIscsi;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#name DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#name DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * nfs represents an NFS mount on the host that shares a pod's lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#nfs DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#nfs DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#nfs}
   */
   readonly nfs?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesNfs;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#persistent_volume_claim DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#persistent_volume_claim DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesPersistentVolumeClaim;
   /**
   * photonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#photon_persistent_disk DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#photon_persistent_disk DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesPhotonPersistentDisk;
   /**
   * portworxVolume represents a portworx volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#portworx_volume DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#portworx_volume DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesPortworxVolume;
   /**
   * projected items for all in one resources secrets, configmaps, and downward API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#projected DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#projected DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#projected}
   */
   readonly projected?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesProjected;
   /**
   * quobyte represents a Quobyte mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#quobyte DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#quobyte DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesQuobyte;
   /**
   * rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/rbd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#rbd DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#rbd DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#rbd}
   */
   readonly rbd?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesRbd;
   /**
   * scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#scale_io DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#scale_io DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesScaleIo;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#secret DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#secret DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesSecret;
   /**
   * storageOS represents a StorageOS volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#storageos DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#storageos DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#storageos}
   */
   readonly storageos?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesStorageos;
   /**
   * vsphereVolume represents a vSphere volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#vsphere_volume DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#vsphere_volume DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumesVsphereVolume;
 }
@@ -2202,7 +2202,7 @@ export interface DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecWorkerImage
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#name DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#name DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2320,13 +2320,13 @@ export interface DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecWorkerPodMe
   /**
   * Annotations are annotations of pod specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#annotations DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#annotations DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels are labels of pod specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#labels DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -2451,7 +2451,7 @@ export interface DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecWorkerResou
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#name DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#name DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2566,19 +2566,19 @@ export interface DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecWorkerResou
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#claims DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#claims DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecWorkerResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#limits DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#limits DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#requests DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#requests DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2732,37 +2732,37 @@ export interface DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecWorkerVolum
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#mount_path DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#mount_path DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#mount_propagation DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#mount_propagation DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#name DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#name DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#sub_path DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#sub_path DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#sub_path_expr DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#sub_path_expr DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -3019,73 +3019,73 @@ export interface DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecWorker {
   /**
   * Enabled or Disabled for the components. For now, only API Gateway is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#enabled DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#enabled DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Environment variables that will be used by Alluxio component. <br>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#env DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#env DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * ImagePullSecrets that will be used to pull images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#image_pull_secrets DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#image_pull_secrets DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecWorkerImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Options for JVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#jvm_options DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#jvm_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#jvm_options DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#jvm_options}
   */
   readonly jvmOptions?: string[];
   /**
   * Whether to use hostnetwork or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#network_mode DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#network_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#network_mode DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#network_mode}
   */
   readonly networkMode?: string;
   /**
   * NodeSelector is a selector which must be true for the master to fit on a node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#node_selector DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#node_selector DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PodMetadata defines labels and annotations that will be propagated to Alluxio's pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#pod_metadata DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#pod_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#pod_metadata DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#pod_metadata}
   */
   readonly podMetadata?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecWorkerPodMetadata;
   /**
   * Ports used by Alluxio(e.g. rpc: 19998 for master)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#ports DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#ports DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#ports}
   */
   readonly ports?: { [key: string]: string };
   /**
   * Configurable properties for the Alluxio component. <br> Refer to <a href='https://docs.alluxio.io/os/user/stable/en/reference/Properties-List.html'>Alluxio Configuration Properties</a> for more info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#properties DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#properties DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Replicas is the desired number of replicas of the given template. If unspecified, defaults to 1. replicas is the min replicas of dataset in the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources that will be requested by the Alluxio component. <br> <br> Resources are not allowed for ephemeral containers. Ephemeral containers use spare resources already allocated to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#resources DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#resources DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecWorkerResources;
   /**
   * VolumeMounts specifies the volumes listed in '.spec.volumes' to mount into the alluxio runtime component's filesystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#volume_mounts DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#volume_mounts DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecWorkerVolumeMounts[] | cdktf.IResolvable;
 }
@@ -3500,121 +3500,121 @@ export interface DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpec {
   /**
   * The version information that instructs fluid to orchestrate a particular version of Alluxio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#alluxio_version DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#alluxio_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#alluxio_version DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#alluxio_version}
   */
   readonly alluxioVersion?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecAlluxioVersion;
   /**
   * The component spec of Alluxio API Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#api_gateway DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#api_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#api_gateway DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#api_gateway}
   */
   readonly apiGateway?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecApiGateway;
   /**
   * Management strategies for the dataset to which the runtime is bound
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#data DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#data DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#data}
   */
   readonly data?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecData;
   /**
   * Disable monitoring for Alluxio Runtime Prometheus is enabled by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#disable_prometheus DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#disable_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#disable_prometheus DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#disable_prometheus}
   */
   readonly disablePrometheus?: boolean | cdktf.IResolvable;
   /**
   * The component spec of Alluxio Fuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#fuse DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#fuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#fuse DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#fuse}
   */
   readonly fuse?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecFuse;
   /**
   * Name of the configMap used to support HDFS configurations when using HDFS as Alluxio's UFS. The configMap must be in the same namespace with the AlluxioRuntime. The configMap should contain user-specific HDFS conf files in it. For now, only 'hdfs-site.xml' and 'core-site.xml' are supported. It must take the filename of the conf file as the key and content of the file as the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#hadoop_config DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#hadoop_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#hadoop_config DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#hadoop_config}
   */
   readonly hadoopConfig?: string;
   /**
   * ImagePullSecrets that will be used to pull images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#image_pull_secrets DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#image_pull_secrets DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * The spec of init users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#init_users DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#init_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#init_users DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#init_users}
   */
   readonly initUsers?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecInitUsers;
   /**
   * The component spec of Alluxio job master
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#job_master DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#job_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#job_master DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#job_master}
   */
   readonly jobMaster?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecJobMaster;
   /**
   * The component spec of Alluxio job Worker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#job_worker DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#job_worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#job_worker DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#job_worker}
   */
   readonly jobWorker?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecJobWorker;
   /**
   * Options for JVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#jvm_options DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#jvm_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#jvm_options DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#jvm_options}
   */
   readonly jvmOptions?: string[];
   /**
   * RuntimeManagement defines policies when managing the runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#management DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#management DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#management}
   */
   readonly management?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecManagement;
   /**
   * The component spec of Alluxio master
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#master DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#master DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#master}
   */
   readonly master?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecMaster;
   /**
   * PodMetadata defines labels and annotations that will be propagated to Alluxio's pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#pod_metadata DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#pod_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#pod_metadata DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#pod_metadata}
   */
   readonly podMetadata?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecPodMetadata;
   /**
   * Configurable properties for Alluxio system. <br> Refer to <a href='https://docs.alluxio.io/os/user/stable/en/reference/Properties-List.html'>Alluxio Configuration Properties</a> for more info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#properties DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#properties DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * The replicas of the worker, need to be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Manage the user to run Alluxio Runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#run_as DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#run_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#run_as DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#run_as}
   */
   readonly runAs?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecRunAs;
   /**
   * Tiered storage used by Alluxio
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#tieredstore DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#tieredstore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#tieredstore DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#tieredstore}
   */
   readonly tieredstore?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecTieredstore;
   /**
   * Volumes is the list of Kubernetes volumes that can be mounted by the alluxio runtime components and/or fuses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#volumes DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#volumes DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecVolumes[] | cdktf.IResolvable;
   /**
   * The component spec of Alluxio worker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#worker DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_alluxio_runtime_v1alpha1_manifest#worker DataK8SDataFluidIoAlluxioRuntimeV1Alpha1Manifest#worker}
   */
   readonly worker?: DataK8SDataFluidIoAlluxioRuntimeV1Alpha1ManifestSpecWorker;
 }

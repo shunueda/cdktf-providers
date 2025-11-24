@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,533 +10,533 @@ export interface PullzoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether the Canonical header is added to the responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#add_canonical_header Pullzone#add_canonical_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#add_canonical_header Pullzone#add_canonical_header}
   */
   readonly addCanonicalHeader?: boolean | cdktf.IResolvable;
   /**
   * The list of referrer hostnames that are allowed to access the pull zone. Requests containing the header "Referer: hostname" that is not on the list will be rejected. If empty, all the referrers are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#allow_referers Pullzone#allow_referers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#allow_referers Pullzone#allow_referers}
   */
   readonly allowReferers?: string[];
   /**
   * The list of IPs that are blocked from accessing the pull zone. Requests coming from the following IPs will be rejected. If empty, all the IPs will be allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#block_ips Pullzone#block_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#block_ips Pullzone#block_ips}
   */
   readonly blockIps?: string[];
   /**
   * Indicates whether requests without a referer should be blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#block_no_referer Pullzone#block_no_referer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#block_no_referer Pullzone#block_no_referer}
   */
   readonly blockNoReferer?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to block POST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#block_post_requests Pullzone#block_post_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#block_post_requests Pullzone#block_post_requests}
   */
   readonly blockPostRequests?: boolean | cdktf.IResolvable;
   /**
   * The list of referrer hostnames that are blocked to access the pull zone. Requests containing the header "Referer: hostname" that is not on the list will be rejected. If empty, all the referrers are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#block_referers Pullzone#block_referers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#block_referers Pullzone#block_referers}
   */
   readonly blockReferers?: string[];
   /**
   * This property indicates whether to block the root path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#block_root_path Pullzone#block_root_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#block_root_path Pullzone#block_root_path}
   */
   readonly blockRootPath?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the cache slice (Optimize for large object delivery) feature is enabled for the Pull Zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#cache_chunked Pullzone#cache_chunked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#cache_chunked Pullzone#cache_chunked}
   */
   readonly cacheChunked?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether smart caching is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#cache_enabled Pullzone#cache_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#cache_enabled Pullzone#cache_enabled}
   */
   readonly cacheEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether bunny.net should be caching error responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#cache_errors Pullzone#cache_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#cache_errors Pullzone#cache_errors}
   */
   readonly cacheErrors?: boolean | cdktf.IResolvable;
   /**
   * The override cache time, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#cache_expiration_time Pullzone#cache_expiration_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#cache_expiration_time Pullzone#cache_expiration_time}
   */
   readonly cacheExpirationTime?: number;
   /**
   * The override cache time for the end client, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#cache_expiration_time_browser Pullzone#cache_expiration_time_browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#cache_expiration_time_browser Pullzone#cache_expiration_time_browser}
   */
   readonly cacheExpirationTimeBrowser?: number;
   /**
   * Options: `offline`, `updating`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#cache_stale Pullzone#cache_stale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#cache_stale Pullzone#cache_stale}
   */
   readonly cacheStale?: string[];
   /**
   * Options: `avif`, `cookie`, `country`, `hostname`, `mobile`, `querystring`, `state`, `webp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#cache_vary Pullzone#cache_vary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#cache_vary Pullzone#cache_vary}
   */
   readonly cacheVary?: string[];
   /**
   * Contains the list of vary parameters that will be used for vary cache by cookie string. If empty, cookie vary will not be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#cache_vary_cookie Pullzone#cache_vary_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#cache_vary_cookie Pullzone#cache_vary_cookie}
   */
   readonly cacheVaryCookie?: string[];
   /**
   * Contains the list of vary parameters that will be used for vary cache by query string. If empty, all parameters will be used to construct the key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#cache_vary_querystring Pullzone#cache_vary_querystring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#cache_vary_querystring Pullzone#cache_vary_querystring}
   */
   readonly cacheVaryQuerystring?: string[];
   /**
   * Indicates whether CORS (Cross-Origin Resource Sharing) is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#cors_enabled Pullzone#cors_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#cors_enabled Pullzone#cors_enabled}
   */
   readonly corsEnabled?: boolean | cdktf.IResolvable;
   /**
   * A list of file extensions for which CORS is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#cors_extensions Pullzone#cors_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#cors_extensions Pullzone#cors_extensions}
   */
   readonly corsExtensions?: string[];
   /**
   * If true, the built-in let's encrypt is disabled and requests are passed to the origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#disable_letsencrypt Pullzone#disable_letsencrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#disable_letsencrypt Pullzone#disable_letsencrypt}
   */
   readonly disableLetsencrypt?: boolean | cdktf.IResolvable;
   /**
   * Contains the custom error page code that will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#errorpage_custom_content Pullzone#errorpage_custom_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#errorpage_custom_content Pullzone#errorpage_custom_content}
   */
   readonly errorpageCustomContent?: string;
   /**
   * Indicates whether custom error page code should be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#errorpage_custom_enabled Pullzone#errorpage_custom_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#errorpage_custom_enabled Pullzone#errorpage_custom_enabled}
   */
   readonly errorpageCustomEnabled?: boolean | cdktf.IResolvable;
   /**
   * The statuspage code that will be used to build the status widget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#errorpage_statuspage_code Pullzone#errorpage_statuspage_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#errorpage_statuspage_code Pullzone#errorpage_statuspage_code}
   */
   readonly errorpageStatuspageCode?: string;
   /**
   * Indicates whether the statuspage widget should be displayed on the error pages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#errorpage_statuspage_enabled Pullzone#errorpage_statuspage_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#errorpage_statuspage_enabled Pullzone#errorpage_statuspage_enabled}
   */
   readonly errorpageStatuspageEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the error pages should be white-labelled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#errorpage_whitelabel Pullzone#errorpage_whitelabel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#errorpage_whitelabel Pullzone#errorpage_whitelabel}
   */
   readonly errorpageWhitelabel?: boolean | cdktf.IResolvable;
   /**
   * The amount of data after the rate limit will be activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#limit_after Pullzone#limit_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#limit_after Pullzone#limit_after}
   */
   readonly limitAfter?: number;
   /**
   * The maximum bandwidth limit in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#limit_bandwidth Pullzone#limit_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#limit_bandwidth Pullzone#limit_bandwidth}
   */
   readonly limitBandwidth?: number;
   /**
   * Excessive requests are delayed until their number exceeds the maximum burst size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#limit_burst Pullzone#limit_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#limit_burst Pullzone#limit_burst}
   */
   readonly limitBurst?: number;
   /**
   * The number of connections limited per IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#limit_connections Pullzone#limit_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#limit_connections Pullzone#limit_connections}
   */
   readonly limitConnections?: number;
   /**
   * The maximum download speed, in kb/s. Use 0 for unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#limit_download_speed Pullzone#limit_download_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#limit_download_speed Pullzone#limit_download_speed}
   */
   readonly limitDownloadSpeed?: number;
   /**
   * The maximum amount of requests per IP per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#limit_requests Pullzone#limit_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#limit_requests Pullzone#limit_requests}
   */
   readonly limitRequests?: number;
   /**
   * Indicates whether logs are anonymized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#log_anonymized Pullzone#log_anonymized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#log_anonymized Pullzone#log_anonymized}
   */
   readonly logAnonymized?: boolean | cdktf.IResolvable;
   /**
   * Options: `Drop`, `OneDigit`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#log_anonymized_style Pullzone#log_anonymized_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#log_anonymized_style Pullzone#log_anonymized_style}
   */
   readonly logAnonymizedStyle?: string;
   /**
   * Indicates whether logging is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#log_enabled Pullzone#log_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#log_enabled Pullzone#log_enabled}
   */
   readonly logEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether log forwarding is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#log_forward_enabled Pullzone#log_forward_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#log_forward_enabled Pullzone#log_forward_enabled}
   */
   readonly logForwardEnabled?: boolean | cdktf.IResolvable;
   /**
   * Options: `JSON`, `Plain`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#log_forward_format Pullzone#log_forward_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#log_forward_format Pullzone#log_forward_format}
   */
   readonly logForwardFormat?: string;
   /**
   * The port number for log forwarding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#log_forward_port Pullzone#log_forward_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#log_forward_port Pullzone#log_forward_port}
   */
   readonly logForwardPort?: number;
   /**
   * Options: `DataDog`, `TCP`, `TCPEncrypted`, `UDP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#log_forward_protocol Pullzone#log_forward_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#log_forward_protocol Pullzone#log_forward_protocol}
   */
   readonly logForwardProtocol?: string;
   /**
   * The server address for log forwarding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#log_forward_server Pullzone#log_forward_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#log_forward_server Pullzone#log_forward_server}
   */
   readonly logForwardServer?: string;
   /**
   * The token used for log forwarding authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#log_forward_token Pullzone#log_forward_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#log_forward_token Pullzone#log_forward_token}
   */
   readonly logForwardToken?: string;
   /**
   * Indicates whether log storage is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#log_storage_enabled Pullzone#log_storage_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#log_storage_enabled Pullzone#log_storage_enabled}
   */
   readonly logStorageEnabled?: boolean | cdktf.IResolvable;
   /**
   * The storage zone ID for log storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#log_storage_zone Pullzone#log_storage_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#log_storage_zone Pullzone#log_storage_zone}
   */
   readonly logStorageZone?: number;
   /**
   * The name of the pull zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#name Pullzone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#name Pullzone#name}
   */
   readonly name: string;
   /**
   * Indicates whether Burrow Smart Routing should be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_burrow Pullzone#optimizer_burrow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_burrow Pullzone#optimizer_burrow}
   */
   readonly optimizerBurrow?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the optimizer class list should be enforced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_classes_force Pullzone#optimizer_classes_force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_classes_force Pullzone#optimizer_classes_force}
   */
   readonly optimizerClassesForce?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the image manipulation should be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_dynamic_image_api Pullzone#optimizer_dynamic_image_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_dynamic_image_api Pullzone#optimizer_dynamic_image_api}
   */
   readonly optimizerDynamicImageApi?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether Bunny Optimizer should be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_enabled Pullzone#optimizer_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_enabled Pullzone#optimizer_enabled}
   */
   readonly optimizerEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether HTML Prerender should be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_html_prerender Pullzone#optimizer_html_prerender}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_html_prerender Pullzone#optimizer_html_prerender}
   */
   readonly optimizerHtmlPrerender?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the CSS minification should be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_minify_css Pullzone#optimizer_minify_css}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_minify_css Pullzone#optimizer_minify_css}
   */
   readonly optimizerMinifyCss?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the JavaScript minification should be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_minify_js Pullzone#optimizer_minify_js}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_minify_js Pullzone#optimizer_minify_js}
   */
   readonly optimizerMinifyJs?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the automatic image optimization should be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_smartimage Pullzone#optimizer_smartimage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_smartimage Pullzone#optimizer_smartimage}
   */
   readonly optimizerSmartimage?: boolean | cdktf.IResolvable;
   /**
   * The maximum automatic image size for desktop clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_smartimage_desktop_maxwidth Pullzone#optimizer_smartimage_desktop_maxwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_smartimage_desktop_maxwidth Pullzone#optimizer_smartimage_desktop_maxwidth}
   */
   readonly optimizerSmartimageDesktopMaxwidth?: number;
   /**
   * The image quality for desktop clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_smartimage_desktop_quality Pullzone#optimizer_smartimage_desktop_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_smartimage_desktop_quality Pullzone#optimizer_smartimage_desktop_quality}
   */
   readonly optimizerSmartimageDesktopQuality?: number;
   /**
   * The maximum automatic image size for mobile clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_smartimage_mobile_maxwidth Pullzone#optimizer_smartimage_mobile_maxwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_smartimage_mobile_maxwidth Pullzone#optimizer_smartimage_mobile_maxwidth}
   */
   readonly optimizerSmartimageMobileMaxwidth?: number;
   /**
   * Determines the image quality for mobile clients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_smartimage_mobile_quality Pullzone#optimizer_smartimage_mobile_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_smartimage_mobile_quality Pullzone#optimizer_smartimage_mobile_quality}
   */
   readonly optimizerSmartimageMobileQuality?: number;
   /**
   * Indicates whether image watermarking should be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_watermark Pullzone#optimizer_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_watermark Pullzone#optimizer_watermark}
   */
   readonly optimizerWatermark?: boolean | cdktf.IResolvable;
   /**
   * The offset of the watermark image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_watermark_borderoffset Pullzone#optimizer_watermark_borderoffset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_watermark_borderoffset Pullzone#optimizer_watermark_borderoffset}
   */
   readonly optimizerWatermarkBorderoffset?: number;
   /**
   * The minimum image size to which the watermark will be added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_watermark_minsize Pullzone#optimizer_watermark_minsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_watermark_minsize Pullzone#optimizer_watermark_minsize}
   */
   readonly optimizerWatermarkMinsize?: number;
   /**
   * Options: `BottomLeft`, `BottomRight`, `Center`, `CenterStretch`, `TopLeft`, `TopRight`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_watermark_position Pullzone#optimizer_watermark_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_watermark_position Pullzone#optimizer_watermark_position}
   */
   readonly optimizerWatermarkPosition?: string;
   /**
   * The URL of the watermark image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_watermark_url Pullzone#optimizer_watermark_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_watermark_url Pullzone#optimizer_watermark_url}
   */
   readonly optimizerWatermarkUrl?: string;
   /**
   * Indicates whether the WebP optimization should be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#optimizer_webp Pullzone#optimizer_webp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#optimizer_webp Pullzone#optimizer_webp}
   */
   readonly optimizerWebp?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether there is a concurrency limit for Origin Shield.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#originshield_concurrency_limit Pullzone#originshield_concurrency_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#originshield_concurrency_limit Pullzone#originshield_concurrency_limit}
   */
   readonly originshieldConcurrencyLimit?: boolean | cdktf.IResolvable;
   /**
   * The number of concurrent requests for Origin Shield.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#originshield_concurrency_requests Pullzone#originshield_concurrency_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#originshield_concurrency_requests Pullzone#originshield_concurrency_requests}
   */
   readonly originshieldConcurrencyRequests?: number;
   /**
   * Indicates whether Origin Shield is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#originshield_enabled Pullzone#originshield_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#originshield_enabled Pullzone#originshield_enabled}
   */
   readonly originshieldEnabled?: boolean | cdktf.IResolvable;
   /**
   * The number of queued requests for Origin Shield.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#originshield_queue_requests Pullzone#originshield_queue_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#originshield_queue_requests Pullzone#originshield_queue_requests}
   */
   readonly originshieldQueueRequests?: number;
   /**
   * The maximum wait time for queued requests in Origin Shield, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#originshield_queue_wait Pullzone#originshield_queue_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#originshield_queue_wait Pullzone#originshield_queue_wait}
   */
   readonly originshieldQueueWait?: number;
   /**
   * Options: `FR`, `IL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#originshield_zone Pullzone#originshield_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#originshield_zone Pullzone#originshield_zone}
   */
   readonly originshieldZone?: string;
   /**
   * The storage zone ID for Perma-Cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#permacache_storagezone Pullzone#permacache_storagezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#permacache_storagezone Pullzone#permacache_storagezone}
   */
   readonly permacacheStoragezone?: number;
   /**
   * Indicates whether request coalescing is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#request_coalescing_enabled Pullzone#request_coalescing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#request_coalescing_enabled Pullzone#request_coalescing_enabled}
   */
   readonly requestCoalescingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Specifies the timeout period, in seconds, for request coalescing, determining how long to wait before sending combined requests to the origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#request_coalescing_timeout Pullzone#request_coalescing_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#request_coalescing_timeout Pullzone#request_coalescing_timeout}
   */
   readonly requestCoalescingTimeout?: number;
   /**
   * Indicates whether requests to origin will be signed with AWS Signature Version 4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#s3_auth_enabled Pullzone#s3_auth_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#s3_auth_enabled Pullzone#s3_auth_enabled}
   */
   readonly s3AuthEnabled?: boolean | cdktf.IResolvable;
   /**
   * The access key used to authenticate the requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#s3_auth_key Pullzone#s3_auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#s3_auth_key Pullzone#s3_auth_key}
   */
   readonly s3AuthKey?: string;
   /**
   * The region name of the bucket used to authenticate the requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#s3_auth_region Pullzone#s3_auth_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#s3_auth_region Pullzone#s3_auth_region}
   */
   readonly s3AuthRegion?: string;
   /**
   * The secret key used to authenticate the requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#s3_auth_secret Pullzone#s3_auth_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#s3_auth_secret Pullzone#s3_auth_secret}
   */
   readonly s3AuthSecret?: string;
   /**
   * The amount of seconds to wait when connecting to the origin. Otherwise the request will fail or retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#safehop_connection_timeout Pullzone#safehop_connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#safehop_connection_timeout Pullzone#safehop_connection_timeout}
   */
   readonly safehopConnectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#safehop_enabled Pullzone#safehop_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#safehop_enabled Pullzone#safehop_enabled}
   */
   readonly safehopEnabled?: boolean | cdktf.IResolvable;
   /**
   * The amount of seconds to wait when waiting for the origin reply. Otherwise the request will fail or retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#safehop_response_timeout Pullzone#safehop_response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#safehop_response_timeout Pullzone#safehop_response_timeout}
   */
   readonly safehopResponseTimeout?: number;
   /**
   * The number of retries to the origin server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#safehop_retry_count Pullzone#safehop_retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#safehop_retry_count Pullzone#safehop_retry_count}
   */
   readonly safehopRetryCount?: number;
   /**
   * The amount of time that the CDN should wait before retrying an origin request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#safehop_retry_delay Pullzone#safehop_retry_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#safehop_retry_delay Pullzone#safehop_retry_delay}
   */
   readonly safehopRetryDelay?: number;
   /**
   * Options: `5xxResponse`, `connectionTimeout`, `responseTimeout`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#safehop_retry_reasons Pullzone#safehop_retry_reasons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#safehop_retry_reasons Pullzone#safehop_retry_reasons}
   */
   readonly safehopRetryReasons?: string[];
   /**
   * If enabled, the query parameters will be automatically sorted into a consistent order before checking the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#sort_querystring Pullzone#sort_querystring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#sort_querystring Pullzone#sort_querystring}
   */
   readonly sortQuerystring?: boolean | cdktf.IResolvable;
   /**
   * If enabled, bunny.net will strip all the Set-Cookie headers from the HTTP responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#strip_cookies Pullzone#strip_cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#strip_cookies Pullzone#strip_cookies}
   */
   readonly stripCookies?: boolean | cdktf.IResolvable;
   /**
   * Options: `TLSv1.0`, `TLSv1.1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#tls_support Pullzone#tls_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#tls_support Pullzone#tls_support}
   */
   readonly tlsSupport?: string[];
   /**
   * Indicates whether requests without a valid token and expiry timestamp will be rejected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#token_auth_enabled Pullzone#token_auth_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#token_auth_enabled Pullzone#token_auth_enabled}
   */
   readonly tokenAuthEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the secure hash generated by the server will also include an IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#token_auth_ip_validation Pullzone#token_auth_ip_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#token_auth_ip_validation Pullzone#token_auth_ip_validation}
   */
   readonly tokenAuthIpValidation?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether cache update is performed in the background.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#use_background_update Pullzone#use_background_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#use_background_update Pullzone#use_background_update}
   */
   readonly useBackgroundUpdate?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the WebSocket support is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#websockets_enabled Pullzone#websockets_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#websockets_enabled Pullzone#websockets_enabled}
   */
   readonly websocketsEnabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum allowed concurrent WebSocket connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#websockets_max_connections Pullzone#websockets_max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#websockets_max_connections Pullzone#websockets_max_connections}
   */
   readonly websocketsMaxConnections?: number;
   /**
   * origin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#origin Pullzone#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#origin Pullzone#origin}
   */
   readonly origin?: PullzoneOrigin;
   /**
   * routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#routing Pullzone#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#routing Pullzone#routing}
   */
   readonly routing?: PullzoneRouting;
 }
@@ -544,67 +544,67 @@ export interface PullzoneOrigin {
   /**
   * The ID if the compute container app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#container_app_id Pullzone#container_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#container_app_id Pullzone#container_app_id}
   */
   readonly containerAppId?: string;
   /**
   * The ID if the compute container app endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#container_endpoint_id Pullzone#container_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#container_endpoint_id Pullzone#container_endpoint_id}
   */
   readonly containerEndpointId?: string;
   /**
   * Indicates whether the zone will follow origin redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#follow_redirects Pullzone#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#follow_redirects Pullzone#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the current hostname is forwarded to the origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#forward_host_header Pullzone#forward_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#forward_host_header Pullzone#forward_host_header}
   */
   readonly forwardHostHeader?: boolean | cdktf.IResolvable;
   /**
   * The host header that will be sent to the origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#host_header Pullzone#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#host_header Pullzone#host_header}
   */
   readonly hostHeader?: string;
   /**
   * The ID of the compute script used as a middleware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#middleware_script Pullzone#middleware_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#middleware_script Pullzone#middleware_script}
   */
   readonly middlewareScript?: number;
   /**
   * The ID of the linked compute script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#script Pullzone#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#script Pullzone#script}
   */
   readonly script?: number;
   /**
   * The ID of the linked storage zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#storagezone Pullzone#storagezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#storagezone Pullzone#storagezone}
   */
   readonly storagezone?: number;
   /**
   * Options: `ComputeContainer`, `ComputeScript`, `DnsAccelerate`, `OriginUrl`, `StorageZone`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#type Pullzone#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#type Pullzone#type}
   */
   readonly type: string;
   /**
   * The origin URL from where the files are fetched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#url Pullzone#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#url Pullzone#url}
   */
   readonly url?: string;
   /**
   * Indicates whether the Origin's TLS certificate should be verified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#verify_ssl Pullzone#verify_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#verify_ssl Pullzone#verify_ssl}
   */
   readonly verifySsl?: boolean | cdktf.IResolvable;
 }
@@ -987,31 +987,31 @@ export interface PullzoneRouting {
   /**
   * The list of blocked countries with the two-letter Alpha2 ISO codes. Traffic connecting from a blocked country will be rejected on the DNS level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#blocked_countries Pullzone#blocked_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#blocked_countries Pullzone#blocked_countries}
   */
   readonly blockedCountries?: string[];
   /**
   * Options: `all`, `eu`, `scripting`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#filters Pullzone#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#filters Pullzone#filters}
   */
   readonly filters?: string[];
   /**
   * The list of budget redirected countries with the two-letter Alpha2 ISO codes. Traffic from a redirected country will connect to the cheapest possible node in North America or Europe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#redirected_countries Pullzone#redirected_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#redirected_countries Pullzone#redirected_countries}
   */
   readonly redirectedCountries?: string[];
   /**
   * Options: `Standard`, `Volume`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#tier Pullzone#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#tier Pullzone#tier}
   */
   readonly tier?: string;
   /**
   * Options: `AF`, `ASIA`, `EU`, `SA`, `US`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#zones Pullzone#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#zones Pullzone#zones}
   */
   readonly zones?: string[];
 }
@@ -1221,7 +1221,7 @@ export class PullzoneRoutingOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone bunnynet_pullzone}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone bunnynet_pullzone}
 */
 export class Pullzone extends cdktf.TerraformResource {
 
@@ -1237,7 +1237,7 @@ export class Pullzone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Pullzone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pullzone to import
-  * @param importFromId The id of the existing Pullzone that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pullzone that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pullzone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1249,7 +1249,7 @@ export class Pullzone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/pullzone bunnynet_pullzone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/pullzone bunnynet_pullzone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1260,8 +1260,8 @@ export class Pullzone extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_pullzone',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.2',
-        providerVersionConstraint: '0.11.2'
+        providerVersion: '0.11.3',
+        providerVersionConstraint: '0.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

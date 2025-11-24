@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#metadata DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#metadata DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1ManifestMetadata;
   /**
   * SecretProviderClassSpec defines the desired state of SecretProviderClass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#spec DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#spec DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#annotations DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#annotations DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#labels DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#labels DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#name DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#name DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#namespace DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#namespace DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest
   /**
   * data field to populate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#key DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#key DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * name of the object to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#object_name DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#object_name DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#object_name}
   */
   readonly objectName?: string;
 }
@@ -372,29 +372,29 @@ export interface DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest
   /**
   * annotations of k8s secret object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#annotations DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#annotations DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#data DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#data DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#data}
   */
   readonly data?: DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1ManifestSpecSecretObjectsData[] | cdktf.IResolvable;
   /**
   * labels of K8s secret object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#labels DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#labels DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the K8s secret object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#secret_name DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#secret_name DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
   * type of K8s secret object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#type DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#type DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -628,17 +628,17 @@ export interface DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest
   /**
   * Configuration for specific provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#parameters DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#parameters DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * Configuration for provider name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#provider DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#provider DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#secret_objects DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#secret_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#secret_objects DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest#secret_objects}
   */
   readonly secretObjects?: DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1ManifestSpecSecretObjects[] | cdktf.IResolvable;
 }
@@ -790,7 +790,7 @@ export class DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1ManifestSpec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest k8s_secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest k8s_secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest}
 */
 export class DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -806,7 +806,7 @@ export class DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest ext
   * Generates CDKTF code for importing a DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -818,7 +818,7 @@ export class DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest ext
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest k8s_secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest k8s_secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -829,8 +829,8 @@ export class DataK8SSecretsStoreCsiXK8SIoSecretProviderClassV1Alpha1Manifest ext
       terraformResourceType: 'k8s_secrets_store_csi_x_k8s_io_secret_provider_class_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

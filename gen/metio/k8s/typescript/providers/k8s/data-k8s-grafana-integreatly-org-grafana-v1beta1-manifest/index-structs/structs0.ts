@@ -3,25 +3,25 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#annotations DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#annotations DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespace DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespace DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -198,11 +198,11 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecClient {
   /**
   * If the operator should send it's request through the grafana instances ingress object instead of through the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#prefer_ingress DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#prefer_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#prefer_ingress DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#prefer_ingress}
   */
   readonly preferIngress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#timeout DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#timeout DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#timeout}
   */
   readonly timeout?: number;
 }
@@ -325,11 +325,11 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecClientOutputR
 }
 export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#annotations DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#annotations DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -454,19 +454,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -636,13 +636,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -767,13 +767,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The maximum number of pods that can be scheduled above the desired number of pods. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). This can not be 0 if MaxUnavailable is 0. Absolute number is calculated from percentage by rounding up. Defaults to 25%. Example: when this is set to 30%, the new ReplicaSet can be scaled up immediately when the rolling update starts, such that the total number of old and new pods do not exceed 130% of desired pods. Once old pods have been killed, new ReplicaSet can be scaled up further, ensuring that total number of pods running at any time during the update is at most 130% of desired pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#max_surge DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#max_surge DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#max_surge}
   */
   readonly maxSurge?: string;
   /**
   * The maximum number of pods that can be unavailable during the update. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). Absolute number is calculated from percentage by rounding down. This can not be 0 if MaxSurge is 0. Defaults to 25%. Example: when this is set to 30%, the old ReplicaSet can be scaled down to 70% of desired pods immediately when the rolling update starts. Once new pods are ready, old ReplicaSet can be scaled down further, followed by scaling up the new ReplicaSet, ensuring that the total number of pods available at all times during the update is at least 70% of desired pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#max_unavailable DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#max_unavailable DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
 }
@@ -898,13 +898,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Rolling update config params. Present only if DeploymentStrategyType = RollingUpdate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#rolling_update DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#rolling_update DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecStrategyRollingUpdate;
   /**
   * Type of deployment. Can be 'Recreate' or 'RollingUpdate'. Default is RollingUpdate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#type DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#type DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1027,11 +1027,11 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpe
 }
 export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#annotations DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#annotations DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -1156,19 +1156,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1338,19 +1338,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1520,13 +1520,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_fields DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_fields DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -1651,13 +1651,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#preference DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#preference DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#preference}
   */
   readonly preference: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#weight DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#weight DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -1798,19 +1798,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1980,19 +1980,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2162,13 +2162,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_fields DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_fields DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -2315,7 +2315,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#node_selector_terms DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#node_selector_terms DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -2408,13 +2408,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -2539,19 +2539,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2721,13 +2721,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2852,19 +2852,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3034,13 +3034,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3165,37 +3165,37 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#label_selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#label_selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_label_keys DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_label_keys DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#mismatch_label_keys DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#mismatch_label_keys DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespace_selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespace_selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespaces DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespaces DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#topology_key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#topology_key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3433,13 +3433,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#pod_affinity_term DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#pod_affinity_term DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#weight DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#weight DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -3580,19 +3580,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3762,13 +3762,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3893,19 +3893,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4075,13 +4075,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4206,37 +4206,37 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#label_selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#label_selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_label_keys DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_label_keys DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#mismatch_label_keys DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#mismatch_label_keys DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespace_selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespace_selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespaces DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespaces DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#topology_key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#topology_key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4496,13 +4496,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -4627,19 +4627,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4809,13 +4809,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4940,19 +4940,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5122,13 +5122,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5253,37 +5253,37 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#label_selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#label_selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_label_keys DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_label_keys DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#mismatch_label_keys DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#mismatch_label_keys DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespace_selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespace_selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespaces DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespaces DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#topology_key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#topology_key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5521,13 +5521,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#pod_affinity_term DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#pod_affinity_term DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#weight DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#weight DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -5668,19 +5668,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5850,13 +5850,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5981,19 +5981,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#operator DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#values DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6163,13 +6163,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_expressions DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6294,37 +6294,37 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#label_selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#label_selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_label_keys DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#match_label_keys DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#mismatch_label_keys DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#mismatch_label_keys DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespace_selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespace_selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespaces DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespaces DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#topology_key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#topology_key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -6584,13 +6584,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -6715,19 +6715,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#node_affinity DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#node_affinity DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#pod_affinity DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#pod_affinity DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#pod_anti_affinity DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#pod_anti_affinity DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecAffinityPodAntiAffinity;
 }
@@ -6881,19 +6881,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7044,13 +7044,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#api_version DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#api_version DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#field_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#field_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -7172,19 +7172,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#container_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#container_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#divisor DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#divisor DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resource DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resource DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -7335,19 +7335,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7498,25 +7498,25 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#config_map_key_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#config_map_key_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#field_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#field_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resource_field_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resource_field_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#secret_key_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#secret_key_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersEnvValueFromSecretKeyRef;
 }
@@ -7699,19 +7699,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value_from DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value_from DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersEnvValueFrom;
 }
@@ -7884,13 +7884,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8015,13 +8015,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8146,19 +8146,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#config_map_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#config_map_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#prefix DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#prefix DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#secret_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#secret_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersEnvFromSecretRef;
 }
@@ -8334,7 +8334,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -8430,13 +8430,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -8577,31 +8577,31 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8810,7 +8810,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -8903,13 +8903,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -9031,25 +9031,25 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLifecyclePostStartHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#sleep DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#sleep DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#sleep}
   */
   readonly sleep?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLifecyclePostStartSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLifecyclePostStartTcpSocket;
 }
@@ -9232,7 +9232,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -9328,13 +9328,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -9475,31 +9475,31 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -9708,7 +9708,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -9801,13 +9801,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -9929,25 +9929,25 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLifecyclePreStopHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#sleep DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#sleep DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#sleep}
   */
   readonly sleep?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLifecyclePreStopSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLifecyclePreStopTcpSocket;
 }
@@ -10130,13 +10130,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#post_start DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#post_start DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#post_start}
   */
   readonly postStart?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#pre_stop DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#pre_stop DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLifecyclePreStop;
 }
@@ -10261,7 +10261,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -10357,13 +10357,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#service DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#service DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -10485,13 +10485,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -10632,31 +10632,31 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -10865,13 +10865,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -10993,61 +10993,61 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#failure_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#failure_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#grpc DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#grpc DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#initial_delay_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#initial_delay_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#success_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#success_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_grace_period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_grace_period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#timeout_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#timeout_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -11404,31 +11404,31 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#container_port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#container_port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host_ip DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host_ip DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host_port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host_port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#protocol DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#protocol DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -11659,7 +11659,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -11755,13 +11755,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#service DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#service DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -11883,13 +11883,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -12030,31 +12030,31 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -12263,13 +12263,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -12391,61 +12391,61 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#failure_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#failure_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#grpc DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#grpc DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#initial_delay_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#initial_delay_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#success_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#success_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_grace_period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_grace_period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#timeout_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#timeout_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -12802,13 +12802,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resource_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resource_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#restart_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#restart_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -12949,13 +12949,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#request DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#request DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#request}
   */
   readonly request?: string;
 }
@@ -13099,19 +13099,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#claims DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#claims DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#limits DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#limits DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#requests DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#requests DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -13265,13 +13265,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#localhost_profile DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#localhost_profile DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#type DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#type DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -13393,13 +13393,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#add DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#add DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#drop DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#drop DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -13524,25 +13524,25 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#level DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#level DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#role DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#role DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#type DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#type DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#user DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#user DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -13725,13 +13725,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#localhost_profile DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#localhost_profile DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#type DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#type DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -13853,25 +13853,25 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#gmsa_credential_spec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#gmsa_credential_spec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#gmsa_credential_spec_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#gmsa_credential_spec_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host_process DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host_process DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#run_as_user_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#run_as_user_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -14054,73 +14054,73 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#allow_privilege_escalation DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#allow_privilege_escalation DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * appArmorProfile is the AppArmor options to use by this container. If set, this profile overrides the pod's appArmorProfile. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#app_armor_profile DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#app_armor_profile DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersSecurityContextAppArmorProfile;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#capabilities DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#capabilities DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#privileged DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#privileged DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default value is Default which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#proc_mount DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#proc_mount DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#read_only_root_filesystem DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#read_only_root_filesystem DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#run_as_group DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#run_as_group DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#run_as_non_root DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#run_as_non_root DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#run_as_user DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#run_as_user DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#se_linux_options DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#se_linux_options DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#seccomp_profile DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#seccomp_profile DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#windows_options DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#windows_options DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersSecurityContextWindowsOptions;
 }
@@ -14535,7 +14535,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -14631,13 +14631,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#service DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#service DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -14759,13 +14759,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -14906,31 +14906,31 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -15139,13 +15139,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -15267,61 +15267,61 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#failure_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#failure_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#grpc DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#grpc DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#initial_delay_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#initial_delay_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#success_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#success_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_grace_period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_grace_period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#timeout_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#timeout_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -15678,13 +15678,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#device_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#device_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -15825,43 +15825,43 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#mount_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#mount_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10. When RecursiveReadOnly is set to IfPossible or to Enabled, MountPropagation must be None or unspecified (which defaults to None).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#mount_propagation DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#mount_propagation DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#read_only DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#read_only DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * RecursiveReadOnly specifies whether read-only mounts should be handled recursively. If ReadOnly is false, this field has no meaning and must be unspecified. If ReadOnly is true, and this field is set to Disabled, the mount is not made recursively read-only. If this field is set to IfPossible, the mount is made recursively read-only, if it is supported by the container runtime. If this field is set to Enabled, the mount is made recursively read-only if it is supported by the container runtime, otherwise the pod will not be started and an error will be generated to indicate the reason. If this field is set to IfPossible or Enabled, MountPropagation must be set to None (or be unspecified, which defaults to None). If this field is not specified, it is treated as an equivalent of Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#recursive_read_only DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#recursive_read_only DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#sub_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#sub_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#sub_path_expr DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#sub_path_expr DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -16147,145 +16147,145 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Arguments to the entrypoint. The container image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#args DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#args DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The container image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#env DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#env DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#env}
   */
   readonly env?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#env_from DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#env_from DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#env_from}
   */
   readonly envFrom?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#image DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#image DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#image_pull_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#image_pull_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Actions that the management system should take in response to container lifecycle events. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#lifecycle DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#lifecycle DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLifecycle;
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#liveness_probe DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#liveness_probe DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersLivenessProbe;
   /**
   * Name of the container specified as a DNS_LABEL. Each container in a pod must have a unique name (DNS_LABEL). Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * List of ports to expose from the container. Not specifying a port here DOES NOT prevent that port from being exposed. Any port which is listening on the default '0.0.0.0' address inside a container will be accessible from the network. Modifying this array with strategic merge patch may corrupt the data. For more information See https://github.com/kubernetes/kubernetes/issues/108255. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#ports DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#ports DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#ports}
   */
   readonly ports?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersPorts[] | cdktf.IResolvable;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#readiness_probe DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#readiness_probe DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersReadinessProbe;
   /**
   * Resources resize policy for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resize_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resize_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersResizePolicy[] | cdktf.IResolvable;
   /**
   * Compute Resources required by this container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resources DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resources DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersResources;
   /**
   * RestartPolicy defines the restart behavior of individual containers in a pod. This field may only be set for init containers, and the only allowed value is 'Always'. For non-init containers or when this field is not specified, the restart behavior is defined by the Pod's restart policy and the container type. Setting the RestartPolicy as 'Always' for the init container will have the following effect: this init container will be continually restarted on exit until all regular containers have terminated. Once all regular containers have completed, all init containers with restartPolicy 'Always' will be shut down. This lifecycle differs from normal init containers and is often referred to as a 'sidecar' container. Although this init container still starts in the init container sequence, it does not wait for the container to complete before proceeding to the next init container. Instead, the next init container starts immediately after this init container is started, or after any startupProbe has successfully completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#restart_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#restart_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * SecurityContext defines the security options the container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext. More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#security_context DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#security_context DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#security_context}
   */
   readonly securityContext?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersSecurityContext;
   /**
   * StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#startup_probe DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#startup_probe DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#stdin DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#stdin DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#stdin_once DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#stdin_once DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_message_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_message_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_message_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_message_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tty DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tty DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#volume_devices DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#volume_devices DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#volume_mounts DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#volume_mounts DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecContainersVolumeMounts[] | cdktf.IResolvable;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#working_dir DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#working_dir DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -17067,11 +17067,11 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -17218,19 +17218,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * A list of DNS name server IP addresses. This will be appended to the base nameservers generated from DNSPolicy. Duplicated nameservers will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#nameservers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#nameservers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#nameservers}
   */
   readonly nameservers?: string[];
   /**
   * A list of DNS resolver options. This will be merged with the base options generated from DNSPolicy. Duplicated entries will be removed. Resolution options given in Options will override those that appear in the base DNSPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#options DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#options DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#options}
   */
   readonly options?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecDnsConfigOptions[] | cdktf.IResolvable;
   /**
   * A list of DNS search domains for host-name lookup. This will be appended to the base search paths generated from DNSPolicy. Duplicated search paths will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#searches DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#searches DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#searches}
   */
   readonly searches?: string[];
 }
@@ -17384,19 +17384,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17547,13 +17547,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#api_version DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#api_version DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#field_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#field_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -17675,19 +17675,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#container_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#container_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#divisor DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#divisor DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resource DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resource DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -17838,19 +17838,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18001,25 +18001,25 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#config_map_key_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#config_map_key_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#field_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#field_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resource_field_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resource_field_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#secret_key_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#secret_key_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersEnvValueFromSecretKeyRef;
 }
@@ -18202,19 +18202,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value_from DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value_from DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersEnvValueFrom;
 }
@@ -18387,13 +18387,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18518,13 +18518,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#optional DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18649,19 +18649,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#config_map_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#config_map_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#prefix DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#prefix DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#secret_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#secret_ref DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersEnvFromSecretRef;
 }
@@ -18837,7 +18837,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -18933,13 +18933,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -19080,31 +19080,31 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -19313,7 +19313,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -19406,13 +19406,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -19534,25 +19534,25 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLifecyclePostStartHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#sleep DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#sleep DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#sleep}
   */
   readonly sleep?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLifecyclePostStartSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLifecyclePostStartTcpSocket;
 }
@@ -19735,7 +19735,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -19831,13 +19831,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -19978,31 +19978,31 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -20211,7 +20211,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -20304,13 +20304,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -20432,25 +20432,25 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLifecyclePreStopHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#sleep DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#sleep DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#sleep}
   */
   readonly sleep?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLifecyclePreStopSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLifecyclePreStopTcpSocket;
 }
@@ -20633,13 +20633,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#post_start DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#post_start DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#post_start}
   */
   readonly postStart?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#pre_stop DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#pre_stop DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLifecyclePreStop;
 }
@@ -20764,7 +20764,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -20860,13 +20860,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#service DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#service DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -20988,13 +20988,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -21135,31 +21135,31 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -21368,13 +21368,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -21496,61 +21496,61 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#failure_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#failure_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#grpc DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#grpc DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#initial_delay_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#initial_delay_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#success_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#success_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_grace_period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_grace_period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#timeout_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#timeout_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -21907,31 +21907,31 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#container_port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#container_port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host_ip DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host_ip DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host_port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host_port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#protocol DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#protocol DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -22162,7 +22162,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -22258,13 +22258,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#service DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#service DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -22386,13 +22386,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -22533,31 +22533,31 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -22766,13 +22766,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -22894,61 +22894,61 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#failure_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#failure_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#grpc DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#grpc DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#initial_delay_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#initial_delay_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#success_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#success_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_grace_period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_grace_period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#timeout_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#timeout_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -23305,13 +23305,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resource_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resource_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#restart_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#restart_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -23452,13 +23452,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#request DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#request DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#request}
   */
   readonly request?: string;
 }
@@ -23602,19 +23602,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#claims DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#claims DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#limits DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#limits DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#requests DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#requests DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -23768,13 +23768,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#localhost_profile DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#localhost_profile DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#type DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#type DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -23896,13 +23896,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#add DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#add DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#drop DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#drop DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -24027,25 +24027,25 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#level DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#level DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#role DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#role DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#type DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#type DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#user DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#user DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -24228,13 +24228,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#localhost_profile DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#localhost_profile DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#type DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#type DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -24356,25 +24356,25 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#gmsa_credential_spec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#gmsa_credential_spec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#gmsa_credential_spec_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#gmsa_credential_spec_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host_process DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host_process DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#run_as_user_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#run_as_user_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -24557,73 +24557,73 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#allow_privilege_escalation DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#allow_privilege_escalation DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * appArmorProfile is the AppArmor options to use by this container. If set, this profile overrides the pod's appArmorProfile. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#app_armor_profile DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#app_armor_profile DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersSecurityContextAppArmorProfile;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#capabilities DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#capabilities DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#privileged DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#privileged DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default value is Default which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#proc_mount DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#proc_mount DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#read_only_root_filesystem DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#read_only_root_filesystem DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#run_as_group DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#run_as_group DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#run_as_non_root DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#run_as_non_root DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#run_as_user DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#run_as_user DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#se_linux_options DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#se_linux_options DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#seccomp_profile DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#seccomp_profile DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#windows_options DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#windows_options DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersSecurityContextWindowsOptions;
 }
@@ -25038,7 +25038,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -25134,13 +25134,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#service DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#service DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -25262,13 +25262,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#value DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -25409,31 +25409,31 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_headers DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#scheme DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -25642,13 +25642,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: string;
 }
@@ -25770,61 +25770,61 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#exec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#failure_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#failure_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#grpc DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#grpc DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#http_get DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#initial_delay_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#initial_delay_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#success_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#success_threshold DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tcp_socket DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_grace_period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_grace_period_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#timeout_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#timeout_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -26181,13 +26181,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#device_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#device_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -26328,43 +26328,43 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#mount_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#mount_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10. When RecursiveReadOnly is set to IfPossible or to Enabled, MountPropagation must be None or unspecified (which defaults to None).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#mount_propagation DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#mount_propagation DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#read_only DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#read_only DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * RecursiveReadOnly specifies whether read-only mounts should be handled recursively. If ReadOnly is false, this field has no meaning and must be unspecified. If ReadOnly is true, and this field is set to Disabled, the mount is not made recursively read-only. If this field is set to IfPossible, the mount is made recursively read-only, if it is supported by the container runtime. If this field is set to Enabled, the mount is made recursively read-only if it is supported by the container runtime, otherwise the pod will not be started and an error will be generated to indicate the reason. If this field is set to IfPossible or Enabled, MountPropagation must be set to None (or be unspecified, which defaults to None). If this field is not specified, it is treated as an equivalent of Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#recursive_read_only DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#recursive_read_only DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#sub_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#sub_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#sub_path_expr DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#sub_path_expr DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -26650,151 +26650,151 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Arguments to the entrypoint. The image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#args DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#args DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#command DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#env DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#env DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#env}
   */
   readonly env?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#env_from DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#env_from DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#env_from}
   */
   readonly envFrom?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#image DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#image DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#image_pull_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#image_pull_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Lifecycle is not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#lifecycle DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#lifecycle DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLifecycle;
   /**
   * Probes are not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#liveness_probe DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#liveness_probe DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersLivenessProbe;
   /**
   * Name of the ephemeral container specified as a DNS_LABEL. This name must be unique among all containers, init containers and ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Ports are not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#ports DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#ports DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#ports}
   */
   readonly ports?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersPorts[] | cdktf.IResolvable;
   /**
   * Probes are not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#readiness_probe DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#readiness_probe DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersReadinessProbe;
   /**
   * Resources resize policy for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resize_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resize_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersResizePolicy[] | cdktf.IResolvable;
   /**
   * Resources are not allowed for ephemeral containers. Ephemeral containers use spare resources already allocated to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resources DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resources DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersResources;
   /**
   * Restart policy for the container to manage the restart behavior of each container within a pod. This may only be set for init containers. You cannot set this field on ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#restart_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#restart_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * Optional: SecurityContext defines the security options the ephemeral container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#security_context DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#security_context DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#security_context}
   */
   readonly securityContext?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersSecurityContext;
   /**
   * Probes are not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#startup_probe DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#startup_probe DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#stdin DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#stdin DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#stdin_once DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#stdin_once DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * If set, the name of the container from PodSpec that this ephemeral container targets. The ephemeral container will be run in the namespaces (IPC, PID, etc) of this container. If not set then the ephemeral container uses the namespaces configured in the Pod spec. The container runtime must implement support for this feature. If the runtime does not support namespace targeting then the result of setting this field is undefined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#target_container_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#target_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#target_container_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#target_container_name}
   */
   readonly targetContainerName?: string;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_message_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_message_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_message_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination_message_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tty DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tty DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#volume_devices DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#volume_devices DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Subpath mounts are not allowed for ephemeral containers. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#volume_mounts DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#volume_mounts DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymentSpecTemplateSpecEphemeralContainersVolumeMounts[] | cdktf.IResolvable;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#working_dir DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#working_dir DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -27605,13 +27605,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Hostnames for the above IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#hostnames DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#hostnames DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
   * IP address of the host file entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#ip DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#ip DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#ip}
   */
   readonly ip: string;
 }
@@ -27755,7 +27755,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeploymen
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name?: string;
 }

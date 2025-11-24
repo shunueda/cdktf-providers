@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PlatformConnectorGcpKmsConfig extends cdktf.TerraformMetaArgume
   /**
   * Set this flag to set this secret manager as default secret manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#default PlatformConnectorGcpKms#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#default PlatformConnectorGcpKms#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#description PlatformConnectorGcpKms#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#description PlatformConnectorGcpKms#description}
   */
   readonly description?: string;
   /**
   * Enable this flag to execute on Delegate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#execute_on_delegate PlatformConnectorGcpKms#execute_on_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#execute_on_delegate PlatformConnectorGcpKms#execute_on_delegate}
   */
   readonly executeOnDelegate?: boolean | cdktf.IResolvable;
   /**
   * The project ID of the GCP KMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#gcp_project_id PlatformConnectorGcpKms#gcp_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#gcp_project_id PlatformConnectorGcpKms#gcp_project_id}
   */
   readonly gcpProjectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#id PlatformConnectorGcpKms#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#id PlatformConnectorGcpKms#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,61 +41,61 @@ export interface PlatformConnectorGcpKmsConfig extends cdktf.TerraformMetaArgume
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#identifier PlatformConnectorGcpKms#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#identifier PlatformConnectorGcpKms#identifier}
   */
   readonly identifier: string;
   /**
   * The key name of the GCP KMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#key_name PlatformConnectorGcpKms#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#key_name PlatformConnectorGcpKms#key_name}
   */
   readonly keyName: string;
   /**
   * The key ring of the GCP KMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#key_ring PlatformConnectorGcpKms#key_ring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#key_ring PlatformConnectorGcpKms#key_ring}
   */
   readonly keyRing: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#name PlatformConnectorGcpKms#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#name PlatformConnectorGcpKms#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#org_id PlatformConnectorGcpKms#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#org_id PlatformConnectorGcpKms#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#project_id PlatformConnectorGcpKms#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#project_id PlatformConnectorGcpKms#project_id}
   */
   readonly projectId?: string;
   /**
   * The region of the GCP KMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#region PlatformConnectorGcpKms#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#region PlatformConnectorGcpKms#region}
   */
   readonly region: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#tags PlatformConnectorGcpKms#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#tags PlatformConnectorGcpKms#tags}
   */
   readonly tags?: string[];
   /**
   * manual block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#manual PlatformConnectorGcpKms#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#manual PlatformConnectorGcpKms#manual}
   */
   readonly manual?: PlatformConnectorGcpKmsManual;
   /**
   * oidc_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#oidc_authentication PlatformConnectorGcpKms#oidc_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#oidc_authentication PlatformConnectorGcpKms#oidc_authentication}
   */
   readonly oidcAuthentication?: PlatformConnectorGcpKmsOidcAuthentication[] | cdktf.IResolvable;
 }
@@ -103,13 +103,13 @@ export interface PlatformConnectorGcpKmsManual {
   /**
   * Reference to the Harness secret containing the secret key. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#credentials PlatformConnectorGcpKms#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#credentials PlatformConnectorGcpKms#credentials}
   */
   readonly credentials: string;
   /**
   * The delegates to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#delegate_selectors PlatformConnectorGcpKms#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#delegate_selectors PlatformConnectorGcpKms#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
 }
@@ -221,31 +221,31 @@ export interface PlatformConnectorGcpKmsOidcAuthentication {
   /**
   * The delegates to inherit the credentials from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#delegate_selectors PlatformConnectorGcpKms#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#delegate_selectors PlatformConnectorGcpKms#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * The project number of the GCP project that is used to create the workload identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#gcp_project_id PlatformConnectorGcpKms#gcp_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#gcp_project_id PlatformConnectorGcpKms#gcp_project_id}
   */
   readonly gcpProjectId: string;
   /**
   * The OIDC provider ID value configured in GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#provider_id PlatformConnectorGcpKms#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#provider_id PlatformConnectorGcpKms#provider_id}
   */
   readonly providerId: string;
   /**
   * The service account linked to workload identity pool while setting GCP workload identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#service_account_email PlatformConnectorGcpKms#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#service_account_email PlatformConnectorGcpKms#service_account_email}
   */
   readonly serviceAccountEmail: string;
   /**
   * The workload pool ID value created in GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#workload_pool_id PlatformConnectorGcpKms#workload_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#workload_pool_id PlatformConnectorGcpKms#workload_pool_id}
   */
   readonly workloadPoolId: string;
 }
@@ -465,7 +465,7 @@ export class PlatformConnectorGcpKmsOidcAuthenticationList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms harness_platform_connector_gcp_kms}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms harness_platform_connector_gcp_kms}
 */
 export class PlatformConnectorGcpKms extends cdktf.TerraformResource {
 
@@ -481,7 +481,7 @@ export class PlatformConnectorGcpKms extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorGcpKms resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorGcpKms to import
-  * @param importFromId The id of the existing PlatformConnectorGcpKms that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorGcpKms that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorGcpKms to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -493,7 +493,7 @@ export class PlatformConnectorGcpKms extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_kms harness_platform_connector_gcp_kms} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_kms harness_platform_connector_gcp_kms} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -504,8 +504,8 @@ export class PlatformConnectorGcpKms extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_gcp_kms',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_service_principal
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_service_principal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface AzureServicePrincipalConfig extends cdktf.TerraformMetaArgument
   /**
   * Azure app registration application ID. Also known as the client ID. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_service_principal#app_id AzureServicePrincipal#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_service_principal#app_id AzureServicePrincipal#app_id}
   */
   readonly appId?: string;
   /**
   * Azure app registration display name. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_service_principal#app_name AzureServicePrincipal#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_service_principal#app_name AzureServicePrincipal#app_name}
   */
   readonly appName?: string;
   /**
   * Azure app registration client secret. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_service_principal#app_secret AzureServicePrincipal#app_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_service_principal#app_secret AzureServicePrincipal#app_secret}
   */
   readonly appSecret?: string;
   /**
   * Path to a custom service principal file. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_service_principal#credentials AzureServicePrincipal#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_service_principal#credentials AzureServicePrincipal#credentials}
   */
   readonly credentials?: string;
   /**
   * Permissions updated signal. When this field is updated, the provider will notify RSC that permissions has been updated. Use this field with the `polaris_azure_permissions` data source. **Deprecated:** use the `polaris_azure_subscription` resource's `permissions` fields instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_service_principal#permissions AzureServicePrincipal#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_service_principal#permissions AzureServicePrincipal#permissions}
   */
   readonly permissions?: string;
   /**
   * Permissions updated signal. **Deprecated:** use `permissions` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_service_principal#permissions_hash AzureServicePrincipal#permissions_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_service_principal#permissions_hash AzureServicePrincipal#permissions_hash}
   */
   readonly permissionsHash?: string;
   /**
   * Path to an Azure service principal created with the Azure SDK using the `--sdk-auth` parameter. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_service_principal#sdk_auth AzureServicePrincipal#sdk_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_service_principal#sdk_auth AzureServicePrincipal#sdk_auth}
   */
   readonly sdkAuth?: string;
   /**
   * Azure tenant primary domain. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_service_principal#tenant_domain AzureServicePrincipal#tenant_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_service_principal#tenant_domain AzureServicePrincipal#tenant_domain}
   */
   readonly tenantDomain: string;
   /**
   * Azure tenant ID. Also known as the directory ID. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_service_principal#tenant_id AzureServicePrincipal#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_service_principal#tenant_id AzureServicePrincipal#tenant_id}
   */
   readonly tenantId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_service_principal polaris_azure_service_principal}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_service_principal polaris_azure_service_principal}
 */
 export class AzureServicePrincipal extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class AzureServicePrincipal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureServicePrincipal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureServicePrincipal to import
-  * @param importFromId The id of the existing AzureServicePrincipal that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_service_principal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureServicePrincipal that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_service_principal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureServicePrincipal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class AzureServicePrincipal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/azure_service_principal polaris_azure_service_principal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/azure_service_principal polaris_azure_service_principal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class AzureServicePrincipal extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_azure_service_principal',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

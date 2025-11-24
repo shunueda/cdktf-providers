@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metadata DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metadata DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestMetadata;
   /**
   * APPolicySpec defines the desired state of APPolicy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#spec DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#spec DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#annotations DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#annotations DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#labels DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#labels DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#namespace DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#namespace DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestMetadataOutputReferenc
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecModificationsReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -311,7 +311,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecModificationsRefer
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBlockingSettingReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -405,15 +405,15 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBlockingSett
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBlockingSettingsEvasions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#max_decoding_passes DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#max_decoding_passes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#max_decoding_passes DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#max_decoding_passes}
   */
   readonly maxDecodingPasses?: number;
 }
@@ -587,23 +587,23 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBlockingSett
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBlockingSettingsHttpProtocols {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#max_cookies DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#max_cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#max_cookies DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#max_cookies}
   */
   readonly maxCookies?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#max_headers DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#max_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#max_headers DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#max_headers}
   */
   readonly maxHeaders?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#max_params DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#max_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#max_params DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#max_params}
   */
   readonly maxParams?: number;
 }
@@ -835,19 +835,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBlockingSett
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBlockingSettingsViolations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#alarm DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#alarm DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#alarm}
   */
   readonly alarm?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#block DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#block DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#block}
   */
   readonly block?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1050,15 +1050,15 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBlockingSett
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBlockingSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#evasions DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#evasions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#evasions DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#evasions}
   */
   readonly evasions?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBlockingSettingsEvasions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#http_protocols DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#http_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#http_protocols DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#http_protocols}
   */
   readonly httpProtocols?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBlockingSettingsHttpProtocols[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#violations DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#violations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#violations DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#violations}
   */
   readonly violations?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBlockingSettingsViolations[] | cdktf.IResolvable;
 }
@@ -1210,19 +1210,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBlockingSett
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseMitigationsAnomalies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#action DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#action DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#score_threshold DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#score_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#score_threshold DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#score_threshold}
   */
   readonly scoreThreshold?: string;
 }
@@ -1425,23 +1425,23 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseMi
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseMitigationsBrowsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#action DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#action DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#max_version DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#max_version DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#max_version}
   */
   readonly maxVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#min_version DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#min_version DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#min_version}
   */
   readonly minVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1673,11 +1673,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseMi
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseMitigationsClasses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#action DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#action DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1822,15 +1822,15 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseMi
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseMitigationsSignatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#action DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#action DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2004,19 +2004,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseMi
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseMitigations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#anomalies DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#anomalies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#anomalies DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#anomalies}
   */
   readonly anomalies?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseMitigationsAnomalies[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#browsers DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#browsers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#browsers DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#browsers}
   */
   readonly browsers?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseMitigationsBrowsers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#classes DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#classes DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#classes}
   */
   readonly classes?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseMitigationsClasses[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signatures DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signatures DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signatures}
   */
   readonly signatures?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseMitigationsSignatures[] | cdktf.IResolvable;
 }
@@ -2197,11 +2197,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseMi
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#case_sensitive_http_headers DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#case_sensitive_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#case_sensitive_http_headers DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#case_sensitive_http_headers}
   */
   readonly caseSensitiveHttpHeaders?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
 }
@@ -2324,11 +2324,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseSe
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefense {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mitigations DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mitigations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mitigations DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mitigations}
   */
   readonly mitigations?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseMitigations;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#settings DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#settings DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#settings}
   */
   readonly settings?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseSettings;
 }
@@ -2451,23 +2451,23 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefenseOu
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBrowserDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_user_defined DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_user_defined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_user_defined DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_user_defined}
   */
   readonly isUserDefined?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#match_regex DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#match_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#match_regex DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#match_regex}
   */
   readonly matchRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#match_string DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#match_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#match_string DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#match_string}
   */
   readonly matchString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2699,7 +2699,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBrowserDefin
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCharacterSetReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -2793,11 +2793,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCharacterSet
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCharacterSetsCharacterSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
   */
   readonly isAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar}
   */
   readonly metachar?: string;
 }
@@ -2942,11 +2942,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCharacterSet
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCharacterSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#character_set DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#character_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#character_set DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#character_set}
   */
   readonly characterSet?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCharacterSetsCharacterSet[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#character_set_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#character_set_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#character_set_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#character_set_type}
   */
   readonly characterSetType?: string;
 }
@@ -3091,7 +3091,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCharacterSet
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCookieReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -3185,7 +3185,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCookieRefere
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCookieSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_cookie_header_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_cookie_header_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_cookie_header_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_cookie_header_length}
   */
   readonly maximumCookieHeaderLength?: string;
 }
@@ -3279,7 +3279,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCookieSettin
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCookieSettingsReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -3373,19 +3373,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCookieSettin
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCookiesSignatureOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
   */
   readonly signatureId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -3588,51 +3588,51 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCookiesSigna
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCookies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#accessible_only_through_the_http_protocol DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#accessible_only_through_the_http_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#accessible_only_through_the_http_protocol DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#accessible_only_through_the_http_protocol}
   */
   readonly accessibleOnlyThroughTheHttpProtocol?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signatures_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signatures_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signatures_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signatures_check}
   */
   readonly attackSignaturesCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#decode_value_as_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#decode_value_as_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#decode_value_as_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#decode_value_as_base64}
   */
   readonly decodeValueAsBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enforcement_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enforcement_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enforcement_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enforcement_type}
   */
   readonly enforcementType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#insert_same_site_attribute DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#insert_same_site_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#insert_same_site_attribute DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#insert_same_site_attribute}
   */
   readonly insertSameSiteAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mask_value_in_logs DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mask_value_in_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mask_value_in_logs DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mask_value_in_logs}
   */
   readonly maskValueInLogs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#secured_over_https_connection DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#secured_over_https_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#secured_over_https_connection DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#secured_over_https_connection}
   */
   readonly securedOverHttpsConnection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
   */
   readonly signatureOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCookiesSignatureOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#wildcard_order DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#wildcard_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#wildcard_order DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#wildcard_order}
   */
   readonly wildcardOrder?: number;
 }
@@ -4067,15 +4067,15 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCookiesList 
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCsrfProtection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#expiration_time_in_seconds DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#expiration_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#expiration_time_in_seconds DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#expiration_time_in_seconds}
   */
   readonly expirationTimeInSeconds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#ssl_only DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#ssl_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#ssl_only DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#ssl_only}
   */
   readonly sslOnly?: boolean | cdktf.IResolvable;
 }
@@ -4227,23 +4227,23 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCsrfProtecti
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCsrfUrls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enforcement_action DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enforcement_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enforcement_action DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enforcement_action}
   */
   readonly enforcementAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#method DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#method DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#url DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#url DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#wildcard_order DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#wildcard_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#wildcard_order DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#wildcard_order}
   */
   readonly wildcardOrder?: number;
 }
@@ -4475,51 +4475,51 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCsrfUrlsList
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyDataGuard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#credit_card_numbers DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#credit_card_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#credit_card_numbers DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#credit_card_numbers}
   */
   readonly creditCardNumbers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#custom_patterns DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#custom_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#custom_patterns DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#custom_patterns}
   */
   readonly customPatterns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#custom_patterns_list DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#custom_patterns_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#custom_patterns_list DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#custom_patterns_list}
   */
   readonly customPatternsList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enforcement_mode DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enforcement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enforcement_mode DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enforcement_mode}
   */
   readonly enforcementMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enforcement_urls DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enforcement_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enforcement_urls DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enforcement_urls}
   */
   readonly enforcementUrls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#first_custom_characters_to_expose DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#first_custom_characters_to_expose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#first_custom_characters_to_expose DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#first_custom_characters_to_expose}
   */
   readonly firstCustomCharactersToExpose?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#last_ccn_digits_to_expose DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#last_ccn_digits_to_expose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#last_ccn_digits_to_expose DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#last_ccn_digits_to_expose}
   */
   readonly lastCcnDigitsToExpose?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#last_custom_characters_to_expose DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#last_custom_characters_to_expose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#last_custom_characters_to_expose DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#last_custom_characters_to_expose}
   */
   readonly lastCustomCharactersToExpose?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#last_ssn_digits_to_expose DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#last_ssn_digits_to_expose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#last_ssn_digits_to_expose DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#last_ssn_digits_to_expose}
   */
   readonly lastSsnDigitsToExpose?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mask_data DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mask_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mask_data DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mask_data}
   */
   readonly maskData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#us_social_security_numbers DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#us_social_security_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#us_social_security_numbers DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#us_social_security_numbers}
   */
   readonly usSocialSecurityNumbers?: boolean | cdktf.IResolvable;
 }
@@ -4932,7 +4932,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyDataGuardOut
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyDataGuardReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -5026,15 +5026,15 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyDataGuardRef
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyEnforcerSettingsEnforcerStateCookies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#http_only_attribute DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#http_only_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#http_only_attribute DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#http_only_attribute}
   */
   readonly httpOnlyAttribute?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#same_site_attribute DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#same_site_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#same_site_attribute DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#same_site_attribute}
   */
   readonly sameSiteAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#secure_attribute DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#secure_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#secure_attribute DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#secure_attribute}
   */
   readonly secureAttribute?: string;
 }
@@ -5186,7 +5186,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyEnforcerSett
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyEnforcerSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enforcer_state_cookies DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enforcer_state_cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enforcer_state_cookies DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enforcer_state_cookies}
   */
   readonly enforcerStateCookies?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyEnforcerSettingsEnforcerStateCookies;
 }
@@ -5280,7 +5280,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyEnforcerSett
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyFiletypeReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -5374,59 +5374,59 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyFiletypeRefe
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyFiletypes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allowed}
   */
   readonly allowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_post_data_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_post_data_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_post_data_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_post_data_length}
   */
   readonly checkPostDataLength?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_query_string_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_query_string_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_query_string_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_query_string_length}
   */
   readonly checkQueryStringLength?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_request_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_request_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_request_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_request_length}
   */
   readonly checkRequestLength?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_url_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_url_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_url_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_url_length}
   */
   readonly checkUrlLength?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#post_data_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#post_data_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#post_data_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#post_data_length}
   */
   readonly postDataLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#query_string_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#query_string_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#query_string_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#query_string_length}
   */
   readonly queryStringLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#request_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#request_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#request_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#request_length}
   */
   readonly requestLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_check}
   */
   readonly responseCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#url_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#url_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#url_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#url_length}
   */
   readonly urlLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#wildcard_order DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#wildcard_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#wildcard_order DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#wildcard_order}
   */
   readonly wildcardOrder?: number;
 }
@@ -5919,19 +5919,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyFiletypesLis
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGeneral {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allowed_response_codes DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allowed_response_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allowed_response_codes DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allowed_response_codes}
   */
   readonly allowedResponseCodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#custom_xff_headers DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#custom_xff_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#custom_xff_headers DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#custom_xff_headers}
   */
   readonly customXffHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mask_credit_card_numbers_in_request DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mask_credit_card_numbers_in_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mask_credit_card_numbers_in_request DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mask_credit_card_numbers_in_request}
   */
   readonly maskCreditCardNumbersInRequest?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#trust_xff DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#trust_xff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#trust_xff DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#trust_xff}
   */
   readonly trustXff?: boolean | cdktf.IResolvable;
 }
@@ -6112,7 +6112,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGeneralOutpu
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGeneralReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -6206,31 +6206,31 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGeneralRefer
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfilesDefenseAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_introspection_queries DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_introspection_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_introspection_queries DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_introspection_queries}
   */
   readonly allowIntrospectionQueries?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_batched_queries DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_batched_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_batched_queries DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_batched_queries}
   */
   readonly maximumBatchedQueries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_query_cost DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_query_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_query_cost DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_query_cost}
   */
   readonly maximumQueryCost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_structure_depth DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_structure_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_structure_depth DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_structure_depth}
   */
   readonly maximumStructureDepth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_total_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_total_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_total_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_total_length}
   */
   readonly maximumTotalLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_value_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_value_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_value_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_value_length}
   */
   readonly maximumValueLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tolerate_parsing_warnings DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tolerate_parsing_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tolerate_parsing_warnings DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tolerate_parsing_warnings}
   */
   readonly tolerateParsingWarnings?: boolean | cdktf.IResolvable;
 }
@@ -6498,11 +6498,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfi
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfilesMetacharOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
   */
   readonly isAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar}
   */
   readonly metachar?: string;
 }
@@ -6647,11 +6647,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfi
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfilesResponseEnforcement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#block_disallowed_patterns DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#block_disallowed_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#block_disallowed_patterns DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#block_disallowed_patterns}
   */
   readonly blockDisallowedPatterns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#disallowed_patterns DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#disallowed_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#disallowed_patterns DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#disallowed_patterns}
   */
   readonly disallowedPatterns?: string[];
 }
@@ -6774,7 +6774,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfi
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfilesSensitiveData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#parameter_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#parameter_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#parameter_name}
   */
   readonly parameterName?: string;
 }
@@ -6890,19 +6890,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfi
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfilesSignatureOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
   */
   readonly signatureId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -7105,43 +7105,43 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfi
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signatures_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signatures_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signatures_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signatures_check}
   */
   readonly attackSignaturesCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#defense_attributes DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#defense_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#defense_attributes DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#defense_attributes}
   */
   readonly defenseAttributes?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfilesDefenseAttributes;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar_element_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar_element_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar_element_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar_element_check}
   */
   readonly metacharElementCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar_overrides}
   */
   readonly metacharOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfilesMetacharOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_enforcement DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_enforcement DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_enforcement}
   */
   readonly responseEnforcement?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfilesResponseEnforcement;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#sensitive_data DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#sensitive_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#sensitive_data DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#sensitive_data}
   */
   readonly sensitiveData?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfilesSensitiveData[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
   */
   readonly signatureOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfilesSignatureOverrides[] | cdktf.IResolvable;
 }
@@ -7518,11 +7518,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfi
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGrpcProfilesDefenseAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_unknown_fields DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_unknown_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_unknown_fields DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_unknown_fields}
   */
   readonly allowUnknownFields?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_data_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_data_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_data_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_data_length}
   */
   readonly maximumDataLength?: string;
 }
@@ -7645,15 +7645,15 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGrpcProfiles
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGrpcProfilesIdlFilesIdlFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#contents DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#contents DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#contents}
   */
   readonly contents?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#file_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#file_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#file_name}
   */
   readonly fileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_base64}
   */
   readonly isBase64?: boolean | cdktf.IResolvable;
 }
@@ -7805,19 +7805,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGrpcProfiles
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGrpcProfilesIdlFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#idl_file DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#idl_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#idl_file DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#idl_file}
   */
   readonly idlFile?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGrpcProfilesIdlFilesIdlFile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#import_url DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#import_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#import_url DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#import_url}
   */
   readonly importUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_primary DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_primary DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_primary}
   */
   readonly isPrimary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#primary_idl_file_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#primary_idl_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#primary_idl_file_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#primary_idl_file_name}
   */
   readonly primaryIdlFileName?: string;
 }
@@ -8020,19 +8020,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGrpcProfiles
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGrpcProfilesSignatureOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
   */
   readonly signatureId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -8235,51 +8235,51 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGrpcProfiles
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGrpcProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#associate_urls DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#associate_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#associate_urls DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#associate_urls}
   */
   readonly associateUrls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signatures_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signatures_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signatures_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signatures_check}
   */
   readonly attackSignaturesCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#decode_string_values_as_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#decode_string_values_as_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#decode_string_values_as_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#decode_string_values_as_base64}
   */
   readonly decodeStringValuesAsBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#defense_attributes DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#defense_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#defense_attributes DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#defense_attributes}
   */
   readonly defenseAttributes?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGrpcProfilesDefenseAttributes;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#has_idl_files DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#has_idl_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#has_idl_files DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#has_idl_files}
   */
   readonly hasIdlFiles?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#idl_files DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#idl_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#idl_files DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#idl_files}
   */
   readonly idlFiles?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGrpcProfilesIdlFiles[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar_check}
   */
   readonly metacharCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar_element_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar_element_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar_element_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar_element_check}
   */
   readonly metacharElementCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
   */
   readonly signatureOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGrpcProfilesSignatureOverrides[] | cdktf.IResolvable;
 }
@@ -8714,7 +8714,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGrpcProfiles
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHeaderReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -8808,7 +8808,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHeaderRefere
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHeaderSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_http_header_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_http_header_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_http_header_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_http_header_length}
   */
   readonly maximumHttpHeaderLength?: string;
 }
@@ -8902,7 +8902,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHeaderSettin
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHeaderSettingsReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -8996,19 +8996,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHeaderSettin
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHeadersSignatureOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
   */
   readonly signatureId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -9211,63 +9211,63 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHeadersSigna
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_repeated_occurrences DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_repeated_occurrences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_repeated_occurrences DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_repeated_occurrences}
   */
   readonly allowRepeatedOccurrences?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#base64_decoding DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#base64_decoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#base64_decoding DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#base64_decoding}
   */
   readonly base64Decoding?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_signatures DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_signatures DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_signatures}
   */
   readonly checkSignatures?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#decode_value_as_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#decode_value_as_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#decode_value_as_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#decode_value_as_base64}
   */
   readonly decodeValueAsBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#html_normalization DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#html_normalization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#html_normalization DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#html_normalization}
   */
   readonly htmlNormalization?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mandatory DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mandatory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mandatory DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mandatory}
   */
   readonly mandatory?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mask_value_in_logs DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mask_value_in_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mask_value_in_logs DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mask_value_in_logs}
   */
   readonly maskValueInLogs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#normalization_violations DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#normalization_violations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#normalization_violations DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#normalization_violations}
   */
   readonly normalizationViolations?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#percent_decoding DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#percent_decoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#percent_decoding DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#percent_decoding}
   */
   readonly percentDecoding?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
   */
   readonly signatureOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHeadersSignatureOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#url_normalization DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#url_normalization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#url_normalization DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#url_normalization}
   */
   readonly urlNormalization?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#wildcard_order DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#wildcard_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#wildcard_order DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#wildcard_order}
   */
   readonly wildcardOrder?: number;
 }
@@ -9789,15 +9789,15 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHeadersList 
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHostNames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#include_subdomains DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#include_subdomains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#include_subdomains DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#include_subdomains}
   */
   readonly includeSubdomains?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9971,15 +9971,15 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHostNamesLis
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyIdlFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#contents DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#contents DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#contents}
   */
   readonly contents?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#file_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#file_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#file_name}
   */
   readonly fileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_base64}
   */
   readonly isBase64?: boolean | cdktf.IResolvable;
 }
@@ -10153,7 +10153,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyIdlFilesList
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfileReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -10247,23 +10247,23 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfileR
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfilesDefenseAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_array_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_array_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_array_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_array_length}
   */
   readonly maximumArrayLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_structure_depth DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_structure_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_structure_depth DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_structure_depth}
   */
   readonly maximumStructureDepth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_total_length_of_json_data DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_total_length_of_json_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_total_length_of_json_data DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_total_length_of_json_data}
   */
   readonly maximumTotalLengthOfJsonData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_value_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_value_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_value_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_value_length}
   */
   readonly maximumValueLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tolerate_json_parsing_warnings DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tolerate_json_parsing_warnings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tolerate_json_parsing_warnings DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tolerate_json_parsing_warnings}
   */
   readonly tolerateJsonParsingWarnings?: boolean | cdktf.IResolvable;
 }
@@ -10473,11 +10473,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfiles
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfilesMetacharOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
   */
   readonly isAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar}
   */
   readonly metachar?: string;
 }
@@ -10622,19 +10622,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfiles
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfilesSignatureOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
   */
   readonly signatureId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -10837,19 +10837,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfiles
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfilesValidationFilesJsonValidationFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#contents DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#contents DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#contents}
   */
   readonly contents?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#file_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#file_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#file_name}
   */
   readonly fileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_base64}
   */
   readonly isBase64?: boolean | cdktf.IResolvable;
 }
@@ -11030,15 +11030,15 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfiles
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfilesValidationFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#import_url DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#import_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#import_url DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#import_url}
   */
   readonly importUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_primary DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_primary DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_primary}
   */
   readonly isPrimary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#json_validation_file DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#json_validation_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#json_validation_file DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#json_validation_file}
   */
   readonly jsonValidationFile?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfilesValidationFilesJsonValidationFile;
 }
@@ -11212,43 +11212,43 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfiles
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signatures_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signatures_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signatures_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signatures_check}
   */
   readonly attackSignaturesCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#defense_attributes DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#defense_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#defense_attributes DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#defense_attributes}
   */
   readonly defenseAttributes?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfilesDefenseAttributes;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#handle_json_values_as_parameters DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#handle_json_values_as_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#handle_json_values_as_parameters DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#handle_json_values_as_parameters}
   */
   readonly handleJsonValuesAsParameters?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#has_validation_files DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#has_validation_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#has_validation_files DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#has_validation_files}
   */
   readonly hasValidationFiles?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar_overrides}
   */
   readonly metacharOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfilesMetacharOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
   */
   readonly signatureOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfilesSignatureOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#validation_files DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#validation_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#validation_files DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#validation_files}
   */
   readonly validationFiles?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfilesValidationFiles[] | cdktf.IResolvable;
 }
@@ -11625,7 +11625,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfiles
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonValidationFileReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -11719,19 +11719,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonValidati
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonValidationFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#contents DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#contents DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#contents}
   */
   readonly contents?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#file_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#file_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#file_name}
   */
   readonly fileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_base64}
   */
   readonly isBase64?: boolean | cdktf.IResolvable;
 }
@@ -11934,7 +11934,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonValidati
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyMethodReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -12028,11 +12028,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyMethodRefere
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyMethods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -12177,7 +12177,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyMethodsList 
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyOpenApiFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -12293,7 +12293,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyOpenApiFiles
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParameterReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -12387,7 +12387,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParameterRef
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParametersContentProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -12481,11 +12481,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParametersCo
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParametersNameMetacharOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
   */
   readonly isAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar}
   */
   readonly metachar?: string;
 }
@@ -12630,19 +12630,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParametersNa
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParametersSignatureOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
   */
   readonly signatureId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -12845,19 +12845,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParametersSi
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParametersUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#method DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#method DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#protocol DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#protocol DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -13038,11 +13038,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParametersUr
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParametersValueMetacharOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
   */
   readonly isAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar}
   */
   readonly metachar?: string;
 }
@@ -13187,175 +13187,175 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParametersVa
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_empty_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_empty_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_empty_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_empty_value}
   */
   readonly allowEmptyValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_repeated_parameter_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_repeated_parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_repeated_parameter_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_repeated_parameter_name}
   */
   readonly allowRepeatedParameterName?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#array_serialization_format DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#array_serialization_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#array_serialization_format DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#array_serialization_format}
   */
   readonly arraySerializationFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signatures_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signatures_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signatures_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signatures_check}
   */
   readonly attackSignaturesCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_max_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_max_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_max_value}
   */
   readonly checkMaxValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_max_value_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_max_value_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_max_value_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_max_value_length}
   */
   readonly checkMaxValueLength?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_metachars DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_metachars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_metachars DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_metachars}
   */
   readonly checkMetachars?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_min_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_min_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_min_value}
   */
   readonly checkMinValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_min_value_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_min_value_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_min_value_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_min_value_length}
   */
   readonly checkMinValueLength?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_multiple_of_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_multiple_of_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_multiple_of_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_multiple_of_value}
   */
   readonly checkMultipleOfValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#content_profile DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#content_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#content_profile DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#content_profile}
   */
   readonly contentProfile?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParametersContentProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#data_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#data_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#data_type}
   */
   readonly dataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#decode_value_as_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#decode_value_as_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#decode_value_as_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#decode_value_as_base64}
   */
   readonly decodeValueAsBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#disallow_file_upload_of_executables DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#disallow_file_upload_of_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#disallow_file_upload_of_executables DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#disallow_file_upload_of_executables}
   */
   readonly disallowFileUploadOfExecutables?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enable_regular_expression DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enable_regular_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enable_regular_expression DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enable_regular_expression}
   */
   readonly enableRegularExpression?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#exclusive_max DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#exclusive_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#exclusive_max DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#exclusive_max}
   */
   readonly exclusiveMax?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#exclusive_min DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#exclusive_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#exclusive_min DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#exclusive_min}
   */
   readonly exclusiveMin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_base64}
   */
   readonly isBase64?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_cookie DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_cookie DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_cookie}
   */
   readonly isCookie?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_header DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_header DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_header}
   */
   readonly isHeader?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#level DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#level DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mandatory DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mandatory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mandatory DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mandatory}
   */
   readonly mandatory?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_length}
   */
   readonly maximumLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_value}
   */
   readonly maximumValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachars_on_parameter_value_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachars_on_parameter_value_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachars_on_parameter_value_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachars_on_parameter_value_check}
   */
   readonly metacharsOnParameterValueCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#minimum_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#minimum_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#minimum_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#minimum_length}
   */
   readonly minimumLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#minimum_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#minimum_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#minimum_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#minimum_value}
   */
   readonly minimumValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#multiple_of DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#multiple_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#multiple_of DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#multiple_of}
   */
   readonly multipleOf?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name_metachar_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name_metachar_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name_metachar_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name_metachar_overrides}
   */
   readonly nameMetacharOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParametersNameMetacharOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#object_serialization_style DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#object_serialization_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#object_serialization_style DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#object_serialization_style}
   */
   readonly objectSerializationStyle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#parameter_enum_values DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#parameter_enum_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#parameter_enum_values DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#parameter_enum_values}
   */
   readonly parameterEnumValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#parameter_location DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#parameter_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#parameter_location DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#parameter_location}
   */
   readonly parameterLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#regular_expression DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#regular_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#regular_expression DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#regular_expression}
   */
   readonly regularExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#sensitive_parameter DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#sensitive_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#sensitive_parameter DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#sensitive_parameter}
   */
   readonly sensitiveParameter?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
   */
   readonly signatureOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParametersSignatureOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#static_values DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#static_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#static_values DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#static_values}
   */
   readonly staticValues?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#url DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#url DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#url}
   */
   readonly url?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParametersUrl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#value_metachar_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#value_metachar_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#value_metachar_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#value_metachar_overrides}
   */
   readonly valueMetacharOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParametersValueMetacharOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#value_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#value_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#value_type}
   */
   readonly valueType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#wildcard_order DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#wildcard_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#wildcard_order DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#wildcard_order}
   */
   readonly wildcardOrder?: number;
 }
@@ -14689,7 +14689,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParametersLi
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyResponsePageReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -14783,51 +14783,51 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyResponsePage
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyResponsePages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#ajax_action_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#ajax_action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#ajax_action_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#ajax_action_type}
   */
   readonly ajaxActionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#ajax_custom_content DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#ajax_custom_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#ajax_custom_content DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#ajax_custom_content}
   */
   readonly ajaxCustomContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#ajax_enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#ajax_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#ajax_enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#ajax_enabled}
   */
   readonly ajaxEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#ajax_popup_message DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#ajax_popup_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#ajax_popup_message DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#ajax_popup_message}
   */
   readonly ajaxPopupMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#ajax_redirect_url DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#ajax_redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#ajax_redirect_url DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#ajax_redirect_url}
   */
   readonly ajaxRedirectUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#grpc_status_code DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#grpc_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#grpc_status_code DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#grpc_status_code}
   */
   readonly grpcStatusCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#grpc_status_message DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#grpc_status_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#grpc_status_message DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#grpc_status_message}
   */
   readonly grpcStatusMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_action_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_action_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_action_type}
   */
   readonly responseActionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_content DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_content DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_content}
   */
   readonly responseContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_header DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_header DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_header}
   */
   readonly responseHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_page_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_page_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_page_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_page_type}
   */
   readonly responsePageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_redirect_url DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_redirect_url DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_redirect_url}
   */
   readonly responseRedirectUrl?: string;
 }
@@ -15262,7 +15262,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyResponsePage
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySensitiveParameterReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -15356,11 +15356,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySensitivePar
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySensitiveParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -15505,11 +15505,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySensitivePar
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyServerTechnologies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#server_technology_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#server_technology_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#server_technology_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#server_technology_name}
   */
   readonly serverTechnologyName?: string;
 }
@@ -15654,7 +15654,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyServerTechno
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyServerTechnologyReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -15748,7 +15748,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyServerTechno
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatureReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -15842,11 +15842,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatureRef
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatureRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -15991,7 +15991,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatureReq
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatureSetReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -16085,7 +16085,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatureSet
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatureSettingReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -16179,11 +16179,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatureSet
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatureSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signature_false_positive_mode DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signature_false_positive_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signature_false_positive_mode DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signature_false_positive_mode}
   */
   readonly attackSignatureFalsePositiveMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#minimum_accuracy_for_auto_added_signatures DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#minimum_accuracy_for_auto_added_signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#minimum_accuracy_for_auto_added_signatures DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#minimum_accuracy_for_auto_added_signatures}
   */
   readonly minimumAccuracyForAutoAddedSignatures?: string;
 }
@@ -16306,19 +16306,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatureSet
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
   */
   readonly signatureId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -16521,7 +16521,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignaturesLi
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -16615,7 +16615,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyTemplateOutp
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyThreatCampaignReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -16709,11 +16709,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyThreatCampai
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyThreatCampaigns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -16858,7 +16858,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyThreatCampai
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -16952,19 +16952,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlReference
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsHtml5CrossOriginRequestsEnforcementCrossDomainAllowedOrigin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#include_sub_domains DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#include_sub_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#include_sub_domains DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#include_sub_domains}
   */
   readonly includeSubDomains?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#origin_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#origin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#origin_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#origin_name}
   */
   readonly originName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#origin_port DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#origin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#origin_port DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#origin_port}
   */
   readonly originPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#origin_protocol DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#origin_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#origin_protocol DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#origin_protocol}
   */
   readonly originProtocol?: string;
 }
@@ -17167,19 +17167,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsHtml5Cro
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsHtml5CrossOriginRequestsEnforcement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_origins_enforcement_mode DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_origins_enforcement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_origins_enforcement_mode DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_origins_enforcement_mode}
   */
   readonly allowOriginsEnforcementMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_allowed_methods DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_allowed_methods DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_allowed_methods}
   */
   readonly checkAllowedMethods?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#cross_domain_allowed_origin DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#cross_domain_allowed_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#cross_domain_allowed_origin DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#cross_domain_allowed_origin}
   */
   readonly crossDomainAllowedOrigin?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsHtml5CrossOriginRequestsEnforcementCrossDomainAllowedOrigin[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enforcement_mode DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enforcement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enforcement_mode DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enforcement_mode}
   */
   readonly enforcementMode?: string;
 }
@@ -17360,11 +17360,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsHtml5Cro
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsMetacharOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
   */
   readonly isAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar}
   */
   readonly metachar?: string;
 }
@@ -17509,11 +17509,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsMetachar
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsMethodOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allowed}
   */
   readonly allowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#method DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#method DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#method}
   */
   readonly method?: string;
 }
@@ -17658,7 +17658,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsMethodOv
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPositionalParametersParameterContentProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -17752,11 +17752,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPosition
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPositionalParametersParameterNameMetacharOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
   */
   readonly isAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar}
   */
   readonly metachar?: string;
 }
@@ -17901,19 +17901,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPosition
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPositionalParametersParameterSignatureOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
   */
   readonly signatureId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -18116,19 +18116,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPosition
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPositionalParametersParameterUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#method DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#method DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#protocol DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#protocol DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -18309,11 +18309,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPosition
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPositionalParametersParameterValueMetacharOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
   */
   readonly isAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar}
   */
   readonly metachar?: string;
 }
@@ -18458,175 +18458,175 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPosition
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPositionalParametersParameter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_empty_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_empty_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_empty_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_empty_value}
   */
   readonly allowEmptyValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_repeated_parameter_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_repeated_parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_repeated_parameter_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_repeated_parameter_name}
   */
   readonly allowRepeatedParameterName?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#array_serialization_format DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#array_serialization_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#array_serialization_format DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#array_serialization_format}
   */
   readonly arraySerializationFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signatures_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signatures_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signatures_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signatures_check}
   */
   readonly attackSignaturesCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_max_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_max_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_max_value}
   */
   readonly checkMaxValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_max_value_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_max_value_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_max_value_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_max_value_length}
   */
   readonly checkMaxValueLength?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_metachars DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_metachars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_metachars DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_metachars}
   */
   readonly checkMetachars?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_min_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_min_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_min_value}
   */
   readonly checkMinValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_min_value_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_min_value_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_min_value_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_min_value_length}
   */
   readonly checkMinValueLength?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_multiple_of_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_multiple_of_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#check_multiple_of_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#check_multiple_of_value}
   */
   readonly checkMultipleOfValue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#content_profile DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#content_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#content_profile DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#content_profile}
   */
   readonly contentProfile?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPositionalParametersParameterContentProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#data_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#data_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#data_type}
   */
   readonly dataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#decode_value_as_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#decode_value_as_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#decode_value_as_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#decode_value_as_base64}
   */
   readonly decodeValueAsBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#disallow_file_upload_of_executables DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#disallow_file_upload_of_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#disallow_file_upload_of_executables DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#disallow_file_upload_of_executables}
   */
   readonly disallowFileUploadOfExecutables?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enable_regular_expression DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enable_regular_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enable_regular_expression DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enable_regular_expression}
   */
   readonly enableRegularExpression?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#exclusive_max DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#exclusive_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#exclusive_max DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#exclusive_max}
   */
   readonly exclusiveMax?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#exclusive_min DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#exclusive_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#exclusive_min DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#exclusive_min}
   */
   readonly exclusiveMin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_base64}
   */
   readonly isBase64?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_cookie DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_cookie DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_cookie}
   */
   readonly isCookie?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_header DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_header DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_header}
   */
   readonly isHeader?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#level DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#level DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mandatory DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mandatory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mandatory DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mandatory}
   */
   readonly mandatory?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_length}
   */
   readonly maximumLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_value}
   */
   readonly maximumValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachars_on_parameter_value_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachars_on_parameter_value_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachars_on_parameter_value_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachars_on_parameter_value_check}
   */
   readonly metacharsOnParameterValueCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#minimum_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#minimum_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#minimum_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#minimum_length}
   */
   readonly minimumLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#minimum_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#minimum_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#minimum_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#minimum_value}
   */
   readonly minimumValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#multiple_of DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#multiple_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#multiple_of DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#multiple_of}
   */
   readonly multipleOf?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name_metachar_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name_metachar_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name_metachar_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name_metachar_overrides}
   */
   readonly nameMetacharOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPositionalParametersParameterNameMetacharOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#object_serialization_style DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#object_serialization_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#object_serialization_style DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#object_serialization_style}
   */
   readonly objectSerializationStyle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#parameter_enum_values DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#parameter_enum_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#parameter_enum_values DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#parameter_enum_values}
   */
   readonly parameterEnumValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#parameter_location DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#parameter_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#parameter_location DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#parameter_location}
   */
   readonly parameterLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#regular_expression DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#regular_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#regular_expression DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#regular_expression}
   */
   readonly regularExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#sensitive_parameter DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#sensitive_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#sensitive_parameter DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#sensitive_parameter}
   */
   readonly sensitiveParameter?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
   */
   readonly signatureOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPositionalParametersParameterSignatureOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#static_values DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#static_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#static_values DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#static_values}
   */
   readonly staticValues?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#url DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#url DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#url}
   */
   readonly url?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPositionalParametersParameterUrl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#value_metachar_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#value_metachar_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#value_metachar_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#value_metachar_overrides}
   */
   readonly valueMetacharOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPositionalParametersParameterValueMetacharOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#value_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#value_type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#value_type}
   */
   readonly valueType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#wildcard_order DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#wildcard_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#wildcard_order DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#wildcard_order}
   */
   readonly wildcardOrder?: number;
 }
@@ -19938,11 +19938,11 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPosition
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPositionalParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#parameter DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#parameter DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#parameter}
   */
   readonly parameter?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPositionalParametersParameter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#url_segment_index DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#url_segment_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#url_segment_index DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#url_segment_index}
   */
   readonly urlSegmentIndex?: number;
 }
@@ -20087,19 +20087,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPosition
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsSignatureOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
   */
   readonly signatureId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -20302,7 +20302,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsSignatur
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsUrlContentProfilesContentProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -20396,27 +20396,27 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsUrlConte
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsUrlContentProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#content_profile DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#content_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#content_profile DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#content_profile}
   */
   readonly contentProfile?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsUrlContentProfilesContentProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#header_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#header_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#header_name}
   */
   readonly headerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#header_order DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#header_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#header_order DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#header_order}
   */
   readonly headerOrder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#header_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#header_value DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#header_value}
   */
   readonly headerValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -20677,95 +20677,95 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsUrlConte
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_rendering_in_frames DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_rendering_in_frames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_rendering_in_frames DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_rendering_in_frames}
   */
   readonly allowRenderingInFrames?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_rendering_in_frames_only_from DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_rendering_in_frames_only_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_rendering_in_frames_only_from DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_rendering_in_frames_only_from}
   */
   readonly allowRenderingInFramesOnlyFrom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signatures_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signatures_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signatures_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signatures_check}
   */
   readonly attackSignaturesCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#clickjacking_protection DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#clickjacking_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#clickjacking_protection DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#clickjacking_protection}
   */
   readonly clickjackingProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#disallow_file_upload_of_executables DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#disallow_file_upload_of_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#disallow_file_upload_of_executables DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#disallow_file_upload_of_executables}
   */
   readonly disallowFileUploadOfExecutables?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#html5_cross_origin_requests_enforcement DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#html5_cross_origin_requests_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#html5_cross_origin_requests_enforcement DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#html5_cross_origin_requests_enforcement}
   */
   readonly html5CrossOriginRequestsEnforcement?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsHtml5CrossOriginRequestsEnforcement;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_allowed DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_allowed}
   */
   readonly isAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mandatory_body DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mandatory_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#mandatory_body DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#mandatory_body}
   */
   readonly mandatoryBody?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachar_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachar_overrides}
   */
   readonly metacharOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsMetacharOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachars_on_url_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachars_on_url_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#metachars_on_url_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#metachars_on_url_check}
   */
   readonly metacharsOnUrlCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#method DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#method DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#method_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#method_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#method_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#method_overrides}
   */
   readonly methodOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsMethodOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#methods_override_on_url_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#methods_override_on_url_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#methods_override_on_url_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#methods_override_on_url_check}
   */
   readonly methodsOverrideOnUrlCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#operation_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#operation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#operation_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#operation_id}
   */
   readonly operationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#positional_parameters DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#positional_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#positional_parameters DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#positional_parameters}
   */
   readonly positionalParameters?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsPositionalParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#protocol DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#protocol DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
   */
   readonly signatureOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsSignatureOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#type DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#url_content_profiles DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#url_content_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#url_content_profiles DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#url_content_profiles}
   */
   readonly urlContentProfiles?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsUrlContentProfiles[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#wildcard_order DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#wildcard_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#wildcard_order DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#wildcard_order}
   */
   readonly wildcardOrder?: number;
 }
@@ -21519,7 +21519,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlsList ext
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyWhitelistIpReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -21613,23 +21613,23 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyWhitelistIpR
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyWhitelistIps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#block_requests DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#block_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#block_requests DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#block_requests}
   */
   readonly blockRequests?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#ip_address DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#ip_address DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#ip_mask DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#ip_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#ip_mask DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#ip_mask}
   */
   readonly ipMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#never_log_requests DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#never_log_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#never_log_requests DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#never_log_requests}
   */
   readonly neverLogRequests?: boolean | cdktf.IResolvable;
 }
@@ -21861,7 +21861,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyWhitelistIps
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlProfileReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -21955,67 +21955,67 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlProfileRe
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlProfilesDefenseAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_cdata DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_cdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_cdata DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_cdata}
   */
   readonly allowCdata?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_dt_ds DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_dt_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_dt_ds DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_dt_ds}
   */
   readonly allowDtDs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_external_references DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_external_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_external_references DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_external_references}
   */
   readonly allowExternalReferences?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_processing_instructions DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_processing_instructions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#allow_processing_instructions DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#allow_processing_instructions}
   */
   readonly allowProcessingInstructions?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_attribute_value_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_attribute_value_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_attribute_value_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_attribute_value_length}
   */
   readonly maximumAttributeValueLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_attributes_per_element DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_attributes_per_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_attributes_per_element DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_attributes_per_element}
   */
   readonly maximumAttributesPerElement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_children_per_element DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_children_per_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_children_per_element DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_children_per_element}
   */
   readonly maximumChildrenPerElement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_document_depth DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_document_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_document_depth DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_document_depth}
   */
   readonly maximumDocumentDepth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_document_size DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_document_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_document_size DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_document_size}
   */
   readonly maximumDocumentSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_elements DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_elements DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_elements}
   */
   readonly maximumElements?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_name_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_name_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_name_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_name_length}
   */
   readonly maximumNameLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_namespace_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_namespace_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_namespace_length DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_namespace_length}
   */
   readonly maximumNamespaceLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_ns_declarations DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_ns_declarations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#maximum_ns_declarations DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#maximum_ns_declarations}
   */
   readonly maximumNsDeclarations?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tolerate_close_tag_shorthand DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tolerate_close_tag_shorthand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tolerate_close_tag_shorthand DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tolerate_close_tag_shorthand}
   */
   readonly tolerateCloseTagShorthand?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tolerate_leading_white_space DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tolerate_leading_white_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tolerate_leading_white_space DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tolerate_leading_white_space}
   */
   readonly tolerateLeadingWhiteSpace?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tolerate_numeric_names DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tolerate_numeric_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tolerate_numeric_names DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tolerate_numeric_names}
   */
   readonly tolerateNumericNames?: boolean | cdktf.IResolvable;
 }
@@ -22544,19 +22544,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlProfilesD
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlProfilesSignatureOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enabled DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_id DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_id}
   */
   readonly signatureId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#tag DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -22759,39 +22759,39 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlProfilesS
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signatures_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signatures_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#attack_signatures_check DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#attack_signatures_check}
   */
   readonly attackSignaturesCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#defense_attributes DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#defense_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#defense_attributes DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#defense_attributes}
   */
   readonly defenseAttributes?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlProfilesDefenseAttributes;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enable_wss DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enable_wss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enable_wss DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enable_wss}
   */
   readonly enableWss?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#follow_schema_links DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#follow_schema_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#follow_schema_links DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#follow_schema_links}
   */
   readonly followSchemaLinks?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_overrides DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_overrides}
   */
   readonly signatureOverrides?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlProfilesSignatureOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#use_xml_response_page DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#use_xml_response_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#use_xml_response_page DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#use_xml_response_page}
   */
   readonly useXmlResponsePage?: boolean | cdktf.IResolvable;
 }
@@ -23139,7 +23139,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlProfilesL
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlValidationFileReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#link DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#link}
   */
   readonly link?: string;
 }
@@ -23233,19 +23233,19 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlValidatio
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlValidationFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#contents DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#contents DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#contents}
   */
   readonly contents?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#dollaraction DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#dollaraction}
   */
   readonly dollaraction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#file_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#file_name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#file_name}
   */
   readonly fileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#is_base64 DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#is_base64}
   */
   readonly isBase64?: boolean | cdktf.IResolvable;
 }
@@ -23448,275 +23448,275 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlValidatio
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#application_language DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#application_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#application_language DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#application_language}
   */
   readonly applicationLanguage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#blocking_setting_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#blocking_setting_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#blocking_setting_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#blocking_setting_reference}
   */
   readonly blockingSettingReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBlockingSettingReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#blocking_settings DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#blocking_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#blocking_settings DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#blocking_settings}
   */
   readonly blockingSettings?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBlockingSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#bot_defense DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#bot_defense}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#bot_defense DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#bot_defense}
   */
   readonly botDefense?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBotDefense;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#browser_definitions DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#browser_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#browser_definitions DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#browser_definitions}
   */
   readonly browserDefinitions?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyBrowserDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#case_insensitive DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#case_insensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#case_insensitive DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#case_insensitive}
   */
   readonly caseInsensitive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#character_set_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#character_set_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#character_set_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#character_set_reference}
   */
   readonly characterSetReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCharacterSetReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#character_sets DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#character_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#character_sets DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#character_sets}
   */
   readonly characterSets?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCharacterSets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#cookie_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#cookie_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#cookie_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#cookie_reference}
   */
   readonly cookieReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCookieReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#cookie_settings DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#cookie_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#cookie_settings DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#cookie_settings}
   */
   readonly cookieSettings?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCookieSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#cookie_settings_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#cookie_settings_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#cookie_settings_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#cookie_settings_reference}
   */
   readonly cookieSettingsReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCookieSettingsReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#cookies DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#cookies DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#cookies}
   */
   readonly cookies?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCookies[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#csrf_protection DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#csrf_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#csrf_protection DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#csrf_protection}
   */
   readonly csrfProtection?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCsrfProtection;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#csrf_urls DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#csrf_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#csrf_urls DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#csrf_urls}
   */
   readonly csrfUrls?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyCsrfUrls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#data_guard DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#data_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#data_guard DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#data_guard}
   */
   readonly dataGuard?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyDataGuard;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#data_guard_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#data_guard_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#data_guard_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#data_guard_reference}
   */
   readonly dataGuardReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyDataGuardReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#description DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enable_passive_mode DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enable_passive_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enable_passive_mode DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enable_passive_mode}
   */
   readonly enablePassiveMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enforcement_mode DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enforcement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enforcement_mode DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enforcement_mode}
   */
   readonly enforcementMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enforcer_settings DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enforcer_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#enforcer_settings DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#enforcer_settings}
   */
   readonly enforcerSettings?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyEnforcerSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#filetype_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#filetype_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#filetype_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#filetype_reference}
   */
   readonly filetypeReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyFiletypeReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#filetypes DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#filetypes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#filetypes DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#filetypes}
   */
   readonly filetypes?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyFiletypes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#full_path DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#full_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#full_path DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#full_path}
   */
   readonly fullPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#general DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#general}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#general DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#general}
   */
   readonly general?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGeneral;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#general_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#general_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#general_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#general_reference}
   */
   readonly generalReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGeneralReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#graphql_profiles DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#graphql_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#graphql_profiles DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#graphql_profiles}
   */
   readonly graphqlProfiles?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGraphqlProfiles[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#grpc_profiles DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#grpc_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#grpc_profiles DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#grpc_profiles}
   */
   readonly grpcProfiles?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyGrpcProfiles[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#header_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#header_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#header_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#header_reference}
   */
   readonly headerReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHeaderReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#header_settings DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#header_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#header_settings DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#header_settings}
   */
   readonly headerSettings?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHeaderSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#header_settings_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#header_settings_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#header_settings_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#header_settings_reference}
   */
   readonly headerSettingsReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHeaderSettingsReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#headers DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#headers DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#headers}
   */
   readonly headers?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#host_names DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#host_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#host_names DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#host_names}
   */
   readonly hostNames?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyHostNames[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#idl_files DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#idl_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#idl_files DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#idl_files}
   */
   readonly idlFiles?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyIdlFiles[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#json_profile_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#json_profile_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#json_profile_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#json_profile_reference}
   */
   readonly jsonProfileReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfileReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#json_profiles DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#json_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#json_profiles DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#json_profiles}
   */
   readonly jsonProfiles?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonProfiles[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#json_validation_file_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#json_validation_file_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#json_validation_file_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#json_validation_file_reference}
   */
   readonly jsonValidationFileReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonValidationFileReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#json_validation_files DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#json_validation_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#json_validation_files DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#json_validation_files}
   */
   readonly jsonValidationFiles?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyJsonValidationFiles[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#method_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#method_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#method_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#method_reference}
   */
   readonly methodReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyMethodReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#methods DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#methods DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#methods}
   */
   readonly methods?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyMethods[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#name DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#open_api_files DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#open_api_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#open_api_files DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#open_api_files}
   */
   readonly openApiFiles?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyOpenApiFiles[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#parameter_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#parameter_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#parameter_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#parameter_reference}
   */
   readonly parameterReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParameterReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#parameters DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#parameters DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#parameters}
   */
   readonly parameters?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_page_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_page_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_page_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_page_reference}
   */
   readonly responsePageReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyResponsePageReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_pages DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#response_pages DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#response_pages}
   */
   readonly responsePages?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyResponsePages[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#sensitive_parameter_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#sensitive_parameter_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#sensitive_parameter_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#sensitive_parameter_reference}
   */
   readonly sensitiveParameterReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySensitiveParameterReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#sensitive_parameters DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#sensitive_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#sensitive_parameters DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#sensitive_parameters}
   */
   readonly sensitiveParameters?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySensitiveParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#server_technologies DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#server_technologies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#server_technologies DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#server_technologies}
   */
   readonly serverTechnologies?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyServerTechnologies[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#server_technology_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#server_technology_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#server_technology_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#server_technology_reference}
   */
   readonly serverTechnologyReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyServerTechnologyReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_reference}
   */
   readonly signatureReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatureReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_requirements DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_requirements DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_requirements}
   */
   readonly signatureRequirements?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatureRequirements[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_set_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_set_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_set_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_set_reference}
   */
   readonly signatureSetReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatureSetReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_sets DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_sets DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_sets}
   */
   readonly signatureSets?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_setting_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_setting_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_setting_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_setting_reference}
   */
   readonly signatureSettingReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatureSettingReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_settings DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signature_settings DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signature_settings}
   */
   readonly signatureSettings?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatureSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signatures DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signatures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#signatures DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#signatures}
   */
   readonly signatures?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicySignatures[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#software_version DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#software_version DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#software_version}
   */
   readonly softwareVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#template DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#template DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#template}
   */
   readonly template?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyTemplate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#threat_campaign_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#threat_campaign_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#threat_campaign_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#threat_campaign_reference}
   */
   readonly threatCampaignReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyThreatCampaignReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#threat_campaigns DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#threat_campaigns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#threat_campaigns DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#threat_campaigns}
   */
   readonly threatCampaigns?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyThreatCampaigns[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#url_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#url_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#url_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#url_reference}
   */
   readonly urlReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrlReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#urls DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#urls DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#urls}
   */
   readonly urls?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyUrls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#whitelist_ip_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#whitelist_ip_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#whitelist_ip_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#whitelist_ip_reference}
   */
   readonly whitelistIpReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyWhitelistIpReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#whitelist_ips DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#whitelist_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#whitelist_ips DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#whitelist_ips}
   */
   readonly whitelistIps?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyWhitelistIps[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#xml_profile_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#xml_profile_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#xml_profile_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#xml_profile_reference}
   */
   readonly xmlProfileReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlProfileReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#xml_profiles DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#xml_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#xml_profiles DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#xml_profiles}
   */
   readonly xmlProfiles?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlProfiles[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#xml_validation_file_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#xml_validation_file_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#xml_validation_file_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#xml_validation_file_reference}
   */
   readonly xmlValidationFileReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlValidationFileReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#xml_validation_files DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#xml_validation_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#xml_validation_files DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#xml_validation_files}
   */
   readonly xmlValidationFiles?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyXmlValidationFiles[] | cdktf.IResolvable;
 }
@@ -25753,17 +25753,17 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicyOutputRefere
 }
 export interface DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#modifications DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#modifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#modifications DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#modifications}
   */
   readonly modifications?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#modifications_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#modifications_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#modifications_reference DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#modifications_reference}
   */
   readonly modificationsReference?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecModificationsReference;
   /**
   * Defines the App Protect policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#policy DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#policy DataK8SAppprotectF5ComApPolicyV1Beta1Manifest#policy}
   */
   readonly policy?: DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecPolicy;
 }
@@ -25915,7 +25915,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest k8s_appprotect_f5_com_ap_policy_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest k8s_appprotect_f5_com_ap_policy_v1beta1_manifest}
 */
 export class DataK8SAppprotectF5ComApPolicyV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -25931,7 +25931,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SAppprotectF5ComApPolicyV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppprotectF5ComApPolicyV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppprotectF5ComApPolicyV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppprotectF5ComApPolicyV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppprotectF5ComApPolicyV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -25943,7 +25943,7 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest k8s_appprotect_f5_com_ap_policy_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appprotect_f5_com_ap_policy_v1beta1_manifest k8s_appprotect_f5_com_ap_policy_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -25954,8 +25954,8 @@ export class DataK8SAppprotectF5ComApPolicyV1Beta1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_appprotect_f5_com_ap_policy_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

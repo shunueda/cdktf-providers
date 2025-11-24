@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNetworkingGkeIoGcpGatewayPolicyV1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#metadata DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#metadata DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#metadata}
   */
   readonly metadata: DataK8SNetworkingGkeIoGcpGatewayPolicyV1ManifestMetadata;
   /**
   * Spec defines the desired state of GCPGatewayPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#spec DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#spec DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#spec}
   */
   readonly spec: DataK8SNetworkingGkeIoGcpGatewayPolicyV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNetworkingGkeIoGcpGatewayPolicyV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#annotations DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#annotations DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#labels DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#labels DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#name DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#name DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#namespace DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#namespace DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SNetworkingGkeIoGcpGatewayPolicyV1ManifestMetadataOutputRefer
 }
 export interface DataK8SNetworkingGkeIoGcpGatewayPolicyV1ManifestSpecDefault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#allow_global_access DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#allow_global_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#allow_global_access DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#allow_global_access}
   */
   readonly allowGlobalAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#ssl_policy DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#ssl_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#ssl_policy DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#ssl_policy}
   */
   readonly sslPolicy?: string;
 }
@@ -346,25 +346,25 @@ export interface DataK8SNetworkingGkeIoGcpGatewayPolicyV1ManifestSpecTargetRef {
   /**
   * Group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#group DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#group DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#group}
   */
   readonly group: string;
   /**
   * Kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#kind DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#kind DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#name DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#name DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of the referent. When unspecified, the local namespace is inferred. Even when policy targets a resource in a different namespace, it MUST only apply to traffic originating from the same namespace as the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#namespace DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#namespace DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -538,13 +538,13 @@ export interface DataK8SNetworkingGkeIoGcpGatewayPolicyV1ManifestSpec {
   /**
   * Default defines default gateway policy configuration for the targeted resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#default DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#default DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#default}
   */
   readonly default?: DataK8SNetworkingGkeIoGcpGatewayPolicyV1ManifestSpecDefault;
   /**
   * TargetRef identifies an API object to apply policy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#target_ref DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#target_ref DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest#target_ref}
   */
   readonly targetRef: DataK8SNetworkingGkeIoGcpGatewayPolicyV1ManifestSpecTargetRef;
 }
@@ -664,7 +664,7 @@ export class DataK8SNetworkingGkeIoGcpGatewayPolicyV1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest k8s_networking_gke_io_gcp_gateway_policy_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest k8s_networking_gke_io_gcp_gateway_policy_v1_manifest}
 */
 export class DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest extends cdktf.TerraformDataSource {
 
@@ -680,7 +680,7 @@ export class DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest to import
-  * @param importFromId The id of the existing DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -692,7 +692,7 @@ export class DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest k8s_networking_gke_io_gcp_gateway_policy_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_gcp_gateway_policy_v1_manifest k8s_networking_gke_io_gcp_gateway_policy_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -703,8 +703,8 @@ export class DataK8SNetworkingGkeIoGcpGatewayPolicyV1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_networking_gke_io_gcp_gateway_policy_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

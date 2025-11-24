@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PlatformConnectorCustomSecretManagerConfig extends cdktf.Terraf
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#delegate_selectors PlatformConnectorCustomSecretManager#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#delegate_selectors PlatformConnectorCustomSecretManager#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#description PlatformConnectorCustomSecretManager#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#description PlatformConnectorCustomSecretManager#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#id PlatformConnectorCustomSecretManager#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#id PlatformConnectorCustomSecretManager#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,93 +29,93 @@ export interface PlatformConnectorCustomSecretManagerConfig extends cdktf.Terraf
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#identifier PlatformConnectorCustomSecretManager#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#identifier PlatformConnectorCustomSecretManager#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#name PlatformConnectorCustomSecretManager#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#name PlatformConnectorCustomSecretManager#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#on_delegate PlatformConnectorCustomSecretManager#on_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#on_delegate PlatformConnectorCustomSecretManager#on_delegate}
   */
   readonly onDelegate?: boolean | cdktf.IResolvable;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#org_id PlatformConnectorCustomSecretManager#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#org_id PlatformConnectorCustomSecretManager#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#project_id PlatformConnectorCustomSecretManager#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#project_id PlatformConnectorCustomSecretManager#project_id}
   */
   readonly projectId?: string;
   /**
   * SSH secret reference for the custom secrets manager, required if 'on_delegate' is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#ssh_secret_ref PlatformConnectorCustomSecretManager#ssh_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#ssh_secret_ref PlatformConnectorCustomSecretManager#ssh_secret_ref}
   */
   readonly sshSecretRef?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#tags PlatformConnectorCustomSecretManager#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#tags PlatformConnectorCustomSecretManager#tags}
   */
   readonly tags?: string[];
   /**
   * Host where the custom secrets manager is located, required if 'on_delegate' is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#target_host PlatformConnectorCustomSecretManager#target_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#target_host PlatformConnectorCustomSecretManager#target_host}
   */
   readonly targetHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#template_ref PlatformConnectorCustomSecretManager#template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#template_ref PlatformConnectorCustomSecretManager#template_ref}
   */
   readonly templateRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#timeout PlatformConnectorCustomSecretManager#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#timeout PlatformConnectorCustomSecretManager#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#type PlatformConnectorCustomSecretManager#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#type PlatformConnectorCustomSecretManager#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#version_label PlatformConnectorCustomSecretManager#version_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#version_label PlatformConnectorCustomSecretManager#version_label}
   */
   readonly versionLabel: string;
   /**
   * The working directory for operations, required if 'on_delegate' is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#working_directory PlatformConnectorCustomSecretManager#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#working_directory PlatformConnectorCustomSecretManager#working_directory}
   */
   readonly workingDirectory?: string;
   /**
   * template_inputs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#template_inputs PlatformConnectorCustomSecretManager#template_inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#template_inputs PlatformConnectorCustomSecretManager#template_inputs}
   */
   readonly templateInputs?: PlatformConnectorCustomSecretManagerTemplateInputs[] | cdktf.IResolvable;
 }
 export interface PlatformConnectorCustomSecretManagerTemplateInputsEnvironmentVariable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#default PlatformConnectorCustomSecretManager#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#default PlatformConnectorCustomSecretManager#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#name PlatformConnectorCustomSecretManager#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#name PlatformConnectorCustomSecretManager#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#type PlatformConnectorCustomSecretManager#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#type PlatformConnectorCustomSecretManager#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#value PlatformConnectorCustomSecretManager#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#value PlatformConnectorCustomSecretManager#value}
   */
   readonly value: string;
 }
@@ -311,7 +311,7 @@ export interface PlatformConnectorCustomSecretManagerTemplateInputs {
   /**
   * environment_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#environment_variable PlatformConnectorCustomSecretManager#environment_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#environment_variable PlatformConnectorCustomSecretManager#environment_variable}
   */
   readonly environmentVariable?: PlatformConnectorCustomSecretManagerTemplateInputsEnvironmentVariable[] | cdktf.IResolvable;
 }
@@ -427,7 +427,7 @@ export class PlatformConnectorCustomSecretManagerTemplateInputsList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager harness_platform_connector_custom_secret_manager}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager harness_platform_connector_custom_secret_manager}
 */
 export class PlatformConnectorCustomSecretManager extends cdktf.TerraformResource {
 
@@ -443,7 +443,7 @@ export class PlatformConnectorCustomSecretManager extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a PlatformConnectorCustomSecretManager resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorCustomSecretManager to import
-  * @param importFromId The id of the existing PlatformConnectorCustomSecretManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorCustomSecretManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorCustomSecretManager to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -455,7 +455,7 @@ export class PlatformConnectorCustomSecretManager extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_custom_secret_manager harness_platform_connector_custom_secret_manager} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_custom_secret_manager harness_platform_connector_custom_secret_manager} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -466,8 +466,8 @@ export class PlatformConnectorCustomSecretManager extends cdktf.TerraformResourc
       terraformResourceType: 'harness_platform_connector_custom_secret_manager',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

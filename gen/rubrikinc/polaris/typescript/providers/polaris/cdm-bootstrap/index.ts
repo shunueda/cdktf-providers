@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface CdmBootstrapConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Rubrik cluster sends messages for the admin account to this email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#admin_email CdmBootstrap#admin_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#admin_email CdmBootstrap#admin_email}
   */
   readonly adminEmail: string;
   /**
   * Password for the admin account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#admin_password CdmBootstrap#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#admin_password CdmBootstrap#admin_password}
   */
   readonly adminPassword: string;
   /**
   * Unique name to assign to the Rubrik cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#cluster_name CdmBootstrap#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#cluster_name CdmBootstrap#cluster_name}
   */
   readonly clusterName: string;
   /**
   * IP address of the cluster node to connect to. If not specified, a random node from the `cluster_nodes` map will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#cluster_node_ip_address CdmBootstrap#cluster_node_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#cluster_node_ip_address CdmBootstrap#cluster_node_ip_address}
   */
   readonly clusterNodeIpAddress?: string;
   /**
   * The node name and IP formatted as a map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#cluster_nodes CdmBootstrap#cluster_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#cluster_nodes CdmBootstrap#cluster_nodes}
   */
   readonly clusterNodes?: { [key: string]: string };
   /**
   * IPv4 addresses of DNS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#dns_name_servers CdmBootstrap#dns_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#dns_name_servers CdmBootstrap#dns_name_servers}
   */
   readonly dnsNameServers: string[];
   /**
   * The search domain that the DNS Service will use to resolve hostnames that are not fully qualified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#dns_search_domain CdmBootstrap#dns_search_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#dns_search_domain CdmBootstrap#dns_search_domain}
   */
   readonly dnsSearchDomain: string[];
   /**
   * Enable software data encryption at rest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#enable_encryption CdmBootstrap#enable_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#enable_encryption CdmBootstrap#enable_encryption}
   */
   readonly enableEncryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#id CdmBootstrap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#id CdmBootstrap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,99 +65,99 @@ export interface CdmBootstrapConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP address assigned to the management network gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#management_gateway CdmBootstrap#management_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#management_gateway CdmBootstrap#management_gateway}
   */
   readonly managementGateway: string;
   /**
   * Subnet mask assigned to the management network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#management_subnet_mask CdmBootstrap#management_subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#management_subnet_mask CdmBootstrap#management_subnet_mask}
   */
   readonly managementSubnetMask: string;
   /**
   * The node name and IP address formatted as a map. **Deprecated:** use `cluster_nodes` instead. Only kept for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#node_config CdmBootstrap#node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#node_config CdmBootstrap#node_config}
   */
   readonly nodeConfig?: { [key: string]: string };
   /**
   * Symmetric key material for NTP server #1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#ntp_server1_key CdmBootstrap#ntp_server1_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#ntp_server1_key CdmBootstrap#ntp_server1_key}
   */
   readonly ntpServer1Key?: string;
   /**
   * Key id number for NTP server #1 (typically this is 0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#ntp_server1_key_id CdmBootstrap#ntp_server1_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#ntp_server1_key_id CdmBootstrap#ntp_server1_key_id}
   */
   readonly ntpServer1KeyId?: number;
   /**
   * Symmetric key type for NTP server #1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#ntp_server1_key_type CdmBootstrap#ntp_server1_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#ntp_server1_key_type CdmBootstrap#ntp_server1_key_type}
   */
   readonly ntpServer1KeyType?: string;
   /**
   * Name or IP address for NTP server #1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#ntp_server1_name CdmBootstrap#ntp_server1_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#ntp_server1_name CdmBootstrap#ntp_server1_name}
   */
   readonly ntpServer1Name: string;
   /**
   * Symmetric key material for NTP server #2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#ntp_server2_key CdmBootstrap#ntp_server2_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#ntp_server2_key CdmBootstrap#ntp_server2_key}
   */
   readonly ntpServer2Key?: string;
   /**
   * Key id number for NTP server #2 (typically this is 1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#ntp_server2_key_id CdmBootstrap#ntp_server2_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#ntp_server2_key_id CdmBootstrap#ntp_server2_key_id}
   */
   readonly ntpServer2KeyId?: number;
   /**
   * Symmetric key type for NTP server #2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#ntp_server2_key_type CdmBootstrap#ntp_server2_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#ntp_server2_key_type CdmBootstrap#ntp_server2_key_type}
   */
   readonly ntpServer2KeyType?: string;
   /**
   * Name or IP address for NTP server #2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#ntp_server2_name CdmBootstrap#ntp_server2_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#ntp_server2_name CdmBootstrap#ntp_server2_name}
   */
   readonly ntpServer2Name: string;
   /**
   * The time to wait to establish a connection the Rubrik cluster before returning an error (defaults to `4m`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#timeout CdmBootstrap#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#timeout CdmBootstrap#timeout}
   */
   readonly timeout?: string;
   /**
   * Flag to determine if Terraform should wait for the bootstrap process to complete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#wait_for_completion CdmBootstrap#wait_for_completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#wait_for_completion CdmBootstrap#wait_for_completion}
   */
   readonly waitForCompletion?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#timeouts CdmBootstrap#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#timeouts CdmBootstrap#timeouts}
   */
   readonly timeouts?: CdmBootstrapTimeouts;
 }
 export interface CdmBootstrapTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#create CdmBootstrap#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#create CdmBootstrap#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#default CdmBootstrap#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#default CdmBootstrap#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#read CdmBootstrap#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#read CdmBootstrap#read}
   */
   readonly read?: string;
 }
@@ -309,7 +309,7 @@ export class CdmBootstrapTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap polaris_cdm_bootstrap}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap polaris_cdm_bootstrap}
 */
 export class CdmBootstrap extends cdktf.TerraformResource {
 
@@ -325,7 +325,7 @@ export class CdmBootstrap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdmBootstrap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdmBootstrap to import
-  * @param importFromId The id of the existing CdmBootstrap that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdmBootstrap that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdmBootstrap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -337,7 +337,7 @@ export class CdmBootstrap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/cdm_bootstrap polaris_cdm_bootstrap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/cdm_bootstrap polaris_cdm_bootstrap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -348,8 +348,8 @@ export class CdmBootstrap extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_cdm_bootstrap',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Ma
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#metadata DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#metadata DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#spec DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#spec DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Ma
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#annotations DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#annotations DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#labels DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#labels DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#name DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#name DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -183,15 +183,15 @@ export class DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manife
 }
 export interface DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1ManifestSpecProtocolLdapBindCredentialsScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#node DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#node DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#node}
   */
   readonly nodeAttribute?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#pod DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#pod DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#pod}
   */
   readonly pod?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#services DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#services DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#services}
   */
   readonly services?: string[];
 }
@@ -345,13 +345,13 @@ export interface DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Ma
   /**
   * [Scope](https://docs.stackable.tech/secret-operator/scope.html) of the [SecretClass](https://docs.stackable.tech/secret-operator/secretclass.html)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#scope DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#scope DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#scope}
   */
   readonly scope?: DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1ManifestSpecProtocolLdapBindCredentialsScope;
   /**
   * [SecretClass](https://docs.stackable.tech/secret-operator/secretclass.html) containing the LDAP bind credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#secret_class DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#secret_class DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#secret_class}
   */
   readonly secretClass: string;
 }
@@ -473,7 +473,7 @@ export interface DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Ma
   /**
   * [SecretClass](https://docs.stackable.tech/secret-operator/secretclass.html) which will provide ca.crt, tls.crt and tls.key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#secret_class DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#secret_class DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#secret_class}
   */
   readonly secretClass: string;
 }
@@ -566,25 +566,25 @@ export interface DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Ma
   /**
   * Name of the ConfigMap containing the ca cert. Key must be 'ca.crt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#configmap DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#configmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#configmap DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#configmap}
   */
   readonly configmap?: string;
   /**
   * Path to the ca cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#path DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#path DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name of the Secret containing the ca cert. Key must be 'ca.crt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#secret DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#secret DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#secret}
   */
   readonly secret?: string;
   /**
   * Name of the SecretClass which will provide the ca cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#secret_class DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#secret_class DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#secret_class}
   */
   readonly secretClass?: string;
 }
@@ -767,7 +767,7 @@ export interface DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Ma
   /**
   * Ca cert to verify the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#server_ca_cert DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#server_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#server_ca_cert DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#server_ca_cert}
   */
   readonly serverCaCert: DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1ManifestSpecProtocolLdapTlsServerVerificationServerCaCert;
 }
@@ -860,25 +860,25 @@ export interface DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Ma
   /**
   * Use TLS but don't verify certificates. We have to use an empty struct instead of an empty Enum because of limitations of [kube-rs](https://github.com/kube-rs/kube-rs/)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#insecure DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#insecure DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#insecure}
   */
   readonly insecure?: { [key: string]: string };
   /**
   * Use TLS and ca certificate to verify the server and the client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#mutual_verification DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#mutual_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#mutual_verification DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#mutual_verification}
   */
   readonly mutualVerification?: DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1ManifestSpecProtocolLdapTlsMutualVerification;
   /**
   * Use TLS and ca certificate to verify the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#server_verification DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#server_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#server_verification DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#server_verification}
   */
   readonly serverVerification?: DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1ManifestSpecProtocolLdapTlsServerVerification;
   /**
   * Use TLS and the ca certificates provided by the system - in this case the Docker image - to verify the server. This can be useful when you e.g. use public AWS S3 or other public available services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#system_provided DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#system_provided}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#system_provided DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#system_provided}
   */
   readonly systemProvided?: { [key: string]: string };
 }
@@ -1061,67 +1061,67 @@ export interface DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Ma
   /**
   * In case you need a special account for searching the LDAP server you can specify it here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#bind_credentials DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#bind_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#bind_credentials DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#bind_credentials}
   */
   readonly bindCredentials?: DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1ManifestSpecProtocolLdapBindCredentials;
   /**
   * The name of the email field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#email_field DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#email_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#email_field DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#email_field}
   */
   readonly emailField?: string;
   /**
   * The name of the firstname field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#firstname_field DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#firstname_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#firstname_field DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#firstname_field}
   */
   readonly firstnameField?: string;
   /**
   * The name of the group field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#group_field DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#group_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#group_field DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#group_field}
   */
   readonly groupField?: string;
   /**
   * Hostname of the LDAP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#hostname DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#hostname DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#hostname}
   */
   readonly hostname: string;
   /**
   * The name of the lastname field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#lastname_field DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#lastname_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#lastname_field DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#lastname_field}
   */
   readonly lastnameField?: string;
   /**
   * Port of the LDAP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#port DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#port DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * LDAP search base
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#search_base DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#search_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#search_base DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#search_base}
   */
   readonly searchBase?: string;
   /**
   * LDAP query to filter users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#search_filter DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#search_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#search_filter DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#search_filter}
   */
   readonly searchFilter?: string;
   /**
   * Use a TLS connection. If not specified no TLS will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#tls DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#tls DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1ManifestSpecProtocolLdapTls;
   /**
   * The name of the username field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#uid_field DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#uid_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#uid_field DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#uid_field}
   */
   readonly uidField?: string;
 }
@@ -1502,7 +1502,7 @@ export class DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manife
 }
 export interface DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1ManifestSpecProtocol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#ldap DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#ldap DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#ldap}
   */
   readonly ldap?: DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1ManifestSpecProtocolLdap;
 }
@@ -1598,7 +1598,7 @@ export interface DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Ma
   /**
   * Protocol used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#protocol DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#protocol DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest#protocol}
   */
   readonly protocol: DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1ManifestSpecProtocol;
 }
@@ -1689,7 +1689,7 @@ export class DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manife
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest k8s_authentication_stackable_tech_authentication_class_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest k8s_authentication_stackable_tech_authentication_class_v1alpha1_manifest}
 */
 export class DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1705,7 +1705,7 @@ export class DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manife
   * Generates CDKTF code for importing a DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1717,7 +1717,7 @@ export class DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manife
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest k8s_authentication_stackable_tech_authentication_class_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/authentication_stackable_tech_authentication_class_v1alpha1_manifest k8s_authentication_stackable_tech_authentication_class_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1728,8 +1728,8 @@ export class DataK8SAuthenticationStackableTechAuthenticationClassV1Alpha1Manife
       terraformResourceType: 'k8s_authentication_stackable_tech_authentication_class_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

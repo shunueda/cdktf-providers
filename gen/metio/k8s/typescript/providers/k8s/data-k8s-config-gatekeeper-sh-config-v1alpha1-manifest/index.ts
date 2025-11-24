@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SConfigGatekeeperShConfigV1Alpha1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#metadata DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#metadata DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SConfigGatekeeperShConfigV1Alpha1ManifestMetadata;
   /**
   * ConfigSpec defines the desired state of Config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#spec DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#spec DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SConfigGatekeeperShConfigV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#annotations DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#annotations DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#labels DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#labels DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#name DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#name DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#namespace DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#namespace DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SConfigGatekeeperShConfigV1Alpha1ManifestMetadataOutputRefere
 }
 export interface DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#excluded_namespaces DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#excluded_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#excluded_namespaces DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#excluded_namespaces}
   */
   readonly excludedNamespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#processes DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#processes DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#processes}
   */
   readonly processes?: string[];
 }
@@ -366,7 +366,7 @@ export class DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecMatchList extend
 }
 export interface DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecReadiness {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#stats_enabled DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#stats_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#stats_enabled DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#stats_enabled}
   */
   readonly statsEnabled?: boolean | cdktf.IResolvable;
 }
@@ -460,15 +460,15 @@ export class DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecReadinessOutputR
 }
 export interface DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecSyncSyncOnly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#group DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#group DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#kind DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#kind DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#version DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#version DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -644,7 +644,7 @@ export interface DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecSync {
   /**
   * If non-empty, only entries on this list will be replicated into OPA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#sync_only DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#sync_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#sync_only DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#sync_only}
   */
   readonly syncOnly?: DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecSyncSyncOnly[] | cdktf.IResolvable;
 }
@@ -738,15 +738,15 @@ export class DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecSyncOutputRefere
 }
 export interface DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecValidationTracesKind {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#group DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#group DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#kind DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#kind DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#version DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#version DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -900,19 +900,19 @@ export interface DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecValidationTr
   /**
   * Also dump the state of OPA with the trace. Set to 'All' to dump everything.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#dump DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#dump}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#dump DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#dump}
   */
   readonly dump?: string;
   /**
   * Only trace requests of the following GroupVersionKind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#kind DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#kind DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#kind}
   */
   readonly kind?: DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecValidationTracesKind;
   /**
   * Only trace requests from the specified user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#user DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#user DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -1088,7 +1088,7 @@ export interface DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecValidation {
   /**
   * List of requests to trace. Both 'user' and 'kinds' must be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#traces DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#traces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#traces DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#traces}
   */
   readonly traces?: DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecValidationTraces[] | cdktf.IResolvable;
 }
@@ -1184,25 +1184,25 @@ export interface DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpec {
   /**
   * Configuration for namespace exclusion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#match DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#match DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#match}
   */
   readonly match?: DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecMatch[] | cdktf.IResolvable;
   /**
   * Configuration for readiness tracker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#readiness DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#readiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#readiness DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#readiness}
   */
   readonly readiness?: DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecReadiness;
   /**
   * Configuration for syncing k8s objects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#sync DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#sync DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#sync}
   */
   readonly sync?: DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecSync;
   /**
   * Configuration for validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#validation DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#validation DataK8SConfigGatekeeperShConfigV1Alpha1Manifest#validation}
   */
   readonly validation?: DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecValidation;
 }
@@ -1383,7 +1383,7 @@ export class DataK8SConfigGatekeeperShConfigV1Alpha1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest k8s_config_gatekeeper_sh_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest k8s_config_gatekeeper_sh_config_v1alpha1_manifest}
 */
 export class DataK8SConfigGatekeeperShConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1399,7 +1399,7 @@ export class DataK8SConfigGatekeeperShConfigV1Alpha1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SConfigGatekeeperShConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SConfigGatekeeperShConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SConfigGatekeeperShConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SConfigGatekeeperShConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SConfigGatekeeperShConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1411,7 +1411,7 @@ export class DataK8SConfigGatekeeperShConfigV1Alpha1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest k8s_config_gatekeeper_sh_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_gatekeeper_sh_config_v1alpha1_manifest k8s_config_gatekeeper_sh_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1422,8 +1422,8 @@ export class DataK8SConfigGatekeeperShConfigV1Alpha1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_config_gatekeeper_sh_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

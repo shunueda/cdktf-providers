@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#metadata DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#metadata DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestMetadata;
   /**
   * InputSpec defines the desired state of ClusterInput
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#spec DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#spec DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#annotations DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#annotations DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#labels DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#labels DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#name DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#name DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecCollect
   /**
   * Set the address to listen to, default: 0.0.0.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
   */
   readonly listen?: string;
   /**
   * Set the port to listen to, default: 25826
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
   */
   readonly port?: number;
   /**
   * Set the data specification file,default: /usr/share/collectd/types.db
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#types_db DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#types_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#types_db DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#types_db}
   */
   readonly typesDb?: string;
 }
@@ -353,13 +353,13 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecCustomP
   /**
   * Config holds any unsupported plugins classic configurations, if ConfigFileFormat is set to yaml, this filed will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#config DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#config DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#config}
   */
   readonly config?: string;
   /**
   * YamlConfig holds the unsupported plugins yaml configurations, it only works when the ConfigFileFormat is yaml
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#yaml_config DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#yaml_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#yaml_config DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#yaml_config}
   */
   readonly yamlConfig?: { [key: string]: string };
 }
@@ -484,25 +484,25 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecDummy {
   /**
   * Dummy JSON record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#dummy DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#dummy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#dummy DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#dummy}
   */
   readonly dummy?: string;
   /**
   * Events number generated per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#rate DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#rate DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#rate}
   */
   readonly rate?: number;
   /**
   * Sample events to generate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#samples DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#samples DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#samples}
   */
   readonly samples?: number;
   /**
   * Tag name associated to all records comming from this plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -685,53 +685,53 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecExecWas
   /**
   * Specify the whitelist of paths to be able to access paths from WASM programs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#accessible_paths DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#accessible_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#accessible_paths DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#accessible_paths}
   */
   readonly accessiblePaths?: string[];
   /**
   * Size of the buffer (check unit sizes for allowed values)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buf_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buf_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buf_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buf_size}
   */
   readonly bufSize?: string;
   /**
   * Polling interval (nanoseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#interval_n_sec DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#interval_n_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#interval_n_sec DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#interval_n_sec}
   */
   readonly intervalNSec?: number;
   /**
   * Polling interval (seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#interval_sec DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#interval_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#interval_sec DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#interval_sec}
   */
   readonly intervalSec?: number;
   /**
   * Specify the name of a parser to interpret the entry as a structured message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#parser DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#parser DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#parser}
   */
   readonly parser?: string;
   /**
   * Indicates whether to run this input in its own thread. Default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#threaded DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#threaded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#threaded DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#threaded}
   */
   readonly threaded?: boolean | cdktf.IResolvable;
   /**
   * The place of a WASM program file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#wasi_path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#wasi_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#wasi_path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#wasi_path}
   */
   readonly wasiPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#wasm_heap_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#wasm_heap_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#wasm_heap_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#wasm_heap_size}
   */
   readonly wasmHeapSize?: string;
   /**
   * Size of the stack size of Wasm execution. Review unit sizes for allowed values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#wasm_stack_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#wasm_stack_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#wasm_stack_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#wasm_stack_size}
   */
   readonly wasmStackSize?: string;
 }
@@ -1059,17 +1059,17 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecFluentB
   /**
   * The rate at which metrics are collected from the host operating system. default is 2 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#scrape_interval DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#scrape_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#scrape_interval DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#scrape_interval}
   */
   readonly scrapeInterval?: string;
   /**
   * Scrape metrics upon start, useful to avoid waiting for 'scrape_interval' for the first round of metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#scrape_on_start DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#scrape_on_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#scrape_on_start DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#scrape_on_start}
   */
   readonly scrapeOnStart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -1223,55 +1223,55 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecForward
   /**
   * Specify maximum buffer memory size used to recieve a forward message. The value must be according to the Unit Size specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_max_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_max_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_max_size}
   */
   readonly bufferMaxSize?: string;
   /**
   * Set the initial buffer size to store incoming data. This value is used too to increase buffer size as required. The value must be according to the Unit Size specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#bufferchunk_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#bufferchunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#bufferchunk_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#bufferchunk_size}
   */
   readonly bufferchunkSize?: string;
   /**
   * Listener network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
   */
   readonly listen?: string;
   /**
   * Port for forward plugin instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
   */
   readonly port?: number;
   /**
   * in_forward uses the tag value for incoming logs. If not set it uses tag from incoming log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
   */
   readonly tag?: string;
   /**
   * Adds the prefix to incoming event's tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag_prefix DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag_prefix DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag_prefix}
   */
   readonly tagPrefix?: string;
   /**
   * Threaded mechanism allows input plugin to run in a separate thread which helps to desaturate the main pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#threaded DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#threaded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#threaded DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#threaded}
   */
   readonly threaded?: string;
   /**
   * Specify the path to unix socket to recieve a forward message. If set, Listen and port are ignnored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#unix_path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#unix_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#unix_path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#unix_path}
   */
   readonly unixPath?: string;
   /**
   * Set the permission of unix socket file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#unix_perm DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#unix_perm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#unix_perm DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#unix_perm}
   */
   readonly unixPerm?: string;
 }
@@ -1599,19 +1599,19 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecHttpTls
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#key DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#key DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#name DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#name DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#optional DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#optional DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1762,7 +1762,7 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecHttpTls
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#secret_key_ref DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#secret_key_ref DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecHttpTlsKeyPasswordValueFromSecretKeyRef;
 }
@@ -1858,7 +1858,7 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecHttpTls
   /**
   * ValueSource defines how to find a value's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#value_from DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#value_from DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecHttpTlsKeyPasswordValueFrom;
 }
@@ -1954,49 +1954,49 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecHttpTls
   /**
   * Absolute path to CA certificate file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#ca_file DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#ca_file DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Absolute path to scan for certificate files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#ca_path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#ca_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#ca_path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#ca_path}
   */
   readonly caPath?: string;
   /**
   * Absolute path to Certificate file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#crt_file DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#crt_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#crt_file DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#crt_file}
   */
   readonly crtFile?: string;
   /**
   * Set TLS debug verbosity level. It accept the following values: 0 (No debug), 1 (Error), 2 (State change), 3 (Informational) and 4 Verbose
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#debug DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#debug DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#debug}
   */
   readonly debug?: number;
   /**
   * Absolute path to private Key file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#key_file DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#key_file DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#key_file}
   */
   readonly keyFile?: string;
   /**
   * Optional password for tls.key_file file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#key_password DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#key_password DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#key_password}
   */
   readonly keyPassword?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecHttpTlsKeyPassword;
   /**
   * Force certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#verify DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#verify DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#verify}
   */
   readonly verify?: boolean | cdktf.IResolvable;
   /**
   * Hostname to be used for TLS SNI extension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#vhost DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#vhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#vhost DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#vhost}
   */
   readonly vhost?: string;
 }
@@ -2295,49 +2295,49 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecHttp {
   /**
   * This sets the chunk size for incoming incoming JSON messages. These chunks are then stored/managed in the space available by buffer_max_size,default 512K.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_chunk_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_chunk_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_chunk_size}
   */
   readonly bufferChunkSize?: string;
   /**
   * Specify the maximum buffer size in KB to receive a JSON message,default 4M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_max_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_max_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_max_size}
   */
   readonly bufferMaxSize?: string;
   /**
   * The address to listen on,default 0.0.0.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
   */
   readonly listen?: string;
   /**
   * The port for Fluent Bit to listen on,default 9880
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
   */
   readonly port?: number;
   /**
   * Add an HTTP header key/value pair on success. Multiple headers can be set. Example: X-Custom custom-answer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#successful_header DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#successful_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#successful_header DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#successful_header}
   */
   readonly successfulHeader?: string;
   /**
   * It allows to set successful response code. 200, 201 and 204 are supported,default 201.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#successful_response_code DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#successful_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#successful_response_code DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#successful_response_code}
   */
   readonly successfulResponseCode?: number;
   /**
   * Specify the key name to overwrite a tag. If set, the tag will be overwritten by a value of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag_key DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag_key DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag_key}
   */
   readonly tagKey?: string;
   /**
   * Fluent Bit provides integrated support for Transport Layer Security (TLS) and it predecessor Secure Sockets Layer (SSL) respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tls DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tls DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tls}
   */
   readonly tls?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecHttpTls;
 }
@@ -2636,97 +2636,97 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecKuberne
   /**
   * Set a database file to keep track of recorded Kubernetes events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#db DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#db DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#db}
   */
   readonly db?: string;
   /**
   * Set a database sync method. values: extra, full, normal and off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#db_sync DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#db_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#db_sync DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#db_sync}
   */
   readonly dbSync?: string;
   /**
   * Set the polling interval for each channel (sub seconds: nanoseconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#interval_nsec DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#interval_nsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#interval_nsec DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#interval_nsec}
   */
   readonly intervalNsec?: number;
   /**
   * Set the polling interval for each channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#interval_sec DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#interval_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#interval_sec DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#interval_sec}
   */
   readonly intervalSec?: number;
   /**
   * CA certificate file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kube_ca_file DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kube_ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kube_ca_file DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kube_ca_file}
   */
   readonly kubeCaFile?: string;
   /**
   * Absolute path to scan for certificate files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kube_ca_path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kube_ca_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kube_ca_path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kube_ca_path}
   */
   readonly kubeCaPath?: string;
   /**
   * Kubernetes namespace to query events from. Gets events from all namespaces by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kube_namespace DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kube_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kube_namespace DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kube_namespace}
   */
   readonly kubeNamespace?: string;
   /**
   * kubernetes limit parameter for events query, no limit applied when set to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kube_request_limit DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kube_request_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kube_request_limit DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kube_request_limit}
   */
   readonly kubeRequestLimit?: number;
   /**
   * Kubernetes retention time for events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kube_retention_time DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kube_retention_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kube_retention_time DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kube_retention_time}
   */
   readonly kubeRetentionTime?: string;
   /**
   * Token file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kube_token_file DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kube_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kube_token_file DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kube_token_file}
   */
   readonly kubeTokenFile?: string;
   /**
   * configurable 'time to live' for the K8s token. By default, it is set to 600 seconds. After this time, the token is reloaded from Kube_Token_File or the Kube_Token_Command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kube_token_ttl DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kube_token_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kube_token_ttl DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kube_token_ttl}
   */
   readonly kubeTokenTtl?: string;
   /**
   * API Server end-point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kube_url DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kube_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kube_url DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kube_url}
   */
   readonly kubeUrl?: string;
   /**
   * Tag name associated to all records comming from this plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
   */
   readonly tag?: string;
   /**
   * Debug level between 0 (nothing) and 4 (every detail).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tls_debug DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tls_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tls_debug DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tls_debug}
   */
   readonly tlsDebug?: number;
   /**
   * When enabled, turns on certificate validation when connecting to the Kubernetes API server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tls_verify DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tls_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tls_verify DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tls_verify}
   */
   readonly tlsVerify?: boolean | cdktf.IResolvable;
   /**
   * Set optional TLS virtual host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tls_vhost DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tls_vhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tls_vhost DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tls_vhost}
   */
   readonly tlsVhost?: string;
 }
@@ -3257,13 +3257,13 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecMqtt {
   /**
   * Listener network interface, default: 0.0.0.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
   */
   readonly listen?: string;
   /**
   * TCP port where listening for connections, default: 1883
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
   */
   readonly port?: number;
 }
@@ -3388,25 +3388,25 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecNginx {
   /**
   * Name of the target host or IP address to check, default: localhost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#host DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#host DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#host}
   */
   readonly host?: string;
   /**
   * Turn on NGINX plus mode,default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#nginx_plus DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#nginx_plus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#nginx_plus DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#nginx_plus}
   */
   readonly nginxPlus?: boolean | cdktf.IResolvable;
   /**
   * Port of the target nginx service to connect to, default: 80
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
   */
   readonly port?: number;
   /**
   * The URL of the Stub Status Handler,default: /status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#status_url DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#status_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#status_url DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#status_url}
   */
   readonly statusUrl?: string;
 }
@@ -3589,13 +3589,13 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecNodeExp
   /**
   * The mount point used to collect process information and metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#procfs DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#procfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#procfs DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#procfs}
   */
   readonly procfs?: string;
   /**
   * The path in the filesystem used to collect system metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#sysfs DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#sysfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#sysfs DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#sysfs}
   */
   readonly sysfs?: string;
 }
@@ -3718,19 +3718,19 @@ export class DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecNodeExporte
 }
 export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecNodeExporterMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#path}
   */
   readonly path?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecNodeExporterMetricsPath;
   /**
   * The rate at which metrics are collected from the host operating system, default is 5 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#scrape_interval DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#scrape_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#scrape_interval DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#scrape_interval}
   */
   readonly scrapeInterval?: string;
   /**
   * Tag name associated to all records comming from this plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -3884,55 +3884,55 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecOpenTel
   /**
   * This sets the chunk size for incoming incoming JSON messages. These chunks are then stored/managed in the space available by buffer_max_size(default 512K).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_chunk_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_chunk_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_chunk_size}
   */
   readonly bufferChunkSize?: string;
   /**
   * Specify the maximum buffer size in KB to receive a JSON message(default 4M).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_max_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_max_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_max_size}
   */
   readonly bufferMaxSize?: string;
   /**
   * The address to listen on,default 0.0.0.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
   */
   readonly listen?: string;
   /**
   * The port for Fluent Bit to listen on.default 4318.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
   */
   readonly port?: number;
   /**
   * Route trace data as a log message(default false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#raw_traces DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#raw_traces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#raw_traces DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#raw_traces}
   */
   readonly rawTraces?: boolean | cdktf.IResolvable;
   /**
   * It allows to set successful response code. 200, 201 and 204 are supported(default 201).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#successful_response_code DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#successful_response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#successful_response_code DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#successful_response_code}
   */
   readonly successfulResponseCode?: number;
   /**
   * opentelemetry uses the tag value for incoming metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
   */
   readonly tag?: string;
   /**
   * If true, tag will be created from uri. e.g. v1_metrics from /v1/metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag_from_uri DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag_from_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag_from_uri DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag_from_uri}
   */
   readonly tagFromUri?: boolean | cdktf.IResolvable;
   /**
   * Specify the key name to overwrite a tag. If set, the tag will be overwritten by a value of the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag_key DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag_key DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag_key}
   */
   readonly tagKey?: string;
 }
@@ -4260,31 +4260,31 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecPrometh
   /**
   * The host of the prometheus metric endpoint that you want to scrape
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#host DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#host DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#host}
   */
   readonly host?: string;
   /**
   * The metrics URI endpoint, that must start with a forward slash, deflaut: /metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#metrics_path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#metrics_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#metrics_path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#metrics_path}
   */
   readonly metricsPath?: string;
   /**
   * The port of the promethes metric endpoint that you want to scrape
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
   */
   readonly port?: number;
   /**
   * The interval to scrape metrics, default: 10s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#scrape_interval DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#scrape_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#scrape_interval DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#scrape_interval}
   */
   readonly scrapeInterval?: string;
   /**
   * Tag name associated to all records comming from this plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -4496,13 +4496,13 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecStatsd 
   /**
   * Listener network interface, default: 0.0.0.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
   */
   readonly listen?: string;
   /**
   * UDP port where listening for connections, default: 8125
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
   */
   readonly port?: number;
 }
@@ -4627,61 +4627,61 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecSyslog 
   /**
   * By default the buffer to store the incoming Syslog messages, do not allocate the maximum memory allowed, instead it allocate memory when is required. The rounds of allocations are set by Buffer_Chunk_Size. If not set, Buffer_Chunk_Size is equal to 32000 bytes (32KB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_chunk_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_chunk_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_chunk_size}
   */
   readonly bufferChunkSize?: string;
   /**
   * Specify the maximum buffer size to receive a Syslog message. If not set, the default size will be the value of Buffer_Chunk_Size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_max_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_max_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_max_size}
   */
   readonly bufferMaxSize?: string;
   /**
   * If Mode is set to tcp or udp, specify the network interface to bind, default: 0.0.0.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
   */
   readonly listen?: string;
   /**
   * Defines transport protocol mode: unix_udp (UDP over Unix socket), unix_tcp (TCP over Unix socket), tcp or udp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#mode DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#mode DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#mode}
   */
   readonly mode?: string;
   /**
   * Specify an alternative parser for the message. If Mode is set to tcp or udp then the default parser is syslog-rfc5424 otherwise syslog-rfc3164-local is used. If your syslog messages have fractional seconds set this Parser value to syslog-rfc5424 instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#parser DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#parser DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#parser}
   */
   readonly parser?: string;
   /**
   * If Mode is set to unix_tcp or unix_udp, set the absolute path to the Unix socket file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#path}
   */
   readonly path?: string;
   /**
   * If Mode is set to tcp or udp, specify the TCP port to listen for incoming connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
   */
   readonly port?: number;
   /**
   * Specify the maximum socket receive buffer size. If not set, the default value is OS-dependant, but generally too low to accept thousands of syslog messages per second without loss on udp or unix_udp sockets. Note that on Linux the value is capped by sysctl net.core.rmem_max.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#receive_buffer_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#receive_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#receive_buffer_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#receive_buffer_size}
   */
   readonly receiveBufferSize?: string;
   /**
   * Specify the key where the source address will be injected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#source_address_key DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#source_address_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#source_address_key DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#source_address_key}
   */
   readonly sourceAddressKey?: string;
   /**
   * If Mode is set to unix_tcp or unix_udp, set the permission of the Unix socket file, default: 0644
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#unix_perm DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#unix_perm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#unix_perm DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#unix_perm}
   */
   readonly unixPerm?: number;
 }
@@ -5038,73 +5038,73 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecSystemd
   /**
   * Specify the database file to keep track of monitored files and offsets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#db DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#db DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#db}
   */
   readonly db?: string;
   /**
   * Set a default synchronization (I/O) method. values: Extra, Full, Normal, Off. This flag affects how the internal SQLite engine do synchronization to disk, for more details about each option please refer to this section. note: this option was introduced on Fluent Bit v1.4.6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#db_sync DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#db_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#db_sync DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#db_sync}
   */
   readonly dbSync?: string;
   /**
   * When Fluent Bit starts, the Journal might have a high number of logs in the queue. In order to avoid delays and reduce memory usage, this option allows to specify the maximum number of log entries that can be processed per round. Once the limit is reached, Fluent Bit will continue processing the remaining log entries once Journald performs the notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#max_entries DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#max_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#max_entries DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#max_entries}
   */
   readonly maxEntries?: number;
   /**
   * Set a maximum number of fields (keys) allowed per record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#max_fields DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#max_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#max_fields DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#max_fields}
   */
   readonly maxFields?: number;
   /**
   * Optional path to the Systemd journal directory, if not set, the plugin will use default paths to read local-only logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#path}
   */
   readonly path?: string;
   /**
   * Specifies if the input plugin should be paused (stop ingesting new data) when the storage.max_chunks_up value is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#pause_on_chunks_overlimit DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#pause_on_chunks_overlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#pause_on_chunks_overlimit DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#pause_on_chunks_overlimit}
   */
   readonly pauseOnChunksOverlimit?: string;
   /**
   * Start reading new entries. Skip entries already stored in Journald.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#read_from_tail DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#read_from_tail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#read_from_tail DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#read_from_tail}
   */
   readonly readFromTail?: string;
   /**
   * Specify the buffering mechanism to use. It can be memory or filesystem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#storage_type DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#storage_type DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#storage_type}
   */
   readonly storageType?: string;
   /**
   * Remove the leading underscore of the Journald field (key). For example the Journald field _PID becomes the key PID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#strip_underscores DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#strip_underscores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#strip_underscores DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#strip_underscores}
   */
   readonly stripUnderscores?: string;
   /**
   * Allows to perform a query over logs that contains a specific Journald key/value pairs, e.g: _SYSTEMD_UNIT=UNIT. The Systemd_Filter option can be specified multiple times in the input section to apply multiple filters as required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#systemd_filter DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#systemd_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#systemd_filter DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#systemd_filter}
   */
   readonly systemdFilter?: string[];
   /**
   * Define the filter type when Systemd_Filter is specified multiple times. Allowed values are And and Or. With And a record is matched only when all of the Systemd_Filter have a match. With Or a record is matched when any of the Systemd_Filter has a match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#systemd_filter_type DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#systemd_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#systemd_filter_type DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#systemd_filter_type}
   */
   readonly systemdFilterType?: string;
   /**
   * The tag is used to route messages but on Systemd plugin there is an extra functionality: if the tag includes a star/wildcard, it will be expanded with the Systemd Unit file (e.g: host.* => host.UNIT_NAME).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -5519,175 +5519,175 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecTail {
   /**
   * Set the initial buffer size to read files data. This value is used too to increase buffer size. The value must be according to the Unit Size specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_chunk_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_chunk_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_chunk_size}
   */
   readonly bufferChunkSize?: string;
   /**
   * Set the limit of the buffer size per monitored file. When a buffer needs to be increased (e.g: very long lines), this value is used to restrict how much the memory buffer can grow. If reading a file exceed this limit, the file is removed from the monitored file list The value must be according to the Unit Size specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_max_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_max_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_max_size}
   */
   readonly bufferMaxSize?: string;
   /**
   * Specify the database file to keep track of monitored files and offsets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#db DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#db DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#db}
   */
   readonly db?: string;
   /**
   * Set a default synchronization (I/O) method. Values: Extra, Full, Normal, Off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#db_sync DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#db_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#db_sync DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#db_sync}
   */
   readonly dbSync?: string;
   /**
   * DisableInotifyWatcher will disable inotify and use the file stat watcher instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#disable_inotify_watcher DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#disable_inotify_watcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#disable_inotify_watcher DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#disable_inotify_watcher}
   */
   readonly disableInotifyWatcher?: boolean | cdktf.IResolvable;
   /**
   * If enabled, the plugin will recombine split Docker log lines before passing them to any parser as configured above. This mode cannot be used at the same time as Multiline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#docker_mode DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#docker_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#docker_mode DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#docker_mode}
   */
   readonly dockerMode?: boolean | cdktf.IResolvable;
   /**
   * Wait period time in seconds to flush queued unfinished split lines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#docker_mode_flush_seconds DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#docker_mode_flush_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#docker_mode_flush_seconds DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#docker_mode_flush_seconds}
   */
   readonly dockerModeFlushSeconds?: number;
   /**
   * Specify an optional parser for the first line of the docker multiline mode. The parser name to be specified must be registered in the parsers.conf file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#docker_mode_parser DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#docker_mode_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#docker_mode_parser DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#docker_mode_parser}
   */
   readonly dockerModeParser?: string;
   /**
   * Set one or multiple shell patterns separated by commas to exclude files matching a certain criteria, e.g: exclude_path=*.gz,*.zip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#exclude_path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#exclude_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#exclude_path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#exclude_path}
   */
   readonly excludePath?: string;
   /**
   * Ignores records which are older than this time in seconds. Supports m,h,d (minutes, hours, days) syntax. Default behavior is to read all records from specified files. Only available when a Parser is specificied and it can parse the time of a record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#ignored_older DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#ignored_older}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#ignored_older DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#ignored_older}
   */
   readonly ignoredOlder?: string;
   /**
   * When a message is unstructured (no parser applied), it's appended as a string under the key name log. This option allows to define an alternative name for that key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#key DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#key DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#key}
   */
   readonly key?: string;
   /**
   * Set a limit of memory that Tail plugin can use when appending data to the Engine. If the limit is reach, it will be paused; when the data is flushed it resumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#mem_buf_limit DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#mem_buf_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#mem_buf_limit DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#mem_buf_limit}
   */
   readonly memBufLimit?: string;
   /**
   * If enabled, the plugin will try to discover multiline messages and use the proper parsers to compose the outgoing messages. Note that when this option is enabled the Parser option is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#multiline DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#multiline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#multiline DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#multiline}
   */
   readonly multiline?: boolean | cdktf.IResolvable;
   /**
   * Wait period time in seconds to process queued multiline messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#multiline_flush_seconds DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#multiline_flush_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#multiline_flush_seconds DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#multiline_flush_seconds}
   */
   readonly multilineFlushSeconds?: number;
   /**
   * This will help to reassembly multiline messages originally split by Docker or CRI Specify one or Multiline Parser definition to apply to the content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#multiline_parser DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#multiline_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#multiline_parser DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#multiline_parser}
   */
   readonly multilineParser?: string;
   /**
   * Specify the name of a parser to interpret the entry as a structured message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#parser DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#parser DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#parser}
   */
   readonly parser?: string;
   /**
   * Name of the parser that matchs the beginning of a multiline message. Note that the regular expression defined in the parser must include a group name (named capture)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#parser_firstline DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#parser_firstline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#parser_firstline DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#parser_firstline}
   */
   readonly parserFirstline?: string;
   /**
   * Optional-extra parser to interpret and structure multiline entries. This option can be used to define multiple parsers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#parser_n DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#parser_n}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#parser_n DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#parser_n}
   */
   readonly parserN?: string[];
   /**
   * Pattern specifying a specific log files or multiple ones through the use of common wildcards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#path DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#path}
   */
   readonly path?: string;
   /**
   * If enabled, it appends the name of the monitored file as part of the record. The value assigned becomes the key in the map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#path_key DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#path_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#path_key DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#path_key}
   */
   readonly pathKey?: string;
   /**
   * Specifies if the input plugin should be paused (stop ingesting new data) when the storage.max_chunks_up value is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#pause_on_chunks_overlimit DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#pause_on_chunks_overlimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#pause_on_chunks_overlimit DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#pause_on_chunks_overlimit}
   */
   readonly pauseOnChunksOverlimit?: string;
   /**
   * For new discovered files on start (without a database offset/position), read the content from the head of the file, not tail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#read_from_head DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#read_from_head}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#read_from_head DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#read_from_head}
   */
   readonly readFromHead?: boolean | cdktf.IResolvable;
   /**
   * The interval of refreshing the list of watched files in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#refresh_interval_seconds DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#refresh_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#refresh_interval_seconds DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#refresh_interval_seconds}
   */
   readonly refreshIntervalSeconds?: number;
   /**
   * Specify the number of extra time in seconds to monitor a file once is rotated in case some pending data is flushed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#rotate_wait_seconds DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#rotate_wait_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#rotate_wait_seconds DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#rotate_wait_seconds}
   */
   readonly rotateWaitSeconds?: number;
   /**
   * Skips empty lines in the log file from any further processing or output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#skip_empty_lines DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#skip_empty_lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#skip_empty_lines DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#skip_empty_lines}
   */
   readonly skipEmptyLines?: boolean | cdktf.IResolvable;
   /**
   * When a monitored file reach it buffer capacity due to a very long line (Buffer_Max_Size), the default behavior is to stop monitoring that file. Skip_Long_Lines alter that behavior and instruct Fluent Bit to skip long lines and continue processing other lines that fits into the buffer size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#skip_long_lines DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#skip_long_lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#skip_long_lines DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#skip_long_lines}
   */
   readonly skipLongLines?: boolean | cdktf.IResolvable;
   /**
   * Specify the buffering mechanism to use. It can be memory or filesystem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#storage_type DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#storage_type DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#storage_type}
   */
   readonly storageType?: string;
   /**
   * Set a tag (with regex-extract fields) that will be placed on lines read. E.g. kube.<namespace_name>.<pod_name>.<container_name>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag}
   */
   readonly tag?: string;
   /**
   * Set a regex to exctract fields from the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag_regex DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tag_regex DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tag_regex}
   */
   readonly tagRegex?: string;
 }
@@ -6595,37 +6595,37 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecTcp {
   /**
   * Specify the maximum buffer size in KB to receive a JSON message. If not set, the default size will be the value of Chunk_Size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_size}
   */
   readonly bufferSize?: string;
   /**
   * By default the buffer to store the incoming JSON messages, do not allocate the maximum memory allowed, instead it allocate memory when is required. The rounds of allocations are set by Chunk_Size in KB. If not set, Chunk_Size is equal to 32 (32KB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#chunk_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#chunk_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#chunk_size}
   */
   readonly chunkSize?: string;
   /**
   * Specify the expected payload format. It support the options json and none. When using json, it expects JSON maps, when is set to none, it will split every record using the defined Separator (option below).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#format DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#format DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#format}
   */
   readonly format?: string;
   /**
   * Listener network interface,default 0.0.0.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
   */
   readonly listen?: string;
   /**
   * TCP port where listening for connections,default 5170
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
   */
   readonly port?: number;
   /**
   * When the expected Format is set to none, Fluent Bit needs a separator string to split the records. By default it uses the breakline character (LF or 0x10).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#separator DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#separator DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#separator}
   */
   readonly separator?: string;
 }
@@ -6866,49 +6866,49 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecUdp {
   /**
   * BufferSize Specify the maximum buffer size in KB to receive a JSON message. If not set, the default size will be the value of Chunk_Size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#buffer_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#buffer_size}
   */
   readonly bufferSize?: string;
   /**
   * By default the buffer to store the incoming JSON messages, do not allocate the maximum memory allowed, instead it allocate memory when is required. The rounds of allocations are set by Chunk_Size in KB. If not set, Chunk_Size is equal to 32 (32KB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#chunk_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#chunk_size DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#chunk_size}
   */
   readonly chunkSize?: string;
   /**
   * Format Specify the expected payload format. It support the options json and none. When using json, it expects JSON maps, when is set to none, it will split every record using the defined Separator (option below).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#format DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#format DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#format}
   */
   readonly format?: string;
   /**
   * Listen Listener network interface, default: 0.0.0.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#listen DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#listen}
   */
   readonly listen?: string;
   /**
   * Port Specify the UDP port where listening for connections, default: 5170
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#port DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#port}
   */
   readonly port?: number;
   /**
   * Separator When the expected Format is set to none, Fluent Bit needs a separator string to split the records. By default it uses the breakline character (LF or 0x10).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#separator DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#separator DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#separator}
   */
   readonly separator?: string;
   /**
   * SourceAddressKey Specify the key where the source address will be injected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#source_address_key DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#source_address_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#source_address_key DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#source_address_key}
   */
   readonly sourceAddressKey?: string;
   /**
   * Threaded mechanism allows input plugin to run in a separate thread which helps to desaturate the main pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#threaded DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#threaded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#threaded DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#threaded}
   */
   readonly threaded?: string;
 }
@@ -7207,131 +7207,131 @@ export interface DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpec {
   /**
   * A user friendly alias name for this input plugin. Used in metrics for distinction of each configured input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#alias}
   */
   readonly alias?: string;
   /**
   * Collectd defines the Collectd input plugin configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#collectd DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#collectd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#collectd DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#collectd}
   */
   readonly collectd?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecCollectd;
   /**
   * CustomPlugin defines Custom Input configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#custom_plugin DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#custom_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#custom_plugin DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#custom_plugin}
   */
   readonly customPlugin?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecCustomPlugin;
   /**
   * Dummy defines Dummy Input configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#dummy DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#dummy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#dummy DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#dummy}
   */
   readonly dummy?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecDummy;
   /**
   * ExecWasi defines the exec wasi input plugin configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#exec_wasi DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#exec_wasi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#exec_wasi DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#exec_wasi}
   */
   readonly execWasi?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecExecWasi;
   /**
   * FluentBitMetrics defines Fluent Bit Metrics Input configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#fluent_bit_metrics DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#fluent_bit_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#fluent_bit_metrics DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#fluent_bit_metrics}
   */
   readonly fluentBitMetrics?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecFluentBitMetrics;
   /**
   * Forward defines forward input plugin configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#forward DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#forward DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#forward}
   */
   readonly forward?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecForward;
   /**
   * HTTP defines the HTTP input plugin configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#http DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#http DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#http}
   */
   readonly http?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecHttp;
   /**
   * KubernetesEvents defines the KubernetesEvents input plugin configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kubernetes_events DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kubernetes_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#kubernetes_events DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#kubernetes_events}
   */
   readonly kubernetesEvents?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecKubernetesEvents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#log_level DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#log_level DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * MQTT defines the MQTT input plugin configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#mqtt DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#mqtt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#mqtt DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#mqtt}
   */
   readonly mqtt?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecMqtt;
   /**
   * Nginx defines the Nginx input plugin configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#nginx DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#nginx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#nginx DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#nginx}
   */
   readonly nginx?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecNginx;
   /**
   * NodeExporterMetrics defines Node Exporter Metrics Input configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#node_exporter_metrics DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#node_exporter_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#node_exporter_metrics DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#node_exporter_metrics}
   */
   readonly nodeExporterMetrics?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecNodeExporterMetrics;
   /**
   * OpenTelemetry defines the OpenTelemetry input plugin configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#open_telemetry DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#open_telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#open_telemetry DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#open_telemetry}
   */
   readonly openTelemetry?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecOpenTelemetry;
   /**
   * Processors defines the processors configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#processors DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#processors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#processors DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#processors}
   */
   readonly processors?: { [key: string]: string };
   /**
   * PrometheusScrapeMetrics defines Prometheus Scrape Metrics Input configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#prometheus_scrape_metrics DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#prometheus_scrape_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#prometheus_scrape_metrics DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#prometheus_scrape_metrics}
   */
   readonly prometheusScrapeMetrics?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecPrometheusScrapeMetrics;
   /**
   * StatsD defines the StatsD input plugin configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#statsd DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#statsd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#statsd DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#statsd}
   */
   readonly statsd?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecStatsd;
   /**
   * Syslog defines the Syslog input plugin configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#syslog DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#syslog DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#syslog}
   */
   readonly syslog?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecSyslog;
   /**
   * Systemd defines Systemd Input configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#systemd DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#systemd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#systemd DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#systemd}
   */
   readonly systemd?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecSystemd;
   /**
   * Tail defines Tail Input configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tail DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tail DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tail}
   */
   readonly tail?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecTail;
   /**
   * TCP defines the TCP input plugin configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tcp DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#tcp DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#tcp}
   */
   readonly tcp?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecTcp;
   /**
   * UDP defines the UDP input plugin configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#udp DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#udp DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest#udp}
   */
   readonly udp?: DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecUdp;
 }
@@ -8034,7 +8034,7 @@ export class DataK8SFluentbitFluentIoClusterInputV1Alpha2ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest k8s_fluentbit_fluent_io_cluster_input_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest k8s_fluentbit_fluent_io_cluster_input_v1alpha2_manifest}
 */
 export class DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -8050,7 +8050,7 @@ export class DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8062,7 +8062,7 @@ export class DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest k8s_fluentbit_fluent_io_cluster_input_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_input_v1alpha2_manifest k8s_fluentbit_fluent_io_cluster_input_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8073,8 +8073,8 @@ export class DataK8SFluentbitFluentIoClusterInputV1Alpha2Manifest extends cdktf.
       terraformResourceType: 'k8s_fluentbit_fluent_io_cluster_input_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

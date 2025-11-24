@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Man
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#metadata DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#metadata DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1ManifestMetadata;
   /**
   * AzureVirtualMachineExtensionSpec defines the desired state of AzureVirtualMachineExtension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#spec DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#spec DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Man
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#annotations DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#annotations DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#labels DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#labels DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#name DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#name DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#namespace DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#namespace DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,45 +217,45 @@ export class DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifes
 }
 export interface DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#auto_upgrade_minor_version DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#auto_upgrade_minor_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#auto_upgrade_minor_version DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#auto_upgrade_minor_version}
   */
   readonly autoUpgradeMinorVersion: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#force_update_tag DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#force_update_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#force_update_tag DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#force_update_tag}
   */
   readonly forceUpdateTag: string;
   /**
   * INSERT ADDITIONAL SPEC FIELDS - desired state of cluster Important: Run 'make' to regenerate code after modifying this file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#location DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#location DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#protected_settings DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#protected_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#protected_settings DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#protected_settings}
   */
   readonly protectedSettings?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#publisher DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#publisher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#publisher DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#publisher}
   */
   readonly publisher: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#resource_group DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#resource_group DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#resource_group}
   */
   readonly resourceGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#settings DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#settings DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#settings}
   */
   readonly settings?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#type_handler_version DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#type_handler_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#type_handler_version DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#type_handler_version}
   */
   readonly typeHandlerVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#type_name DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#type_name DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#type_name}
   */
   readonly typeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#vm_name DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#vm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#vm_name DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest#vm_name}
   */
   readonly vmName: string;
 }
@@ -586,7 +586,7 @@ export class DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifes
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest k8s_azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest k8s_azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest}
 */
 export class DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -602,7 +602,7 @@ export class DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifes
   * Generates CDKTF code for importing a DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -614,7 +614,7 @@ export class DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest k8s_azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest k8s_azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -625,8 +625,8 @@ export class DataK8SAzureMicrosoftComAzureVirtualMachineExtensionV1Alpha1Manifes
       terraformResourceType: 'k8s_azure_microsoft_com_azure_virtual_machine_extension_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

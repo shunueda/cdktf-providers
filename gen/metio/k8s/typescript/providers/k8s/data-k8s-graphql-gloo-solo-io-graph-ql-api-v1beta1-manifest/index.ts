@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#metadata DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#metadata DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#spec DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#spec DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#annotations DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#annotations DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#labels DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#labels DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#namespace DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#namespace DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,7 +215,7 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestMetadataOutputRefe
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#max_depth DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#max_depth DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#max_depth}
   */
   readonly maxDepth?: number;
 }
@@ -309,19 +309,19 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsGrpcResolverRequestTransform {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#method_name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#method_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#method_name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#method_name}
   */
   readonly methodName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#outgoing_message_json DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#outgoing_message_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#outgoing_message_json DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#outgoing_message_json}
   */
   readonly outgoingMessageJson?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#request_metadata DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#request_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#request_metadata DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#request_metadata}
   */
   readonly requestMetadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#service_name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#service_name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#service_name}
   */
   readonly serviceName?: string;
 }
@@ -502,11 +502,11 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsGrpcResolverUpstreamRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#namespace DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#namespace DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -629,19 +629,19 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsGrpcResolver {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#request_transform DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#request_transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#request_transform DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#request_transform}
   */
   readonly requestTransform?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsGrpcResolverRequestTransform;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#span_name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#span_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#span_name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#span_name}
   */
   readonly spanName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#timeout DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#timeout DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#upstream_ref DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#upstream_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#upstream_ref DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#upstream_ref}
   */
   readonly upstreamRef?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsGrpcResolverUpstreamRef;
 }
@@ -822,11 +822,11 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsMockResolverAsyncResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#delay DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#delay DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#delay}
   */
   readonly delay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#response DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#response DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#response}
   */
   readonly response?: { [key: string]: string };
 }
@@ -949,15 +949,15 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsMockResolver {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#async_response DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#async_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#async_response DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#async_response}
   */
   readonly asyncResponse?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsMockResolverAsyncResponse;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#error_response DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#error_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#error_response DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#error_response}
   */
   readonly errorResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#sync_response DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#sync_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#sync_response DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#sync_response}
   */
   readonly syncResponse?: { [key: string]: string };
 }
@@ -1109,15 +1109,15 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsRestResolverRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#body DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#body DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#body}
   */
   readonly body?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#headers DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#headers DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#query_params DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#query_params DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#query_params}
   */
   readonly queryParams?: { [key: string]: string };
 }
@@ -1269,11 +1269,11 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsRestResolverResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#result_root DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#result_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#result_root DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#result_root}
   */
   readonly resultRoot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#setters DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#setters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#setters DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#setters}
   */
   readonly setters?: { [key: string]: string };
 }
@@ -1396,11 +1396,11 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsRestResolverUpstreamRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#namespace DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#namespace DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1523,23 +1523,23 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsRestResolver {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#request DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#request DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#request}
   */
   readonly request?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsRestResolverRequest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#response DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#response DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#response}
   */
   readonly response?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsRestResolverResponse;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#span_name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#span_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#span_name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#span_name}
   */
   readonly spanName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#timeout DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#timeout DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#upstream_ref DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#upstream_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#upstream_ref DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#upstream_ref}
   */
   readonly upstreamRef?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsRestResolverUpstreamRef;
 }
@@ -1749,19 +1749,19 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#grpc_resolver DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#grpc_resolver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#grpc_resolver DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#grpc_resolver}
   */
   readonly grpcResolver?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsGrpcResolver;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#mock_resolver DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#mock_resolver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#mock_resolver DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#mock_resolver}
   */
   readonly mockResolver?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsMockResolver;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#rest_resolver DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#rest_resolver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#rest_resolver DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#rest_resolver}
   */
   readonly restResolver?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutionsRestResolver;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#stat_prefix DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#stat_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#stat_prefix DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#stat_prefix}
   */
   readonly statPrefix?: string;
 }
@@ -1942,15 +1942,15 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#enable_introspection DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#enable_introspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#enable_introspection DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#enable_introspection}
   */
   readonly enableIntrospection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#options DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#options DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#options}
   */
   readonly options?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#resolutions DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#resolutions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#resolutions DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#resolutions}
   */
   readonly resolutions?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocalResolutions;
 }
@@ -2102,11 +2102,11 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorRemoteUpstreamRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#namespace DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#namespace DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2229,19 +2229,19 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorRemote {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#headers DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#headers DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#query_params DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#query_params DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#query_params}
   */
   readonly queryParams?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#span_name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#span_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#span_name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#span_name}
   */
   readonly spanName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#upstream_ref DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#upstream_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#upstream_ref DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#upstream_ref}
   */
   readonly upstreamRef?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorRemoteUpstreamRef;
 }
@@ -2422,11 +2422,11 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#local DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#local DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#local}
   */
   readonly local?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorLocal;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#remote DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#remote DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#remote}
   */
   readonly remote?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutorRemote;
 }
@@ -2549,11 +2549,11 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaGrpcDescriptorRegistryProtoRefsListConfigMapRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#namespace DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#namespace DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2698,7 +2698,7 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaGrpcDescriptorRegistryProtoRefsListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#config_map_refs DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#config_map_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#config_map_refs DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#config_map_refs}
   */
   readonly configMapRefs?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaGrpcDescriptorRegistryProtoRefsListConfigMapRefs[] | cdktf.IResolvable;
 }
@@ -2792,15 +2792,15 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaGrpcDescriptorRegistry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#proto_descriptor DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#proto_descriptor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#proto_descriptor DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#proto_descriptor}
   */
   readonly protoDescriptor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#proto_descriptor_bin DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#proto_descriptor_bin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#proto_descriptor_bin DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#proto_descriptor_bin}
   */
   readonly protoDescriptorBin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#proto_refs_list DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#proto_refs_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#proto_refs_list DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#proto_refs_list}
   */
   readonly protoRefsList?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaGrpcDescriptorRegistryProtoRefsListStruct;
 }
@@ -2952,15 +2952,15 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#executor DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#executor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#executor DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#executor}
   */
   readonly executor?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaExecutor;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#grpc_descriptor_registry DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#grpc_descriptor_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#grpc_descriptor_registry DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#grpc_descriptor_registry}
   */
   readonly grpcDescriptorRegistry?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchemaGrpcDescriptorRegistry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#schema_definition DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#schema_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#schema_definition DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#schema_definition}
   */
   readonly schemaDefinition?: string;
 }
@@ -3112,7 +3112,7 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSche
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecNamespacedStatuses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#statuses DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#statuses DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#statuses}
   */
   readonly statuses?: { [key: string]: string };
 }
@@ -3206,7 +3206,7 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecNamespacedStat
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#log_sensitive_info DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#log_sensitive_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#log_sensitive_info DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#log_sensitive_info}
   */
   readonly logSensitiveInfo?: boolean | cdktf.IResolvable;
 }
@@ -3300,7 +3300,7 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecOptionsOutputR
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecPersistedQueryCacheConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#cache_size DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#cache_size DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#cache_size}
   */
   readonly cacheSize?: number;
 }
@@ -3394,15 +3394,15 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecPersistedQuery
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecStitchedSchemaSubschemasTypeMerge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#args DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#args DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#args}
   */
   readonly args?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#query_name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#query_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#query_name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#query_name}
   */
   readonly queryName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#selection_set DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#selection_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#selection_set DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#selection_set}
   */
   readonly selectionSet?: string;
 }
@@ -3554,15 +3554,15 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecStitchedSchema
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecStitchedSchemaSubschemas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#name DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#namespace DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#namespace DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#type_merge DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#type_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#type_merge DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#type_merge}
   */
   readonly typeMerge?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecStitchedSchemaSubschemasTypeMerge;
 }
@@ -3736,7 +3736,7 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecStitchedSchema
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecStitchedSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#subschemas DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#subschemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#subschemas DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#subschemas}
   */
   readonly subschemas?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecStitchedSchemaSubschemas[] | cdktf.IResolvable;
 }
@@ -3830,31 +3830,31 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecStitchedSchema
 }
 export interface DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#allowed_query_hashes DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#allowed_query_hashes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#allowed_query_hashes DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#allowed_query_hashes}
   */
   readonly allowedQueryHashes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#executable_schema DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#executable_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#executable_schema DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#executable_schema}
   */
   readonly executableSchema?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecExecutableSchema;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#namespaced_statuses DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#namespaced_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#namespaced_statuses DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#namespaced_statuses}
   */
   readonly namespacedStatuses?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecNamespacedStatuses;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#options DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#options DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#options}
   */
   readonly options?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#persisted_query_cache_config DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#persisted_query_cache_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#persisted_query_cache_config DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#persisted_query_cache_config}
   */
   readonly persistedQueryCacheConfig?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecPersistedQueryCacheConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#stat_prefix DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#stat_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#stat_prefix DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#stat_prefix}
   */
   readonly statPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#stitched_schema DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#stitched_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#stitched_schema DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest#stitched_schema}
   */
   readonly stitchedSchema?: DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecStitchedSchema;
 }
@@ -4122,7 +4122,7 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest k8s_graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest k8s_graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest}
 */
 export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -4138,7 +4138,7 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4150,7 +4150,7 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest k8s_graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest k8s_graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4161,8 +4161,8 @@ export class DataK8SGraphqlGlooSoloIoGraphQlApiV1Beta1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_graphql_gloo_solo_io_graph_ql_api_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

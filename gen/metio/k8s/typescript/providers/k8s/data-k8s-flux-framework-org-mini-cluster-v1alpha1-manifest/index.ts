@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#metadata DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#metadata DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestMetadata;
   /**
   * MiniCluster is an HPC cluster in Kubernetes you can control Either to submit a single job (and go away) or for a persistent single- or multi- user cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#spec DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#spec DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#annotations DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#annotations DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#labels DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#labels DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#namespace DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#namespace DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecArchive {
   /**
   * Save or load from this directory path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#path DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#path DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -315,43 +315,43 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainer
   /**
   * A single command for only the broker to run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#broker_pre DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#broker_pre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#broker_pre DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#broker_pre}
   */
   readonly brokerPre?: string;
   /**
   * init command is run before anything
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#init DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#init DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#init}
   */
   readonly init?: string;
   /**
   * post command is run in the entrypoint when the broker exits / finishes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#post DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#post}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#post DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#post}
   */
   readonly post?: string;
   /**
   * pre command is run after global PreCommand, after asFlux is set (can override)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#pre DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#pre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#pre DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#pre}
   */
   readonly pre?: string;
   /**
   * Prefix to flux start / submit / broker Typically used for a wrapper command to mount, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#prefix DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#prefix DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * Run flux start as root - required for some storage binds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#run_flux_as_root DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#run_flux_as_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#run_flux_as_root DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#run_flux_as_root}
   */
   readonly runFluxAsRoot?: boolean | cdktf.IResolvable;
   /**
   * A command only for workers to run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#worker_pre DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#worker_pre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#worker_pre DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#worker_pre}
   */
   readonly workerPre?: string;
 }
@@ -621,35 +621,35 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainer
   /**
   * Claim name if the existing volume is a PVC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#claim_name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#claim_name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#claim_name}
   */
   readonly claimName?: string;
   /**
   * Config map name if the existing volume is a config map You should also define items if you are using this
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#config_map_name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#config_map_name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#config_map_name}
   */
   readonly configMapName?: string;
   /**
   * Items (key and paths) for the config map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#items DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#items DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#items}
   */
   readonly items?: { [key: string]: string };
   /**
   * Path and claim name are always required if a secret isn't defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#path DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#path DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#read_only DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#read_only DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * An existing secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#secret_name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#secret_name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -890,13 +890,13 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainer
   /**
   * Flux user name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * UID for the FluxUser
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#uid DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#uid DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#uid}
   */
   readonly uid?: number;
 }
@@ -1019,11 +1019,11 @@ export class DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainersFlu
 }
 export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainersLifeCycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#post_start_exec DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#post_start_exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#post_start_exec DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#post_start_exec}
   */
   readonly postStartExec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#pre_stop_exec DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#pre_stop_exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#pre_stop_exec DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#pre_stop_exec}
   */
   readonly preStopExec?: string;
 }
@@ -1146,11 +1146,11 @@ export class DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainersLif
 }
 export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#limits DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#limits DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#requests DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#requests DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1275,13 +1275,13 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainer
   /**
   * Key under secretKeyRef->Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#key DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#key DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name under secretKeyRef->Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1400,13 +1400,13 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainer
   /**
   * Capabilities to add
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#add_capabilities DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#add_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#add_capabilities DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#add_capabilities}
   */
   readonly addCapabilities?: string[];
   /**
   * Privileged container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#privileged DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#privileged DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
 }
@@ -1529,11 +1529,11 @@ export class DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainersSec
 }
 export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainersVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#path DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#path DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#read_only DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#read_only DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -1655,139 +1655,139 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainer
   /**
   * Indicate that the command is a batch job that will be written to a file to submit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#batch DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#batch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#batch DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#batch}
   */
   readonly batch?: boolean | cdktf.IResolvable;
   /**
   * Don't wrap batch commands in flux submit (provide custom logic myself)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#batch_raw DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#batch_raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#batch_raw DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#batch_raw}
   */
   readonly batchRaw?: boolean | cdktf.IResolvable;
   /**
   * Single user executable to provide to flux start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#command DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#command DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#command}
   */
   readonly command?: string;
   /**
   * More specific or detailed commands for just workers/broker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#commands DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#commands DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#commands}
   */
   readonly commands?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainersCommands;
   /**
   * Cores the container should use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#cores DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#cores DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#cores}
   */
   readonly cores?: number;
   /**
   * Run flux diagnostics on start instead of command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#diagnostics DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#diagnostics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#diagnostics DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#diagnostics}
   */
   readonly diagnostics?: boolean | cdktf.IResolvable;
   /**
   * Key/value pairs for the environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#environment DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#environment DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
   * Existing Volumes to add to the containers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#existing_volumes DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#existing_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#existing_volumes DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#existing_volumes}
   */
   readonly existingVolumes?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainersExistingVolumes;
   /**
   * Flux User, if created in the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#flux_user DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#flux_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#flux_user DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#flux_user}
   */
   readonly fluxUser?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainersFluxUser;
   /**
   * Container image must contain flux and flux-sched install
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#image DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#image DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Allow the user to pull authenticated images By default no secret is selected. Setting this with the name of an already existing imagePullSecret will specify that secret in the pod spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#image_pull_secret DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#image_pull_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#image_pull_secret DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#image_pull_secret}
   */
   readonly imagePullSecret?: string;
   /**
   * Indicate that the command is a launcher that will ask for its own jobs (and provided directly to flux start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#launcher DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#launcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#launcher DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#launcher}
   */
   readonly launcher?: boolean | cdktf.IResolvable;
   /**
   * Lifecycle can handle post start commands, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#life_cycle DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#life_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#life_cycle DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#life_cycle}
   */
   readonly lifeCycle?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainersLifeCycle;
   /**
   * Log output directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#logs DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#logs DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#logs}
   */
   readonly logs?: string;
   /**
   * Container name is only required for non flux runners
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Ports to be exposed to other containers in the cluster We take a single list of integers and map to the same
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#ports DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#ports DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#ports}
   */
   readonly ports?: string[];
   /**
   * Allow the user to dictate pulling By default we pull if not present. Setting this to true will indicate to pull always
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#pull_always DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#pull_always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#pull_always DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#pull_always}
   */
   readonly pullAlways?: boolean | cdktf.IResolvable;
   /**
   * Resources include limits and requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#resources DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#resources DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainersResources;
   /**
   * Main container to run flux (only should be one)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#run_flux DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#run_flux}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#run_flux DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#run_flux}
   */
   readonly runFlux?: boolean | cdktf.IResolvable;
   /**
   * Secrets that will be added to the environment The user is expected to create their own secrets for the operator to find
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#secrets DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#secrets DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#secrets}
   */
   readonly secrets?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainersSecrets;
   /**
   * Security Context https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#security_context DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#security_context DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainersSecurityContext;
   /**
   * Volumes that can be mounted (must be defined in volumes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#volumes DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#volumes DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainersVolumes;
   /**
   * Working directory to run command from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#working_dir DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#working_dir DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -2543,13 +2543,13 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecFluxBurst
   /**
   * The hostnames for the bursted clusters If set, the user is responsible for ensuring uniqueness. The operator will set to burst-N
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Size of bursted cluster. Defaults to same size as local minicluster if not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#size DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#size DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#size}
   */
   readonly size?: number;
 }
@@ -2696,25 +2696,25 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecFluxBurst
   /**
   * Lead broker address (ip or hostname)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#address DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#address DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#address}
   */
   readonly address: string;
   /**
   * We need the name of the lead job to assemble the hostnames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Lead broker port - should only be used for external cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#port DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#port DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Lead broker size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#size DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#size DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#size}
   */
   readonly size: number;
 }
@@ -2888,19 +2888,19 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecFluxBurst
   /**
   * External clusters to burst to. Each external cluster must share the same listing to align ranks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#clusters DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#clusters DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecFluxBurstingClusters[] | cdktf.IResolvable;
   /**
   * Hostlist is a custom hostlist for the broker.toml that includes the local plus bursted cluster. This is typically used for bursting to another resource type, where we can predict the hostnames but they don't follow the same convention as the Flux Operator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#hostlist DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#hostlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#hostlist DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#hostlist}
   */
   readonly hostlist?: string;
   /**
   * The lead broker ip address to join to. E.g., if we burst to cluster 2, this is the address to connect to cluster 1 For the first cluster, this should not be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#lead_broker DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#lead_broker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#lead_broker DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#lead_broker}
   */
   readonly leadBroker?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecFluxBurstingLeadBroker;
 }
@@ -3054,7 +3054,7 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecFluxSched
   /**
   * Scheduler queue policy, defaults to 'fcfs' can also be 'easy'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#queue_policy DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#queue_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#queue_policy DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#queue_policy}
   */
   readonly queuePolicy?: string;
 }
@@ -3150,79 +3150,79 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecFlux {
   /**
   * Optionally provide a manually created broker config this is intended for bursting to remote clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#broker_config DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#broker_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#broker_config DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#broker_config}
   */
   readonly brokerConfig?: string;
   /**
   * Bursting - one or more external clusters to burst to We assume a single, central MiniCluster with an ipaddress that all connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#bursting DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#bursting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#bursting DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#bursting}
   */
   readonly bursting?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecFluxBursting;
   /**
   * Single user executable to provide to flux start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#connect_timeout DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#connect_timeout DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#connect_timeout}
   */
   readonly connectTimeout?: string;
   /**
   * Optionally provide an already existing curve certificate This is not recommended in favor of providing the secret name as curveCertSecret, below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#curve_cert DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#curve_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#curve_cert DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#curve_cert}
   */
   readonly curveCert?: string;
   /**
   * Expect a secret for a curve cert here. This is ideal over the curveCert (as a string) above.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#curve_cert_secret DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#curve_cert_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#curve_cert_secret DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#curve_cert_secret}
   */
   readonly curveCertSecret?: string;
   /**
   * Install root location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#install_root DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#install_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#install_root DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#install_root}
   */
   readonly installRoot?: string;
   /**
   * Log level to use for flux logging (only in non TestMode)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#log_level DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#log_level DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: number;
   /**
   * Only expose the broker service (to reduce load on DNS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#minimal_service DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#minimal_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#minimal_service DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#minimal_service}
   */
   readonly minimalService?: boolean | cdktf.IResolvable;
   /**
   * Expect a secret (named according to this string) for a munge key. This is intended for bursting. Assumed to be at /etc/munge/munge.key This is binary data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#munge_secret DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#munge_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#munge_secret DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#munge_secret}
   */
   readonly mungeSecret?: string;
   /**
   * Flux option flags, usually provided with -o optional - if needed, default option flags for the server These can also be set in the user interface to override here. This is only valid for a FluxRunner 'runFlux' true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#option_flags DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#option_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#option_flags DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#option_flags}
   */
   readonly optionFlags?: string;
   /**
   * Custom attributes for the fluxion scheduler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#scheduler DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#scheduler DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#scheduler}
   */
   readonly scheduler?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecFluxScheduler;
   /**
   * Modify flux submit to be something else
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#submit_command DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#submit_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#submit_command DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#submit_command}
   */
   readonly submitCommand?: string;
   /**
   * Commands for flux start --wrap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#wrap DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#wrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#wrap DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#wrap}
   */
   readonly wrap?: string;
 }
@@ -3666,31 +3666,31 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecFluxRestf
   /**
   * Branch to clone Flux Restful API from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#branch DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#branch DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#branch}
   */
   readonly branch?: string;
   /**
   * Port to run Flux Restful Server On
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#port DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#port DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Secret key shared between server and client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#secret_key DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#secret_key DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#secret_key}
   */
   readonly secretKey?: string;
   /**
   * Token to use for RestFul API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#token DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#token DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#token}
   */
   readonly token?: string;
   /**
   * These two should not actually be set by a user, but rather generated by tools and provided Username to use for RestFul API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#username DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#username DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -3902,31 +3902,31 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecLogging {
   /**
   * Debug mode adds extra verbosity to Flux
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#debug DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#debug DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
   * Quiet mode silences all output so the job only shows the test running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#quiet DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#quiet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#quiet DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#quiet}
   */
   readonly quiet?: boolean | cdktf.IResolvable;
   /**
   * Strict mode ensures any failure will not continue in the job entrypoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#strict DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#strict DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#strict}
   */
   readonly strict?: boolean | cdktf.IResolvable;
   /**
   * Timed mode adds timing to Flux commands
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#timed DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#timed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#timed DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#timed}
   */
   readonly timed?: boolean | cdktf.IResolvable;
   /**
   * Enable Zeromq logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#zeromq DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#zeromq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#zeromq DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#zeromq}
   */
   readonly zeromq?: boolean | cdktf.IResolvable;
 }
@@ -4138,7 +4138,7 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecNetwork {
   /**
   * Name for cluster headless service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#headless_name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#headless_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#headless_name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#headless_name}
   */
   readonly headlessName?: string;
 }
@@ -4234,31 +4234,31 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecPod {
   /**
   * Annotations for each pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#annotations DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#annotations DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels for each pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#labels DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#labels DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * NodeSelectors for a pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#node_selector DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#node_selector DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Resources include limits and requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#resources DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#resources DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: { [key: string]: string };
   /**
   * Service account name for the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#service_account_name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#service_account_name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
 }
@@ -4470,43 +4470,43 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesC
   /**
   * A single command for only the broker to run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#broker_pre DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#broker_pre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#broker_pre DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#broker_pre}
   */
   readonly brokerPre?: string;
   /**
   * init command is run before anything
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#init DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#init DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#init}
   */
   readonly init?: string;
   /**
   * post command is run in the entrypoint when the broker exits / finishes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#post DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#post}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#post DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#post}
   */
   readonly post?: string;
   /**
   * pre command is run after global PreCommand, after asFlux is set (can override)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#pre DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#pre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#pre DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#pre}
   */
   readonly pre?: string;
   /**
   * Prefix to flux start / submit / broker Typically used for a wrapper command to mount, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#prefix DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#prefix DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * Run flux start as root - required for some storage binds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#run_flux_as_root DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#run_flux_as_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#run_flux_as_root DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#run_flux_as_root}
   */
   readonly runFluxAsRoot?: boolean | cdktf.IResolvable;
   /**
   * A command only for workers to run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#worker_pre DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#worker_pre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#worker_pre DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#worker_pre}
   */
   readonly workerPre?: string;
 }
@@ -4776,35 +4776,35 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesE
   /**
   * Claim name if the existing volume is a PVC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#claim_name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#claim_name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#claim_name}
   */
   readonly claimName?: string;
   /**
   * Config map name if the existing volume is a config map You should also define items if you are using this
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#config_map_name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#config_map_name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#config_map_name}
   */
   readonly configMapName?: string;
   /**
   * Items (key and paths) for the config map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#items DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#items DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#items}
   */
   readonly items?: { [key: string]: string };
   /**
   * Path and claim name are always required if a secret isn't defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#path DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#path DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#read_only DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#read_only DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * An existing secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#secret_name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#secret_name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -5045,13 +5045,13 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesF
   /**
   * Flux user name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * UID for the FluxUser
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#uid DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#uid DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#uid}
   */
   readonly uid?: number;
 }
@@ -5174,11 +5174,11 @@ export class DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesFluxU
 }
 export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesLifeCycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#post_start_exec DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#post_start_exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#post_start_exec DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#post_start_exec}
   */
   readonly postStartExec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#pre_stop_exec DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#pre_stop_exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#pre_stop_exec DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#pre_stop_exec}
   */
   readonly preStopExec?: string;
 }
@@ -5301,11 +5301,11 @@ export class DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesLifeC
 }
 export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#limits DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#limits DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#requests DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#requests DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5430,13 +5430,13 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesS
   /**
   * Key under secretKeyRef->Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#key DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#key DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name under secretKeyRef->Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -5555,13 +5555,13 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesS
   /**
   * Capabilities to add
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#add_capabilities DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#add_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#add_capabilities DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#add_capabilities}
   */
   readonly addCapabilities?: string[];
   /**
   * Privileged container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#privileged DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#privileged DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
 }
@@ -5684,11 +5684,11 @@ export class DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesSecur
 }
 export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#path DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#path DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#read_only DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#read_only DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -5810,139 +5810,139 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServices 
   /**
   * Indicate that the command is a batch job that will be written to a file to submit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#batch DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#batch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#batch DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#batch}
   */
   readonly batch?: boolean | cdktf.IResolvable;
   /**
   * Don't wrap batch commands in flux submit (provide custom logic myself)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#batch_raw DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#batch_raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#batch_raw DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#batch_raw}
   */
   readonly batchRaw?: boolean | cdktf.IResolvable;
   /**
   * Single user executable to provide to flux start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#command DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#command DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#command}
   */
   readonly command?: string;
   /**
   * More specific or detailed commands for just workers/broker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#commands DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#commands DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#commands}
   */
   readonly commands?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesCommands;
   /**
   * Cores the container should use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#cores DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#cores DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#cores}
   */
   readonly cores?: number;
   /**
   * Run flux diagnostics on start instead of command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#diagnostics DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#diagnostics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#diagnostics DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#diagnostics}
   */
   readonly diagnostics?: boolean | cdktf.IResolvable;
   /**
   * Key/value pairs for the environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#environment DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#environment DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
   * Existing Volumes to add to the containers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#existing_volumes DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#existing_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#existing_volumes DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#existing_volumes}
   */
   readonly existingVolumes?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesExistingVolumes;
   /**
   * Flux User, if created in the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#flux_user DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#flux_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#flux_user DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#flux_user}
   */
   readonly fluxUser?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesFluxUser;
   /**
   * Container image must contain flux and flux-sched install
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#image DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#image DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Allow the user to pull authenticated images By default no secret is selected. Setting this with the name of an already existing imagePullSecret will specify that secret in the pod spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#image_pull_secret DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#image_pull_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#image_pull_secret DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#image_pull_secret}
   */
   readonly imagePullSecret?: string;
   /**
   * Indicate that the command is a launcher that will ask for its own jobs (and provided directly to flux start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#launcher DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#launcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#launcher DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#launcher}
   */
   readonly launcher?: boolean | cdktf.IResolvable;
   /**
   * Lifecycle can handle post start commands, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#life_cycle DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#life_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#life_cycle DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#life_cycle}
   */
   readonly lifeCycle?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesLifeCycle;
   /**
   * Log output directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#logs DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#logs DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#logs}
   */
   readonly logs?: string;
   /**
   * Container name is only required for non flux runners
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Ports to be exposed to other containers in the cluster We take a single list of integers and map to the same
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#ports DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#ports DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#ports}
   */
   readonly ports?: string[];
   /**
   * Allow the user to dictate pulling By default we pull if not present. Setting this to true will indicate to pull always
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#pull_always DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#pull_always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#pull_always DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#pull_always}
   */
   readonly pullAlways?: boolean | cdktf.IResolvable;
   /**
   * Resources include limits and requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#resources DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#resources DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesResources;
   /**
   * Main container to run flux (only should be one)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#run_flux DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#run_flux}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#run_flux DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#run_flux}
   */
   readonly runFlux?: boolean | cdktf.IResolvable;
   /**
   * Secrets that will be added to the environment The user is expected to create their own secrets for the operator to find
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#secrets DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#secrets DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#secrets}
   */
   readonly secrets?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesSecrets;
   /**
   * Security Context https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#security_context DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#security_context DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesSecurityContext;
   /**
   * Volumes that can be mounted (must be defined in volumes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#volumes DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#volumes DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServicesVolumes;
   /**
   * Working directory to run command from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#working_dir DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#working_dir DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -6698,11 +6698,11 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecUsers {
   /**
   * If a user is defined, the username is required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#name DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#password DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#password DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#password}
   */
   readonly password?: string;
 }
@@ -6846,67 +6846,67 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecVolumes {
   /**
   * Annotations for the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#annotations DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#annotations DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Optional volume attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#attributes DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#attributes DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
   * Capacity (string) for PVC (storage request) to create PV
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#capacity DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#capacity DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#capacity}
   */
   readonly capacity?: string;
   /**
   * Annotations for the persistent volume claim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#claim_annotations DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#claim_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#claim_annotations DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#claim_annotations}
   */
   readonly claimAnnotations?: { [key: string]: string };
   /**
   * Delete the persistent volume on cleanup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#delete DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#delete DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#delete}
   */
   readonly delete?: boolean | cdktf.IResolvable;
   /**
   * Storage driver, e.g., gcs.csi.ofek.dev Only needed if not using hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#driver DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#driver DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#driver}
   */
   readonly driver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#labels DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#labels DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#path DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#path DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Secret reference in Kubernetes with service account role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#secret DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#secret DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#secret}
   */
   readonly secret?: string;
   /**
   * Secret namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#secret_namespace DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#secret_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#secret_namespace DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#secret_namespace}
   */
   readonly secretNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#storage_class DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#storage_class DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
   /**
   * Volume handle, falls back to storage class name if not defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#volume_handle DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#volume_handle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#volume_handle DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#volume_handle}
   */
   readonly volumeHandle?: string;
 }
@@ -7318,109 +7318,109 @@ export interface DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpec {
   /**
   * Archive to load or save
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#archive DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#archive DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#archive}
   */
   readonly archive?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecArchive;
   /**
   * Cleanup the pods and storage when the index broker pod is complete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#cleanup DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#cleanup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#cleanup DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#cleanup}
   */
   readonly cleanup?: boolean | cdktf.IResolvable;
   /**
   * Containers is one or more containers to be created in a pod. There should only be one container to run flux with runFlux
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#containers DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#containers DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#containers}
   */
   readonly containers: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecContainers[] | cdktf.IResolvable;
   /**
   * Should the job be limited to a particular number of seconds? Approximately one year. This cannot be zero or job won't start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#deadline_seconds DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#deadline_seconds DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#deadline_seconds}
   */
   readonly deadlineSeconds?: number;
   /**
   * Flux options for the broker, shared across cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#flux DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#flux}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#flux DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#flux}
   */
   readonly flux?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecFlux;
   /**
   * Customization to Flux Restful API There should only be one container to run flux with runFlux
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#flux_restful DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#flux_restful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#flux_restful DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#flux_restful}
   */
   readonly fluxRestful?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecFluxRestful;
   /**
   * Run a single-user, interactive minicluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#interactive DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#interactive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#interactive DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#interactive}
   */
   readonly interactive?: boolean | cdktf.IResolvable;
   /**
   * Labels for the job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#job_labels DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#job_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#job_labels DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#job_labels}
   */
   readonly jobLabels?: { [key: string]: string };
   /**
   * Logging modes determine the output you see in the job log
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#logging DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#logging DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecLogging;
   /**
   * MaxSize (maximum number of pods to allow scaling to)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#max_size DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#max_size DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#max_size}
   */
   readonly maxSize?: number;
   /**
   * A spec for exposing or defining the cluster headless service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#network DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#network DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#network}
   */
   readonly network?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecNetwork;
   /**
   * Pod spec details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#pod DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#pod DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#pod}
   */
   readonly pod?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecPod;
   /**
   * Services are one or more service containers to bring up alongside the MiniCluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#services DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#services DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#services}
   */
   readonly services?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecServices[] | cdktf.IResolvable;
   /**
   * Share process namespace?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#share_process_namespace DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#share_process_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#share_process_namespace DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#share_process_namespace}
   */
   readonly shareProcessNamespace?: boolean | cdktf.IResolvable;
   /**
   * Size (number of job pods to run, size of minicluster in pods) This is also the minimum number required to start Flux
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#size DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#size DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#size}
   */
   readonly size?: number;
   /**
   * Total number of CPUs being run across entire cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#tasks DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#tasks DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#tasks}
   */
   readonly tasks?: number;
   /**
   * Users of the MiniCluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#users DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#users DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#users}
   */
   readonly users?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecUsers[] | cdktf.IResolvable;
   /**
   * Volumes accessible to containers from a host Not all containers are required to use them
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#volumes DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#volumes DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecVolumes;
 }
@@ -8004,7 +8004,7 @@ export class DataK8SFluxFrameworkOrgMiniClusterV1Alpha1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest k8s_flux_framework_org_mini_cluster_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest k8s_flux_framework_org_mini_cluster_v1alpha1_manifest}
 */
 export class DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -8020,7 +8020,7 @@ export class DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8032,7 +8032,7 @@ export class DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest k8s_flux_framework_org_mini_cluster_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flux_framework_org_mini_cluster_v1alpha1_manifest k8s_flux_framework_org_mini_cluster_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8043,8 +8043,8 @@ export class DataK8SFluxFrameworkOrgMiniClusterV1Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_flux_framework_org_mini_cluster_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

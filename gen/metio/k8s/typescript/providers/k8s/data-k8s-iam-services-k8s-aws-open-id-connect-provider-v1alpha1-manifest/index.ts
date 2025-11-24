@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1ManifestCo
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#metadata DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#metadata DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1ManifestMetadata;
   /**
   * OpenIDConnectProviderSpec defines the desired state of OpenIDConnectProvider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#spec DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#spec DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1ManifestMe
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#annotations DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#annotations DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#labels DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#labels DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#name DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#name DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#namespace DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#namespace DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1ManifestMetada
 }
 export interface DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#key DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#key DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#value DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#value DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -368,25 +368,25 @@ export interface DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1ManifestSp
   /**
   * Provides a list of client IDs, also known as audiences. When a mobile or web app registers with an OpenID Connect provider, they establish a value that identifies the application. This is the value that's sent as the client_id parameter on OAuth requests. You can register multiple client IDs with the same provider. For example, you might have multiple applications that use the same OIDC provider. You cannot register more than 100 client IDs with a single IAM OIDC provider. There is no defined format for a client ID. The CreateOpenIDConnectProviderRequest operation accepts client IDs up to 255 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#client_i_ds DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#client_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#client_i_ds DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#client_i_ds}
   */
   readonly clientIDs?: string[];
   /**
   * A list of tags that you want to attach to the new IAM OpenID Connect (OIDC) provider. Each tag consists of a key name and an associated value. For more information about tagging, see Tagging IAM resources (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_tags.html) in the IAM User Guide. If any one of the tags is invalid or if you exceed the allowed maximum number of tags, then the entire request fails and the resource is not created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#tags DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#tags DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * A list of server certificate thumbprints for the OpenID Connect (OIDC) identity provider's server certificates. Typically this list includes only one entry. However, IAM lets you have up to five thumbprints for an OIDC provider. This lets you maintain multiple thumbprints if the identity provider is rotating certificates. The server certificate thumbprint is the hex-encoded SHA-1 hash value of the X.509 certificate used by the domain where the OpenID Connect provider makes its keys available. It is always a 40-character string. You must provide at least one thumbprint when creating an IAM OIDC provider. For example, assume that the OIDC provider is server.example.com and the provider stores its keys at https://keys.server.example.com/openid-connect. In that case, the thumbprint string would be the hex-encoded SHA-1 hash value of the certificate used by https://keys.server.example.com. For more information about obtaining the OIDC provider thumbprint, see Obtaining the thumbprint for an OpenID Connect provider (https://docs.aws.amazon.com/IAM/latest/UserGuide/identity-providers-oidc-obtain-thumbprint.html) in the IAM user Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#thumbprints DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#thumbprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#thumbprints DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#thumbprints}
   */
   readonly thumbprints: string[];
   /**
   * The URL of the identity provider. The URL must begin with https:// and should correspond to the iss claim in the provider's OpenID Connect ID tokens. Per the OIDC standard, path components are allowed but query parameters are not. Typically the URL consists of only a hostname, like https://server.example.org or https://example.com. The URL should not contain a port number. You cannot register the same provider multiple times in a single Amazon Web Services account. If you try to submit a URL that has already been used for an OpenID Connect provider in the Amazon Web Services account, you will get an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#url DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#url DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -561,7 +561,7 @@ export class DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1ManifestSpecOu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest k8s_iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest k8s_iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest}
 */
 export class DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -577,7 +577,7 @@ export class DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest exten
   * Generates CDKTF code for importing a DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -589,7 +589,7 @@ export class DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest exten
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest k8s_iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest k8s_iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -600,8 +600,8 @@ export class DataK8SIamServicesK8SAwsOpenIdConnectProviderV1Alpha1Manifest exten
       terraformResourceType: 'k8s_iam_services_k8s_aws_open_id_connect_provider_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

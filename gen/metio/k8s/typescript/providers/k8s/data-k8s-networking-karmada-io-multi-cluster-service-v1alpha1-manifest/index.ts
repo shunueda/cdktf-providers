@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1ManifestCo
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#metadata DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#metadata DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1ManifestMetadata;
   /**
   * Spec is the desired state of the MultiClusterService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#spec DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#spec DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1ManifestMe
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#annotations DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#annotations DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#labels DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#labels DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#name DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#name DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#namespace DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#namespace DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1ManifestSp
   /**
   * Name is the name of the cluster to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#name DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#name DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -337,13 +337,13 @@ export interface DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1ManifestSp
   /**
   * Name is the name of the port that needs to be exposed within the service. The port name must be the same as that defined in the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#name DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#name DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Port specifies the exposed service port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#port DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#port DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#port}
   */
   readonly port: number;
 }
@@ -487,7 +487,7 @@ export interface DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1ManifestSp
   /**
   * Name is the name of the cluster to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#name DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#name DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -605,7 +605,7 @@ export interface DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1ManifestSp
   /**
   * ClusterNames is the list of clusters to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#cluster_names DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#cluster_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#cluster_names DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#cluster_names}
   */
   readonly clusterNames?: string[];
 }
@@ -701,43 +701,43 @@ export interface DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1ManifestSp
   /**
   * ConsumerClusters specifies the clusters where the service will be exposed, for clients. If leave it empty, the service will be exposed to all clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#consumer_clusters DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#consumer_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#consumer_clusters DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#consumer_clusters}
   */
   readonly consumerClusters?: DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1ManifestSpecConsumerClusters[] | cdktf.IResolvable;
   /**
   * Ports is the list of ports that are exposed by this MultiClusterService. No specified port will be filtered out during the service exposure and discovery process. All ports in the referencing service will be exposed by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#ports DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#ports DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1ManifestSpecPorts[] | cdktf.IResolvable;
   /**
   * ProviderClusters specifies the clusters which will provide the service backend. If leave it empty, we will collect the backend endpoints from all clusters and sync them to the ConsumerClusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#provider_clusters DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#provider_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#provider_clusters DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#provider_clusters}
   */
   readonly providerClusters?: DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1ManifestSpecProviderClusters[] | cdktf.IResolvable;
   /**
   * Range specifies the ranges where the referencing service should be exposed. Only valid and optional in case of Types contains CrossCluster. If not set and Types contains CrossCluster, all clusters will be selected, that means the referencing service will be exposed across all registered clusters. Deprecated: in favor of ProviderClusters/ConsumerClusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#range DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#range DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#range}
   */
   readonly range?: DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1ManifestSpecRange;
   /**
   * ServiceConsumptionClusters specifies the clusters where the service will be exposed, for clients. If leave it empty, the service will be exposed to all clusters. Deprecated: in favor of ProviderClusters/ConsumerClusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#service_consumption_clusters DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#service_consumption_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#service_consumption_clusters DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#service_consumption_clusters}
   */
   readonly serviceConsumptionClusters?: string[];
   /**
   * ServiceProvisionClusters specifies the clusters which will provision the service backend. If leave it empty, we will collect the backend endpoints from all clusters and sync them to the ServiceConsumptionClusters. Deprecated: in favor of ProviderClusters/ConsumerClusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#service_provision_clusters DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#service_provision_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#service_provision_clusters DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#service_provision_clusters}
   */
   readonly serviceProvisionClusters?: string[];
   /**
   * Types specifies how to expose the service referencing by this MultiClusterService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#types DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#types DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest#types}
   */
   readonly types: string[];
 }
@@ -1002,7 +1002,7 @@ export class DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1ManifestSpecOu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest k8s_networking_karmada_io_multi_cluster_service_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest k8s_networking_karmada_io_multi_cluster_service_v1alpha1_manifest}
 */
 export class DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1018,7 +1018,7 @@ export class DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest exten
   * Generates CDKTF code for importing a DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1030,7 +1030,7 @@ export class DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest exten
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest k8s_networking_karmada_io_multi_cluster_service_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_karmada_io_multi_cluster_service_v1alpha1_manifest k8s_networking_karmada_io_multi_cluster_service_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1041,8 +1041,8 @@ export class DataK8SNetworkingKarmadaIoMultiClusterServiceV1Alpha1Manifest exten
       terraformResourceType: 'k8s_networking_karmada_io_multi_cluster_service_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -83,19 +83,19 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#key DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#key DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#operator DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#operator DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#values DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#values DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -265,13 +265,13 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#match_expressions DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#match_expressions DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#match_labels DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#match_labels DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -396,55 +396,55 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#access_modes DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#access_modes DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#data_source DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#data_source DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#data_source}
   */
   readonly dataSource?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#data_source_ref DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#data_source_ref DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#resources DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#resources DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#selector DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#selector DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#selector}
   */
   readonly selector?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#storage_class_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#storage_class_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Alpha) Using this field requires the VolumeAttributesClass feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_attributes_class_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_attributes_class_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_mode DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_mode DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -772,13 +772,13 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * May contain labels and annotations that will be copied into the PVC when creating it. No other fields are allowed and will be rejected during validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#metadata DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#metadata DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The specification for the PersistentVolumeClaim. The entire content is copied unchanged into the PVC that gets created from this template. The same fields as in a PersistentVolumeClaim are also valid here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#spec DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#spec DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#spec}
   */
   readonly spec: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -900,7 +900,7 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * Will be used to create a stand-alone PVC to provision the volume. The pod in which this EphemeralVolumeSource is embedded will be the owner of the PVC, i.e. the PVC will be deleted together with the pod. The name of the PVC will be '<pod name>-<volume name>' where '<volume name>' is the name from the 'PodSpec.Volumes' array entry. Pod validation will reject the pod if the concatenated name is not valid for a PVC (for example, too long). An existing PVC with that name that is not owned by the pod will *not* be used for the pod to avoid using an unrelated volume by mistake. Starting the pod is then blocked until the unrelated PVC is removed. If such a pre-created PVC is meant to be used by the pod, the PVC has to updated with an owner reference to the pod once the pod exists. Normally this should not be necessary, but it may be useful when manually reconstructing a broken cluster. This field is read-only and no changes will be made by Kubernetes to the PVC after it has been created. Required, must not be nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_claim_template DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_claim_template DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesEphemeralVolumeClaimTemplate;
 }
@@ -996,31 +996,31 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * lun is Optional: FC target lun number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#lun DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#lun DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#lun}
   */
   readonly lun?: number;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * targetWWNs is Optional: FC target worldwide names (WWNs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#target_ww_ns DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#target_ww_ns DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
   * wwids Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#wwids DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#wwids DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -1232,7 +1232,7 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1328,31 +1328,31 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * driver is the name of the driver to use for this volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#driver DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#driver DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. The default filesystem depends on FlexVolume script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * options is Optional: this field holds extra command options if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#options DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#options DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * readOnly is Optional: defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is Optional: secretRef is reference to the secret object containing sensitive information to pass to the plugin scripts. This may be empty if no secret object is specified. If the secret object contains more than one secret, all secrets are passed to the plugin scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#secret_ref DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#secret_ref DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesFlexVolumeSecretRef;
 }
@@ -1561,13 +1561,13 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * datasetName is Name of the dataset stored as metadata -> name on the dataset for Flocker should be considered as deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#dataset_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#dataset_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
   * datasetUUID is the UUID of the dataset. This is unique identifier of a Flocker dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#dataset_uuid DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#dataset_uuid DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -1692,25 +1692,25 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * fsType is filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty). More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#partition DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#partition DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * pdName is unique name of the PD resource in GCE. Used to identify the disk in GCE. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#pd_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#pd_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -1890,19 +1890,19 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * directory is the target directory name. Must not contain or start with '..'. If '.' is supplied, the volume directory will be the git repository. Otherwise, if specified, the volume will contain the git repository in the subdirectory with the given name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#directory DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#directory DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#directory}
   */
   readonly directory?: string;
   /**
   * repository is the URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#repository DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#repository DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#repository}
   */
   readonly repository: string;
   /**
   * revision is the commit hash for the specified revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#revision DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#revision DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -2053,19 +2053,19 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * endpoints is the endpoint name that details Glusterfs topology. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#endpoints DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#endpoints DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
   * path is the Glusterfs volume path. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the Glusterfs volume to be mounted with read-only permissions. Defaults to false. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -2213,13 +2213,13 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * path of the directory on the host. If the path is a symlink, it will follow the link to the real path. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * type for HostPath Volume Defaults to '' More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2341,7 +2341,7 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2437,67 +2437,67 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#chap_auth_discovery DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#chap_auth_discovery DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
   * chapAuthSession defines whether support iSCSI Session CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#chap_auth_session DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#chap_auth_session DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#iscsi
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * initiatorName is the custom iSCSI Initiator Name. If initiatorName is specified with iscsiInterface simultaneously, new iSCSI interface <target portal>:<volume name> will be created for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#initiator_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#initiator_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
   * iqn is the target iSCSI Qualified Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#iqn DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#iqn DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#iqn}
   */
   readonly iqn: string;
   /**
   * iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#iscsi_interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#iscsi_interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
   * lun represents iSCSI Target Lun number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#lun DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#lun DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#lun}
   */
   readonly lun: number;
   /**
   * portals is the iSCSI Target Portal List. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#portals DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#portals DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#portals}
   */
   readonly portals?: string[];
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is the CHAP Secret for iSCSI target and initiator authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#secret_ref DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#secret_ref DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesIscsiSecretRef;
   /**
   * targetPortal is iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#target_portal DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#target_portal DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -2874,19 +2874,19 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the NFS export to be mounted with read-only permissions. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * server is the hostname or IP address of the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#server DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#server DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#server}
   */
   readonly server: string;
 }
@@ -3034,13 +3034,13 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#claim_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#claim_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -3162,13 +3162,13 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * pdID is the ID that identifies Photon Controller persistent disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#pd_id DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#pd_id DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -3290,19 +3290,19 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * fSType represents the filesystem type to mount Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID uniquely identifies a Portworx volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_id DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_id DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -3453,19 +3453,19 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#key DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#key DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#operator DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#operator DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#values DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#values DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3635,13 +3635,13 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#match_expressions DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#match_expressions DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#match_labels DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#match_labels DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3766,31 +3766,31 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * Select all ClusterTrustBundles that match this label selector. Only has effect if signerName is set. Mutually-exclusive with name. If unset, interpreted as 'match nothing'. If set but empty, interpreted as 'match everything'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#label_selector DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#label_selector DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesProjectedSourcesClusterTrustBundleLabelSelector;
   /**
   * Select a single ClusterTrustBundle by object name. Mutually-exclusive with signerName and labelSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * If true, don't block pod startup if the referenced ClusterTrustBundle(s) aren't available. If using name, then the named ClusterTrustBundle is allowed not to exist. If using signerName, then the combination of signerName and labelSelector is allowed to match zero ClusterTrustBundles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#optional DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#optional DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * Relative path from the volume root to write the bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * Select all ClusterTrustBundles that match this signer name. Mutually-exclusive with name. The contents of all selected ClusterTrustBundles will be unified and deduplicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#signer_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#signer_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -3999,19 +3999,19 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#key DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#key DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#mode DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#mode DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -4181,19 +4181,19 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#items DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#items DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#items}
   */
   readonly items?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#optional DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#optional DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4347,13 +4347,13 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#api_version DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#api_version DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#field_path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#field_path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -4475,19 +4475,19 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#container_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#container_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#divisor DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#divisor DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#resource DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#resource DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -4638,25 +4638,25 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#field_ref DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#field_ref DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#mode DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#mode DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#resource_field_ref DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#resource_field_ref DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -4858,7 +4858,7 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * Items is a list of DownwardAPIVolume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#items DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#items DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#items}
   */
   readonly items?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -4954,19 +4954,19 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#key DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#key DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#mode DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#mode DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -5136,19 +5136,19 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#items DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#items DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#items}
   */
   readonly items?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#optional DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#optional DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5302,19 +5302,19 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#audience DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#audience DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#expiration_seconds DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#expiration_seconds DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -5465,31 +5465,31 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * ClusterTrustBundle allows a pod to access the '.spec.trustBundle' field of ClusterTrustBundle objects in an auto-updating file. Alpha, gated by the ClusterTrustBundleProjection feature gate. ClusterTrustBundle objects can either be selected by name, or by the combination of signer name and a label selector. Kubelet performs aggressive normalization of the PEM contents written into the pod filesystem. Esoteric PEM features such as inter-block comments and block headers are stripped. Certificates are deduplicated. The ordering of certificates within the file is arbitrary, and Kubelet may change the order over time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#cluster_trust_bundle DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#cluster_trust_bundle DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesProjectedSourcesClusterTrustBundle;
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#config_map DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#config_map DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesProjectedSourcesConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#downward_api DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#downward_api DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesProjectedSourcesDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#secret DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#secret DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesProjectedSourcesSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#service_account_token DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#service_account_token DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesProjectedSourcesServiceAccountToken;
 }
@@ -5723,13 +5723,13 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * defaultMode are the mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#default_mode DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#default_mode DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * sources is the list of volume projections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#sources DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#sources DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#sources}
   */
   readonly sources?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -5854,37 +5854,37 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * group to map volume access to Default is no group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#group DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#group DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#group}
   */
   readonly group?: string;
   /**
   * readOnly here will force the Quobyte volume to be mounted with read-only permissions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#registry DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#registry DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#registry}
   */
   readonly registry: string;
   /**
   * tenant owning the given Quobyte volume in the Backend Used with dynamically provisioned Quobyte volumes, value is set by the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#tenant DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#tenant DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
   * user to map volume access to Defaults to serivceaccount user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#user DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#user DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#user}
   */
   readonly user?: string;
   /**
   * volume is a string that references an already created Quobyte volume by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -6119,7 +6119,7 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6215,49 +6215,49 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#rbd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#image DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#image DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#image}
   */
   readonly image: string;
   /**
   * keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#keyring DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#keyring DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
   * monitors is a collection of Ceph monitors. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#monitors DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#monitors DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * pool is the rados pool name. Default is rbd. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#pool DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#pool DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#pool}
   */
   readonly pool?: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is name of the authentication secret for RBDUser. If provided overrides keyring. Default is nil. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#secret_ref DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#secret_ref DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesRbdSecretRef;
   /**
   * user is the rados user name. Default is admin. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#user DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#user DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -6550,7 +6550,7 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6646,61 +6646,61 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Default is 'xfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * gateway is the host address of the ScaleIO API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#gateway DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#gateway DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#gateway}
   */
   readonly gateway: string;
   /**
   * protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#protection_domain DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#protection_domain DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef references to the secret for ScaleIO user and other sensitive information. If this is not provided, Login operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#secret_ref DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#secret_ref DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesScaleIoSecretRef;
   /**
   * sslEnabled Flag enable/disable SSL communication with Gateway, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#ssl_enabled DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#ssl_enabled DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#storage_mode DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#storage_mode DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * storagePool is the ScaleIO Storage Pool associated with the protection domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#storage_pool DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#storage_pool DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
   * system is the name of the storage system as configured in ScaleIO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#system DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#system DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
   * volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -7048,19 +7048,19 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#key DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#key DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#mode DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#mode DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -7230,25 +7230,25 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#default_mode DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#default_mode DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#items DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#items DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#items}
   */
   readonly items?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#optional DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#optional DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#secret_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#secret_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -7431,7 +7431,7 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -7527,31 +7527,31 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#read_only DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef specifies the secret to use for obtaining the StorageOS API credentials. If not specified, default values will be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#secret_ref DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#secret_ref DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesStorageosSecretRef;
   /**
   * volumeName is the human-readable name of the StorageOS volume. Volume names are only unique within a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volumeNamespace specifies the scope of the volume within StorageOS. If no namespace is specified then the Pod's namespace will be used. This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to 'default' if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_namespace DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_namespace DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -7763,25 +7763,25 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fs_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#storage_policy_id DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#storage_policy_id DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#storage_policy_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#storage_policy_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -7961,181 +7961,181 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * awsElasticBlockStore represents an AWS Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#aws_elastic_block_store DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#aws_elastic_block_store DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesAwsElasticBlockStore;
   /**
   * azureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#azure_disk DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#azure_disk DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesAzureDisk;
   /**
   * azureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#azure_file DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#azure_file DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesAzureFile;
   /**
   * cephFS represents a Ceph FS mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#cephfs DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#cephfs DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesCephfs;
   /**
   * cinder represents a cinder volume attached and mounted on kubelets host machine. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#cinder DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#cinder DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#cinder}
   */
   readonly cinder?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesCinder;
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#config_map DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#config_map DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesConfigMap;
   /**
   * csi (Container Storage Interface) represents ephemeral storage that is handled by certain external CSI drivers (Beta feature).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#csi DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#csi DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#csi}
   */
   readonly csi?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesCsi;
   /**
   * downwardAPI represents downward API about the pod that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#downward_api DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#downward_api DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesDownwardApi;
   /**
   * emptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#empty_dir DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#empty_dir DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesEmptyDir;
   /**
   * ephemeral represents a volume that is handled by a cluster storage driver. The volume's lifecycle is tied to the pod that defines it - it will be created before the pod starts, and deleted when the pod is removed. Use this if: a) the volume is only needed while the pod runs, b) features of normal volumes like restoring from snapshot or capacity tracking are needed, c) the storage driver is specified through a storage class, and d) the storage driver supports dynamic volume provisioning through a PersistentVolumeClaim (see EphemeralVolumeSource for more information on the connection between this volume type and PersistentVolumeClaim). Use PersistentVolumeClaim or one of the vendor-specific APIs for volumes that persist for longer than the lifecycle of an individual pod. Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information. A pod can use both types of ephemeral volumes and persistent volumes at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#ephemeral DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#ephemeral DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesEphemeral;
   /**
   * fc represents a Fibre Channel resource that is attached to a kubelet's host machine and then exposed to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fc DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#fc DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#fc}
   */
   readonly fc?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesFc;
   /**
   * flexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#flex_volume DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#flex_volume DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesFlexVolume;
   /**
   * flocker represents a Flocker volume attached to a kubelet's host machine. This depends on the Flocker control service being running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#flocker DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#flocker DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#flocker}
   */
   readonly flocker?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesFlocker;
   /**
   * gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#gce_persistent_disk DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#gce_persistent_disk DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesGcePersistentDisk;
   /**
   * gitRepo represents a git repository at a particular revision. DEPRECATED: GitRepo is deprecated. To provision a container with a git repo, mount an EmptyDir into an InitContainer that clones the repo using git, then mount the EmptyDir into the Pod's container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#git_repo DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#git_repo DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesGitRepo;
   /**
   * glusterfs represents a Glusterfs mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/glusterfs/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#glusterfs DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#glusterfs DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesGlusterfs;
   /**
   * hostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#host_path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#host_path DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#host_path}
   */
   readonly hostPath?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesHostPath;
   /**
   * iscsi represents an ISCSI Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://examples.k8s.io/volumes/iscsi/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#iscsi DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#iscsi DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesIscsi;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * nfs represents an NFS mount on the host that shares a pod's lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#nfs DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#nfs DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#nfs}
   */
   readonly nfs?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesNfs;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#persistent_volume_claim DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#persistent_volume_claim DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesPersistentVolumeClaim;
   /**
   * photonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#photon_persistent_disk DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#photon_persistent_disk DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesPhotonPersistentDisk;
   /**
   * portworxVolume represents a portworx volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#portworx_volume DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#portworx_volume DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesPortworxVolume;
   /**
   * projected items for all in one resources secrets, configmaps, and downward API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#projected DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#projected DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#projected}
   */
   readonly projected?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesProjected;
   /**
   * quobyte represents a Quobyte mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#quobyte DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#quobyte DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesQuobyte;
   /**
   * rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/rbd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#rbd DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#rbd DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#rbd}
   */
   readonly rbd?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesRbd;
   /**
   * scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#scale_io DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#scale_io DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesScaleIo;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#secret DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#secret DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesSecret;
   /**
   * storageOS represents a StorageOS volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#storageos DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#storageos DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#storageos}
   */
   readonly storageos?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesStorageos;
   /**
   * vsphereVolume represents a vSphere volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#vsphere_volume DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#vsphere_volume DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumesVsphereVolume;
 }
@@ -9091,31 +9091,31 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * This specifies the command executes before InstallCmd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#cmd DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#cmd DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#cmd}
   */
   readonly cmd?: string[];
   /**
   * This specifies the env variables for the pre-install daemon set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#environment_variables DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#environment_variables DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#environment_variables}
   */
   readonly environmentVariables?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallEnvironmentVariables[] | cdktf.IResolvable;
   /**
   * This specifies the image for the pre-install scripts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#image DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#image DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * This specifies the volumeMounts for the pre-install daemon set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_mounts DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volume_mounts DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumeMounts[] | cdktf.IResolvable;
   /**
   * This specifies the volumes for the pre-install daemon set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volumes DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#volumes DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#volumes}
   */
   readonly volumes?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstallVolumes[] | cdktf.IResolvable;
 }
@@ -9327,19 +9327,19 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * Name of the runtime class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * The pulling image method to be used by the runtime class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#pulltype DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#pulltype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#pulltype DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#pulltype}
   */
   readonly pulltype: string;
   /**
   * The snapshotter to be used by the runtime class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#snapshotter DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#snapshotter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#snapshotter DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#snapshotter}
   */
   readonly snapshotter: string;
 }
@@ -9506,127 +9506,127 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCon
   /**
   * This specifies the command for cleanup on the nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#cleanup_cmd DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#cleanup_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#cleanup_cmd DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#cleanup_cmd}
   */
   readonly cleanupCmd?: string[];
   /**
   * This specifies whether the CcRuntime (kata or enclave-cc) will be running on debug mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#debug DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#debug DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
   * This specifies the RuntimeClass to be used as the default one If not set, the default 'kata' runtime class will NOT be created. Otherwise, the default 'kata' runtime class will be created as as 'alias' for the value set here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#default_runtime_class_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#default_runtime_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#default_runtime_class_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#default_runtime_class_name}
   */
   readonly defaultRuntimeClassName?: string;
   /**
   * This specifies the environment variables required by the daemon set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#environment_variables DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#environment_variables DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#environment_variables}
   */
   readonly environmentVariables?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigEnvironmentVariables[] | cdktf.IResolvable;
   /**
   * This specifies the location of the container image containing the guest initrd If both bundleImage and guestInitrdImage are specified, then guestInitrdImage content will override the equivalent one in payloadImage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#guest_initrd_image DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#guest_initrd_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#guest_initrd_image DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#guest_initrd_image}
   */
   readonly guestInitrdImage?: string;
   /**
   * This specifies the location of the container image containing the guest kernel If both bundleImage and guestKernelImage are specified, then guestKernelImage content will override the equivalent one in payloadImage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#guest_kernel_image DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#guest_kernel_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#guest_kernel_image DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#guest_kernel_image}
   */
   readonly guestKernelImage?: string;
   /**
   * PullPolicy describes a policy for if/when to pull a container image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#image_pull_policy DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#image_pull_policy DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * This specifies the registry secret to pull of the container images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#image_pull_secret DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#image_pull_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#image_pull_secret DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#image_pull_secret}
   */
   readonly imagePullSecret?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigImagePullSecret;
   /**
   * This specifies the command for installation of the runtime on the nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#install_cmd DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#install_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#install_cmd DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#install_cmd}
   */
   readonly installCmd?: string[];
   /**
   * This specifies the label that the install daemonset adds to nodes when the installation is done
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#install_done_label DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#install_done_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#install_done_label DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#install_done_label}
   */
   readonly installDoneLabel?: { [key: string]: string };
   /**
   * This indicates whether to use native OS packaging (rpm/deb) or Container image Default is bundle (container image)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#install_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#install_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#install_type DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#install_type}
   */
   readonly installType: string;
   /**
   * This specifies volume mounts required for the installer pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#installer_volume_mounts DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#installer_volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#installer_volume_mounts DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#installer_volume_mounts}
   */
   readonly installerVolumeMounts?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigInstallerVolumeMounts[] | cdktf.IResolvable;
   /**
   * This specifies volumes required for the installer pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#installer_volumes DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#installer_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#installer_volumes DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#installer_volumes}
   */
   readonly installerVolumes?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigInstallerVolumes[] | cdktf.IResolvable;
   /**
   * This specifies the repo location to be used when using rpm/deb packages Some examples add-apt-repository 'deb [arch=amd64] https://repo.confidential-containers.org/apt/ubuntu’ add-apt-repository ppa:confidential-containers/cc-bundle dnf install -y https://repo.confidential-containers.org/yum/centos/cc-bundle-repo.rpm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#os_native_repo DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#os_native_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#os_native_repo DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#os_native_repo}
   */
   readonly osNativeRepo?: string;
   /**
   * This specifies the location of the container image with all artifacts (Cc runtime binaries, initrd, kernel, config etc) when using 'bundle' installType
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#payload_image DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#payload_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#payload_image DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#payload_image}
   */
   readonly payloadImage: string;
   /**
   * This specifies the configuration for the post-uninstall daemonset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#post_uninstall DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#post_uninstall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#post_uninstall DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#post_uninstall}
   */
   readonly postUninstall?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPostUninstall;
   /**
   * This specifies the configuration for the pre-install daemonset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#pre_install DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#pre_install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#pre_install DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#pre_install}
   */
   readonly preInstall?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigPreInstall;
   /**
   * This specifies the RuntimeClasses that need to be created, with its name and an associated snapshotter to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#runtime_classes DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#runtime_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#runtime_classes DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#runtime_classes}
   */
   readonly runtimeClasses?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfigRuntimeClasses[] | cdktf.IResolvable;
   /**
   * This specifies the location of the container image containing the Cc runtime binaries If both payloadImage and runtimeImage are specified, then runtimeImage content will override the equivalent one in payloadImage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#runtime_image DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#runtime_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#runtime_image DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#runtime_image}
   */
   readonly runtimeImage?: string;
   /**
   * This specifies the command for uninstallation of the runtime on the nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#uninstall_cmd DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#uninstall_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#uninstall_cmd DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#uninstall_cmd}
   */
   readonly uninstallCmd?: string[];
   /**
   * This specifies the label that the uninstall daemonset adds to nodes when the uninstallation is done
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#uninstall_done_label DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#uninstall_done_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#uninstall_done_label DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#uninstall_done_label}
   */
   readonly uninstallDoneLabel?: { [key: string]: string };
 }
@@ -10296,17 +10296,17 @@ export interface DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpec {
   /**
   * CcNodeSelector is used to select the worker nodes to deploy the runtime if not specified, all worker nodes are selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#cc_node_selector DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#cc_node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#cc_node_selector DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#cc_node_selector}
   */
   readonly ccNodeSelector?: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecCcNodeSelector;
   /**
   * CcInstallConfig is a placeholder struct
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#config DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#config DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#config}
   */
   readonly config: DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1ManifestSpecConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#runtime_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#runtime_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/confidentialcontainers_org_cc_runtime_v1beta1_manifest#runtime_name DataK8SConfidentialcontainersOrgCcRuntimeV1Beta1Manifest#runtime_name}
   */
   readonly runtimeName: string;
 }

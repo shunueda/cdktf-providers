@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCrdProjectcalicoOrgHostEndpointV1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#metadata DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#metadata DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#metadata}
   */
   readonly metadata: DataK8SCrdProjectcalicoOrgHostEndpointV1ManifestMetadata;
   /**
   * HostEndpointSpec contains the specification for a HostEndpoint resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#spec DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#spec DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#spec}
   */
   readonly spec?: DataK8SCrdProjectcalicoOrgHostEndpointV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SCrdProjectcalicoOrgHostEndpointV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#annotations DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#annotations DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#labels DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#labels DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#name DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#name DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,15 +185,15 @@ export class DataK8SCrdProjectcalicoOrgHostEndpointV1ManifestMetadataOutputRefer
 }
 export interface DataK8SCrdProjectcalicoOrgHostEndpointV1ManifestSpecPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#name DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#name DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#port DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#port DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#protocol DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#protocol DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -360,31 +360,31 @@ export interface DataK8SCrdProjectcalicoOrgHostEndpointV1ManifestSpec {
   /**
   * The expected IP addresses (IPv4 and IPv6) of the endpoint. If 'InterfaceName' is not present, Calico will look for an interface matching any of the IPs in the list and apply policy to that. Note: When using the selector match criteria in an ingress or egress security Policy or Profile, Calico converts the selector into a set of IP addresses. For host endpoints, the ExpectedIPs field is used for that purpose. (If only the interface name is specified, Calico does not learn the IPs of the interface for use in match criteria.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#expected_i_ps DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#expected_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#expected_i_ps DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#expected_i_ps}
   */
   readonly expectedIPs?: string[];
   /**
   * Either '*', or the name of a specific Linux interface to apply policy to; or empty. '*' indicates that this HostEndpoint governs all traffic to, from or through the default network namespace of the host named by the 'Node' field; entering and leaving that namespace via any interface, including those from/to non-host-networked local workloads. If InterfaceName is not '*', this HostEndpoint only governs traffic that enters or leaves the host through the specific interface named by InterfaceName, or - when InterfaceName is empty - through the specific interface that has one of the IPs in ExpectedIPs. Therefore, when InterfaceName is empty, at least one expected IP must be specified. Only external interfaces (such as 'eth0') are supported here; it isn't possible for a HostEndpoint to protect traffic through a specific local workload interface. Note: Only some kinds of policy are implemented for '*' HostEndpoints; initially just pre-DNAT policy. Please check Calico documentation for the latest position.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#interface_name DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#interface_name DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#interface_name}
   */
   readonly interfaceName?: string;
   /**
   * The node name identifying the Calico node instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#node DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#node DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#node}
   */
   readonly nodeAttribute?: string;
   /**
   * Ports contains the endpoint's named ports, which may be referenced in security policy rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#ports DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#ports DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#ports}
   */
   readonly ports?: DataK8SCrdProjectcalicoOrgHostEndpointV1ManifestSpecPorts[] | cdktf.IResolvable;
   /**
   * A list of identifiers of security Profile objects that apply to this endpoint. Each profile is applied in the order that they appear in this list. Profile rules are applied after the selector-based security policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#profiles DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#profiles DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest#profiles}
   */
   readonly profiles?: string[];
 }
@@ -594,7 +594,7 @@ export class DataK8SCrdProjectcalicoOrgHostEndpointV1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest k8s_crd_projectcalico_org_host_endpoint_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest k8s_crd_projectcalico_org_host_endpoint_v1_manifest}
 */
 export class DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest extends cdktf.TerraformDataSource {
 
@@ -610,7 +610,7 @@ export class DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -622,7 +622,7 @@ export class DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest k8s_crd_projectcalico_org_host_endpoint_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_host_endpoint_v1_manifest k8s_crd_projectcalico_org_host_endpoint_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -633,8 +633,8 @@ export class DataK8SCrdProjectcalicoOrgHostEndpointV1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_crd_projectcalico_org_host_endpoint_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

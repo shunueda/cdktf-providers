@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/pullzone
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/data-sources/pullzone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataBunnynetPullzoneConfig extends cdktf.TerraformMetaArguments
   /**
   * The unique ID of the pull zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/pullzone#id DataBunnynetPullzone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/data-sources/pullzone#id DataBunnynetPullzone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -217,7 +217,7 @@ export class DataBunnynetPullzoneRoutingOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/pullzone bunnynet_pullzone}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/data-sources/pullzone bunnynet_pullzone}
 */
 export class DataBunnynetPullzone extends cdktf.TerraformDataSource {
 
@@ -233,7 +233,7 @@ export class DataBunnynetPullzone extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBunnynetPullzone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBunnynetPullzone to import
-  * @param importFromId The id of the existing DataBunnynetPullzone that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/pullzone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBunnynetPullzone that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/data-sources/pullzone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBunnynetPullzone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -245,7 +245,7 @@ export class DataBunnynetPullzone extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/pullzone bunnynet_pullzone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/data-sources/pullzone bunnynet_pullzone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -256,8 +256,8 @@ export class DataBunnynetPullzone extends cdktf.TerraformDataSource {
       terraformResourceType: 'bunnynet_pullzone',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.2',
-        providerVersionConstraint: '0.11.2'
+        providerVersion: '0.11.3',
+        providerVersionConstraint: '0.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

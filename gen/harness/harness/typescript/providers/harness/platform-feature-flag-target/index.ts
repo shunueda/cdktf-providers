@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_feature_flag_target
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PlatformFeatureFlagTargetConfig extends cdktf.TerraformMetaArgu
   /**
   * Account Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_feature_flag_target#account_id PlatformFeatureFlagTarget#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag_target#account_id PlatformFeatureFlagTarget#account_id}
   */
   readonly accountId: string;
   /**
   * Attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_feature_flag_target#attributes PlatformFeatureFlagTarget#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag_target#attributes PlatformFeatureFlagTarget#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
   * Environment Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_feature_flag_target#environment PlatformFeatureFlagTarget#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag_target#environment PlatformFeatureFlagTarget#environment}
   */
   readonly environment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_feature_flag_target#id PlatformFeatureFlagTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag_target#id PlatformFeatureFlagTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface PlatformFeatureFlagTargetConfig extends cdktf.TerraformMetaArgu
   /**
   * Identifier of the Feature Flag Target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_feature_flag_target#identifier PlatformFeatureFlagTarget#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag_target#identifier PlatformFeatureFlagTarget#identifier}
   */
   readonly identifier: string;
   /**
   * Target Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_feature_flag_target#name PlatformFeatureFlagTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag_target#name PlatformFeatureFlagTarget#name}
   */
   readonly name: string;
   /**
   * Organization Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_feature_flag_target#org_id PlatformFeatureFlagTarget#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag_target#org_id PlatformFeatureFlagTarget#org_id}
   */
   readonly orgId: string;
   /**
   * Project Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_feature_flag_target#project_id PlatformFeatureFlagTarget#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag_target#project_id PlatformFeatureFlagTarget#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_feature_flag_target harness_platform_feature_flag_target}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag_target harness_platform_feature_flag_target}
 */
 export class PlatformFeatureFlagTarget extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class PlatformFeatureFlagTarget extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformFeatureFlagTarget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformFeatureFlagTarget to import
-  * @param importFromId The id of the existing PlatformFeatureFlagTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_feature_flag_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformFeatureFlagTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformFeatureFlagTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class PlatformFeatureFlagTarget extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_feature_flag_target harness_platform_feature_flag_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_feature_flag_target harness_platform_feature_flag_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class PlatformFeatureFlagTarget extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_feature_flag_target',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestConfig extends cdktf.Te
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#metadata DataK8SInfinispanOrgInfinispanV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#metadata DataK8SInfinispanOrgInfinispanV1Manifest#metadata}
   */
   readonly metadata: DataK8SInfinispanOrgInfinispanV1ManifestMetadata;
   /**
   * InfinispanSpec defines the desired state of Infinispan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#spec DataK8SInfinispanOrgInfinispanV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#spec DataK8SInfinispanOrgInfinispanV1Manifest#spec}
   */
   readonly spec?: DataK8SInfinispanOrgInfinispanV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#annotations DataK8SInfinispanOrgInfinispanV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#annotations DataK8SInfinispanOrgInfinispanV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#labels DataK8SInfinispanOrgInfinispanV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#labels DataK8SInfinispanOrgInfinispanV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#name DataK8SInfinispanOrgInfinispanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#name DataK8SInfinispanOrgInfinispanV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace DataK8SInfinispanOrgInfinispanV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace DataK8SInfinispanOrgInfinispanV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinit
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,19 +401,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinit
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -583,13 +583,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinit
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_fields DataK8SInfinispanOrgInfinispanV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_fields DataK8SInfinispanOrgInfinispanV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -714,13 +714,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinit
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#preference DataK8SInfinispanOrgInfinispanV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#preference DataK8SInfinispanOrgInfinispanV1Manifest#preference}
   */
   readonly preference: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#weight DataK8SInfinispanOrgInfinispanV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#weight DataK8SInfinispanOrgInfinispanV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -861,19 +861,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinit
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1043,19 +1043,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinit
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1225,13 +1225,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinit
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_fields DataK8SInfinispanOrgInfinispanV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_fields DataK8SInfinispanOrgInfinispanV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1378,7 +1378,7 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinit
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#node_selector_terms DataK8SInfinispanOrgInfinispanV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#node_selector_terms DataK8SInfinispanOrgInfinispanV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1471,13 +1471,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinit
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1602,19 +1602,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1784,13 +1784,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1915,19 +1915,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2097,13 +2097,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2228,25 +2228,25 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinity
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace_selector DataK8SInfinispanOrgInfinispanV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace_selector DataK8SInfinispanOrgInfinispanV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespaces DataK8SInfinispanOrgInfinispanV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespaces DataK8SInfinispanOrgInfinispanV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2426,13 +2426,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinity
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#pod_affinity_term DataK8SInfinispanOrgInfinispanV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#pod_affinity_term DataK8SInfinispanOrgInfinispanV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#weight DataK8SInfinispanOrgInfinispanV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#weight DataK8SInfinispanOrgInfinispanV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2573,19 +2573,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2755,13 +2755,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2886,19 +2886,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinity
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3068,13 +3068,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinity
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3199,25 +3199,25 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinity
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace_selector DataK8SInfinispanOrgInfinispanV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace_selector DataK8SInfinispanOrgInfinispanV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespaces DataK8SInfinispanOrgInfinispanV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespaces DataK8SInfinispanOrgInfinispanV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3419,13 +3419,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinity
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3550,19 +3550,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3732,13 +3732,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3863,19 +3863,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4045,13 +4045,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4176,25 +4176,25 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffi
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace_selector DataK8SInfinispanOrgInfinispanV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace_selector DataK8SInfinispanOrgInfinispanV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespaces DataK8SInfinispanOrgInfinispanV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespaces DataK8SInfinispanOrgInfinispanV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4374,13 +4374,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffi
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#pod_affinity_term DataK8SInfinispanOrgInfinispanV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#pod_affinity_term DataK8SInfinispanOrgInfinispanV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#weight DataK8SInfinispanOrgInfinispanV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#weight DataK8SInfinispanOrgInfinispanV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4521,19 +4521,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4703,13 +4703,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4834,19 +4834,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5016,13 +5016,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5147,25 +5147,25 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffi
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace_selector DataK8SInfinispanOrgInfinispanV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace_selector DataK8SInfinispanOrgInfinispanV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespaces DataK8SInfinispanOrgInfinispanV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespaces DataK8SInfinispanOrgInfinispanV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5367,13 +5367,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffi
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5498,19 +5498,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinity {
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#node_affinity DataK8SInfinispanOrgInfinispanV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#node_affinity DataK8SInfinispanOrgInfinispanV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#pod_affinity DataK8SInfinispanOrgInfinispanV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#pod_affinity DataK8SInfinispanOrgInfinispanV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#pod_anti_affinity DataK8SInfinispanOrgInfinispanV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#pod_anti_affinity DataK8SInfinispanOrgInfinispanV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityPodAntiAffinity;
 }
@@ -5662,23 +5662,23 @@ export class DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinityOutputReference
 }
 export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecAutoscale {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#disabled DataK8SInfinispanOrgInfinispanV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#disabled DataK8SInfinispanOrgInfinispanV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#max_mem_usage_percent DataK8SInfinispanOrgInfinispanV1Manifest#max_mem_usage_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#max_mem_usage_percent DataK8SInfinispanOrgInfinispanV1Manifest#max_mem_usage_percent}
   */
   readonly maxMemUsagePercent: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#max_replicas DataK8SInfinispanOrgInfinispanV1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#max_replicas DataK8SInfinispanOrgInfinispanV1Manifest#max_replicas}
   */
   readonly maxReplicas: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#min_mem_usage_percent DataK8SInfinispanOrgInfinispanV1Manifest#min_mem_usage_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#min_mem_usage_percent DataK8SInfinispanOrgInfinispanV1Manifest#min_mem_usage_percent}
   */
   readonly minMemUsagePercent: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#min_replicas DataK8SInfinispanOrgInfinispanV1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#min_replicas DataK8SInfinispanOrgInfinispanV1Manifest#min_replicas}
   */
   readonly minReplicas: number;
 }
@@ -5878,19 +5878,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecCloudEvents {
   /**
   * Acks configuration for the producer ack-value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#acks DataK8SInfinispanOrgInfinispanV1Manifest#acks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#acks DataK8SInfinispanOrgInfinispanV1Manifest#acks}
   */
   readonly acks?: string;
   /**
   * BootstrapServers is comma separated list of boostrap server:port addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#bootstrap_servers DataK8SInfinispanOrgInfinispanV1Manifest#bootstrap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#bootstrap_servers DataK8SInfinispanOrgInfinispanV1Manifest#bootstrap_servers}
   */
   readonly bootstrapServers: string;
   /**
   * CacheEntriesTopic is the name of the topic on which events will be published
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#cache_entries_topic DataK8SInfinispanOrgInfinispanV1Manifest#cache_entries_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#cache_entries_topic DataK8SInfinispanOrgInfinispanV1Manifest#cache_entries_topic}
   */
   readonly cacheEntriesTopic?: string;
 }
@@ -6041,7 +6041,7 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecConfigListenerLoggi
   /**
   * The logging level to be used by the ConfigListener pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#level DataK8SInfinispanOrgInfinispanV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#level DataK8SInfinispanOrgInfinispanV1Manifest#level}
   */
   readonly level?: string;
 }
@@ -6135,23 +6135,23 @@ export class DataK8SInfinispanOrgInfinispanV1ManifestSpecConfigListenerLoggingOu
 }
 export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecConfigListener {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#cpu DataK8SInfinispanOrgInfinispanV1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#cpu DataK8SInfinispanOrgInfinispanV1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
   * If true, a dedicated pod is used to ensure that all config resources created on the Infinispan server have a matching CR resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#enabled DataK8SInfinispanOrgInfinispanV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#enabled DataK8SInfinispanOrgInfinispanV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * ConfigListener logging configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#logging DataK8SInfinispanOrgInfinispanV1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#logging DataK8SInfinispanOrgInfinispanV1Manifest#logging}
   */
   readonly logging?: DataK8SInfinispanOrgInfinispanV1ManifestSpecConfigListenerLogging;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#memory DataK8SInfinispanOrgInfinispanV1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#memory DataK8SInfinispanOrgInfinispanV1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -6332,23 +6332,23 @@ export class DataK8SInfinispanOrgInfinispanV1ManifestSpecConfigListenerOutputRef
 }
 export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#cli_extra_jvm_opts DataK8SInfinispanOrgInfinispanV1Manifest#cli_extra_jvm_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#cli_extra_jvm_opts DataK8SInfinispanOrgInfinispanV1Manifest#cli_extra_jvm_opts}
   */
   readonly cliExtraJvmOpts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#cpu DataK8SInfinispanOrgInfinispanV1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#cpu DataK8SInfinispanOrgInfinispanV1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#extra_jvm_opts DataK8SInfinispanOrgInfinispanV1Manifest#extra_jvm_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#extra_jvm_opts DataK8SInfinispanOrgInfinispanV1Manifest#extra_jvm_opts}
   */
   readonly extraJvmOpts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#memory DataK8SInfinispanOrgInfinispanV1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#memory DataK8SInfinispanOrgInfinispanV1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#router_extra_jvm_opts DataK8SInfinispanOrgInfinispanV1Manifest#router_extra_jvm_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#router_extra_jvm_opts DataK8SInfinispanOrgInfinispanV1Manifest#router_extra_jvm_opts}
   */
   readonly routerExtraJvmOpts?: string;
 }
@@ -6560,25 +6560,25 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecDependenciesArtifac
   /**
   * Checksum that you can use to verify downloaded files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#hash DataK8SInfinispanOrgInfinispanV1Manifest#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#hash DataK8SInfinispanOrgInfinispanV1Manifest#hash}
   */
   readonly hash?: string;
   /**
   * Coordinates of a maven artifact in the 'groupId:artifactId:version' format, for example 'org.postgresql:postgresql:42.3.1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#maven DataK8SInfinispanOrgInfinispanV1Manifest#maven}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#maven DataK8SInfinispanOrgInfinispanV1Manifest#maven}
   */
   readonly maven?: string;
   /**
   * Deprecated, no longer has any effect. Specifies the type of file you want to download. If not specified, the file type is automatically determined from the extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#type DataK8SInfinispanOrgInfinispanV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#type DataK8SInfinispanOrgInfinispanV1Manifest#type}
   */
   readonly type?: string;
   /**
   * URL of the file you want to download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#url DataK8SInfinispanOrgInfinispanV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#url DataK8SInfinispanOrgInfinispanV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -6783,13 +6783,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecDependenciesInitCon
   /**
   * CPU in limit:request format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#cpu DataK8SInfinispanOrgInfinispanV1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#cpu DataK8SInfinispanOrgInfinispanV1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
   * Memory in limit:request format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#memory DataK8SInfinispanOrgInfinispanV1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#memory DataK8SInfinispanOrgInfinispanV1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -6912,19 +6912,19 @@ export class DataK8SInfinispanOrgInfinispanV1ManifestSpecDependenciesInitContain
 }
 export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecDependencies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#artifacts DataK8SInfinispanOrgInfinispanV1Manifest#artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#artifacts DataK8SInfinispanOrgInfinispanV1Manifest#artifacts}
   */
   readonly artifacts?: DataK8SInfinispanOrgInfinispanV1ManifestSpecDependenciesArtifacts[] | cdktf.IResolvable;
   /**
   * InitDependenciesContainerSpec describes the configuration options for the dependency download init container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#init_container DataK8SInfinispanOrgInfinispanV1Manifest#init_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#init_container DataK8SInfinispanOrgInfinispanV1Manifest#init_container}
   */
   readonly initContainer?: DataK8SInfinispanOrgInfinispanV1ManifestSpecDependenciesInitContainer;
   /**
   * The Persistent Volume Claim that holds custom libraries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#volume_claim_name DataK8SInfinispanOrgInfinispanV1Manifest#volume_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#volume_claim_name DataK8SInfinispanOrgInfinispanV1Manifest#volume_claim_name}
   */
   readonly volumeClaimName?: string;
 }
@@ -7076,27 +7076,27 @@ export class DataK8SInfinispanOrgInfinispanV1ManifestSpecDependenciesOutputRefer
 }
 export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecExpose {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#annotations DataK8SInfinispanOrgInfinispanV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#annotations DataK8SInfinispanOrgInfinispanV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The network hostname for your Infinispan cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#host DataK8SInfinispanOrgInfinispanV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#host DataK8SInfinispanOrgInfinispanV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#node_port DataK8SInfinispanOrgInfinispanV1Manifest#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#node_port DataK8SInfinispanOrgInfinispanV1Manifest#node_port}
   */
   readonly nodePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#port DataK8SInfinispanOrgInfinispanV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#port DataK8SInfinispanOrgInfinispanV1Manifest#port}
   */
   readonly port?: number;
   /**
   * Type specifies different exposition methods for data grid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#type DataK8SInfinispanOrgInfinispanV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#type DataK8SInfinispanOrgInfinispanV1Manifest#type}
   */
   readonly type: string;
 }
@@ -7305,7 +7305,7 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecJmx {
   /**
   * If true, a JMX endpoint is exposed on the admin service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#enabled DataK8SInfinispanOrgInfinispanV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#enabled DataK8SInfinispanOrgInfinispanV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -7399,13 +7399,13 @@ export class DataK8SInfinispanOrgInfinispanV1ManifestSpecJmxOutputReference exte
 }
 export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecLogging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#categories DataK8SInfinispanOrgInfinispanV1Manifest#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#categories DataK8SInfinispanOrgInfinispanV1Manifest#categories}
   */
   readonly categories?: { [key: string]: string };
   /**
   * A custom pattern to be applied to the Log4j STDOUT output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#pattern DataK8SInfinispanOrgInfinispanV1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#pattern DataK8SInfinispanOrgInfinispanV1Manifest#pattern}
   */
   readonly pattern?: string;
 }
@@ -7530,19 +7530,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityN
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7712,19 +7712,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityN
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7894,13 +7894,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityN
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_fields DataK8SInfinispanOrgInfinispanV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_fields DataK8SInfinispanOrgInfinispanV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -8025,13 +8025,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityN
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#preference DataK8SInfinispanOrgInfinispanV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#preference DataK8SInfinispanOrgInfinispanV1Manifest#preference}
   */
   readonly preference: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#weight DataK8SInfinispanOrgInfinispanV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#weight DataK8SInfinispanOrgInfinispanV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -8172,19 +8172,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityN
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8354,19 +8354,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityN
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8536,13 +8536,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityN
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_fields DataK8SInfinispanOrgInfinispanV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_fields DataK8SInfinispanOrgInfinispanV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -8689,7 +8689,7 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityN
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#node_selector_terms DataK8SInfinispanOrgInfinispanV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#node_selector_terms DataK8SInfinispanOrgInfinispanV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -8782,13 +8782,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityN
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -8913,19 +8913,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9095,13 +9095,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9226,19 +9226,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9408,13 +9408,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9539,25 +9539,25 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace_selector DataK8SInfinispanOrgInfinispanV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace_selector DataK8SInfinispanOrgInfinispanV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespaces DataK8SInfinispanOrgInfinispanV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespaces DataK8SInfinispanOrgInfinispanV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -9737,13 +9737,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#pod_affinity_term DataK8SInfinispanOrgInfinispanV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#pod_affinity_term DataK8SInfinispanOrgInfinispanV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#weight DataK8SInfinispanOrgInfinispanV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#weight DataK8SInfinispanOrgInfinispanV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -9884,19 +9884,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10066,13 +10066,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10197,19 +10197,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10379,13 +10379,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10510,25 +10510,25 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace_selector DataK8SInfinispanOrgInfinispanV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace_selector DataK8SInfinispanOrgInfinispanV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespaces DataK8SInfinispanOrgInfinispanV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespaces DataK8SInfinispanOrgInfinispanV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -10730,13 +10730,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -10861,19 +10861,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11043,13 +11043,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11174,19 +11174,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11356,13 +11356,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11487,25 +11487,25 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace_selector DataK8SInfinispanOrgInfinispanV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace_selector DataK8SInfinispanOrgInfinispanV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespaces DataK8SInfinispanOrgInfinispanV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespaces DataK8SInfinispanOrgInfinispanV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -11685,13 +11685,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#pod_affinity_term DataK8SInfinispanOrgInfinispanV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#pod_affinity_term DataK8SInfinispanOrgInfinispanV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#weight DataK8SInfinispanOrgInfinispanV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#weight DataK8SInfinispanOrgInfinispanV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -11832,19 +11832,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12014,13 +12014,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12145,19 +12145,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12327,13 +12327,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12458,25 +12458,25 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace_selector DataK8SInfinispanOrgInfinispanV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace_selector DataK8SInfinispanOrgInfinispanV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespaces DataK8SInfinispanOrgInfinispanV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespaces DataK8SInfinispanOrgInfinispanV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -12678,13 +12678,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityP
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfinispanOrgInfinispanV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -12809,19 +12809,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinity 
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#node_affinity DataK8SInfinispanOrgInfinispanV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#node_affinity DataK8SInfinispanOrgInfinispanV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#pod_affinity DataK8SInfinispanOrgInfinispanV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#pod_affinity DataK8SInfinispanOrgInfinispanV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#pod_anti_affinity DataK8SInfinispanOrgInfinispanV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#pod_anti_affinity DataK8SInfinispanOrgInfinispanV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinityPodAntiAffinity;
 }
@@ -12975,31 +12975,31 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingToleratio
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#effect DataK8SInfinispanOrgInfinispanV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#effect DataK8SInfinispanOrgInfinispanV1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#toleration_seconds DataK8SInfinispanOrgInfinispanV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#toleration_seconds DataK8SInfinispanOrgInfinispanV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#value DataK8SInfinispanOrgInfinispanV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#value DataK8SInfinispanOrgInfinispanV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -13233,19 +13233,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingTopologyS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#key DataK8SInfinispanOrgInfinispanV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#operator DataK8SInfinispanOrgInfinispanV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#values DataK8SInfinispanOrgInfinispanV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13415,13 +13415,13 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingTopologyS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_expressions DataK8SInfinispanOrgInfinispanV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#match_labels DataK8SInfinispanOrgInfinispanV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13546,31 +13546,31 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingTopologyS
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#label_selector DataK8SInfinispanOrgInfinispanV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingTopologySpreadConstraintsLabelSelector;
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#max_skew DataK8SInfinispanOrgInfinispanV1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#max_skew DataK8SInfinispanOrgInfinispanV1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew. This is an alpha field and requires enabling MinDomainsInPodTopologySpread feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#min_domains DataK8SInfinispanOrgInfinispanV1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#min_domains DataK8SInfinispanOrgInfinispanV1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes match the node selector. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_key DataK8SInfinispanOrgInfinispanV1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#when_unsatisfiable DataK8SInfinispanOrgInfinispanV1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#when_unsatisfiable DataK8SInfinispanOrgInfinispanV1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -13795,19 +13795,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecScheduling {
   /**
   * Affinity is a group of affinity scheduling rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#affinity DataK8SInfinispanOrgInfinispanV1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#affinity DataK8SInfinispanOrgInfinispanV1Manifest#affinity}
   */
   readonly affinity?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#priority_class_name DataK8SInfinispanOrgInfinispanV1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#priority_class_name DataK8SInfinispanOrgInfinispanV1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#tolerations DataK8SInfinispanOrgInfinispanV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#tolerations DataK8SInfinispanOrgInfinispanV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_spread_constraints DataK8SInfinispanOrgInfinispanV1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#topology_spread_constraints DataK8SInfinispanOrgInfinispanV1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -13988,11 +13988,11 @@ export class DataK8SInfinispanOrgInfinispanV1ManifestSpecSchedulingOutputReferen
 }
 export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSecurityAuthorizationRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#name DataK8SInfinispanOrgInfinispanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#name DataK8SInfinispanOrgInfinispanV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#permissions DataK8SInfinispanOrgInfinispanV1Manifest#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#permissions DataK8SInfinispanOrgInfinispanV1Manifest#permissions}
   */
   readonly permissions: string[];
 }
@@ -14131,11 +14131,11 @@ export class DataK8SInfinispanOrgInfinispanV1ManifestSpecSecurityAuthorizationRo
 }
 export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSecurityAuthorization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#enabled DataK8SInfinispanOrgInfinispanV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#enabled DataK8SInfinispanOrgInfinispanV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#roles DataK8SInfinispanOrgInfinispanV1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#roles DataK8SInfinispanOrgInfinispanV1Manifest#roles}
   */
   readonly roles?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSecurityAuthorizationRoles[] | cdktf.IResolvable;
 }
@@ -14260,29 +14260,29 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSecurityEndpointEnc
   /**
   * The secret that contains TLS certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#cert_secret_name DataK8SInfinispanOrgInfinispanV1Manifest#cert_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#cert_secret_name DataK8SInfinispanOrgInfinispanV1Manifest#cert_secret_name}
   */
   readonly certSecretName?: string;
   /**
   * A service that provides TLS certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#cert_service_name DataK8SInfinispanOrgInfinispanV1Manifest#cert_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#cert_service_name DataK8SInfinispanOrgInfinispanV1Manifest#cert_service_name}
   */
   readonly certServiceName?: string;
   /**
   * ClientCertType specifies a client certificate validation mechanism.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#client_cert DataK8SInfinispanOrgInfinispanV1Manifest#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#client_cert DataK8SInfinispanOrgInfinispanV1Manifest#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#client_cert_secret_name DataK8SInfinispanOrgInfinispanV1Manifest#client_cert_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#client_cert_secret_name DataK8SInfinispanOrgInfinispanV1Manifest#client_cert_secret_name}
   */
   readonly clientCertSecretName?: string;
   /**
   * Disable or modify endpoint encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#type DataK8SInfinispanOrgInfinispanV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#type DataK8SInfinispanOrgInfinispanV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -14492,31 +14492,31 @@ export class DataK8SInfinispanOrgInfinispanV1ManifestSpecSecurityEndpointEncrypt
 }
 export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#authorization DataK8SInfinispanOrgInfinispanV1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#authorization DataK8SInfinispanOrgInfinispanV1Manifest#authorization}
   */
   readonly authorization?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSecurityAuthorization;
   /**
   * A secret that contains CredentialStore alias and password combinations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#credential_store_secret_name DataK8SInfinispanOrgInfinispanV1Manifest#credential_store_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#credential_store_secret_name DataK8SInfinispanOrgInfinispanV1Manifest#credential_store_secret_name}
   */
   readonly credentialStoreSecretName?: string;
   /**
   * Enable or disable user authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#endpoint_authentication DataK8SInfinispanOrgInfinispanV1Manifest#endpoint_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#endpoint_authentication DataK8SInfinispanOrgInfinispanV1Manifest#endpoint_authentication}
   */
   readonly endpointAuthentication?: boolean | cdktf.IResolvable;
   /**
   * EndpointEncryption configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#endpoint_encryption DataK8SInfinispanOrgInfinispanV1Manifest#endpoint_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#endpoint_encryption DataK8SInfinispanOrgInfinispanV1Manifest#endpoint_encryption}
   */
   readonly endpointEncryption?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSecurityEndpointEncryption;
   /**
   * The secret that contains user credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#endpoint_secret_name DataK8SInfinispanOrgInfinispanV1Manifest#endpoint_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#endpoint_secret_name DataK8SInfinispanOrgInfinispanV1Manifest#endpoint_secret_name}
   */
   readonly endpointSecretName?: string;
 }
@@ -14728,31 +14728,31 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceContainerLiv
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#failure_threshold DataK8SInfinispanOrgInfinispanV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#failure_threshold DataK8SInfinispanOrgInfinispanV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * Number of seconds after the container has started before liveness probes are initiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#initial_delay_seconds DataK8SInfinispanOrgInfinispanV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#initial_delay_seconds DataK8SInfinispanOrgInfinispanV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#period_seconds DataK8SInfinispanOrgInfinispanV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#period_seconds DataK8SInfinispanOrgInfinispanV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#success_threshold DataK8SInfinispanOrgInfinispanV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#success_threshold DataK8SInfinispanOrgInfinispanV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Number of seconds after which the probe times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#timeout_seconds DataK8SInfinispanOrgInfinispanV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#timeout_seconds DataK8SInfinispanOrgInfinispanV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -14964,31 +14964,31 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceContainerRea
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#failure_threshold DataK8SInfinispanOrgInfinispanV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#failure_threshold DataK8SInfinispanOrgInfinispanV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * Number of seconds after the container has started before liveness probes are initiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#initial_delay_seconds DataK8SInfinispanOrgInfinispanV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#initial_delay_seconds DataK8SInfinispanOrgInfinispanV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#period_seconds DataK8SInfinispanOrgInfinispanV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#period_seconds DataK8SInfinispanOrgInfinispanV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#success_threshold DataK8SInfinispanOrgInfinispanV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#success_threshold DataK8SInfinispanOrgInfinispanV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Number of seconds after which the probe times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#timeout_seconds DataK8SInfinispanOrgInfinispanV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#timeout_seconds DataK8SInfinispanOrgInfinispanV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -15200,31 +15200,31 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceContainerSta
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#failure_threshold DataK8SInfinispanOrgInfinispanV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#failure_threshold DataK8SInfinispanOrgInfinispanV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * Number of seconds after the container has started before liveness probes are initiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#initial_delay_seconds DataK8SInfinispanOrgInfinispanV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#initial_delay_seconds DataK8SInfinispanOrgInfinispanV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#period_seconds DataK8SInfinispanOrgInfinispanV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#period_seconds DataK8SInfinispanOrgInfinispanV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#success_threshold DataK8SInfinispanOrgInfinispanV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#success_threshold DataK8SInfinispanOrgInfinispanV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Number of seconds after which the probe times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#timeout_seconds DataK8SInfinispanOrgInfinispanV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#timeout_seconds DataK8SInfinispanOrgInfinispanV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -15436,37 +15436,37 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceContainer {
   /**
   * Enable/disable container ephemeral storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#ephemeral_storage DataK8SInfinispanOrgInfinispanV1Manifest#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#ephemeral_storage DataK8SInfinispanOrgInfinispanV1Manifest#ephemeral_storage}
   */
   readonly ephemeralStorage?: boolean | cdktf.IResolvable;
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#liveness_probe DataK8SInfinispanOrgInfinispanV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#liveness_probe DataK8SInfinispanOrgInfinispanV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceContainerLivenessProbe;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#readiness_probe DataK8SInfinispanOrgInfinispanV1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#readiness_probe DataK8SInfinispanOrgInfinispanV1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceContainerReadinessProbe;
   /**
   * StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#startup_probe DataK8SInfinispanOrgInfinispanV1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#startup_probe DataK8SInfinispanOrgInfinispanV1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceContainerStartupProbe;
   /**
   * The amount of storage for the persistent volume claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#storage DataK8SInfinispanOrgInfinispanV1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#storage DataK8SInfinispanOrgInfinispanV1Manifest#storage}
   */
   readonly storage?: string;
   /**
   * The storage class object for persistent volume claims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#storage_class_name DataK8SInfinispanOrgInfinispanV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#storage_class_name DataK8SInfinispanOrgInfinispanV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
 }
@@ -15707,19 +15707,19 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalDi
   /**
   * Enables the Gossip Router heartbeats
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#enabled DataK8SInfinispanOrgInfinispanV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#enabled DataK8SInfinispanOrgInfinispanV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Sends a heartbeat to the GossipRouter every interval milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#interval DataK8SInfinispanOrgInfinispanV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#interval DataK8SInfinispanOrgInfinispanV1Manifest#interval}
   */
   readonly interval?: number;
   /**
   * Max time (millsecoonds) with no received message or heartbeat after which the connection to a GossipRouter is closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#timeout DataK8SInfinispanOrgInfinispanV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#timeout DataK8SInfinispanOrgInfinispanV1Manifest#timeout}
   */
   readonly timeout?: number;
 }
@@ -15873,37 +15873,37 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalDi
   /**
   * CPU resource request for Gossip Router if enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#cpu DataK8SInfinispanOrgInfinispanV1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#cpu DataK8SInfinispanOrgInfinispanV1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
   * Configures the Gossip Router heartbeats to keep the connection open
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#heartbeats DataK8SInfinispanOrgInfinispanV1Manifest#heartbeats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#heartbeats DataK8SInfinispanOrgInfinispanV1Manifest#heartbeats}
   */
   readonly heartbeats?: DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalDiscoveryHeartbeats;
   /**
   * Enables (default) or disables the Gossip Router pod and cross-site services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#launch_gossip_router DataK8SInfinispanOrgInfinispanV1Manifest#launch_gossip_router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#launch_gossip_router DataK8SInfinispanOrgInfinispanV1Manifest#launch_gossip_router}
   */
   readonly launchGossipRouter?: boolean | cdktf.IResolvable;
   /**
   * Memory resource request for Gossip Router if enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#memory DataK8SInfinispanOrgInfinispanV1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#memory DataK8SInfinispanOrgInfinispanV1Manifest#memory}
   */
   readonly memory?: string;
   /**
   * Enables the JGroups suspect events if the Gossip Router detects a connection closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#suspect_events DataK8SInfinispanOrgInfinispanV1Manifest#suspect_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#suspect_events DataK8SInfinispanOrgInfinispanV1Manifest#suspect_events}
   */
   readonly suspectEvents?: boolean | cdktf.IResolvable;
   /**
   * Configures the discovery mode for cross-site replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#type DataK8SInfinispanOrgInfinispanV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#type DataK8SInfinispanOrgInfinispanV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -16142,15 +16142,15 @@ export class DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalDiscov
 }
 export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalEncryptionRouterKeyStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#alias DataK8SInfinispanOrgInfinispanV1Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#alias DataK8SInfinispanOrgInfinispanV1Manifest#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#filename DataK8SInfinispanOrgInfinispanV1Manifest#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#filename DataK8SInfinispanOrgInfinispanV1Manifest#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#secret_name DataK8SInfinispanOrgInfinispanV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#secret_name DataK8SInfinispanOrgInfinispanV1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -16299,15 +16299,15 @@ export class DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalEncryp
 }
 export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalEncryptionTransportKeyStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#alias DataK8SInfinispanOrgInfinispanV1Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#alias DataK8SInfinispanOrgInfinispanV1Manifest#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#filename DataK8SInfinispanOrgInfinispanV1Manifest#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#filename DataK8SInfinispanOrgInfinispanV1Manifest#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#secret_name DataK8SInfinispanOrgInfinispanV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#secret_name DataK8SInfinispanOrgInfinispanV1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -16456,11 +16456,11 @@ export class DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalEncryp
 }
 export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalEncryptionTrustStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#filename DataK8SInfinispanOrgInfinispanV1Manifest#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#filename DataK8SInfinispanOrgInfinispanV1Manifest#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#secret_name DataK8SInfinispanOrgInfinispanV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#secret_name DataK8SInfinispanOrgInfinispanV1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -16582,25 +16582,25 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalEn
   /**
   * TLSProtocol specifies the TLS protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#protocol DataK8SInfinispanOrgInfinispanV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#protocol DataK8SInfinispanOrgInfinispanV1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * CrossSiteKeyStore keystore configuration for cross-site replication with TLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#router_key_store DataK8SInfinispanOrgInfinispanV1Manifest#router_key_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#router_key_store DataK8SInfinispanOrgInfinispanV1Manifest#router_key_store}
   */
   readonly routerKeyStore: DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalEncryptionRouterKeyStore;
   /**
   * CrossSiteKeyStore keystore configuration for cross-site replication with TLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#transport_key_store DataK8SInfinispanOrgInfinispanV1Manifest#transport_key_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#transport_key_store DataK8SInfinispanOrgInfinispanV1Manifest#transport_key_store}
   */
   readonly transportKeyStore: DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalEncryptionTransportKeyStore;
   /**
   * CrossSiteTrustStore truststore configuration for cross-site replication with TLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#trust_store DataK8SInfinispanOrgInfinispanV1Manifest#trust_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#trust_store DataK8SInfinispanOrgInfinispanV1Manifest#trust_store}
   */
   readonly trustStore?: DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalEncryptionTrustStore;
 }
@@ -16775,27 +16775,27 @@ export class DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalEncryp
 }
 export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalExpose {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#annotations DataK8SInfinispanOrgInfinispanV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#annotations DataK8SInfinispanOrgInfinispanV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#node_port DataK8SInfinispanOrgInfinispanV1Manifest#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#node_port DataK8SInfinispanOrgInfinispanV1Manifest#node_port}
   */
   readonly nodePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#port DataK8SInfinispanOrgInfinispanV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#port DataK8SInfinispanOrgInfinispanV1Manifest#port}
   */
   readonly port?: number;
   /**
   * RouteHostName optionally, specifies a custom hostname to be used by Openshift Route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#route_host_name DataK8SInfinispanOrgInfinispanV1Manifest#route_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#route_host_name DataK8SInfinispanOrgInfinispanV1Manifest#route_host_name}
   */
   readonly routeHostName?: string;
   /**
   * Type specifies different exposition methods for data grid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#type DataK8SInfinispanOrgInfinispanV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#type DataK8SInfinispanOrgInfinispanV1Manifest#type}
   */
   readonly type: string;
 }
@@ -17004,27 +17004,27 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocal {
   /**
   * DiscoverySiteSpec configures the corss-site replication discovery
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#discovery DataK8SInfinispanOrgInfinispanV1Manifest#discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#discovery DataK8SInfinispanOrgInfinispanV1Manifest#discovery}
   */
   readonly discovery?: DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalDiscovery;
   /**
   * EncryptionSiteSpec enables TLS for cross-site replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#encryption DataK8SInfinispanOrgInfinispanV1Manifest#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#encryption DataK8SInfinispanOrgInfinispanV1Manifest#encryption}
   */
   readonly encryption?: DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalEncryption;
   /**
   * CrossSiteExposeSpec describe how Infinispan Cross-Site service will be exposed externally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#expose DataK8SInfinispanOrgInfinispanV1Manifest#expose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#expose DataK8SInfinispanOrgInfinispanV1Manifest#expose}
   */
   readonly expose: DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalExpose;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#max_relay_nodes DataK8SInfinispanOrgInfinispanV1Manifest#max_relay_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#max_relay_nodes DataK8SInfinispanOrgInfinispanV1Manifest#max_relay_nodes}
   */
   readonly maxRelayNodes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#name DataK8SInfinispanOrgInfinispanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#name DataK8SInfinispanOrgInfinispanV1Manifest#name}
   */
   readonly name: string;
 }
@@ -17228,37 +17228,37 @@ export class DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocalOutput
 }
 export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#cluster_name DataK8SInfinispanOrgInfinispanV1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#cluster_name DataK8SInfinispanOrgInfinispanV1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Deprecated and to be removed on subsequent release. Use .URL with infinispan+xsite schema instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#host DataK8SInfinispanOrgInfinispanV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#host DataK8SInfinispanOrgInfinispanV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#name DataK8SInfinispanOrgInfinispanV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#name DataK8SInfinispanOrgInfinispanV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace DataK8SInfinispanOrgInfinispanV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#namespace DataK8SInfinispanOrgInfinispanV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Deprecated and to be removed on subsequent release. Use .URL with infinispan+xsite schema instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#port DataK8SInfinispanOrgInfinispanV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#port DataK8SInfinispanOrgInfinispanV1Manifest#port}
   */
   readonly port?: number;
   /**
   * The access secret that allows backups to a remote site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#secret_name DataK8SInfinispanOrgInfinispanV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#secret_name DataK8SInfinispanOrgInfinispanV1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#url DataK8SInfinispanOrgInfinispanV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#url DataK8SInfinispanOrgInfinispanV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -17547,11 +17547,11 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSites {
   /**
   * InfinispanSitesLocalSpec enables cross-site replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#local DataK8SInfinispanOrgInfinispanV1Manifest#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#local DataK8SInfinispanOrgInfinispanV1Manifest#local}
   */
   readonly local: DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocal;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#locations DataK8SInfinispanOrgInfinispanV1Manifest#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#locations DataK8SInfinispanOrgInfinispanV1Manifest#locations}
   */
   readonly locations?: DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSitesLocations[] | cdktf.IResolvable;
 }
@@ -17673,23 +17673,23 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecService {
   /**
   * InfinispanServiceContainerSpec resource requirements specific for service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#container DataK8SInfinispanOrgInfinispanV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#container DataK8SInfinispanOrgInfinispanV1Manifest#container}
   */
   readonly container?: DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceContainer;
   /**
   * Cache replication factor, or number of copies for each entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#replication_factor DataK8SInfinispanOrgInfinispanV1Manifest#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#replication_factor DataK8SInfinispanOrgInfinispanV1Manifest#replication_factor}
   */
   readonly replicationFactor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#sites DataK8SInfinispanOrgInfinispanV1Manifest#sites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#sites DataK8SInfinispanOrgInfinispanV1Manifest#sites}
   */
   readonly sites?: DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceSites;
   /**
   * The service type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#type DataK8SInfinispanOrgInfinispanV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#type DataK8SInfinispanOrgInfinispanV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -17870,7 +17870,7 @@ export class DataK8SInfinispanOrgInfinispanV1ManifestSpecServiceOutputReference 
 }
 export interface DataK8SInfinispanOrgInfinispanV1ManifestSpecUpgrades {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#type DataK8SInfinispanOrgInfinispanV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#type DataK8SInfinispanOrgInfinispanV1Manifest#type}
   */
   readonly type: string;
 }
@@ -17963,91 +17963,91 @@ export interface DataK8SInfinispanOrgInfinispanV1ManifestSpec {
   /**
   * Deprecated. Use scheduling.affinity instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#affinity DataK8SInfinispanOrgInfinispanV1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#affinity DataK8SInfinispanOrgInfinispanV1Manifest#affinity}
   */
   readonly affinity?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAffinity;
   /**
   * Autoscale describe autoscaling configuration for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#autoscale DataK8SInfinispanOrgInfinispanV1Manifest#autoscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#autoscale DataK8SInfinispanOrgInfinispanV1Manifest#autoscale}
   */
   readonly autoscale?: DataK8SInfinispanOrgInfinispanV1ManifestSpecAutoscale;
   /**
   * Deprecated. Has no effect starting with Infinispan 15.0.0 servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#cloud_events DataK8SInfinispanOrgInfinispanV1Manifest#cloud_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#cloud_events DataK8SInfinispanOrgInfinispanV1Manifest#cloud_events}
   */
   readonly cloudEvents?: DataK8SInfinispanOrgInfinispanV1ManifestSpecCloudEvents;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#config_listener DataK8SInfinispanOrgInfinispanV1Manifest#config_listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#config_listener DataK8SInfinispanOrgInfinispanV1Manifest#config_listener}
   */
   readonly configListener?: DataK8SInfinispanOrgInfinispanV1ManifestSpecConfigListener;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#config_map_name DataK8SInfinispanOrgInfinispanV1Manifest#config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#config_map_name DataK8SInfinispanOrgInfinispanV1Manifest#config_map_name}
   */
   readonly configMapName?: string;
   /**
   * InfinispanContainerSpec specify resource requirements per container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#container DataK8SInfinispanOrgInfinispanV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#container DataK8SInfinispanOrgInfinispanV1Manifest#container}
   */
   readonly container?: DataK8SInfinispanOrgInfinispanV1ManifestSpecContainer;
   /**
   * External dependencies needed by the Infinispan cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#dependencies DataK8SInfinispanOrgInfinispanV1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#dependencies DataK8SInfinispanOrgInfinispanV1Manifest#dependencies}
   */
   readonly dependencies?: DataK8SInfinispanOrgInfinispanV1ManifestSpecDependencies;
   /**
   * ExposeSpec describe how Infinispan will be exposed externally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#expose DataK8SInfinispanOrgInfinispanV1Manifest#expose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#expose DataK8SInfinispanOrgInfinispanV1Manifest#expose}
   */
   readonly expose?: DataK8SInfinispanOrgInfinispanV1ManifestSpecExpose;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#image DataK8SInfinispanOrgInfinispanV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#image DataK8SInfinispanOrgInfinispanV1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#jmx DataK8SInfinispanOrgInfinispanV1Manifest#jmx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#jmx DataK8SInfinispanOrgInfinispanV1Manifest#jmx}
   */
   readonly jmx?: DataK8SInfinispanOrgInfinispanV1ManifestSpecJmx;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#logging DataK8SInfinispanOrgInfinispanV1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#logging DataK8SInfinispanOrgInfinispanV1Manifest#logging}
   */
   readonly logging?: DataK8SInfinispanOrgInfinispanV1ManifestSpecLogging;
   /**
   * The number of nodes in the Infinispan cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#replicas DataK8SInfinispanOrgInfinispanV1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#replicas DataK8SInfinispanOrgInfinispanV1Manifest#replicas}
   */
   readonly replicas: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#scheduling DataK8SInfinispanOrgInfinispanV1Manifest#scheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#scheduling DataK8SInfinispanOrgInfinispanV1Manifest#scheduling}
   */
   readonly scheduling?: DataK8SInfinispanOrgInfinispanV1ManifestSpecScheduling;
   /**
   * InfinispanSecurity info for the user application connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#security DataK8SInfinispanOrgInfinispanV1Manifest#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#security DataK8SInfinispanOrgInfinispanV1Manifest#security}
   */
   readonly security?: DataK8SInfinispanOrgInfinispanV1ManifestSpecSecurity;
   /**
   * InfinispanServiceSpec specify configuration for specific service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#service DataK8SInfinispanOrgInfinispanV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#service DataK8SInfinispanOrgInfinispanV1Manifest#service}
   */
   readonly service?: DataK8SInfinispanOrgInfinispanV1ManifestSpecService;
   /**
   * Strategy to use when doing upgrades
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#upgrades DataK8SInfinispanOrgInfinispanV1Manifest#upgrades}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#upgrades DataK8SInfinispanOrgInfinispanV1Manifest#upgrades}
   */
   readonly upgrades?: DataK8SInfinispanOrgInfinispanV1ManifestSpecUpgrades;
   /**
   * The semantic version of the Infinispan cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#version DataK8SInfinispanOrgInfinispanV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#version DataK8SInfinispanOrgInfinispanV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -18602,7 +18602,7 @@ export class DataK8SInfinispanOrgInfinispanV1ManifestSpecOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest k8s_infinispan_org_infinispan_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest k8s_infinispan_org_infinispan_v1_manifest}
 */
 export class DataK8SInfinispanOrgInfinispanV1Manifest extends cdktf.TerraformDataSource {
 
@@ -18618,7 +18618,7 @@ export class DataK8SInfinispanOrgInfinispanV1Manifest extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataK8SInfinispanOrgInfinispanV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SInfinispanOrgInfinispanV1Manifest to import
-  * @param importFromId The id of the existing DataK8SInfinispanOrgInfinispanV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SInfinispanOrgInfinispanV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SInfinispanOrgInfinispanV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -18630,7 +18630,7 @@ export class DataK8SInfinispanOrgInfinispanV1Manifest extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infinispan_org_infinispan_v1_manifest k8s_infinispan_org_infinispan_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_infinispan_v1_manifest k8s_infinispan_org_infinispan_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -18641,8 +18641,8 @@ export class DataK8SInfinispanOrgInfinispanV1Manifest extends cdktf.TerraformDat
       terraformResourceType: 'k8s_infinispan_org_infinispan_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

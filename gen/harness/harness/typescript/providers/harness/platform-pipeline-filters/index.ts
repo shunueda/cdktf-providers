@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlatformPipelineFiltersConfig extends cdktf.TerraformMetaArgume
   /**
   * This indicates visibility of filters. By default, everyone can view this filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#filter_visibility PlatformPipelineFilters#filter_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#filter_visibility PlatformPipelineFilters#filter_visibility}
   */
   readonly filterVisibility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#id PlatformPipelineFilters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#id PlatformPipelineFilters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface PlatformPipelineFiltersConfig extends cdktf.TerraformMetaArgume
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#identifier PlatformPipelineFilters#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#identifier PlatformPipelineFilters#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the pipeline filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#name PlatformPipelineFilters#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#name PlatformPipelineFilters#name}
   */
   readonly name: string;
   /**
   * Organization Identifier for the Entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#org_id PlatformPipelineFilters#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#org_id PlatformPipelineFilters#org_id}
   */
   readonly orgId?: string;
   /**
   * Project Identifier for the Entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#project_id PlatformPipelineFilters#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#project_id PlatformPipelineFilters#project_id}
   */
   readonly projectId?: string;
   /**
   * Type of pipeline filters. Currently supported types are {PipelineSetup, PipelineExecution, Deployment, Template, EnvironmentGroup, Environment}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#type PlatformPipelineFilters#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#type PlatformPipelineFilters#type}
   */
   readonly type: string;
   /**
   * filter_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#filter_properties PlatformPipelineFilters#filter_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#filter_properties PlatformPipelineFilters#filter_properties}
   */
   readonly filterProperties: PlatformPipelineFiltersFilterProperties;
 }
@@ -61,43 +61,43 @@ export interface PlatformPipelineFiltersFilterPropertiesModulePropertiesCd {
   /**
   * Artifact display names of the CD pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#artifact_display_names PlatformPipelineFilters#artifact_display_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#artifact_display_names PlatformPipelineFilters#artifact_display_names}
   */
   readonly artifactDisplayNames?: string[];
   /**
   * Deployment type of the CD pipeline, eg. Kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#deployment_types PlatformPipelineFilters#deployment_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#deployment_types PlatformPipelineFilters#deployment_types}
   */
   readonly deploymentTypes?: string;
   /**
   * Environment identifier of the CD pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#environment_identifiers PlatformPipelineFilters#environment_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#environment_identifiers PlatformPipelineFilters#environment_identifiers}
   */
   readonly environmentIdentifiers?: string[];
   /**
   * Environment names of the CD pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#environment_names PlatformPipelineFilters#environment_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#environment_names PlatformPipelineFilters#environment_names}
   */
   readonly environmentNames?: string[];
   /**
   * Deployment type of the CD pipeline, eg. Kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#service_definition_types PlatformPipelineFilters#service_definition_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#service_definition_types PlatformPipelineFilters#service_definition_types}
   */
   readonly serviceDefinitionTypes?: string;
   /**
   * Service identifiers of the CD pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#service_identifiers PlatformPipelineFilters#service_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#service_identifiers PlatformPipelineFilters#service_identifiers}
   */
   readonly serviceIdentifiers?: string[];
   /**
   * Service names of the CD pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#service_names PlatformPipelineFilters#service_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#service_names PlatformPipelineFilters#service_names}
   */
   readonly serviceNames?: string[];
 }
@@ -357,13 +357,13 @@ export interface PlatformPipelineFiltersFilterPropertiesModulePropertiesCiCiExec
   /**
   * Source branch of the pull request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#source_branch PlatformPipelineFilters#source_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#source_branch PlatformPipelineFilters#source_branch}
   */
   readonly sourceBranch?: string;
   /**
   * Target branch of the pull request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#target_branch PlatformPipelineFilters#target_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#target_branch PlatformPipelineFilters#target_branch}
   */
   readonly targetBranch?: string;
 }
@@ -478,13 +478,13 @@ export interface PlatformPipelineFiltersFilterPropertiesModulePropertiesCiCiExec
   /**
   * Event for the ci execution, Possible values: pullRequest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#event PlatformPipelineFilters#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#event PlatformPipelineFilters#event}
   */
   readonly event?: string;
   /**
   * pull_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#pull_request PlatformPipelineFilters#pull_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#pull_request PlatformPipelineFilters#pull_request}
   */
   readonly pullRequest?: PlatformPipelineFiltersFilterPropertiesModulePropertiesCiCiExecutionInfoPullRequest;
 }
@@ -599,31 +599,31 @@ export interface PlatformPipelineFiltersFilterPropertiesModulePropertiesCi {
   /**
   * Branch which was used while building.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#branch PlatformPipelineFilters#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#branch PlatformPipelineFilters#branch}
   */
   readonly branch?: string;
   /**
   * Build type of the pipeline. Possible values: branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#build_type PlatformPipelineFilters#build_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#build_type PlatformPipelineFilters#build_type}
   */
   readonly buildType?: string;
   /**
   * name of the repository used in the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#repo_names PlatformPipelineFilters#repo_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#repo_names PlatformPipelineFilters#repo_names}
   */
   readonly repoNames?: string;
   /**
   * Tags to associate with the CI pipeline resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#tag PlatformPipelineFilters#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#tag PlatformPipelineFilters#tag}
   */
   readonly tag?: string;
   /**
   * ci_execution_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#ci_execution_info PlatformPipelineFilters#ci_execution_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#ci_execution_info PlatformPipelineFilters#ci_execution_info}
   */
   readonly ciExecutionInfo?: PlatformPipelineFiltersFilterPropertiesModulePropertiesCiCiExecutionInfo;
 }
@@ -825,13 +825,13 @@ export interface PlatformPipelineFiltersFilterPropertiesModuleProperties {
   /**
   * cd block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#cd PlatformPipelineFilters#cd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#cd PlatformPipelineFilters#cd}
   */
   readonly cd?: PlatformPipelineFiltersFilterPropertiesModulePropertiesCd;
   /**
   * ci block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#ci PlatformPipelineFilters#ci}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#ci PlatformPipelineFilters#ci}
   */
   readonly ci?: PlatformPipelineFiltersFilterPropertiesModulePropertiesCi;
 }
@@ -946,49 +946,49 @@ export interface PlatformPipelineFiltersFilterProperties {
   /**
   * description of the pipline filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#description PlatformPipelineFilters#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#description PlatformPipelineFilters#description}
   */
   readonly description?: string;
   /**
   * Corresponding Entity of the filters. Currently supported types are {Connector, DelegateProfile, Delegate, PipelineSetup, PipelineExecution, Deployment, Audit, Template, EnvironmentGroup, FileStore, CCMRecommendation, Anomaly, Environment}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#filter_type PlatformPipelineFilters#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#filter_type PlatformPipelineFilters#filter_type}
   */
   readonly filterType: string;
   /**
   * Name of the pipeline filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#name PlatformPipelineFilters#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#name PlatformPipelineFilters#name}
   */
   readonly name?: string;
   /**
   * Pipeline identifiers to filter on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#pipeline_identifiers PlatformPipelineFilters#pipeline_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#pipeline_identifiers PlatformPipelineFilters#pipeline_identifiers}
   */
   readonly pipelineIdentifiers?: string[];
   /**
   * Name of the pipeline execution filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#pipeline_name PlatformPipelineFilters#pipeline_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#pipeline_name PlatformPipelineFilters#pipeline_name}
   */
   readonly pipelineName?: string;
   /**
   * Tags to associate with the pipeline. tags should be in the form of `{key:key1, value:key1value}`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#pipeline_tags PlatformPipelineFilters#pipeline_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#pipeline_tags PlatformPipelineFilters#pipeline_tags}
   */
   readonly pipelineTags?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * Tags to associate with the resource. Tags should be in the form `name:value`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#tags PlatformPipelineFilters#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#tags PlatformPipelineFilters#tags}
   */
   readonly tags?: string[];
   /**
   * module_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#module_properties PlatformPipelineFilters#module_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#module_properties PlatformPipelineFilters#module_properties}
   */
   readonly moduleProperties?: PlatformPipelineFiltersFilterPropertiesModuleProperties;
 }
@@ -1272,7 +1272,7 @@ export class PlatformPipelineFiltersFilterPropertiesOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters harness_platform_pipeline_filters}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters harness_platform_pipeline_filters}
 */
 export class PlatformPipelineFilters extends cdktf.TerraformResource {
 
@@ -1288,7 +1288,7 @@ export class PlatformPipelineFilters extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformPipelineFilters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformPipelineFilters to import
-  * @param importFromId The id of the existing PlatformPipelineFilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformPipelineFilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformPipelineFilters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1300,7 +1300,7 @@ export class PlatformPipelineFilters extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline_filters harness_platform_pipeline_filters} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline_filters harness_platform_pipeline_filters} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1311,8 +1311,8 @@ export class PlatformPipelineFilters extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_pipeline_filters',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

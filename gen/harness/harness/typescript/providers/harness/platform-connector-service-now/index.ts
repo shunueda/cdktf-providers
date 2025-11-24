@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PlatformConnectorServiceNowConfig extends cdktf.TerraformMetaAr
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#delegate_selectors PlatformConnectorServiceNow#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#delegate_selectors PlatformConnectorServiceNow#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#description PlatformConnectorServiceNow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#description PlatformConnectorServiceNow#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#id PlatformConnectorServiceNow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#id PlatformConnectorServiceNow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface PlatformConnectorServiceNowConfig extends cdktf.TerraformMetaAr
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#identifier PlatformConnectorServiceNow#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#identifier PlatformConnectorServiceNow#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#name PlatformConnectorServiceNow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#name PlatformConnectorServiceNow#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#org_id PlatformConnectorServiceNow#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#org_id PlatformConnectorServiceNow#org_id}
   */
   readonly orgId?: string;
   /**
   * Reference to a secret containing the password to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#password_ref PlatformConnectorServiceNow#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#password_ref PlatformConnectorServiceNow#password_ref}
   */
   readonly passwordRef?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#project_id PlatformConnectorServiceNow#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#project_id PlatformConnectorServiceNow#project_id}
   */
   readonly projectId?: string;
   /**
   * URL of service now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#service_now_url PlatformConnectorServiceNow#service_now_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#service_now_url PlatformConnectorServiceNow#service_now_url}
   */
   readonly serviceNowUrl: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#tags PlatformConnectorServiceNow#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#tags PlatformConnectorServiceNow#tags}
   */
   readonly tags?: string[];
   /**
   * Username to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#username PlatformConnectorServiceNow#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#username PlatformConnectorServiceNow#username}
   */
   readonly username?: string;
   /**
   * Reference to a secret containing the username to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#username_ref PlatformConnectorServiceNow#username_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#username_ref PlatformConnectorServiceNow#username_ref}
   */
   readonly usernameRef?: string;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#auth PlatformConnectorServiceNow#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#auth PlatformConnectorServiceNow#auth}
   */
   readonly auth: PlatformConnectorServiceNowAuth;
 }
@@ -91,31 +91,31 @@ export interface PlatformConnectorServiceNowAuthAdfs {
   /**
   * asdf URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#adfs_url PlatformConnectorServiceNow#adfs_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#adfs_url PlatformConnectorServiceNow#adfs_url}
   */
   readonly adfsUrl: string;
   /**
   * Reference to a secret containing the certificate to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#certificate_ref PlatformConnectorServiceNow#certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#certificate_ref PlatformConnectorServiceNow#certificate_ref}
   */
   readonly certificateRef: string;
   /**
   * Reference to a secret containing the clientIdRef to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#client_id_ref PlatformConnectorServiceNow#client_id_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#client_id_ref PlatformConnectorServiceNow#client_id_ref}
   */
   readonly clientIdRef: string;
   /**
   * Reference to a secret containing the privateKeyRef to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#private_key_ref PlatformConnectorServiceNow#private_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#private_key_ref PlatformConnectorServiceNow#private_key_ref}
   */
   readonly privateKeyRef: string;
   /**
   * Reference to a secret containing the resourceIdRef to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#resource_id_ref PlatformConnectorServiceNow#resource_id_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#resource_id_ref PlatformConnectorServiceNow#resource_id_ref}
   */
   readonly resourceIdRef: string;
 }
@@ -302,31 +302,31 @@ export interface PlatformConnectorServiceNowAuthRefreshToken {
   /**
   * Reference to a secret containing the client id to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#client_id_ref PlatformConnectorServiceNow#client_id_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#client_id_ref PlatformConnectorServiceNow#client_id_ref}
   */
   readonly clientIdRef: string;
   /**
   * Reference to a secret containing the client secret to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#client_secret_ref PlatformConnectorServiceNow#client_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#client_secret_ref PlatformConnectorServiceNow#client_secret_ref}
   */
   readonly clientSecretRef?: string;
   /**
   * Reference to a secret containing the refresh token to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#refresh_token_ref PlatformConnectorServiceNow#refresh_token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#refresh_token_ref PlatformConnectorServiceNow#refresh_token_ref}
   */
   readonly refreshTokenRef: string;
   /**
   * Scope string to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#scope PlatformConnectorServiceNow#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#scope PlatformConnectorServiceNow#scope}
   */
   readonly scope?: string;
   /**
   * Token url to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#token_url PlatformConnectorServiceNow#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#token_url PlatformConnectorServiceNow#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -519,19 +519,19 @@ export interface PlatformConnectorServiceNowAuthUsernamePassword {
   /**
   * Reference to a secret containing the password to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#password_ref PlatformConnectorServiceNow#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#password_ref PlatformConnectorServiceNow#password_ref}
   */
   readonly passwordRef: string;
   /**
   * Username to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#username PlatformConnectorServiceNow#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#username PlatformConnectorServiceNow#username}
   */
   readonly username?: string;
   /**
   * Reference to a secret containing the username to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#username_ref PlatformConnectorServiceNow#username_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#username_ref PlatformConnectorServiceNow#username_ref}
   */
   readonly usernameRef?: string;
 }
@@ -672,25 +672,25 @@ export interface PlatformConnectorServiceNowAuth {
   /**
   * Authentication types for Jira connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#auth_type PlatformConnectorServiceNow#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#auth_type PlatformConnectorServiceNow#auth_type}
   */
   readonly authType: string;
   /**
   * adfs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#adfs PlatformConnectorServiceNow#adfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#adfs PlatformConnectorServiceNow#adfs}
   */
   readonly adfs?: PlatformConnectorServiceNowAuthAdfs;
   /**
   * refresh_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#refresh_token PlatformConnectorServiceNow#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#refresh_token PlatformConnectorServiceNow#refresh_token}
   */
   readonly refreshToken?: PlatformConnectorServiceNowAuthRefreshToken;
   /**
   * username_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#username_password PlatformConnectorServiceNow#username_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#username_password PlatformConnectorServiceNow#username_password}
   */
   readonly usernamePassword?: PlatformConnectorServiceNowAuthUsernamePassword;
 }
@@ -858,7 +858,7 @@ export class PlatformConnectorServiceNowAuthOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now harness_platform_connector_service_now}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now harness_platform_connector_service_now}
 */
 export class PlatformConnectorServiceNow extends cdktf.TerraformResource {
 
@@ -874,7 +874,7 @@ export class PlatformConnectorServiceNow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorServiceNow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorServiceNow to import
-  * @param importFromId The id of the existing PlatformConnectorServiceNow that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorServiceNow that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorServiceNow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -886,7 +886,7 @@ export class PlatformConnectorServiceNow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_service_now harness_platform_connector_service_now} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_service_now harness_platform_connector_service_now} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -897,8 +897,8 @@ export class PlatformConnectorServiceNow extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_service_now',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

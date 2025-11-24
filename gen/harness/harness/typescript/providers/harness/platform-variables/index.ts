@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_variables
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_variables
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlatformVariablesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_variables#description PlatformVariables#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_variables#description PlatformVariables#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_variables#id PlatformVariables#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_variables#id PlatformVariables#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface PlatformVariablesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_variables#identifier PlatformVariables#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_variables#identifier PlatformVariables#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the Variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_variables#name PlatformVariables#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_variables#name PlatformVariables#name}
   */
   readonly name: string;
   /**
   * Organization Identifier for the Entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_variables#org_id PlatformVariables#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_variables#org_id PlatformVariables#org_id}
   */
   readonly orgId?: string;
   /**
   * Project Identifier for the Entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_variables#project_id PlatformVariables#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_variables#project_id PlatformVariables#project_id}
   */
   readonly projectId?: string;
   /**
   * Type of Variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_variables#type PlatformVariables#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_variables#type PlatformVariables#type}
   */
   readonly type: string;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_variables#spec PlatformVariables#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_variables#spec PlatformVariables#spec}
   */
   readonly spec: PlatformVariablesSpec;
 }
@@ -61,13 +61,13 @@ export interface PlatformVariablesSpec {
   /**
   * FixedValue of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_variables#fixed_value PlatformVariables#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_variables#fixed_value PlatformVariables#fixed_value}
   */
   readonly fixedValue: string;
   /**
   * Type of Value of the Variable. For now only FIXED is supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_variables#value_type PlatformVariables#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_variables#value_type PlatformVariables#value_type}
   */
   readonly valueType: string;
 }
@@ -174,7 +174,7 @@ export class PlatformVariablesSpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_variables harness_platform_variables}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_variables harness_platform_variables}
 */
 export class PlatformVariables extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class PlatformVariables extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformVariables resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformVariables to import
-  * @param importFromId The id of the existing PlatformVariables that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_variables#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformVariables that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_variables#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformVariables to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class PlatformVariables extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_variables harness_platform_variables} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_variables harness_platform_variables} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class PlatformVariables extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_variables',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

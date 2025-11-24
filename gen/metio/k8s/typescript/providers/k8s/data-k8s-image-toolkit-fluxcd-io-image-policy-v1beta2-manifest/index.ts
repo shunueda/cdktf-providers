@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#metadata DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#metadata DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestMetadata;
   /**
   * ImagePolicySpec defines the parameters for calculating the ImagePolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#spec DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#spec DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#annotations DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#annotations DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#labels DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#labels DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#name DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#name DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#namespace DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#namespace DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestSpecFilter
   /**
   * Extract allows a capture group to be extracted from the specified regular expression pattern, useful before tag evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#extract DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#extract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#extract DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#extract}
   */
   readonly extract?: string;
   /**
   * Pattern specifies a regular expression pattern used to filter for image tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#pattern DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#pattern DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#pattern}
   */
   readonly pattern?: string;
 }
@@ -350,13 +350,13 @@ export interface DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestSpecImageR
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#name DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#name DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referent, when not specified it acts as LocalObjectReference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#namespace DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#namespace DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -478,7 +478,7 @@ export interface DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestSpecPolicy
   /**
   * Order specifies the sorting order of the tags. Given the letters of the alphabet as tags, ascending order would select Z, and descending order would select A.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#order DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#order DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#order}
   */
   readonly order?: string;
 }
@@ -574,7 +574,7 @@ export interface DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestSpecPolicy
   /**
   * Order specifies the sorting order of the tags. Given the integer values from 0 to 9 as tags, ascending order would select 9, and descending order would select 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#order DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#order DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#order}
   */
   readonly order?: string;
 }
@@ -670,7 +670,7 @@ export interface DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestSpecPolicy
   /**
   * Range gives a semver range for the image tag; the highest version within the range that's a tag yields the latest image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#range DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#range DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#range}
   */
   readonly range: string;
 }
@@ -763,19 +763,19 @@ export interface DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestSpecPolicy
   /**
   * Alphabetical set of rules to use for alphabetical ordering of the tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#alphabetical DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#alphabetical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#alphabetical DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#alphabetical}
   */
   readonly alphabetical?: DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestSpecPolicyAlphabetical;
   /**
   * Numerical set of rules to use for numerical ordering of the tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#numerical DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#numerical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#numerical DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#numerical}
   */
   readonly numerical?: DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestSpecPolicyNumerical;
   /**
   * SemVer gives a semantic version range to check against the tags available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#semver DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#semver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#semver DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#semver}
   */
   readonly semver?: DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestSpecPolicySemver;
 }
@@ -929,19 +929,19 @@ export interface DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestSpec {
   /**
   * FilterTags enables filtering for only a subset of tags based on a set of rules. If no rules are provided, all the tags from the repository will be ordered and compared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#filter_tags DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#filter_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#filter_tags DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#filter_tags}
   */
   readonly filterTags?: DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestSpecFilterTags;
   /**
   * ImageRepositoryRef points at the object specifying the image being scanned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#image_repository_ref DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#image_repository_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#image_repository_ref DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#image_repository_ref}
   */
   readonly imageRepositoryRef: DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestSpecImageRepositoryRef;
   /**
   * Policy gives the particulars of the policy to be followed in selecting the most recent image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#policy DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#policy DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest#policy}
   */
   readonly policy: DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestSpecPolicy;
 }
@@ -1087,7 +1087,7 @@ export class DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest k8s_image_toolkit_fluxcd_io_image_policy_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest k8s_image_toolkit_fluxcd_io_image_policy_v1beta2_manifest}
 */
 export class DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -1103,7 +1103,7 @@ export class DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1115,7 +1115,7 @@ export class DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest k8s_image_toolkit_fluxcd_io_image_policy_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/image_toolkit_fluxcd_io_image_policy_v1beta2_manifest k8s_image_toolkit_fluxcd_io_image_policy_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1126,8 +1126,8 @@ export class DataK8SImageToolkitFluxcdIoImagePolicyV1Beta2Manifest extends cdktf
       terraformResourceType: 'k8s_image_toolkit_fluxcd_io_image_policy_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

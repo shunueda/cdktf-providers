@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#metadata DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#metadata DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#spec DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#spec DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#annotations DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#annotations DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#labels DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#labels DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,7 +185,7 @@ export interface DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1ManifestSpec
   /**
   * Whether or not to automatically migrate unschedulable pods to a different cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#enabled DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#enabled DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -278,31 +278,31 @@ export interface DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1ManifestSpec
   /**
   * Path to a numeric field that reflects the number of available replicas that the object currently has. E.g. 'status.availableReplicas' for Deployment and ReplicaSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#available_replicas_status DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#available_replicas_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#available_replicas_status DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#available_replicas_status}
   */
   readonly availableReplicasStatus?: string;
   /**
   * Path to a metav1.LabelSelector field that selects the replicas for this object. E.g. 'spec.selector' for Deployment and ReplicaSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#label_selector DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#label_selector DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: string;
   /**
   * Path to a numeric field that reflects the number of ready replicas that the object currently has. E.g. 'status.readyReplicas' for Deployment and ReplicaSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#ready_replicas_status DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#ready_replicas_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#ready_replicas_status DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#ready_replicas_status}
   */
   readonly readyReplicasStatus?: string;
   /**
   * Path to a numeric field that indicates the number of replicas that an object can be divided into. E.g. 'spec.replicas' for Deployment and ReplicaSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#replicas_spec DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#replicas_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#replicas_spec DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#replicas_spec}
   */
   readonly replicasSpec?: string;
   /**
   * Path to a numeric field that reflects the number of replicas that the object currently has. E.g. 'status.replicas' for Deployment and ReplicaSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#replicas_status DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#replicas_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#replicas_status DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#replicas_status}
   */
   readonly replicasStatus?: string;
 }
@@ -514,31 +514,31 @@ export interface DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1ManifestSpec
   /**
   * Group of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#group DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#group DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * Kind of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#kind DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#kind DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Lower-cased plural name of the resource (e.g. configmaps). If not provided, it will be computed by lower-casing the kind and suffixing an 's'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#plural_name DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#plural_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#plural_name DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#plural_name}
   */
   readonly pluralName: string;
   /**
   * Scope of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#scope DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#scope DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#scope}
   */
   readonly scope: string;
   /**
   * Version of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#version DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#version DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -738,7 +738,7 @@ export interface DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1ManifestSpec
   /**
   * Whether or not to enable status aggregation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#enabled DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#enabled DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -831,13 +831,13 @@ export interface DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1ManifestSpec
   /**
   * Whether or not to enable status collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#enabled DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#enabled DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Contains the fields to be collected during status collection. Each field is a dot separated string that corresponds to its path in the source object's schema. E.g. 'metadata.creationTimestamp'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#fields DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#fields DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#fields}
   */
   readonly fields?: string[];
 }
@@ -959,37 +959,37 @@ export interface DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1ManifestSpec
   /**
   * Configuration for AutoMigration. If left empty, the AutoMigration feature will be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#auto_migration DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#auto_migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#auto_migration DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#auto_migration}
   */
   readonly autoMigration?: DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1ManifestSpecAutoMigration;
   /**
   * The controllers that must run before the source object can be propagated to member clusters. Each inner slice specifies a step. Step T must complete before step T+1 can commence. Controllers within each step can execute in parallel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#controllers DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#controllers DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#controllers}
   */
   readonly controllers?: string[];
   /**
   * Defines the paths to various fields in the target object's schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#path_definition DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#path_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#path_definition DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#path_definition}
   */
   readonly pathDefinition?: DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1ManifestSpecPathDefinition;
   /**
   * The API resource type to be federated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#source_type DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#source_type DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#source_type}
   */
   readonly sourceType: DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1ManifestSpecSourceType;
   /**
   * Configuration for StatusAggregation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#status_aggregation DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#status_aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#status_aggregation DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#status_aggregation}
   */
   readonly statusAggregation?: DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1ManifestSpecStatusAggregation;
   /**
   * Configuration for StatusCollection. If left empty, the StatusCollection feature will be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#status_collection DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#status_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#status_collection DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest#status_collection}
   */
   readonly statusCollection?: DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1ManifestSpecStatusCollection;
 }
@@ -1225,7 +1225,7 @@ export class DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest k8s_core_kubeadmiral_io_federated_type_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest k8s_core_kubeadmiral_io_federated_type_config_v1alpha1_manifest}
 */
 export class DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1241,7 +1241,7 @@ export class DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest extends
   * Generates CDKTF code for importing a DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1253,7 +1253,7 @@ export class DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest k8s_core_kubeadmiral_io_federated_type_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_federated_type_config_v1alpha1_manifest k8s_core_kubeadmiral_io_federated_type_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1264,8 +1264,8 @@ export class DataK8SCoreKubeadmiralIoFederatedTypeConfigV1Alpha1Manifest extends
       terraformResourceType: 'k8s_core_kubeadmiral_io_federated_type_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

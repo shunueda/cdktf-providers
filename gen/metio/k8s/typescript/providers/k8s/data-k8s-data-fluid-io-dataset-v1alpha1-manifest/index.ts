@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#metadata DataK8SDataFluidIoDatasetV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#metadata DataK8SDataFluidIoDatasetV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SDataFluidIoDatasetV1Alpha1ManifestMetadata;
   /**
   * DatasetSpec defines the desired state of Dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#spec DataK8SDataFluidIoDatasetV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#spec DataK8SDataFluidIoDatasetV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#annotations DataK8SDataFluidIoDatasetV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#annotations DataK8SDataFluidIoDatasetV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#labels DataK8SDataFluidIoDatasetV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#labels DataK8SDataFluidIoDatasetV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#name DataK8SDataFluidIoDatasetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#name DataK8SDataFluidIoDatasetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#namespace DataK8SDataFluidIoDatasetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#namespace DataK8SDataFluidIoDatasetV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecDataRestoreLocatio
   /**
   * NodeName describes the nodeName of restore if Path is in the form of local://subpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#node_name DataK8SDataFluidIoDatasetV1Alpha1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#node_name DataK8SDataFluidIoDatasetV1Alpha1Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
   * Path describes the path of restore, in the form of local://subpath or pvc://<pvcName>/subpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#path DataK8SDataFluidIoDatasetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#path DataK8SDataFluidIoDatasetV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -350,13 +350,13 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecMountsEncryptOptio
   /**
   * The required key in the secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#key DataK8SDataFluidIoDatasetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#key DataK8SDataFluidIoDatasetV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of required secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#name DataK8SDataFluidIoDatasetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#name DataK8SDataFluidIoDatasetV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -478,7 +478,7 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecMountsEncryptOptio
   /**
   * The encryptInfo obtained from secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#secret_key_ref DataK8SDataFluidIoDatasetV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#secret_key_ref DataK8SDataFluidIoDatasetV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecMountsEncryptOptionsValueFromSecretKeyRef;
 }
@@ -574,13 +574,13 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecMountsEncryptOptio
   /**
   * The name of encryptOption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#name DataK8SDataFluidIoDatasetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#name DataK8SDataFluidIoDatasetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The valueFrom of encryptOption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#value_from DataK8SDataFluidIoDatasetV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#value_from DataK8SDataFluidIoDatasetV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecMountsEncryptOptionsValueFrom;
 }
@@ -724,43 +724,43 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecMounts {
   /**
   * The secret information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#encrypt_options DataK8SDataFluidIoDatasetV1Alpha1Manifest#encrypt_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#encrypt_options DataK8SDataFluidIoDatasetV1Alpha1Manifest#encrypt_options}
   */
   readonly encryptOptions?: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecMountsEncryptOptions[] | cdktf.IResolvable;
   /**
   * MountPoint is the mount point of source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#mount_point DataK8SDataFluidIoDatasetV1Alpha1Manifest#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#mount_point DataK8SDataFluidIoDatasetV1Alpha1Manifest#mount_point}
   */
   readonly mountPoint: string;
   /**
   * The name of mount
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#name DataK8SDataFluidIoDatasetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#name DataK8SDataFluidIoDatasetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The Mount Options. <br> Refer to <a href='https://docs.alluxio.io/os/user/stable/en/reference/Properties-List.html'>Mount Options</a>. <br> The option has Prefix 'fs.' And you can Learn more from <a href='https://docs.alluxio.io/os/user/stable/en/ufs/S3.html'>The Storage Integrations</a>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#options DataK8SDataFluidIoDatasetV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#options DataK8SDataFluidIoDatasetV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * The path of mount, if not set will be /{Name}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#path DataK8SDataFluidIoDatasetV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#path DataK8SDataFluidIoDatasetV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Optional: Defaults to false (read-write).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#read_only DataK8SDataFluidIoDatasetV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#read_only DataK8SDataFluidIoDatasetV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Optional: Defaults to false (shared).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#shared DataK8SDataFluidIoDatasetV1Alpha1Manifest#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#shared DataK8SDataFluidIoDatasetV1Alpha1Manifest#shared}
   */
   readonly shared?: boolean | cdktf.IResolvable;
 }
@@ -1049,19 +1049,19 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecNodeAffinityRequir
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#key DataK8SDataFluidIoDatasetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#key DataK8SDataFluidIoDatasetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#operator DataK8SDataFluidIoDatasetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#operator DataK8SDataFluidIoDatasetV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#values DataK8SDataFluidIoDatasetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#values DataK8SDataFluidIoDatasetV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1231,19 +1231,19 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecNodeAffinityRequir
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#key DataK8SDataFluidIoDatasetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#key DataK8SDataFluidIoDatasetV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#operator DataK8SDataFluidIoDatasetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#operator DataK8SDataFluidIoDatasetV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#values DataK8SDataFluidIoDatasetV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#values DataK8SDataFluidIoDatasetV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1413,13 +1413,13 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecNodeAffinityRequir
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#match_expressions DataK8SDataFluidIoDatasetV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#match_expressions DataK8SDataFluidIoDatasetV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecNodeAffinityRequiredNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#match_fields DataK8SDataFluidIoDatasetV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#match_fields DataK8SDataFluidIoDatasetV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecNodeAffinityRequiredNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1566,7 +1566,7 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecNodeAffinityRequir
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#node_selector_terms DataK8SDataFluidIoDatasetV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#node_selector_terms DataK8SDataFluidIoDatasetV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecNodeAffinityRequiredNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1659,7 +1659,7 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecNodeAffinity {
   /**
   * Required specifies hard node constraints that must be met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#required DataK8SDataFluidIoDatasetV1Alpha1Manifest#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#required DataK8SDataFluidIoDatasetV1Alpha1Manifest#required}
   */
   readonly required?: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecNodeAffinityRequired;
 }
@@ -1755,25 +1755,25 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecOwner {
   /**
   * The gid to run the alluxio runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#gid DataK8SDataFluidIoDatasetV1Alpha1Manifest#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#gid DataK8SDataFluidIoDatasetV1Alpha1Manifest#gid}
   */
   readonly gid: number;
   /**
   * The group name to run the alluxio runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#group DataK8SDataFluidIoDatasetV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#group DataK8SDataFluidIoDatasetV1Alpha1Manifest#group}
   */
   readonly group: string;
   /**
   * The uid to run the alluxio runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#uid DataK8SDataFluidIoDatasetV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#uid DataK8SDataFluidIoDatasetV1Alpha1Manifest#uid}
   */
   readonly uid: number;
   /**
   * The user name to run the alluxio runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#user DataK8SDataFluidIoDatasetV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#user DataK8SDataFluidIoDatasetV1Alpha1Manifest#user}
   */
   readonly user: string;
 }
@@ -1944,31 +1944,31 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecRuntimes {
   /**
   * Category the runtime object belongs to (e.g. Accelerate)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#category DataK8SDataFluidIoDatasetV1Alpha1Manifest#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#category DataK8SDataFluidIoDatasetV1Alpha1Manifest#category}
   */
   readonly category?: string;
   /**
   * Runtime master replicas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#master_replicas DataK8SDataFluidIoDatasetV1Alpha1Manifest#master_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#master_replicas DataK8SDataFluidIoDatasetV1Alpha1Manifest#master_replicas}
   */
   readonly masterReplicas?: number;
   /**
   * Name of the runtime object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#name DataK8SDataFluidIoDatasetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#name DataK8SDataFluidIoDatasetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the runtime object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#namespace DataK8SDataFluidIoDatasetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#namespace DataK8SDataFluidIoDatasetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Runtime object's type (e.g. Alluxio)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#type DataK8SDataFluidIoDatasetV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#type DataK8SDataFluidIoDatasetV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2202,13 +2202,13 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecSharedEncryptOptio
   /**
   * The required key in the secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#key DataK8SDataFluidIoDatasetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#key DataK8SDataFluidIoDatasetV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of required secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#name DataK8SDataFluidIoDatasetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#name DataK8SDataFluidIoDatasetV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2330,7 +2330,7 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecSharedEncryptOptio
   /**
   * The encryptInfo obtained from secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#secret_key_ref DataK8SDataFluidIoDatasetV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#secret_key_ref DataK8SDataFluidIoDatasetV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecSharedEncryptOptionsValueFromSecretKeyRef;
 }
@@ -2426,13 +2426,13 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecSharedEncryptOptio
   /**
   * The name of encryptOption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#name DataK8SDataFluidIoDatasetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#name DataK8SDataFluidIoDatasetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The valueFrom of encryptOption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#value_from DataK8SDataFluidIoDatasetV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#value_from DataK8SDataFluidIoDatasetV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecSharedEncryptOptionsValueFrom;
 }
@@ -2576,31 +2576,31 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecTolerations {
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#effect DataK8SDataFluidIoDatasetV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#effect DataK8SDataFluidIoDatasetV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#key DataK8SDataFluidIoDatasetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#key DataK8SDataFluidIoDatasetV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#operator DataK8SDataFluidIoDatasetV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#operator DataK8SDataFluidIoDatasetV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#toleration_seconds DataK8SDataFluidIoDatasetV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#toleration_seconds DataK8SDataFluidIoDatasetV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#value DataK8SDataFluidIoDatasetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#value DataK8SDataFluidIoDatasetV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2834,61 +2834,61 @@ export interface DataK8SDataFluidIoDatasetV1Alpha1ManifestSpec {
   /**
   * AccessModes contains all ways the volume backing the PVC can be mounted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#access_modes DataK8SDataFluidIoDatasetV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#access_modes DataK8SDataFluidIoDatasetV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * DataRestoreLocation is the location to load data of dataset been backuped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#data_restore_location DataK8SDataFluidIoDatasetV1Alpha1Manifest#data_restore_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#data_restore_location DataK8SDataFluidIoDatasetV1Alpha1Manifest#data_restore_location}
   */
   readonly dataRestoreLocation?: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecDataRestoreLocation;
   /**
   * Mount Points to be mounted on cache runtime. <br> This field can be empty because some runtimes don't need to mount external storage (e.g. <a href='https://v6d.io/'>Vineyard</a>).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#mounts DataK8SDataFluidIoDatasetV1Alpha1Manifest#mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#mounts DataK8SDataFluidIoDatasetV1Alpha1Manifest#mounts}
   */
   readonly mounts?: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecMounts[] | cdktf.IResolvable;
   /**
   * NodeAffinity defines constraints that limit what nodes this dataset can be cached to. This field influences the scheduling of pods that use the cached dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#node_affinity DataK8SDataFluidIoDatasetV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#node_affinity DataK8SDataFluidIoDatasetV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecNodeAffinity;
   /**
   * The owner of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#owner DataK8SDataFluidIoDatasetV1Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#owner DataK8SDataFluidIoDatasetV1Alpha1Manifest#owner}
   */
   readonly owner?: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecOwner;
   /**
   * Manage switch for opening Multiple datasets single node deployment or not TODO(xieydd) In future, evaluate node resources and runtime resources to decide whether to turn them on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#placement DataK8SDataFluidIoDatasetV1Alpha1Manifest#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#placement DataK8SDataFluidIoDatasetV1Alpha1Manifest#placement}
   */
   readonly placement?: string;
   /**
   * Runtimes for supporting dataset (e.g. AlluxioRuntime)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#runtimes DataK8SDataFluidIoDatasetV1Alpha1Manifest#runtimes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#runtimes DataK8SDataFluidIoDatasetV1Alpha1Manifest#runtimes}
   */
   readonly runtimes?: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecRuntimes[] | cdktf.IResolvable;
   /**
   * SharedEncryptOptions is the encryptOption to all mount
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#shared_encrypt_options DataK8SDataFluidIoDatasetV1Alpha1Manifest#shared_encrypt_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#shared_encrypt_options DataK8SDataFluidIoDatasetV1Alpha1Manifest#shared_encrypt_options}
   */
   readonly sharedEncryptOptions?: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecSharedEncryptOptions[] | cdktf.IResolvable;
   /**
   * SharedOptions is the options to all mount
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#shared_options DataK8SDataFluidIoDatasetV1Alpha1Manifest#shared_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#shared_options DataK8SDataFluidIoDatasetV1Alpha1Manifest#shared_options}
   */
   readonly sharedOptions?: { [key: string]: string };
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#tolerations DataK8SDataFluidIoDatasetV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#tolerations DataK8SDataFluidIoDatasetV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecTolerations[] | cdktf.IResolvable;
 }
@@ -3243,7 +3243,7 @@ export class DataK8SDataFluidIoDatasetV1Alpha1ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest k8s_data_fluid_io_dataset_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest k8s_data_fluid_io_dataset_v1alpha1_manifest}
 */
 export class DataK8SDataFluidIoDatasetV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3259,7 +3259,7 @@ export class DataK8SDataFluidIoDatasetV1Alpha1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SDataFluidIoDatasetV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDataFluidIoDatasetV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SDataFluidIoDatasetV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDataFluidIoDatasetV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDataFluidIoDatasetV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3271,7 +3271,7 @@ export class DataK8SDataFluidIoDatasetV1Alpha1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest k8s_data_fluid_io_dataset_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_dataset_v1alpha1_manifest k8s_data_fluid_io_dataset_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3282,8 +3282,8 @@ export class DataK8SDataFluidIoDatasetV1Alpha1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_data_fluid_io_dataset_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

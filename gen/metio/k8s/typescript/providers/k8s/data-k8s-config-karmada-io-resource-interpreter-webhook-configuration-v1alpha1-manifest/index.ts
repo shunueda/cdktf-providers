@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#metadata DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#metadata DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1ManifestMetadata;
   /**
   * Webhooks is a list of webhooks and the affected resources and operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#webhooks DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#webhooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#webhooks DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#webhooks}
   */
   readonly webhooks: DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1ManifestWebhooks[] | cdktf.IResolvable;
 }
@@ -24,19 +24,19 @@ export interface DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#annotations DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#annotations DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#labels DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#labels DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#name DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#name DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,25 +187,25 @@ export interface DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1
   /**
   * 'name' is the name of the service. Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#name DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#name DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * 'namespace' is the namespace of the service. Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#namespace DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#namespace DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
   /**
   * 'path' is an optional URL path which will be sent in any request to this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#path DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#path DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * If specified, the port on the service that hosting webhook. Default to 443 for backward compatibility. 'port' should be a valid port number (1-65535, inclusive).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#port DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#port DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -382,19 +382,19 @@ export interface DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1
   /**
   * 'caBundle' is a PEM encoded CA bundle which will be used to validate the webhook's server certificate. If unspecified, system trust roots on the apiserver are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#ca_bundle DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#ca_bundle DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * 'service' is a reference to the service for this webhook. Either 'service' or 'url' must be specified. If the webhook is running within the cluster, then you should use 'service'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#service DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#service DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#service}
   */
   readonly service?: DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1ManifestWebhooksClientConfigService;
   /**
   * 'url' gives the location of the webhook, in standard URL form ('scheme://host:port/path'). Exactly one of 'url' or 'service' must be specified. The 'host' should not refer to a service running in the cluster; use the 'service' field instead. The host might be resolved via external DNS in some apiservers (e.g., 'kube-apiserver' cannot resolve in-cluster DNS as that would be a layering violation). 'host' may also be an IP address. Please note that using 'localhost' or '127.0.0.1' as a 'host' is risky unless you take great care to run this webhook on all hosts which run an apiserver which might need to make calls to this webhook. Such installs are likely to be non-portable, i.e., not easy to turn up in a new cluster. The scheme must be 'https'; the URL must begin with 'https://'. A path is optional, and if present may be any string permissible in a URL. You may use the path to pass an arbitrary string to the webhook, for example, a cluster identifier. Attempting to use a user or basic auth e.g. 'user:password@' is not allowed. Fragments ('#...') and query parameters ('?...') are not allowed, either.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#url DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#url DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -548,25 +548,25 @@ export interface DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1
   /**
   * APIGroups is the API groups the resources belong to. '*' is all groups. If '*' is present, the length of the slice must be one. For example: ['apps', 'batch', 'example.io'] means matches 3 groups. ['*'] means matches all group Note: The group could be empty, e.g the 'core' group of kubernetes, in that case use [''].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#api_groups DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#api_groups DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#api_groups}
   */
   readonly apiGroups: string[];
   /**
   * APIVersions is the API versions the resources belong to. '*' is all versions. If '*' is present, the length of the slice must be one. For example: ['v1alpha1', 'v1beta1'] means matches 2 versions. ['*'] means matches all versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#api_versions DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#api_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#api_versions DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#api_versions}
   */
   readonly apiVersions: string[];
   /**
   * Kinds is a list of resources this rule applies to. If '*' is present, the length of the slice must be one. For example: ['Deployment', 'Pod'] means matches Deployment and Pod. ['*'] means apply to all resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#kinds DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#kinds DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#kinds}
   */
   readonly kinds: string[];
   /**
   * Operations is the operations the hook cares about. If '*' is present, the length of the slice must be one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#operations DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#operations DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#operations}
   */
   readonly operations: string[];
 }
@@ -759,31 +759,31 @@ export interface DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1
   /**
   * ClientConfig defines how to communicate with the hook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#client_config DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#client_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#client_config DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#client_config}
   */
   readonly clientConfig: DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1ManifestWebhooksClientConfig;
   /**
   * InterpreterContextVersions is an ordered list of preferred 'ResourceInterpreterContext' versions the Webhook expects. Karmada will try to use first version in the list which it supports. If none of the versions specified in this list supported by Karmada, validation will fail for this object. If a persisted webhook configuration specifies allowed versions and does not include any versions known to the Karmada, calls to the webhook will fail and be subject to the failure policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#interpreter_context_versions DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#interpreter_context_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#interpreter_context_versions DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#interpreter_context_versions}
   */
   readonly interpreterContextVersions: string[];
   /**
   * Name is the full-qualified name of the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#name DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#name DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Rules describes what operations on what resources the webhook cares about. The webhook cares about an operation if it matches any Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#rules DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#rules DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#rules}
   */
   readonly rules?: DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1ManifestWebhooksRules[] | cdktf.IResolvable;
   /**
   * TimeoutSeconds specifies the timeout for this webhook. After the timeout passes, the webhook call will be ignored or the API call will fail based on the failure policy. The timeout value must be between 1 and 30 seconds. Default to 10 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#timeout_seconds DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#timeout_seconds DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -1006,7 +1006,7 @@ export class DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alph
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest k8s_config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest k8s_config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest}
 */
 export class DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1022,7 +1022,7 @@ export class DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alph
   * Generates CDKTF code for importing a DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1034,7 +1034,7 @@ export class DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alph
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest k8s_config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest k8s_config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1045,8 +1045,8 @@ export class DataK8SConfigKarmadaIoResourceInterpreterWebhookConfigurationV1Alph
       terraformResourceType: 'k8s_config_karmada_io_resource_interpreter_webhook_configuration_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

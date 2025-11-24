@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestConfig
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#metadata DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#metadata DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#spec DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#spec DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestMetada
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#annotations DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#annotations DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#labels DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#labels DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#name DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#name DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,41 +185,41 @@ export interface DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestSpecOw
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#api_version DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#api_version DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * If true, AND if the owner has the 'foregroundDeletion' finalizer, then the owner cannot be deleted from the key-value store until this reference is removed. See https://kubernetes.io/docs/concepts/architecture/garbage-collection/#foreground-deletion for how the garbage collector interacts with this field and enforces the foreground deletion. Defaults to false. To set this field, a user needs 'delete' permission of the owner, otherwise 422 (Unprocessable Entity) will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#block_owner_deletion DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#block_owner_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#block_owner_deletion DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#block_owner_deletion}
   */
   readonly blockOwnerDeletion?: boolean | cdktf.IResolvable;
   /**
   * If true, this reference points to the managing controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#controller DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#controller DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#controller}
   */
   readonly controller?: boolean | cdktf.IResolvable;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#kind DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#kind DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#name DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#name DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#namespace DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#namespace DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#uid DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#uid DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#uid}
   */
   readonly uid: string;
 }
@@ -477,19 +477,19 @@ export interface DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestSpecOw
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#key DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#key DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#operator DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#operator DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#values DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#values DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -659,13 +659,13 @@ export interface DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestSpecOw
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#match_expressions DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#match_expressions DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestSpecOwnersLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#match_labels DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#match_labels DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -790,43 +790,43 @@ export interface DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestSpecOw
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#api_version DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#api_version DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#field_path DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#field_path DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#kind DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#kind DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#name DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#name DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#namespace DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#namespace DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#resource_version DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#resource_version DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#uid DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#uid DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1094,19 +1094,19 @@ export class DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestSpecOwners
 }
 export interface DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestSpecOwners {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#controller DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#controller DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#controller}
   */
   readonly controller?: DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestSpecOwnersController;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#label_selector DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#label_selector DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestSpecOwnersLabelSelector;
   /**
   * Multiple field selectors are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#object DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#object DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#object}
   */
   readonly object?: DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestSpecOwnersObject;
 }
@@ -1282,25 +1282,25 @@ export interface DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestSpecTa
   /**
   * Required. The effect of the taint on pods that do not tolerate the taint. Valid effects are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#effect DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#effect DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#effect}
   */
   readonly effect: string;
   /**
   * Required. The taint key to be applied to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#key DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#key DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * TimeAdded represents the time at which the taint was added. It is only written for NoExecute taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#time_added DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#time_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#time_added DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#time_added}
   */
   readonly timeAdded?: string;
   /**
   * The taint value corresponding to the taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#value DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#value DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1499,55 +1499,55 @@ export interface DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestSpec {
   /**
   * When 'AllocateOnce' is set, the reserved resources are only available for the first owner who allocates successfully and are not allocatable to other owners anymore. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#allocate_once DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#allocate_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#allocate_once DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#allocate_once}
   */
   readonly allocateOnce?: boolean | cdktf.IResolvable;
   /**
   * AllocatePolicy represents the allocation policy of reserved resources that Reservation expects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#allocate_policy DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#allocate_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#allocate_policy DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#allocate_policy}
   */
   readonly allocatePolicy?: string;
   /**
   * Expired timestamp when the reservation is expected to expire. If both 'expires' and 'ttl' are set, 'expires' is checked first. 'expires' and 'ttl' are mutually exclusive. Defaults to being set dynamically at runtime based on the 'ttl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#expires DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#expires DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#expires}
   */
   readonly expires?: string;
   /**
   * Specify the owners who can allocate the reserved resources. Multiple owner selectors and ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#owners DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#owners DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#owners}
   */
   readonly owners: DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestSpecOwners[] | cdktf.IResolvable;
   /**
   * By default, the resources requirements of reservation (specified in 'template.spec') is filtered by whether the node has sufficient free resources (i.e. Reservation Request < Node Free). When 'preAllocation' is set, the scheduler will skip this validation and allow overcommitment. The scheduled reservation would be waiting to be available until free resources are sufficient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#pre_allocation DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#pre_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#pre_allocation DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#pre_allocation}
   */
   readonly preAllocation?: boolean | cdktf.IResolvable;
   /**
   * Specifies the reservation's taints. This can be toleranted by the reservation tolerance. Eviction is not supported for NoExecute taints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#taints DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#taints DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#taints}
   */
   readonly taints?: DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestSpecTaints[] | cdktf.IResolvable;
   /**
   * Template defines the scheduling requirements (resources, affinities, images, ...) processed by the scheduler just like a normal pod. If the 'template.spec.nodeName' is specified, the scheduler will not choose another node but reserve resources on the specified node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#template DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#template DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#template}
   */
   readonly template: { [key: string]: string };
   /**
   * Time-to-Live period for the reservation. 'expires' and 'ttl' are mutually exclusive. Defaults to 24h. Set 0 to disable expiration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#ttl DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#ttl DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#ttl}
   */
   readonly ttl?: string;
   /**
   * Unschedulable controls reservation schedulability of new pods. By default, reservation is schedulable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#unschedulable DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#unschedulable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#unschedulable DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest#unschedulable}
   */
   readonly unschedulable?: boolean | cdktf.IResolvable;
 }
@@ -1867,7 +1867,7 @@ export class DataK8SSchedulingKoordinatorShReservationV1Alpha1ManifestSpecOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest k8s_scheduling_koordinator_sh_reservation_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest k8s_scheduling_koordinator_sh_reservation_v1alpha1_manifest}
 */
 export class DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1883,7 +1883,7 @@ export class DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest extends c
   * Generates CDKTF code for importing a DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1895,7 +1895,7 @@ export class DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest k8s_scheduling_koordinator_sh_reservation_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_koordinator_sh_reservation_v1alpha1_manifest k8s_scheduling_koordinator_sh_reservation_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1906,8 +1906,8 @@ export class DataK8SSchedulingKoordinatorShReservationV1Alpha1Manifest extends c
       terraformResourceType: 'k8s_scheduling_koordinator_sh_reservation_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

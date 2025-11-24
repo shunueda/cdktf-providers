@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface AwsCnpAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * AWS cloud type. Possible values are `STANDARD`, `CHINA` and `GOV`. Default value is `STANDARD`. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account#cloud AwsCnpAccount#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account#cloud AwsCnpAccount#cloud}
   */
   readonly cloud?: string;
   /**
   * Should snapshots be deleted when the resource is destroyed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account#delete_snapshots_on_destroy AwsCnpAccount#delete_snapshots_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account#delete_snapshots_on_destroy AwsCnpAccount#delete_snapshots_on_destroy}
   */
   readonly deleteSnapshotsOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * External ID. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account#external_id AwsCnpAccount#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account#external_id AwsCnpAccount#external_id}
   */
   readonly externalId?: string;
   /**
   * Account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account#name AwsCnpAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account#name AwsCnpAccount#name}
   */
   readonly name?: string;
   /**
   * AWS account ID. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account#native_id AwsCnpAccount#native_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account#native_id AwsCnpAccount#native_id}
   */
   readonly nativeId: string;
   /**
   * Regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account#regions AwsCnpAccount#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account#regions AwsCnpAccount#regions}
   */
   readonly regions: string[];
   /**
   * feature block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account#feature AwsCnpAccount#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account#feature AwsCnpAccount#feature}
   */
   readonly feature: AwsCnpAccountFeature[] | cdktf.IResolvable;
 }
@@ -132,15 +132,15 @@ export class AwsCnpAccountTrustPoliciesList extends cdktf.ComplexList {
 }
 export interface AwsCnpAccountFeature {
   /**
-  * RSC feature name. Possible values are `CLOUD_NATIVE_ARCHIVAL`, `CLOUD_NATIVE_PROTECTION`, `CLOUD_NATIVE_DYNAMODB_PROTECTION`, `CLOUD_NATIVE_S3_PROTECTION`, `SERVERS_AND_APPS`, `EXOCOMPUTE` and `RDS_PROTECTION`.
+  * RSC feature name. Possible values are `CLOUD_NATIVE_ARCHIVAL`, `CLOUD_NATIVE_PROTECTION`, `CLOUD_NATIVE_DYNAMODB_PROTECTION`, `CLOUD_NATIVE_S3_PROTECTION`, `KUBERNETES_PROTECTION`, `SERVERS_AND_APPS`, `EXOCOMPUTE` and `RDS_PROTECTION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account#name AwsCnpAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account#name AwsCnpAccount#name}
   */
   readonly name: string;
   /**
   * RSC permission groups for the feature. Possible values are `BASIC` and `RSC_MANAGED_CLUSTER`. For backwards compatibility, `[]` is interpreted as all applicable permission groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account#permission_groups AwsCnpAccount#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account#permission_groups AwsCnpAccount#permission_groups}
   */
   readonly permissionGroups: string[];
 }
@@ -279,7 +279,7 @@ export class AwsCnpAccountFeatureList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account polaris_aws_cnp_account}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account polaris_aws_cnp_account}
 */
 export class AwsCnpAccount extends cdktf.TerraformResource {
 
@@ -295,7 +295,7 @@ export class AwsCnpAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsCnpAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsCnpAccount to import
-  * @param importFromId The id of the existing AwsCnpAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsCnpAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsCnpAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -307,7 +307,7 @@ export class AwsCnpAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cnp_account polaris_aws_cnp_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cnp_account polaris_aws_cnp_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -318,8 +318,8 @@ export class AwsCnpAccount extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_aws_cnp_account',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

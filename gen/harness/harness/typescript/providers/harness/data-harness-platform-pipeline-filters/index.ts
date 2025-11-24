@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_pipeline_filters
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_pipeline_filters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHarnessPlatformPipelineFiltersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_pipeline_filters#id DataHarnessPlatformPipelineFilters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_pipeline_filters#id DataHarnessPlatformPipelineFilters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataHarnessPlatformPipelineFiltersConfig extends cdktf.Terrafor
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_pipeline_filters#identifier DataHarnessPlatformPipelineFilters#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_pipeline_filters#identifier DataHarnessPlatformPipelineFilters#identifier}
   */
   readonly identifier: string;
   /**
   * Organization Identifier for the Entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_pipeline_filters#org_id DataHarnessPlatformPipelineFilters#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_pipeline_filters#org_id DataHarnessPlatformPipelineFilters#org_id}
   */
   readonly orgId?: string;
   /**
   * Project Identifier for the Entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_pipeline_filters#project_id DataHarnessPlatformPipelineFilters#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_pipeline_filters#project_id DataHarnessPlatformPipelineFilters#project_id}
   */
   readonly projectId?: string;
   /**
   * Type of filter. Currently supported types are {PipelineSetup, PipelineExecution, Deployment, Template, EnvironmentGroup, Environment}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_pipeline_filters#type DataHarnessPlatformPipelineFilters#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_pipeline_filters#type DataHarnessPlatformPipelineFilters#type}
   */
   readonly type: string;
 }
@@ -582,7 +582,7 @@ export class DataHarnessPlatformPipelineFiltersFilterPropertiesList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_pipeline_filters harness_platform_pipeline_filters}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_pipeline_filters harness_platform_pipeline_filters}
 */
 export class DataHarnessPlatformPipelineFilters extends cdktf.TerraformDataSource {
 
@@ -598,7 +598,7 @@ export class DataHarnessPlatformPipelineFilters extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataHarnessPlatformPipelineFilters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformPipelineFilters to import
-  * @param importFromId The id of the existing DataHarnessPlatformPipelineFilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_pipeline_filters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformPipelineFilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_pipeline_filters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformPipelineFilters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -610,7 +610,7 @@ export class DataHarnessPlatformPipelineFilters extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_pipeline_filters harness_platform_pipeline_filters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_pipeline_filters harness_platform_pipeline_filters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -621,8 +621,8 @@ export class DataHarnessPlatformPipelineFilters extends cdktf.TerraformDataSourc
       terraformResourceType: 'harness_platform_pipeline_filters',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

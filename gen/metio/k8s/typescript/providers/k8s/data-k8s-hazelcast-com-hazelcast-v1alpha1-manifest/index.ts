@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#metadata DataK8SHazelcastComHazelcastV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#metadata DataK8SHazelcastComHazelcastV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SHazelcastComHazelcastV1Alpha1ManifestMetadata;
   /**
   * Initial values will be filled with its fields' default values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#spec DataK8SHazelcastComHazelcastV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#spec DataK8SHazelcastComHazelcastV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#annotations DataK8SHazelcastComHazelcastV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#annotations DataK8SHazelcastComHazelcastV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespace DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespace DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SHazelcastComHazelcastV1Alpha1ManifestMetadataOutputReference
 }
 export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAdvancedNetworkClientServerSocketEndpointConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#interfaces DataK8SHazelcastComHazelcastV1Alpha1Manifest#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#interfaces DataK8SHazelcastComHazelcastV1Alpha1Manifest#interfaces}
   */
   readonly interfaces?: string[];
 }
@@ -311,7 +311,7 @@ export class DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAdvancedNetworkClie
 }
 export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAdvancedNetworkMemberServerSocketEndpointConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#interfaces DataK8SHazelcastComHazelcastV1Alpha1Manifest#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#interfaces DataK8SHazelcastComHazelcastV1Alpha1Manifest#interfaces}
   */
   readonly interfaces?: string[];
 }
@@ -405,21 +405,21 @@ export class DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAdvancedNetworkMemb
 }
 export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAdvancedNetworkWan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#port DataK8SHazelcastComHazelcastV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#port DataK8SHazelcastComHazelcastV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#port_count DataK8SHazelcastComHazelcastV1Alpha1Manifest#port_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#port_count DataK8SHazelcastComHazelcastV1Alpha1Manifest#port_count}
   */
   readonly portCount?: number;
   /**
   * Service Type string describes ingress methods for a service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#service_type DataK8SHazelcastComHazelcastV1Alpha1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#service_type DataK8SHazelcastComHazelcastV1Alpha1Manifest#service_type}
   */
   readonly serviceType?: string;
 }
@@ -622,15 +622,15 @@ export class DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAdvancedNetworkWanL
 }
 export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAdvancedNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#client_server_socket_endpoint_config DataK8SHazelcastComHazelcastV1Alpha1Manifest#client_server_socket_endpoint_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#client_server_socket_endpoint_config DataK8SHazelcastComHazelcastV1Alpha1Manifest#client_server_socket_endpoint_config}
   */
   readonly clientServerSocketEndpointConfig?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAdvancedNetworkClientServerSocketEndpointConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#member_server_socket_endpoint_config DataK8SHazelcastComHazelcastV1Alpha1Manifest#member_server_socket_endpoint_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#member_server_socket_endpoint_config DataK8SHazelcastComHazelcastV1Alpha1Manifest#member_server_socket_endpoint_config}
   */
   readonly memberServerSocketEndpointConfig?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAdvancedNetworkMemberServerSocketEndpointConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#wan DataK8SHazelcastComHazelcastV1Alpha1Manifest#wan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#wan DataK8SHazelcastComHazelcastV1Alpha1Manifest#wan}
   */
   readonly wan?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAdvancedNetworkWan[] | cdktf.IResolvable;
 }
@@ -784,7 +784,7 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAgentResourcesC
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -899,19 +899,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAgentResources 
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#claims DataK8SHazelcastComHazelcastV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#claims DataK8SHazelcastComHazelcastV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAgentResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#limits DataK8SHazelcastComHazelcastV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#limits DataK8SHazelcastComHazelcastV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#requests DataK8SHazelcastComHazelcastV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#requests DataK8SHazelcastComHazelcastV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1065,19 +1065,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAgent {
   /**
   * Repository to pull Hazelcast Platform Operator Agent(https://github.com/hazelcast/platform-operator-agent)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#repository DataK8SHazelcastComHazelcastV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#repository DataK8SHazelcastComHazelcastV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Compute Resources required by the Agent container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#resources DataK8SHazelcastComHazelcastV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#resources DataK8SHazelcastComHazelcastV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAgentResources;
   /**
   * Version of Hazelcast Platform Operator Agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#version DataK8SHazelcastComHazelcastV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#version DataK8SHazelcastComHazelcastV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -1231,19 +1231,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecCpSubsystemPvc 
   /**
   * AccessModes contains the actual access modes of the volume backing the PVC has. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#access_modes DataK8SHazelcastComHazelcastV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#access_modes DataK8SHazelcastComHazelcastV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * A description of the PVC request capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#request_storage DataK8SHazelcastComHazelcastV1Alpha1Manifest#request_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#request_storage DataK8SHazelcastComHazelcastV1Alpha1Manifest#request_storage}
   */
   readonly requestStorage?: string;
   /**
   * Name of StorageClass which this persistent volume belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#storage_class_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#storage_class_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
 }
@@ -1397,37 +1397,37 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecCpSubsystem {
   /**
   * DataLoadTimeoutSeconds is the timeout duration in seconds for CP members to restore their persisted data from disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#data_load_timeout_seconds DataK8SHazelcastComHazelcastV1Alpha1Manifest#data_load_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#data_load_timeout_seconds DataK8SHazelcastComHazelcastV1Alpha1Manifest#data_load_timeout_seconds}
   */
   readonly dataLoadTimeoutSeconds?: number;
   /**
   * FailOnIndeterminateOperationState indicated whether CP Subsystem operations use at-least-once and at-most-once execution guarantees.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#fail_on_indeterminate_operation_state DataK8SHazelcastComHazelcastV1Alpha1Manifest#fail_on_indeterminate_operation_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#fail_on_indeterminate_operation_state DataK8SHazelcastComHazelcastV1Alpha1Manifest#fail_on_indeterminate_operation_state}
   */
   readonly failOnIndeterminateOperationState?: boolean | cdktf.IResolvable;
   /**
   * MissingCpMemberAutoRemovalSeconds is the duration in seconds to wait before automatically removing a missing CP member from the CP Subsystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#missing_cp_member_auto_removal_seconds DataK8SHazelcastComHazelcastV1Alpha1Manifest#missing_cp_member_auto_removal_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#missing_cp_member_auto_removal_seconds DataK8SHazelcastComHazelcastV1Alpha1Manifest#missing_cp_member_auto_removal_seconds}
   */
   readonly missingCpMemberAutoRemovalSeconds?: number;
   /**
   * PVC is the configuration of PersistenceVolumeClaim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pvc DataK8SHazelcastComHazelcastV1Alpha1Manifest#pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pvc DataK8SHazelcastComHazelcastV1Alpha1Manifest#pvc}
   */
   readonly pvc?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecCpSubsystemPvc;
   /**
   * SessionHeartbeatIntervalSeconds Interval in seconds for the periodically committed CP session heartbeats. Must be smaller than SessionTTLSeconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#session_heartbeat_interval_seconds DataK8SHazelcastComHazelcastV1Alpha1Manifest#session_heartbeat_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#session_heartbeat_interval_seconds DataK8SHazelcastComHazelcastV1Alpha1Manifest#session_heartbeat_interval_seconds}
   */
   readonly sessionHeartbeatIntervalSeconds?: number;
   /**
   * SessionTTLSeconds is the duration for a CP session to be kept alive after the last received heartbeat. Must be greater than or equal to SessionHeartbeatIntervalSeconds and smaller than or equal to MissingCpMemberAutoRemovalSeconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#session_ttl_seconds DataK8SHazelcastComHazelcastV1Alpha1Manifest#session_ttl_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#session_ttl_seconds DataK8SHazelcastComHazelcastV1Alpha1Manifest#session_ttl_seconds}
   */
   readonly sessionTtlSeconds?: number;
 }
@@ -1668,31 +1668,31 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecDurableExecutor
   /**
   * Capacity of the executor task per partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#capacity DataK8SHazelcastComHazelcastV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#capacity DataK8SHazelcastComHazelcastV1Alpha1Manifest#capacity}
   */
   readonly capacity?: number;
   /**
   * Durability of the executor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#durability DataK8SHazelcastComHazelcastV1Alpha1Manifest#durability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#durability DataK8SHazelcastComHazelcastV1Alpha1Manifest#durability}
   */
   readonly durability?: number;
   /**
   * The name of the executor service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The number of executor threads per member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pool_size DataK8SHazelcastComHazelcastV1Alpha1Manifest#pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pool_size DataK8SHazelcastComHazelcastV1Alpha1Manifest#pool_size}
   */
   readonly poolSize?: number;
   /**
   * Name of the User Code Namespace applied to this instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#user_code_namespace DataK8SHazelcastComHazelcastV1Alpha1Manifest#user_code_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#user_code_namespace DataK8SHazelcastComHazelcastV1Alpha1Manifest#user_code_namespace}
   */
   readonly userCodeNamespace?: string;
 }
@@ -1926,19 +1926,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecEnvValueFromCon
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#optional DataK8SHazelcastComHazelcastV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#optional DataK8SHazelcastComHazelcastV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2089,13 +2089,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecEnvValueFromFie
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#api_version DataK8SHazelcastComHazelcastV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#api_version DataK8SHazelcastComHazelcastV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#field_path DataK8SHazelcastComHazelcastV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#field_path DataK8SHazelcastComHazelcastV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -2217,19 +2217,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecEnvValueFromRes
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#container_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#container_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#divisor DataK8SHazelcastComHazelcastV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#divisor DataK8SHazelcastComHazelcastV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#resource DataK8SHazelcastComHazelcastV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#resource DataK8SHazelcastComHazelcastV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -2380,19 +2380,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecEnvValueFromSec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#optional DataK8SHazelcastComHazelcastV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#optional DataK8SHazelcastComHazelcastV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2543,25 +2543,25 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecEnvValueFrom {
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#config_map_key_ref DataK8SHazelcastComHazelcastV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#config_map_key_ref DataK8SHazelcastComHazelcastV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#field_ref DataK8SHazelcastComHazelcastV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#field_ref DataK8SHazelcastComHazelcastV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#resource_field_ref DataK8SHazelcastComHazelcastV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#resource_field_ref DataK8SHazelcastComHazelcastV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#secret_key_ref DataK8SHazelcastComHazelcastV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#secret_key_ref DataK8SHazelcastComHazelcastV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecEnvValueFromSecretKeyRef;
 }
@@ -2744,19 +2744,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecEnv {
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#value DataK8SHazelcastComHazelcastV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#value DataK8SHazelcastComHazelcastV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#value_from DataK8SHazelcastComHazelcastV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#value_from DataK8SHazelcastComHazelcastV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecEnvValueFrom;
 }
@@ -2929,25 +2929,25 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecExecutorService
   /**
   * The name of the executor service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The number of executor threads per member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pool_size DataK8SHazelcastComHazelcastV1Alpha1Manifest#pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pool_size DataK8SHazelcastComHazelcastV1Alpha1Manifest#pool_size}
   */
   readonly poolSize?: number;
   /**
   * Task queue capacity of the executor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#queue_capacity DataK8SHazelcastComHazelcastV1Alpha1Manifest#queue_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#queue_capacity DataK8SHazelcastComHazelcastV1Alpha1Manifest#queue_capacity}
   */
   readonly queueCapacity?: number;
   /**
   * Name of the User Code Namespace applied to this instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#user_code_namespace DataK8SHazelcastComHazelcastV1Alpha1Manifest#user_code_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#user_code_namespace DataK8SHazelcastComHazelcastV1Alpha1Manifest#user_code_namespace}
   */
   readonly userCodeNamespace?: string;
 }
@@ -3152,19 +3152,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecExposeExternall
   /**
   * Type of the service used to discover Hazelcast cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#discovery_service_type DataK8SHazelcastComHazelcastV1Alpha1Manifest#discovery_service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#discovery_service_type DataK8SHazelcastComHazelcastV1Alpha1Manifest#discovery_service_type}
   */
   readonly discoveryServiceType?: string;
   /**
   * How each member is accessed from the external client. Only available for 'Smart' client and valid values are: - 'NodePortExternalIP' (default): each member is accessed by the NodePort service and the node external IP/hostname - 'NodePortNodeName': each member is accessed by the NodePort service and the node name - 'LoadBalancer': each member is accessed by the LoadBalancer service external address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#member_access DataK8SHazelcastComHazelcastV1Alpha1Manifest#member_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#member_access DataK8SHazelcastComHazelcastV1Alpha1Manifest#member_access}
   */
   readonly memberAccess?: string;
   /**
   * Specifies how members are exposed. Valid values are: - 'Smart' (default): each member pod is exposed with a separate external address - 'Unisocket': all member pods are exposed with one external address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#type DataK8SHazelcastComHazelcastV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#type DataK8SHazelcastComHazelcastV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -3318,7 +3318,7 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecImagePullSecret
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3436,19 +3436,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecJetBucketConfig
   /**
   * URL of the bucket to download HotBackup folders. AWS S3, GCP Bucket and Azure Blob storage buckets are supported. Example bucket URIs: - AWS S3 -> s3://bucket-name/path/to/folder - GCP Bucket -> gs://bucket-name/path/to/folder - Azure Blob -> azblob://bucket-name/path/to/folder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#bucket_uri DataK8SHazelcastComHazelcastV1Alpha1Manifest#bucket_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#bucket_uri DataK8SHazelcastComHazelcastV1Alpha1Manifest#bucket_uri}
   */
   readonly bucketUri: string;
   /**
   * secret is a deprecated alias for secretName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#secret DataK8SHazelcastComHazelcastV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#secret DataK8SHazelcastComHazelcastV1Alpha1Manifest#secret}
   */
   readonly secret?: string;
   /**
   * Name of the secret with credentials for cloud providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#secret_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#secret_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -3599,19 +3599,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecJetEdgeDefaults
   /**
   * Limits the size of the packet in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#packet_size_limit DataK8SHazelcastComHazelcastV1Alpha1Manifest#packet_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#packet_size_limit DataK8SHazelcastComHazelcastV1Alpha1Manifest#packet_size_limit}
   */
   readonly packetSizeLimit?: number;
   /**
   * Sets the capacity of processor-to-processor concurrent queues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#queue_size DataK8SHazelcastComHazelcastV1Alpha1Manifest#queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#queue_size DataK8SHazelcastComHazelcastV1Alpha1Manifest#queue_size}
   */
   readonly queueSize?: number;
   /**
   * Sets the scaling factor used by the adaptive receive window sizing function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#receive_window_multiplier DataK8SHazelcastComHazelcastV1Alpha1Manifest#receive_window_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#receive_window_multiplier DataK8SHazelcastComHazelcastV1Alpha1Manifest#receive_window_multiplier}
   */
   readonly receiveWindowMultiplier?: number;
 }
@@ -3765,37 +3765,37 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecJetInstance {
   /**
   * The number of synchronous backups to configure on the IMap that Jet needs internally to store job metadata and snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#backup_count DataK8SHazelcastComHazelcastV1Alpha1Manifest#backup_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#backup_count DataK8SHazelcastComHazelcastV1Alpha1Manifest#backup_count}
   */
   readonly backupCount?: number;
   /**
   * The number of threads Jet creates in its cooperative multithreading pool. Its default value is the number of cores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#cooperative_thread_count DataK8SHazelcastComHazelcastV1Alpha1Manifest#cooperative_thread_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#cooperative_thread_count DataK8SHazelcastComHazelcastV1Alpha1Manifest#cooperative_thread_count}
   */
   readonly cooperativeThreadCount?: number;
   /**
   * The duration of the interval between flow-control packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#flow_control_period_millis DataK8SHazelcastComHazelcastV1Alpha1Manifest#flow_control_period_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#flow_control_period_millis DataK8SHazelcastComHazelcastV1Alpha1Manifest#flow_control_period_millis}
   */
   readonly flowControlPeriodMillis?: number;
   /**
   * Specifies whether the Lossless Cluster Restart feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#lossless_restart_enabled DataK8SHazelcastComHazelcastV1Alpha1Manifest#lossless_restart_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#lossless_restart_enabled DataK8SHazelcastComHazelcastV1Alpha1Manifest#lossless_restart_enabled}
   */
   readonly losslessRestartEnabled?: boolean | cdktf.IResolvable;
   /**
   * Specifies the maximum number of records that can be accumulated by any single processor instance. Default value is Long.MAX_VALUE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#max_processor_accumulated_records DataK8SHazelcastComHazelcastV1Alpha1Manifest#max_processor_accumulated_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#max_processor_accumulated_records DataK8SHazelcastComHazelcastV1Alpha1Manifest#max_processor_accumulated_records}
   */
   readonly maxProcessorAccumulatedRecords?: number;
   /**
   * The delay after which the auto-scaled jobs restart if a new member joins the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#scale_up_delay_millis DataK8SHazelcastComHazelcastV1Alpha1Manifest#scale_up_delay_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#scale_up_delay_millis DataK8SHazelcastComHazelcastV1Alpha1Manifest#scale_up_delay_millis}
   */
   readonly scaleUpDelayMillis?: number;
 }
@@ -4036,43 +4036,43 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecJet {
   /**
   * Bucket config from where the JAR files will be downloaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#bucket_config DataK8SHazelcastComHazelcastV1Alpha1Manifest#bucket_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#bucket_config DataK8SHazelcastComHazelcastV1Alpha1Manifest#bucket_config}
   */
   readonly bucketConfig?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecJetBucketConfig;
   /**
   * Names of the list of ConfigMaps. Files in each ConfigMap will be downloaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#config_maps DataK8SHazelcastComHazelcastV1Alpha1Manifest#config_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#config_maps DataK8SHazelcastComHazelcastV1Alpha1Manifest#config_maps}
   */
   readonly configMaps?: string[];
   /**
   * Jet Edge Defaults Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#edge_defaults DataK8SHazelcastComHazelcastV1Alpha1Manifest#edge_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#edge_defaults DataK8SHazelcastComHazelcastV1Alpha1Manifest#edge_defaults}
   */
   readonly edgeDefaults?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecJetEdgeDefaults;
   /**
   * When false, disables Jet Engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#enabled DataK8SHazelcastComHazelcastV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#enabled DataK8SHazelcastComHazelcastV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Jet Instance Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#instance DataK8SHazelcastComHazelcastV1Alpha1Manifest#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#instance DataK8SHazelcastComHazelcastV1Alpha1Manifest#instance}
   */
   readonly instance?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecJetInstance;
   /**
   * List of URLs from where the files will be downloaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#remote_urls DataK8SHazelcastComHazelcastV1Alpha1Manifest#remote_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#remote_urls DataK8SHazelcastComHazelcastV1Alpha1Manifest#remote_urls}
   */
   readonly remoteUrls?: string[];
   /**
   * When true, enables resource uploading for Jet jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#resource_upload_enabled DataK8SHazelcastComHazelcastV1Alpha1Manifest#resource_upload_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#resource_upload_enabled DataK8SHazelcastComHazelcastV1Alpha1Manifest#resource_upload_enabled}
   */
   readonly resourceUploadEnabled?: boolean | cdktf.IResolvable;
 }
@@ -4342,13 +4342,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecJvmGc {
   /**
   * Collector is the Garbage Collector type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#collector DataK8SHazelcastComHazelcastV1Alpha1Manifest#collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#collector DataK8SHazelcastComHazelcastV1Alpha1Manifest#collector}
   */
   readonly collector?: string;
   /**
   * Logging enables logging when set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#logging DataK8SHazelcastComHazelcastV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#logging DataK8SHazelcastComHazelcastV1Alpha1Manifest#logging}
   */
   readonly logging?: boolean | cdktf.IResolvable;
 }
@@ -4473,19 +4473,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecJvmMemory {
   /**
   * InitialRAMPercentage configures JVM initial heap size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#initial_ram_percentage DataK8SHazelcastComHazelcastV1Alpha1Manifest#initial_ram_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#initial_ram_percentage DataK8SHazelcastComHazelcastV1Alpha1Manifest#initial_ram_percentage}
   */
   readonly initialRamPercentage?: string;
   /**
   * MaxRAMPercentage sets the maximum heap size for a JVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#max_ram_percentage DataK8SHazelcastComHazelcastV1Alpha1Manifest#max_ram_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#max_ram_percentage DataK8SHazelcastComHazelcastV1Alpha1Manifest#max_ram_percentage}
   */
   readonly maxRamPercentage?: string;
   /**
   * MinRAMPercentage sets the minimum heap size for a JVM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#min_ram_percentage DataK8SHazelcastComHazelcastV1Alpha1Manifest#min_ram_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#min_ram_percentage DataK8SHazelcastComHazelcastV1Alpha1Manifest#min_ram_percentage}
   */
   readonly minRamPercentage?: string;
 }
@@ -4639,19 +4639,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecJvm {
   /**
   * Args is for arbitrary JVM arguments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#args DataK8SHazelcastComHazelcastV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#args DataK8SHazelcastComHazelcastV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * GC is for configuring JVM Garbage Collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#gc DataK8SHazelcastComHazelcastV1Alpha1Manifest#gc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#gc DataK8SHazelcastComHazelcastV1Alpha1Manifest#gc}
   */
   readonly gc?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecJvmGc;
   /**
   * Memory is a JVM memory configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#memory DataK8SHazelcastComHazelcastV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#memory DataK8SHazelcastComHazelcastV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecJvmMemory;
 }
@@ -4805,19 +4805,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecLocalDevicesPvc
   /**
   * AccessModes contains the actual access modes of the volume backing the PVC has. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#access_modes DataK8SHazelcastComHazelcastV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#access_modes DataK8SHazelcastComHazelcastV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * A description of the PVC request capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#request_storage DataK8SHazelcastComHazelcastV1Alpha1Manifest#request_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#request_storage DataK8SHazelcastComHazelcastV1Alpha1Manifest#request_storage}
   */
   readonly requestStorage?: string;
   /**
   * Name of StorageClass which this persistent volume belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#storage_class_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#storage_class_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
 }
@@ -4971,31 +4971,31 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecLocalDevices {
   /**
   * BlockSize defines Device block/sector size in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#block_size DataK8SHazelcastComHazelcastV1Alpha1Manifest#block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#block_size DataK8SHazelcastComHazelcastV1Alpha1Manifest#block_size}
   */
   readonly blockSize?: number;
   /**
   * Name represents the name of the local device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Configuration of PersistenceVolumeClaim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pvc DataK8SHazelcastComHazelcastV1Alpha1Manifest#pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pvc DataK8SHazelcastComHazelcastV1Alpha1Manifest#pvc}
   */
   readonly pvc?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecLocalDevicesPvc;
   /**
   * ReadIOThreadCount is Read IO thread count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#read_io_thread_count DataK8SHazelcastComHazelcastV1Alpha1Manifest#read_io_thread_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#read_io_thread_count DataK8SHazelcastComHazelcastV1Alpha1Manifest#read_io_thread_count}
   */
   readonly readIoThreadCount?: number;
   /**
   * WriteIOThreadCount is Write IO thread count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#write_io_thread_count DataK8SHazelcastComHazelcastV1Alpha1Manifest#write_io_thread_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#write_io_thread_count DataK8SHazelcastComHazelcastV1Alpha1Manifest#write_io_thread_count}
   */
   readonly writeIoThreadCount?: number;
 }
@@ -5226,19 +5226,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecManagementCente
   /**
   * Allows you to execute commands from a built-in console in the user interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#console_enabled DataK8SHazelcastComHazelcastV1Alpha1Manifest#console_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#console_enabled DataK8SHazelcastComHazelcastV1Alpha1Manifest#console_enabled}
   */
   readonly consoleEnabled?: boolean | cdktf.IResolvable;
   /**
   * Allows you to access contents of Hazelcast data structures via SQL Browser or Map Browser.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#data_access_enabled DataK8SHazelcastComHazelcastV1Alpha1Manifest#data_access_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#data_access_enabled DataK8SHazelcastComHazelcastV1Alpha1Manifest#data_access_enabled}
   */
   readonly dataAccessEnabled?: boolean | cdktf.IResolvable;
   /**
   * Allows you to execute scripts that can automate interactions with the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#scripting_enabled DataK8SHazelcastComHazelcastV1Alpha1Manifest#scripting_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#scripting_enabled DataK8SHazelcastComHazelcastV1Alpha1Manifest#scripting_enabled}
   */
   readonly scriptingEnabled?: boolean | cdktf.IResolvable;
 }
@@ -5392,31 +5392,31 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecNativeMemory {
   /**
   * AllocatorType specifies one of 2 types of mechanism for allocating memory to HD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#allocator_type DataK8SHazelcastComHazelcastV1Alpha1Manifest#allocator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#allocator_type DataK8SHazelcastComHazelcastV1Alpha1Manifest#allocator_type}
   */
   readonly allocatorType?: string;
   /**
   * MetadataSpacePercentage defines percentage of the allocated native memory that is used for the metadata of other map components such as index (for predicates), offset, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#metadata_space_percentage DataK8SHazelcastComHazelcastV1Alpha1Manifest#metadata_space_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#metadata_space_percentage DataK8SHazelcastComHazelcastV1Alpha1Manifest#metadata_space_percentage}
   */
   readonly metadataSpacePercentage?: number;
   /**
   * MinBlockSize is the size of smallest block that will be allocated. It is used only by the POOLED memory allocator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#min_block_size DataK8SHazelcastComHazelcastV1Alpha1Manifest#min_block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#min_block_size DataK8SHazelcastComHazelcastV1Alpha1Manifest#min_block_size}
   */
   readonly minBlockSize?: number;
   /**
   * PageSize is the size of the page in bytes to allocate memory as a block. It is used only by the POOLED memory allocator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#page_size DataK8SHazelcastComHazelcastV1Alpha1Manifest#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#page_size DataK8SHazelcastComHazelcastV1Alpha1Manifest#page_size}
   */
   readonly pageSize?: number;
   /**
   * Size of the total native memory to allocate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#size DataK8SHazelcastComHazelcastV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#size DataK8SHazelcastComHazelcastV1Alpha1Manifest#size}
   */
   readonly size?: string;
 }
@@ -5628,19 +5628,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecPersistencePvc 
   /**
   * AccessModes contains the actual access modes of the volume backing the PVC has. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#access_modes DataK8SHazelcastComHazelcastV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#access_modes DataK8SHazelcastComHazelcastV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * A description of the PVC request capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#request_storage DataK8SHazelcastComHazelcastV1Alpha1Manifest#request_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#request_storage DataK8SHazelcastComHazelcastV1Alpha1Manifest#request_storage}
   */
   readonly requestStorage?: string;
   /**
   * Name of StorageClass which this persistent volume belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#storage_class_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#storage_class_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
 }
@@ -5794,19 +5794,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecPersistenceRest
   /**
   * URL of the bucket to download HotBackup folders. AWS S3, GCP Bucket and Azure Blob storage buckets are supported. Example bucket URIs: - AWS S3 -> s3://bucket-name/path/to/folder - GCP Bucket -> gs://bucket-name/path/to/folder - Azure Blob -> azblob://bucket-name/path/to/folder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#bucket_uri DataK8SHazelcastComHazelcastV1Alpha1Manifest#bucket_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#bucket_uri DataK8SHazelcastComHazelcastV1Alpha1Manifest#bucket_uri}
   */
   readonly bucketUri: string;
   /**
   * secret is a deprecated alias for secretName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#secret DataK8SHazelcastComHazelcastV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#secret DataK8SHazelcastComHazelcastV1Alpha1Manifest#secret}
   */
   readonly secret?: string;
   /**
   * Name of the secret with credentials for cloud providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#secret_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#secret_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -5957,25 +5957,25 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecPersistenceRest
   /**
   * Local backup base directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#backup_dir DataK8SHazelcastComHazelcastV1Alpha1Manifest#backup_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#backup_dir DataK8SHazelcastComHazelcastV1Alpha1Manifest#backup_dir}
   */
   readonly backupDir?: string;
   /**
   * Backup directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#backup_folder DataK8SHazelcastComHazelcastV1Alpha1Manifest#backup_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#backup_folder DataK8SHazelcastComHazelcastV1Alpha1Manifest#backup_folder}
   */
   readonly backupFolder?: string;
   /**
   * Persistence base directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#base_dir DataK8SHazelcastComHazelcastV1Alpha1Manifest#base_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#base_dir DataK8SHazelcastComHazelcastV1Alpha1Manifest#base_dir}
   */
   readonly baseDir?: string;
   /**
   * PVC name prefix used in existing PVCs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pvc_name_prefix DataK8SHazelcastComHazelcastV1Alpha1Manifest#pvc_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pvc_name_prefix DataK8SHazelcastComHazelcastV1Alpha1Manifest#pvc_name_prefix}
   */
   readonly pvcNamePrefix?: string;
 }
@@ -6158,19 +6158,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecPersistenceRest
   /**
   * Bucket Configuration from which the backup will be downloaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#bucket_config DataK8SHazelcastComHazelcastV1Alpha1Manifest#bucket_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#bucket_config DataK8SHazelcastComHazelcastV1Alpha1Manifest#bucket_config}
   */
   readonly bucketConfig?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecPersistenceRestoreBucketConfig;
   /**
   * Name of the HotBackup resource from which backup will be fetched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#hot_backup_resource_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#hot_backup_resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#hot_backup_resource_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#hot_backup_resource_name}
   */
   readonly hotBackupResourceName?: string;
   /**
   * Configuration to restore from local backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#local_config DataK8SHazelcastComHazelcastV1Alpha1Manifest#local_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#local_config DataK8SHazelcastComHazelcastV1Alpha1Manifest#local_config}
   */
   readonly localConfig?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecPersistenceRestoreLocalConfig;
 }
@@ -6324,37 +6324,37 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecPersistence {
   /**
   * BaseDir is deprecated. Use restore.localConfig to restore from a local backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#base_dir DataK8SHazelcastComHazelcastV1Alpha1Manifest#base_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#base_dir DataK8SHazelcastComHazelcastV1Alpha1Manifest#base_dir}
   */
   readonly baseDir?: string;
   /**
   * Configuration of the cluster recovery strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#cluster_data_recovery_policy DataK8SHazelcastComHazelcastV1Alpha1Manifest#cluster_data_recovery_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#cluster_data_recovery_policy DataK8SHazelcastComHazelcastV1Alpha1Manifest#cluster_data_recovery_policy}
   */
   readonly clusterDataRecoveryPolicy?: string;
   /**
   * DataRecoveryTimeout is timeout for each step of data recovery in seconds. Maximum timeout is equal to DataRecoveryTimeout*2 (for each step: validation and data-load).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#data_recovery_timeout DataK8SHazelcastComHazelcastV1Alpha1Manifest#data_recovery_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#data_recovery_timeout DataK8SHazelcastComHazelcastV1Alpha1Manifest#data_recovery_timeout}
   */
   readonly dataRecoveryTimeout?: number;
   /**
   * Configuration of PersistenceVolumeClaim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pvc DataK8SHazelcastComHazelcastV1Alpha1Manifest#pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pvc DataK8SHazelcastComHazelcastV1Alpha1Manifest#pvc}
   */
   readonly pvc?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecPersistencePvc;
   /**
   * Restore configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#restore DataK8SHazelcastComHazelcastV1Alpha1Manifest#restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#restore DataK8SHazelcastComHazelcastV1Alpha1Manifest#restore}
   */
   readonly restore?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecPersistenceRestore;
   /**
   * StartupAction represents the action triggered when the cluster starts to force the cluster startup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#startup_action DataK8SHazelcastComHazelcastV1Alpha1Manifest#startup_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#startup_action DataK8SHazelcastComHazelcastV1Alpha1Manifest#startup_action}
   */
   readonly startupAction?: string;
 }
@@ -6595,7 +6595,7 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecResourcesClaims
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -6710,19 +6710,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#claims DataK8SHazelcastComHazelcastV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#claims DataK8SHazelcastComHazelcastV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#limits DataK8SHazelcastComHazelcastV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#limits DataK8SHazelcastComHazelcastV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#requests DataK8SHazelcastComHazelcastV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#requests DataK8SHazelcastComHazelcastV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6876,37 +6876,37 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecScheduledExecut
   /**
   * Capacity of the executor task per partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#capacity DataK8SHazelcastComHazelcastV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#capacity DataK8SHazelcastComHazelcastV1Alpha1Manifest#capacity}
   */
   readonly capacity?: number;
   /**
   * The active policy for the capacity setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#capacity_policy DataK8SHazelcastComHazelcastV1Alpha1Manifest#capacity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#capacity_policy DataK8SHazelcastComHazelcastV1Alpha1Manifest#capacity_policy}
   */
   readonly capacityPolicy?: string;
   /**
   * Durability of the executor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#durability DataK8SHazelcastComHazelcastV1Alpha1Manifest#durability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#durability DataK8SHazelcastComHazelcastV1Alpha1Manifest#durability}
   */
   readonly durability?: number;
   /**
   * The name of the executor service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#name DataK8SHazelcastComHazelcastV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The number of executor threads per member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pool_size DataK8SHazelcastComHazelcastV1Alpha1Manifest#pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pool_size DataK8SHazelcastComHazelcastV1Alpha1Manifest#pool_size}
   */
   readonly poolSize?: number;
   /**
   * Name of the User Code Namespace applied to this instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#user_code_namespace DataK8SHazelcastComHazelcastV1Alpha1Manifest#user_code_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#user_code_namespace DataK8SHazelcastComHazelcastV1Alpha1Manifest#user_code_namespace}
   */
   readonly userCodeNamespace?: string;
 }
@@ -7169,19 +7169,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7351,19 +7351,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7533,13 +7533,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_fields DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_fields DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -7664,13 +7664,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#preference DataK8SHazelcastComHazelcastV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#preference DataK8SHazelcastComHazelcastV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#weight DataK8SHazelcastComHazelcastV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#weight DataK8SHazelcastComHazelcastV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -7811,19 +7811,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7993,19 +7993,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8175,13 +8175,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_fields DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_fields DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -8328,7 +8328,7 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#node_selector_terms DataK8SHazelcastComHazelcastV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#node_selector_terms DataK8SHazelcastComHazelcastV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -8421,13 +8421,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SHazelcastComHazelcastV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SHazelcastComHazelcastV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SHazelcastComHazelcastV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SHazelcastComHazelcastV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -8552,19 +8552,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8734,13 +8734,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8865,19 +8865,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9047,13 +9047,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9178,25 +9178,25 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#label_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#label_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespace_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespace_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespaces DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespaces DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#topology_key DataK8SHazelcastComHazelcastV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#topology_key DataK8SHazelcastComHazelcastV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -9376,13 +9376,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pod_affinity_term DataK8SHazelcastComHazelcastV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pod_affinity_term DataK8SHazelcastComHazelcastV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#weight DataK8SHazelcastComHazelcastV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#weight DataK8SHazelcastComHazelcastV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -9523,19 +9523,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9705,13 +9705,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9836,19 +9836,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10018,13 +10018,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10149,25 +10149,25 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#label_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#label_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespace_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespace_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespaces DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespaces DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#topology_key DataK8SHazelcastComHazelcastV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#topology_key DataK8SHazelcastComHazelcastV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -10369,13 +10369,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SHazelcastComHazelcastV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SHazelcastComHazelcastV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SHazelcastComHazelcastV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SHazelcastComHazelcastV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -10500,19 +10500,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10682,13 +10682,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10813,19 +10813,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10995,13 +10995,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11126,25 +11126,25 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#label_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#label_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespace_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespace_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespaces DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespaces DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#topology_key DataK8SHazelcastComHazelcastV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#topology_key DataK8SHazelcastComHazelcastV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -11324,13 +11324,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pod_affinity_term DataK8SHazelcastComHazelcastV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pod_affinity_term DataK8SHazelcastComHazelcastV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#weight DataK8SHazelcastComHazelcastV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#weight DataK8SHazelcastComHazelcastV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -11471,19 +11471,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11653,13 +11653,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11784,19 +11784,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11966,13 +11966,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12097,25 +12097,25 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#label_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#label_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespace_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespace_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespaces DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#namespaces DataK8SHazelcastComHazelcastV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#topology_key DataK8SHazelcastComHazelcastV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#topology_key DataK8SHazelcastComHazelcastV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -12317,13 +12317,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SHazelcastComHazelcastV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SHazelcastComHazelcastV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SHazelcastComHazelcastV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SHazelcastComHazelcastV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -12448,19 +12448,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffin
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#node_affinity DataK8SHazelcastComHazelcastV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#node_affinity DataK8SHazelcastComHazelcastV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pod_affinity DataK8SHazelcastComHazelcastV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pod_affinity DataK8SHazelcastComHazelcastV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pod_anti_affinity DataK8SHazelcastComHazelcastV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#pod_anti_affinity DataK8SHazelcastComHazelcastV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinityPodAntiAffinity;
 }
@@ -12614,31 +12614,31 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingToler
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#effect DataK8SHazelcastComHazelcastV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#effect DataK8SHazelcastComHazelcastV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#toleration_seconds DataK8SHazelcastComHazelcastV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#toleration_seconds DataK8SHazelcastComHazelcastV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#value DataK8SHazelcastComHazelcastV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#value DataK8SHazelcastComHazelcastV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -12872,19 +12872,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingTopol
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#key DataK8SHazelcastComHazelcastV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#operator DataK8SHazelcastComHazelcastV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#values DataK8SHazelcastComHazelcastV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13054,13 +13054,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingTopol
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_expressions DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13185,49 +13185,49 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingTopol
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#label_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#label_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. MatchLabelKeys cannot be set when LabelSelector isn't set. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector. This is a beta field and requires the MatchLabelKeysInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_label_keys DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#match_label_keys DataK8SHazelcastComHazelcastV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#max_skew DataK8SHazelcastComHazelcastV1Alpha1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#max_skew DataK8SHazelcastComHazelcastV1Alpha1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew. This is a beta field and requires the MinDomainsInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#min_domains DataK8SHazelcastComHazelcastV1Alpha1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#min_domains DataK8SHazelcastComHazelcastV1Alpha1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#node_affinity_policy DataK8SHazelcastComHazelcastV1Alpha1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#node_affinity_policy DataK8SHazelcastComHazelcastV1Alpha1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#node_taints_policy DataK8SHazelcastComHazelcastV1Alpha1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#node_taints_policy DataK8SHazelcastComHazelcastV1Alpha1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#topology_key DataK8SHazelcastComHazelcastV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#topology_key DataK8SHazelcastComHazelcastV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#when_unsatisfiable DataK8SHazelcastComHazelcastV1Alpha1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#when_unsatisfiable DataK8SHazelcastComHazelcastV1Alpha1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -13539,25 +13539,25 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecScheduling {
   /**
   * Affinity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#affinity DataK8SHazelcastComHazelcastV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#affinity DataK8SHazelcastComHazelcastV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingAffinity;
   /**
   * NodeSelector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#node_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#node_selector DataK8SHazelcastComHazelcastV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Tolerations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#tolerations DataK8SHazelcastComHazelcastV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#tolerations DataK8SHazelcastComHazelcastV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingTolerations[] | cdktf.IResolvable;
   /**
   * TopologySpreadConstraints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#topology_spread_constraints DataK8SHazelcastComHazelcastV1Alpha1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#topology_spread_constraints DataK8SHazelcastComHazelcastV1Alpha1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSchedulingTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -13740,13 +13740,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSerializationCo
   /**
   * Classes is the list of class names for which a zero-config serializer will be registered, without implementing an explicit serializer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#classes DataK8SHazelcastComHazelcastV1Alpha1Manifest#classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#classes DataK8SHazelcastComHazelcastV1Alpha1Manifest#classes}
   */
   readonly classes?: string[];
   /**
   * Serializers is the list of explicit serializers to be registered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#serializers DataK8SHazelcastComHazelcastV1Alpha1Manifest#serializers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#serializers DataK8SHazelcastComHazelcastV1Alpha1Manifest#serializers}
   */
   readonly serializers?: string[];
 }
@@ -13871,13 +13871,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSerializationGl
   /**
   * Class name of the GlobalSerializer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#class_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#class_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#class_name}
   */
   readonly className: string;
   /**
   * If set to true, will replace the internal Java serialization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#override_java_serialization DataK8SHazelcastComHazelcastV1Alpha1Manifest#override_java_serialization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#override_java_serialization DataK8SHazelcastComHazelcastV1Alpha1Manifest#override_java_serialization}
   */
   readonly overrideJavaSerialization?: boolean | cdktf.IResolvable;
 }
@@ -13999,19 +13999,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSerializationJa
   /**
   * List of class names to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#classes DataK8SHazelcastComHazelcastV1Alpha1Manifest#classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#classes DataK8SHazelcastComHazelcastV1Alpha1Manifest#classes}
   */
   readonly classes?: string[];
   /**
   * List of packages to be filtered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#packages DataK8SHazelcastComHazelcastV1Alpha1Manifest#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#packages DataK8SHazelcastComHazelcastV1Alpha1Manifest#packages}
   */
   readonly packages?: string[];
   /**
   * List of prefixes to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#prefixes DataK8SHazelcastComHazelcastV1Alpha1Manifest#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#prefixes DataK8SHazelcastComHazelcastV1Alpha1Manifest#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -14165,19 +14165,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSerializationJa
   /**
   * List of class names to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#classes DataK8SHazelcastComHazelcastV1Alpha1Manifest#classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#classes DataK8SHazelcastComHazelcastV1Alpha1Manifest#classes}
   */
   readonly classes?: string[];
   /**
   * List of packages to be filtered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#packages DataK8SHazelcastComHazelcastV1Alpha1Manifest#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#packages DataK8SHazelcastComHazelcastV1Alpha1Manifest#packages}
   */
   readonly packages?: string[];
   /**
   * List of prefixes to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#prefixes DataK8SHazelcastComHazelcastV1Alpha1Manifest#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#prefixes DataK8SHazelcastComHazelcastV1Alpha1Manifest#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -14331,13 +14331,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSerializationJa
   /**
   * Java deserialization protection Blacklist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#blacklist DataK8SHazelcastComHazelcastV1Alpha1Manifest#blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#blacklist DataK8SHazelcastComHazelcastV1Alpha1Manifest#blacklist}
   */
   readonly blacklist?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSerializationJavaSerializationFilterBlacklistStruct;
   /**
   * Java deserialization protection Whitelist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#whitelist DataK8SHazelcastComHazelcastV1Alpha1Manifest#whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#whitelist DataK8SHazelcastComHazelcastV1Alpha1Manifest#whitelist}
   */
   readonly whitelist?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSerializationJavaSerializationFilterWhitelistStruct;
 }
@@ -14462,13 +14462,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSerializationSe
   /**
   * Class name of the implementation of the serializer class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#class_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#class_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#class_name}
   */
   readonly className: string;
   /**
   * Name of the class that will be serialized via this implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#type_class DataK8SHazelcastComHazelcastV1Alpha1Manifest#type_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#type_class DataK8SHazelcastComHazelcastV1Alpha1Manifest#type_class}
   */
   readonly typeClass: string;
 }
@@ -14609,67 +14609,67 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSerialization {
   /**
   * Allow the usage of unsafe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#allow_unsafe DataK8SHazelcastComHazelcastV1Alpha1Manifest#allow_unsafe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#allow_unsafe DataK8SHazelcastComHazelcastV1Alpha1Manifest#allow_unsafe}
   */
   readonly allowUnsafe?: boolean | cdktf.IResolvable;
   /**
   * Specifies the byte order that the serialization will use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#byte_order DataK8SHazelcastComHazelcastV1Alpha1Manifest#byte_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#byte_order DataK8SHazelcastComHazelcastV1Alpha1Manifest#byte_order}
   */
   readonly byteOrder?: string;
   /**
   * Configuration attributes the compact serialization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#compact_serialization DataK8SHazelcastComHazelcastV1Alpha1Manifest#compact_serialization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#compact_serialization DataK8SHazelcastComHazelcastV1Alpha1Manifest#compact_serialization}
   */
   readonly compactSerialization?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSerializationCompactSerialization;
   /**
   * Lists class implementations of Hazelcast's DataSerializableFactory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#data_serializable_factories DataK8SHazelcastComHazelcastV1Alpha1Manifest#data_serializable_factories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#data_serializable_factories DataK8SHazelcastComHazelcastV1Alpha1Manifest#data_serializable_factories}
   */
   readonly dataSerializableFactories?: string[];
   /**
   * Enables compression when default Java serialization is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#enable_compression DataK8SHazelcastComHazelcastV1Alpha1Manifest#enable_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#enable_compression DataK8SHazelcastComHazelcastV1Alpha1Manifest#enable_compression}
   */
   readonly enableCompression?: boolean | cdktf.IResolvable;
   /**
   * Enables shared object when default Java serialization is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#enable_shared_object DataK8SHazelcastComHazelcastV1Alpha1Manifest#enable_shared_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#enable_shared_object DataK8SHazelcastComHazelcastV1Alpha1Manifest#enable_shared_object}
   */
   readonly enableSharedObject?: boolean | cdktf.IResolvable;
   /**
   * List of global serializers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#global_serializer DataK8SHazelcastComHazelcastV1Alpha1Manifest#global_serializer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#global_serializer DataK8SHazelcastComHazelcastV1Alpha1Manifest#global_serializer}
   */
   readonly globalSerializer?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSerializationGlobalSerializer;
   /**
   * Blacklist and whitelist for deserialized classes when Java serialization is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#java_serialization_filter DataK8SHazelcastComHazelcastV1Alpha1Manifest#java_serialization_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#java_serialization_filter DataK8SHazelcastComHazelcastV1Alpha1Manifest#java_serialization_filter}
   */
   readonly javaSerializationFilter?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSerializationJavaSerializationFilter;
   /**
   * Allows override of built-in default serializers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#override_default_serializers DataK8SHazelcastComHazelcastV1Alpha1Manifest#override_default_serializers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#override_default_serializers DataK8SHazelcastComHazelcastV1Alpha1Manifest#override_default_serializers}
   */
   readonly overrideDefaultSerializers?: boolean | cdktf.IResolvable;
   /**
   * Lists class implementations of Hazelcast's PortableFactory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#portable_factories DataK8SHazelcastComHazelcastV1Alpha1Manifest#portable_factories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#portable_factories DataK8SHazelcastComHazelcastV1Alpha1Manifest#portable_factories}
   */
   readonly portableFactories?: string[];
   /**
   * List of serializers (classes) that implemented using Hazelcast's StreamSerializer, ByteArraySerializer etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#serializers DataK8SHazelcastComHazelcastV1Alpha1Manifest#serializers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#serializers DataK8SHazelcastComHazelcastV1Alpha1Manifest#serializers}
   */
   readonly serializers?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSerializationSerializers[] | cdktf.IResolvable;
 }
@@ -15055,13 +15055,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSql {
   /**
   * CatalogPersistenceEnabled sets whether SQL Catalog persistence is enabled for the node. With SQL Catalog persistence enabled you can restart the whole cluster without losing schema definition objects (such as MAPPINGs, TYPEs, VIEWs and DATA CONNECTIONs). The feature is implemented on top of the Hot Restart feature of Hazelcast which persists the data to disk. If enabled, you have to also configure Hot Restart. Feature is disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#catalog_persistence_enabled DataK8SHazelcastComHazelcastV1Alpha1Manifest#catalog_persistence_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#catalog_persistence_enabled DataK8SHazelcastComHazelcastV1Alpha1Manifest#catalog_persistence_enabled}
   */
   readonly catalogPersistenceEnabled?: boolean | cdktf.IResolvable;
   /**
   * StatementTimeout defines the timeout in milliseconds that is applied to queries without an explicit timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#statement_timeout DataK8SHazelcastComHazelcastV1Alpha1Manifest#statement_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#statement_timeout DataK8SHazelcastComHazelcastV1Alpha1Manifest#statement_timeout}
   */
   readonly statementTimeout?: number;
 }
@@ -15186,13 +15186,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecTls {
   /**
   * Mutual authentication configuration. It’s None by default which means the client side of connection is not authenticated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#mutual_authentication DataK8SHazelcastComHazelcastV1Alpha1Manifest#mutual_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#mutual_authentication DataK8SHazelcastComHazelcastV1Alpha1Manifest#mutual_authentication}
   */
   readonly mutualAuthentication?: string;
   /**
   * Name of the secret with TLS certificate and key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#secret_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#secret_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -15314,19 +15314,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecUserCodeDeploym
   /**
   * URL of the bucket to download HotBackup folders. AWS S3, GCP Bucket and Azure Blob storage buckets are supported. Example bucket URIs: - AWS S3 -> s3://bucket-name/path/to/folder - GCP Bucket -> gs://bucket-name/path/to/folder - Azure Blob -> azblob://bucket-name/path/to/folder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#bucket_uri DataK8SHazelcastComHazelcastV1Alpha1Manifest#bucket_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#bucket_uri DataK8SHazelcastComHazelcastV1Alpha1Manifest#bucket_uri}
   */
   readonly bucketUri: string;
   /**
   * secret is a deprecated alias for secretName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#secret DataK8SHazelcastComHazelcastV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#secret DataK8SHazelcastComHazelcastV1Alpha1Manifest#secret}
   */
   readonly secret?: string;
   /**
   * Name of the secret with credentials for cloud providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#secret_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#secret_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -15477,31 +15477,31 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecUserCodeDeploym
   /**
   * Bucket config from where the JAR files will be downloaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#bucket_config DataK8SHazelcastComHazelcastV1Alpha1Manifest#bucket_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#bucket_config DataK8SHazelcastComHazelcastV1Alpha1Manifest#bucket_config}
   */
   readonly bucketConfig?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecUserCodeDeploymentBucketConfig;
   /**
   * When true, allows user code deployment from clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#client_enabled DataK8SHazelcastComHazelcastV1Alpha1Manifest#client_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#client_enabled DataK8SHazelcastComHazelcastV1Alpha1Manifest#client_enabled}
   */
   readonly clientEnabled?: boolean | cdktf.IResolvable;
   /**
   * Names of the list of ConfigMaps. Files in each ConfigMap will be downloaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#config_maps DataK8SHazelcastComHazelcastV1Alpha1Manifest#config_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#config_maps DataK8SHazelcastComHazelcastV1Alpha1Manifest#config_maps}
   */
   readonly configMaps?: string[];
   /**
   * List of URLs from where the files will be downloaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#remote_urls DataK8SHazelcastComHazelcastV1Alpha1Manifest#remote_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#remote_urls DataK8SHazelcastComHazelcastV1Alpha1Manifest#remote_urls}
   */
   readonly remoteUrls?: string[];
   /**
   * A string for triggering a rolling restart for re-downloading the user code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#trigger_sequence DataK8SHazelcastComHazelcastV1Alpha1Manifest#trigger_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#trigger_sequence DataK8SHazelcastComHazelcastV1Alpha1Manifest#trigger_sequence}
   */
   readonly triggerSequence?: string;
 }
@@ -15713,19 +15713,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecUserCodeNamespa
   /**
   * List of class names to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#classes DataK8SHazelcastComHazelcastV1Alpha1Manifest#classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#classes DataK8SHazelcastComHazelcastV1Alpha1Manifest#classes}
   */
   readonly classes?: string[];
   /**
   * List of packages to be filtered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#packages DataK8SHazelcastComHazelcastV1Alpha1Manifest#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#packages DataK8SHazelcastComHazelcastV1Alpha1Manifest#packages}
   */
   readonly packages?: string[];
   /**
   * List of prefixes to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#prefixes DataK8SHazelcastComHazelcastV1Alpha1Manifest#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#prefixes DataK8SHazelcastComHazelcastV1Alpha1Manifest#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -15879,19 +15879,19 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecUserCodeNamespa
   /**
   * List of class names to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#classes DataK8SHazelcastComHazelcastV1Alpha1Manifest#classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#classes DataK8SHazelcastComHazelcastV1Alpha1Manifest#classes}
   */
   readonly classes?: string[];
   /**
   * List of packages to be filtered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#packages DataK8SHazelcastComHazelcastV1Alpha1Manifest#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#packages DataK8SHazelcastComHazelcastV1Alpha1Manifest#packages}
   */
   readonly packages?: string[];
   /**
   * List of prefixes to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#prefixes DataK8SHazelcastComHazelcastV1Alpha1Manifest#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#prefixes DataK8SHazelcastComHazelcastV1Alpha1Manifest#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -16045,13 +16045,13 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecUserCodeNamespa
   /**
   * Java deserialization protection Blacklist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#blacklist DataK8SHazelcastComHazelcastV1Alpha1Manifest#blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#blacklist DataK8SHazelcastComHazelcastV1Alpha1Manifest#blacklist}
   */
   readonly blacklist?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecUserCodeNamespacesClassFilterBlacklistStruct;
   /**
   * Java deserialization protection Whitelist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#whitelist DataK8SHazelcastComHazelcastV1Alpha1Manifest#whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#whitelist DataK8SHazelcastComHazelcastV1Alpha1Manifest#whitelist}
   */
   readonly whitelist?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecUserCodeNamespacesClassFilterWhitelistStruct;
 }
@@ -16176,7 +16176,7 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecUserCodeNamespa
   /**
   * Blacklist and whitelist for classes when User Code Namespaces is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#class_filter DataK8SHazelcastComHazelcastV1Alpha1Manifest#class_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#class_filter DataK8SHazelcastComHazelcastV1Alpha1Manifest#class_filter}
   */
   readonly classFilter?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecUserCodeNamespacesClassFilter;
 }
@@ -16272,217 +16272,217 @@ export interface DataK8SHazelcastComHazelcastV1Alpha1ManifestSpec {
   /**
   * Hazelcast Advanced Network configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#advanced_network DataK8SHazelcastComHazelcastV1Alpha1Manifest#advanced_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#advanced_network DataK8SHazelcastComHazelcastV1Alpha1Manifest#advanced_network}
   */
   readonly advancedNetwork?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAdvancedNetwork;
   /**
   * B&R Agent configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#agent DataK8SHazelcastComHazelcastV1Alpha1Manifest#agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#agent DataK8SHazelcastComHazelcastV1Alpha1Manifest#agent}
   */
   readonly agent?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecAgent;
   /**
   * Hazelcast Kubernetes resource annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#annotations DataK8SHazelcastComHazelcastV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#annotations DataK8SHazelcastComHazelcastV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Name of the Hazelcast cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#cluster_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#cluster_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Number of Hazelcast members in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#cluster_size DataK8SHazelcastComHazelcastV1Alpha1Manifest#cluster_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#cluster_size DataK8SHazelcastComHazelcastV1Alpha1Manifest#cluster_size}
   */
   readonly clusterSize?: number;
   /**
   * CPSubsystem is the configuration of the Hazelcast CP Subsystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#cp_subsystem DataK8SHazelcastComHazelcastV1Alpha1Manifest#cp_subsystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#cp_subsystem DataK8SHazelcastComHazelcastV1Alpha1Manifest#cp_subsystem}
   */
   readonly cpSubsystem?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecCpSubsystem;
   /**
   * Name of the ConfigMap with the Hazelcast custom configuration. This configuration from the ConfigMap might be overridden by the Hazelcast CR configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#custom_config_cm_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#custom_config_cm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#custom_config_cm_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#custom_config_cm_name}
   */
   readonly customConfigCmName?: string;
   /**
   * Durable Executor Service configurations, see https://docs.hazelcast.com/hazelcast/latest/computing/durable-executor-service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#durable_executor_services DataK8SHazelcastComHazelcastV1Alpha1Manifest#durable_executor_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#durable_executor_services DataK8SHazelcastComHazelcastV1Alpha1Manifest#durable_executor_services}
   */
   readonly durableExecutorServices?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecDurableExecutorServices[] | cdktf.IResolvable;
   /**
   * Env configuration of environment variables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#env DataK8SHazelcastComHazelcastV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#env DataK8SHazelcastComHazelcastV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecEnv[] | cdktf.IResolvable;
   /**
   * Java Executor Service configurations, see https://docs.hazelcast.com/hazelcast/latest/computing/executor-service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#executor_services DataK8SHazelcastComHazelcastV1Alpha1Manifest#executor_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#executor_services DataK8SHazelcastComHazelcastV1Alpha1Manifest#executor_services}
   */
   readonly executorServices?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecExecutorServices[] | cdktf.IResolvable;
   /**
   * Configuration to expose Hazelcast cluster to external clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#expose_externally DataK8SHazelcastComHazelcastV1Alpha1Manifest#expose_externally}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#expose_externally DataK8SHazelcastComHazelcastV1Alpha1Manifest#expose_externally}
   */
   readonly exposeExternally?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecExposeExternally;
   /**
   * Configuration to create clusters resilient to node and zone failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#high_availability_mode DataK8SHazelcastComHazelcastV1Alpha1Manifest#high_availability_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#high_availability_mode DataK8SHazelcastComHazelcastV1Alpha1Manifest#high_availability_mode}
   */
   readonly highAvailabilityMode?: string;
   /**
   * Pull policy for the Hazelcast Platform image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#image_pull_policy DataK8SHazelcastComHazelcastV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#image_pull_policy DataK8SHazelcastComHazelcastV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Image pull secrets for the Hazelcast Platform image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#image_pull_secrets DataK8SHazelcastComHazelcastV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#image_pull_secrets DataK8SHazelcastComHazelcastV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Jet Engine configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#jet DataK8SHazelcastComHazelcastV1Alpha1Manifest#jet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#jet DataK8SHazelcastComHazelcastV1Alpha1Manifest#jet}
   */
   readonly jet?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecJet;
   /**
   * Hazelcast JVM configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#jvm DataK8SHazelcastComHazelcastV1Alpha1Manifest#jvm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#jvm DataK8SHazelcastComHazelcastV1Alpha1Manifest#jvm}
   */
   readonly jvm?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecJvm;
   /**
   * Hazelcast Kubernetes resource labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#labels DataK8SHazelcastComHazelcastV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * licenseKeySecret is a deprecated alias for licenseKeySecretName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#license_key_secret DataK8SHazelcastComHazelcastV1Alpha1Manifest#license_key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#license_key_secret DataK8SHazelcastComHazelcastV1Alpha1Manifest#license_key_secret}
   */
   readonly licenseKeySecret?: string;
   /**
   * Name of the secret with Hazelcast Enterprise License Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#license_key_secret_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#license_key_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#license_key_secret_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#license_key_secret_name}
   */
   readonly licenseKeySecretName?: string;
   /**
   * Hazelcast LocalDevice configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#local_devices DataK8SHazelcastComHazelcastV1Alpha1Manifest#local_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#local_devices DataK8SHazelcastComHazelcastV1Alpha1Manifest#local_devices}
   */
   readonly localDevices?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecLocalDevices[] | cdktf.IResolvable;
   /**
   * Logging level for Hazelcast members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#logging_level DataK8SHazelcastComHazelcastV1Alpha1Manifest#logging_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#logging_level DataK8SHazelcastComHazelcastV1Alpha1Manifest#logging_level}
   */
   readonly loggingLevel?: string;
   /**
   * Hazelcast Management Center Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#management_center DataK8SHazelcastComHazelcastV1Alpha1Manifest#management_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#management_center DataK8SHazelcastComHazelcastV1Alpha1Manifest#management_center}
   */
   readonly managementCenter?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecManagementCenter;
   /**
   * Hazelcast Native Memory (HD Memory) configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#native_memory DataK8SHazelcastComHazelcastV1Alpha1Manifest#native_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#native_memory DataK8SHazelcastComHazelcastV1Alpha1Manifest#native_memory}
   */
   readonly nativeMemory?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecNativeMemory;
   /**
   * Persistence configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#persistence DataK8SHazelcastComHazelcastV1Alpha1Manifest#persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#persistence DataK8SHazelcastComHazelcastV1Alpha1Manifest#persistence}
   */
   readonly persistence?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecPersistence;
   /**
   * Hazelcast system properties, see https://docs.hazelcast.com/hazelcast/latest/system-properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#properties DataK8SHazelcastComHazelcastV1Alpha1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#properties DataK8SHazelcastComHazelcastV1Alpha1Manifest#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Repository to pull the Hazelcast Platform image from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#repository DataK8SHazelcastComHazelcastV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#repository DataK8SHazelcastComHazelcastV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Compute Resources required by the Hazelcast container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#resources DataK8SHazelcastComHazelcastV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#resources DataK8SHazelcastComHazelcastV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecResources;
   /**
   * Scheduled Executor Service configurations, see https://docs.hazelcast.com/hazelcast/latest/computing/scheduled-executor-service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#scheduled_executor_services DataK8SHazelcastComHazelcastV1Alpha1Manifest#scheduled_executor_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#scheduled_executor_services DataK8SHazelcastComHazelcastV1Alpha1Manifest#scheduled_executor_services}
   */
   readonly scheduledExecutorServices?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecScheduledExecutorServices[] | cdktf.IResolvable;
   /**
   * Scheduling details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#scheduling DataK8SHazelcastComHazelcastV1Alpha1Manifest#scheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#scheduling DataK8SHazelcastComHazelcastV1Alpha1Manifest#scheduling}
   */
   readonly scheduling?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecScheduling;
   /**
   * Hazelcast serialization configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#serialization DataK8SHazelcastComHazelcastV1Alpha1Manifest#serialization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#serialization DataK8SHazelcastComHazelcastV1Alpha1Manifest#serialization}
   */
   readonly serialization?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSerialization;
   /**
   * ServiceAccountName is the name of the ServiceAccount to use to run Hazelcast cluster. More info: https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#service_account_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#service_account_name DataK8SHazelcastComHazelcastV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * Hazelcast SQL configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#sql DataK8SHazelcastComHazelcastV1Alpha1Manifest#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#sql DataK8SHazelcastComHazelcastV1Alpha1Manifest#sql}
   */
   readonly sql?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecSql;
   /**
   * Hazelcast TLS configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#tls DataK8SHazelcastComHazelcastV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#tls DataK8SHazelcastComHazelcastV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecTls;
   /**
   * User Codes to Download into CLASSPATH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#user_code_deployment DataK8SHazelcastComHazelcastV1Alpha1Manifest#user_code_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#user_code_deployment DataK8SHazelcastComHazelcastV1Alpha1Manifest#user_code_deployment}
   */
   readonly userCodeDeployment?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecUserCodeDeployment;
   /**
   * UserCodeNamespaces provide a container for Java classpath resources, such as user code and accompanying artifacts like property files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#user_code_namespaces DataK8SHazelcastComHazelcastV1Alpha1Manifest#user_code_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#user_code_namespaces DataK8SHazelcastComHazelcastV1Alpha1Manifest#user_code_namespaces}
   */
   readonly userCodeNamespaces?: DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecUserCodeNamespaces;
   /**
   * Version of Hazelcast Platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#version DataK8SHazelcastComHazelcastV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#version DataK8SHazelcastComHazelcastV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -17591,7 +17591,7 @@ export class DataK8SHazelcastComHazelcastV1Alpha1ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest k8s_hazelcast_com_hazelcast_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest k8s_hazelcast_com_hazelcast_v1alpha1_manifest}
 */
 export class DataK8SHazelcastComHazelcastV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -17607,7 +17607,7 @@ export class DataK8SHazelcastComHazelcastV1Alpha1Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SHazelcastComHazelcastV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHazelcastComHazelcastV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SHazelcastComHazelcastV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHazelcastComHazelcastV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHazelcastComHazelcastV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -17619,7 +17619,7 @@ export class DataK8SHazelcastComHazelcastV1Alpha1Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest k8s_hazelcast_com_hazelcast_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hazelcast_com_hazelcast_v1alpha1_manifest k8s_hazelcast_com_hazelcast_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -17630,8 +17630,8 @@ export class DataK8SHazelcastComHazelcastV1Alpha1Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_hazelcast_com_hazelcast_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

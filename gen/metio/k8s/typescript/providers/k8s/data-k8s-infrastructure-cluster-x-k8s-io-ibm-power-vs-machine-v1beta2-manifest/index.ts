@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manif
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#metadata DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#metadata DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2ManifestMetadata;
   /**
   * IBMPowerVSMachineSpec defines the desired state of IBMPowerVSMachine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#spec DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#spec DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manif
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#annotations DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#annotations DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#labels DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#labels DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#namespace DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#namespace DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manif
   /**
   * ID of resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -228,13 +228,13 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manif
   /**
   * Name of resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * Regular expression to match resource, In case of multiple resources matches the provided regular expression the first matched resource will be selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#regex DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#regex DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -388,7 +388,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manif
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#name}
   */
   readonly name?: string;
 }
@@ -484,7 +484,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manif
   /**
   * ID of resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -493,13 +493,13 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manif
   /**
   * Name of resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * Regular expression to match resource, In case of multiple resources matches the provided regular expression the first matched resource will be selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#regex DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#regex DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -653,7 +653,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manif
   /**
   * ID of resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -662,13 +662,13 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manif
   /**
   * Name of resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * Regular expression to match resource, In case of multiple resources matches the provided regular expression the first matched resource will be selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#regex DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#regex DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -822,67 +822,67 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manif
   /**
   * Image the reference to the image which is used to create the instance. supported image identifier in IBMPowerVSResourceReference are Name and ID and that can be obtained from IBM Cloud UI or IBM Cloud cli.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#image DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#image DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#image}
   */
   readonly image?: DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2ManifestSpecImage;
   /**
   * ImageRef is an optional reference to a provider-specific resource that holds the details for provisioning the Image for a Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#image_ref DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#image_ref DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#image_ref}
   */
   readonly imageRef?: DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2ManifestSpecImageRef;
   /**
   * memoryGiB is the size of a virtual machine's memory, in GiB. maximum value for the MemoryGiB depends on the selected SystemType. when SystemType is set to e880 maximum MemoryGiB value is 7463 GiB. when SystemType is set to e980 maximum MemoryGiB value is 15307 GiB. when SystemType is set to s922 maximum MemoryGiB value is 942 GiB. The minimum memory is 2 GiB. When omitted, this means the user has no opinion and the platform is left to choose a reasonable default, which is subject to change over time. The current default is 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#memory_gi_b DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#memory_gi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#memory_gi_b DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#memory_gi_b}
   */
   readonly memoryGiB?: number;
   /**
   * Network is the reference to the Network to use for this instance. supported network identifier in IBMPowerVSResourceReference are Name, ID and RegEx and that can be obtained from IBM Cloud UI or IBM Cloud cli.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#network DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#network DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#network}
   */
   readonly network: DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2ManifestSpecNetwork;
   /**
   * processorType is the VM instance processor type. It must be set to one of the following values: Dedicated, Capped or Shared. Dedicated: resources are allocated for a specific client, The hypervisor makes a 1:1 binding of a partition’s processor to a physical processor core. Shared: Shared among other clients. Capped: Shared, but resources do not expand beyond those that are requested, the amount of CPU time is Capped to the value specified for the entitlement. if the processorType is selected as Dedicated, then processors value cannot be fractional. When omitted, this means that the user has no opinion and the platform is left to choose a reasonable default, which is subject to change over time. The current default is Shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#processor_type DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#processor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#processor_type DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#processor_type}
   */
   readonly processorType?: string;
   /**
   * processors is the number of virtual processors in a virtual machine. when the processorType is selected as Dedicated the processors value cannot be fractional. maximum value for the Processors depends on the selected SystemType. when SystemType is set to e880 or e980 maximum Processors value is 143. when SystemType is set to s922 maximum Processors value is 15. minimum value for Processors depends on the selected ProcessorType. when ProcessorType is set as Shared or Capped, The minimum processors is 0.25. when ProcessorType is set as Dedicated, The minimum processors is 1. When omitted, this means that the user has no opinion and the platform is left to choose a reasonable default, which is subject to change over time. The default is set based on the selected ProcessorType. when ProcessorType selected as Dedicated, the default is set to 1. when ProcessorType selected as Shared or Capped, the default is set to 0.25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#processors DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#processors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#processors DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#processors}
   */
   readonly processors?: string;
   /**
   * ProviderID is the unique identifier as specified by the cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#provider_id DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#provider_id DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#provider_id}
   */
   readonly providerId?: string;
   /**
   * serviceInstance is the reference to the Power VS workspace on which the server instance(VM) will be created. Power VS workspace is a container for all Power VS instances at a specific geographic region. serviceInstance can be created via IBM Cloud catalog or CLI. supported serviceInstance identifier in PowerVSResource are Name and ID and that can be obtained from IBM Cloud UI or IBM Cloud cli. More detail about Power VS service instance. https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-creating-power-virtual-server when omitted system will dynamically create the service instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#service_instance DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#service_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#service_instance DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#service_instance}
   */
   readonly serviceInstance?: DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2ManifestSpecServiceInstance;
   /**
   * ServiceInstanceID is the id of the power cloud instance where the vsi instance will get deployed. Deprecated: use ServiceInstance instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#service_instance_id DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#service_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#service_instance_id DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#service_instance_id}
   */
   readonly serviceInstanceId: string;
   /**
   * SSHKey is the name of the SSH key pair provided to the vsi for authenticating users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#ssh_key DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#ssh_key DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#ssh_key}
   */
   readonly sshKey?: string;
   /**
   * systemType is the System type used to host the instance. systemType determines the number of cores and memory that is available. Few of the supported SystemTypes are s922,e880,e980. e880 systemType available only in Dallas Datacenters. e980 systemType available in Datacenters except Dallas and Washington. When omitted, this means that the user has no opinion and the platform is left to choose a reasonable default, which is subject to change over time. The current default is s922 which is generally available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#system_type DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#system_type DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest#system_type}
   */
   readonly systemType?: string;
 }
@@ -1260,7 +1260,7 @@ export class DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2ManifestS
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest k8s_infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest k8s_infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest}
 */
 export class DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -1276,7 +1276,7 @@ export class DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest 
   * Generates CDKTF code for importing a DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1288,7 +1288,7 @@ export class DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest k8s_infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest k8s_infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1299,8 +1299,8 @@ export class DataK8SInfrastructureClusterXK8SIoIbmPowerVsMachineV1Beta2Manifest 
       terraformResourceType: 'k8s_infrastructure_cluster_x_k8s_io_ibm_power_vs_machine_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

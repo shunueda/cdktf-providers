@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SAcidZalanDoPostgresqlV1ManifestConfig extends cdktf.Terr
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#metadata DataK8SAcidZalanDoPostgresqlV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#metadata DataK8SAcidZalanDoPostgresqlV1Manifest#metadata}
   */
   readonly metadata: DataK8SAcidZalanDoPostgresqlV1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#spec DataK8SAcidZalanDoPostgresqlV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#spec DataK8SAcidZalanDoPostgresqlV1Manifest#spec}
   */
   readonly spec: DataK8SAcidZalanDoPostgresqlV1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SAcidZalanDoPostgresqlV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#annotations DataK8SAcidZalanDoPostgresqlV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#annotations DataK8SAcidZalanDoPostgresqlV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#labels DataK8SAcidZalanDoPostgresqlV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#labels DataK8SAcidZalanDoPostgresqlV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#name DataK8SAcidZalanDoPostgresqlV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#name DataK8SAcidZalanDoPostgresqlV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#namespace DataK8SAcidZalanDoPostgresqlV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#namespace DataK8SAcidZalanDoPostgresqlV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,27 +215,27 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestMetadataOutputReference exten
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecAdditionalVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#is_sub_path_expr DataK8SAcidZalanDoPostgresqlV1Manifest#is_sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#is_sub_path_expr DataK8SAcidZalanDoPostgresqlV1Manifest#is_sub_path_expr}
   */
   readonly isSubPathExpr?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#mount_path DataK8SAcidZalanDoPostgresqlV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#mount_path DataK8SAcidZalanDoPostgresqlV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#name DataK8SAcidZalanDoPostgresqlV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#name DataK8SAcidZalanDoPostgresqlV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#sub_path DataK8SAcidZalanDoPostgresqlV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#sub_path DataK8SAcidZalanDoPostgresqlV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#target_containers DataK8SAcidZalanDoPostgresqlV1Manifest#target_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#target_containers DataK8SAcidZalanDoPostgresqlV1Manifest#target_containers}
   */
   readonly targetContainers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#volume_source DataK8SAcidZalanDoPostgresqlV1Manifest#volume_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#volume_source DataK8SAcidZalanDoPostgresqlV1Manifest#volume_source}
   */
   readonly volumeSource: { [key: string]: string };
 }
@@ -487,35 +487,35 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecAdditionalVolumesList ext
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecClone {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#cluster DataK8SAcidZalanDoPostgresqlV1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#cluster DataK8SAcidZalanDoPostgresqlV1Manifest#cluster}
   */
   readonly cluster: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#s3_access_key_id DataK8SAcidZalanDoPostgresqlV1Manifest#s3_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#s3_access_key_id DataK8SAcidZalanDoPostgresqlV1Manifest#s3_access_key_id}
   */
   readonly s3AccessKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#s3_endpoint DataK8SAcidZalanDoPostgresqlV1Manifest#s3_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#s3_endpoint DataK8SAcidZalanDoPostgresqlV1Manifest#s3_endpoint}
   */
   readonly s3Endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#s3_force_path_style DataK8SAcidZalanDoPostgresqlV1Manifest#s3_force_path_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#s3_force_path_style DataK8SAcidZalanDoPostgresqlV1Manifest#s3_force_path_style}
   */
   readonly s3ForcePathStyle?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#s3_secret_access_key DataK8SAcidZalanDoPostgresqlV1Manifest#s3_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#s3_secret_access_key DataK8SAcidZalanDoPostgresqlV1Manifest#s3_secret_access_key}
   */
   readonly s3SecretAccessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#s3_wal_path DataK8SAcidZalanDoPostgresqlV1Manifest#s3_wal_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#s3_wal_path DataK8SAcidZalanDoPostgresqlV1Manifest#s3_wal_path}
   */
   readonly s3WalPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#timestamp DataK8SAcidZalanDoPostgresqlV1Manifest#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#timestamp DataK8SAcidZalanDoPostgresqlV1Manifest#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#uid DataK8SAcidZalanDoPostgresqlV1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#uid DataK8SAcidZalanDoPostgresqlV1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -809,11 +809,11 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecCloneOutputReference exte
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecConnectionPoolerResourcesLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#cpu DataK8SAcidZalanDoPostgresqlV1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#cpu DataK8SAcidZalanDoPostgresqlV1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#memory DataK8SAcidZalanDoPostgresqlV1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#memory DataK8SAcidZalanDoPostgresqlV1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -936,11 +936,11 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecConnectionPoolerResources
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecConnectionPoolerResourcesRequests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#cpu DataK8SAcidZalanDoPostgresqlV1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#cpu DataK8SAcidZalanDoPostgresqlV1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#memory DataK8SAcidZalanDoPostgresqlV1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#memory DataK8SAcidZalanDoPostgresqlV1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -1063,11 +1063,11 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecConnectionPoolerResources
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecConnectionPoolerResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#limits DataK8SAcidZalanDoPostgresqlV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#limits DataK8SAcidZalanDoPostgresqlV1Manifest#limits}
   */
   readonly limits?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecConnectionPoolerResourcesLimits;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#requests DataK8SAcidZalanDoPostgresqlV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#requests DataK8SAcidZalanDoPostgresqlV1Manifest#requests}
   */
   readonly requests?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecConnectionPoolerResourcesRequests;
 }
@@ -1190,31 +1190,31 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecConnectionPoolerResources
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecConnectionPooler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#docker_image DataK8SAcidZalanDoPostgresqlV1Manifest#docker_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#docker_image DataK8SAcidZalanDoPostgresqlV1Manifest#docker_image}
   */
   readonly dockerImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#max_db_connections DataK8SAcidZalanDoPostgresqlV1Manifest#max_db_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#max_db_connections DataK8SAcidZalanDoPostgresqlV1Manifest#max_db_connections}
   */
   readonly maxDbConnections?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#mode DataK8SAcidZalanDoPostgresqlV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#mode DataK8SAcidZalanDoPostgresqlV1Manifest#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#number_of_instances DataK8SAcidZalanDoPostgresqlV1Manifest#number_of_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#number_of_instances DataK8SAcidZalanDoPostgresqlV1Manifest#number_of_instances}
   */
   readonly numberOfInstances?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#resources DataK8SAcidZalanDoPostgresqlV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#resources DataK8SAcidZalanDoPostgresqlV1Manifest#resources}
   */
   readonly resources?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecConnectionPoolerResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#schema DataK8SAcidZalanDoPostgresqlV1Manifest#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#schema DataK8SAcidZalanDoPostgresqlV1Manifest#schema}
   */
   readonly schema?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#user DataK8SAcidZalanDoPostgresqlV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#user DataK8SAcidZalanDoPostgresqlV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -1482,15 +1482,15 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecConnectionPoolerOutputRef
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#key DataK8SAcidZalanDoPostgresqlV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#key DataK8SAcidZalanDoPostgresqlV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#operator DataK8SAcidZalanDoPostgresqlV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#operator DataK8SAcidZalanDoPostgresqlV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#values DataK8SAcidZalanDoPostgresqlV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#values DataK8SAcidZalanDoPostgresqlV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1658,15 +1658,15 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityPreferredDuri
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#key DataK8SAcidZalanDoPostgresqlV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#key DataK8SAcidZalanDoPostgresqlV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#operator DataK8SAcidZalanDoPostgresqlV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#operator DataK8SAcidZalanDoPostgresqlV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#values DataK8SAcidZalanDoPostgresqlV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#values DataK8SAcidZalanDoPostgresqlV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1834,11 +1834,11 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityPreferredDuri
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#match_expressions DataK8SAcidZalanDoPostgresqlV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#match_expressions DataK8SAcidZalanDoPostgresqlV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#match_fields DataK8SAcidZalanDoPostgresqlV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#match_fields DataK8SAcidZalanDoPostgresqlV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -1961,11 +1961,11 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityPreferredDuri
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#preference DataK8SAcidZalanDoPostgresqlV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#preference DataK8SAcidZalanDoPostgresqlV1Manifest#preference}
   */
   readonly preference: DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#weight DataK8SAcidZalanDoPostgresqlV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#weight DataK8SAcidZalanDoPostgresqlV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2104,15 +2104,15 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityPreferredDuri
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#key DataK8SAcidZalanDoPostgresqlV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#key DataK8SAcidZalanDoPostgresqlV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#operator DataK8SAcidZalanDoPostgresqlV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#operator DataK8SAcidZalanDoPostgresqlV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#values DataK8SAcidZalanDoPostgresqlV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#values DataK8SAcidZalanDoPostgresqlV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2280,15 +2280,15 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityRequiredDurin
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#key DataK8SAcidZalanDoPostgresqlV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#key DataK8SAcidZalanDoPostgresqlV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#operator DataK8SAcidZalanDoPostgresqlV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#operator DataK8SAcidZalanDoPostgresqlV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#values DataK8SAcidZalanDoPostgresqlV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#values DataK8SAcidZalanDoPostgresqlV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2456,11 +2456,11 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityRequiredDurin
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#match_expressions DataK8SAcidZalanDoPostgresqlV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#match_expressions DataK8SAcidZalanDoPostgresqlV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#match_fields DataK8SAcidZalanDoPostgresqlV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#match_fields DataK8SAcidZalanDoPostgresqlV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -2605,7 +2605,7 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityRequiredDurin
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#node_selector_terms DataK8SAcidZalanDoPostgresqlV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#node_selector_terms DataK8SAcidZalanDoPostgresqlV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -2696,11 +2696,11 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityRequiredDurin
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAcidZalanDoPostgresqlV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAcidZalanDoPostgresqlV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAcidZalanDoPostgresqlV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAcidZalanDoPostgresqlV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -2823,47 +2823,47 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinityOutputReferen
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecPatroni {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#failsafe_mode DataK8SAcidZalanDoPostgresqlV1Manifest#failsafe_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#failsafe_mode DataK8SAcidZalanDoPostgresqlV1Manifest#failsafe_mode}
   */
   readonly failsafeMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#initdb DataK8SAcidZalanDoPostgresqlV1Manifest#initdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#initdb DataK8SAcidZalanDoPostgresqlV1Manifest#initdb}
   */
   readonly initdb?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#loop_wait DataK8SAcidZalanDoPostgresqlV1Manifest#loop_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#loop_wait DataK8SAcidZalanDoPostgresqlV1Manifest#loop_wait}
   */
   readonly loopWait?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#maximum_lag_on_failover DataK8SAcidZalanDoPostgresqlV1Manifest#maximum_lag_on_failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#maximum_lag_on_failover DataK8SAcidZalanDoPostgresqlV1Manifest#maximum_lag_on_failover}
   */
   readonly maximumLagOnFailover?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#pg_hba DataK8SAcidZalanDoPostgresqlV1Manifest#pg_hba}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#pg_hba DataK8SAcidZalanDoPostgresqlV1Manifest#pg_hba}
   */
   readonly pgHba?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#retry_timeout DataK8SAcidZalanDoPostgresqlV1Manifest#retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#retry_timeout DataK8SAcidZalanDoPostgresqlV1Manifest#retry_timeout}
   */
   readonly retryTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#slots DataK8SAcidZalanDoPostgresqlV1Manifest#slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#slots DataK8SAcidZalanDoPostgresqlV1Manifest#slots}
   */
   readonly slots?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#synchronous_mode DataK8SAcidZalanDoPostgresqlV1Manifest#synchronous_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#synchronous_mode DataK8SAcidZalanDoPostgresqlV1Manifest#synchronous_mode}
   */
   readonly synchronousMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#synchronous_mode_strict DataK8SAcidZalanDoPostgresqlV1Manifest#synchronous_mode_strict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#synchronous_mode_strict DataK8SAcidZalanDoPostgresqlV1Manifest#synchronous_mode_strict}
   */
   readonly synchronousModeStrict?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#synchronous_node_count DataK8SAcidZalanDoPostgresqlV1Manifest#synchronous_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#synchronous_node_count DataK8SAcidZalanDoPostgresqlV1Manifest#synchronous_node_count}
   */
   readonly synchronousNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#ttl DataK8SAcidZalanDoPostgresqlV1Manifest#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#ttl DataK8SAcidZalanDoPostgresqlV1Manifest#ttl}
   */
   readonly ttl?: number;
 }
@@ -3247,11 +3247,11 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecPatroniOutputReference ex
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecPostgresql {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#parameters DataK8SAcidZalanDoPostgresqlV1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#parameters DataK8SAcidZalanDoPostgresqlV1Manifest#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#version DataK8SAcidZalanDoPostgresqlV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#version DataK8SAcidZalanDoPostgresqlV1Manifest#version}
   */
   readonly version: string;
 }
@@ -3371,11 +3371,11 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecPostgresqlOutputReference
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecPreparedDatabasesSchemas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#default_roles DataK8SAcidZalanDoPostgresqlV1Manifest#default_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#default_roles DataK8SAcidZalanDoPostgresqlV1Manifest#default_roles}
   */
   readonly defaultRoles?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#default_users DataK8SAcidZalanDoPostgresqlV1Manifest#default_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#default_users DataK8SAcidZalanDoPostgresqlV1Manifest#default_users}
   */
   readonly defaultUsers?: boolean | cdktf.IResolvable;
 }
@@ -3498,19 +3498,19 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecPreparedDatabasesSchemasO
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecPreparedDatabases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#default_users DataK8SAcidZalanDoPostgresqlV1Manifest#default_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#default_users DataK8SAcidZalanDoPostgresqlV1Manifest#default_users}
   */
   readonly defaultUsers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#extensions DataK8SAcidZalanDoPostgresqlV1Manifest#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#extensions DataK8SAcidZalanDoPostgresqlV1Manifest#extensions}
   */
   readonly extensions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#schemas DataK8SAcidZalanDoPostgresqlV1Manifest#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#schemas DataK8SAcidZalanDoPostgresqlV1Manifest#schemas}
   */
   readonly schemas?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecPreparedDatabasesSchemas;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#secret_namespace DataK8SAcidZalanDoPostgresqlV1Manifest#secret_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#secret_namespace DataK8SAcidZalanDoPostgresqlV1Manifest#secret_namespace}
   */
   readonly secretNamespace?: string;
 }
@@ -3691,19 +3691,19 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecPreparedDatabasesOutputRe
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecResourcesLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#cpu DataK8SAcidZalanDoPostgresqlV1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#cpu DataK8SAcidZalanDoPostgresqlV1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#hugepages_1_gi DataK8SAcidZalanDoPostgresqlV1Manifest#hugepages_1_gi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#hugepages_1_gi DataK8SAcidZalanDoPostgresqlV1Manifest#hugepages_1_gi}
   */
   readonly hugepages1Gi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#hugepages_2_mi DataK8SAcidZalanDoPostgresqlV1Manifest#hugepages_2_mi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#hugepages_2_mi DataK8SAcidZalanDoPostgresqlV1Manifest#hugepages_2_mi}
   */
   readonly hugepages2Mi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#memory DataK8SAcidZalanDoPostgresqlV1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#memory DataK8SAcidZalanDoPostgresqlV1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -3884,19 +3884,19 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecResourcesLimitsOutputRefe
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecResourcesRequests {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#cpu DataK8SAcidZalanDoPostgresqlV1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#cpu DataK8SAcidZalanDoPostgresqlV1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#hugepages_1_gi DataK8SAcidZalanDoPostgresqlV1Manifest#hugepages_1_gi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#hugepages_1_gi DataK8SAcidZalanDoPostgresqlV1Manifest#hugepages_1_gi}
   */
   readonly hugepages1Gi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#hugepages_2_mi DataK8SAcidZalanDoPostgresqlV1Manifest#hugepages_2_mi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#hugepages_2_mi DataK8SAcidZalanDoPostgresqlV1Manifest#hugepages_2_mi}
   */
   readonly hugepages2Mi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#memory DataK8SAcidZalanDoPostgresqlV1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#memory DataK8SAcidZalanDoPostgresqlV1Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -4077,11 +4077,11 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecResourcesRequestsOutputRe
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#limits DataK8SAcidZalanDoPostgresqlV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#limits DataK8SAcidZalanDoPostgresqlV1Manifest#limits}
   */
   readonly limits?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecResourcesLimits;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#requests DataK8SAcidZalanDoPostgresqlV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#requests DataK8SAcidZalanDoPostgresqlV1Manifest#requests}
   */
   readonly requests?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecResourcesRequests;
 }
@@ -4204,19 +4204,19 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecResourcesOutputReference 
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecStandby {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#gs_wal_path DataK8SAcidZalanDoPostgresqlV1Manifest#gs_wal_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#gs_wal_path DataK8SAcidZalanDoPostgresqlV1Manifest#gs_wal_path}
   */
   readonly gsWalPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#s3_wal_path DataK8SAcidZalanDoPostgresqlV1Manifest#s3_wal_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#s3_wal_path DataK8SAcidZalanDoPostgresqlV1Manifest#s3_wal_path}
   */
   readonly s3WalPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#standby_host DataK8SAcidZalanDoPostgresqlV1Manifest#standby_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#standby_host DataK8SAcidZalanDoPostgresqlV1Manifest#standby_host}
   */
   readonly standbyHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#standby_port DataK8SAcidZalanDoPostgresqlV1Manifest#standby_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#standby_port DataK8SAcidZalanDoPostgresqlV1Manifest#standby_port}
   */
   readonly standbyPort?: string;
 }
@@ -4397,19 +4397,19 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecStandbyOutputReference ex
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecStreamsTables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#event_type DataK8SAcidZalanDoPostgresqlV1Manifest#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#event_type DataK8SAcidZalanDoPostgresqlV1Manifest#event_type}
   */
   readonly eventType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#id_column DataK8SAcidZalanDoPostgresqlV1Manifest#id_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#id_column DataK8SAcidZalanDoPostgresqlV1Manifest#id_column}
   */
   readonly idColumn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#payload_column DataK8SAcidZalanDoPostgresqlV1Manifest#payload_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#payload_column DataK8SAcidZalanDoPostgresqlV1Manifest#payload_column}
   */
   readonly payloadColumn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#recovery_event_type DataK8SAcidZalanDoPostgresqlV1Manifest#recovery_event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#recovery_event_type DataK8SAcidZalanDoPostgresqlV1Manifest#recovery_event_type}
   */
   readonly recoveryEventType?: string;
 }
@@ -4587,27 +4587,27 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecStreamsTablesOutputRefere
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecStreams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#application_id DataK8SAcidZalanDoPostgresqlV1Manifest#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#application_id DataK8SAcidZalanDoPostgresqlV1Manifest#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#batch_size DataK8SAcidZalanDoPostgresqlV1Manifest#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#batch_size DataK8SAcidZalanDoPostgresqlV1Manifest#batch_size}
   */
   readonly batchSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#database DataK8SAcidZalanDoPostgresqlV1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#database DataK8SAcidZalanDoPostgresqlV1Manifest#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_recovery DataK8SAcidZalanDoPostgresqlV1Manifest#enable_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_recovery DataK8SAcidZalanDoPostgresqlV1Manifest#enable_recovery}
   */
   readonly enableRecovery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#filter DataK8SAcidZalanDoPostgresqlV1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#filter DataK8SAcidZalanDoPostgresqlV1Manifest#filter}
   */
   readonly filter?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#tables DataK8SAcidZalanDoPostgresqlV1Manifest#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#tables DataK8SAcidZalanDoPostgresqlV1Manifest#tables}
   */
   readonly tables: DataK8SAcidZalanDoPostgresqlV1ManifestSpecStreamsTables;
 }
@@ -4859,23 +4859,23 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecStreamsList extends cdktf
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#ca_file DataK8SAcidZalanDoPostgresqlV1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#ca_file DataK8SAcidZalanDoPostgresqlV1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#ca_secret_name DataK8SAcidZalanDoPostgresqlV1Manifest#ca_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#ca_secret_name DataK8SAcidZalanDoPostgresqlV1Manifest#ca_secret_name}
   */
   readonly caSecretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#certificate_file DataK8SAcidZalanDoPostgresqlV1Manifest#certificate_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#certificate_file DataK8SAcidZalanDoPostgresqlV1Manifest#certificate_file}
   */
   readonly certificateFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#private_key_file DataK8SAcidZalanDoPostgresqlV1Manifest#private_key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#private_key_file DataK8SAcidZalanDoPostgresqlV1Manifest#private_key_file}
   */
   readonly privateKeyFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#secret_name DataK8SAcidZalanDoPostgresqlV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#secret_name DataK8SAcidZalanDoPostgresqlV1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -5082,23 +5082,23 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecTlsOutputReference extend
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#effect DataK8SAcidZalanDoPostgresqlV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#effect DataK8SAcidZalanDoPostgresqlV1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#key DataK8SAcidZalanDoPostgresqlV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#key DataK8SAcidZalanDoPostgresqlV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#operator DataK8SAcidZalanDoPostgresqlV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#operator DataK8SAcidZalanDoPostgresqlV1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#toleration_seconds DataK8SAcidZalanDoPostgresqlV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#toleration_seconds DataK8SAcidZalanDoPostgresqlV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#value DataK8SAcidZalanDoPostgresqlV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#value DataK8SAcidZalanDoPostgresqlV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5330,15 +5330,15 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecTolerationsList extends c
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecVolumeSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#key DataK8SAcidZalanDoPostgresqlV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#key DataK8SAcidZalanDoPostgresqlV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#operator DataK8SAcidZalanDoPostgresqlV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#operator DataK8SAcidZalanDoPostgresqlV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#values DataK8SAcidZalanDoPostgresqlV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#values DataK8SAcidZalanDoPostgresqlV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5506,11 +5506,11 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecVolumeSelectorMatchExpres
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecVolumeSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#match_expressions DataK8SAcidZalanDoPostgresqlV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#match_expressions DataK8SAcidZalanDoPostgresqlV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecVolumeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#match_labels DataK8SAcidZalanDoPostgresqlV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#match_labels DataK8SAcidZalanDoPostgresqlV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5633,31 +5633,31 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecVolumeSelectorOutputRefer
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpecVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#iops DataK8SAcidZalanDoPostgresqlV1Manifest#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#iops DataK8SAcidZalanDoPostgresqlV1Manifest#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#is_sub_path_expr DataK8SAcidZalanDoPostgresqlV1Manifest#is_sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#is_sub_path_expr DataK8SAcidZalanDoPostgresqlV1Manifest#is_sub_path_expr}
   */
   readonly isSubPathExpr?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#selector DataK8SAcidZalanDoPostgresqlV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#selector DataK8SAcidZalanDoPostgresqlV1Manifest#selector}
   */
   readonly selector?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecVolumeSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#size DataK8SAcidZalanDoPostgresqlV1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#size DataK8SAcidZalanDoPostgresqlV1Manifest#size}
   */
   readonly size: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#storage_class DataK8SAcidZalanDoPostgresqlV1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#storage_class DataK8SAcidZalanDoPostgresqlV1Manifest#storage_class}
   */
   readonly storageClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#sub_path DataK8SAcidZalanDoPostgresqlV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#sub_path DataK8SAcidZalanDoPostgresqlV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#throughput DataK8SAcidZalanDoPostgresqlV1Manifest#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#throughput DataK8SAcidZalanDoPostgresqlV1Manifest#throughput}
   */
   readonly throughput?: number;
 }
@@ -5922,195 +5922,195 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecVolumeOutputReference ext
 }
 export interface DataK8SAcidZalanDoPostgresqlV1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#additional_volumes DataK8SAcidZalanDoPostgresqlV1Manifest#additional_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#additional_volumes DataK8SAcidZalanDoPostgresqlV1Manifest#additional_volumes}
   */
   readonly additionalVolumes?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecAdditionalVolumes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#allowed_source_ranges DataK8SAcidZalanDoPostgresqlV1Manifest#allowed_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#allowed_source_ranges DataK8SAcidZalanDoPostgresqlV1Manifest#allowed_source_ranges}
   */
   readonly allowedSourceRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#clone DataK8SAcidZalanDoPostgresqlV1Manifest#clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#clone DataK8SAcidZalanDoPostgresqlV1Manifest#clone}
   */
   readonly clone?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecClone;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#connection_pooler DataK8SAcidZalanDoPostgresqlV1Manifest#connection_pooler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#connection_pooler DataK8SAcidZalanDoPostgresqlV1Manifest#connection_pooler}
   */
   readonly connectionPooler?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecConnectionPooler;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#databases DataK8SAcidZalanDoPostgresqlV1Manifest#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#databases DataK8SAcidZalanDoPostgresqlV1Manifest#databases}
   */
   readonly databases?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#docker_image DataK8SAcidZalanDoPostgresqlV1Manifest#docker_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#docker_image DataK8SAcidZalanDoPostgresqlV1Manifest#docker_image}
   */
   readonly dockerImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_connection_pooler DataK8SAcidZalanDoPostgresqlV1Manifest#enable_connection_pooler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_connection_pooler DataK8SAcidZalanDoPostgresqlV1Manifest#enable_connection_pooler}
   */
   readonly enableConnectionPooler?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_logical_backup DataK8SAcidZalanDoPostgresqlV1Manifest#enable_logical_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_logical_backup DataK8SAcidZalanDoPostgresqlV1Manifest#enable_logical_backup}
   */
   readonly enableLogicalBackup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_master_load_balancer DataK8SAcidZalanDoPostgresqlV1Manifest#enable_master_load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_master_load_balancer DataK8SAcidZalanDoPostgresqlV1Manifest#enable_master_load_balancer}
   */
   readonly enableMasterLoadBalancer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_master_pooler_load_balancer DataK8SAcidZalanDoPostgresqlV1Manifest#enable_master_pooler_load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_master_pooler_load_balancer DataK8SAcidZalanDoPostgresqlV1Manifest#enable_master_pooler_load_balancer}
   */
   readonly enableMasterPoolerLoadBalancer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_replica_connection_pooler DataK8SAcidZalanDoPostgresqlV1Manifest#enable_replica_connection_pooler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_replica_connection_pooler DataK8SAcidZalanDoPostgresqlV1Manifest#enable_replica_connection_pooler}
   */
   readonly enableReplicaConnectionPooler?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_replica_load_balancer DataK8SAcidZalanDoPostgresqlV1Manifest#enable_replica_load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_replica_load_balancer DataK8SAcidZalanDoPostgresqlV1Manifest#enable_replica_load_balancer}
   */
   readonly enableReplicaLoadBalancer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_replica_pooler_load_balancer DataK8SAcidZalanDoPostgresqlV1Manifest#enable_replica_pooler_load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_replica_pooler_load_balancer DataK8SAcidZalanDoPostgresqlV1Manifest#enable_replica_pooler_load_balancer}
   */
   readonly enableReplicaPoolerLoadBalancer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_shm_volume DataK8SAcidZalanDoPostgresqlV1Manifest#enable_shm_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#enable_shm_volume DataK8SAcidZalanDoPostgresqlV1Manifest#enable_shm_volume}
   */
   readonly enableShmVolume?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#env DataK8SAcidZalanDoPostgresqlV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#env DataK8SAcidZalanDoPostgresqlV1Manifest#env}
   */
   readonly env?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#init_containers DataK8SAcidZalanDoPostgresqlV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#init_containers DataK8SAcidZalanDoPostgresqlV1Manifest#init_containers}
   */
   readonly initContainers?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#logical_backup_retention DataK8SAcidZalanDoPostgresqlV1Manifest#logical_backup_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#logical_backup_retention DataK8SAcidZalanDoPostgresqlV1Manifest#logical_backup_retention}
   */
   readonly logicalBackupRetention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#logical_backup_schedule DataK8SAcidZalanDoPostgresqlV1Manifest#logical_backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#logical_backup_schedule DataK8SAcidZalanDoPostgresqlV1Manifest#logical_backup_schedule}
   */
   readonly logicalBackupSchedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#maintenance_windows DataK8SAcidZalanDoPostgresqlV1Manifest#maintenance_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#maintenance_windows DataK8SAcidZalanDoPostgresqlV1Manifest#maintenance_windows}
   */
   readonly maintenanceWindows?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#master_service_annotations DataK8SAcidZalanDoPostgresqlV1Manifest#master_service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#master_service_annotations DataK8SAcidZalanDoPostgresqlV1Manifest#master_service_annotations}
   */
   readonly masterServiceAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#node_affinity DataK8SAcidZalanDoPostgresqlV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#node_affinity DataK8SAcidZalanDoPostgresqlV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#number_of_instances DataK8SAcidZalanDoPostgresqlV1Manifest#number_of_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#number_of_instances DataK8SAcidZalanDoPostgresqlV1Manifest#number_of_instances}
   */
   readonly numberOfInstances: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#patroni DataK8SAcidZalanDoPostgresqlV1Manifest#patroni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#patroni DataK8SAcidZalanDoPostgresqlV1Manifest#patroni}
   */
   readonly patroni?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecPatroni;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#pod_annotations DataK8SAcidZalanDoPostgresqlV1Manifest#pod_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#pod_annotations DataK8SAcidZalanDoPostgresqlV1Manifest#pod_annotations}
   */
   readonly podAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#pod_priority_class_name DataK8SAcidZalanDoPostgresqlV1Manifest#pod_priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#pod_priority_class_name DataK8SAcidZalanDoPostgresqlV1Manifest#pod_priority_class_name}
   */
   readonly podPriorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#postgresql DataK8SAcidZalanDoPostgresqlV1Manifest#postgresql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#postgresql DataK8SAcidZalanDoPostgresqlV1Manifest#postgresql}
   */
   readonly postgresql: DataK8SAcidZalanDoPostgresqlV1ManifestSpecPostgresql;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#prepared_databases DataK8SAcidZalanDoPostgresqlV1Manifest#prepared_databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#prepared_databases DataK8SAcidZalanDoPostgresqlV1Manifest#prepared_databases}
   */
   readonly preparedDatabases?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecPreparedDatabases;
   /**
   * deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#replica_load_balancer DataK8SAcidZalanDoPostgresqlV1Manifest#replica_load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#replica_load_balancer DataK8SAcidZalanDoPostgresqlV1Manifest#replica_load_balancer}
   */
   readonly replicaLoadBalancer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#replica_service_annotations DataK8SAcidZalanDoPostgresqlV1Manifest#replica_service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#replica_service_annotations DataK8SAcidZalanDoPostgresqlV1Manifest#replica_service_annotations}
   */
   readonly replicaServiceAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#resources DataK8SAcidZalanDoPostgresqlV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#resources DataK8SAcidZalanDoPostgresqlV1Manifest#resources}
   */
   readonly resources?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#scheduler_name DataK8SAcidZalanDoPostgresqlV1Manifest#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#scheduler_name DataK8SAcidZalanDoPostgresqlV1Manifest#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#service_annotations DataK8SAcidZalanDoPostgresqlV1Manifest#service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#service_annotations DataK8SAcidZalanDoPostgresqlV1Manifest#service_annotations}
   */
   readonly serviceAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#sidecars DataK8SAcidZalanDoPostgresqlV1Manifest#sidecars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#sidecars DataK8SAcidZalanDoPostgresqlV1Manifest#sidecars}
   */
   readonly sidecars?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#spilo_fs_group DataK8SAcidZalanDoPostgresqlV1Manifest#spilo_fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#spilo_fs_group DataK8SAcidZalanDoPostgresqlV1Manifest#spilo_fs_group}
   */
   readonly spiloFsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#spilo_run_as_group DataK8SAcidZalanDoPostgresqlV1Manifest#spilo_run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#spilo_run_as_group DataK8SAcidZalanDoPostgresqlV1Manifest#spilo_run_as_group}
   */
   readonly spiloRunAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#spilo_run_as_user DataK8SAcidZalanDoPostgresqlV1Manifest#spilo_run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#spilo_run_as_user DataK8SAcidZalanDoPostgresqlV1Manifest#spilo_run_as_user}
   */
   readonly spiloRunAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#standby DataK8SAcidZalanDoPostgresqlV1Manifest#standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#standby DataK8SAcidZalanDoPostgresqlV1Manifest#standby}
   */
   readonly standby?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecStandby;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#streams DataK8SAcidZalanDoPostgresqlV1Manifest#streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#streams DataK8SAcidZalanDoPostgresqlV1Manifest#streams}
   */
   readonly streams?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecStreams[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#team_id DataK8SAcidZalanDoPostgresqlV1Manifest#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#team_id DataK8SAcidZalanDoPostgresqlV1Manifest#team_id}
   */
   readonly teamId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#tls DataK8SAcidZalanDoPostgresqlV1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#tls DataK8SAcidZalanDoPostgresqlV1Manifest#tls}
   */
   readonly tls?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecTls;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#tolerations DataK8SAcidZalanDoPostgresqlV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#tolerations DataK8SAcidZalanDoPostgresqlV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SAcidZalanDoPostgresqlV1ManifestSpecTolerations[] | cdktf.IResolvable;
   /**
   * deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#use_load_balancer DataK8SAcidZalanDoPostgresqlV1Manifest#use_load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#use_load_balancer DataK8SAcidZalanDoPostgresqlV1Manifest#use_load_balancer}
   */
   readonly useLoadBalancer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#users DataK8SAcidZalanDoPostgresqlV1Manifest#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#users DataK8SAcidZalanDoPostgresqlV1Manifest#users}
   */
   readonly users?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#users_ignoring_secret_rotation DataK8SAcidZalanDoPostgresqlV1Manifest#users_ignoring_secret_rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#users_ignoring_secret_rotation DataK8SAcidZalanDoPostgresqlV1Manifest#users_ignoring_secret_rotation}
   */
   readonly usersIgnoringSecretRotation?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#users_with_in_place_secret_rotation DataK8SAcidZalanDoPostgresqlV1Manifest#users_with_in_place_secret_rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#users_with_in_place_secret_rotation DataK8SAcidZalanDoPostgresqlV1Manifest#users_with_in_place_secret_rotation}
   */
   readonly usersWithInPlaceSecretRotation?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#users_with_secret_rotation DataK8SAcidZalanDoPostgresqlV1Manifest#users_with_secret_rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#users_with_secret_rotation DataK8SAcidZalanDoPostgresqlV1Manifest#users_with_secret_rotation}
   */
   readonly usersWithSecretRotation?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#volume DataK8SAcidZalanDoPostgresqlV1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#volume DataK8SAcidZalanDoPostgresqlV1Manifest#volume}
   */
   readonly volume: DataK8SAcidZalanDoPostgresqlV1ManifestSpecVolume;
 }
@@ -7526,7 +7526,7 @@ export class DataK8SAcidZalanDoPostgresqlV1ManifestSpecOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest k8s_acid_zalan_do_postgresql_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest k8s_acid_zalan_do_postgresql_v1_manifest}
 */
 export class DataK8SAcidZalanDoPostgresqlV1Manifest extends cdktf.TerraformDataSource {
 
@@ -7542,7 +7542,7 @@ export class DataK8SAcidZalanDoPostgresqlV1Manifest extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataK8SAcidZalanDoPostgresqlV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAcidZalanDoPostgresqlV1Manifest to import
-  * @param importFromId The id of the existing DataK8SAcidZalanDoPostgresqlV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAcidZalanDoPostgresqlV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAcidZalanDoPostgresqlV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7554,7 +7554,7 @@ export class DataK8SAcidZalanDoPostgresqlV1Manifest extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_postgresql_v1_manifest k8s_acid_zalan_do_postgresql_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acid_zalan_do_postgresql_v1_manifest k8s_acid_zalan_do_postgresql_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7565,8 +7565,8 @@ export class DataK8SAcidZalanDoPostgresqlV1Manifest extends cdktf.TerraformDataS
       terraformResourceType: 'k8s_acid_zalan_do_postgresql_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

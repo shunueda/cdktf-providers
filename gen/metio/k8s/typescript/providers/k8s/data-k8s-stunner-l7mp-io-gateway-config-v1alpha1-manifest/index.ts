@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SStunnerL7MpIoGatewayConfigV1Alpha1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#metadata DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#metadata DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SStunnerL7MpIoGatewayConfigV1Alpha1ManifestMetadata;
   /**
   * GatewayConfigSpec defines the desired state of GatewayConfig
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#spec DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#spec DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SStunnerL7MpIoGatewayConfigV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SStunnerL7MpIoGatewayConfigV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#annotations DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#annotations DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#labels DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#labels DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#name DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#name DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#namespace DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#namespace DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SStunnerL7MpIoGatewayConfigV1Alpha1ManifestSpecAuthRef {
   /**
   * Group is the group of the referent. For example, 'gateway.networking.k8s.io'. When unspecified or empty string, core API group is inferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#group DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#group DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * Kind is kind of the referent. For example 'Secret'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#kind DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#kind DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name is the name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#name DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#name DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of the referenced object. When unspecified, the local namespace is inferred. Note that when a namespace different than the local namespace is specified, a ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#namespace DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#namespace DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -417,91 +417,91 @@ export interface DataK8SStunnerL7MpIoGatewayConfigV1Alpha1ManifestSpec {
   /**
   * AuthLifetime defines the lifetime of 'longterm' authentication credentials in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#auth_lifetime DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#auth_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#auth_lifetime DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#auth_lifetime}
   */
   readonly authLifetime?: number;
   /**
   * Note that externally set credentials override any inline auth credentials (AuthType, AuthUsername, etc.): if AuthRef is nonempty then it is expected that the referenced Secret exists and *all* authentication credentials are correctly set in the referenced Secret (username/password or shared secret). Mixing of credential sources (inline/external) is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#auth_ref DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#auth_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#auth_ref DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#auth_ref}
   */
   readonly authRef?: DataK8SStunnerL7MpIoGatewayConfigV1Alpha1ManifestSpecAuthRef;
   /**
   * AuthType is the type of the STUN/TURN authentication mechanism.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#auth_type DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#auth_type DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#auth_type}
   */
   readonly authType?: string;
   /**
   * Dataplane defines the TURN server to set up for the STUNner Gateways using this GatewayConfig. Can be used to select the stunnerd image repo and version or deploy into the host-network namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#dataplane DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#dataplane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#dataplane DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#dataplane}
   */
   readonly dataplane?: string;
   /**
   * HealthCheckEndpoint is the URI of the form 'http://address:port' exposed for external HTTP health-checking. A liveness probe responder will be exposed on path '/live' and readiness probe on path '/ready'. The scheme ('http://') is mandatory, default is to enable health-checking at 'http://0.0.0.0:8086'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#health_check_endpoint DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#health_check_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#health_check_endpoint DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#health_check_endpoint}
   */
   readonly healthCheckEndpoint?: string;
   /**
   * LoadBalancerServiceAnnotations is a list of annotations that will go into the LoadBalancer services created automatically by the operator to wrap Gateways. NOTE: removing annotations from a GatewayConfig will not result in the removal of the corresponding annotations from the LoadBalancer service, in order to prevent the accidental removal of an annotation installed there by Kubernetes or the cloud provider. If you really want to remove an annotation, do this manually or simply remove all Gateways (which will remove the corresponding LoadBalancer services), update the GatewayConfig and then recreate the Gateways, so that the newly created LoadBalancer services will contain the required annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#load_balancer_service_annotations DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#load_balancer_service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#load_balancer_service_annotations DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#load_balancer_service_annotations}
   */
   readonly loadBalancerServiceAnnotations?: { [key: string]: string };
   /**
   * LogLevel specifies the default loglevel for the STUNner daemon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#log_level DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#log_level DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * MaxRelayPort is the smallest relay port assigned for STUNner relay connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#max_port DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#max_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#max_port DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#max_port}
   */
   readonly maxPort?: number;
   /**
   * MetricsEndpoint is the URI in the form 'http://address:port/path' exposed for metric scraping (Prometheus). The scheme ('http://') is mandatory. Default is to expose no metric endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#metrics_endpoint DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#metrics_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#metrics_endpoint DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#metrics_endpoint}
   */
   readonly metricsEndpoint?: string;
   /**
   * MinRelayPort is the smallest relay port assigned for STUNner relay connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#min_port DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#min_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#min_port DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#min_port}
   */
   readonly minPort?: number;
   /**
   * Password defines the 'password' credential for 'plaintext' authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#password DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#password DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * Realm defines the STUN/TURN authentication realm to be used for clients toauthenticate with STUNner. The realm must consist of lower case alphanumeric characters or '-', and must start and end with an alphanumeric character. No other punctuation is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#realm DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#realm DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#realm}
   */
   readonly realm?: string;
   /**
   * SharedSecret defines the shared secret to be used for 'longterm' authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#shared_secret DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#shared_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#shared_secret DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#shared_secret}
   */
   readonly sharedSecret?: string;
   /**
   * StunnerConfig specifies the name of the ConfigMap into which the operator renders the stunnerd configfile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#stunner_config DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#stunner_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#stunner_config DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#stunner_config}
   */
   readonly stunnerConfig?: string;
   /**
   * Username defines the 'username' credential for 'plaintext' authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#user_name DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#user_name DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest#user_name}
   */
   readonly userName?: string;
 }
@@ -1001,7 +1001,7 @@ export class DataK8SStunnerL7MpIoGatewayConfigV1Alpha1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest k8s_stunner_l7mp_io_gateway_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest k8s_stunner_l7mp_io_gateway_config_v1alpha1_manifest}
 */
 export class DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1017,7 +1017,7 @@ export class DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1029,7 +1029,7 @@ export class DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest k8s_stunner_l7mp_io_gateway_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/stunner_l7mp_io_gateway_config_v1alpha1_manifest k8s_stunner_l7mp_io_gateway_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1040,8 +1040,8 @@ export class DataK8SStunnerL7MpIoGatewayConfigV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_stunner_l7mp_io_gateway_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

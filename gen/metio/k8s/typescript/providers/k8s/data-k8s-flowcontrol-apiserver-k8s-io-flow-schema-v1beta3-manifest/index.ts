@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestConfig
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#metadata DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#metadata DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#metadata}
   */
   readonly metadata: DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestMetadata;
   /**
   * FlowSchemaSpec describes how the FlowSchema's specification looks like.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#spec DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#spec DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#spec}
   */
   readonly spec?: DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestMetada
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#annotations DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#annotations DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#labels DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#labels DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#name DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#name DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecDi
   /**
   * 'type' is the type of flow distinguisher method The supported types are 'ByUser' and 'ByNamespace'. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#type DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#type DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#type}
   */
   readonly type: string;
 }
@@ -280,7 +280,7 @@ export interface DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecPr
   /**
   * 'name' is the name of the priority level configuration being referenced Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#name DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#name DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#name}
   */
   readonly name: string;
 }
@@ -373,13 +373,13 @@ export interface DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecRu
   /**
   * 'nonResourceURLs' is a set of url prefixes that a user should have access to and may not be empty. For example: - '/healthz' is legal - '/hea*' is illegal - '/hea' is legal but matches nothing - '/hea/*' also matches nothing - '/healthz/*' matches all per-component health checks. '*' matches all non-resource urls. if it is present, it must be the only entry. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#non_resource_urls DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#non_resource_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#non_resource_urls DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#non_resource_urls}
   */
   readonly nonResourceUrls: string[];
   /**
   * 'verbs' is a list of matching verbs and may not be empty. '*' matches all verbs. If it is present, it must be the only entry. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#verbs DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#verbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#verbs DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#verbs}
   */
   readonly verbs: string[];
 }
@@ -520,31 +520,31 @@ export interface DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecRu
   /**
   * 'apiGroups' is a list of matching API groups and may not be empty. '*' matches all API groups and, if present, must be the only entry. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#api_groups DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#api_groups DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#api_groups}
   */
   readonly apiGroups: string[];
   /**
   * 'clusterScope' indicates whether to match requests that do not specify a namespace (which happens either because the resource is not namespaced or the request targets all namespaces). If this field is omitted or false then the 'namespaces' field must contain a non-empty list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#cluster_scope DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#cluster_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#cluster_scope DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#cluster_scope}
   */
   readonly clusterScope?: boolean | cdktf.IResolvable;
   /**
   * 'namespaces' is a list of target namespaces that restricts matches. A request that specifies a target namespace matches only if either (a) this list contains that target namespace or (b) this list contains '*'. Note that '*' matches any specified namespace but does not match a request that _does not specify_ a namespace (see the 'clusterScope' field for that). This list may be empty, but only if 'clusterScope' is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#namespaces DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#namespaces DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * 'resources' is a list of matching resources (i.e., lowercase and plural) with, if desired, subresource. For example, [ 'services', 'nodes/status' ]. This list may not be empty. '*' matches all resources and, if present, must be the only entry. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#resources DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#resources DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#resources}
   */
   readonly resources: string[];
   /**
   * 'verbs' is a list of matching verbs and may not be empty. '*' matches all verbs and, if present, must be the only entry. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#verbs DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#verbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#verbs DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#verbs}
   */
   readonly verbs: string[];
 }
@@ -769,7 +769,7 @@ export interface DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecRu
   /**
   * name is the user group that matches, or '*' to match all user groups. See https://github.com/kubernetes/apiserver/blob/master/pkg/authentication/user/user.go for some well-known group names. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#name DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#name DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#name}
   */
   readonly name: string;
 }
@@ -862,13 +862,13 @@ export interface DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecRu
   /**
   * 'name' is the name of matching ServiceAccount objects, or '*' to match regardless of name. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#name DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#name DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#name}
   */
   readonly name: string;
   /**
   * 'namespace' is the namespace of matching ServiceAccount objects. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#namespace DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#namespace DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -987,7 +987,7 @@ export interface DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecRu
   /**
   * 'name' is the username that matches, or '*' to match all usernames. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#name DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#name DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#name}
   */
   readonly name: string;
 }
@@ -1080,25 +1080,25 @@ export interface DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecRu
   /**
   * GroupSubject holds detailed information for group-kind subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#group DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#group DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#group}
   */
   readonly group?: DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecRulesSubjectsGroup;
   /**
   * 'kind' indicates which one of the other fields is non-empty. Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#kind DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#kind DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#kind}
   */
   readonly kind: string;
   /**
   * ServiceAccountSubject holds detailed information for service-account-kind subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#service_account DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#service_account DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecRulesSubjectsServiceAccount;
   /**
   * UserSubject holds detailed information for user-kind subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#user DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#user DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#user}
   */
   readonly user?: DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecRulesSubjectsUser;
 }
@@ -1300,19 +1300,19 @@ export interface DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecRu
   /**
   * 'nonResourceRules' is a list of NonResourcePolicyRules that identify matching requests according to their verb and the target non-resource URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#non_resource_rules DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#non_resource_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#non_resource_rules DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#non_resource_rules}
   */
   readonly nonResourceRules?: DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecRulesNonResourceRules[] | cdktf.IResolvable;
   /**
   * 'resourceRules' is a slice of ResourcePolicyRules that identify matching requests according to their verb and the target resource. At least one of 'resourceRules' and 'nonResourceRules' has to be non-empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#resource_rules DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#resource_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#resource_rules DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#resource_rules}
   */
   readonly resourceRules?: DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecRulesResourceRules[] | cdktf.IResolvable;
   /**
   * subjects is the list of normal user, serviceaccount, or group that this rule cares about. There must be at least one member in this slice. A slice that includes both the system:authenticated and system:unauthenticated user groups matches every request. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#subjects DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#subjects DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#subjects}
   */
   readonly subjects: DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecRulesSubjects[] | cdktf.IResolvable;
 }
@@ -1485,25 +1485,25 @@ export interface DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpec {
   /**
   * FlowDistinguisherMethod specifies the method of a flow distinguisher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#distinguisher_method DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#distinguisher_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#distinguisher_method DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#distinguisher_method}
   */
   readonly distinguisherMethod?: DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecDistinguisherMethod;
   /**
   * 'matchingPrecedence' is used to choose among the FlowSchemas that match a given request. The chosen FlowSchema is among those with the numerically lowest (which we take to be logically highest) MatchingPrecedence. Each MatchingPrecedence value must be ranged in [1,10000]. Note that if the precedence is not specified, it will be set to 1000 as default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#matching_precedence DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#matching_precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#matching_precedence DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#matching_precedence}
   */
   readonly matchingPrecedence?: number;
   /**
   * PriorityLevelConfigurationReference contains information that points to the 'request-priority' being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#priority_level_configuration DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#priority_level_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#priority_level_configuration DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#priority_level_configuration}
   */
   readonly priorityLevelConfiguration: DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecPriorityLevelConfiguration;
   /**
   * 'rules' describes which requests will match this flow schema. This FlowSchema matches a request if and only if at least one member of rules matches the request. if it is an empty slice, there will be no requests matching the FlowSchema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#rules DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#rules DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest#rules}
   */
   readonly rules?: DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecRules[] | cdktf.IResolvable;
 }
@@ -1681,7 +1681,7 @@ export class DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3ManifestSpecOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest k8s_flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest k8s_flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest}
 */
 export class DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest extends cdktf.TerraformDataSource {
 
@@ -1697,7 +1697,7 @@ export class DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest extends c
   * Generates CDKTF code for importing a DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest to import
-  * @param importFromId The id of the existing DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1709,7 +1709,7 @@ export class DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest k8s_flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest k8s_flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1720,8 +1720,8 @@ export class DataK8SFlowcontrolApiserverK8SIoFlowSchemaV1Beta3Manifest extends c
       terraformResourceType: 'k8s_flowcontrol_apiserver_k8s_io_flow_schema_v1beta3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

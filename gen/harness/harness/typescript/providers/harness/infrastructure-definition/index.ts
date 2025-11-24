@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,127 +10,127 @@ export interface InfrastructureDefinitionConfig extends cdktf.TerraformMetaArgum
   /**
   * The id of the application the infrastructure definition belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#app_id InfrastructureDefinition#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#app_id InfrastructureDefinition#app_id}
   */
   readonly appId: string;
   /**
   * The type of the cloud provider to connect with. Valid options are AWS, AZURE, CUSTOM, PHYSICAL_DATA_CENTER, KUBERNETES_CLUSTER, PCF, SPOT_INST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#cloud_provider_type InfrastructureDefinition#cloud_provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#cloud_provider_type InfrastructureDefinition#cloud_provider_type}
   */
   readonly cloudProviderType: string;
   /**
   * The URI of the deployment template to use. Only used if deployment_type is `CUSTOM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#deployment_template_uri InfrastructureDefinition#deployment_template_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#deployment_template_uri InfrastructureDefinition#deployment_template_uri}
   */
   readonly deploymentTemplateUri?: string;
   /**
   * The type of the deployment to use. Valid options are AMI, AWS_CODEDEPLOY, AWS_LAMBDA, AZURE_VMSS, AZURE_WEBAPP, CUSTOM, ECS, HELM, KUBERNETES, PCF, SSH, WINRM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#deployment_type InfrastructureDefinition#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#deployment_type InfrastructureDefinition#deployment_type}
   */
   readonly deploymentType: string;
   /**
   * The id of the environment the infrastructure definition belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#env_id InfrastructureDefinition#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#env_id InfrastructureDefinition#env_id}
   */
   readonly envId: string;
   /**
   * The name of the infrastructure definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#name InfrastructureDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#name InfrastructureDefinition#name}
   */
   readonly name: string;
   /**
   * The name of the infrastructure provisioner to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#provisioner_name InfrastructureDefinition#provisioner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#provisioner_name InfrastructureDefinition#provisioner_name}
   */
   readonly provisionerName?: string;
   /**
   * The list of service names to scope this infrastructure definition to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#scoped_services InfrastructureDefinition#scoped_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#scoped_services InfrastructureDefinition#scoped_services}
   */
   readonly scopedServices?: string[];
   /**
   * aws_ami block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#aws_ami InfrastructureDefinition#aws_ami}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#aws_ami InfrastructureDefinition#aws_ami}
   */
   readonly awsAmi?: InfrastructureDefinitionAwsAmi;
   /**
   * aws_ecs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#aws_ecs InfrastructureDefinition#aws_ecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#aws_ecs InfrastructureDefinition#aws_ecs}
   */
   readonly awsEcs?: InfrastructureDefinitionAwsEcs;
   /**
   * aws_lambda block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#aws_lambda InfrastructureDefinition#aws_lambda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#aws_lambda InfrastructureDefinition#aws_lambda}
   */
   readonly awsLambda?: InfrastructureDefinitionAwsLambda;
   /**
   * aws_ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#aws_ssh InfrastructureDefinition#aws_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#aws_ssh InfrastructureDefinition#aws_ssh}
   */
   readonly awsSsh?: InfrastructureDefinitionAwsSsh;
   /**
   * aws_winrm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#aws_winrm InfrastructureDefinition#aws_winrm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#aws_winrm InfrastructureDefinition#aws_winrm}
   */
   readonly awsWinrm?: InfrastructureDefinitionAwsWinrm;
   /**
   * azure_vmss block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#azure_vmss InfrastructureDefinition#azure_vmss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#azure_vmss InfrastructureDefinition#azure_vmss}
   */
   readonly azureVmss?: InfrastructureDefinitionAzureVmss;
   /**
   * azure_webapp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#azure_webapp InfrastructureDefinition#azure_webapp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#azure_webapp InfrastructureDefinition#azure_webapp}
   */
   readonly azureWebapp?: InfrastructureDefinitionAzureWebapp;
   /**
   * custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#custom InfrastructureDefinition#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#custom InfrastructureDefinition#custom}
   */
   readonly custom?: InfrastructureDefinitionCustom;
   /**
   * datacenter_ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#datacenter_ssh InfrastructureDefinition#datacenter_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#datacenter_ssh InfrastructureDefinition#datacenter_ssh}
   */
   readonly datacenterSsh?: InfrastructureDefinitionDatacenterSsh;
   /**
   * datacenter_winrm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#datacenter_winrm InfrastructureDefinition#datacenter_winrm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#datacenter_winrm InfrastructureDefinition#datacenter_winrm}
   */
   readonly datacenterWinrm?: InfrastructureDefinitionDatacenterWinrm;
   /**
   * kubernetes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#kubernetes InfrastructureDefinition#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#kubernetes InfrastructureDefinition#kubernetes}
   */
   readonly kubernetes?: InfrastructureDefinitionKubernetes;
   /**
   * kubernetes_gcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#kubernetes_gcp InfrastructureDefinition#kubernetes_gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#kubernetes_gcp InfrastructureDefinition#kubernetes_gcp}
   */
   readonly kubernetesGcp?: InfrastructureDefinitionKubernetesGcp;
   /**
   * tanzu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#tanzu InfrastructureDefinition#tanzu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#tanzu InfrastructureDefinition#tanzu}
   */
   readonly tanzu?: InfrastructureDefinitionTanzu;
 }
@@ -138,79 +138,79 @@ export interface InfrastructureDefinitionAwsAmi {
   /**
   * The ami deployment type to use. Valid options are AWS_ASG, SPOTINST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#ami_deployment_type InfrastructureDefinition#ami_deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#ami_deployment_type InfrastructureDefinition#ami_deployment_type}
   */
   readonly amiDeploymentType: string;
   /**
   * Flag to indicate whether the autoscaling group identifies the workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#asg_identifies_workload InfrastructureDefinition#asg_identifies_workload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#asg_identifies_workload InfrastructureDefinition#asg_identifies_workload}
   */
   readonly asgIdentifiesWorkload?: boolean | cdktf.IResolvable;
   /**
   * The name of the autoscaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#autoscaling_group_name InfrastructureDefinition#autoscaling_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#autoscaling_group_name InfrastructureDefinition#autoscaling_group_name}
   */
   readonly autoscalingGroupName?: string;
   /**
   * The classic load balancers to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#classic_loadbalancers InfrastructureDefinition#classic_loadbalancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#classic_loadbalancers InfrastructureDefinition#classic_loadbalancers}
   */
   readonly classicLoadbalancers?: string[];
   /**
   * The name of the cloud provider to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
   */
   readonly cloudProviderName: string;
   /**
   * The naming convention to use for the hostname. Defaults to ${host.ec2Instance.privateDnsName.split('\.')[0]}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#hostname_convention InfrastructureDefinition#hostname_convention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#hostname_convention InfrastructureDefinition#hostname_convention}
   */
   readonly hostnameConvention?: string;
   /**
   * The region to deploy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#region InfrastructureDefinition#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#region InfrastructureDefinition#region}
   */
   readonly region: string;
   /**
   * The name of the SpotInst cloud provider to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#spotinst_cloud_provider_name InfrastructureDefinition#spotinst_cloud_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#spotinst_cloud_provider_name InfrastructureDefinition#spotinst_cloud_provider_name}
   */
   readonly spotinstCloudProviderName?: string;
   /**
   * The SpotInst configuration to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#spotinst_config_json InfrastructureDefinition#spotinst_config_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#spotinst_config_json InfrastructureDefinition#spotinst_config_json}
   */
   readonly spotinstConfigJson?: string;
   /**
   * The staging classic load balancers to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#stage_classic_loadbalancers InfrastructureDefinition#stage_classic_loadbalancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#stage_classic_loadbalancers InfrastructureDefinition#stage_classic_loadbalancers}
   */
   readonly stageClassicLoadbalancers?: string[];
   /**
   * The staging classic load balancers to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#stage_target_group_arns InfrastructureDefinition#stage_target_group_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#stage_target_group_arns InfrastructureDefinition#stage_target_group_arns}
   */
   readonly stageTargetGroupArns?: string[];
   /**
   * The ARN's of the target groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#target_group_arns InfrastructureDefinition#target_group_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#target_group_arns InfrastructureDefinition#target_group_arns}
   */
   readonly targetGroupArns?: string[];
   /**
   * Flag to enable traffic shifting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#use_traffic_shift InfrastructureDefinition#use_traffic_shift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#use_traffic_shift InfrastructureDefinition#use_traffic_shift}
   */
   readonly useTrafficShift?: boolean | cdktf.IResolvable;
 }
@@ -635,55 +635,55 @@ export interface InfrastructureDefinitionAwsEcs {
   /**
   * Flag to assign a public IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#assign_public_ip InfrastructureDefinition#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#assign_public_ip InfrastructureDefinition#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktf.IResolvable;
   /**
   * The name of the cloud provider to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
   */
   readonly cloudProviderName: string;
   /**
   * The name of the ECS cluster to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#cluster_name InfrastructureDefinition#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#cluster_name InfrastructureDefinition#cluster_name}
   */
   readonly clusterName: string;
   /**
   * The ARN of the role to use for execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#execution_role InfrastructureDefinition#execution_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#execution_role InfrastructureDefinition#execution_role}
   */
   readonly executionRole?: string;
   /**
   * The type of launch configuration to use. Valid options are FARGATE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#launch_type InfrastructureDefinition#launch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#launch_type InfrastructureDefinition#launch_type}
   */
   readonly launchType: string;
   /**
   * The region to deploy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#region InfrastructureDefinition#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#region InfrastructureDefinition#region}
   */
   readonly region: string;
   /**
   * The security group ids to apply to the ecs service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#security_group_ids InfrastructureDefinition#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#security_group_ids InfrastructureDefinition#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The subnet ids to apply to the ecs service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#subnet_ids InfrastructureDefinition#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#subnet_ids InfrastructureDefinition#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * The VPC ids to use when selecting the instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#vpc_id InfrastructureDefinition#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#vpc_id InfrastructureDefinition#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -989,37 +989,37 @@ export interface InfrastructureDefinitionAwsLambda {
   /**
   * The name of the cloud provider to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
   */
   readonly cloudProviderName: string;
   /**
   * The IAM role to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#iam_role InfrastructureDefinition#iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#iam_role InfrastructureDefinition#iam_role}
   */
   readonly iamRole?: string;
   /**
   * The region to deploy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#region InfrastructureDefinition#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#region InfrastructureDefinition#region}
   */
   readonly region: string;
   /**
   * The security group ids to apply to the ecs service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#security_group_ids InfrastructureDefinition#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#security_group_ids InfrastructureDefinition#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The subnet ids to apply to the ecs service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#subnet_ids InfrastructureDefinition#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#subnet_ids InfrastructureDefinition#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * The VPC ids to use when selecting the instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#vpc_id InfrastructureDefinition#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#vpc_id InfrastructureDefinition#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -1244,13 +1244,13 @@ export interface InfrastructureDefinitionAwsSshTag {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#key InfrastructureDefinition#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#key InfrastructureDefinition#key}
   */
   readonly key: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#value InfrastructureDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#value InfrastructureDefinition#value}
   */
   readonly value: string;
 }
@@ -1391,61 +1391,61 @@ export interface InfrastructureDefinitionAwsSsh {
   /**
   * The name of the autoscaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#autoscaling_group_name InfrastructureDefinition#autoscaling_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#autoscaling_group_name InfrastructureDefinition#autoscaling_group_name}
   */
   readonly autoscalingGroupName?: string;
   /**
   * The name of the cloud provider to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
   */
   readonly cloudProviderName: string;
   /**
   * The desired capacity of the auto scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#desired_capacity InfrastructureDefinition#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#desired_capacity InfrastructureDefinition#desired_capacity}
   */
   readonly desiredCapacity?: number;
   /**
   * The name of the host connection attributes to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#host_connection_attrs_name InfrastructureDefinition#host_connection_attrs_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#host_connection_attrs_name InfrastructureDefinition#host_connection_attrs_name}
   */
   readonly hostConnectionAttrsName?: string;
   /**
   * The type of host connection to use. Valid options are PRIVATE_DNS, PUBLIC_DNS, PRIVATE_IP, PUBLIC_IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#host_connection_type InfrastructureDefinition#host_connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#host_connection_type InfrastructureDefinition#host_connection_type}
   */
   readonly hostConnectionType: string;
   /**
   * The naming convention to use for the hostname. Defaults to ${host.ec2Instance.privateDnsName.split('\.')[0]}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#hostname_convention InfrastructureDefinition#hostname_convention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#hostname_convention InfrastructureDefinition#hostname_convention}
   */
   readonly hostnameConvention?: string;
   /**
   * The name of the load balancer to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#loadbalancer_name InfrastructureDefinition#loadbalancer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#loadbalancer_name InfrastructureDefinition#loadbalancer_name}
   */
   readonly loadbalancerName?: string;
   /**
   * The region to deploy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#region InfrastructureDefinition#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#region InfrastructureDefinition#region}
   */
   readonly region: string;
   /**
   * The VPC ids to use when selecting the instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#vpc_ids InfrastructureDefinition#vpc_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#vpc_ids InfrastructureDefinition#vpc_ids}
   */
   readonly vpcIds?: string[];
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#tag InfrastructureDefinition#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#tag InfrastructureDefinition#tag}
   */
   readonly tag?: InfrastructureDefinitionAwsSshTag[] | cdktf.IResolvable;
 }
@@ -1783,49 +1783,49 @@ export interface InfrastructureDefinitionAwsWinrm {
   /**
   * The name of the autoscaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#autoscaling_group_name InfrastructureDefinition#autoscaling_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#autoscaling_group_name InfrastructureDefinition#autoscaling_group_name}
   */
   readonly autoscalingGroupName: string;
   /**
   * The name of the cloud provider to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
   */
   readonly cloudProviderName: string;
   /**
   * The desired capacity of the autoscaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#desired_capacity InfrastructureDefinition#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#desired_capacity InfrastructureDefinition#desired_capacity}
   */
   readonly desiredCapacity?: number;
   /**
   * The name of the host connection attributes to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#host_connection_attrs_name InfrastructureDefinition#host_connection_attrs_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#host_connection_attrs_name InfrastructureDefinition#host_connection_attrs_name}
   */
   readonly hostConnectionAttrsName: string;
   /**
   * The type of host connection to use. Valid options are PRIVATE_DNS, PUBLIC_DNS, PRIVATE_IP, PUBLIC_IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#host_connection_type InfrastructureDefinition#host_connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#host_connection_type InfrastructureDefinition#host_connection_type}
   */
   readonly hostConnectionType: string;
   /**
   * The naming convention to use for the hostname. Defaults to ${host.ec2Instance.privateDnsName.split('\.')[0]}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#hostname_convention InfrastructureDefinition#hostname_convention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#hostname_convention InfrastructureDefinition#hostname_convention}
   */
   readonly hostnameConvention?: string;
   /**
   * The name of the load balancer to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#loadbalancer_name InfrastructureDefinition#loadbalancer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#loadbalancer_name InfrastructureDefinition#loadbalancer_name}
   */
   readonly loadbalancerName?: string;
   /**
   * The region to deploy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#region InfrastructureDefinition#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#region InfrastructureDefinition#region}
   */
   readonly region: string;
 }
@@ -2099,49 +2099,49 @@ export interface InfrastructureDefinitionAzureVmss {
   /**
   * The type of authentication to use. Valid options are SSH_PUBLIC_KEY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#auth_type InfrastructureDefinition#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#auth_type InfrastructureDefinition#auth_type}
   */
   readonly authType: string;
   /**
   * Base name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#base_name InfrastructureDefinition#base_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#base_name InfrastructureDefinition#base_name}
   */
   readonly baseName: string;
   /**
   * The name of the cloud provider to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
   */
   readonly cloudProviderName: string;
   /**
   * The type of deployment. Valid options are NATIVE_VMSS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#deployment_type InfrastructureDefinition#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#deployment_type InfrastructureDefinition#deployment_type}
   */
   readonly deploymentType: string;
   /**
   * The name of the host connection attributes to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#host_connection_attrs_name InfrastructureDefinition#host_connection_attrs_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#host_connection_attrs_name InfrastructureDefinition#host_connection_attrs_name}
   */
   readonly hostConnectionAttrsName?: string;
   /**
   * The name of the resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#resource_group_name InfrastructureDefinition#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#resource_group_name InfrastructureDefinition#resource_group_name}
   */
   readonly resourceGroupName: string;
   /**
   * The unique id of the azure subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#subscription_id InfrastructureDefinition#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#subscription_id InfrastructureDefinition#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * The username to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#username InfrastructureDefinition#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#username InfrastructureDefinition#username}
   */
   readonly username: string;
 }
@@ -2409,19 +2409,19 @@ export interface InfrastructureDefinitionAzureWebapp {
   /**
   * The name of the cloud provider to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
   */
   readonly cloudProviderName: string;
   /**
   * The name of the resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#resource_group InfrastructureDefinition#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#resource_group InfrastructureDefinition#resource_group}
   */
   readonly resourceGroup: string;
   /**
   * The unique id of the azure subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#subscription_id InfrastructureDefinition#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#subscription_id InfrastructureDefinition#subscription_id}
   */
   readonly subscriptionId: string;
 }
@@ -2556,13 +2556,13 @@ export interface InfrastructureDefinitionCustomVariable {
   /**
   * Name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#name InfrastructureDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#name InfrastructureDefinition#name}
   */
   readonly name: string;
   /**
   * Value of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#value InfrastructureDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#value InfrastructureDefinition#value}
   */
   readonly value: string;
 }
@@ -2703,13 +2703,13 @@ export interface InfrastructureDefinitionCustom {
   /**
   * The template version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#deployment_type_template_version InfrastructureDefinition#deployment_type_template_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#deployment_type_template_version InfrastructureDefinition#deployment_type_template_version}
   */
   readonly deploymentTypeTemplateVersion: string;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#variable InfrastructureDefinition#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#variable InfrastructureDefinition#variable}
   */
   readonly variable?: InfrastructureDefinitionCustomVariable[] | cdktf.IResolvable;
 }
@@ -2821,19 +2821,19 @@ export interface InfrastructureDefinitionDatacenterSsh {
   /**
   * The name of the cloud provider to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
   */
   readonly cloudProviderName: string;
   /**
   * The name of the SSH connection attributes to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#host_connection_attributes_name InfrastructureDefinition#host_connection_attributes_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#host_connection_attributes_name InfrastructureDefinition#host_connection_attributes_name}
   */
   readonly hostConnectionAttributesName: string;
   /**
   * A list of hosts to deploy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#hostnames InfrastructureDefinition#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#hostnames InfrastructureDefinition#hostnames}
   */
   readonly hostnames: string[];
 }
@@ -2968,19 +2968,19 @@ export interface InfrastructureDefinitionDatacenterWinrm {
   /**
   * The name of the cloud provider to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
   */
   readonly cloudProviderName: string;
   /**
   * A list of hosts to deploy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#hostnames InfrastructureDefinition#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#hostnames InfrastructureDefinition#hostnames}
   */
   readonly hostnames: string[];
   /**
   * The name of the WinRM connection attributes to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#winrm_connection_attributes_name InfrastructureDefinition#winrm_connection_attributes_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#winrm_connection_attributes_name InfrastructureDefinition#winrm_connection_attributes_name}
   */
   readonly winrmConnectionAttributesName: string;
 }
@@ -3115,19 +3115,19 @@ export interface InfrastructureDefinitionKubernetes {
   /**
   * The name of the cloud provider to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
   */
   readonly cloudProviderName: string;
   /**
   * The namespace in Kubernetes to deploy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#namespace InfrastructureDefinition#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#namespace InfrastructureDefinition#namespace}
   */
   readonly namespace: string;
   /**
   * The naming convention of the release. When using Helm Native the default is ${infra.kubernetes.infraId}. For standard Kubernetes manifests the default is release-${infra.kubernetes.infraId}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#release_name InfrastructureDefinition#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#release_name InfrastructureDefinition#release_name}
   */
   readonly releaseName: string;
 }
@@ -3262,25 +3262,25 @@ export interface InfrastructureDefinitionKubernetesGcp {
   /**
   * The name of the cloud provider to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
   */
   readonly cloudProviderName: string;
   /**
   * The name of the cluster being deployed to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#cluster_name InfrastructureDefinition#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#cluster_name InfrastructureDefinition#cluster_name}
   */
   readonly clusterName: string;
   /**
   * The namespace in Kubernetes to deploy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#namespace InfrastructureDefinition#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#namespace InfrastructureDefinition#namespace}
   */
   readonly namespace: string;
   /**
   * The naming convention of the release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#release_name InfrastructureDefinition#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#release_name InfrastructureDefinition#release_name}
   */
   readonly releaseName: string;
 }
@@ -3441,19 +3441,19 @@ export interface InfrastructureDefinitionTanzu {
   /**
   * The name of the cloud provider to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#cloud_provider_name InfrastructureDefinition#cloud_provider_name}
   */
   readonly cloudProviderName: string;
   /**
   * The PCF organization to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#organization InfrastructureDefinition#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#organization InfrastructureDefinition#organization}
   */
   readonly organization: string;
   /**
   * The PCF space to deploy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#space InfrastructureDefinition#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#space InfrastructureDefinition#space}
   */
   readonly space: string;
 }
@@ -3586,7 +3586,7 @@ export class InfrastructureDefinitionTanzuOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition harness_infrastructure_definition}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition harness_infrastructure_definition}
 */
 export class InfrastructureDefinition extends cdktf.TerraformResource {
 
@@ -3602,7 +3602,7 @@ export class InfrastructureDefinition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InfrastructureDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InfrastructureDefinition to import
-  * @param importFromId The id of the existing InfrastructureDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InfrastructureDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InfrastructureDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3614,7 +3614,7 @@ export class InfrastructureDefinition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/infrastructure_definition harness_infrastructure_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/infrastructure_definition harness_infrastructure_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3625,8 +3625,8 @@ export class InfrastructureDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'harness_infrastructure_definition',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

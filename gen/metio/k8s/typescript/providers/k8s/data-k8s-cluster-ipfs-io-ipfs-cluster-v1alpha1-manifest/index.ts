@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SClusterIpfsIoIpfsClusterV1Alpha1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#metadata DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#metadata DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SClusterIpfsIoIpfsClusterV1Alpha1ManifestMetadata;
   /**
   * IpfsClusterSpec defines the desired state of the IpfsCluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#spec DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#spec DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SClusterIpfsIoIpfsClusterV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SClusterIpfsIoIpfsClusterV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#annotations DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#annotations DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#labels DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#labels DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#name DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#name DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#namespace DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#namespace DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SClusterIpfsIoIpfsClusterV1Alpha1ManifestMetadataOutputRefere
 }
 export interface DataK8SClusterIpfsIoIpfsClusterV1Alpha1ManifestSpecFollows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#name DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#name DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#template DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#template DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#template}
   */
   readonly template: string;
 }
@@ -362,13 +362,13 @@ export interface DataK8SClusterIpfsIoIpfsClusterV1Alpha1ManifestSpecIpfsResource
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#limits DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#limits DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#requests DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#requests DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -493,13 +493,13 @@ export interface DataK8SClusterIpfsIoIpfsClusterV1Alpha1ManifestSpecNetworking {
   /**
   * circuitRelays defines how many CircuitRelays should be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#circuit_relays DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#circuit_relays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#circuit_relays DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#circuit_relays}
   */
   readonly circuitRelays: number;
   /**
   * public is a switch which defines whether this IPFSCluster will use the global IPFS network or create its own.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#public DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#public DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
 }
@@ -621,13 +621,13 @@ export interface DataK8SClusterIpfsIoIpfsClusterV1Alpha1ManifestSpecReprovider {
   /**
   * Interval sets the time between rounds of reproviding local content to the routing system. Defaults to '12h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#interval DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#interval DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Strategy specifies the reprovider strategy, defaults to 'all'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#strategy DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#strategy DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#strategy}
   */
   readonly strategy?: string;
 }
@@ -752,43 +752,43 @@ export interface DataK8SClusterIpfsIoIpfsClusterV1Alpha1ManifestSpec {
   /**
   * clusterStorage defines the amount of storage to be used by IPFS Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#cluster_storage DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#cluster_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#cluster_storage DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#cluster_storage}
   */
   readonly clusterStorage: string;
   /**
   * follows defines the list of other IPFS Clusters this one should follow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#follows DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#follows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#follows DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#follows}
   */
   readonly follows?: DataK8SClusterIpfsIoIpfsClusterV1Alpha1ManifestSpecFollows[] | cdktf.IResolvable;
   /**
   * ipfsResources specifies the resource requirements for each IPFS container. If this value is omitted, then the operator will automatically determine these settings based on the storage sizes used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#ipfs_resources DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#ipfs_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#ipfs_resources DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#ipfs_resources}
   */
   readonly ipfsResources?: DataK8SClusterIpfsIoIpfsClusterV1Alpha1ManifestSpecIpfsResources;
   /**
   * ipfsStorage defines the total storage to be allocated by this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#ipfs_storage DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#ipfs_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#ipfs_storage DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#ipfs_storage}
   */
   readonly ipfsStorage: string;
   /**
   * networking defines network configuration settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#networking DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#networking DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#networking}
   */
   readonly networking: DataK8SClusterIpfsIoIpfsClusterV1Alpha1ManifestSpecNetworking;
   /**
   * replicas sets the number of replicas of IPFS Cluster nodes we should be running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#replicas DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#replicas DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas: number;
   /**
   * reprovider Describes the settings that each IPFS node should use when reproviding content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#reprovider DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#reprovider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#reprovider DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest#reprovider}
   */
   readonly reprovider?: DataK8SClusterIpfsIoIpfsClusterV1Alpha1ManifestSpecReprovider;
 }
@@ -1044,7 +1044,7 @@ export class DataK8SClusterIpfsIoIpfsClusterV1Alpha1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest k8s_cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest k8s_cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest}
 */
 export class DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1060,7 +1060,7 @@ export class DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1072,7 +1072,7 @@ export class DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest k8s_cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest k8s_cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1083,8 +1083,8 @@ export class DataK8SClusterIpfsIoIpfsClusterV1Alpha1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_cluster_ipfs_io_ipfs_cluster_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

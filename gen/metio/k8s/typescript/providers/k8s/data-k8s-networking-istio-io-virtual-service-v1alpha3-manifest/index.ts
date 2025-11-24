@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#metadata DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#metadata DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#metadata}
   */
   readonly metadata: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestMetadata;
   /**
   * Configuration affecting label/content routing, sni routing, etc. See more details at: https://istio.io/docs/reference/config/networking/virtual-service.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#spec DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#spec DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#spec}
   */
   readonly spec?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#annotations DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#annotations DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#labels DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#labels DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#name DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#name DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#namespace DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#namespace DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,17 +217,17 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestMetadataOutpu
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpCorsPolicyAllowOrigins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exact DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exact DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * [RE2 style regex-based match](https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#regex DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#regex DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -403,47 +403,47 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpC
   /**
   * Indicates whether the caller is allowed to send the actual request (not the preflight) using credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#allow_credentials DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#allow_credentials DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#allow_credentials}
   */
   readonly allowCredentials?: boolean | cdktf.IResolvable;
   /**
   * List of HTTP headers that can be used when requesting the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#allow_headers DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#allow_headers DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#allow_headers}
   */
   readonly allowHeaders?: string[];
   /**
   * List of HTTP methods allowed to access the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#allow_methods DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#allow_methods DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#allow_methods}
   */
   readonly allowMethods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#allow_origin DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#allow_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#allow_origin DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#allow_origin}
   */
   readonly allowOrigin?: string[];
   /**
   * String patterns that match allowed origins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#allow_origins DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#allow_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#allow_origins DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#allow_origins}
   */
   readonly allowOrigins?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpCorsPolicyAllowOrigins[] | cdktf.IResolvable;
   /**
   * A list of HTTP headers that the browsers are allowed to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#expose_headers DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#expose_headers DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
   * Specifies how long the results of a preflight request can be cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#max_age DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#max_age DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#max_age}
   */
   readonly maxAge?: string;
   /**
   * Indicates whether preflight requests not matching the configured allowed origin shouldn't be forwarded to the upstream. Valid Options: FORWARD, IGNORE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#unmatched_preflights DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#unmatched_preflights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#unmatched_preflights DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#unmatched_preflights}
   */
   readonly unmatchedPreflights?: string;
 }
@@ -742,13 +742,13 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpD
   /**
   * Name specifies the name of the delegate VirtualService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#name DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#name DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace where the delegate VirtualService resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#namespace DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#namespace DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -873,11 +873,11 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpD
   /**
   * response body as base64 encoded bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#bytes DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#bytes DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#bytes}
   */
   readonly bytes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#string DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#string DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#string}
   */
   readonly string?: string;
 }
@@ -1002,13 +1002,13 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpD
   /**
   * Specifies the content of the response body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#body DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#body DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#body}
   */
   readonly body?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpDirectResponseBody;
   /**
   * Specifies the HTTP response status to be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#status DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#status DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#status}
   */
   readonly status: number;
 }
@@ -1128,7 +1128,7 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpDirec
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpFaultAbortPercentage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#value DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#value DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#value}
   */
   readonly value?: number;
 }
@@ -1224,23 +1224,23 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpF
   /**
   * GRPC status code to use to abort the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#grpc_status DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#grpc_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#grpc_status DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#grpc_status}
   */
   readonly grpcStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#http2_error DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#http2_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#http2_error DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#http2_error}
   */
   readonly http2Error?: string;
   /**
   * HTTP status code to use to abort the Http request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#http_status DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#http_status DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#http_status}
   */
   readonly httpStatus?: number;
   /**
   * Percentage of requests to be aborted with the error code provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#percentage DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#percentage DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#percentage}
   */
   readonly percentage?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpFaultAbortPercentage;
 }
@@ -1421,7 +1421,7 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpFault
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpFaultDelayPercentage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#value DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#value DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#value}
   */
   readonly value?: number;
 }
@@ -1515,25 +1515,25 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpFault
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpFaultDelay {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exponential_delay DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exponential_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exponential_delay DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exponential_delay}
   */
   readonly exponentialDelay?: string;
   /**
   * Add a fixed delay before forwarding the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#fixed_delay DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#fixed_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#fixed_delay DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#fixed_delay}
   */
   readonly fixedDelay?: string;
   /**
   * Percentage of requests on which the delay will be injected (0-100).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#percent DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#percent DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#percent}
   */
   readonly percent?: number;
   /**
   * Percentage of requests on which the delay will be injected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#percentage DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#percentage DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#percentage}
   */
   readonly percentage?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpFaultDelayPercentage;
 }
@@ -1716,13 +1716,13 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpF
   /**
   * Abort Http request attempts and return error codes back to downstream service, giving the impression that the upstream service is faulty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#abort DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#abort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#abort DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#abort}
   */
   readonly abort?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpFaultAbort;
   /**
   * Delay requests before forwarding, emulating various failures such as network issues, overloaded upstream service, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#delay DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#delay DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#delay}
   */
   readonly delay?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpFaultDelay;
 }
@@ -1845,15 +1845,15 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpFault
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpHeadersRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#add DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#add DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#add}
   */
   readonly add?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#remove DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#remove DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#remove}
   */
   readonly remove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#set DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#set DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#set}
   */
   readonly set?: { [key: string]: string };
 }
@@ -2005,15 +2005,15 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpHeade
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpHeadersResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#add DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#add DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#add}
   */
   readonly add?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#remove DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#remove DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#remove}
   */
   readonly remove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#set DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#set DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#set}
   */
   readonly set?: { [key: string]: string };
 }
@@ -2165,11 +2165,11 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpHeade
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#request DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#request DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#request}
   */
   readonly request?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpHeadersRequest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#response DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#response DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#response}
   */
   readonly response?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpHeadersResponse;
 }
@@ -2292,17 +2292,17 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpHeade
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatchAuthority {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exact DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exact DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * [RE2 style regex-based match](https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#regex DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#regex DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -2454,17 +2454,17 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatch
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatchHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exact DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exact DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * [RE2 style regex-based match](https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#regex DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#regex DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -2616,17 +2616,17 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatch
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatchMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exact DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exact DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * [RE2 style regex-based match](https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#regex DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#regex DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -2778,17 +2778,17 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatch
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatchQueryParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exact DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exact DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * [RE2 style regex-based match](https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#regex DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#regex DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -2940,17 +2940,17 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatch
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatchScheme {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exact DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exact DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * [RE2 style regex-based match](https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#regex DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#regex DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -3102,17 +3102,17 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatch
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatchUri {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exact DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exact DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * [RE2 style regex-based match](https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#regex DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#regex DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -3264,17 +3264,17 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatch
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatchWithoutHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exact DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#exact DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * [RE2 style regex-based match](https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#regex DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#regex DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -3428,85 +3428,85 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpM
   /**
   * HTTP Authority values are case-sensitive and formatted as follows: - 'exact: 'value'' for exact string match - 'prefix: 'value'' for prefix-based match - 'regex: 'value'' for [RE2 style regex-based match](https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#authority DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#authority DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#authority}
   */
   readonly authority?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatchAuthority;
   /**
   * Names of gateways where the rule should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#gateways DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#gateways DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#gateways}
   */
   readonly gateways?: string[];
   /**
   * The header keys must be lowercase and use hyphen as the separator, e.g.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#headers DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#headers DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#headers}
   */
   readonly headers?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatchHeaders;
   /**
   * Flag to specify whether the URI matching should be case-insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#ignore_uri_case DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#ignore_uri_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#ignore_uri_case DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#ignore_uri_case}
   */
   readonly ignoreUriCase?: boolean | cdktf.IResolvable;
   /**
   * HTTP Method values are case-sensitive and formatted as follows: - 'exact: 'value'' for exact string match - 'prefix: 'value'' for prefix-based match - 'regex: 'value'' for [RE2 style regex-based match](https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#method DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#method DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#method}
   */
   readonly method?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatchMethod;
   /**
   * The name assigned to a match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#name DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#name DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#name}
   */
   readonly name?: string;
   /**
   * Specifies the ports on the host that is being addressed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
   */
   readonly port?: number;
   /**
   * Query parameters for matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#query_params DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#query_params DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#query_params}
   */
   readonly queryParams?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatchQueryParams;
   /**
   * URI Scheme values are case-sensitive and formatted as follows: - 'exact: 'value'' for exact string match - 'prefix: 'value'' for prefix-based match - 'regex: 'value'' for [RE2 style regex-based match](https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#scheme DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#scheme DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#scheme}
   */
   readonly scheme?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatchScheme;
   /**
   * One or more labels that constrain the applicability of a rule to source (client) workloads with the given labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#source_labels DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#source_labels DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#source_labels}
   */
   readonly sourceLabels?: { [key: string]: string };
   /**
   * Source namespace constraining the applicability of a rule to workloads in that namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#source_namespace DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#source_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#source_namespace DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#source_namespace}
   */
   readonly sourceNamespace?: string;
   /**
   * The human readable prefix to use when emitting statistics for this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#stat_prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#stat_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#stat_prefix DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#stat_prefix}
   */
   readonly statPrefix?: string;
   /**
   * URI to match values are case-sensitive and formatted as follows: - 'exact: 'value'' for exact string match - 'prefix: 'value'' for prefix-based match - 'regex: 'value'' for [RE2 style regex-based match](https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#uri DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#uri DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#uri}
   */
   readonly uri?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatchUri;
   /**
   * withoutHeader has the same syntax with the header, but has opposite meaning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#without_headers DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#without_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#without_headers DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#without_headers}
   */
   readonly withoutHeaders?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatchWithoutHeaders;
 }
@@ -3999,7 +3999,7 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatch
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMirrorPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#number DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#number DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#number}
   */
   readonly number?: number;
 }
@@ -4095,19 +4095,19 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpM
   /**
   * The name of a service from the service registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#host DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#host DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#host}
   */
   readonly host: string;
   /**
   * Specifies the port on the host that is being addressed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
   */
   readonly port?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMirrorPort;
   /**
   * The name of a subset within the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#subset DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#subset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#subset DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#subset}
   */
   readonly subset?: string;
 }
@@ -4256,7 +4256,7 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMirro
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMirrorPercentage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#value DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#value DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#value}
   */
   readonly value?: number;
 }
@@ -4350,7 +4350,7 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMirro
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMirrorsDestinationPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#number DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#number DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#number}
   */
   readonly number?: number;
 }
@@ -4446,19 +4446,19 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpM
   /**
   * The name of a service from the service registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#host DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#host DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#host}
   */
   readonly host: string;
   /**
   * Specifies the port on the host that is being addressed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
   */
   readonly port?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMirrorsDestinationPort;
   /**
   * The name of a subset within the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#subset DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#subset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#subset DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#subset}
   */
   readonly subset?: string;
 }
@@ -4607,7 +4607,7 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMirro
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMirrorsPercentage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#value DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#value DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#value}
   */
   readonly value?: number;
 }
@@ -4703,13 +4703,13 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpM
   /**
   * Destination specifies the target of the mirror operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#destination DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#destination DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#destination}
   */
   readonly destination: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMirrorsDestination;
   /**
   * Percentage of the traffic to be mirrored by the 'destination' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#percentage DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#percentage DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#percentage}
   */
   readonly percentage?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMirrorsPercentage;
 }
@@ -4853,37 +4853,37 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpR
   /**
   * On a redirect, overwrite the Authority/Host portion of the URL with this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#authority DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#authority DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#authority}
   */
   readonly authority?: string;
   /**
   * On a redirect, dynamically set the port: * FROM_PROTOCOL_DEFAULT: automatically set to 80 for HTTP and 443 for HTTPS. Valid Options: FROM_PROTOCOL_DEFAULT, FROM_REQUEST_PORT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#derive_port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#derive_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#derive_port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#derive_port}
   */
   readonly derivePort?: string;
   /**
   * On a redirect, overwrite the port portion of the URL with this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
   */
   readonly port?: number;
   /**
   * On a redirect, Specifies the HTTP status code to use in the redirect response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#redirect_code DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#redirect_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#redirect_code DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#redirect_code}
   */
   readonly redirectCode?: number;
   /**
   * On a redirect, overwrite the scheme portion of the URL with this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#scheme DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#scheme DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * On a redirect, overwrite the Path portion of the URL with this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#uri DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#uri DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -5124,25 +5124,25 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpR
   /**
   * Number of retries to be allowed for a given request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#attempts DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#attempts DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#attempts}
   */
   readonly attempts?: number;
   /**
   * Timeout per attempt for a given request, including the initial call and any retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#per_try_timeout DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#per_try_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#per_try_timeout DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#per_try_timeout}
   */
   readonly perTryTimeout?: string;
   /**
   * Specifies the conditions under which retry takes place.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#retry_on DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#retry_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#retry_on DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#retry_on}
   */
   readonly retryOn?: string;
   /**
   * Flag to specify whether the retries should retry to other localities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#retry_remote_localities DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#retry_remote_localities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#retry_remote_localities DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#retry_remote_localities}
   */
   readonly retryRemoteLocalities?: boolean | cdktf.IResolvable;
 }
@@ -5325,13 +5325,13 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpR
   /**
   * [RE2 style regex-based match](https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#match DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#match DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#match}
   */
   readonly match?: string;
   /**
   * The string that should replace into matching portions of original URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#rewrite DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#rewrite DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#rewrite}
   */
   readonly rewrite?: string;
 }
@@ -5456,19 +5456,19 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpR
   /**
   * rewrite the Authority/Host header with this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#authority DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#authority DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#authority}
   */
   readonly authority?: string;
   /**
   * rewrite the path (or the prefix) portion of the URI with this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#uri DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#uri DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#uri}
   */
   readonly uri?: string;
   /**
   * rewrite the path portion of the URI with the specified regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#uri_regex_rewrite DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#uri_regex_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#uri_regex_rewrite DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#uri_regex_rewrite}
   */
   readonly uriRegexRewrite?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRewriteUriRegexRewrite;
 }
@@ -5620,7 +5620,7 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRewri
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRouteDestinationPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#number DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#number DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#number}
   */
   readonly number?: number;
 }
@@ -5716,19 +5716,19 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpR
   /**
   * The name of a service from the service registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#host DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#host DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#host}
   */
   readonly host: string;
   /**
   * Specifies the port on the host that is being addressed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
   */
   readonly port?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRouteDestinationPort;
   /**
   * The name of a subset within the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#subset DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#subset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#subset DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#subset}
   */
   readonly subset?: string;
 }
@@ -5877,15 +5877,15 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRoute
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRouteHeadersRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#add DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#add DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#add}
   */
   readonly add?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#remove DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#remove DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#remove}
   */
   readonly remove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#set DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#set DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#set}
   */
   readonly set?: { [key: string]: string };
 }
@@ -6037,15 +6037,15 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRoute
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRouteHeadersResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#add DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#add DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#add}
   */
   readonly add?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#remove DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#remove DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#remove}
   */
   readonly remove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#set DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#set DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#set}
   */
   readonly set?: { [key: string]: string };
 }
@@ -6197,11 +6197,11 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRoute
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRouteHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#request DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#request DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#request}
   */
   readonly request?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRouteHeadersRequest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#response DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#response DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#response}
   */
   readonly response?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRouteHeadersResponse;
 }
@@ -6326,17 +6326,17 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpR
   /**
   * Destination uniquely identifies the instances of a service to which the request/connection should be forwarded to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#destination DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#destination DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#destination}
   */
   readonly destination: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRouteDestination;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#headers DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#headers DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#headers}
   */
   readonly headers?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRouteHeaders;
   /**
   * Weight specifies the relative proportion of traffic to be forwarded to the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#weight DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#weight DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -6509,93 +6509,93 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttp 
   /**
   * Cross-Origin Resource Sharing policy (CORS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#cors_policy DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#cors_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#cors_policy DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#cors_policy}
   */
   readonly corsPolicy?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpCorsPolicy;
   /**
   * Delegate is used to specify the particular VirtualService which can be used to define delegate HTTPRoute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#delegate DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#delegate DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#delegate}
   */
   readonly delegate?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpDelegate;
   /**
   * A HTTP rule can either return a direct_response, redirect or forward (default) traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#direct_response DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#direct_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#direct_response DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#direct_response}
   */
   readonly directResponse?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpDirectResponse;
   /**
   * Fault injection policy to apply on HTTP traffic at the client side.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#fault DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#fault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#fault DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#fault}
   */
   readonly fault?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpFault;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#headers DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#headers DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#headers}
   */
   readonly headers?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpHeaders;
   /**
   * Match conditions to be satisfied for the rule to be activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#match DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#match DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#match}
   */
   readonly match?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMatch[] | cdktf.IResolvable;
   /**
   * Mirror HTTP traffic to a another destination in addition to forwarding the requests to the intended destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#mirror DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#mirror DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#mirror}
   */
   readonly mirror?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMirror;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#mirror_percent DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#mirror_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#mirror_percent DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#mirror_percent}
   */
   readonly mirrorPercent?: number;
   /**
   * Percentage of the traffic to be mirrored by the 'mirror' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#mirror_percentage DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#mirror_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#mirror_percentage DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#mirror_percentage}
   */
   readonly mirrorPercentage?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMirrorPercentage;
   /**
   * Specifies the destinations to mirror HTTP traffic in addition to the original destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#mirrors DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#mirrors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#mirrors DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#mirrors}
   */
   readonly mirrors?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpMirrors[] | cdktf.IResolvable;
   /**
   * The name assigned to the route for debugging purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#name DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#name DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#name}
   */
   readonly name?: string;
   /**
   * A HTTP rule can either return a direct_response, redirect or forward (default) traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#redirect DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#redirect DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#redirect}
   */
   readonly redirect?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRedirect;
   /**
   * Retry policy for HTTP requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#retries DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#retries DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#retries}
   */
   readonly retries?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRetries;
   /**
   * Rewrite HTTP URIs and Authority headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#rewrite DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#rewrite DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#rewrite}
   */
   readonly rewrite?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRewrite;
   /**
   * A HTTP rule can either return a direct_response, redirect or forward (default) traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#route DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#route DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#route}
   */
   readonly route?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttpRoute[] | cdktf.IResolvable;
   /**
   * Timeout for HTTP requests, default is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#timeout DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#timeout DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -7148,35 +7148,35 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTcpMa
   /**
   * IPv4 or IPv6 ip addresses of destination with optional subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#destination_subnets DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#destination_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#destination_subnets DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#destination_subnets}
   */
   readonly destinationSubnets?: string[];
   /**
   * Names of gateways where the rule should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#gateways DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#gateways DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#gateways}
   */
   readonly gateways?: string[];
   /**
   * Specifies the port on the host that is being addressed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
   */
   readonly port?: number;
   /**
   * One or more labels that constrain the applicability of a rule to workloads with the given labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#source_labels DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#source_labels DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#source_labels}
   */
   readonly sourceLabels?: { [key: string]: string };
   /**
   * Source namespace constraining the applicability of a rule to workloads in that namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#source_namespace DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#source_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#source_namespace DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#source_namespace}
   */
   readonly sourceNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#source_subnet DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#source_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#source_subnet DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#source_subnet}
   */
   readonly sourceSubnet?: string;
 }
@@ -7437,7 +7437,7 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTcpMatchL
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTcpRouteDestinationPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#number DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#number DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#number}
   */
   readonly number?: number;
 }
@@ -7533,19 +7533,19 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTcpRo
   /**
   * The name of a service from the service registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#host DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#host DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#host}
   */
   readonly host: string;
   /**
   * Specifies the port on the host that is being addressed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
   */
   readonly port?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTcpRouteDestinationPort;
   /**
   * The name of a subset within the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#subset DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#subset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#subset DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#subset}
   */
   readonly subset?: string;
 }
@@ -7696,13 +7696,13 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTcpRo
   /**
   * Destination uniquely identifies the instances of a service to which the request/connection should be forwarded to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#destination DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#destination DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#destination}
   */
   readonly destination: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTcpRouteDestination;
   /**
   * Weight specifies the relative proportion of traffic to be forwarded to the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#weight DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#weight DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -7846,13 +7846,13 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTcp {
   /**
   * Match conditions to be satisfied for the rule to be activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#match DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#match DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#match}
   */
   readonly match?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTcpMatch[] | cdktf.IResolvable;
   /**
   * The destination to which the connection should be forwarded to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#route DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#route DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#route}
   */
   readonly route?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTcpRoute[] | cdktf.IResolvable;
 }
@@ -7999,37 +7999,37 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTlsMa
   /**
   * IPv4 or IPv6 ip addresses of destination with optional subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#destination_subnets DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#destination_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#destination_subnets DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#destination_subnets}
   */
   readonly destinationSubnets?: string[];
   /**
   * Names of gateways where the rule should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#gateways DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#gateways DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#gateways}
   */
   readonly gateways?: string[];
   /**
   * Specifies the port on the host that is being addressed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
   */
   readonly port?: number;
   /**
   * SNI (server name indicator) to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#sni_hosts DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#sni_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#sni_hosts DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#sni_hosts}
   */
   readonly sniHosts: string[];
   /**
   * One or more labels that constrain the applicability of a rule to workloads with the given labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#source_labels DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#source_labels DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#source_labels}
   */
   readonly sourceLabels?: { [key: string]: string };
   /**
   * Source namespace constraining the applicability of a rule to workloads in that namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#source_namespace DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#source_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#source_namespace DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#source_namespace}
   */
   readonly sourceNamespace?: string;
 }
@@ -8287,7 +8287,7 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTlsMatchL
 }
 export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTlsRouteDestinationPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#number DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#number DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#number}
   */
   readonly number?: number;
 }
@@ -8383,19 +8383,19 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTlsRo
   /**
   * The name of a service from the service registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#host DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#host DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#host}
   */
   readonly host: string;
   /**
   * Specifies the port on the host that is being addressed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#port DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#port}
   */
   readonly port?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTlsRouteDestinationPort;
   /**
   * The name of a subset within the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#subset DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#subset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#subset DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#subset}
   */
   readonly subset?: string;
 }
@@ -8546,13 +8546,13 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTlsRo
   /**
   * Destination uniquely identifies the instances of a service to which the request/connection should be forwarded to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#destination DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#destination DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#destination}
   */
   readonly destination: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTlsRouteDestination;
   /**
   * Weight specifies the relative proportion of traffic to be forwarded to the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#weight DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#weight DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -8696,13 +8696,13 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTls {
   /**
   * Match conditions to be satisfied for the rule to be activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#match DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#match DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#match}
   */
   readonly match: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTlsMatch[] | cdktf.IResolvable;
   /**
   * The destination to which the connection should be forwarded to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#route DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#route DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#route}
   */
   readonly route?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTlsRoute[] | cdktf.IResolvable;
 }
@@ -8846,37 +8846,37 @@ export interface DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpec {
   /**
   * A list of namespaces to which this virtual service is exported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#export_to DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#export_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#export_to DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#export_to}
   */
   readonly exportTo?: string[];
   /**
   * The names of gateways and sidecars that should apply these routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#gateways DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#gateways DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#gateways}
   */
   readonly gateways?: string[];
   /**
   * The destination hosts to which traffic is being sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#hosts DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#hosts DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#hosts}
   */
   readonly hosts?: string[];
   /**
   * An ordered list of route rules for HTTP traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#http DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#http DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#http}
   */
   readonly http?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecHttp[] | cdktf.IResolvable;
   /**
   * An ordered list of route rules for opaque TCP traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#tcp DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#tcp DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#tcp}
   */
   readonly tcp?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTcp[] | cdktf.IResolvable;
   /**
   * An ordered list of route rule for non-terminated TLS & HTTPS traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#tls DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#tls DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest#tls}
   */
   readonly tls?: DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecTls[] | cdktf.IResolvable;
 }
@@ -9115,7 +9115,7 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest k8s_networking_istio_io_virtual_service_v1alpha3_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest k8s_networking_istio_io_virtual_service_v1alpha3_manifest}
 */
 export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest extends cdktf.TerraformDataSource {
 
@@ -9131,7 +9131,7 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest to import
-  * @param importFromId The id of the existing DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9143,7 +9143,7 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest k8s_networking_istio_io_virtual_service_v1alpha3_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_virtual_service_v1alpha3_manifest k8s_networking_istio_io_virtual_service_v1alpha3_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9154,8 +9154,8 @@ export class DataK8SNetworkingIstioIoVirtualServiceV1Alpha3Manifest extends cdkt
       terraformResourceType: 'k8s_networking_istio_io_virtual_service_v1alpha3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

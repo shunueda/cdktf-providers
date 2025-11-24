@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGetambassadorIoAuthServiceV2ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#metadata DataK8SGetambassadorIoAuthServiceV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#metadata DataK8SGetambassadorIoAuthServiceV2Manifest#metadata}
   */
   readonly metadata: DataK8SGetambassadorIoAuthServiceV2ManifestMetadata;
   /**
   * AuthServiceSpec defines the desired state of AuthService
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#spec DataK8SGetambassadorIoAuthServiceV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#spec DataK8SGetambassadorIoAuthServiceV2Manifest#spec}
   */
   readonly spec?: DataK8SGetambassadorIoAuthServiceV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SGetambassadorIoAuthServiceV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#annotations DataK8SGetambassadorIoAuthServiceV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#annotations DataK8SGetambassadorIoAuthServiceV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#labels DataK8SGetambassadorIoAuthServiceV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#labels DataK8SGetambassadorIoAuthServiceV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#name DataK8SGetambassadorIoAuthServiceV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#name DataK8SGetambassadorIoAuthServiceV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#namespace DataK8SGetambassadorIoAuthServiceV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#namespace DataK8SGetambassadorIoAuthServiceV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,13 +217,13 @@ export class DataK8SGetambassadorIoAuthServiceV2ManifestMetadataOutputReference 
 }
 export interface DataK8SGetambassadorIoAuthServiceV2ManifestSpecIncludeBody {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#allow_partial DataK8SGetambassadorIoAuthServiceV2Manifest#allow_partial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#allow_partial DataK8SGetambassadorIoAuthServiceV2Manifest#allow_partial}
   */
   readonly allowPartial: boolean | cdktf.IResolvable;
   /**
   * These aren't pointer types because they are required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#max_bytes DataK8SGetambassadorIoAuthServiceV2Manifest#max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#max_bytes DataK8SGetambassadorIoAuthServiceV2Manifest#max_bytes}
   */
   readonly maxBytes: number;
 }
@@ -340,7 +340,7 @@ export class DataK8SGetambassadorIoAuthServiceV2ManifestSpecIncludeBodyOutputRef
 }
 export interface DataK8SGetambassadorIoAuthServiceV2ManifestSpecStatusOnError {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#code DataK8SGetambassadorIoAuthServiceV2Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#code DataK8SGetambassadorIoAuthServiceV2Manifest#code}
   */
   readonly code?: number;
 }
@@ -434,23 +434,23 @@ export class DataK8SGetambassadorIoAuthServiceV2ManifestSpecStatusOnErrorOutputR
 }
 export interface DataK8SGetambassadorIoAuthServiceV2ManifestSpecV3CircuitBreakers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#max_connections DataK8SGetambassadorIoAuthServiceV2Manifest#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#max_connections DataK8SGetambassadorIoAuthServiceV2Manifest#max_connections}
   */
   readonly maxConnections?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#max_pending_requests DataK8SGetambassadorIoAuthServiceV2Manifest#max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#max_pending_requests DataK8SGetambassadorIoAuthServiceV2Manifest#max_pending_requests}
   */
   readonly maxPendingRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#max_requests DataK8SGetambassadorIoAuthServiceV2Manifest#max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#max_requests DataK8SGetambassadorIoAuthServiceV2Manifest#max_requests}
   */
   readonly maxRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#max_retries DataK8SGetambassadorIoAuthServiceV2Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#max_retries DataK8SGetambassadorIoAuthServiceV2Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#priority DataK8SGetambassadorIoAuthServiceV2Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#priority DataK8SGetambassadorIoAuthServiceV2Manifest#priority}
   */
   readonly priority?: string;
 }
@@ -682,75 +682,75 @@ export class DataK8SGetambassadorIoAuthServiceV2ManifestSpecV3CircuitBreakersLis
 }
 export interface DataK8SGetambassadorIoAuthServiceV2ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#add_auth_headers DataK8SGetambassadorIoAuthServiceV2Manifest#add_auth_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#add_auth_headers DataK8SGetambassadorIoAuthServiceV2Manifest#add_auth_headers}
   */
   readonly addAuthHeaders?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#add_linkerd_headers DataK8SGetambassadorIoAuthServiceV2Manifest#add_linkerd_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#add_linkerd_headers DataK8SGetambassadorIoAuthServiceV2Manifest#add_linkerd_headers}
   */
   readonly addLinkerdHeaders?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#allow_request_body DataK8SGetambassadorIoAuthServiceV2Manifest#allow_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#allow_request_body DataK8SGetambassadorIoAuthServiceV2Manifest#allow_request_body}
   */
   readonly allowRequestBody?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#allowed_authorization_headers DataK8SGetambassadorIoAuthServiceV2Manifest#allowed_authorization_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#allowed_authorization_headers DataK8SGetambassadorIoAuthServiceV2Manifest#allowed_authorization_headers}
   */
   readonly allowedAuthorizationHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#allowed_request_headers DataK8SGetambassadorIoAuthServiceV2Manifest#allowed_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#allowed_request_headers DataK8SGetambassadorIoAuthServiceV2Manifest#allowed_request_headers}
   */
   readonly allowedRequestHeaders?: string[];
   /**
   * AmbassadorID declares which Ambassador instances should pay attention to this resource. May either be a string or a list of strings. If no value is provided, the default is: ambassador_id: - 'default'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#ambassador_id DataK8SGetambassadorIoAuthServiceV2Manifest#ambassador_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#ambassador_id DataK8SGetambassadorIoAuthServiceV2Manifest#ambassador_id}
   */
   readonly ambassadorId?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#auth_service DataK8SGetambassadorIoAuthServiceV2Manifest#auth_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#auth_service DataK8SGetambassadorIoAuthServiceV2Manifest#auth_service}
   */
   readonly authService: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#failure_mode_allow DataK8SGetambassadorIoAuthServiceV2Manifest#failure_mode_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#failure_mode_allow DataK8SGetambassadorIoAuthServiceV2Manifest#failure_mode_allow}
   */
   readonly failureModeAllow?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#include_body DataK8SGetambassadorIoAuthServiceV2Manifest#include_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#include_body DataK8SGetambassadorIoAuthServiceV2Manifest#include_body}
   */
   readonly includeBody?: DataK8SGetambassadorIoAuthServiceV2ManifestSpecIncludeBody;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#path_prefix DataK8SGetambassadorIoAuthServiceV2Manifest#path_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#path_prefix DataK8SGetambassadorIoAuthServiceV2Manifest#path_prefix}
   */
   readonly pathPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#proto DataK8SGetambassadorIoAuthServiceV2Manifest#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#proto DataK8SGetambassadorIoAuthServiceV2Manifest#proto}
   */
   readonly proto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#protocol_version DataK8SGetambassadorIoAuthServiceV2Manifest#protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#protocol_version DataK8SGetambassadorIoAuthServiceV2Manifest#protocol_version}
   */
   readonly protocolVersion?: string;
   /**
   * Why isn't this just an int??
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#status_on_error DataK8SGetambassadorIoAuthServiceV2Manifest#status_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#status_on_error DataK8SGetambassadorIoAuthServiceV2Manifest#status_on_error}
   */
   readonly statusOnError?: DataK8SGetambassadorIoAuthServiceV2ManifestSpecStatusOnError;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#timeout_ms DataK8SGetambassadorIoAuthServiceV2Manifest#timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#timeout_ms DataK8SGetambassadorIoAuthServiceV2Manifest#timeout_ms}
   */
   readonly timeoutMs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#tls DataK8SGetambassadorIoAuthServiceV2Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#tls DataK8SGetambassadorIoAuthServiceV2Manifest#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#v3_circuit_breakers DataK8SGetambassadorIoAuthServiceV2Manifest#v3_circuit_breakers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#v3_circuit_breakers DataK8SGetambassadorIoAuthServiceV2Manifest#v3_circuit_breakers}
   */
   readonly v3CircuitBreakers?: DataK8SGetambassadorIoAuthServiceV2ManifestSpecV3CircuitBreakers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#v3_stats_name DataK8SGetambassadorIoAuthServiceV2Manifest#v3_stats_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#v3_stats_name DataK8SGetambassadorIoAuthServiceV2Manifest#v3_stats_name}
   */
   readonly v3StatsName?: string;
 }
@@ -1305,7 +1305,7 @@ export class DataK8SGetambassadorIoAuthServiceV2ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest k8s_getambassador_io_auth_service_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest k8s_getambassador_io_auth_service_v2_manifest}
 */
 export class DataK8SGetambassadorIoAuthServiceV2Manifest extends cdktf.TerraformDataSource {
 
@@ -1321,7 +1321,7 @@ export class DataK8SGetambassadorIoAuthServiceV2Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SGetambassadorIoAuthServiceV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGetambassadorIoAuthServiceV2Manifest to import
-  * @param importFromId The id of the existing DataK8SGetambassadorIoAuthServiceV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGetambassadorIoAuthServiceV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGetambassadorIoAuthServiceV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1333,7 +1333,7 @@ export class DataK8SGetambassadorIoAuthServiceV2Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_auth_service_v2_manifest k8s_getambassador_io_auth_service_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_auth_service_v2_manifest k8s_getambassador_io_auth_service_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1344,8 +1344,8 @@ export class DataK8SGetambassadorIoAuthServiceV2Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_getambassador_io_auth_service_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

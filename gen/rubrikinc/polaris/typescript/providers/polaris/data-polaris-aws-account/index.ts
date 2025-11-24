@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_account
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/aws_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataPolarisAwsAccountConfig extends cdktf.TerraformMetaArgument
   /**
   * AWS account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_account#account_id DataPolarisAwsAccount#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/aws_account#account_id DataPolarisAwsAccount#account_id}
   */
   readonly accountId?: string;
   /**
   * RSC cloud account ID (UUID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_account#cloud_account_id DataPolarisAwsAccount#cloud_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/aws_account#cloud_account_id DataPolarisAwsAccount#cloud_account_id}
   */
   readonly cloudAccountId?: string;
   /**
   * AWS account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_account#name DataPolarisAwsAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/aws_account#name DataPolarisAwsAccount#name}
   */
   readonly name?: string;
 }
@@ -108,7 +108,7 @@ export class DataPolarisAwsAccountFeatureList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_account polaris_aws_account}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/aws_account polaris_aws_account}
 */
 export class DataPolarisAwsAccount extends cdktf.TerraformDataSource {
 
@@ -124,7 +124,7 @@ export class DataPolarisAwsAccount extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPolarisAwsAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPolarisAwsAccount to import
-  * @param importFromId The id of the existing DataPolarisAwsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPolarisAwsAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/aws_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPolarisAwsAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -136,7 +136,7 @@ export class DataPolarisAwsAccount extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/data-sources/aws_account polaris_aws_account} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/data-sources/aws_account polaris_aws_account} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -147,8 +147,8 @@ export class DataPolarisAwsAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'polaris_aws_account',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

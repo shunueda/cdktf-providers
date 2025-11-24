@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules
+// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DlpWebRulesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The action taken when traffic matches the DLP policy rule criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#action DlpWebRules#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#action DlpWebRules#action}
   */
   readonly action?: string;
   /**
@@ -19,25 +19,25 @@ export interface DlpWebRulesConfig extends cdktf.TerraformMetaArguments {
   * 				https://registry.terraform.io/providers/zscaler/zia/latest/docs/data-sources/zia_cloud_applications
   * 				
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#cloud_applications DlpWebRules#cloud_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#cloud_applications DlpWebRules#cloud_applications}
   */
   readonly cloudApplications?: string[];
   /**
   * The description of the DLP policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#description DlpWebRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#description DlpWebRules#description}
   */
   readonly description?: string;
   /**
   * Indicates a DLP policy rule without content inspection, when the value is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#dlp_download_scan_enabled DlpWebRules#dlp_download_scan_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#dlp_download_scan_enabled DlpWebRules#dlp_download_scan_enabled}
   */
   readonly dlpDownloadScanEnabled?: boolean | cdktf.IResolvable;
   /**
   * The email address of an external auditor to whom DLP email notifications are sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#external_auditor_email DlpWebRules#external_auditor_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#external_auditor_email DlpWebRules#external_auditor_email}
   */
   readonly externalAuditorEmail?: string;
   /**
@@ -45,231 +45,231 @@ export interface DlpWebRulesConfig extends cdktf.TerraformMetaArguments {
   * 				See the Web DLP Rules API for the list of available File types:
   * 				https://help.zscaler.com/zia/data-loss-prevention#/webDlpRules-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#file_types DlpWebRules#file_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#file_types DlpWebRules#file_types}
   */
   readonly fileTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#inspect_http_get_enabled DlpWebRules#inspect_http_get_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#inspect_http_get_enabled DlpWebRules#inspect_http_get_enabled}
   */
   readonly inspectHttpGetEnabled?: boolean | cdktf.IResolvable;
   /**
   * The match only criteria for DLP engines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#match_only DlpWebRules#match_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#match_only DlpWebRules#match_only}
   */
   readonly matchOnly?: boolean | cdktf.IResolvable;
   /**
   * The minimum file size (in KB) used for evaluation of the DLP policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#min_size DlpWebRules#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#min_size DlpWebRules#min_size}
   */
   readonly minSize?: number;
   /**
   * The DLP policy rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#name DlpWebRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#name DlpWebRules#name}
   */
   readonly name: string;
   /**
   * The rule order of execution for the DLP policy rule with respect to other rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#order DlpWebRules#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#order DlpWebRules#order}
   */
   readonly order: number;
   /**
   * The unique identifier of the parent rule under which an exception rule is added
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#parent_rule DlpWebRules#parent_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#parent_rule DlpWebRules#parent_rule}
   */
   readonly parentRule?: number;
   /**
   * The protocol criteria specified for the DLP policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#protocols DlpWebRules#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#protocols DlpWebRules#protocols}
   */
   readonly protocols?: string[];
   /**
   * Admin rank of the admin who creates this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#rank DlpWebRules#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#rank DlpWebRules#rank}
   */
   readonly rank?: number;
   /**
   * Indicates the severity selected for the DLP rule violation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#severity DlpWebRules#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#severity DlpWebRules#severity}
   */
   readonly severity?: string;
   /**
   * Enables or disables the DLP policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#state DlpWebRules#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#state DlpWebRules#state}
   */
   readonly state?: string;
   /**
   * The list of exception rules added to a parent rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#sub_rules DlpWebRules#sub_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#sub_rules DlpWebRules#sub_rules}
   */
   readonly subRules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#user_risk_score_levels DlpWebRules#user_risk_score_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#user_risk_score_levels DlpWebRules#user_risk_score_levels}
   */
   readonly userRiskScoreLevels?: string[];
   /**
   * Indicates a DLP policy rule without content inspection, when the value is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#without_content_inspection DlpWebRules#without_content_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#without_content_inspection DlpWebRules#without_content_inspection}
   */
   readonly withoutContentInspection?: boolean | cdktf.IResolvable;
   /**
   * Indicates a DLP policy rule without content inspection, when the value is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#zcc_notifications_enabled DlpWebRules#zcc_notifications_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#zcc_notifications_enabled DlpWebRules#zcc_notifications_enabled}
   */
   readonly zccNotificationsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether a Zscaler Incident Receiver is associated to the DLP policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#zscaler_incident_receiver DlpWebRules#zscaler_incident_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#zscaler_incident_receiver DlpWebRules#zscaler_incident_receiver}
   */
   readonly zscalerIncidentReceiver?: boolean | cdktf.IResolvable;
   /**
   * auditor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#auditor DlpWebRules#auditor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#auditor DlpWebRules#auditor}
   */
   readonly auditor?: DlpWebRulesAuditor[] | cdktf.IResolvable;
   /**
   * departments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#departments DlpWebRules#departments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#departments DlpWebRules#departments}
   */
   readonly departments?: DlpWebRulesDepartments;
   /**
   * dlp_engines block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#dlp_engines DlpWebRules#dlp_engines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#dlp_engines DlpWebRules#dlp_engines}
   */
   readonly dlpEngines?: DlpWebRulesDlpEngines;
   /**
   * excluded_departments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#excluded_departments DlpWebRules#excluded_departments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#excluded_departments DlpWebRules#excluded_departments}
   */
   readonly excludedDepartments?: DlpWebRulesExcludedDepartments;
   /**
   * excluded_domain_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#excluded_domain_profiles DlpWebRules#excluded_domain_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#excluded_domain_profiles DlpWebRules#excluded_domain_profiles}
   */
   readonly excludedDomainProfiles?: DlpWebRulesExcludedDomainProfiles;
   /**
   * excluded_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#excluded_groups DlpWebRules#excluded_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#excluded_groups DlpWebRules#excluded_groups}
   */
   readonly excludedGroups?: DlpWebRulesExcludedGroups;
   /**
   * excluded_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#excluded_users DlpWebRules#excluded_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#excluded_users DlpWebRules#excluded_users}
   */
   readonly excludedUsers?: DlpWebRulesExcludedUsers;
   /**
   * file_type_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#file_type_categories DlpWebRules#file_type_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#file_type_categories DlpWebRules#file_type_categories}
   */
   readonly fileTypeCategories?: DlpWebRulesFileTypeCategories;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#groups DlpWebRules#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#groups DlpWebRules#groups}
   */
   readonly groups?: DlpWebRulesGroups;
   /**
   * icap_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#icap_server DlpWebRules#icap_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#icap_server DlpWebRules#icap_server}
   */
   readonly icapServer?: DlpWebRulesIcapServer[] | cdktf.IResolvable;
   /**
   * included_domain_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#included_domain_profiles DlpWebRules#included_domain_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#included_domain_profiles DlpWebRules#included_domain_profiles}
   */
   readonly includedDomainProfiles?: DlpWebRulesIncludedDomainProfiles;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#labels DlpWebRules#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#labels DlpWebRules#labels}
   */
   readonly labels?: DlpWebRulesLabels;
   /**
   * location_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#location_groups DlpWebRules#location_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#location_groups DlpWebRules#location_groups}
   */
   readonly locationGroups?: DlpWebRulesLocationGroups;
   /**
   * locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#locations DlpWebRules#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#locations DlpWebRules#locations}
   */
   readonly locations?: DlpWebRulesLocations;
   /**
   * notification_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#notification_template DlpWebRules#notification_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#notification_template DlpWebRules#notification_template}
   */
   readonly notificationTemplate?: DlpWebRulesNotificationTemplate[] | cdktf.IResolvable;
   /**
   * receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#receiver DlpWebRules#receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#receiver DlpWebRules#receiver}
   */
   readonly receiver?: DlpWebRulesReceiver;
   /**
   * source_ip_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#source_ip_groups DlpWebRules#source_ip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#source_ip_groups DlpWebRules#source_ip_groups}
   */
   readonly sourceIpGroups?: DlpWebRulesSourceIpGroups;
   /**
   * time_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#time_windows DlpWebRules#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#time_windows DlpWebRules#time_windows}
   */
   readonly timeWindows?: DlpWebRulesTimeWindows;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#timeouts DlpWebRules#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#timeouts DlpWebRules#timeouts}
   */
   readonly timeouts?: DlpWebRulesTimeouts;
   /**
   * url_categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#url_categories DlpWebRules#url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#url_categories DlpWebRules#url_categories}
   */
   readonly urlCategories?: DlpWebRulesUrlCategories;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#users DlpWebRules#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#users DlpWebRules#users}
   */
   readonly users?: DlpWebRulesUsers;
   /**
   * workload_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#workload_groups DlpWebRules#workload_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#workload_groups DlpWebRules#workload_groups}
   */
   readonly workloadGroups?: DlpWebRulesWorkloadGroups[] | cdktf.IResolvable;
 }
 export interface DlpWebRulesAuditor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -388,7 +388,7 @@ export class DlpWebRulesAuditorList extends cdktf.ComplexList {
 }
 export interface DlpWebRulesDepartments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -475,7 +475,7 @@ export class DlpWebRulesDepartmentsOutputReference extends cdktf.ComplexObject {
 }
 export interface DlpWebRulesDlpEngines {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -562,7 +562,7 @@ export class DlpWebRulesDlpEnginesOutputReference extends cdktf.ComplexObject {
 }
 export interface DlpWebRulesExcludedDepartments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -649,7 +649,7 @@ export class DlpWebRulesExcludedDepartmentsOutputReference extends cdktf.Complex
 }
 export interface DlpWebRulesExcludedDomainProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -736,7 +736,7 @@ export class DlpWebRulesExcludedDomainProfilesOutputReference extends cdktf.Comp
 }
 export interface DlpWebRulesExcludedGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -823,7 +823,7 @@ export class DlpWebRulesExcludedGroupsOutputReference extends cdktf.ComplexObjec
 }
 export interface DlpWebRulesExcludedUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -910,7 +910,7 @@ export class DlpWebRulesExcludedUsersOutputReference extends cdktf.ComplexObject
 }
 export interface DlpWebRulesFileTypeCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -997,7 +997,7 @@ export class DlpWebRulesFileTypeCategoriesOutputReference extends cdktf.ComplexO
 }
 export interface DlpWebRulesGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1084,7 +1084,7 @@ export class DlpWebRulesGroupsOutputReference extends cdktf.ComplexObject {
 }
 export interface DlpWebRulesIcapServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1203,7 +1203,7 @@ export class DlpWebRulesIcapServerList extends cdktf.ComplexList {
 }
 export interface DlpWebRulesIncludedDomainProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1290,7 +1290,7 @@ export class DlpWebRulesIncludedDomainProfilesOutputReference extends cdktf.Comp
 }
 export interface DlpWebRulesLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1377,7 +1377,7 @@ export class DlpWebRulesLabelsOutputReference extends cdktf.ComplexObject {
 }
 export interface DlpWebRulesLocationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1464,7 +1464,7 @@ export class DlpWebRulesLocationGroupsOutputReference extends cdktf.ComplexObjec
 }
 export interface DlpWebRulesLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1551,7 +1551,7 @@ export class DlpWebRulesLocationsOutputReference extends cdktf.ComplexObject {
 }
 export interface DlpWebRulesNotificationTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1672,7 +1672,7 @@ export interface DlpWebRulesReceiverTenant {
   /**
   * Unique identifier for the tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1681,7 +1681,7 @@ export interface DlpWebRulesReceiverTenant {
   /**
   * Name of the tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#name DlpWebRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#name DlpWebRules#name}
   */
   readonly name?: string;
 }
@@ -1796,7 +1796,7 @@ export interface DlpWebRulesReceiver {
   /**
   * Unique identifier for the receiver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1805,19 +1805,19 @@ export interface DlpWebRulesReceiver {
   /**
   * Name of the receiver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#name DlpWebRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#name DlpWebRules#name}
   */
   readonly name?: string;
   /**
   * Type of the receiver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#type DlpWebRules#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#type DlpWebRules#type}
   */
   readonly type?: string;
   /**
   * tenant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#tenant DlpWebRules#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#tenant DlpWebRules#tenant}
   */
   readonly tenant?: DlpWebRulesReceiverTenant;
 }
@@ -1985,7 +1985,7 @@ export class DlpWebRulesReceiverOutputReference extends cdktf.ComplexObject {
 }
 export interface DlpWebRulesSourceIpGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2072,7 +2072,7 @@ export class DlpWebRulesSourceIpGroupsOutputReference extends cdktf.ComplexObjec
 }
 export interface DlpWebRulesTimeWindows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2159,11 +2159,11 @@ export class DlpWebRulesTimeWindowsOutputReference extends cdktf.ComplexObject {
 }
 export interface DlpWebRulesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#create DlpWebRules#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#create DlpWebRules#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#update DlpWebRules#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#update DlpWebRules#update}
   */
   readonly update?: string;
 }
@@ -2286,7 +2286,7 @@ export class DlpWebRulesTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface DlpWebRulesUrlCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2373,7 +2373,7 @@ export class DlpWebRulesUrlCategoriesOutputReference extends cdktf.ComplexObject
 }
 export interface DlpWebRulesUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2462,7 +2462,7 @@ export interface DlpWebRulesWorkloadGroups {
   /**
   * The unique identifier for the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#id DlpWebRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#id DlpWebRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2471,7 +2471,7 @@ export interface DlpWebRulesWorkloadGroups {
   /**
   * The name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#name DlpWebRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#name DlpWebRules#name}
   */
   readonly name?: string;
 }
@@ -2613,7 +2613,7 @@ export class DlpWebRulesWorkloadGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules zia_dlp_web_rules}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules zia_dlp_web_rules}
 */
 export class DlpWebRules extends cdktf.TerraformResource {
 
@@ -2629,7 +2629,7 @@ export class DlpWebRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DlpWebRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DlpWebRules to import
-  * @param importFromId The id of the existing DlpWebRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DlpWebRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DlpWebRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2641,7 +2641,7 @@ export class DlpWebRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/dlp_web_rules zia_dlp_web_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/dlp_web_rules zia_dlp_web_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2652,8 +2652,8 @@ export class DlpWebRules extends cdktf.TerraformResource {
       terraformResourceType: 'zia_dlp_web_rules',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.2',
-        providerVersionConstraint: '4.6.2'
+        providerVersion: '4.6.3',
+        providerVersionConstraint: '4.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

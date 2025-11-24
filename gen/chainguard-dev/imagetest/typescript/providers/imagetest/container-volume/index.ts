@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/resources/container_volume
+// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/container_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ContainerVolumeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The inventory this volume belongs to. This is received as a direct input from a data.imagetest_inventory data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/resources/container_volume#inventory ContainerVolume#inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/container_volume#inventory ContainerVolume#inventory}
   */
   readonly inventory: ContainerVolumeInventory;
   /**
   * A name for this volume resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/resources/container_volume#name ContainerVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/container_volume#name ContainerVolume#name}
   */
   readonly name: string;
 }
 export interface ContainerVolumeInventory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/resources/container_volume#seed ContainerVolume#seed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/container_volume#seed ContainerVolume#seed}
   */
   readonly seed: string;
 }
@@ -113,7 +113,7 @@ export class ContainerVolumeInventoryOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/resources/container_volume imagetest_container_volume}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/container_volume imagetest_container_volume}
 */
 export class ContainerVolume extends cdktf.TerraformResource {
 
@@ -129,7 +129,7 @@ export class ContainerVolume extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ContainerVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ContainerVolume to import
-  * @param importFromId The id of the existing ContainerVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/resources/container_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ContainerVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/container_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ContainerVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class ContainerVolume extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/resources/container_volume imagetest_container_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/container_volume imagetest_container_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class ContainerVolume extends cdktf.TerraformResource {
       terraformResourceType: 'imagetest_container_volume',
       terraformGeneratorMetadata: {
         providerName: 'imagetest',
-        providerVersion: '0.0.103',
-        providerVersionConstraint: '0.0.103'
+        providerVersion: '0.0.104',
+        providerVersionConstraint: '0.0.104'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

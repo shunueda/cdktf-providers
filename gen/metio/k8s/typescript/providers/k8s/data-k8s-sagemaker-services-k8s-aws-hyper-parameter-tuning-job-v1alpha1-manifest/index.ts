@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Ma
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestMetadata;
   /**
   * HyperParameterTuningJobSpec defines the desired state of HyperParameterTuningJob.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Ma
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecAutotune {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#mode DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#mode DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#mode}
   */
   readonly mode?: string;
 }
@@ -311,11 +311,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfigHyperParameterTuningJobObjective {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#metric_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#metric_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#type_ DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#type_ DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#type_}
   */
   readonly type?: string;
 }
@@ -438,11 +438,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfigParameterRangesAutoParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#value_hint DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#value_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#value_hint DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#value_hint}
   */
   readonly valueHint?: string;
 }
@@ -587,11 +587,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfigParameterRangesCategoricalParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#values DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#values DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -736,19 +736,19 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfigParameterRangesContinuousParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_value}
   */
   readonly maxValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#min_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#min_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#min_value}
   */
   readonly minValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#scaling_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#scaling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#scaling_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#scaling_type}
   */
   readonly scalingType?: string;
 }
@@ -951,19 +951,19 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfigParameterRangesIntegerParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_value}
   */
   readonly maxValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#min_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#min_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#min_value}
   */
   readonly minValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#scaling_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#scaling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#scaling_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#scaling_type}
   */
   readonly scalingType?: string;
 }
@@ -1166,19 +1166,19 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfigParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#auto_parameters DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#auto_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#auto_parameters DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#auto_parameters}
   */
   readonly autoParameters?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfigParameterRangesAutoParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#categorical_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#categorical_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#categorical_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#categorical_parameter_ranges}
   */
   readonly categoricalParameterRanges?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfigParameterRangesCategoricalParameterRanges[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#continuous_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#continuous_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#continuous_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#continuous_parameter_ranges}
   */
   readonly continuousParameterRanges?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfigParameterRangesContinuousParameterRanges[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#integer_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#integer_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#integer_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#integer_parameter_ranges}
   */
   readonly integerParameterRanges?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfigParameterRangesIntegerParameterRanges[] | cdktf.IResolvable;
 }
@@ -1359,11 +1359,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfigResourceLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_number_of_training_jobs DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_number_of_training_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_number_of_training_jobs DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_number_of_training_jobs}
   */
   readonly maxNumberOfTrainingJobs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_parallel_training_jobs DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_parallel_training_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_parallel_training_jobs DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_parallel_training_jobs}
   */
   readonly maxParallelTrainingJobs?: number;
 }
@@ -1486,7 +1486,7 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfigTuningJobCompletionCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#target_objective_metric_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#target_objective_metric_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#target_objective_metric_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#target_objective_metric_value}
   */
   readonly targetObjectiveMetricValue?: number;
 }
@@ -1582,35 +1582,35 @@ export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Ma
   /**
   * Defines the objective metric for a hyperparameter tuning job. Hyperparameter tuning uses the value of this metric to evaluate the training jobs it launches, and returns the training job that results in either the highest or lowest value for this metric, depending on the value you specify for the Type parameter. If you want to define a custom objective metric, see Define metrics and environment variables (https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-define-metrics-variables.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#hyper_parameter_tuning_job_objective DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#hyper_parameter_tuning_job_objective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#hyper_parameter_tuning_job_objective DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#hyper_parameter_tuning_job_objective}
   */
   readonly hyperParameterTuningJobObjective?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfigHyperParameterTuningJobObjective;
   /**
   * Specifies ranges of integer, continuous, and categorical hyperparameters that a hyperparameter tuning job searches. The hyperparameter tuning job launches training jobs with hyperparameter values within these ranges to find the combination of values that result in the training job with the best performance as measured by the objective metric of the hyperparameter tuning job. The maximum number of items specified for Array Members refers to the maximum number of hyperparameters for each range and also the maximum for the hyperparameter tuning job itself. That is, the sum of the number of hyperparameters for all the ranges can't exceed the maximum number specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#parameter_ranges}
   */
   readonly parameterRanges?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfigParameterRanges;
   /**
   * Specifies the maximum number of training jobs and parallel training jobs that a hyperparameter tuning job can launch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#resource_limits DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#resource_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#resource_limits DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#resource_limits}
   */
   readonly resourceLimits?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfigResourceLimits;
   /**
   * The strategy hyperparameter tuning uses to find the best combination of hyperparameters for your model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#strategy DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#strategy DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#strategy}
   */
   readonly strategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#training_job_early_stopping_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#training_job_early_stopping_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#training_job_early_stopping_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#training_job_early_stopping_type}
   */
   readonly trainingJobEarlyStoppingType?: string;
   /**
   * The job completion criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#tuning_job_completion_criteria DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#tuning_job_completion_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#tuning_job_completion_criteria DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#tuning_job_completion_criteria}
   */
   readonly tuningJobCompletionCriteria?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfigTuningJobCompletionCriteria;
 }
@@ -1849,11 +1849,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1998,11 +1998,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionAlgorithmSpecificationMetricDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#regex DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#regex DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -2147,21 +2147,21 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionAlgorithmSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#algorithm_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#algorithm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#algorithm_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#algorithm_name}
   */
   readonly algorithmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#metric_definitions DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#metric_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#metric_definitions DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#metric_definitions}
   */
   readonly metricDefinitions?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionAlgorithmSpecificationMetricDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#training_image DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#training_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#training_image DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#training_image}
   */
   readonly trainingImage?: string;
   /**
   * The training input mode that the algorithm supports. For more information about input modes, see Algorithms (https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html). Pipe mode If an algorithm supports Pipe mode, Amazon SageMaker streams data directly from Amazon S3 to the container. File mode If an algorithm supports File mode, SageMaker downloads the training data from S3 to the provisioned ML storage volume, and mounts the directory to the Docker volume for the training container. You must provision the ML storage volume with sufficient capacity to accommodate the data downloaded from S3. In addition to the training data, the ML storage volume also stores the output model. The algorithm container uses the ML storage volume to also store intermediate information, if any. For distributed algorithms, training data is distributed uniformly. Your training duration is predictable if the input data objects sizes are approximately the same. SageMaker does not split the files any further for model training. If the object sizes are skewed, training won't be optimal as the data distribution is also skewed when one host in a training cluster is overloaded, thus becoming a bottleneck in training. FastFile mode If an algorithm supports FastFile mode, SageMaker streams data directly from S3 to the container with no code changes, and provides file system access to the data. Users can author their training script to interact with these files as if they were stored on disk. FastFile mode works best when the data is read sequentially. Augmented manifest files aren't supported. The startup time is lower when there are fewer files in the S3 bucket provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#training_input_mode DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#training_input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#training_input_mode DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#training_input_mode}
   */
   readonly trainingInputMode?: string;
 }
@@ -2342,11 +2342,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionCheckpointConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -2469,11 +2469,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionHyperParameterRangesAutoParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#value_hint DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#value_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#value_hint DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#value_hint}
   */
   readonly valueHint?: string;
 }
@@ -2618,11 +2618,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionHyperParameterRangesCategoricalParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#values DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#values DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2767,19 +2767,19 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionHyperParameterRangesContinuousParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_value}
   */
   readonly maxValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#min_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#min_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#min_value}
   */
   readonly minValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#scaling_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#scaling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#scaling_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#scaling_type}
   */
   readonly scalingType?: string;
 }
@@ -2982,19 +2982,19 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionHyperParameterRangesIntegerParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_value}
   */
   readonly maxValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#min_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#min_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#min_value}
   */
   readonly minValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#scaling_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#scaling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#scaling_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#scaling_type}
   */
   readonly scalingType?: string;
 }
@@ -3197,19 +3197,19 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionHyperParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#auto_parameters DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#auto_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#auto_parameters DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#auto_parameters}
   */
   readonly autoParameters?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionHyperParameterRangesAutoParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#categorical_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#categorical_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#categorical_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#categorical_parameter_ranges}
   */
   readonly categoricalParameterRanges?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionHyperParameterRangesCategoricalParameterRanges[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#continuous_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#continuous_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#continuous_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#continuous_parameter_ranges}
   */
   readonly continuousParameterRanges?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionHyperParameterRangesContinuousParameterRanges[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#integer_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#integer_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#integer_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#integer_parameter_ranges}
   */
   readonly integerParameterRanges?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionHyperParameterRangesIntegerParameterRanges[] | cdktf.IResolvable;
 }
@@ -3390,19 +3390,19 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#directory_path DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#directory_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#directory_path DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#directory_path}
   */
   readonly directoryPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#file_system_access_mode DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#file_system_access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#file_system_access_mode DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#file_system_access_mode}
   */
   readonly fileSystemAccessMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#file_system_id DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#file_system_id DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#file_system_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#file_system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#file_system_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#file_system_type}
   */
   readonly fileSystemType?: string;
 }
@@ -3583,23 +3583,23 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionInputDataConfigDataSourceS3DataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#attribute_names DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#attribute_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#attribute_names DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#attribute_names}
   */
   readonly attributeNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_group_names DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_group_names DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_group_names}
   */
   readonly instanceGroupNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_data_distribution_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_data_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_data_distribution_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_data_distribution_type}
   */
   readonly s3DataDistributionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_data_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_data_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_data_type}
   */
   readonly s3DataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -3811,13 +3811,13 @@ export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Ma
   /**
   * Specifies a file system data source for a channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#file_system_data_source DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#file_system_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#file_system_data_source DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#file_system_data_source}
   */
   readonly fileSystemDataSource?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSource;
   /**
   * Describes the S3 data source. Your input bucket must be in the same Amazon Web Services region as your training job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_data_source DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_data_source DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_data_source}
   */
   readonly s3DataSource?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionInputDataConfigDataSourceS3DataSource;
 }
@@ -3940,7 +3940,7 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionInputDataConfigShuffleConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#seed DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#seed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#seed DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#seed}
   */
   readonly seed?: number;
 }
@@ -4034,37 +4034,37 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionInputDataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#channel_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#channel_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#channel_name}
   */
   readonly channelName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#compression_type}
   */
   readonly compressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
   * Describes the location of the channel data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#data_source DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#data_source DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionInputDataConfigDataSource;
   /**
   * The training input mode that the algorithm supports. For more information about input modes, see Algorithms (https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html). Pipe mode If an algorithm supports Pipe mode, Amazon SageMaker streams data directly from Amazon S3 to the container. File mode If an algorithm supports File mode, SageMaker downloads the training data from S3 to the provisioned ML storage volume, and mounts the directory to the Docker volume for the training container. You must provision the ML storage volume with sufficient capacity to accommodate the data downloaded from S3. In addition to the training data, the ML storage volume also stores the output model. The algorithm container uses the ML storage volume to also store intermediate information, if any. For distributed algorithms, training data is distributed uniformly. Your training duration is predictable if the input data objects sizes are approximately the same. SageMaker does not split the files any further for model training. If the object sizes are skewed, training won't be optimal as the data distribution is also skewed when one host in a training cluster is overloaded, thus becoming a bottleneck in training. FastFile mode If an algorithm supports FastFile mode, SageMaker streams data directly from S3 to the container with no code changes, and provides file system access to the data. Users can author their training script to interact with these files as if they were stored on disk. FastFile mode works best when the data is read sequentially. Augmented manifest files aren't supported. The startup time is lower when there are fewer files in the S3 bucket provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#input_mode DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#input_mode DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#input_mode}
   */
   readonly inputMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#record_wrapper_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#record_wrapper_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#record_wrapper_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#record_wrapper_type}
   */
   readonly recordWrapperType?: string;
   /**
   * A configuration for a shuffle option for input data in a channel. If you use S3Prefix for S3DataType, the results of the S3 key prefix matches are shuffled. If you use ManifestFile, the order of the S3 object references in the ManifestFile is shuffled. If you use AugmentedManifestFile, the order of the JSON lines in the AugmentedManifestFile is shuffled. The shuffling order is determined using the Seed value. For Pipe input mode, when ShuffleConfig is specified shuffling is done at the start of every epoch. With large datasets, this ensures that the order of the training data is different for each epoch, and it helps reduce bias and possible overfitting. In a multi-node training job when ShuffleConfig is combined with S3DataDistributionType of ShardedByS3Key, the data is shuffled across nodes so that the content sent to a particular node on the first epoch might be sent to a different node on the second epoch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#shuffle_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#shuffle_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#shuffle_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#shuffle_config}
   */
   readonly shuffleConfig?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionInputDataConfigShuffleConfig;
 }
@@ -4354,15 +4354,15 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionOutputDataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#compression_type}
   */
   readonly compressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_output_path}
   */
   readonly s3OutputPath?: string;
 }
@@ -4514,15 +4514,15 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionResourceConfigInstanceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_group_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_group_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_group_name}
   */
   readonly instanceGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
 }
@@ -4696,29 +4696,29 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionResourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_groups DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_groups DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_groups}
   */
   readonly instanceGroups?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionResourceConfigInstanceGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
   * Optional. Customer requested period in seconds for which the Training cluster is kept alive after the job is finished.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#keep_alive_period_in_seconds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#keep_alive_period_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#keep_alive_period_in_seconds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#keep_alive_period_in_seconds}
   */
   readonly keepAlivePeriodInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#volume_kms_key_id DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#volume_kms_key_id DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
 }
@@ -4957,7 +4957,7 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionRetryStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#maximum_retry_attempts DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#maximum_retry_attempts DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts?: number;
 }
@@ -5053,15 +5053,15 @@ export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Ma
   /**
   * Maximum job scheduler pending time in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_pending_time_in_seconds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_pending_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_pending_time_in_seconds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_pending_time_in_seconds}
   */
   readonly maxPendingTimeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_runtime_in_seconds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_runtime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_runtime_in_seconds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_runtime_in_seconds}
   */
   readonly maxRuntimeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_wait_time_in_seconds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_wait_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_wait_time_in_seconds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_wait_time_in_seconds}
   */
   readonly maxWaitTimeInSeconds?: number;
 }
@@ -5213,11 +5213,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionTuningObjective {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#metric_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#metric_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#type_ DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#type_ DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#type_}
   */
   readonly type?: string;
 }
@@ -5340,11 +5340,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#security_group_i_ds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#security_group_i_ds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#security_group_i_ds}
   */
   readonly securityGroupIDs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#subnets DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#subnets DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#subnets}
   */
   readonly subnets?: string[];
 }
@@ -5469,83 +5469,83 @@ export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Ma
   /**
   * Specifies which training algorithm to use for training jobs that a hyperparameter tuning job launches and the metrics to monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#algorithm_specification DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#algorithm_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#algorithm_specification DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#algorithm_specification}
   */
   readonly algorithmSpecification?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionAlgorithmSpecification;
   /**
   * Contains information about the output location for managed spot training checkpoint data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#checkpoint_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#checkpoint_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#checkpoint_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#checkpoint_config}
   */
   readonly checkpointConfig?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionCheckpointConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#definition_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#definition_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#definition_name}
   */
   readonly definitionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#enable_inter_container_traffic_encryption DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#enable_inter_container_traffic_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#enable_inter_container_traffic_encryption DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#enable_inter_container_traffic_encryption}
   */
   readonly enableInterContainerTrafficEncryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#enable_managed_spot_training DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#enable_managed_spot_training}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#enable_managed_spot_training DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#enable_managed_spot_training}
   */
   readonly enableManagedSpotTraining?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#enable_network_isolation DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#enable_network_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#enable_network_isolation DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#enable_network_isolation}
   */
   readonly enableNetworkIsolation?: boolean | cdktf.IResolvable;
   /**
   * Specifies ranges of integer, continuous, and categorical hyperparameters that a hyperparameter tuning job searches. The hyperparameter tuning job launches training jobs with hyperparameter values within these ranges to find the combination of values that result in the training job with the best performance as measured by the objective metric of the hyperparameter tuning job. The maximum number of items specified for Array Members refers to the maximum number of hyperparameters for each range and also the maximum for the hyperparameter tuning job itself. That is, the sum of the number of hyperparameters for all the ranges can't exceed the maximum number specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#hyper_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#hyper_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#hyper_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#hyper_parameter_ranges}
   */
   readonly hyperParameterRanges?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionHyperParameterRanges;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#input_data_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#input_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#input_data_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#input_data_config}
   */
   readonly inputDataConfig?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionInputDataConfig[] | cdktf.IResolvable;
   /**
   * Provides information about how to store model training results (model artifacts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#output_data_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#output_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#output_data_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#output_data_config}
   */
   readonly outputDataConfig?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionOutputDataConfig;
   /**
   * Describes the resources, including machine learning (ML) compute instances and ML storage volumes, to use for model training.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#resource_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#resource_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#resource_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#resource_config}
   */
   readonly resourceConfig?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionResourceConfig;
   /**
   * The retry strategy to use when a training job fails due to an InternalServerError. RetryStrategy is specified as part of the CreateTrainingJob and CreateHyperParameterTuningJob requests. You can add the StoppingCondition parameter to the request to limit the training time for the complete job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#retry_strategy DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#retry_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#retry_strategy DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#retry_strategy}
   */
   readonly retryStrategy?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionRetryStrategy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#role_arn DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#role_arn DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#static_hyper_parameters DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#static_hyper_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#static_hyper_parameters DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#static_hyper_parameters}
   */
   readonly staticHyperParameters?: { [key: string]: string };
   /**
   * Specifies a limit to how long a model training job or model compilation job can run. It also specifies how long a managed spot training job has to complete. When the job reaches the time limit, SageMaker ends the training or compilation job. Use this API to cap model training costs. To stop a training job, SageMaker sends the algorithm the SIGTERM signal, which delays job termination for 120 seconds. Algorithms can use this 120-second window to save the model artifacts, so the results of training are not lost. The training algorithms provided by SageMaker automatically save the intermediate results of a model training job when possible. This attempt to save artifacts is only a best effort case as model might not be in a state from which it can be saved. For example, if training has just started, the model might not be ready to save. When saved, this intermediate data is a valid model artifact. You can use it to create a model with CreateModel. The Neural Topic Model (NTM) currently does not support saving intermediate model artifacts. When training NTMs, make sure that the maximum runtime is sufficient for the training job to complete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#stopping_condition DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#stopping_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#stopping_condition DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#stopping_condition}
   */
   readonly stoppingCondition?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionStoppingCondition;
   /**
   * Defines the objective metric for a hyperparameter tuning job. Hyperparameter tuning uses the value of this metric to evaluate the training jobs it launches, and returns the training job that results in either the highest or lowest value for this metric, depending on the value you specify for the Type parameter. If you want to define a custom objective metric, see Define metrics and environment variables (https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-define-metrics-variables.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#tuning_objective DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#tuning_objective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#tuning_objective DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#tuning_objective}
   */
   readonly tuningObjective?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionTuningObjective;
   /**
   * Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted models, and compute resources have access to. You can control access to and from your resources by configuring a VPC. For more information, see Give SageMaker Access to Resources in your Amazon VPC (https://docs.aws.amazon.com/sagemaker/latest/dg/infrastructure-give-access.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#vpc_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#vpc_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#vpc_config}
   */
   readonly vpcConfig?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionVpcConfig;
 }
@@ -6074,11 +6074,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsAlgorithmSpecificationMetricDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#regex DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#regex DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -6223,21 +6223,21 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsAlgorithmSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#algorithm_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#algorithm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#algorithm_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#algorithm_name}
   */
   readonly algorithmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#metric_definitions DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#metric_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#metric_definitions DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#metric_definitions}
   */
   readonly metricDefinitions?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsAlgorithmSpecificationMetricDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#training_image DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#training_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#training_image DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#training_image}
   */
   readonly trainingImage?: string;
   /**
   * The training input mode that the algorithm supports. For more information about input modes, see Algorithms (https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html). Pipe mode If an algorithm supports Pipe mode, Amazon SageMaker streams data directly from Amazon S3 to the container. File mode If an algorithm supports File mode, SageMaker downloads the training data from S3 to the provisioned ML storage volume, and mounts the directory to the Docker volume for the training container. You must provision the ML storage volume with sufficient capacity to accommodate the data downloaded from S3. In addition to the training data, the ML storage volume also stores the output model. The algorithm container uses the ML storage volume to also store intermediate information, if any. For distributed algorithms, training data is distributed uniformly. Your training duration is predictable if the input data objects sizes are approximately the same. SageMaker does not split the files any further for model training. If the object sizes are skewed, training won't be optimal as the data distribution is also skewed when one host in a training cluster is overloaded, thus becoming a bottleneck in training. FastFile mode If an algorithm supports FastFile mode, SageMaker streams data directly from S3 to the container with no code changes, and provides file system access to the data. Users can author their training script to interact with these files as if they were stored on disk. FastFile mode works best when the data is read sequentially. Augmented manifest files aren't supported. The startup time is lower when there are fewer files in the S3 bucket provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#training_input_mode DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#training_input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#training_input_mode DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#training_input_mode}
   */
   readonly trainingInputMode?: string;
 }
@@ -6418,11 +6418,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsCheckpointConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -6545,11 +6545,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsHyperParameterRangesAutoParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#value_hint DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#value_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#value_hint DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#value_hint}
   */
   readonly valueHint?: string;
 }
@@ -6694,11 +6694,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsHyperParameterRangesCategoricalParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#values DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#values DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6843,19 +6843,19 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsHyperParameterRangesContinuousParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_value}
   */
   readonly maxValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#min_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#min_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#min_value}
   */
   readonly minValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#scaling_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#scaling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#scaling_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#scaling_type}
   */
   readonly scalingType?: string;
 }
@@ -7058,19 +7058,19 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsHyperParameterRangesIntegerParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_value}
   */
   readonly maxValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#min_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#min_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#min_value DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#min_value}
   */
   readonly minValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#scaling_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#scaling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#scaling_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#scaling_type}
   */
   readonly scalingType?: string;
 }
@@ -7273,19 +7273,19 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsHyperParameterRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#auto_parameters DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#auto_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#auto_parameters DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#auto_parameters}
   */
   readonly autoParameters?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsHyperParameterRangesAutoParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#categorical_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#categorical_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#categorical_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#categorical_parameter_ranges}
   */
   readonly categoricalParameterRanges?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsHyperParameterRangesCategoricalParameterRanges[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#continuous_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#continuous_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#continuous_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#continuous_parameter_ranges}
   */
   readonly continuousParameterRanges?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsHyperParameterRangesContinuousParameterRanges[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#integer_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#integer_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#integer_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#integer_parameter_ranges}
   */
   readonly integerParameterRanges?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsHyperParameterRangesIntegerParameterRanges[] | cdktf.IResolvable;
 }
@@ -7466,19 +7466,19 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#directory_path DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#directory_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#directory_path DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#directory_path}
   */
   readonly directoryPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#file_system_access_mode DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#file_system_access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#file_system_access_mode DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#file_system_access_mode}
   */
   readonly fileSystemAccessMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#file_system_id DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#file_system_id DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#file_system_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#file_system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#file_system_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#file_system_type}
   */
   readonly fileSystemType?: string;
 }
@@ -7659,23 +7659,23 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsInputDataConfigDataSourceS3DataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#attribute_names DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#attribute_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#attribute_names DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#attribute_names}
   */
   readonly attributeNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_group_names DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_group_names DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_group_names}
   */
   readonly instanceGroupNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_data_distribution_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_data_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_data_distribution_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_data_distribution_type}
   */
   readonly s3DataDistributionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_data_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_data_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_data_type}
   */
   readonly s3DataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -7887,13 +7887,13 @@ export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Ma
   /**
   * Specifies a file system data source for a channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#file_system_data_source DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#file_system_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#file_system_data_source DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#file_system_data_source}
   */
   readonly fileSystemDataSource?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSource;
   /**
   * Describes the S3 data source. Your input bucket must be in the same Amazon Web Services region as your training job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_data_source DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_data_source DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_data_source}
   */
   readonly s3DataSource?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsInputDataConfigDataSourceS3DataSource;
 }
@@ -8016,7 +8016,7 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsInputDataConfigShuffleConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#seed DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#seed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#seed DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#seed}
   */
   readonly seed?: number;
 }
@@ -8110,37 +8110,37 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsInputDataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#channel_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#channel_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#channel_name}
   */
   readonly channelName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#compression_type}
   */
   readonly compressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
   * Describes the location of the channel data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#data_source DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#data_source DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsInputDataConfigDataSource;
   /**
   * The training input mode that the algorithm supports. For more information about input modes, see Algorithms (https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html). Pipe mode If an algorithm supports Pipe mode, Amazon SageMaker streams data directly from Amazon S3 to the container. File mode If an algorithm supports File mode, SageMaker downloads the training data from S3 to the provisioned ML storage volume, and mounts the directory to the Docker volume for the training container. You must provision the ML storage volume with sufficient capacity to accommodate the data downloaded from S3. In addition to the training data, the ML storage volume also stores the output model. The algorithm container uses the ML storage volume to also store intermediate information, if any. For distributed algorithms, training data is distributed uniformly. Your training duration is predictable if the input data objects sizes are approximately the same. SageMaker does not split the files any further for model training. If the object sizes are skewed, training won't be optimal as the data distribution is also skewed when one host in a training cluster is overloaded, thus becoming a bottleneck in training. FastFile mode If an algorithm supports FastFile mode, SageMaker streams data directly from S3 to the container with no code changes, and provides file system access to the data. Users can author their training script to interact with these files as if they were stored on disk. FastFile mode works best when the data is read sequentially. Augmented manifest files aren't supported. The startup time is lower when there are fewer files in the S3 bucket provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#input_mode DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#input_mode DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#input_mode}
   */
   readonly inputMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#record_wrapper_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#record_wrapper_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#record_wrapper_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#record_wrapper_type}
   */
   readonly recordWrapperType?: string;
   /**
   * A configuration for a shuffle option for input data in a channel. If you use S3Prefix for S3DataType, the results of the S3 key prefix matches are shuffled. If you use ManifestFile, the order of the S3 object references in the ManifestFile is shuffled. If you use AugmentedManifestFile, the order of the JSON lines in the AugmentedManifestFile is shuffled. The shuffling order is determined using the Seed value. For Pipe input mode, when ShuffleConfig is specified shuffling is done at the start of every epoch. With large datasets, this ensures that the order of the training data is different for each epoch, and it helps reduce bias and possible overfitting. In a multi-node training job when ShuffleConfig is combined with S3DataDistributionType of ShardedByS3Key, the data is shuffled across nodes so that the content sent to a particular node on the first epoch might be sent to a different node on the second epoch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#shuffle_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#shuffle_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#shuffle_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#shuffle_config}
   */
   readonly shuffleConfig?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsInputDataConfigShuffleConfig;
 }
@@ -8430,15 +8430,15 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsOutputDataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#compression_type}
   */
   readonly compressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#s3_output_path}
   */
   readonly s3OutputPath?: string;
 }
@@ -8590,15 +8590,15 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsResourceConfigInstanceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_group_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_group_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_group_name}
   */
   readonly instanceGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
 }
@@ -8772,29 +8772,29 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsResourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_groups DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_groups DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_groups}
   */
   readonly instanceGroups?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsResourceConfigInstanceGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
   * Optional. Customer requested period in seconds for which the Training cluster is kept alive after the job is finished.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#keep_alive_period_in_seconds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#keep_alive_period_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#keep_alive_period_in_seconds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#keep_alive_period_in_seconds}
   */
   readonly keepAlivePeriodInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#volume_kms_key_id DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#volume_kms_key_id DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
 }
@@ -9033,7 +9033,7 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsRetryStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#maximum_retry_attempts DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#maximum_retry_attempts DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts?: number;
 }
@@ -9129,15 +9129,15 @@ export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Ma
   /**
   * Maximum job scheduler pending time in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_pending_time_in_seconds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_pending_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_pending_time_in_seconds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_pending_time_in_seconds}
   */
   readonly maxPendingTimeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_runtime_in_seconds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_runtime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_runtime_in_seconds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_runtime_in_seconds}
   */
   readonly maxRuntimeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_wait_time_in_seconds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_wait_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#max_wait_time_in_seconds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#max_wait_time_in_seconds}
   */
   readonly maxWaitTimeInSeconds?: number;
 }
@@ -9289,11 +9289,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsTuningObjective {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#metric_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#metric_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#type_ DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#type_ DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#type_}
   */
   readonly type?: string;
 }
@@ -9416,11 +9416,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#security_group_i_ds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#security_group_i_ds DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#security_group_i_ds}
   */
   readonly securityGroupIDs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#subnets DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#subnets DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#subnets}
   */
   readonly subnets?: string[];
 }
@@ -9545,83 +9545,83 @@ export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Ma
   /**
   * Specifies which training algorithm to use for training jobs that a hyperparameter tuning job launches and the metrics to monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#algorithm_specification DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#algorithm_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#algorithm_specification DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#algorithm_specification}
   */
   readonly algorithmSpecification?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsAlgorithmSpecification;
   /**
   * Contains information about the output location for managed spot training checkpoint data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#checkpoint_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#checkpoint_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#checkpoint_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#checkpoint_config}
   */
   readonly checkpointConfig?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsCheckpointConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#definition_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#definition_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#definition_name}
   */
   readonly definitionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#enable_inter_container_traffic_encryption DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#enable_inter_container_traffic_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#enable_inter_container_traffic_encryption DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#enable_inter_container_traffic_encryption}
   */
   readonly enableInterContainerTrafficEncryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#enable_managed_spot_training DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#enable_managed_spot_training}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#enable_managed_spot_training DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#enable_managed_spot_training}
   */
   readonly enableManagedSpotTraining?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#enable_network_isolation DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#enable_network_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#enable_network_isolation DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#enable_network_isolation}
   */
   readonly enableNetworkIsolation?: boolean | cdktf.IResolvable;
   /**
   * Specifies ranges of integer, continuous, and categorical hyperparameters that a hyperparameter tuning job searches. The hyperparameter tuning job launches training jobs with hyperparameter values within these ranges to find the combination of values that result in the training job with the best performance as measured by the objective metric of the hyperparameter tuning job. The maximum number of items specified for Array Members refers to the maximum number of hyperparameters for each range and also the maximum for the hyperparameter tuning job itself. That is, the sum of the number of hyperparameters for all the ranges can't exceed the maximum number specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#hyper_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#hyper_parameter_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#hyper_parameter_ranges DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#hyper_parameter_ranges}
   */
   readonly hyperParameterRanges?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsHyperParameterRanges;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#input_data_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#input_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#input_data_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#input_data_config}
   */
   readonly inputDataConfig?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsInputDataConfig[] | cdktf.IResolvable;
   /**
   * Provides information about how to store model training results (model artifacts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#output_data_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#output_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#output_data_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#output_data_config}
   */
   readonly outputDataConfig?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsOutputDataConfig;
   /**
   * Describes the resources, including machine learning (ML) compute instances and ML storage volumes, to use for model training.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#resource_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#resource_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#resource_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#resource_config}
   */
   readonly resourceConfig?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsResourceConfig;
   /**
   * The retry strategy to use when a training job fails due to an InternalServerError. RetryStrategy is specified as part of the CreateTrainingJob and CreateHyperParameterTuningJob requests. You can add the StoppingCondition parameter to the request to limit the training time for the complete job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#retry_strategy DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#retry_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#retry_strategy DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#retry_strategy}
   */
   readonly retryStrategy?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsRetryStrategy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#role_arn DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#role_arn DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#static_hyper_parameters DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#static_hyper_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#static_hyper_parameters DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#static_hyper_parameters}
   */
   readonly staticHyperParameters?: { [key: string]: string };
   /**
   * Specifies a limit to how long a model training job or model compilation job can run. It also specifies how long a managed spot training job has to complete. When the job reaches the time limit, SageMaker ends the training or compilation job. Use this API to cap model training costs. To stop a training job, SageMaker sends the algorithm the SIGTERM signal, which delays job termination for 120 seconds. Algorithms can use this 120-second window to save the model artifacts, so the results of training are not lost. The training algorithms provided by SageMaker automatically save the intermediate results of a model training job when possible. This attempt to save artifacts is only a best effort case as model might not be in a state from which it can be saved. For example, if training has just started, the model might not be ready to save. When saved, this intermediate data is a valid model artifact. You can use it to create a model with CreateModel. The Neural Topic Model (NTM) currently does not support saving intermediate model artifacts. When training NTMs, make sure that the maximum runtime is sufficient for the training job to complete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#stopping_condition DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#stopping_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#stopping_condition DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#stopping_condition}
   */
   readonly stoppingCondition?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsStoppingCondition;
   /**
   * Defines the objective metric for a hyperparameter tuning job. Hyperparameter tuning uses the value of this metric to evaluate the training jobs it launches, and returns the training job that results in either the highest or lowest value for this metric, depending on the value you specify for the Type parameter. If you want to define a custom objective metric, see Define metrics and environment variables (https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-define-metrics-variables.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#tuning_objective DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#tuning_objective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#tuning_objective DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#tuning_objective}
   */
   readonly tuningObjective?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsTuningObjective;
   /**
   * Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted models, and compute resources have access to. You can control access to and from your resources by configuring a VPC. For more information, see Give SageMaker Access to Resources in your Amazon VPC (https://docs.aws.amazon.com/sagemaker/latest/dg/infrastructure-give-access.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#vpc_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#vpc_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#vpc_config}
   */
   readonly vpcConfig?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitionsVpcConfig;
 }
@@ -10172,7 +10172,7 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecWarmStartConfigParentHyperParameterTuningJobs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#hyper_parameter_tuning_job_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#hyper_parameter_tuning_job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#hyper_parameter_tuning_job_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#hyper_parameter_tuning_job_name}
   */
   readonly hyperParameterTuningJobName?: string;
 }
@@ -10288,11 +10288,11 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecWarmStartConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#parent_hyper_parameter_tuning_jobs DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#parent_hyper_parameter_tuning_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#parent_hyper_parameter_tuning_jobs DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#parent_hyper_parameter_tuning_jobs}
   */
   readonly parentHyperParameterTuningJobs?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecWarmStartConfigParentHyperParameterTuningJobs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#warm_start_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#warm_start_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#warm_start_type DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#warm_start_type}
   */
   readonly warmStartType?: string;
 }
@@ -10417,43 +10417,43 @@ export interface DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Ma
   /**
   * Configures SageMaker Automatic model tuning (AMT) to automatically find optimal parameters for the following fields: * ParameterRanges (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_HyperParameterTuningJobConfig.html#sagemaker-Type-HyperParameterTuningJobConfig-ParameterRanges): The names and ranges of parameters that a hyperparameter tuning job can optimize. * ResourceLimits (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_ResourceLimits.html): The maximum resources that can be used for a training job. These resources include the maximum number of training jobs, the maximum runtime of a tuning job, and the maximum number of training jobs to run at the same time. * TrainingJobEarlyStoppingType (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_HyperParameterTuningJobConfig.html#sagemaker-Type-HyperParameterTuningJobConfig-TrainingJobEarlyStoppingType): A flag that specifies whether or not to use early stopping for training jobs launched by a hyperparameter tuning job. * RetryStrategy (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_HyperParameterTrainingJobDefinition.html#sagemaker-Type-HyperParameterTrainingJobDefinition-RetryStrategy): The number of times to retry a training job. * Strategy (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_HyperParameterTuningJobConfig.html): Specifies how hyperparameter tuning chooses the combinations of hyperparameter values to use for the training jobs that it launches. * ConvergenceDetected (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_ConvergenceDetected.html): A flag to indicate that Automatic model tuning (AMT) has detected model convergence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#autotune DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#autotune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#autotune DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#autotune}
   */
   readonly autotune?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecAutotune;
   /**
   * The HyperParameterTuningJobConfig (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_HyperParameterTuningJobConfig.html) object that describes the tuning job, including the search strategy, the objective metric used to evaluate training jobs, ranges of parameters to search, and resource limits for the tuning job. For more information, see How Hyperparameter Tuning Works (https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-how-it-works.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#hyper_parameter_tuning_job_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#hyper_parameter_tuning_job_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#hyper_parameter_tuning_job_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#hyper_parameter_tuning_job_config}
   */
   readonly hyperParameterTuningJobConfig: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecHyperParameterTuningJobConfig;
   /**
   * The name of the tuning job. This name is the prefix for the names of all training jobs that this tuning job launches. The name must be unique within the same Amazon Web Services account and Amazon Web Services Region. The name must have 1 to 32 characters. Valid characters are a-z, A-Z, 0-9, and : + = @ _ % - (hyphen). The name is not case sensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#hyper_parameter_tuning_job_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#hyper_parameter_tuning_job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#hyper_parameter_tuning_job_name DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#hyper_parameter_tuning_job_name}
   */
   readonly hyperParameterTuningJobName: string;
   /**
   * An array of key-value pairs. You can use tags to categorize your Amazon Web Services resources in different ways, for example, by purpose, owner, or environment. For more information, see Tagging Amazon Web Services Resources (https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html). Tags that you specify for the tuning job are also added to all training jobs that the tuning job launches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * The HyperParameterTrainingJobDefinition (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_HyperParameterTrainingJobDefinition.html) object that describes the training jobs that this tuning job launches, including static hyperparameters, input data configuration, output data configuration, resource configuration, and stopping condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#training_job_definition DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#training_job_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#training_job_definition DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#training_job_definition}
   */
   readonly trainingJobDefinition?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinition;
   /**
   * A list of the HyperParameterTrainingJobDefinition (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_HyperParameterTrainingJobDefinition.html) objects launched for this tuning job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#training_job_definitions DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#training_job_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#training_job_definitions DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#training_job_definitions}
   */
   readonly trainingJobDefinitions?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecTrainingJobDefinitions[] | cdktf.IResolvable;
   /**
   * Specifies the configuration for starting the hyperparameter tuning job using one or more previous tuning jobs as a starting point. The results of previous tuning jobs are used to inform which combinations of hyperparameters to search over in the new tuning job. All training jobs launched by the new hyperparameter tuning job are evaluated by using the objective metric. If you specify IDENTICAL_DATA_AND_ALGORITHM as the WarmStartType value for the warm start configuration, the training job that performs the best in the new tuning job is compared to the best training jobs from the parent tuning jobs. From these, the training job that performs the best as measured by the objective metric is returned as the overall best training job. All training jobs launched by parent hyperparameter tuning jobs and the new hyperparameter tuning jobs count against the limit of training jobs for the tuning job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#warm_start_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#warm_start_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#warm_start_config DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest#warm_start_config}
   */
   readonly warmStartConfig?: DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1ManifestSpecWarmStartConfig;
 }
@@ -10715,7 +10715,7 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest}
 */
 export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -10731,7 +10731,7 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
   * Generates CDKTF code for importing a DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10743,7 +10743,7 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10754,8 +10754,8 @@ export class DataK8SSagemakerServicesK8SAwsHyperParameterTuningJobV1Alpha1Manife
       terraformResourceType: 'k8s_sagemaker_services_k8s_aws_hyper_parameter_tuning_job_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

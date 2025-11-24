@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_overrides
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_overrides
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHarnessPlatformOverridesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_overrides#id DataHarnessPlatformOverrides#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_overrides#id DataHarnessPlatformOverrides#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataHarnessPlatformOverridesConfig extends cdktf.TerraformMetaA
   /**
   * The identifier of the override entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_overrides#identifier DataHarnessPlatformOverrides#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_overrides#identifier DataHarnessPlatformOverrides#identifier}
   */
   readonly identifier: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_overrides#org_id DataHarnessPlatformOverrides#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_overrides#org_id DataHarnessPlatformOverrides#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_overrides#project_id DataHarnessPlatformOverrides#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_overrides#project_id DataHarnessPlatformOverrides#project_id}
   */
   readonly projectId?: string;
   /**
   * git_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_overrides#git_details DataHarnessPlatformOverrides#git_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_overrides#git_details DataHarnessPlatformOverrides#git_details}
   */
   readonly gitDetails?: DataHarnessPlatformOverridesGitDetails;
 }
@@ -43,25 +43,25 @@ export interface DataHarnessPlatformOverridesGitDetails {
   /**
   * Name of the branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_overrides#branch DataHarnessPlatformOverrides#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_overrides#branch DataHarnessPlatformOverrides#branch}
   */
   readonly branch?: string;
   /**
   * Load service yaml from fallback branch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_overrides#load_from_cache DataHarnessPlatformOverrides#load_from_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_overrides#load_from_cache DataHarnessPlatformOverrides#load_from_cache}
   */
   readonly loadFromCache?: boolean | cdktf.IResolvable;
   /**
   * Load service yaml from fallback branch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_overrides#load_from_fallback_branch DataHarnessPlatformOverrides#load_from_fallback_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_overrides#load_from_fallback_branch DataHarnessPlatformOverrides#load_from_fallback_branch}
   */
   readonly loadFromFallbackBranch?: boolean | cdktf.IResolvable;
   /**
   * Repo name of remote service override
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_overrides#repo_name DataHarnessPlatformOverrides#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_overrides#repo_name DataHarnessPlatformOverrides#repo_name}
   */
   readonly repoName?: string;
 }
@@ -232,7 +232,7 @@ export class DataHarnessPlatformOverridesGitDetailsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_overrides harness_platform_overrides}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_overrides harness_platform_overrides}
 */
 export class DataHarnessPlatformOverrides extends cdktf.TerraformDataSource {
 
@@ -248,7 +248,7 @@ export class DataHarnessPlatformOverrides extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessPlatformOverrides resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformOverrides to import
-  * @param importFromId The id of the existing DataHarnessPlatformOverrides that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_overrides#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformOverrides that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_overrides#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformOverrides to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class DataHarnessPlatformOverrides extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_overrides harness_platform_overrides} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_overrides harness_platform_overrides} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +271,8 @@ export class DataHarnessPlatformOverrides extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_platform_overrides',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

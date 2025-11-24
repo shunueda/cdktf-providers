@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PlatformConnectorAppdynamicsConfig extends cdktf.TerraformMetaA
   /**
   * The App Dynamics account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#account_name PlatformConnectorAppdynamics#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#account_name PlatformConnectorAppdynamics#account_name}
   */
   readonly accountName: string;
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#delegate_selectors PlatformConnectorAppdynamics#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#delegate_selectors PlatformConnectorAppdynamics#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#description PlatformConnectorAppdynamics#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#description PlatformConnectorAppdynamics#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#id PlatformConnectorAppdynamics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#id PlatformConnectorAppdynamics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface PlatformConnectorAppdynamicsConfig extends cdktf.TerraformMetaA
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#identifier PlatformConnectorAppdynamics#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#identifier PlatformConnectorAppdynamics#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#name PlatformConnectorAppdynamics#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#name PlatformConnectorAppdynamics#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#org_id PlatformConnectorAppdynamics#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#org_id PlatformConnectorAppdynamics#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#project_id PlatformConnectorAppdynamics#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#project_id PlatformConnectorAppdynamics#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#tags PlatformConnectorAppdynamics#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#tags PlatformConnectorAppdynamics#tags}
   */
   readonly tags?: string[];
   /**
   * URL of the App Dynamics controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#url PlatformConnectorAppdynamics#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#url PlatformConnectorAppdynamics#url}
   */
   readonly url: string;
   /**
   * api_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#api_token PlatformConnectorAppdynamics#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#api_token PlatformConnectorAppdynamics#api_token}
   */
   readonly apiToken?: PlatformConnectorAppdynamicsApiToken;
   /**
   * username_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#username_password PlatformConnectorAppdynamics#username_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#username_password PlatformConnectorAppdynamics#username_password}
   */
   readonly usernamePassword?: PlatformConnectorAppdynamicsUsernamePassword;
 }
@@ -85,13 +85,13 @@ export interface PlatformConnectorAppdynamicsApiToken {
   /**
   * The client id used for connecting to App Dynamics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#client_id PlatformConnectorAppdynamics#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#client_id PlatformConnectorAppdynamics#client_id}
   */
   readonly clientId: string;
   /**
   * Reference to the Harness secret containing the App Dynamics client secret. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#client_secret_ref PlatformConnectorAppdynamics#client_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#client_secret_ref PlatformConnectorAppdynamics#client_secret_ref}
   */
   readonly clientSecretRef: string;
 }
@@ -200,13 +200,13 @@ export interface PlatformConnectorAppdynamicsUsernamePassword {
   /**
   * Reference to a secret containing the password to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#password_ref PlatformConnectorAppdynamics#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#password_ref PlatformConnectorAppdynamics#password_ref}
   */
   readonly passwordRef: string;
   /**
   * Username to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#username PlatformConnectorAppdynamics#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#username PlatformConnectorAppdynamics#username}
   */
   readonly username: string;
 }
@@ -313,7 +313,7 @@ export class PlatformConnectorAppdynamicsUsernamePasswordOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics harness_platform_connector_appdynamics}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics harness_platform_connector_appdynamics}
 */
 export class PlatformConnectorAppdynamics extends cdktf.TerraformResource {
 
@@ -329,7 +329,7 @@ export class PlatformConnectorAppdynamics extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorAppdynamics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorAppdynamics to import
-  * @param importFromId The id of the existing PlatformConnectorAppdynamics that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorAppdynamics that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorAppdynamics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -341,7 +341,7 @@ export class PlatformConnectorAppdynamics extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_appdynamics harness_platform_connector_appdynamics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_appdynamics harness_platform_connector_appdynamics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -352,8 +352,8 @@ export class PlatformConnectorAppdynamics extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_appdynamics',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/cloud_application_instance
+// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_application_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CloudApplicationInstanceConfig extends cdktf.TerraformMetaArgum
   /**
   * Type of the cloud application instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/cloud_application_instance#instance_type CloudApplicationInstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_application_instance#instance_type CloudApplicationInstance#instance_type}
   */
   readonly instanceType?: string;
   /**
   * Name of the cloud application instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/cloud_application_instance#name CloudApplicationInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_application_instance#name CloudApplicationInstance#name}
   */
   readonly name?: string;
   /**
   * instance_identifiers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/cloud_application_instance#instance_identifiers CloudApplicationInstance#instance_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_application_instance#instance_identifiers CloudApplicationInstance#instance_identifiers}
   */
   readonly instanceIdentifiers?: CloudApplicationInstanceInstanceIdentifiers[] | cdktf.IResolvable;
 }
@@ -30,19 +30,19 @@ export interface CloudApplicationInstanceInstanceIdentifiers {
   /**
   * Type of the cloud application instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/cloud_application_instance#identifier_type CloudApplicationInstance#identifier_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_application_instance#identifier_type CloudApplicationInstance#identifier_type}
   */
   readonly identifierType?: string;
   /**
   * Unique identifying string for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/cloud_application_instance#instance_identifier CloudApplicationInstance#instance_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_application_instance#instance_identifier CloudApplicationInstance#instance_identifier}
   */
   readonly instanceIdentifier?: string;
   /**
   * Unique identifying string for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/cloud_application_instance#instance_identifier_name CloudApplicationInstance#instance_identifier_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_application_instance#instance_identifier_name CloudApplicationInstance#instance_identifier_name}
   */
   readonly instanceIdentifierName?: string;
 }
@@ -221,7 +221,7 @@ export class CloudApplicationInstanceInstanceIdentifiersList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/cloud_application_instance zia_cloud_application_instance}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_application_instance zia_cloud_application_instance}
 */
 export class CloudApplicationInstance extends cdktf.TerraformResource {
 
@@ -237,7 +237,7 @@ export class CloudApplicationInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudApplicationInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudApplicationInstance to import
-  * @param importFromId The id of the existing CloudApplicationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/cloud_application_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudApplicationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_application_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudApplicationInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -249,7 +249,7 @@ export class CloudApplicationInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/cloud_application_instance zia_cloud_application_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/cloud_application_instance zia_cloud_application_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -260,8 +260,8 @@ export class CloudApplicationInstance extends cdktf.TerraformResource {
       terraformResourceType: 'zia_cloud_application_instance',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.2',
-        providerVersionConstraint: '4.6.2'
+        providerVersion: '4.6.3',
+        providerVersionConstraint: '4.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

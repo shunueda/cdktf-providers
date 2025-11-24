@@ -3,25 +3,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#annotations DataK8SK8UpIoScheduleV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#annotations DataK8SK8UpIoScheduleV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#labels DataK8SK8UpIoScheduleV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#labels DataK8SK8UpIoScheduleV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#namespace DataK8SK8UpIoScheduleV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#namespace DataK8SK8UpIoScheduleV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -198,19 +198,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendAzureAccountKe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -361,19 +361,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendAzureAccountNa
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -524,21 +524,21 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendAzure {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
   */
   readonly accountKeySecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendAzureAccountKeySecretRef;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_name_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_name_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_name_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_name_secret_ref}
   */
   readonly accountNameSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendAzureAccountNameSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -721,19 +721,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendB2AccountIdSec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -884,19 +884,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendB2AccountKeySe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1047,21 +1047,21 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendB2 {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_id_secret_ref}
   */
   readonly accountIdSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendB2AccountIdSecretRef;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
   */
   readonly accountKeySecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendB2AccountKeySecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -1244,13 +1244,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendEnvFromConfigM
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1375,13 +1375,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendEnvFromSecretR
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1506,19 +1506,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendEnvFrom {
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#config_map_ref DataK8SK8UpIoScheduleV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#config_map_ref DataK8SK8UpIoScheduleV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#prefix DataK8SK8UpIoScheduleV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#prefix DataK8SK8UpIoScheduleV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendEnvFromSecretRef;
 }
@@ -1694,19 +1694,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendGcsAccessToken
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1857,19 +1857,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendGcsProjectIdSe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2020,17 +2020,17 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendGcs {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#access_token_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_token_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#access_token_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_token_secret_ref}
   */
   readonly accessTokenSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendGcsAccessTokenSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#project_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#project_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#project_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#project_id_secret_ref}
   */
   readonly projectIdSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendGcsProjectIdSecretRef;
 }
@@ -2182,7 +2182,7 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendGcsOutputReference
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendLocal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
   */
   readonly mountPath?: string;
 }
@@ -2278,19 +2278,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendRepoPasswordSe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2441,19 +2441,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendRestPasswordSe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2604,19 +2604,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendRestUserSecret
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2767,17 +2767,17 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendRest {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#password_secret_reg DataK8SK8UpIoScheduleV1Manifest#password_secret_reg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#password_secret_reg DataK8SK8UpIoScheduleV1Manifest#password_secret_reg}
   */
   readonly passwordSecretReg?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendRestPasswordSecretReg;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#url DataK8SK8UpIoScheduleV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#url DataK8SK8UpIoScheduleV1Manifest#url}
   */
   readonly url?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#user_secret_ref DataK8SK8UpIoScheduleV1Manifest#user_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#user_secret_ref DataK8SK8UpIoScheduleV1Manifest#user_secret_ref}
   */
   readonly userSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendRestUserSecretRef;
 }
@@ -2931,19 +2931,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendS3AccessKeyIdS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3094,19 +3094,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendS3SecretAccess
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3257,21 +3257,21 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendS3 {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#access_key_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_key_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#access_key_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_key_id_secret_ref}
   */
   readonly accessKeyIdSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendS3AccessKeyIdSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#endpoint DataK8SK8UpIoScheduleV1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#endpoint DataK8SK8UpIoScheduleV1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#secret_access_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_access_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#secret_access_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_access_key_secret_ref}
   */
   readonly secretAccessKeySecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendS3SecretAccessKeySecretRef;
 }
@@ -3452,11 +3452,11 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendS3OutputReference 
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendSwift {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -3579,15 +3579,15 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendSwiftOutputReferen
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendTlsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#ca_cert DataK8SK8UpIoScheduleV1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#ca_cert DataK8SK8UpIoScheduleV1Manifest#ca_cert}
   */
   readonly caCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#client_cert DataK8SK8UpIoScheduleV1Manifest#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#client_cert DataK8SK8UpIoScheduleV1Manifest#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#client_key DataK8SK8UpIoScheduleV1Manifest#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#client_key DataK8SK8UpIoScheduleV1Manifest#client_key}
   */
   readonly clientKey?: string;
 }
@@ -3741,37 +3741,37 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendVolumeMounts {
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mount_propagation DataK8SK8UpIoScheduleV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mount_propagation DataK8SK8UpIoScheduleV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path DataK8SK8UpIoScheduleV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path DataK8SK8UpIoScheduleV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path_expr DataK8SK8UpIoScheduleV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path_expr DataK8SK8UpIoScheduleV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -4026,51 +4026,51 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendVolumeMountsList e
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#azure DataK8SK8UpIoScheduleV1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#azure DataK8SK8UpIoScheduleV1Manifest#azure}
   */
   readonly azure?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendAzure;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#b2 DataK8SK8UpIoScheduleV1Manifest#b2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#b2 DataK8SK8UpIoScheduleV1Manifest#b2}
   */
   readonly b2?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendB2;
   /**
   * EnvFrom adds all environment variables from a an external source to the Restic job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#env_from DataK8SK8UpIoScheduleV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#env_from DataK8SK8UpIoScheduleV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#gcs DataK8SK8UpIoScheduleV1Manifest#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#gcs DataK8SK8UpIoScheduleV1Manifest#gcs}
   */
   readonly gcs?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendGcs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#local DataK8SK8UpIoScheduleV1Manifest#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#local DataK8SK8UpIoScheduleV1Manifest#local}
   */
   readonly local?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendLocal;
   /**
   * RepoPasswordSecretRef references a secret key to look up the restic repository password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#repo_password_secret_ref DataK8SK8UpIoScheduleV1Manifest#repo_password_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#repo_password_secret_ref DataK8SK8UpIoScheduleV1Manifest#repo_password_secret_ref}
   */
   readonly repoPasswordSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendRepoPasswordSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#rest DataK8SK8UpIoScheduleV1Manifest#rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#rest DataK8SK8UpIoScheduleV1Manifest#rest}
   */
   readonly rest?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendRest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#s3 DataK8SK8UpIoScheduleV1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#s3 DataK8SK8UpIoScheduleV1Manifest#s3}
   */
   readonly s3?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#swift DataK8SK8UpIoScheduleV1Manifest#swift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#swift DataK8SK8UpIoScheduleV1Manifest#swift}
   */
   readonly swift?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendSwift;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#tls_options DataK8SK8UpIoScheduleV1Manifest#tls_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#tls_options DataK8SK8UpIoScheduleV1Manifest#tls_options}
   */
   readonly tlsOptions?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendTlsOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#volume_mounts DataK8SK8UpIoScheduleV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#volume_mounts DataK8SK8UpIoScheduleV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackendVolumeMounts[] | cdktf.IResolvable;
 }
@@ -4456,7 +4456,7 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchivePodConfigRef {
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4552,25 +4552,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchivePodSecurityContextSeL
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#level DataK8SK8UpIoScheduleV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#level DataK8SK8UpIoScheduleV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#role DataK8SK8UpIoScheduleV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#role DataK8SK8UpIoScheduleV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#type DataK8SK8UpIoScheduleV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#type DataK8SK8UpIoScheduleV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#user DataK8SK8UpIoScheduleV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#user DataK8SK8UpIoScheduleV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -4753,13 +4753,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchivePodSecurityContextSec
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#localhost_profile DataK8SK8UpIoScheduleV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#localhost_profile DataK8SK8UpIoScheduleV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#type DataK8SK8UpIoScheduleV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#type DataK8SK8UpIoScheduleV1Manifest#type}
   */
   readonly type: string;
 }
@@ -4881,13 +4881,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchivePodSecurityContextSys
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#value DataK8SK8UpIoScheduleV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#value DataK8SK8UpIoScheduleV1Manifest#value}
   */
   readonly value: string;
 }
@@ -5028,25 +5028,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchivePodSecurityContextWin
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#gmsa_credential_spec DataK8SK8UpIoScheduleV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#gmsa_credential_spec DataK8SK8UpIoScheduleV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#gmsa_credential_spec_name DataK8SK8UpIoScheduleV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#gmsa_credential_spec_name DataK8SK8UpIoScheduleV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#host_process DataK8SK8UpIoScheduleV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#host_process DataK8SK8UpIoScheduleV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_user_name DataK8SK8UpIoScheduleV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_user_name DataK8SK8UpIoScheduleV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -5229,61 +5229,61 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchivePodSecurityContext {
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#fs_group DataK8SK8UpIoScheduleV1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#fs_group DataK8SK8UpIoScheduleV1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#fs_group_change_policy DataK8SK8UpIoScheduleV1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#fs_group_change_policy DataK8SK8UpIoScheduleV1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_group DataK8SK8UpIoScheduleV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_group DataK8SK8UpIoScheduleV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_non_root DataK8SK8UpIoScheduleV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_non_root DataK8SK8UpIoScheduleV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_user DataK8SK8UpIoScheduleV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_user DataK8SK8UpIoScheduleV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#se_linux_options DataK8SK8UpIoScheduleV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#se_linux_options DataK8SK8UpIoScheduleV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SK8UpIoScheduleV1ManifestSpecArchivePodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#seccomp_profile DataK8SK8UpIoScheduleV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#seccomp_profile DataK8SK8UpIoScheduleV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SK8UpIoScheduleV1ManifestSpecArchivePodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#supplemental_groups DataK8SK8UpIoScheduleV1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#supplemental_groups DataK8SK8UpIoScheduleV1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#sysctls DataK8SK8UpIoScheduleV1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#sysctls DataK8SK8UpIoScheduleV1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SK8UpIoScheduleV1ManifestSpecArchivePodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#windows_options DataK8SK8UpIoScheduleV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#windows_options DataK8SK8UpIoScheduleV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SK8UpIoScheduleV1ManifestSpecArchivePodSecurityContextWindowsOptions;
 }
@@ -5640,7 +5640,7 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveResourcesClaims {
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name: string;
 }
@@ -5755,19 +5755,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#claims DataK8SK8UpIoScheduleV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#claims DataK8SK8UpIoScheduleV1Manifest#claims}
   */
   readonly claims?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#limits DataK8SK8UpIoScheduleV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#limits DataK8SK8UpIoScheduleV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#requests DataK8SK8UpIoScheduleV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#requests DataK8SK8UpIoScheduleV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5921,13 +5921,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveRestoreMethodFolder {
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#claim_name DataK8SK8UpIoScheduleV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#claim_name DataK8SK8UpIoScheduleV1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -6049,19 +6049,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveRestoreMethodS3Access
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6212,19 +6212,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveRestoreMethodS3Secret
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6375,21 +6375,21 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveRestoreMethodS3 {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#access_key_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_key_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#access_key_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_key_id_secret_ref}
   */
   readonly accessKeyIdSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveRestoreMethodS3AccessKeyIdSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#endpoint DataK8SK8UpIoScheduleV1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#endpoint DataK8SK8UpIoScheduleV1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#secret_access_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_access_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#secret_access_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_access_key_secret_ref}
   */
   readonly secretAccessKeySecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveRestoreMethodS3SecretAccessKeySecretRef;
 }
@@ -6570,15 +6570,15 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecArchiveRestoreMethodS3OutputRefe
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveRestoreMethodTlsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#ca_cert DataK8SK8UpIoScheduleV1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#ca_cert DataK8SK8UpIoScheduleV1Manifest#ca_cert}
   */
   readonly caCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#client_cert DataK8SK8UpIoScheduleV1Manifest#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#client_cert DataK8SK8UpIoScheduleV1Manifest#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#client_key DataK8SK8UpIoScheduleV1Manifest#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#client_key DataK8SK8UpIoScheduleV1Manifest#client_key}
   */
   readonly clientKey?: string;
 }
@@ -6732,37 +6732,37 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveRestoreMethodVolumeMo
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mount_propagation DataK8SK8UpIoScheduleV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mount_propagation DataK8SK8UpIoScheduleV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path DataK8SK8UpIoScheduleV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path DataK8SK8UpIoScheduleV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path_expr DataK8SK8UpIoScheduleV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path_expr DataK8SK8UpIoScheduleV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -7017,19 +7017,19 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecArchiveRestoreMethodVolumeMounts
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveRestoreMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#folder DataK8SK8UpIoScheduleV1Manifest#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#folder DataK8SK8UpIoScheduleV1Manifest#folder}
   */
   readonly folder?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveRestoreMethodFolder;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#s3 DataK8SK8UpIoScheduleV1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#s3 DataK8SK8UpIoScheduleV1Manifest#s3}
   */
   readonly s3?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveRestoreMethodS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#tls_options DataK8SK8UpIoScheduleV1Manifest#tls_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#tls_options DataK8SK8UpIoScheduleV1Manifest#tls_options}
   */
   readonly tlsOptions?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveRestoreMethodTlsOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#volume_mounts DataK8SK8UpIoScheduleV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#volume_mounts DataK8SK8UpIoScheduleV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveRestoreMethodVolumeMounts[] | cdktf.IResolvable;
 }
@@ -7212,19 +7212,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveVolumesConfigMapItems
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mode DataK8SK8UpIoScheduleV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mode DataK8SK8UpIoScheduleV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path: string;
 }
@@ -7394,25 +7394,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveVolumesConfigMap {
   /**
   * defaultMode is optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#default_mode DataK8SK8UpIoScheduleV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#default_mode DataK8SK8UpIoScheduleV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#items DataK8SK8UpIoScheduleV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#items DataK8SK8UpIoScheduleV1Manifest#items}
   */
   readonly items?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7595,13 +7595,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveVolumesPersistentVolu
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#claim_name DataK8SK8UpIoScheduleV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#claim_name DataK8SK8UpIoScheduleV1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -7723,19 +7723,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveVolumesSecretItems {
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mode DataK8SK8UpIoScheduleV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mode DataK8SK8UpIoScheduleV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path: string;
 }
@@ -7905,25 +7905,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveVolumesSecret {
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#default_mode DataK8SK8UpIoScheduleV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#default_mode DataK8SK8UpIoScheduleV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#items DataK8SK8UpIoScheduleV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#items DataK8SK8UpIoScheduleV1Manifest#items}
   */
   readonly items?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#secret_name DataK8SK8UpIoScheduleV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#secret_name DataK8SK8UpIoScheduleV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -8106,25 +8106,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchiveVolumes {
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#config_map DataK8SK8UpIoScheduleV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#config_map DataK8SK8UpIoScheduleV1Manifest#config_map}
   */
   readonly configMap?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveVolumesConfigMap;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name: string;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#persistent_volume_claim DataK8SK8UpIoScheduleV1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#persistent_volume_claim DataK8SK8UpIoScheduleV1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveVolumesPersistentVolumeClaim;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#secret DataK8SK8UpIoScheduleV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#secret DataK8SK8UpIoScheduleV1Manifest#secret}
   */
   readonly secret?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveVolumesSecret;
 }
@@ -8326,85 +8326,85 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecArchive {
   /**
   * ActiveDeadlineSeconds specifies the duration in seconds relative to the startTime that the job may be continuously active before the system tries to terminate it. Value must be positive integer if given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#active_deadline_seconds DataK8SK8UpIoScheduleV1Manifest#active_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#active_deadline_seconds DataK8SK8UpIoScheduleV1Manifest#active_deadline_seconds}
   */
   readonly activeDeadlineSeconds?: number;
   /**
   * Backend contains the restic repo where the job should backup to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#backend DataK8SK8UpIoScheduleV1Manifest#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#backend DataK8SK8UpIoScheduleV1Manifest#backend}
   */
   readonly backend?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveBackend;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#concurrent_runs_allowed DataK8SK8UpIoScheduleV1Manifest#concurrent_runs_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#concurrent_runs_allowed DataK8SK8UpIoScheduleV1Manifest#concurrent_runs_allowed}
   */
   readonly concurrentRunsAllowed?: boolean | cdktf.IResolvable;
   /**
   * FailedJobsHistoryLimit amount of failed jobs to keep for later analysis. KeepJobs is used property is not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#failed_jobs_history_limit DataK8SK8UpIoScheduleV1Manifest#failed_jobs_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#failed_jobs_history_limit DataK8SK8UpIoScheduleV1Manifest#failed_jobs_history_limit}
   */
   readonly failedJobsHistoryLimit?: number;
   /**
   * KeepJobs amount of jobs to keep for later analysis. Deprecated: Use FailedJobsHistoryLimit and SuccessfulJobsHistoryLimit respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#keep_jobs DataK8SK8UpIoScheduleV1Manifest#keep_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#keep_jobs DataK8SK8UpIoScheduleV1Manifest#keep_jobs}
   */
   readonly keepJobs?: number;
   /**
   * PodConfigRef describes the pod spec with wich this action shall be executed. It takes precedence over the Resources or PodSecurityContext field. It does not allow changing the image or the command of the resulting pod. This is for advanced use-cases only. Please only set this if you know what you're doing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#pod_config_ref DataK8SK8UpIoScheduleV1Manifest#pod_config_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#pod_config_ref DataK8SK8UpIoScheduleV1Manifest#pod_config_ref}
   */
   readonly podConfigRef?: DataK8SK8UpIoScheduleV1ManifestSpecArchivePodConfigRef;
   /**
   * PodSecurityContext describes the security context with which this action shall be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#pod_security_context DataK8SK8UpIoScheduleV1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#pod_security_context DataK8SK8UpIoScheduleV1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8SK8UpIoScheduleV1ManifestSpecArchivePodSecurityContext;
   /**
   * Resources describes the compute resource requirements (cpu, memory, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#resources DataK8SK8UpIoScheduleV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#resources DataK8SK8UpIoScheduleV1Manifest#resources}
   */
   readonly resources?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#restore_filter DataK8SK8UpIoScheduleV1Manifest#restore_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#restore_filter DataK8SK8UpIoScheduleV1Manifest#restore_filter}
   */
   readonly restoreFilter?: string;
   /**
   * RestoreMethod contains how and where the restore should happen all the settings are mutual exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#restore_method DataK8SK8UpIoScheduleV1Manifest#restore_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#restore_method DataK8SK8UpIoScheduleV1Manifest#restore_method}
   */
   readonly restoreMethod?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveRestoreMethod;
   /**
   * ScheduleDefinition is the actual cron-type expression that defines the interval of the actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#schedule DataK8SK8UpIoScheduleV1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#schedule DataK8SK8UpIoScheduleV1Manifest#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#snapshot DataK8SK8UpIoScheduleV1Manifest#snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#snapshot DataK8SK8UpIoScheduleV1Manifest#snapshot}
   */
   readonly snapshot?: string;
   /**
   * SuccessfulJobsHistoryLimit amount of successful jobs to keep for later analysis. KeepJobs is used property is not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#successful_jobs_history_limit DataK8SK8UpIoScheduleV1Manifest#successful_jobs_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#successful_jobs_history_limit DataK8SK8UpIoScheduleV1Manifest#successful_jobs_history_limit}
   */
   readonly successfulJobsHistoryLimit?: number;
   /**
   * Tags is a list of arbitrary tags that get added to the backup via Restic's tagging system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#tags DataK8SK8UpIoScheduleV1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#tags DataK8SK8UpIoScheduleV1Manifest#tags}
   */
   readonly tags?: string[];
   /**
   * Volumes List of volumes that can be mounted by containers belonging to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#volumes DataK8SK8UpIoScheduleV1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#volumes DataK8SK8UpIoScheduleV1Manifest#volumes}
   */
   readonly volumes?: DataK8SK8UpIoScheduleV1ManifestSpecArchiveVolumes[] | cdktf.IResolvable;
 }
@@ -8906,19 +8906,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendAzureAccountKeySecret
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9069,19 +9069,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendAzureAccountNameSecre
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9232,21 +9232,21 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendAzure {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
   */
   readonly accountKeySecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackendAzureAccountKeySecretRef;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_name_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_name_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_name_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_name_secret_ref}
   */
   readonly accountNameSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackendAzureAccountNameSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -9429,19 +9429,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendB2AccountIdSecretRef 
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9592,19 +9592,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendB2AccountKeySecretRef
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9755,21 +9755,21 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendB2 {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_id_secret_ref}
   */
   readonly accountIdSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackendB2AccountIdSecretRef;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
   */
   readonly accountKeySecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackendB2AccountKeySecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -9952,13 +9952,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendEnvFromConfigMapRef {
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10083,13 +10083,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendEnvFromSecretRef {
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10214,19 +10214,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendEnvFrom {
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#config_map_ref DataK8SK8UpIoScheduleV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#config_map_ref DataK8SK8UpIoScheduleV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackendEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#prefix DataK8SK8UpIoScheduleV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#prefix DataK8SK8UpIoScheduleV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackendEnvFromSecretRef;
 }
@@ -10402,19 +10402,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendGcsAccessTokenSecretR
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10565,19 +10565,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendGcsProjectIdSecretRef
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10728,17 +10728,17 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendGcs {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#access_token_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_token_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#access_token_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_token_secret_ref}
   */
   readonly accessTokenSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackendGcsAccessTokenSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#project_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#project_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#project_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#project_id_secret_ref}
   */
   readonly projectIdSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackendGcsProjectIdSecretRef;
 }
@@ -10890,7 +10890,7 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecBackendGcsOutputReference extend
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendLocal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
   */
   readonly mountPath?: string;
 }
@@ -10986,19 +10986,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendRepoPasswordSecretRef
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11149,19 +11149,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendRestPasswordSecretReg
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11312,19 +11312,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendRestUserSecretRef {
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11475,17 +11475,17 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendRest {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#password_secret_reg DataK8SK8UpIoScheduleV1Manifest#password_secret_reg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#password_secret_reg DataK8SK8UpIoScheduleV1Manifest#password_secret_reg}
   */
   readonly passwordSecretReg?: DataK8SK8UpIoScheduleV1ManifestSpecBackendRestPasswordSecretReg;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#url DataK8SK8UpIoScheduleV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#url DataK8SK8UpIoScheduleV1Manifest#url}
   */
   readonly url?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#user_secret_ref DataK8SK8UpIoScheduleV1Manifest#user_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#user_secret_ref DataK8SK8UpIoScheduleV1Manifest#user_secret_ref}
   */
   readonly userSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackendRestUserSecretRef;
 }
@@ -11639,19 +11639,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendS3AccessKeyIdSecretRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11802,19 +11802,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendS3SecretAccessKeySecr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11965,21 +11965,21 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendS3 {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#access_key_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_key_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#access_key_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_key_id_secret_ref}
   */
   readonly accessKeyIdSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackendS3AccessKeyIdSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#endpoint DataK8SK8UpIoScheduleV1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#endpoint DataK8SK8UpIoScheduleV1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#secret_access_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_access_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#secret_access_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_access_key_secret_ref}
   */
   readonly secretAccessKeySecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackendS3SecretAccessKeySecretRef;
 }
@@ -12160,11 +12160,11 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecBackendS3OutputReference extends
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendSwift {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -12287,15 +12287,15 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecBackendSwiftOutputReference exte
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendTlsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#ca_cert DataK8SK8UpIoScheduleV1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#ca_cert DataK8SK8UpIoScheduleV1Manifest#ca_cert}
   */
   readonly caCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#client_cert DataK8SK8UpIoScheduleV1Manifest#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#client_cert DataK8SK8UpIoScheduleV1Manifest#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#client_key DataK8SK8UpIoScheduleV1Manifest#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#client_key DataK8SK8UpIoScheduleV1Manifest#client_key}
   */
   readonly clientKey?: string;
 }
@@ -12449,37 +12449,37 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackendVolumeMounts {
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mount_propagation DataK8SK8UpIoScheduleV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mount_propagation DataK8SK8UpIoScheduleV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path DataK8SK8UpIoScheduleV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path DataK8SK8UpIoScheduleV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path_expr DataK8SK8UpIoScheduleV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path_expr DataK8SK8UpIoScheduleV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -12734,51 +12734,51 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecBackendVolumeMountsList extends 
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecBackend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#azure DataK8SK8UpIoScheduleV1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#azure DataK8SK8UpIoScheduleV1Manifest#azure}
   */
   readonly azure?: DataK8SK8UpIoScheduleV1ManifestSpecBackendAzure;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#b2 DataK8SK8UpIoScheduleV1Manifest#b2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#b2 DataK8SK8UpIoScheduleV1Manifest#b2}
   */
   readonly b2?: DataK8SK8UpIoScheduleV1ManifestSpecBackendB2;
   /**
   * EnvFrom adds all environment variables from a an external source to the Restic job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#env_from DataK8SK8UpIoScheduleV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#env_from DataK8SK8UpIoScheduleV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SK8UpIoScheduleV1ManifestSpecBackendEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#gcs DataK8SK8UpIoScheduleV1Manifest#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#gcs DataK8SK8UpIoScheduleV1Manifest#gcs}
   */
   readonly gcs?: DataK8SK8UpIoScheduleV1ManifestSpecBackendGcs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#local DataK8SK8UpIoScheduleV1Manifest#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#local DataK8SK8UpIoScheduleV1Manifest#local}
   */
   readonly local?: DataK8SK8UpIoScheduleV1ManifestSpecBackendLocal;
   /**
   * RepoPasswordSecretRef references a secret key to look up the restic repository password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#repo_password_secret_ref DataK8SK8UpIoScheduleV1Manifest#repo_password_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#repo_password_secret_ref DataK8SK8UpIoScheduleV1Manifest#repo_password_secret_ref}
   */
   readonly repoPasswordSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackendRepoPasswordSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#rest DataK8SK8UpIoScheduleV1Manifest#rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#rest DataK8SK8UpIoScheduleV1Manifest#rest}
   */
   readonly rest?: DataK8SK8UpIoScheduleV1ManifestSpecBackendRest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#s3 DataK8SK8UpIoScheduleV1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#s3 DataK8SK8UpIoScheduleV1Manifest#s3}
   */
   readonly s3?: DataK8SK8UpIoScheduleV1ManifestSpecBackendS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#swift DataK8SK8UpIoScheduleV1Manifest#swift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#swift DataK8SK8UpIoScheduleV1Manifest#swift}
   */
   readonly swift?: DataK8SK8UpIoScheduleV1ManifestSpecBackendSwift;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#tls_options DataK8SK8UpIoScheduleV1Manifest#tls_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#tls_options DataK8SK8UpIoScheduleV1Manifest#tls_options}
   */
   readonly tlsOptions?: DataK8SK8UpIoScheduleV1ManifestSpecBackendTlsOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#volume_mounts DataK8SK8UpIoScheduleV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#volume_mounts DataK8SK8UpIoScheduleV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SK8UpIoScheduleV1ManifestSpecBackendVolumeMounts[] | cdktf.IResolvable;
 }
@@ -13164,19 +13164,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendAzureAccountKey
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13327,19 +13327,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendAzureAccountNam
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13490,21 +13490,21 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendAzure {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
   */
   readonly accountKeySecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendAzureAccountKeySecretRef;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_name_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_name_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_name_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_name_secret_ref}
   */
   readonly accountNameSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendAzureAccountNameSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -13687,19 +13687,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendB2AccountIdSecr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13850,19 +13850,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendB2AccountKeySec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14013,21 +14013,21 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendB2 {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_id_secret_ref}
   */
   readonly accountIdSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendB2AccountIdSecretRef;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
   */
   readonly accountKeySecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendB2AccountKeySecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -14210,13 +14210,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendEnvFromConfigMa
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14341,13 +14341,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendEnvFromSecretRe
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14472,19 +14472,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendEnvFrom {
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#config_map_ref DataK8SK8UpIoScheduleV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#config_map_ref DataK8SK8UpIoScheduleV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#prefix DataK8SK8UpIoScheduleV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#prefix DataK8SK8UpIoScheduleV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendEnvFromSecretRef;
 }
@@ -14660,19 +14660,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendGcsAccessTokenS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14823,19 +14823,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendGcsProjectIdSec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14986,17 +14986,17 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendGcs {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#access_token_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_token_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#access_token_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_token_secret_ref}
   */
   readonly accessTokenSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendGcsAccessTokenSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#project_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#project_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#project_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#project_id_secret_ref}
   */
   readonly projectIdSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendGcsProjectIdSecretRef;
 }
@@ -15148,7 +15148,7 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendGcsOutputReference 
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendLocal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
   */
   readonly mountPath?: string;
 }
@@ -15244,19 +15244,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendRepoPasswordSec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15407,19 +15407,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendRestPasswordSec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15570,19 +15570,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendRestUserSecretR
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15733,17 +15733,17 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendRest {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#password_secret_reg DataK8SK8UpIoScheduleV1Manifest#password_secret_reg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#password_secret_reg DataK8SK8UpIoScheduleV1Manifest#password_secret_reg}
   */
   readonly passwordSecretReg?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendRestPasswordSecretReg;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#url DataK8SK8UpIoScheduleV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#url DataK8SK8UpIoScheduleV1Manifest#url}
   */
   readonly url?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#user_secret_ref DataK8SK8UpIoScheduleV1Manifest#user_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#user_secret_ref DataK8SK8UpIoScheduleV1Manifest#user_secret_ref}
   */
   readonly userSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendRestUserSecretRef;
 }
@@ -15897,19 +15897,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendS3AccessKeyIdSe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16060,19 +16060,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendS3SecretAccessK
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16223,21 +16223,21 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendS3 {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#access_key_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_key_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#access_key_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_key_id_secret_ref}
   */
   readonly accessKeyIdSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendS3AccessKeyIdSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#endpoint DataK8SK8UpIoScheduleV1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#endpoint DataK8SK8UpIoScheduleV1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#secret_access_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_access_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#secret_access_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_access_key_secret_ref}
   */
   readonly secretAccessKeySecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendS3SecretAccessKeySecretRef;
 }
@@ -16418,11 +16418,11 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendS3OutputReference e
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendSwift {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -16545,15 +16545,15 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendSwiftOutputReferenc
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendTlsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#ca_cert DataK8SK8UpIoScheduleV1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#ca_cert DataK8SK8UpIoScheduleV1Manifest#ca_cert}
   */
   readonly caCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#client_cert DataK8SK8UpIoScheduleV1Manifest#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#client_cert DataK8SK8UpIoScheduleV1Manifest#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#client_key DataK8SK8UpIoScheduleV1Manifest#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#client_key DataK8SK8UpIoScheduleV1Manifest#client_key}
   */
   readonly clientKey?: string;
 }
@@ -16707,37 +16707,37 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendVolumeMounts {
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mount_propagation DataK8SK8UpIoScheduleV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mount_propagation DataK8SK8UpIoScheduleV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path DataK8SK8UpIoScheduleV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path DataK8SK8UpIoScheduleV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path_expr DataK8SK8UpIoScheduleV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path_expr DataK8SK8UpIoScheduleV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -16992,51 +16992,51 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendVolumeMountsList ex
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupBackend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#azure DataK8SK8UpIoScheduleV1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#azure DataK8SK8UpIoScheduleV1Manifest#azure}
   */
   readonly azure?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendAzure;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#b2 DataK8SK8UpIoScheduleV1Manifest#b2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#b2 DataK8SK8UpIoScheduleV1Manifest#b2}
   */
   readonly b2?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendB2;
   /**
   * EnvFrom adds all environment variables from a an external source to the Restic job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#env_from DataK8SK8UpIoScheduleV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#env_from DataK8SK8UpIoScheduleV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#gcs DataK8SK8UpIoScheduleV1Manifest#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#gcs DataK8SK8UpIoScheduleV1Manifest#gcs}
   */
   readonly gcs?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendGcs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#local DataK8SK8UpIoScheduleV1Manifest#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#local DataK8SK8UpIoScheduleV1Manifest#local}
   */
   readonly local?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendLocal;
   /**
   * RepoPasswordSecretRef references a secret key to look up the restic repository password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#repo_password_secret_ref DataK8SK8UpIoScheduleV1Manifest#repo_password_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#repo_password_secret_ref DataK8SK8UpIoScheduleV1Manifest#repo_password_secret_ref}
   */
   readonly repoPasswordSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendRepoPasswordSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#rest DataK8SK8UpIoScheduleV1Manifest#rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#rest DataK8SK8UpIoScheduleV1Manifest#rest}
   */
   readonly rest?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendRest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#s3 DataK8SK8UpIoScheduleV1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#s3 DataK8SK8UpIoScheduleV1Manifest#s3}
   */
   readonly s3?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#swift DataK8SK8UpIoScheduleV1Manifest#swift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#swift DataK8SK8UpIoScheduleV1Manifest#swift}
   */
   readonly swift?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendSwift;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#tls_options DataK8SK8UpIoScheduleV1Manifest#tls_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#tls_options DataK8SK8UpIoScheduleV1Manifest#tls_options}
   */
   readonly tlsOptions?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendTlsOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#volume_mounts DataK8SK8UpIoScheduleV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#volume_mounts DataK8SK8UpIoScheduleV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackendVolumeMounts[] | cdktf.IResolvable;
 }
@@ -17422,7 +17422,7 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupPodConfigRef {
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -17518,25 +17518,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupPodSecurityContextSeLi
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#level DataK8SK8UpIoScheduleV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#level DataK8SK8UpIoScheduleV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#role DataK8SK8UpIoScheduleV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#role DataK8SK8UpIoScheduleV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#type DataK8SK8UpIoScheduleV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#type DataK8SK8UpIoScheduleV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#user DataK8SK8UpIoScheduleV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#user DataK8SK8UpIoScheduleV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -17719,13 +17719,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupPodSecurityContextSecc
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#localhost_profile DataK8SK8UpIoScheduleV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#localhost_profile DataK8SK8UpIoScheduleV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#type DataK8SK8UpIoScheduleV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#type DataK8SK8UpIoScheduleV1Manifest#type}
   */
   readonly type: string;
 }
@@ -17847,13 +17847,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupPodSecurityContextSysc
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#value DataK8SK8UpIoScheduleV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#value DataK8SK8UpIoScheduleV1Manifest#value}
   */
   readonly value: string;
 }
@@ -17994,25 +17994,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupPodSecurityContextWind
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#gmsa_credential_spec DataK8SK8UpIoScheduleV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#gmsa_credential_spec DataK8SK8UpIoScheduleV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#gmsa_credential_spec_name DataK8SK8UpIoScheduleV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#gmsa_credential_spec_name DataK8SK8UpIoScheduleV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#host_process DataK8SK8UpIoScheduleV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#host_process DataK8SK8UpIoScheduleV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_user_name DataK8SK8UpIoScheduleV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_user_name DataK8SK8UpIoScheduleV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -18195,61 +18195,61 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupPodSecurityContext {
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#fs_group DataK8SK8UpIoScheduleV1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#fs_group DataK8SK8UpIoScheduleV1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#fs_group_change_policy DataK8SK8UpIoScheduleV1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#fs_group_change_policy DataK8SK8UpIoScheduleV1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_group DataK8SK8UpIoScheduleV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_group DataK8SK8UpIoScheduleV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_non_root DataK8SK8UpIoScheduleV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_non_root DataK8SK8UpIoScheduleV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_user DataK8SK8UpIoScheduleV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_user DataK8SK8UpIoScheduleV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#se_linux_options DataK8SK8UpIoScheduleV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#se_linux_options DataK8SK8UpIoScheduleV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SK8UpIoScheduleV1ManifestSpecBackupPodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#seccomp_profile DataK8SK8UpIoScheduleV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#seccomp_profile DataK8SK8UpIoScheduleV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SK8UpIoScheduleV1ManifestSpecBackupPodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#supplemental_groups DataK8SK8UpIoScheduleV1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#supplemental_groups DataK8SK8UpIoScheduleV1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#sysctls DataK8SK8UpIoScheduleV1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#sysctls DataK8SK8UpIoScheduleV1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SK8UpIoScheduleV1ManifestSpecBackupPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#windows_options DataK8SK8UpIoScheduleV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#windows_options DataK8SK8UpIoScheduleV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SK8UpIoScheduleV1ManifestSpecBackupPodSecurityContextWindowsOptions;
 }
@@ -18606,7 +18606,7 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupResourcesClaims {
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name: string;
 }
@@ -18721,19 +18721,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#claims DataK8SK8UpIoScheduleV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#claims DataK8SK8UpIoScheduleV1Manifest#claims}
   */
   readonly claims?: DataK8SK8UpIoScheduleV1ManifestSpecBackupResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#limits DataK8SK8UpIoScheduleV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#limits DataK8SK8UpIoScheduleV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#requests DataK8SK8UpIoScheduleV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#requests DataK8SK8UpIoScheduleV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -18887,19 +18887,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupVolumesConfigMapItems 
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mode DataK8SK8UpIoScheduleV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mode DataK8SK8UpIoScheduleV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path: string;
 }
@@ -19069,25 +19069,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupVolumesConfigMap {
   /**
   * defaultMode is optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#default_mode DataK8SK8UpIoScheduleV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#default_mode DataK8SK8UpIoScheduleV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#items DataK8SK8UpIoScheduleV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#items DataK8SK8UpIoScheduleV1Manifest#items}
   */
   readonly items?: DataK8SK8UpIoScheduleV1ManifestSpecBackupVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19270,13 +19270,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupVolumesPersistentVolum
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#claim_name DataK8SK8UpIoScheduleV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#claim_name DataK8SK8UpIoScheduleV1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -19398,19 +19398,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupVolumesSecretItems {
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mode DataK8SK8UpIoScheduleV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mode DataK8SK8UpIoScheduleV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path: string;
 }
@@ -19580,25 +19580,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupVolumesSecret {
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#default_mode DataK8SK8UpIoScheduleV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#default_mode DataK8SK8UpIoScheduleV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#items DataK8SK8UpIoScheduleV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#items DataK8SK8UpIoScheduleV1Manifest#items}
   */
   readonly items?: DataK8SK8UpIoScheduleV1ManifestSpecBackupVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#secret_name DataK8SK8UpIoScheduleV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#secret_name DataK8SK8UpIoScheduleV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -19781,25 +19781,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackupVolumes {
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#config_map DataK8SK8UpIoScheduleV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#config_map DataK8SK8UpIoScheduleV1Manifest#config_map}
   */
   readonly configMap?: DataK8SK8UpIoScheduleV1ManifestSpecBackupVolumesConfigMap;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name: string;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#persistent_volume_claim DataK8SK8UpIoScheduleV1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#persistent_volume_claim DataK8SK8UpIoScheduleV1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SK8UpIoScheduleV1ManifestSpecBackupVolumesPersistentVolumeClaim;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#secret DataK8SK8UpIoScheduleV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#secret DataK8SK8UpIoScheduleV1Manifest#secret}
   */
   readonly secret?: DataK8SK8UpIoScheduleV1ManifestSpecBackupVolumesSecret;
 }
@@ -20001,83 +20001,83 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecBackup {
   /**
   * ActiveDeadlineSeconds specifies the duration in seconds relative to the startTime that the job may be continuously active before the system tries to terminate it. Value must be positive integer if given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#active_deadline_seconds DataK8SK8UpIoScheduleV1Manifest#active_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#active_deadline_seconds DataK8SK8UpIoScheduleV1Manifest#active_deadline_seconds}
   */
   readonly activeDeadlineSeconds?: number;
   /**
   * Backend contains the restic repo where the job should backup to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#backend DataK8SK8UpIoScheduleV1Manifest#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#backend DataK8SK8UpIoScheduleV1Manifest#backend}
   */
   readonly backend?: DataK8SK8UpIoScheduleV1ManifestSpecBackupBackend;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#concurrent_runs_allowed DataK8SK8UpIoScheduleV1Manifest#concurrent_runs_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#concurrent_runs_allowed DataK8SK8UpIoScheduleV1Manifest#concurrent_runs_allowed}
   */
   readonly concurrentRunsAllowed?: boolean | cdktf.IResolvable;
   /**
   * FailedJobsHistoryLimit amount of failed jobs to keep for later analysis. KeepJobs is used property is not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#failed_jobs_history_limit DataK8SK8UpIoScheduleV1Manifest#failed_jobs_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#failed_jobs_history_limit DataK8SK8UpIoScheduleV1Manifest#failed_jobs_history_limit}
   */
   readonly failedJobsHistoryLimit?: number;
   /**
   * KeepJobs amount of jobs to keep for later analysis. Deprecated: Use FailedJobsHistoryLimit and SuccessfulJobsHistoryLimit respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#keep_jobs DataK8SK8UpIoScheduleV1Manifest#keep_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#keep_jobs DataK8SK8UpIoScheduleV1Manifest#keep_jobs}
   */
   readonly keepJobs?: number;
   /**
   * PodConfigRef describes the pod spec with wich this action shall be executed. It takes precedence over the Resources or PodSecurityContext field. It does not allow changing the image or the command of the resulting pod. This is for advanced use-cases only. Please only set this if you know what you're doing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#pod_config_ref DataK8SK8UpIoScheduleV1Manifest#pod_config_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#pod_config_ref DataK8SK8UpIoScheduleV1Manifest#pod_config_ref}
   */
   readonly podConfigRef?: DataK8SK8UpIoScheduleV1ManifestSpecBackupPodConfigRef;
   /**
   * PodSecurityContext describes the security context with which this action shall be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#pod_security_context DataK8SK8UpIoScheduleV1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#pod_security_context DataK8SK8UpIoScheduleV1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8SK8UpIoScheduleV1ManifestSpecBackupPodSecurityContext;
   /**
   * PromURL sets a prometheus push URL where the backup container send metrics to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#prom_url DataK8SK8UpIoScheduleV1Manifest#prom_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#prom_url DataK8SK8UpIoScheduleV1Manifest#prom_url}
   */
   readonly promUrl?: string;
   /**
   * Resources describes the compute resource requirements (cpu, memory, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#resources DataK8SK8UpIoScheduleV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#resources DataK8SK8UpIoScheduleV1Manifest#resources}
   */
   readonly resources?: DataK8SK8UpIoScheduleV1ManifestSpecBackupResources;
   /**
   * ScheduleDefinition is the actual cron-type expression that defines the interval of the actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#schedule DataK8SK8UpIoScheduleV1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#schedule DataK8SK8UpIoScheduleV1Manifest#schedule}
   */
   readonly schedule?: string;
   /**
   * StatsURL sets an arbitrary URL where the restic container posts metrics and information about the snapshots to. This is in addition to the prometheus pushgateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#stats_url DataK8SK8UpIoScheduleV1Manifest#stats_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#stats_url DataK8SK8UpIoScheduleV1Manifest#stats_url}
   */
   readonly statsUrl?: string;
   /**
   * SuccessfulJobsHistoryLimit amount of successful jobs to keep for later analysis. KeepJobs is used property is not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#successful_jobs_history_limit DataK8SK8UpIoScheduleV1Manifest#successful_jobs_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#successful_jobs_history_limit DataK8SK8UpIoScheduleV1Manifest#successful_jobs_history_limit}
   */
   readonly successfulJobsHistoryLimit?: number;
   /**
   * Tags is a list of arbitrary tags that get added to the backup via Restic's tagging system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#tags DataK8SK8UpIoScheduleV1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#tags DataK8SK8UpIoScheduleV1Manifest#tags}
   */
   readonly tags?: string[];
   /**
   * Volumes List of volumes that can be mounted by containers belonging to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#volumes DataK8SK8UpIoScheduleV1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#volumes DataK8SK8UpIoScheduleV1Manifest#volumes}
   */
   readonly volumes?: DataK8SK8UpIoScheduleV1ManifestSpecBackupVolumes[] | cdktf.IResolvable;
 }
@@ -20550,19 +20550,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendAzureAccountKeyS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20713,19 +20713,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendAzureAccountName
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20876,21 +20876,21 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendAzure {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
   */
   readonly accountKeySecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendAzureAccountKeySecretRef;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_name_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_name_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_name_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_name_secret_ref}
   */
   readonly accountNameSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendAzureAccountNameSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -21073,19 +21073,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendB2AccountIdSecre
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21236,19 +21236,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendB2AccountKeySecr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21399,21 +21399,21 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendB2 {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_id_secret_ref}
   */
   readonly accountIdSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendB2AccountIdSecretRef;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
   */
   readonly accountKeySecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendB2AccountKeySecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -21596,13 +21596,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendEnvFromConfigMap
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21727,13 +21727,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendEnvFromSecretRef
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21858,19 +21858,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendEnvFrom {
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#config_map_ref DataK8SK8UpIoScheduleV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#config_map_ref DataK8SK8UpIoScheduleV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#prefix DataK8SK8UpIoScheduleV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#prefix DataK8SK8UpIoScheduleV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendEnvFromSecretRef;
 }
@@ -22046,19 +22046,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendGcsAccessTokenSe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22209,19 +22209,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendGcsProjectIdSecr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22372,17 +22372,17 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendGcs {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#access_token_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_token_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#access_token_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_token_secret_ref}
   */
   readonly accessTokenSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendGcsAccessTokenSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#project_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#project_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#project_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#project_id_secret_ref}
   */
   readonly projectIdSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendGcsProjectIdSecretRef;
 }
@@ -22534,7 +22534,7 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendGcsOutputReference e
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendLocal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
   */
   readonly mountPath?: string;
 }
@@ -22630,19 +22630,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendRepoPasswordSecr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22793,19 +22793,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendRestPasswordSecr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22956,19 +22956,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendRestUserSecretRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23119,17 +23119,17 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendRest {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#password_secret_reg DataK8SK8UpIoScheduleV1Manifest#password_secret_reg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#password_secret_reg DataK8SK8UpIoScheduleV1Manifest#password_secret_reg}
   */
   readonly passwordSecretReg?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendRestPasswordSecretReg;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#url DataK8SK8UpIoScheduleV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#url DataK8SK8UpIoScheduleV1Manifest#url}
   */
   readonly url?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#user_secret_ref DataK8SK8UpIoScheduleV1Manifest#user_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#user_secret_ref DataK8SK8UpIoScheduleV1Manifest#user_secret_ref}
   */
   readonly userSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendRestUserSecretRef;
 }
@@ -23283,19 +23283,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendS3AccessKeyIdSec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23446,19 +23446,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendS3SecretAccessKe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23609,21 +23609,21 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendS3 {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#access_key_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_key_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#access_key_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_key_id_secret_ref}
   */
   readonly accessKeyIdSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendS3AccessKeyIdSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#endpoint DataK8SK8UpIoScheduleV1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#endpoint DataK8SK8UpIoScheduleV1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#secret_access_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_access_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#secret_access_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_access_key_secret_ref}
   */
   readonly secretAccessKeySecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendS3SecretAccessKeySecretRef;
 }
@@ -23804,11 +23804,11 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendS3OutputReference ex
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendSwift {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -23931,15 +23931,15 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendSwiftOutputReference
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendTlsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#ca_cert DataK8SK8UpIoScheduleV1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#ca_cert DataK8SK8UpIoScheduleV1Manifest#ca_cert}
   */
   readonly caCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#client_cert DataK8SK8UpIoScheduleV1Manifest#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#client_cert DataK8SK8UpIoScheduleV1Manifest#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#client_key DataK8SK8UpIoScheduleV1Manifest#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#client_key DataK8SK8UpIoScheduleV1Manifest#client_key}
   */
   readonly clientKey?: string;
 }
@@ -24093,37 +24093,37 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendVolumeMounts {
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mount_propagation DataK8SK8UpIoScheduleV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mount_propagation DataK8SK8UpIoScheduleV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path DataK8SK8UpIoScheduleV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path DataK8SK8UpIoScheduleV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path_expr DataK8SK8UpIoScheduleV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#sub_path_expr DataK8SK8UpIoScheduleV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -24378,51 +24378,51 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendVolumeMountsList ext
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckBackend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#azure DataK8SK8UpIoScheduleV1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#azure DataK8SK8UpIoScheduleV1Manifest#azure}
   */
   readonly azure?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendAzure;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#b2 DataK8SK8UpIoScheduleV1Manifest#b2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#b2 DataK8SK8UpIoScheduleV1Manifest#b2}
   */
   readonly b2?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendB2;
   /**
   * EnvFrom adds all environment variables from a an external source to the Restic job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#env_from DataK8SK8UpIoScheduleV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#env_from DataK8SK8UpIoScheduleV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#gcs DataK8SK8UpIoScheduleV1Manifest#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#gcs DataK8SK8UpIoScheduleV1Manifest#gcs}
   */
   readonly gcs?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendGcs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#local DataK8SK8UpIoScheduleV1Manifest#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#local DataK8SK8UpIoScheduleV1Manifest#local}
   */
   readonly local?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendLocal;
   /**
   * RepoPasswordSecretRef references a secret key to look up the restic repository password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#repo_password_secret_ref DataK8SK8UpIoScheduleV1Manifest#repo_password_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#repo_password_secret_ref DataK8SK8UpIoScheduleV1Manifest#repo_password_secret_ref}
   */
   readonly repoPasswordSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendRepoPasswordSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#rest DataK8SK8UpIoScheduleV1Manifest#rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#rest DataK8SK8UpIoScheduleV1Manifest#rest}
   */
   readonly rest?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendRest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#s3 DataK8SK8UpIoScheduleV1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#s3 DataK8SK8UpIoScheduleV1Manifest#s3}
   */
   readonly s3?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#swift DataK8SK8UpIoScheduleV1Manifest#swift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#swift DataK8SK8UpIoScheduleV1Manifest#swift}
   */
   readonly swift?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendSwift;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#tls_options DataK8SK8UpIoScheduleV1Manifest#tls_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#tls_options DataK8SK8UpIoScheduleV1Manifest#tls_options}
   */
   readonly tlsOptions?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendTlsOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#volume_mounts DataK8SK8UpIoScheduleV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#volume_mounts DataK8SK8UpIoScheduleV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackendVolumeMounts[] | cdktf.IResolvable;
 }
@@ -24808,7 +24808,7 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckPodConfigRef {
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -24904,25 +24904,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckPodSecurityContextSeLin
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#level DataK8SK8UpIoScheduleV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#level DataK8SK8UpIoScheduleV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#role DataK8SK8UpIoScheduleV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#role DataK8SK8UpIoScheduleV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#type DataK8SK8UpIoScheduleV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#type DataK8SK8UpIoScheduleV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#user DataK8SK8UpIoScheduleV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#user DataK8SK8UpIoScheduleV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -25105,13 +25105,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckPodSecurityContextSecco
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#localhost_profile DataK8SK8UpIoScheduleV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#localhost_profile DataK8SK8UpIoScheduleV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#type DataK8SK8UpIoScheduleV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#type DataK8SK8UpIoScheduleV1Manifest#type}
   */
   readonly type: string;
 }
@@ -25233,13 +25233,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckPodSecurityContextSysct
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#value DataK8SK8UpIoScheduleV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#value DataK8SK8UpIoScheduleV1Manifest#value}
   */
   readonly value: string;
 }
@@ -25380,25 +25380,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckPodSecurityContextWindo
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#gmsa_credential_spec DataK8SK8UpIoScheduleV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#gmsa_credential_spec DataK8SK8UpIoScheduleV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#gmsa_credential_spec_name DataK8SK8UpIoScheduleV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#gmsa_credential_spec_name DataK8SK8UpIoScheduleV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#host_process DataK8SK8UpIoScheduleV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#host_process DataK8SK8UpIoScheduleV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_user_name DataK8SK8UpIoScheduleV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_user_name DataK8SK8UpIoScheduleV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -25581,61 +25581,61 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckPodSecurityContext {
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#fs_group DataK8SK8UpIoScheduleV1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#fs_group DataK8SK8UpIoScheduleV1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#fs_group_change_policy DataK8SK8UpIoScheduleV1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#fs_group_change_policy DataK8SK8UpIoScheduleV1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_group DataK8SK8UpIoScheduleV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_group DataK8SK8UpIoScheduleV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_non_root DataK8SK8UpIoScheduleV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_non_root DataK8SK8UpIoScheduleV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_user DataK8SK8UpIoScheduleV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_user DataK8SK8UpIoScheduleV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#se_linux_options DataK8SK8UpIoScheduleV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#se_linux_options DataK8SK8UpIoScheduleV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SK8UpIoScheduleV1ManifestSpecCheckPodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#seccomp_profile DataK8SK8UpIoScheduleV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#seccomp_profile DataK8SK8UpIoScheduleV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SK8UpIoScheduleV1ManifestSpecCheckPodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#supplemental_groups DataK8SK8UpIoScheduleV1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#supplemental_groups DataK8SK8UpIoScheduleV1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#sysctls DataK8SK8UpIoScheduleV1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#sysctls DataK8SK8UpIoScheduleV1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SK8UpIoScheduleV1ManifestSpecCheckPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#windows_options DataK8SK8UpIoScheduleV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#windows_options DataK8SK8UpIoScheduleV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SK8UpIoScheduleV1ManifestSpecCheckPodSecurityContextWindowsOptions;
 }
@@ -25992,7 +25992,7 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckResourcesClaims {
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name: string;
 }
@@ -26107,19 +26107,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#claims DataK8SK8UpIoScheduleV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#claims DataK8SK8UpIoScheduleV1Manifest#claims}
   */
   readonly claims?: DataK8SK8UpIoScheduleV1ManifestSpecCheckResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#limits DataK8SK8UpIoScheduleV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#limits DataK8SK8UpIoScheduleV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#requests DataK8SK8UpIoScheduleV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#requests DataK8SK8UpIoScheduleV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -26273,19 +26273,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckVolumesConfigMapItems {
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mode DataK8SK8UpIoScheduleV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mode DataK8SK8UpIoScheduleV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path: string;
 }
@@ -26455,25 +26455,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckVolumesConfigMap {
   /**
   * defaultMode is optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#default_mode DataK8SK8UpIoScheduleV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#default_mode DataK8SK8UpIoScheduleV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#items DataK8SK8UpIoScheduleV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#items DataK8SK8UpIoScheduleV1Manifest#items}
   */
   readonly items?: DataK8SK8UpIoScheduleV1ManifestSpecCheckVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26656,13 +26656,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckVolumesPersistentVolume
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#claim_name DataK8SK8UpIoScheduleV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#claim_name DataK8SK8UpIoScheduleV1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#read_only DataK8SK8UpIoScheduleV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -26784,19 +26784,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckVolumesSecretItems {
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mode DataK8SK8UpIoScheduleV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mode DataK8SK8UpIoScheduleV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path: string;
 }
@@ -26966,25 +26966,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckVolumesSecret {
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#default_mode DataK8SK8UpIoScheduleV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#default_mode DataK8SK8UpIoScheduleV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#items DataK8SK8UpIoScheduleV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#items DataK8SK8UpIoScheduleV1Manifest#items}
   */
   readonly items?: DataK8SK8UpIoScheduleV1ManifestSpecCheckVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#secret_name DataK8SK8UpIoScheduleV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#secret_name DataK8SK8UpIoScheduleV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -27167,25 +27167,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheckVolumes {
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#config_map DataK8SK8UpIoScheduleV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#config_map DataK8SK8UpIoScheduleV1Manifest#config_map}
   */
   readonly configMap?: DataK8SK8UpIoScheduleV1ManifestSpecCheckVolumesConfigMap;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name: string;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#persistent_volume_claim DataK8SK8UpIoScheduleV1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#persistent_volume_claim DataK8SK8UpIoScheduleV1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SK8UpIoScheduleV1ManifestSpecCheckVolumesPersistentVolumeClaim;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#secret DataK8SK8UpIoScheduleV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#secret DataK8SK8UpIoScheduleV1Manifest#secret}
   */
   readonly secret?: DataK8SK8UpIoScheduleV1ManifestSpecCheckVolumesSecret;
 }
@@ -27387,71 +27387,71 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecCheck {
   /**
   * ActiveDeadlineSeconds specifies the duration in seconds relative to the startTime that the job may be continuously active before the system tries to terminate it. Value must be positive integer if given.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#active_deadline_seconds DataK8SK8UpIoScheduleV1Manifest#active_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#active_deadline_seconds DataK8SK8UpIoScheduleV1Manifest#active_deadline_seconds}
   */
   readonly activeDeadlineSeconds?: number;
   /**
   * Backend contains the restic repo where the job should backup to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#backend DataK8SK8UpIoScheduleV1Manifest#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#backend DataK8SK8UpIoScheduleV1Manifest#backend}
   */
   readonly backend?: DataK8SK8UpIoScheduleV1ManifestSpecCheckBackend;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#concurrent_runs_allowed DataK8SK8UpIoScheduleV1Manifest#concurrent_runs_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#concurrent_runs_allowed DataK8SK8UpIoScheduleV1Manifest#concurrent_runs_allowed}
   */
   readonly concurrentRunsAllowed?: boolean | cdktf.IResolvable;
   /**
   * FailedJobsHistoryLimit amount of failed jobs to keep for later analysis. KeepJobs is used property is not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#failed_jobs_history_limit DataK8SK8UpIoScheduleV1Manifest#failed_jobs_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#failed_jobs_history_limit DataK8SK8UpIoScheduleV1Manifest#failed_jobs_history_limit}
   */
   readonly failedJobsHistoryLimit?: number;
   /**
   * KeepJobs amount of jobs to keep for later analysis. Deprecated: Use FailedJobsHistoryLimit and SuccessfulJobsHistoryLimit respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#keep_jobs DataK8SK8UpIoScheduleV1Manifest#keep_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#keep_jobs DataK8SK8UpIoScheduleV1Manifest#keep_jobs}
   */
   readonly keepJobs?: number;
   /**
   * PodConfigRef describes the pod spec with wich this action shall be executed. It takes precedence over the Resources or PodSecurityContext field. It does not allow changing the image or the command of the resulting pod. This is for advanced use-cases only. Please only set this if you know what you're doing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#pod_config_ref DataK8SK8UpIoScheduleV1Manifest#pod_config_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#pod_config_ref DataK8SK8UpIoScheduleV1Manifest#pod_config_ref}
   */
   readonly podConfigRef?: DataK8SK8UpIoScheduleV1ManifestSpecCheckPodConfigRef;
   /**
   * PodSecurityContext describes the security context with which this action shall be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#pod_security_context DataK8SK8UpIoScheduleV1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#pod_security_context DataK8SK8UpIoScheduleV1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8SK8UpIoScheduleV1ManifestSpecCheckPodSecurityContext;
   /**
   * PromURL sets a prometheus push URL where the backup container send metrics to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#prom_url DataK8SK8UpIoScheduleV1Manifest#prom_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#prom_url DataK8SK8UpIoScheduleV1Manifest#prom_url}
   */
   readonly promUrl?: string;
   /**
   * Resources describes the compute resource requirements (cpu, memory, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#resources DataK8SK8UpIoScheduleV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#resources DataK8SK8UpIoScheduleV1Manifest#resources}
   */
   readonly resources?: DataK8SK8UpIoScheduleV1ManifestSpecCheckResources;
   /**
   * ScheduleDefinition is the actual cron-type expression that defines the interval of the actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#schedule DataK8SK8UpIoScheduleV1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#schedule DataK8SK8UpIoScheduleV1Manifest#schedule}
   */
   readonly schedule?: string;
   /**
   * SuccessfulJobsHistoryLimit amount of successful jobs to keep for later analysis. KeepJobs is used property is not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#successful_jobs_history_limit DataK8SK8UpIoScheduleV1Manifest#successful_jobs_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#successful_jobs_history_limit DataK8SK8UpIoScheduleV1Manifest#successful_jobs_history_limit}
   */
   readonly successfulJobsHistoryLimit?: number;
   /**
   * Volumes List of volumes that can be mounted by containers belonging to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#volumes DataK8SK8UpIoScheduleV1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#volumes DataK8SK8UpIoScheduleV1Manifest#volumes}
   */
   readonly volumes?: DataK8SK8UpIoScheduleV1ManifestSpecCheckVolumes[] | cdktf.IResolvable;
 }
@@ -27866,7 +27866,7 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPodConfigRef {
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -27962,25 +27962,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPodSecurityContextSeLinuxOpt
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#level DataK8SK8UpIoScheduleV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#level DataK8SK8UpIoScheduleV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#role DataK8SK8UpIoScheduleV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#role DataK8SK8UpIoScheduleV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#type DataK8SK8UpIoScheduleV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#type DataK8SK8UpIoScheduleV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#user DataK8SK8UpIoScheduleV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#user DataK8SK8UpIoScheduleV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -28163,13 +28163,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPodSecurityContextSeccompPro
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#localhost_profile DataK8SK8UpIoScheduleV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#localhost_profile DataK8SK8UpIoScheduleV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#type DataK8SK8UpIoScheduleV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#type DataK8SK8UpIoScheduleV1Manifest#type}
   */
   readonly type: string;
 }
@@ -28291,13 +28291,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPodSecurityContextSysctls {
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#value DataK8SK8UpIoScheduleV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#value DataK8SK8UpIoScheduleV1Manifest#value}
   */
   readonly value: string;
 }
@@ -28438,25 +28438,25 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPodSecurityContextWindowsOpt
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#gmsa_credential_spec DataK8SK8UpIoScheduleV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#gmsa_credential_spec DataK8SK8UpIoScheduleV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#gmsa_credential_spec_name DataK8SK8UpIoScheduleV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#gmsa_credential_spec_name DataK8SK8UpIoScheduleV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#host_process DataK8SK8UpIoScheduleV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#host_process DataK8SK8UpIoScheduleV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_user_name DataK8SK8UpIoScheduleV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_user_name DataK8SK8UpIoScheduleV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -28639,61 +28639,61 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPodSecurityContext {
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#fs_group DataK8SK8UpIoScheduleV1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#fs_group DataK8SK8UpIoScheduleV1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#fs_group_change_policy DataK8SK8UpIoScheduleV1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#fs_group_change_policy DataK8SK8UpIoScheduleV1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_group DataK8SK8UpIoScheduleV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_group DataK8SK8UpIoScheduleV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_non_root DataK8SK8UpIoScheduleV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_non_root DataK8SK8UpIoScheduleV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_user DataK8SK8UpIoScheduleV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#run_as_user DataK8SK8UpIoScheduleV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#se_linux_options DataK8SK8UpIoScheduleV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#se_linux_options DataK8SK8UpIoScheduleV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SK8UpIoScheduleV1ManifestSpecPodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#seccomp_profile DataK8SK8UpIoScheduleV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#seccomp_profile DataK8SK8UpIoScheduleV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SK8UpIoScheduleV1ManifestSpecPodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#supplemental_groups DataK8SK8UpIoScheduleV1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#supplemental_groups DataK8SK8UpIoScheduleV1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#sysctls DataK8SK8UpIoScheduleV1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#sysctls DataK8SK8UpIoScheduleV1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SK8UpIoScheduleV1ManifestSpecPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#windows_options DataK8SK8UpIoScheduleV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#windows_options DataK8SK8UpIoScheduleV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SK8UpIoScheduleV1ManifestSpecPodSecurityContextWindowsOptions;
 }
@@ -29050,19 +29050,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendAzureAccountKeyS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29213,19 +29213,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendAzureAccountName
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29376,21 +29376,21 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendAzure {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
   */
   readonly accountKeySecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendAzureAccountKeySecretRef;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_name_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_name_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_name_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_name_secret_ref}
   */
   readonly accountNameSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendAzureAccountNameSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#container DataK8SK8UpIoScheduleV1Manifest#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -29573,19 +29573,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendB2AccountIdSecre
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29736,19 +29736,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendB2AccountKeySecr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29899,21 +29899,21 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendB2 {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_id_secret_ref}
   */
   readonly accountIdSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendB2AccountIdSecretRef;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#account_key_secret_ref DataK8SK8UpIoScheduleV1Manifest#account_key_secret_ref}
   */
   readonly accountKeySecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendB2AccountKeySecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#path DataK8SK8UpIoScheduleV1Manifest#path}
   */
   readonly path?: string;
 }
@@ -30096,13 +30096,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendEnvFromConfigMap
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30227,13 +30227,13 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendEnvFromSecretRef
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30358,19 +30358,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendEnvFrom {
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#config_map_ref DataK8SK8UpIoScheduleV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#config_map_ref DataK8SK8UpIoScheduleV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#prefix DataK8SK8UpIoScheduleV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#prefix DataK8SK8UpIoScheduleV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#secret_ref DataK8SK8UpIoScheduleV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendEnvFromSecretRef;
 }
@@ -30546,19 +30546,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendGcsAccessTokenSe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30709,19 +30709,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendGcsProjectIdSecr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30872,17 +30872,17 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendGcs {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#access_token_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_token_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#access_token_secret_ref DataK8SK8UpIoScheduleV1Manifest#access_token_secret_ref}
   */
   readonly accessTokenSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendGcsAccessTokenSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#bucket DataK8SK8UpIoScheduleV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#project_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#project_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#project_id_secret_ref DataK8SK8UpIoScheduleV1Manifest#project_id_secret_ref}
   */
   readonly projectIdSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendGcsProjectIdSecretRef;
 }
@@ -31034,7 +31034,7 @@ export class DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendGcsOutputReference e
 }
 export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendLocal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#mount_path DataK8SK8UpIoScheduleV1Manifest#mount_path}
   */
   readonly mountPath?: string;
 }
@@ -31130,19 +31130,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendRepoPasswordSecr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -31293,19 +31293,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendRestPasswordSecr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -31456,19 +31456,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendRestUserSecretRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -31619,17 +31619,17 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendRest {
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#password_secret_reg DataK8SK8UpIoScheduleV1Manifest#password_secret_reg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#password_secret_reg DataK8SK8UpIoScheduleV1Manifest#password_secret_reg}
   */
   readonly passwordSecretReg?: DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendRestPasswordSecretReg;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#url DataK8SK8UpIoScheduleV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#url DataK8SK8UpIoScheduleV1Manifest#url}
   */
   readonly url?: string;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#user_secret_ref DataK8SK8UpIoScheduleV1Manifest#user_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#user_secret_ref DataK8SK8UpIoScheduleV1Manifest#user_secret_ref}
   */
   readonly userSecretRef?: DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendRestUserSecretRef;
 }
@@ -31783,19 +31783,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendS3AccessKeyIdSec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -31946,19 +31946,19 @@ export interface DataK8SK8UpIoScheduleV1ManifestSpecPruneBackendS3SecretAccessKe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#key DataK8SK8UpIoScheduleV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#name DataK8SK8UpIoScheduleV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8up_io_schedule_v1_manifest#optional DataK8SK8UpIoScheduleV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }

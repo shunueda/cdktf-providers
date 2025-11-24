@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha
   /**
   * DeletionPolicy determines whether a VolumeGroupSnapshotContent created through the VolumeGroupSnapshotClass should be deleted when its bound VolumeGroupSnapshot is deleted. Supported values are 'Retain' and 'Delete'. 'Retain' means that the VolumeGroupSnapshotContent and its physical group snapshot on underlying storage system are kept. 'Delete' means that the VolumeGroupSnapshotContent and its physical group snapshot on underlying storage system are deleted. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest#deletion_policy DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest#deletion_policy DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest#deletion_policy}
   */
   readonly deletionPolicy: string;
   /**
   * Driver is the name of the storage driver expected to handle this VolumeGroupSnapshotClass. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest#driver DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest#driver DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest#metadata DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest#metadata DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1ManifestMetadata;
   /**
   * Parameters is a key-value map with storage driver specific parameters for creating group snapshots. These values are opaque to Kubernetes and are passed directly to the driver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest#parameters DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest#parameters DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest#parameters}
   */
   readonly parameters?: { [key: string]: string };
 }
@@ -36,19 +36,19 @@ export interface DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest#annotations DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest#annotations DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest#labels DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest#labels DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest#name DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest#name DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -197,7 +197,7 @@ export class DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Man
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest k8s_groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest k8s_groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest}
 */
 export class DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -213,7 +213,7 @@ export class DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Man
   * Generates CDKTF code for importing a DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -225,7 +225,7 @@ export class DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Man
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest k8s_groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest k8s_groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,8 +236,8 @@ export class DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotClassV1Alpha1Man
       terraformResourceType: 'k8s_groupsnapshot_storage_k8s_io_volume_group_snapshot_class_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

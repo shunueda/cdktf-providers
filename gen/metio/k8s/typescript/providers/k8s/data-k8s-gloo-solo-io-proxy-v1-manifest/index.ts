@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SGlooSoloIoProxyV1ManifestConfig extends cdktf.TerraformM
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#metadata DataK8SGlooSoloIoProxyV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#metadata DataK8SGlooSoloIoProxyV1Manifest#metadata}
   */
   readonly metadata: DataK8SGlooSoloIoProxyV1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#spec DataK8SGlooSoloIoProxyV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#spec DataK8SGlooSoloIoProxyV1Manifest#spec}
   */
   readonly spec?: DataK8SGlooSoloIoProxyV1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SGlooSoloIoProxyV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#annotations DataK8SGlooSoloIoProxyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#annotations DataK8SGlooSoloIoProxyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#labels DataK8SGlooSoloIoProxyV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#labels DataK8SGlooSoloIoProxyV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#name DataK8SGlooSoloIoProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#name DataK8SGlooSoloIoProxyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#namespace DataK8SGlooSoloIoProxyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#namespace DataK8SGlooSoloIoProxyV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,11 +215,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestMetadataOutputReference extends cdk
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersMetadataStaticSourcesResourceRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#name DataK8SGlooSoloIoProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#name DataK8SGlooSoloIoProxyV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#namespace DataK8SGlooSoloIoProxyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#namespace DataK8SGlooSoloIoProxyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -342,15 +342,15 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersMetadataStaticSourcesR
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersMetadataStaticSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#observed_generation DataK8SGlooSoloIoProxyV1Manifest#observed_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#observed_generation DataK8SGlooSoloIoProxyV1Manifest#observed_generation}
   */
   readonly observedGeneration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#resource_kind DataK8SGlooSoloIoProxyV1Manifest#resource_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#resource_kind DataK8SGlooSoloIoProxyV1Manifest#resource_kind}
   */
   readonly resourceKind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#resource_ref DataK8SGlooSoloIoProxyV1Manifest#resource_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#resource_ref DataK8SGlooSoloIoProxyV1Manifest#resource_ref}
   */
   readonly resourceRef?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersMetadataStaticSourcesResourceRef;
 }
@@ -524,7 +524,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersMetadataStaticSourcesL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersMetadataStatic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#sources DataK8SGlooSoloIoProxyV1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#sources DataK8SGlooSoloIoProxyV1Manifest#sources}
   */
   readonly sources?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersMetadataStaticSources[] | cdktf.IResolvable;
 }
@@ -618,15 +618,15 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersMetadataStaticOutputRe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFileSink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#json_format DataK8SGlooSoloIoProxyV1Manifest#json_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#json_format DataK8SGlooSoloIoProxyV1Manifest#json_format}
   */
   readonly jsonFormat?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#path DataK8SGlooSoloIoProxyV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#path DataK8SGlooSoloIoProxyV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#string_format DataK8SGlooSoloIoProxyV1Manifest#string_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#string_format DataK8SGlooSoloIoProxyV1Manifest#string_format}
   */
   readonly stringFormat?: string;
 }
@@ -778,11 +778,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterDurationFilterComparisonValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#default_value DataK8SGlooSoloIoProxyV1Manifest#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#default_value DataK8SGlooSoloIoProxyV1Manifest#default_value}
   */
   readonly defaultValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#runtime_key DataK8SGlooSoloIoProxyV1Manifest#runtime_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#runtime_key DataK8SGlooSoloIoProxyV1Manifest#runtime_key}
   */
   readonly runtimeKey?: string;
 }
@@ -905,11 +905,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterDurationFilterComparison {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#op DataK8SGlooSoloIoProxyV1Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#op DataK8SGlooSoloIoProxyV1Manifest#op}
   */
   readonly op?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#value DataK8SGlooSoloIoProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#value DataK8SGlooSoloIoProxyV1Manifest#value}
   */
   readonly value?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterDurationFilterComparisonValue;
 }
@@ -1032,7 +1032,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterDurationFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#comparison DataK8SGlooSoloIoProxyV1Manifest#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#comparison DataK8SGlooSoloIoProxyV1Manifest#comparison}
   */
   readonly comparison?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterDurationFilterComparison;
 }
@@ -1126,11 +1126,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterGrpcStatusFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#exclude DataK8SGlooSoloIoProxyV1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#exclude DataK8SGlooSoloIoProxyV1Manifest#exclude}
   */
   readonly exclude?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#statuses DataK8SGlooSoloIoProxyV1Manifest#statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#statuses DataK8SGlooSoloIoProxyV1Manifest#statuses}
   */
   readonly statuses?: string[];
 }
@@ -1253,11 +1253,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterHeaderFilterHeaderRangeMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#end DataK8SGlooSoloIoProxyV1Manifest#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#end DataK8SGlooSoloIoProxyV1Manifest#end}
   */
   readonly end?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#start DataK8SGlooSoloIoProxyV1Manifest#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#start DataK8SGlooSoloIoProxyV1Manifest#start}
   */
   readonly start?: number;
 }
@@ -1380,7 +1380,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterHeaderFilterHeaderSafeRegexMatchGoogleRe2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#max_program_size DataK8SGlooSoloIoProxyV1Manifest#max_program_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#max_program_size DataK8SGlooSoloIoProxyV1Manifest#max_program_size}
   */
   readonly maxProgramSize?: number;
 }
@@ -1474,11 +1474,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterHeaderFilterHeaderSafeRegexMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#google_re2 DataK8SGlooSoloIoProxyV1Manifest#google_re2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#google_re2 DataK8SGlooSoloIoProxyV1Manifest#google_re2}
   */
   readonly googleRe2?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterHeaderFilterHeaderSafeRegexMatchGoogleRe2;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#regex DataK8SGlooSoloIoProxyV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#regex DataK8SGlooSoloIoProxyV1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -1601,35 +1601,35 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterHeaderFilterHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#exact_match DataK8SGlooSoloIoProxyV1Manifest#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#exact_match DataK8SGlooSoloIoProxyV1Manifest#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#invert_match DataK8SGlooSoloIoProxyV1Manifest#invert_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#invert_match DataK8SGlooSoloIoProxyV1Manifest#invert_match}
   */
   readonly invertMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#name DataK8SGlooSoloIoProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#name DataK8SGlooSoloIoProxyV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#prefix_match DataK8SGlooSoloIoProxyV1Manifest#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#prefix_match DataK8SGlooSoloIoProxyV1Manifest#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#present_match DataK8SGlooSoloIoProxyV1Manifest#present_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#present_match DataK8SGlooSoloIoProxyV1Manifest#present_match}
   */
   readonly presentMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#range_match DataK8SGlooSoloIoProxyV1Manifest#range_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#range_match DataK8SGlooSoloIoProxyV1Manifest#range_match}
   */
   readonly rangeMatch?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterHeaderFilterHeaderRangeMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#safe_regex_match DataK8SGlooSoloIoProxyV1Manifest#safe_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#safe_regex_match DataK8SGlooSoloIoProxyV1Manifest#safe_regex_match}
   */
   readonly safeRegexMatch?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterHeaderFilterHeaderSafeRegexMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#suffix_match DataK8SGlooSoloIoProxyV1Manifest#suffix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#suffix_match DataK8SGlooSoloIoProxyV1Manifest#suffix_match}
   */
   readonly suffixMatch?: string;
 }
@@ -1926,7 +1926,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterHeaderFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#header DataK8SGlooSoloIoProxyV1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#header DataK8SGlooSoloIoProxyV1Manifest#header}
   */
   readonly header?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterHeaderFilterHeader;
 }
@@ -2020,7 +2020,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterResponseFlagFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#flags DataK8SGlooSoloIoProxyV1Manifest#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#flags DataK8SGlooSoloIoProxyV1Manifest#flags}
   */
   readonly flags?: string[];
 }
@@ -2114,11 +2114,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterRuntimeFilterPercentSampled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#denominator DataK8SGlooSoloIoProxyV1Manifest#denominator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#denominator DataK8SGlooSoloIoProxyV1Manifest#denominator}
   */
   readonly denominator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#numerator DataK8SGlooSoloIoProxyV1Manifest#numerator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#numerator DataK8SGlooSoloIoProxyV1Manifest#numerator}
   */
   readonly numerator?: number;
 }
@@ -2241,15 +2241,15 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterRuntimeFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#percent_sampled DataK8SGlooSoloIoProxyV1Manifest#percent_sampled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#percent_sampled DataK8SGlooSoloIoProxyV1Manifest#percent_sampled}
   */
   readonly percentSampled?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterRuntimeFilterPercentSampled;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#runtime_key DataK8SGlooSoloIoProxyV1Manifest#runtime_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#runtime_key DataK8SGlooSoloIoProxyV1Manifest#runtime_key}
   */
   readonly runtimeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#use_independent_randomness DataK8SGlooSoloIoProxyV1Manifest#use_independent_randomness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#use_independent_randomness DataK8SGlooSoloIoProxyV1Manifest#use_independent_randomness}
   */
   readonly useIndependentRandomness?: boolean | cdktf.IResolvable;
 }
@@ -2401,11 +2401,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterStatusCodeFilterComparisonValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#default_value DataK8SGlooSoloIoProxyV1Manifest#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#default_value DataK8SGlooSoloIoProxyV1Manifest#default_value}
   */
   readonly defaultValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#runtime_key DataK8SGlooSoloIoProxyV1Manifest#runtime_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#runtime_key DataK8SGlooSoloIoProxyV1Manifest#runtime_key}
   */
   readonly runtimeKey?: string;
 }
@@ -2528,11 +2528,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterStatusCodeFilterComparison {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#op DataK8SGlooSoloIoProxyV1Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#op DataK8SGlooSoloIoProxyV1Manifest#op}
   */
   readonly op?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#value DataK8SGlooSoloIoProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#value DataK8SGlooSoloIoProxyV1Manifest#value}
   */
   readonly value?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterStatusCodeFilterComparisonValue;
 }
@@ -2655,7 +2655,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterStatusCodeFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#comparison DataK8SGlooSoloIoProxyV1Manifest#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#comparison DataK8SGlooSoloIoProxyV1Manifest#comparison}
   */
   readonly comparison?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterStatusCodeFilterComparison;
 }
@@ -2749,43 +2749,43 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#and_filter DataK8SGlooSoloIoProxyV1Manifest#and_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#and_filter DataK8SGlooSoloIoProxyV1Manifest#and_filter}
   */
   readonly andFilter?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#duration_filter DataK8SGlooSoloIoProxyV1Manifest#duration_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#duration_filter DataK8SGlooSoloIoProxyV1Manifest#duration_filter}
   */
   readonly durationFilter?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterDurationFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#grpc_status_filter DataK8SGlooSoloIoProxyV1Manifest#grpc_status_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#grpc_status_filter DataK8SGlooSoloIoProxyV1Manifest#grpc_status_filter}
   */
   readonly grpcStatusFilter?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterGrpcStatusFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#header_filter DataK8SGlooSoloIoProxyV1Manifest#header_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#header_filter DataK8SGlooSoloIoProxyV1Manifest#header_filter}
   */
   readonly headerFilter?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterHeaderFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#not_health_check_filter DataK8SGlooSoloIoProxyV1Manifest#not_health_check_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#not_health_check_filter DataK8SGlooSoloIoProxyV1Manifest#not_health_check_filter}
   */
   readonly notHealthCheckFilter?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#or_filter DataK8SGlooSoloIoProxyV1Manifest#or_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#or_filter DataK8SGlooSoloIoProxyV1Manifest#or_filter}
   */
   readonly orFilter?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#response_flag_filter DataK8SGlooSoloIoProxyV1Manifest#response_flag_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#response_flag_filter DataK8SGlooSoloIoProxyV1Manifest#response_flag_filter}
   */
   readonly responseFlagFilter?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterResponseFlagFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#runtime_filter DataK8SGlooSoloIoProxyV1Manifest#runtime_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#runtime_filter DataK8SGlooSoloIoProxyV1Manifest#runtime_filter}
   */
   readonly runtimeFilter?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterRuntimeFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#status_code_filter DataK8SGlooSoloIoProxyV1Manifest#status_code_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#status_code_filter DataK8SGlooSoloIoProxyV1Manifest#status_code_filter}
   */
   readonly statusCodeFilter?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilterStatusCodeFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#traceable_filter DataK8SGlooSoloIoProxyV1Manifest#traceable_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#traceable_filter DataK8SGlooSoloIoProxyV1Manifest#traceable_filter}
   */
   readonly traceableFilter?: { [key: string]: string };
 }
@@ -3140,23 +3140,23 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogGrpcService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#additional_request_headers_to_log DataK8SGlooSoloIoProxyV1Manifest#additional_request_headers_to_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#additional_request_headers_to_log DataK8SGlooSoloIoProxyV1Manifest#additional_request_headers_to_log}
   */
   readonly additionalRequestHeadersToLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#additional_response_headers_to_log DataK8SGlooSoloIoProxyV1Manifest#additional_response_headers_to_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#additional_response_headers_to_log DataK8SGlooSoloIoProxyV1Manifest#additional_response_headers_to_log}
   */
   readonly additionalResponseHeadersToLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#additional_response_trailers_to_log DataK8SGlooSoloIoProxyV1Manifest#additional_response_trailers_to_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#additional_response_trailers_to_log DataK8SGlooSoloIoProxyV1Manifest#additional_response_trailers_to_log}
   */
   readonly additionalResponseTrailersToLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#log_name DataK8SGlooSoloIoProxyV1Manifest#log_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#log_name DataK8SGlooSoloIoProxyV1Manifest#log_name}
   */
   readonly logName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#static_cluster_name DataK8SGlooSoloIoProxyV1Manifest#static_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#static_cluster_name DataK8SGlooSoloIoProxyV1Manifest#static_cluster_name}
   */
   readonly staticClusterName?: string;
 }
@@ -3366,15 +3366,15 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#file_sink DataK8SGlooSoloIoProxyV1Manifest#file_sink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#file_sink DataK8SGlooSoloIoProxyV1Manifest#file_sink}
   */
   readonly fileSink?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFileSink;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#filter DataK8SGlooSoloIoProxyV1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#filter DataK8SGlooSoloIoProxyV1Manifest#filter}
   */
   readonly filter?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#grpc_service DataK8SGlooSoloIoProxyV1Manifest#grpc_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#grpc_service DataK8SGlooSoloIoProxyV1Manifest#grpc_service}
   */
   readonly grpcService?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLogGrpcService;
 }
@@ -3548,7 +3548,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#access_log DataK8SGlooSoloIoProxyV1Manifest#access_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#access_log DataK8SGlooSoloIoProxyV1Manifest#access_log}
   */
   readonly accessLog?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingServiceAccessLog[] | cdktf.IResolvable;
 }
@@ -3642,7 +3642,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingSe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsConnectionBalanceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#exact_balance DataK8SGlooSoloIoProxyV1Manifest#exact_balance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#exact_balance DataK8SGlooSoloIoProxyV1Manifest#exact_balance}
   */
   readonly exactBalance?: { [key: string]: string };
 }
@@ -3736,7 +3736,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsConnectionBalan
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsExtensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#configs DataK8SGlooSoloIoProxyV1Manifest#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#configs DataK8SGlooSoloIoProxyV1Manifest#configs}
   */
   readonly configs?: { [key: string]: string };
 }
@@ -3830,15 +3830,15 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsExtensionsOutpu
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFileSink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#json_format DataK8SGlooSoloIoProxyV1Manifest#json_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#json_format DataK8SGlooSoloIoProxyV1Manifest#json_format}
   */
   readonly jsonFormat?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#path DataK8SGlooSoloIoProxyV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#path DataK8SGlooSoloIoProxyV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#string_format DataK8SGlooSoloIoProxyV1Manifest#string_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#string_format DataK8SGlooSoloIoProxyV1Manifest#string_format}
   */
   readonly stringFormat?: string;
 }
@@ -3990,11 +3990,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterDurationFilterComparisonValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#default_value DataK8SGlooSoloIoProxyV1Manifest#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#default_value DataK8SGlooSoloIoProxyV1Manifest#default_value}
   */
   readonly defaultValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#runtime_key DataK8SGlooSoloIoProxyV1Manifest#runtime_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#runtime_key DataK8SGlooSoloIoProxyV1Manifest#runtime_key}
   */
   readonly runtimeKey?: string;
 }
@@ -4117,11 +4117,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterDurationFilterComparison {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#op DataK8SGlooSoloIoProxyV1Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#op DataK8SGlooSoloIoProxyV1Manifest#op}
   */
   readonly op?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#value DataK8SGlooSoloIoProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#value DataK8SGlooSoloIoProxyV1Manifest#value}
   */
   readonly value?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterDurationFilterComparisonValue;
 }
@@ -4244,7 +4244,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterDurationFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#comparison DataK8SGlooSoloIoProxyV1Manifest#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#comparison DataK8SGlooSoloIoProxyV1Manifest#comparison}
   */
   readonly comparison?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterDurationFilterComparison;
 }
@@ -4338,11 +4338,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterGrpcStatusFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#exclude DataK8SGlooSoloIoProxyV1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#exclude DataK8SGlooSoloIoProxyV1Manifest#exclude}
   */
   readonly exclude?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#statuses DataK8SGlooSoloIoProxyV1Manifest#statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#statuses DataK8SGlooSoloIoProxyV1Manifest#statuses}
   */
   readonly statuses?: string[];
 }
@@ -4465,11 +4465,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterHeaderFilterHeaderRangeMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#end DataK8SGlooSoloIoProxyV1Manifest#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#end DataK8SGlooSoloIoProxyV1Manifest#end}
   */
   readonly end?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#start DataK8SGlooSoloIoProxyV1Manifest#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#start DataK8SGlooSoloIoProxyV1Manifest#start}
   */
   readonly start?: number;
 }
@@ -4592,7 +4592,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterHeaderFilterHeaderSafeRegexMatchGoogleRe2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#max_program_size DataK8SGlooSoloIoProxyV1Manifest#max_program_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#max_program_size DataK8SGlooSoloIoProxyV1Manifest#max_program_size}
   */
   readonly maxProgramSize?: number;
 }
@@ -4686,11 +4686,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterHeaderFilterHeaderSafeRegexMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#google_re2 DataK8SGlooSoloIoProxyV1Manifest#google_re2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#google_re2 DataK8SGlooSoloIoProxyV1Manifest#google_re2}
   */
   readonly googleRe2?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterHeaderFilterHeaderSafeRegexMatchGoogleRe2;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#regex DataK8SGlooSoloIoProxyV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#regex DataK8SGlooSoloIoProxyV1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -4813,35 +4813,35 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterHeaderFilterHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#exact_match DataK8SGlooSoloIoProxyV1Manifest#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#exact_match DataK8SGlooSoloIoProxyV1Manifest#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#invert_match DataK8SGlooSoloIoProxyV1Manifest#invert_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#invert_match DataK8SGlooSoloIoProxyV1Manifest#invert_match}
   */
   readonly invertMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#name DataK8SGlooSoloIoProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#name DataK8SGlooSoloIoProxyV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#prefix_match DataK8SGlooSoloIoProxyV1Manifest#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#prefix_match DataK8SGlooSoloIoProxyV1Manifest#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#present_match DataK8SGlooSoloIoProxyV1Manifest#present_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#present_match DataK8SGlooSoloIoProxyV1Manifest#present_match}
   */
   readonly presentMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#range_match DataK8SGlooSoloIoProxyV1Manifest#range_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#range_match DataK8SGlooSoloIoProxyV1Manifest#range_match}
   */
   readonly rangeMatch?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterHeaderFilterHeaderRangeMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#safe_regex_match DataK8SGlooSoloIoProxyV1Manifest#safe_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#safe_regex_match DataK8SGlooSoloIoProxyV1Manifest#safe_regex_match}
   */
   readonly safeRegexMatch?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterHeaderFilterHeaderSafeRegexMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#suffix_match DataK8SGlooSoloIoProxyV1Manifest#suffix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#suffix_match DataK8SGlooSoloIoProxyV1Manifest#suffix_match}
   */
   readonly suffixMatch?: string;
 }
@@ -5138,7 +5138,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterHeaderFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#header DataK8SGlooSoloIoProxyV1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#header DataK8SGlooSoloIoProxyV1Manifest#header}
   */
   readonly header?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterHeaderFilterHeader;
 }
@@ -5232,7 +5232,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterResponseFlagFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#flags DataK8SGlooSoloIoProxyV1Manifest#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#flags DataK8SGlooSoloIoProxyV1Manifest#flags}
   */
   readonly flags?: string[];
 }
@@ -5326,11 +5326,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterRuntimeFilterPercentSampled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#denominator DataK8SGlooSoloIoProxyV1Manifest#denominator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#denominator DataK8SGlooSoloIoProxyV1Manifest#denominator}
   */
   readonly denominator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#numerator DataK8SGlooSoloIoProxyV1Manifest#numerator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#numerator DataK8SGlooSoloIoProxyV1Manifest#numerator}
   */
   readonly numerator?: number;
 }
@@ -5453,15 +5453,15 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterRuntimeFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#percent_sampled DataK8SGlooSoloIoProxyV1Manifest#percent_sampled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#percent_sampled DataK8SGlooSoloIoProxyV1Manifest#percent_sampled}
   */
   readonly percentSampled?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterRuntimeFilterPercentSampled;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#runtime_key DataK8SGlooSoloIoProxyV1Manifest#runtime_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#runtime_key DataK8SGlooSoloIoProxyV1Manifest#runtime_key}
   */
   readonly runtimeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#use_independent_randomness DataK8SGlooSoloIoProxyV1Manifest#use_independent_randomness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#use_independent_randomness DataK8SGlooSoloIoProxyV1Manifest#use_independent_randomness}
   */
   readonly useIndependentRandomness?: boolean | cdktf.IResolvable;
 }
@@ -5613,11 +5613,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterStatusCodeFilterComparisonValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#default_value DataK8SGlooSoloIoProxyV1Manifest#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#default_value DataK8SGlooSoloIoProxyV1Manifest#default_value}
   */
   readonly defaultValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#runtime_key DataK8SGlooSoloIoProxyV1Manifest#runtime_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#runtime_key DataK8SGlooSoloIoProxyV1Manifest#runtime_key}
   */
   readonly runtimeKey?: string;
 }
@@ -5740,11 +5740,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterStatusCodeFilterComparison {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#op DataK8SGlooSoloIoProxyV1Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#op DataK8SGlooSoloIoProxyV1Manifest#op}
   */
   readonly op?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#value DataK8SGlooSoloIoProxyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#value DataK8SGlooSoloIoProxyV1Manifest#value}
   */
   readonly value?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterStatusCodeFilterComparisonValue;
 }
@@ -5867,7 +5867,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterStatusCodeFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#comparison DataK8SGlooSoloIoProxyV1Manifest#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#comparison DataK8SGlooSoloIoProxyV1Manifest#comparison}
   */
   readonly comparison?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterStatusCodeFilterComparison;
 }
@@ -5961,43 +5961,43 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#and_filter DataK8SGlooSoloIoProxyV1Manifest#and_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#and_filter DataK8SGlooSoloIoProxyV1Manifest#and_filter}
   */
   readonly andFilter?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#duration_filter DataK8SGlooSoloIoProxyV1Manifest#duration_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#duration_filter DataK8SGlooSoloIoProxyV1Manifest#duration_filter}
   */
   readonly durationFilter?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterDurationFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#grpc_status_filter DataK8SGlooSoloIoProxyV1Manifest#grpc_status_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#grpc_status_filter DataK8SGlooSoloIoProxyV1Manifest#grpc_status_filter}
   */
   readonly grpcStatusFilter?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterGrpcStatusFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#header_filter DataK8SGlooSoloIoProxyV1Manifest#header_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#header_filter DataK8SGlooSoloIoProxyV1Manifest#header_filter}
   */
   readonly headerFilter?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterHeaderFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#not_health_check_filter DataK8SGlooSoloIoProxyV1Manifest#not_health_check_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#not_health_check_filter DataK8SGlooSoloIoProxyV1Manifest#not_health_check_filter}
   */
   readonly notHealthCheckFilter?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#or_filter DataK8SGlooSoloIoProxyV1Manifest#or_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#or_filter DataK8SGlooSoloIoProxyV1Manifest#or_filter}
   */
   readonly orFilter?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#response_flag_filter DataK8SGlooSoloIoProxyV1Manifest#response_flag_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#response_flag_filter DataK8SGlooSoloIoProxyV1Manifest#response_flag_filter}
   */
   readonly responseFlagFilter?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterResponseFlagFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#runtime_filter DataK8SGlooSoloIoProxyV1Manifest#runtime_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#runtime_filter DataK8SGlooSoloIoProxyV1Manifest#runtime_filter}
   */
   readonly runtimeFilter?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterRuntimeFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#status_code_filter DataK8SGlooSoloIoProxyV1Manifest#status_code_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#status_code_filter DataK8SGlooSoloIoProxyV1Manifest#status_code_filter}
   */
   readonly statusCodeFilter?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilterStatusCodeFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#traceable_filter DataK8SGlooSoloIoProxyV1Manifest#traceable_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#traceable_filter DataK8SGlooSoloIoProxyV1Manifest#traceable_filter}
   */
   readonly traceableFilter?: { [key: string]: string };
 }
@@ -6352,23 +6352,23 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogGrpcService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#additional_request_headers_to_log DataK8SGlooSoloIoProxyV1Manifest#additional_request_headers_to_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#additional_request_headers_to_log DataK8SGlooSoloIoProxyV1Manifest#additional_request_headers_to_log}
   */
   readonly additionalRequestHeadersToLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#additional_response_headers_to_log DataK8SGlooSoloIoProxyV1Manifest#additional_response_headers_to_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#additional_response_headers_to_log DataK8SGlooSoloIoProxyV1Manifest#additional_response_headers_to_log}
   */
   readonly additionalResponseHeadersToLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#additional_response_trailers_to_log DataK8SGlooSoloIoProxyV1Manifest#additional_response_trailers_to_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#additional_response_trailers_to_log DataK8SGlooSoloIoProxyV1Manifest#additional_response_trailers_to_log}
   */
   readonly additionalResponseTrailersToLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#log_name DataK8SGlooSoloIoProxyV1Manifest#log_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#log_name DataK8SGlooSoloIoProxyV1Manifest#log_name}
   */
   readonly logName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#static_cluster_name DataK8SGlooSoloIoProxyV1Manifest#static_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#static_cluster_name DataK8SGlooSoloIoProxyV1Manifest#static_cluster_name}
   */
   readonly staticClusterName?: string;
 }
@@ -6578,15 +6578,15 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#file_sink DataK8SGlooSoloIoProxyV1Manifest#file_sink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#file_sink DataK8SGlooSoloIoProxyV1Manifest#file_sink}
   */
   readonly fileSink?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFileSink;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#filter DataK8SGlooSoloIoProxyV1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#filter DataK8SGlooSoloIoProxyV1Manifest#filter}
   */
   readonly filter?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#grpc_service DataK8SGlooSoloIoProxyV1Manifest#grpc_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#grpc_service DataK8SGlooSoloIoProxyV1Manifest#grpc_service}
   */
   readonly grpcService?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLogGrpcService;
 }
@@ -6760,7 +6760,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#access_log DataK8SGlooSoloIoProxyV1Manifest#access_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#access_log DataK8SGlooSoloIoProxyV1Manifest#access_log}
   */
   readonly accessLog?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingServiceAccessLog[] | cdktf.IResolvable;
 }
@@ -6854,11 +6854,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessL
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsProxyProtocolRulesOnTlvPresent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#key DataK8SGlooSoloIoProxyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#key DataK8SGlooSoloIoProxyV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#metadata_namespace DataK8SGlooSoloIoProxyV1Manifest#metadata_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#metadata_namespace DataK8SGlooSoloIoProxyV1Manifest#metadata_namespace}
   */
   readonly metadataNamespace?: string;
 }
@@ -6981,11 +6981,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsProxyProtocolRu
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsProxyProtocolRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#on_tlv_present DataK8SGlooSoloIoProxyV1Manifest#on_tlv_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#on_tlv_present DataK8SGlooSoloIoProxyV1Manifest#on_tlv_present}
   */
   readonly onTlvPresent?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsProxyProtocolRulesOnTlvPresent;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#tlv_type DataK8SGlooSoloIoProxyV1Manifest#tlv_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#tlv_type DataK8SGlooSoloIoProxyV1Manifest#tlv_type}
   */
   readonly tlvType?: number;
 }
@@ -7130,11 +7130,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsProxyProtocolRu
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsProxyProtocol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#allow_requests_without_proxy_protocol DataK8SGlooSoloIoProxyV1Manifest#allow_requests_without_proxy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#allow_requests_without_proxy_protocol DataK8SGlooSoloIoProxyV1Manifest#allow_requests_without_proxy_protocol}
   */
   readonly allowRequestsWithoutProxyProtocol?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#rules DataK8SGlooSoloIoProxyV1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#rules DataK8SGlooSoloIoProxyV1Manifest#rules}
   */
   readonly rules?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsProxyProtocolRules[] | cdktf.IResolvable;
 }
@@ -7257,27 +7257,27 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsProxyProtocolOu
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsSocketOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#buf_value DataK8SGlooSoloIoProxyV1Manifest#buf_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#buf_value DataK8SGlooSoloIoProxyV1Manifest#buf_value}
   */
   readonly bufValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#description DataK8SGlooSoloIoProxyV1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#description DataK8SGlooSoloIoProxyV1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#int_value DataK8SGlooSoloIoProxyV1Manifest#int_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#int_value DataK8SGlooSoloIoProxyV1Manifest#int_value}
   */
   readonly intValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#level DataK8SGlooSoloIoProxyV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#level DataK8SGlooSoloIoProxyV1Manifest#level}
   */
   readonly level?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#name DataK8SGlooSoloIoProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#name DataK8SGlooSoloIoProxyV1Manifest#name}
   */
   readonly name?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#state DataK8SGlooSoloIoProxyV1Manifest#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#state DataK8SGlooSoloIoProxyV1Manifest#state}
   */
   readonly state?: string;
 }
@@ -7538,31 +7538,31 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsSocketOptionsLi
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#access_logging_service DataK8SGlooSoloIoProxyV1Manifest#access_logging_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#access_logging_service DataK8SGlooSoloIoProxyV1Manifest#access_logging_service}
   */
   readonly accessLoggingService?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsAccessLoggingService;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#connection_balance_config DataK8SGlooSoloIoProxyV1Manifest#connection_balance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#connection_balance_config DataK8SGlooSoloIoProxyV1Manifest#connection_balance_config}
   */
   readonly connectionBalanceConfig?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsConnectionBalanceConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#extensions DataK8SGlooSoloIoProxyV1Manifest#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#extensions DataK8SGlooSoloIoProxyV1Manifest#extensions}
   */
   readonly extensions?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsExtensions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#listener_access_logging_service DataK8SGlooSoloIoProxyV1Manifest#listener_access_logging_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#listener_access_logging_service DataK8SGlooSoloIoProxyV1Manifest#listener_access_logging_service}
   */
   readonly listenerAccessLoggingService?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsListenerAccessLoggingService;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#per_connection_buffer_limit_bytes DataK8SGlooSoloIoProxyV1Manifest#per_connection_buffer_limit_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#per_connection_buffer_limit_bytes DataK8SGlooSoloIoProxyV1Manifest#per_connection_buffer_limit_bytes}
   */
   readonly perConnectionBufferLimitBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#proxy_protocol DataK8SGlooSoloIoProxyV1Manifest#proxy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#proxy_protocol DataK8SGlooSoloIoProxyV1Manifest#proxy_protocol}
   */
   readonly proxyProtocol?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsProxyProtocol;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#socket_options DataK8SGlooSoloIoProxyV1Manifest#socket_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#socket_options DataK8SGlooSoloIoProxyV1Manifest#socket_options}
   */
   readonly socketOptions?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsSocketOptions[] | cdktf.IResolvable;
 }
@@ -7830,11 +7830,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptionsOutputReference
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersRouteOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#max_direct_response_body_size_bytes DataK8SGlooSoloIoProxyV1Manifest#max_direct_response_body_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#max_direct_response_body_size_bytes DataK8SGlooSoloIoProxyV1Manifest#max_direct_response_body_size_bytes}
   */
   readonly maxDirectResponseBodySizeBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#most_specific_header_mutations_wins DataK8SGlooSoloIoProxyV1Manifest#most_specific_header_mutations_wins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#most_specific_header_mutations_wins DataK8SGlooSoloIoProxyV1Manifest#most_specific_header_mutations_wins}
   */
   readonly mostSpecificHeaderMutationsWins?: boolean | cdktf.IResolvable;
 }
@@ -7957,19 +7957,19 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersRouteOptionsOutputRefe
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#cipher_suites DataK8SGlooSoloIoProxyV1Manifest#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#cipher_suites DataK8SGlooSoloIoProxyV1Manifest#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#ecdh_curves DataK8SGlooSoloIoProxyV1Manifest#ecdh_curves}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#ecdh_curves DataK8SGlooSoloIoProxyV1Manifest#ecdh_curves}
   */
   readonly ecdhCurves?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#maximum_protocol_version DataK8SGlooSoloIoProxyV1Manifest#maximum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#maximum_protocol_version DataK8SGlooSoloIoProxyV1Manifest#maximum_protocol_version}
   */
   readonly maximumProtocolVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#minimum_protocol_version DataK8SGlooSoloIoProxyV1Manifest#minimum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#minimum_protocol_version DataK8SGlooSoloIoProxyV1Manifest#minimum_protocol_version}
   */
   readonly minimumProtocolVersion?: string;
 }
@@ -8150,11 +8150,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsParam
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsSdsCallCredentialsFileCredentialSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#header DataK8SGlooSoloIoProxyV1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#header DataK8SGlooSoloIoProxyV1Manifest#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#token_file_name DataK8SGlooSoloIoProxyV1Manifest#token_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#token_file_name DataK8SGlooSoloIoProxyV1Manifest#token_file_name}
   */
   readonly tokenFileName?: string;
 }
@@ -8277,7 +8277,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsSdsCa
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsSdsCallCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#file_credential_source DataK8SGlooSoloIoProxyV1Manifest#file_credential_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#file_credential_source DataK8SGlooSoloIoProxyV1Manifest#file_credential_source}
   */
   readonly fileCredentialSource?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsSdsCallCredentialsFileCredentialSource;
 }
@@ -8371,23 +8371,23 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsSdsCa
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsSds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#call_credentials DataK8SGlooSoloIoProxyV1Manifest#call_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#call_credentials DataK8SGlooSoloIoProxyV1Manifest#call_credentials}
   */
   readonly callCredentials?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsSdsCallCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#certificates_secret_name DataK8SGlooSoloIoProxyV1Manifest#certificates_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#certificates_secret_name DataK8SGlooSoloIoProxyV1Manifest#certificates_secret_name}
   */
   readonly certificatesSecretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#cluster_name DataK8SGlooSoloIoProxyV1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#cluster_name DataK8SGlooSoloIoProxyV1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#target_uri DataK8SGlooSoloIoProxyV1Manifest#target_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#target_uri DataK8SGlooSoloIoProxyV1Manifest#target_uri}
   */
   readonly targetUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#validation_context_name DataK8SGlooSoloIoProxyV1Manifest#validation_context_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#validation_context_name DataK8SGlooSoloIoProxyV1Manifest#validation_context_name}
   */
   readonly validationContextName?: string;
 }
@@ -8597,11 +8597,11 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsSdsOu
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#name DataK8SGlooSoloIoProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#name DataK8SGlooSoloIoProxyV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#namespace DataK8SGlooSoloIoProxyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#namespace DataK8SGlooSoloIoProxyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -8724,19 +8724,19 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsSecre
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsSslFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#ocsp_staple DataK8SGlooSoloIoProxyV1Manifest#ocsp_staple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#ocsp_staple DataK8SGlooSoloIoProxyV1Manifest#ocsp_staple}
   */
   readonly ocspStaple?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#root_ca DataK8SGlooSoloIoProxyV1Manifest#root_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#root_ca DataK8SGlooSoloIoProxyV1Manifest#root_ca}
   */
   readonly rootCa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#tls_cert DataK8SGlooSoloIoProxyV1Manifest#tls_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#tls_cert DataK8SGlooSoloIoProxyV1Manifest#tls_cert}
   */
   readonly tlsCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#tls_key DataK8SGlooSoloIoProxyV1Manifest#tls_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#tls_key DataK8SGlooSoloIoProxyV1Manifest#tls_key}
   */
   readonly tlsKey?: string;
 }
@@ -8917,47 +8917,47 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsSslFi
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#alpn_protocols DataK8SGlooSoloIoProxyV1Manifest#alpn_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#alpn_protocols DataK8SGlooSoloIoProxyV1Manifest#alpn_protocols}
   */
   readonly alpnProtocols?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#disable_tls_session_resumption DataK8SGlooSoloIoProxyV1Manifest#disable_tls_session_resumption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#disable_tls_session_resumption DataK8SGlooSoloIoProxyV1Manifest#disable_tls_session_resumption}
   */
   readonly disableTlsSessionResumption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#ocsp_staple_policy DataK8SGlooSoloIoProxyV1Manifest#ocsp_staple_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#ocsp_staple_policy DataK8SGlooSoloIoProxyV1Manifest#ocsp_staple_policy}
   */
   readonly ocspStaplePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#one_way_tls DataK8SGlooSoloIoProxyV1Manifest#one_way_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#one_way_tls DataK8SGlooSoloIoProxyV1Manifest#one_way_tls}
   */
   readonly oneWayTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#parameters DataK8SGlooSoloIoProxyV1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#parameters DataK8SGlooSoloIoProxyV1Manifest#parameters}
   */
   readonly parameters?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#sds DataK8SGlooSoloIoProxyV1Manifest#sds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#sds DataK8SGlooSoloIoProxyV1Manifest#sds}
   */
   readonly sds?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsSds;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#secret_ref DataK8SGlooSoloIoProxyV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#secret_ref DataK8SGlooSoloIoProxyV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#sni_domains DataK8SGlooSoloIoProxyV1Manifest#sni_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#sni_domains DataK8SGlooSoloIoProxyV1Manifest#sni_domains}
   */
   readonly sniDomains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#ssl_files DataK8SGlooSoloIoProxyV1Manifest#ssl_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#ssl_files DataK8SGlooSoloIoProxyV1Manifest#ssl_files}
   */
   readonly sslFiles?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsSslFiles;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#transport_socket_connect_timeout DataK8SGlooSoloIoProxyV1Manifest#transport_socket_connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#transport_socket_connect_timeout DataK8SGlooSoloIoProxyV1Manifest#transport_socket_connect_timeout}
   */
   readonly transportSocketConnectTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#verify_subject_alt_name DataK8SGlooSoloIoProxyV1Manifest#verify_subject_alt_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#verify_subject_alt_name DataK8SGlooSoloIoProxyV1Manifest#verify_subject_alt_name}
   */
   readonly verifySubjectAltName?: string[];
 }
@@ -9363,55 +9363,55 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurationsList 
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecListeners {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#aggregate_listener DataK8SGlooSoloIoProxyV1Manifest#aggregate_listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#aggregate_listener DataK8SGlooSoloIoProxyV1Manifest#aggregate_listener}
   */
   readonly aggregateListener?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#bind_address DataK8SGlooSoloIoProxyV1Manifest#bind_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#bind_address DataK8SGlooSoloIoProxyV1Manifest#bind_address}
   */
   readonly bindAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#bind_port DataK8SGlooSoloIoProxyV1Manifest#bind_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#bind_port DataK8SGlooSoloIoProxyV1Manifest#bind_port}
   */
   readonly bindPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#http_listener DataK8SGlooSoloIoProxyV1Manifest#http_listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#http_listener DataK8SGlooSoloIoProxyV1Manifest#http_listener}
   */
   readonly httpListener?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#hybrid_listener DataK8SGlooSoloIoProxyV1Manifest#hybrid_listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#hybrid_listener DataK8SGlooSoloIoProxyV1Manifest#hybrid_listener}
   */
   readonly hybridListener?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#metadata DataK8SGlooSoloIoProxyV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#metadata DataK8SGlooSoloIoProxyV1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#metadata_static DataK8SGlooSoloIoProxyV1Manifest#metadata_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#metadata_static DataK8SGlooSoloIoProxyV1Manifest#metadata_static}
   */
   readonly metadataStatic?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersMetadataStatic;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#name DataK8SGlooSoloIoProxyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#name DataK8SGlooSoloIoProxyV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#options DataK8SGlooSoloIoProxyV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#options DataK8SGlooSoloIoProxyV1Manifest#options}
   */
   readonly options?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#route_options DataK8SGlooSoloIoProxyV1Manifest#route_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#route_options DataK8SGlooSoloIoProxyV1Manifest#route_options}
   */
   readonly routeOptions?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersRouteOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#ssl_configurations DataK8SGlooSoloIoProxyV1Manifest#ssl_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#ssl_configurations DataK8SGlooSoloIoProxyV1Manifest#ssl_configurations}
   */
   readonly sslConfigurations?: DataK8SGlooSoloIoProxyV1ManifestSpecListenersSslConfigurations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#tcp_listener DataK8SGlooSoloIoProxyV1Manifest#tcp_listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#tcp_listener DataK8SGlooSoloIoProxyV1Manifest#tcp_listener}
   */
   readonly tcpListener?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#use_proxy_proto DataK8SGlooSoloIoProxyV1Manifest#use_proxy_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#use_proxy_proto DataK8SGlooSoloIoProxyV1Manifest#use_proxy_proto}
   */
   readonly useProxyProto?: boolean | cdktf.IResolvable;
 }
@@ -9875,7 +9875,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecListenersList extends cdktf.Com
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpecNamespacedStatuses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#statuses DataK8SGlooSoloIoProxyV1Manifest#statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#statuses DataK8SGlooSoloIoProxyV1Manifest#statuses}
   */
   readonly statuses?: { [key: string]: string };
 }
@@ -9969,15 +9969,15 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecNamespacedStatusesOutputReferen
 }
 export interface DataK8SGlooSoloIoProxyV1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#compressed_spec DataK8SGlooSoloIoProxyV1Manifest#compressed_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#compressed_spec DataK8SGlooSoloIoProxyV1Manifest#compressed_spec}
   */
   readonly compressedSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#listeners DataK8SGlooSoloIoProxyV1Manifest#listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#listeners DataK8SGlooSoloIoProxyV1Manifest#listeners}
   */
   readonly listeners?: DataK8SGlooSoloIoProxyV1ManifestSpecListeners[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#namespaced_statuses DataK8SGlooSoloIoProxyV1Manifest#namespaced_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#namespaced_statuses DataK8SGlooSoloIoProxyV1Manifest#namespaced_statuses}
   */
   readonly namespacedStatuses?: DataK8SGlooSoloIoProxyV1ManifestSpecNamespacedStatuses;
 }
@@ -10129,7 +10129,7 @@ export class DataK8SGlooSoloIoProxyV1ManifestSpecOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest k8s_gloo_solo_io_proxy_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest k8s_gloo_solo_io_proxy_v1_manifest}
 */
 export class DataK8SGlooSoloIoProxyV1Manifest extends cdktf.TerraformDataSource {
 
@@ -10145,7 +10145,7 @@ export class DataK8SGlooSoloIoProxyV1Manifest extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataK8SGlooSoloIoProxyV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGlooSoloIoProxyV1Manifest to import
-  * @param importFromId The id of the existing DataK8SGlooSoloIoProxyV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGlooSoloIoProxyV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGlooSoloIoProxyV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10157,7 +10157,7 @@ export class DataK8SGlooSoloIoProxyV1Manifest extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_proxy_v1_manifest k8s_gloo_solo_io_proxy_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gloo_solo_io_proxy_v1_manifest k8s_gloo_solo_io_proxy_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10168,8 +10168,8 @@ export class DataK8SGlooSoloIoProxyV1Manifest extends cdktf.TerraformDataSource 
       terraformResourceType: 'k8s_gloo_solo_io_proxy_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

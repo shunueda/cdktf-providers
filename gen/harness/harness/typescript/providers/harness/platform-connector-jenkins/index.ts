@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PlatformConnectorJenkinsConfig extends cdktf.TerraformMetaArgum
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#delegate_selectors PlatformConnectorJenkins#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#delegate_selectors PlatformConnectorJenkins#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#description PlatformConnectorJenkins#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#description PlatformConnectorJenkins#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#id PlatformConnectorJenkins#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#id PlatformConnectorJenkins#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface PlatformConnectorJenkinsConfig extends cdktf.TerraformMetaArgum
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#identifier PlatformConnectorJenkins#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#identifier PlatformConnectorJenkins#identifier}
   */
   readonly identifier: string;
   /**
   * Jenkins Url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#jenkins_url PlatformConnectorJenkins#jenkins_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#jenkins_url PlatformConnectorJenkins#jenkins_url}
   */
   readonly jenkinsUrl: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#name PlatformConnectorJenkins#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#name PlatformConnectorJenkins#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#org_id PlatformConnectorJenkins#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#org_id PlatformConnectorJenkins#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#project_id PlatformConnectorJenkins#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#project_id PlatformConnectorJenkins#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#tags PlatformConnectorJenkins#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#tags PlatformConnectorJenkins#tags}
   */
   readonly tags?: string[];
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#auth PlatformConnectorJenkins#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#auth PlatformConnectorJenkins#auth}
   */
   readonly auth?: PlatformConnectorJenkinsAuth;
 }
@@ -73,7 +73,7 @@ export interface PlatformConnectorJenkinsAuthJenkinsBearerToken {
   /**
   * Reference of the token. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#token_ref PlatformConnectorJenkins#token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#token_ref PlatformConnectorJenkins#token_ref}
   */
   readonly tokenRef: string;
 }
@@ -156,19 +156,19 @@ export interface PlatformConnectorJenkinsAuthJenkinsUserNamePassword {
   /**
   * Reference to a secret containing the password to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#password_ref PlatformConnectorJenkins#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#password_ref PlatformConnectorJenkins#password_ref}
   */
   readonly passwordRef: string;
   /**
   * Username to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#username PlatformConnectorJenkins#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#username PlatformConnectorJenkins#username}
   */
   readonly username?: string;
   /**
   * Username reference to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#username_ref PlatformConnectorJenkins#username_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#username_ref PlatformConnectorJenkins#username_ref}
   */
   readonly usernameRef?: string;
 }
@@ -309,19 +309,19 @@ export interface PlatformConnectorJenkinsAuth {
   /**
   * Can be one of UsernamePassword, Anonymous, Bearer Token(HTTP Header)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#type PlatformConnectorJenkins#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#type PlatformConnectorJenkins#type}
   */
   readonly type: string;
   /**
   * jenkins_bearer_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#jenkins_bearer_token PlatformConnectorJenkins#jenkins_bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#jenkins_bearer_token PlatformConnectorJenkins#jenkins_bearer_token}
   */
   readonly jenkinsBearerToken?: PlatformConnectorJenkinsAuthJenkinsBearerToken;
   /**
   * jenkins_user_name_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#jenkins_user_name_password PlatformConnectorJenkins#jenkins_user_name_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#jenkins_user_name_password PlatformConnectorJenkins#jenkins_user_name_password}
   */
   readonly jenkinsUserNamePassword?: PlatformConnectorJenkinsAuthJenkinsUserNamePassword;
 }
@@ -460,7 +460,7 @@ export class PlatformConnectorJenkinsAuthOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins harness_platform_connector_jenkins}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins harness_platform_connector_jenkins}
 */
 export class PlatformConnectorJenkins extends cdktf.TerraformResource {
 
@@ -476,7 +476,7 @@ export class PlatformConnectorJenkins extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorJenkins resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorJenkins to import
-  * @param importFromId The id of the existing PlatformConnectorJenkins that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorJenkins that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorJenkins to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -488,7 +488,7 @@ export class PlatformConnectorJenkins extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_jenkins harness_platform_connector_jenkins} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_jenkins harness_platform_connector_jenkins} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -499,8 +499,8 @@ export class PlatformConnectorJenkins extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_jenkins',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

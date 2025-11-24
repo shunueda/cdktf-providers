@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_tanzu
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_tanzu
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface CloudproviderTanzuConfig extends cdktf.TerraformMetaArguments {
   /**
   * The url of the Tanzu platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_tanzu#endpoint CloudproviderTanzu#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_tanzu#endpoint CloudproviderTanzu#endpoint}
   */
   readonly endpoint: string;
   /**
   * The name of the cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_tanzu#name CloudproviderTanzu#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_tanzu#name CloudproviderTanzu#name}
   */
   readonly name: string;
   /**
   * The name of the Harness secret containing the password to use to authenticate to Tanzu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_tanzu#password_secret_name CloudproviderTanzu#password_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_tanzu#password_secret_name CloudproviderTanzu#password_secret_name}
   */
   readonly passwordSecretName: string;
   /**
   * Skip validation of Tanzu configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_tanzu#skip_validation CloudproviderTanzu#skip_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_tanzu#skip_validation CloudproviderTanzu#skip_validation}
   */
   readonly skipValidation?: boolean | cdktf.IResolvable;
   /**
   * The username to use to authenticate to Tanzu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_tanzu#username CloudproviderTanzu#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_tanzu#username CloudproviderTanzu#username}
   */
   readonly username?: string;
   /**
   * The name of the Harness secret containing the username to authenticate to Tanzu with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_tanzu#username_secret_name CloudproviderTanzu#username_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_tanzu#username_secret_name CloudproviderTanzu#username_secret_name}
   */
   readonly usernameSecretName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_tanzu harness_cloudprovider_tanzu}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_tanzu harness_cloudprovider_tanzu}
 */
 export class CloudproviderTanzu extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class CloudproviderTanzu extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudproviderTanzu resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudproviderTanzu to import
-  * @param importFromId The id of the existing CloudproviderTanzu that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_tanzu#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudproviderTanzu that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_tanzu#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudproviderTanzu to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class CloudproviderTanzu extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_tanzu harness_cloudprovider_tanzu} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_tanzu harness_cloudprovider_tanzu} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class CloudproviderTanzu extends cdktf.TerraformResource {
       terraformResourceType: 'harness_cloudprovider_tanzu',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

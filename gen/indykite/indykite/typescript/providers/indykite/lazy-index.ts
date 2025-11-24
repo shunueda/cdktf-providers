@@ -9,6 +9,8 @@ Object.defineProperty(exports, 'eventSink', { get: function () { return require(
 Object.defineProperty(exports, 'externalDataResolver', { get: function () { return require('./external-data-resolver'); } });
 Object.defineProperty(exports, 'ingestPipeline', { get: function () { return require('./ingest-pipeline'); } });
 Object.defineProperty(exports, 'knowledgeQuery', { get: function () { return require('./knowledge-query'); } });
+Object.defineProperty(exports, 'serviceAccount', { get: function () { return require('./service-account'); } });
+Object.defineProperty(exports, 'serviceAccountCredential', { get: function () { return require('./service-account-credential'); } });
 Object.defineProperty(exports, 'tokenIntrospect', { get: function () { return require('./token-introspect'); } });
 Object.defineProperty(exports, 'trustScoreProfile', { get: function () { return require('./trust-score-profile'); } });
 Object.defineProperty(exports, 'dataIndykiteApplication', { get: function () { return require('./data-indykite-application'); } });

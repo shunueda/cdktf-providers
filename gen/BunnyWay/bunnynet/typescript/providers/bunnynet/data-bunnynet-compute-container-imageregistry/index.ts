@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/compute_container_imageregistry
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/data-sources/compute_container_imageregistry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataBunnynetComputeContainerImageregistryConfig extends cdktf.T
   /**
   * Options: `DockerHub`, `GitHub`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/compute_container_imageregistry#registry DataBunnynetComputeContainerImageregistry#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/data-sources/compute_container_imageregistry#registry DataBunnynetComputeContainerImageregistry#registry}
   */
   readonly registry: string;
   /**
   * The username used to authenticate to the registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/compute_container_imageregistry#username DataBunnynetComputeContainerImageregistry#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/data-sources/compute_container_imageregistry#username DataBunnynetComputeContainerImageregistry#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/compute_container_imageregistry bunnynet_compute_container_imageregistry}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/data-sources/compute_container_imageregistry bunnynet_compute_container_imageregistry}
 */
 export class DataBunnynetComputeContainerImageregistry extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataBunnynetComputeContainerImageregistry extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataBunnynetComputeContainerImageregistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBunnynetComputeContainerImageregistry to import
-  * @param importFromId The id of the existing DataBunnynetComputeContainerImageregistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/compute_container_imageregistry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBunnynetComputeContainerImageregistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/data-sources/compute_container_imageregistry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBunnynetComputeContainerImageregistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataBunnynetComputeContainerImageregistry extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/data-sources/compute_container_imageregistry bunnynet_compute_container_imageregistry} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/data-sources/compute_container_imageregistry bunnynet_compute_container_imageregistry} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataBunnynetComputeContainerImageregistry extends cdktf.TerraformDa
       terraformResourceType: 'bunnynet_compute_container_imageregistry',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.2',
-        providerVersionConstraint: '0.11.2'
+        providerVersion: '0.11.3',
+        providerVersionConstraint: '0.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

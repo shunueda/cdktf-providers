@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PlatformNotificationRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule#id PlatformNotificationRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule#id PlatformNotificationRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface PlatformNotificationRuleConfig extends cdktf.TerraformMetaArgum
   /**
   * Identifier of the Notification Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule#identifier PlatformNotificationRule#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule#identifier PlatformNotificationRule#identifier}
   */
   readonly identifier: string;
   /**
   * Identifier of the organization in which the Notification Rule is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule#org_id PlatformNotificationRule#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule#org_id PlatformNotificationRule#org_id}
   */
   readonly orgId: string;
   /**
   * Identifier of the project in which the Notification Rule is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule#project_id PlatformNotificationRule#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule#project_id PlatformNotificationRule#project_id}
   */
   readonly projectId: string;
   /**
   * request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule#request PlatformNotificationRule#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule#request PlatformNotificationRule#request}
   */
   readonly request?: PlatformNotificationRuleRequest;
 }
@@ -43,13 +43,13 @@ export interface PlatformNotificationRuleRequestConditions {
   /**
   * Specification of the notification condition. Depends on the type of the notification condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule#spec PlatformNotificationRule#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule#spec PlatformNotificationRule#spec}
   */
   readonly spec?: string;
   /**
   * Type of the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule#type PlatformNotificationRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule#type PlatformNotificationRule#type}
   */
   readonly type: string;
 }
@@ -193,13 +193,13 @@ export interface PlatformNotificationRuleRequestNotificationMethod {
   /**
   * Specification of the notification method. Depends on the type of the notification method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule#spec PlatformNotificationRule#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule#spec PlatformNotificationRule#spec}
   */
   readonly spec?: string;
   /**
   * Type of the Notification Method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule#type PlatformNotificationRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule#type PlatformNotificationRule#type}
   */
   readonly type: string;
 }
@@ -311,25 +311,25 @@ export interface PlatformNotificationRuleRequest {
   /**
   * Name for the Notification Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule#name PlatformNotificationRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule#name PlatformNotificationRule#name}
   */
   readonly name: string;
   /**
   * Type of the Notification Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule#type PlatformNotificationRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule#type PlatformNotificationRule#type}
   */
   readonly type: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule#conditions PlatformNotificationRule#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule#conditions PlatformNotificationRule#conditions}
   */
   readonly conditions: PlatformNotificationRuleRequestConditions[] | cdktf.IResolvable;
   /**
   * notification_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule#notification_method PlatformNotificationRule#notification_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule#notification_method PlatformNotificationRule#notification_method}
   */
   readonly notificationMethod: PlatformNotificationRuleRequestNotificationMethod;
 }
@@ -488,7 +488,7 @@ export class PlatformNotificationRuleRequestOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule harness_platform_notification_rule}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule harness_platform_notification_rule}
 */
 export class PlatformNotificationRule extends cdktf.TerraformResource {
 
@@ -504,7 +504,7 @@ export class PlatformNotificationRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformNotificationRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformNotificationRule to import
-  * @param importFromId The id of the existing PlatformNotificationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformNotificationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformNotificationRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -516,7 +516,7 @@ export class PlatformNotificationRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_notification_rule harness_platform_notification_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_notification_rule harness_platform_notification_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -527,8 +527,8 @@ export class PlatformNotificationRule extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_notification_rule',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

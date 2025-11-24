@@ -15,19 +15,19 @@ export interface DataK8SApmK8SElasticCoApmServerV1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apm_k8s_elastic_co_apm_server_v1_manifest#metadata DataK8SApmK8SElasticCoApmServerV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apm_k8s_elastic_co_apm_server_v1_manifest#metadata DataK8SApmK8SElasticCoApmServerV1Manifest#metadata}
   */
   readonly metadata: DataK8SApmK8SElasticCoApmServerV1ManifestMetadata;
   /**
   * ApmServerSpec holds the specification of an APM Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apm_k8s_elastic_co_apm_server_v1_manifest#spec DataK8SApmK8SElasticCoApmServerV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apm_k8s_elastic_co_apm_server_v1_manifest#spec DataK8SApmK8SElasticCoApmServerV1Manifest#spec}
   */
   readonly spec?: DataK8SApmK8SElasticCoApmServerV1ManifestSpec;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apm_k8s_elastic_co_apm_server_v1_manifest k8s_apm_k8s_elastic_co_apm_server_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apm_k8s_elastic_co_apm_server_v1_manifest k8s_apm_k8s_elastic_co_apm_server_v1_manifest}
 */
 export class DataK8SApmK8SElasticCoApmServerV1Manifest extends cdktf.TerraformDataSource {
 
@@ -43,7 +43,7 @@ export class DataK8SApmK8SElasticCoApmServerV1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SApmK8SElasticCoApmServerV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SApmK8SElasticCoApmServerV1Manifest to import
-  * @param importFromId The id of the existing DataK8SApmK8SElasticCoApmServerV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apm_k8s_elastic_co_apm_server_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SApmK8SElasticCoApmServerV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apm_k8s_elastic_co_apm_server_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SApmK8SElasticCoApmServerV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -55,7 +55,7 @@ export class DataK8SApmK8SElasticCoApmServerV1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apm_k8s_elastic_co_apm_server_v1_manifest k8s_apm_k8s_elastic_co_apm_server_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apm_k8s_elastic_co_apm_server_v1_manifest k8s_apm_k8s_elastic_co_apm_server_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,8 +66,8 @@ export class DataK8SApmK8SElasticCoApmServerV1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_apm_k8s_elastic_co_apm_server_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

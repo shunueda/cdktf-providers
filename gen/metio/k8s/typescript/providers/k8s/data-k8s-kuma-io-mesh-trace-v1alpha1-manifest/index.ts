@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKumaIoMeshTraceV1Alpha1ManifestConfig extends cdktf.Terr
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#metadata DataK8SKumaIoMeshTraceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#metadata DataK8SKumaIoMeshTraceV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKumaIoMeshTraceV1Alpha1ManifestMetadata;
   /**
   * Spec is the specification of the Kuma MeshTrace resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#spec DataK8SKumaIoMeshTraceV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#spec DataK8SKumaIoMeshTraceV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKumaIoMeshTraceV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKumaIoMeshTraceV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#annotations DataK8SKumaIoMeshTraceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#annotations DataK8SKumaIoMeshTraceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#labels DataK8SKumaIoMeshTraceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#labels DataK8SKumaIoMeshTraceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#name DataK8SKumaIoMeshTraceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#name DataK8SKumaIoMeshTraceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#namespace DataK8SKumaIoMeshTraceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#namespace DataK8SKumaIoMeshTraceV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecDefaultBackendsDatado
   /**
   * Determines if datadog service name should be split based on traffic direction and destination. For example, with 'splitService: true' and a 'backend' service that communicates with a couple of databases, you would get service names like 'backend_INBOUND', 'backend_OUTBOUND_db1', and 'backend_OUTBOUND_db2' in Datadog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#split_service DataK8SKumaIoMeshTraceV1Alpha1Manifest#split_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#split_service DataK8SKumaIoMeshTraceV1Alpha1Manifest#split_service}
   */
   readonly splitService?: boolean | cdktf.IResolvable;
   /**
   * Address of Datadog collector, only host and port are allowed (no paths, fragments etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#url DataK8SKumaIoMeshTraceV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#url DataK8SKumaIoMeshTraceV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -347,7 +347,7 @@ export interface DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecDefaultBackendsOpenTe
   /**
   * Address of OpenTelemetry collector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#endpoint DataK8SKumaIoMeshTraceV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#endpoint DataK8SKumaIoMeshTraceV1Alpha1Manifest#endpoint}
   */
   readonly endpoint: string;
 }
@@ -440,25 +440,25 @@ export interface DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecDefaultBackendsZipkin
   /**
   * Version of the API. https://github.com/envoyproxy/envoy/blob/v1.22.0/api/envoy/config/trace/v3/zipkin.proto#L66
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#api_version DataK8SKumaIoMeshTraceV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#api_version DataK8SKumaIoMeshTraceV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Determines whether client and server spans will share the same span context. https://github.com/envoyproxy/envoy/blob/v1.22.0/api/envoy/config/trace/v3/zipkin.proto#L63
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#shared_span_context DataK8SKumaIoMeshTraceV1Alpha1Manifest#shared_span_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#shared_span_context DataK8SKumaIoMeshTraceV1Alpha1Manifest#shared_span_context}
   */
   readonly sharedSpanContext?: boolean | cdktf.IResolvable;
   /**
   * Generate 128bit traces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#trace_id128bit DataK8SKumaIoMeshTraceV1Alpha1Manifest#trace_id128bit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#trace_id128bit DataK8SKumaIoMeshTraceV1Alpha1Manifest#trace_id128bit}
   */
   readonly traceId128Bit?: boolean | cdktf.IResolvable;
   /**
   * Address of Zipkin collector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#url DataK8SKumaIoMeshTraceV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#url DataK8SKumaIoMeshTraceV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -638,23 +638,23 @@ export interface DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecDefaultBackends {
   /**
   * Datadog backend configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#datadog DataK8SKumaIoMeshTraceV1Alpha1Manifest#datadog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#datadog DataK8SKumaIoMeshTraceV1Alpha1Manifest#datadog}
   */
   readonly datadog?: DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecDefaultBackendsDatadog;
   /**
   * OpenTelemetry backend configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#open_telemetry DataK8SKumaIoMeshTraceV1Alpha1Manifest#open_telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#open_telemetry DataK8SKumaIoMeshTraceV1Alpha1Manifest#open_telemetry}
   */
   readonly openTelemetry?: DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecDefaultBackendsOpenTelemetry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#type DataK8SKumaIoMeshTraceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#type DataK8SKumaIoMeshTraceV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * Zipkin backend configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#zipkin DataK8SKumaIoMeshTraceV1Alpha1Manifest#zipkin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#zipkin DataK8SKumaIoMeshTraceV1Alpha1Manifest#zipkin}
   */
   readonly zipkin?: DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecDefaultBackendsZipkin;
 }
@@ -856,19 +856,19 @@ export interface DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecDefaultSampling {
   /**
   * Target percentage of requests that will be force traced if the 'x-client-trace-id' header is set. Mirror of client_sampling in Envoy https://github.com/envoyproxy/envoy/blob/v1.22.0/api/envoy/config/filter/network/http_connection_manager/v2/http_connection_manager.proto#L127-L133 Either int or decimal represented as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#client DataK8SKumaIoMeshTraceV1Alpha1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#client DataK8SKumaIoMeshTraceV1Alpha1Manifest#client}
   */
   readonly client?: string;
   /**
   * Target percentage of requests will be traced after all other sampling checks have been applied (client, force tracing, random sampling). This field functions as an upper limit on the total configured sampling rate. For instance, setting client to 100 but overall to 1 will result in only 1% of client requests with the appropriate headers to be force traced. Mirror of overall_sampling in Envoy https://github.com/envoyproxy/envoy/blob/v1.22.0/api/envoy/config/filter/network/http_connection_manager/v2/http_connection_manager.proto#L142-L150 Either int or decimal represented as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#overall DataK8SKumaIoMeshTraceV1Alpha1Manifest#overall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#overall DataK8SKumaIoMeshTraceV1Alpha1Manifest#overall}
   */
   readonly overall?: string;
   /**
   * Target percentage of requests that will be randomly selected for trace generation, if not requested by the client or not forced. Mirror of random_sampling in Envoy https://github.com/envoyproxy/envoy/blob/v1.22.0/api/envoy/config/filter/network/http_connection_manager/v2/http_connection_manager.proto#L135-L140 Either int or decimal represented as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#random DataK8SKumaIoMeshTraceV1Alpha1Manifest#random}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#random DataK8SKumaIoMeshTraceV1Alpha1Manifest#random}
   */
   readonly random?: string;
 }
@@ -1022,13 +1022,13 @@ export interface DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecDefaultTagsHeader {
   /**
   * Default value to use if header is missing. If the default is missing and there is no value the tag will not be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#default DataK8SKumaIoMeshTraceV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#default DataK8SKumaIoMeshTraceV1Alpha1Manifest#default}
   */
   readonly default?: string;
   /**
   * Name of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#name DataK8SKumaIoMeshTraceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#name DataK8SKumaIoMeshTraceV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1150,19 +1150,19 @@ export interface DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecDefaultTags {
   /**
   * Tag taken from a header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#header DataK8SKumaIoMeshTraceV1Alpha1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#header DataK8SKumaIoMeshTraceV1Alpha1Manifest#header}
   */
   readonly header?: DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecDefaultTagsHeader;
   /**
   * Tag taken from literal value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#literal DataK8SKumaIoMeshTraceV1Alpha1Manifest#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#literal DataK8SKumaIoMeshTraceV1Alpha1Manifest#literal}
   */
   readonly literal?: string;
   /**
   * Name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#name DataK8SKumaIoMeshTraceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#name DataK8SKumaIoMeshTraceV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1335,19 +1335,19 @@ export interface DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecDefault {
   /**
   * A one element array of backend definition. Envoy allows configuring only 1 backend, so the natural way of representing that would be just one object. Unfortunately due to the reasons explained in MADR 009-tracing-policy this has to be a one element array for now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#backends DataK8SKumaIoMeshTraceV1Alpha1Manifest#backends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#backends DataK8SKumaIoMeshTraceV1Alpha1Manifest#backends}
   */
   readonly backends?: DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecDefaultBackends[] | cdktf.IResolvable;
   /**
   * Sampling configuration. Sampling is the process by which a decision is made on whether to process/export a span or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#sampling DataK8SKumaIoMeshTraceV1Alpha1Manifest#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#sampling DataK8SKumaIoMeshTraceV1Alpha1Manifest#sampling}
   */
   readonly sampling?: DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecDefaultSampling;
   /**
   * Custom tags configuration. You can add custom tags to traces based on headers or literal values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#tags DataK8SKumaIoMeshTraceV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#tags DataK8SKumaIoMeshTraceV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecDefaultTags[] | cdktf.IResolvable;
 }
@@ -1501,49 +1501,49 @@ export interface DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecTargetRef {
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#kind DataK8SKumaIoMeshTraceV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#kind DataK8SKumaIoMeshTraceV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#labels DataK8SKumaIoMeshTraceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#labels DataK8SKumaIoMeshTraceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#mesh DataK8SKumaIoMeshTraceV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#mesh DataK8SKumaIoMeshTraceV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#name DataK8SKumaIoMeshTraceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#name DataK8SKumaIoMeshTraceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#namespace DataK8SKumaIoMeshTraceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#namespace DataK8SKumaIoMeshTraceV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshTraceV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshTraceV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#section_name DataK8SKumaIoMeshTraceV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#section_name DataK8SKumaIoMeshTraceV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#tags DataK8SKumaIoMeshTraceV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#tags DataK8SKumaIoMeshTraceV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1842,13 +1842,13 @@ export interface DataK8SKumaIoMeshTraceV1Alpha1ManifestSpec {
   /**
   * MeshTrace configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#default DataK8SKumaIoMeshTraceV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#default DataK8SKumaIoMeshTraceV1Alpha1Manifest#default}
   */
   readonly default?: DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecDefault;
   /**
   * TargetRef is a reference to the resource the policy takes an effect on. The resource could be either a real store object or virtual resource defined inplace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#target_ref DataK8SKumaIoMeshTraceV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#target_ref DataK8SKumaIoMeshTraceV1Alpha1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecTargetRef;
 }
@@ -1971,7 +1971,7 @@ export class DataK8SKumaIoMeshTraceV1Alpha1ManifestSpecOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest k8s_kuma_io_mesh_trace_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest k8s_kuma_io_mesh_trace_v1alpha1_manifest}
 */
 export class DataK8SKumaIoMeshTraceV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1987,7 +1987,7 @@ export class DataK8SKumaIoMeshTraceV1Alpha1Manifest extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataK8SKumaIoMeshTraceV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKumaIoMeshTraceV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKumaIoMeshTraceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKumaIoMeshTraceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKumaIoMeshTraceV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1999,7 +1999,7 @@ export class DataK8SKumaIoMeshTraceV1Alpha1Manifest extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest k8s_kuma_io_mesh_trace_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_trace_v1alpha1_manifest k8s_kuma_io_mesh_trace_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2010,8 +2010,8 @@ export class DataK8SKumaIoMeshTraceV1Alpha1Manifest extends cdktf.TerraformDataS
       terraformResourceType: 'k8s_kuma_io_mesh_trace_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

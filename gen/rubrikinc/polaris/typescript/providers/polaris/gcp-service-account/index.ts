@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_service_account
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_service_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface GcpServiceAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Base64 encoded GCP service account private key or path to GCP service account key file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_service_account#credentials GcpServiceAccount#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_service_account#credentials GcpServiceAccount#credentials}
   */
   readonly credentials: string;
   /**
   * Service account name in RSC. Defaults to `service-account-<timestamp>`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_service_account#name GcpServiceAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_service_account#name GcpServiceAccount#name}
   */
   readonly name?: string;
   /**
   * Signals that the permissions has been updated. **Deprecated:** use the `permissions` field of the `feature` block of the `polaris_gcp_project` resource instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_service_account#permissions_hash GcpServiceAccount#permissions_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_service_account#permissions_hash GcpServiceAccount#permissions_hash}
   */
   readonly permissionsHash?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_service_account polaris_gcp_service_account}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_service_account polaris_gcp_service_account}
 */
 export class GcpServiceAccount extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class GcpServiceAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpServiceAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpServiceAccount to import
-  * @param importFromId The id of the existing GcpServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_service_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_service_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpServiceAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class GcpServiceAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_service_account polaris_gcp_service_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_service_account polaris_gcp_service_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class GcpServiceAccount extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_gcp_service_account',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

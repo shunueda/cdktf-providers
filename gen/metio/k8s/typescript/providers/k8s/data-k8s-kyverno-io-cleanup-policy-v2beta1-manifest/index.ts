@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#metadata DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#metadata DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestMetadata;
   /**
   * Spec declares policy behaviors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#spec DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#spec DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#spec}
   */
   readonly spec: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#annotations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#annotations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecConditionsAll {
   /**
   * Key is the context entry (using JMESPath) for conditional rule evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
   */
   readonly key?: { [key: string]: string };
   /**
   * Message is an optional display message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#message DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#message DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#message}
   */
   readonly message?: string;
   /**
   * Operator is the conditional operation to perform. Valid operators are: Equals, NotEquals, In, AnyIn, AllIn, NotIn, AnyNotIn, AllNotIn, GreaterThanOrEquals, GreaterThan, LessThanOrEquals, LessThan, DurationGreaterThanOrEquals, DurationGreaterThan, DurationLessThanOrEquals, DurationLessThan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the conditional value, or set of values. The values can be fixed set or can be variables declared using JMESPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#value DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#value DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -442,25 +442,25 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecConditionsAny {
   /**
   * Key is the context entry (using JMESPath) for conditional rule evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
   */
   readonly key?: { [key: string]: string };
   /**
   * Message is an optional display message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#message DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#message DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#message}
   */
   readonly message?: string;
   /**
   * Operator is the conditional operation to perform. Valid operators are: Equals, NotEquals, In, AnyIn, AllIn, NotIn, AnyNotIn, AllNotIn, GreaterThanOrEquals, GreaterThan, LessThanOrEquals, LessThan, DurationGreaterThanOrEquals, DurationGreaterThan, DurationLessThanOrEquals, DurationLessThan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the conditional value, or set of values. The values can be fixed set or can be variables declared using JMESPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#value DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#value DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -665,13 +665,13 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecConditions {
   /**
   * AllConditions enable variable-based conditional rule execution. This is useful for finer control of when an rule is applied. A condition can reference object data using JMESPath notation. Here, all of the conditions need to pass.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#all DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#all DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#all}
   */
   readonly all?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecConditionsAll[] | cdktf.IResolvable;
   /**
   * AnyConditions enable variable-based conditional rule execution. This is useful for finer control of when an rule is applied. A condition can reference object data using JMESPath notation. Here, at least one of the conditions need to pass.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#any DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#any DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#any}
   */
   readonly any?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecConditionsAny[] | cdktf.IResolvable;
 }
@@ -796,13 +796,13 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextApiCallD
   /**
   * Key is a unique identifier for the data value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the data value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#value DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#value DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -943,13 +943,13 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextApiCallS
   /**
   * Key is the header key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#value DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#value DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -1090,19 +1090,19 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextApiCallS
   /**
   * CABundle is a PEM encoded CA bundle which will be used to validate the server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#ca_bundle DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#ca_bundle DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * Headers is a list of optional HTTP headers to be included in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#headers DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#headers DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#headers}
   */
   readonly headers?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextApiCallServiceHeaders[] | cdktf.IResolvable;
   /**
   * URL is the JSON web service URL. A typical form is 'https://{service}.{namespace}:{port}/{path}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#url DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#url DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#url}
   */
   readonly url: string;
 }
@@ -1253,37 +1253,37 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextApiCall 
   /**
   * The data object specifies the POST data sent to the server. Only applicable when the method field is set to POST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#data DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#data DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#data}
   */
   readonly data?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextApiCallData[] | cdktf.IResolvable;
   /**
   * Default is an optional arbitrary JSON object that the context value is set to, if the apiCall returns error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#default DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#default DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#default}
   */
   readonly default?: { [key: string]: string };
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the JSON response returned from the server. For example a JMESPath of 'items | length(@)' applied to the API server response for the URLPath '/apis/apps/v1/deployments' will return the total count of deployments across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#jmes_path DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#jmes_path DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Method is the HTTP request type (GET or POST). Defaults to GET.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#method DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#method DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#method}
   */
   readonly method?: string;
   /**
   * Service is an API call to a JSON web service. This is used for non-Kubernetes API server calls. It's mutually exclusive with the URLPath field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#service DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#service DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#service}
   */
   readonly service?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextApiCallService;
   /**
   * URLPath is the URL path to be used in the HTTP GET or POST request to the Kubernetes API server (e.g. '/api/v1/namespaces' or '/apis/apps/v1/deployments'). The format required is the same format used by the 'kubectl get --raw' command. See https://kyverno.io/docs/writing-policies/external-data-sources/#variables-from-kubernetes-api-server-calls for details. It's mutually exclusive with the Service field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#url_path DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#url_path DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#url_path}
   */
   readonly urlPath?: string;
 }
@@ -1524,13 +1524,13 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextConfigMa
   /**
   * Name is the ConfigMap name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the ConfigMap namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1652,13 +1652,13 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextGlobalRe
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the JSON response returned from the server. For example a JMESPath of 'items | length(@)' applied to the API server response for the URLPath '/apis/apps/v1/deployments' will return the total count of deployments across all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#jmes_path DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#jmes_path DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Name of the global context entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -1780,19 +1780,19 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextImageReg
   /**
   * AllowInsecureRegistry allows insecure access to a registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#allow_insecure_registry DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#allow_insecure_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#allow_insecure_registry DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#allow_insecure_registry}
   */
   readonly allowInsecureRegistry?: boolean | cdktf.IResolvable;
   /**
   * Providers specifies a list of OCI Registry names, whose authentication providers are provided. It can be of one of these values: default,google,azure,amazon,github.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#providers DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#providers DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#providers}
   */
   readonly providers?: string[];
   /**
   * Secrets specifies a list of secrets that are provided for credentials. Secrets must live in the Kyverno namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#secrets DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#secrets DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#secrets}
   */
   readonly secrets?: string[];
 }
@@ -1946,19 +1946,19 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextImageReg
   /**
   * ImageRegistryCredentials provides credentials that will be used for authentication with registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#image_registry_credentials DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#image_registry_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#image_registry_credentials DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#image_registry_credentials}
   */
   readonly imageRegistryCredentials?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextImageRegistryImageRegistryCredentials;
   /**
   * JMESPath is an optional JSON Match Expression that can be used to transform the ImageData struct returned as a result of processing the image reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#jmes_path DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#jmes_path DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Reference is image reference to a container image in the registry. Example: ghcr.io/kyverno/kyverno:latest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#reference DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#reference DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#reference}
   */
   readonly reference: string;
 }
@@ -2109,19 +2109,19 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextVariable
   /**
   * Default is an optional arbitrary JSON object that the variable may take if the JMESPath expression evaluates to nil
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#default DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#default DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#default}
   */
   readonly default?: { [key: string]: string };
   /**
   * JMESPath is an optional JMESPath Expression that can be used to transform the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#jmes_path DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#jmes_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#jmes_path DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#jmes_path}
   */
   readonly jmesPath?: string;
   /**
   * Value is any arbitrary JSON object representable in YAML or JSON form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#value DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#value DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -2275,37 +2275,37 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContext {
   /**
   * APICall is an HTTP request to the Kubernetes API server, or other JSON web service. The data returned is stored in the context with the name for the context entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#api_call DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#api_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#api_call DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#api_call}
   */
   readonly apiCall?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextApiCall;
   /**
   * ConfigMap is the ConfigMap reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#config_map DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#config_map DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextConfigMap;
   /**
   * GlobalContextEntryReference is a reference to a cached global context entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#global_reference DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#global_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#global_reference DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#global_reference}
   */
   readonly globalReference?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextGlobalReference;
   /**
   * ImageRegistry defines requests to an OCI/Docker V2 registry to fetch image details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#image_registry DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#image_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#image_registry DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#image_registry}
   */
   readonly imageRegistry?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextImageRegistry;
   /**
   * Name is the variable name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable defines an arbitrary JMESPath context variable that can be defined inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#variable DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#variable DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#variable}
   */
   readonly variable?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContextVariable;
 }
@@ -2565,19 +2565,19 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAllResou
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#values DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#values DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2747,13 +2747,13 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAllResou
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_expressions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_expressions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAllResourcesNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2878,19 +2878,19 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAllResou
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#values DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#values DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3060,13 +3060,13 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAllResou
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_expressions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_expressions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAllResourcesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3191,49 +3191,49 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAllResou
   /**
   * Annotations is a map of annotations (key-value pairs of type string). Annotation keys and values support the wildcard characters '*' (matches zero or many characters) and '?' (matches at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#annotations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#annotations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Kinds is a list of resource kinds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#kinds DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#kinds DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Name is the name of the resource. The name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character). NOTE: 'Name' is being deprecated in favor of 'Names'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Names are the names of the resources. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#names DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#names DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#names}
   */
   readonly names?: string[];
   /**
   * NamespaceSelector is a label selector for the resource namespace. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character).Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace_selector DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace_selector DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAllResourcesNamespaceSelector;
   /**
   * Namespaces is a list of namespaces names. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespaces DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespaces DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Operations can contain values ['CREATE, 'UPDATE', 'CONNECT', 'DELETE'], which are used to match a specific action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operations}
   */
   readonly operations?: string[];
   /**
   * Selector is a label selector. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character). Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#selector DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#selector DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#selector}
   */
   readonly selector?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAllResourcesSelector;
 }
@@ -3532,25 +3532,25 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAllSubje
   /**
   * APIGroup holds the API group of the referenced subject. Defaults to '' for ServiceAccount subjects. Defaults to 'rbac.authorization.k8s.io' for User and Group subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#api_group DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#api_group DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind of object being referenced. Values defined by this API group are 'User', 'Group', and 'ServiceAccount'. If the Authorizer does not recognized the kind value, the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#kind DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#kind DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the object being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referenced object. If the object kind is non-namespace, such as 'User' or 'Group', and this value is not empty the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3749,25 +3749,25 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAll {
   /**
   * ClusterRoles is the list of cluster-wide role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#cluster_roles DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#cluster_roles DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#cluster_roles}
   */
   readonly clusterRoles?: string[];
   /**
   * ResourceDescription contains information about the resource being created or modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#resources DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#resources DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#resources}
   */
   readonly resources?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAllResources;
   /**
   * Roles is the list of namespaced role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#roles DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#roles DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Subjects is the list of subject names like users, user groups, and service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#subjects DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#subjects DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#subjects}
   */
   readonly subjects?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAllSubjects[] | cdktf.IResolvable;
 }
@@ -3972,19 +3972,19 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAnyResou
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#values DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#values DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4154,13 +4154,13 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAnyResou
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_expressions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_expressions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAnyResourcesNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4285,19 +4285,19 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAnyResou
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#values DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#values DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4467,13 +4467,13 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAnyResou
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_expressions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_expressions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAnyResourcesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4598,49 +4598,49 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAnyResou
   /**
   * Annotations is a map of annotations (key-value pairs of type string). Annotation keys and values support the wildcard characters '*' (matches zero or many characters) and '?' (matches at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#annotations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#annotations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Kinds is a list of resource kinds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#kinds DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#kinds DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Name is the name of the resource. The name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character). NOTE: 'Name' is being deprecated in favor of 'Names'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Names are the names of the resources. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#names DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#names DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#names}
   */
   readonly names?: string[];
   /**
   * NamespaceSelector is a label selector for the resource namespace. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character).Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace_selector DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace_selector DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAnyResourcesNamespaceSelector;
   /**
   * Namespaces is a list of namespaces names. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespaces DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespaces DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Operations can contain values ['CREATE, 'UPDATE', 'CONNECT', 'DELETE'], which are used to match a specific action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operations}
   */
   readonly operations?: string[];
   /**
   * Selector is a label selector. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character). Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#selector DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#selector DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#selector}
   */
   readonly selector?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAnyResourcesSelector;
 }
@@ -4939,25 +4939,25 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAnySubje
   /**
   * APIGroup holds the API group of the referenced subject. Defaults to '' for ServiceAccount subjects. Defaults to 'rbac.authorization.k8s.io' for User and Group subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#api_group DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#api_group DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind of object being referenced. Values defined by this API group are 'User', 'Group', and 'ServiceAccount'. If the Authorizer does not recognized the kind value, the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#kind DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#kind DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the object being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referenced object. If the object kind is non-namespace, such as 'User' or 'Group', and this value is not empty the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -5156,25 +5156,25 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAny {
   /**
   * ClusterRoles is the list of cluster-wide role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#cluster_roles DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#cluster_roles DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#cluster_roles}
   */
   readonly clusterRoles?: string[];
   /**
   * ResourceDescription contains information about the resource being created or modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#resources DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#resources DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#resources}
   */
   readonly resources?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAnyResources;
   /**
   * Roles is the list of namespaced role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#roles DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#roles DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Subjects is the list of subject names like users, user groups, and service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#subjects DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#subjects DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#subjects}
   */
   readonly subjects?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAnySubjects[] | cdktf.IResolvable;
 }
@@ -5379,13 +5379,13 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExclude {
   /**
   * All allows specifying resources which will be ANDed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#all DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#all DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#all}
   */
   readonly all?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAll[] | cdktf.IResolvable;
   /**
   * Any allows specifying resources which will be ORed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#any DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#any DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#any}
   */
   readonly any?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExcludeAny[] | cdktf.IResolvable;
 }
@@ -5510,19 +5510,19 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAllResourc
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#values DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#values DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5692,13 +5692,13 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAllResourc
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_expressions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_expressions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAllResourcesNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5823,19 +5823,19 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAllResourc
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#values DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#values DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6005,13 +6005,13 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAllResourc
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_expressions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_expressions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAllResourcesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6136,49 +6136,49 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAllResourc
   /**
   * Annotations is a map of annotations (key-value pairs of type string). Annotation keys and values support the wildcard characters '*' (matches zero or many characters) and '?' (matches at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#annotations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#annotations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Kinds is a list of resource kinds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#kinds DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#kinds DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Name is the name of the resource. The name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character). NOTE: 'Name' is being deprecated in favor of 'Names'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Names are the names of the resources. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#names DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#names DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#names}
   */
   readonly names?: string[];
   /**
   * NamespaceSelector is a label selector for the resource namespace. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character).Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace_selector DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace_selector DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAllResourcesNamespaceSelector;
   /**
   * Namespaces is a list of namespaces names. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespaces DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespaces DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Operations can contain values ['CREATE, 'UPDATE', 'CONNECT', 'DELETE'], which are used to match a specific action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operations}
   */
   readonly operations?: string[];
   /**
   * Selector is a label selector. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character). Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#selector DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#selector DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#selector}
   */
   readonly selector?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAllResourcesSelector;
 }
@@ -6477,25 +6477,25 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAllSubject
   /**
   * APIGroup holds the API group of the referenced subject. Defaults to '' for ServiceAccount subjects. Defaults to 'rbac.authorization.k8s.io' for User and Group subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#api_group DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#api_group DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind of object being referenced. Values defined by this API group are 'User', 'Group', and 'ServiceAccount'. If the Authorizer does not recognized the kind value, the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#kind DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#kind DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the object being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referenced object. If the object kind is non-namespace, such as 'User' or 'Group', and this value is not empty the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -6694,25 +6694,25 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAll {
   /**
   * ClusterRoles is the list of cluster-wide role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#cluster_roles DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#cluster_roles DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#cluster_roles}
   */
   readonly clusterRoles?: string[];
   /**
   * ResourceDescription contains information about the resource being created or modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#resources DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#resources DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#resources}
   */
   readonly resources?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAllResources;
   /**
   * Roles is the list of namespaced role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#roles DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#roles DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Subjects is the list of subject names like users, user groups, and service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#subjects DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#subjects DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#subjects}
   */
   readonly subjects?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAllSubjects[] | cdktf.IResolvable;
 }
@@ -6917,19 +6917,19 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAnyResourc
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#values DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#values DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7099,13 +7099,13 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAnyResourc
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_expressions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_expressions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAnyResourcesNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7230,19 +7230,19 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAnyResourc
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#key DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operator DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#values DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#values DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7412,13 +7412,13 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAnyResourc
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_expressions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_expressions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAnyResourcesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match_labels DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7543,49 +7543,49 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAnyResourc
   /**
   * Annotations is a map of annotations (key-value pairs of type string). Annotation keys and values support the wildcard characters '*' (matches zero or many characters) and '?' (matches at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#annotations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#annotations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Kinds is a list of resource kinds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#kinds DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#kinds DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Name is the name of the resource. The name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character). NOTE: 'Name' is being deprecated in favor of 'Names'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Names are the names of the resources. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#names DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#names DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#names}
   */
   readonly names?: string[];
   /**
   * NamespaceSelector is a label selector for the resource namespace. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character).Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace_selector DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace_selector DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAnyResourcesNamespaceSelector;
   /**
   * Namespaces is a list of namespaces names. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespaces DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespaces DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Operations can contain values ['CREATE, 'UPDATE', 'CONNECT', 'DELETE'], which are used to match a specific action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#operations DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#operations}
   */
   readonly operations?: string[];
   /**
   * Selector is a label selector. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character). Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#selector DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#selector DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#selector}
   */
   readonly selector?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAnyResourcesSelector;
 }
@@ -7884,25 +7884,25 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAnySubject
   /**
   * APIGroup holds the API group of the referenced subject. Defaults to '' for ServiceAccount subjects. Defaults to 'rbac.authorization.k8s.io' for User and Group subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#api_group DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#api_group DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind of object being referenced. Values defined by this API group are 'User', 'Group', and 'ServiceAccount'. If the Authorizer does not recognized the kind value, the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#kind DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#kind DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the object being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#name DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referenced object. If the object kind is non-namespace, such as 'User' or 'Group', and this value is not empty the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#namespace DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -8101,25 +8101,25 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAny {
   /**
   * ClusterRoles is the list of cluster-wide role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#cluster_roles DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#cluster_roles DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#cluster_roles}
   */
   readonly clusterRoles?: string[];
   /**
   * ResourceDescription contains information about the resource being created or modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#resources DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#resources DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#resources}
   */
   readonly resources?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAnyResources;
   /**
   * Roles is the list of namespaced role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#roles DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#roles DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Subjects is the list of subject names like users, user groups, and service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#subjects DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#subjects DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#subjects}
   */
   readonly subjects?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAnySubjects[] | cdktf.IResolvable;
 }
@@ -8324,13 +8324,13 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatch {
   /**
   * All allows specifying resources which will be ANDed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#all DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#all DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#all}
   */
   readonly all?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAll[] | cdktf.IResolvable;
   /**
   * Any allows specifying resources which will be ORed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#any DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#any DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#any}
   */
   readonly any?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatchAny[] | cdktf.IResolvable;
 }
@@ -8455,31 +8455,31 @@ export interface DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpec {
   /**
   * Conditions defines the conditions used to select the resources which will be cleaned up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#conditions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#conditions DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#conditions}
   */
   readonly conditions?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecConditions;
   /**
   * Context defines variables and data sources that can be used during rule execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#context DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#context DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#context}
   */
   readonly context?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecContext[] | cdktf.IResolvable;
   /**
   * ExcludeResources defines when cleanuppolicy should not be applied. The exclude criteria can include resource information (e.g. kind, name, namespace, labels) and admission review request information like the name or role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#exclude DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#exclude DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#exclude}
   */
   readonly exclude?: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecExclude;
   /**
   * MatchResources defines when cleanuppolicy should be applied. The match criteria can include resource information (e.g. kind, name, namespace, labels) and admission review request information like the user name or role. At least one kind is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#match DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#match}
   */
   readonly match: DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecMatch;
   /**
   * The schedule in Cron format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#schedule DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#schedule DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest#schedule}
   */
   readonly schedule: string;
 }
@@ -8683,7 +8683,7 @@ export class DataK8SKyvernoIoCleanupPolicyV2Beta1ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest k8s_kyverno_io_cleanup_policy_v2beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest k8s_kyverno_io_cleanup_policy_v2beta1_manifest}
 */
 export class DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -8699,7 +8699,7 @@ export class DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8711,7 +8711,7 @@ export class DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest k8s_kyverno_io_cleanup_policy_v2beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_cleanup_policy_v2beta1_manifest k8s_kyverno_io_cleanup_policy_v2beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8722,8 +8722,8 @@ export class DataK8SKyvernoIoCleanupPolicyV2Beta1Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_kyverno_io_cleanup_policy_v2beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

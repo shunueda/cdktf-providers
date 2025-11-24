@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/rule_labels
+// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/rule_labels
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataZiaRuleLabelsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique identifier for the rule label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/rule_labels#id DataZiaRuleLabels#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/rule_labels#id DataZiaRuleLabels#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataZiaRuleLabelsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The rule label name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/rule_labels#name DataZiaRuleLabels#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/rule_labels#name DataZiaRuleLabels#name}
   */
   readonly name?: string;
 }
@@ -197,7 +197,7 @@ export class DataZiaRuleLabelsLastModifiedByList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/rule_labels zia_rule_labels}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/rule_labels zia_rule_labels}
 */
 export class DataZiaRuleLabels extends cdktf.TerraformDataSource {
 
@@ -213,7 +213,7 @@ export class DataZiaRuleLabels extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaRuleLabels resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaRuleLabels to import
-  * @param importFromId The id of the existing DataZiaRuleLabels that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/rule_labels#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaRuleLabels that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/rule_labels#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaRuleLabels to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -225,7 +225,7 @@ export class DataZiaRuleLabels extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/rule_labels zia_rule_labels} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/rule_labels zia_rule_labels} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,8 +236,8 @@ export class DataZiaRuleLabels extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_rule_labels',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.2',
-        providerVersionConstraint: '4.6.2'
+        providerVersion: '4.6.3',
+        providerVersionConstraint: '4.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCouchbaseComCouchbaseBackupV2ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#metadata DataK8SCouchbaseComCouchbaseBackupV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#metadata DataK8SCouchbaseComCouchbaseBackupV2Manifest#metadata}
   */
   readonly metadata: DataK8SCouchbaseComCouchbaseBackupV2ManifestMetadata;
   /**
   * CouchbaseBackupSpec is allows the specification of how a Couchbase backup is configured, including when backups are performed, how long they are retained for, and where they are backed up to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#spec DataK8SCouchbaseComCouchbaseBackupV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#spec DataK8SCouchbaseComCouchbaseBackupV2Manifest#spec}
   */
   readonly spec: DataK8SCouchbaseComCouchbaseBackupV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCouchbaseComCouchbaseBackupV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#annotations DataK8SCouchbaseComCouchbaseBackupV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#annotations DataK8SCouchbaseComCouchbaseBackupV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#labels DataK8SCouchbaseComCouchbaseBackupV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#labels DataK8SCouchbaseComCouchbaseBackupV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#name DataK8SCouchbaseComCouchbaseBackupV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#name DataK8SCouchbaseComCouchbaseBackupV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#namespace DataK8SCouchbaseComCouchbaseBackupV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#namespace DataK8SCouchbaseComCouchbaseBackupV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SCouchbaseComCouchbaseBackupV2ManifestSpecAutoScaling {
   /**
   * IncrementPercent controls how much the volume is increased each time the threshold is exceeded, upto a maximum as defined by the limit. This field defaults to 20 if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#increment_percent DataK8SCouchbaseComCouchbaseBackupV2Manifest#increment_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#increment_percent DataK8SCouchbaseComCouchbaseBackupV2Manifest#increment_percent}
   */
   readonly incrementPercent?: number;
   /**
   * Limit imposes a hard limit on the size we can autoscale to. When not specified no bounds are imposed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-units-in-kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#limit DataK8SCouchbaseComCouchbaseBackupV2Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#limit DataK8SCouchbaseComCouchbaseBackupV2Manifest#limit}
   */
   readonly limit?: string;
   /**
   * ThresholdPercent determines the point at which a volume is autoscaled. This represents the percentage of free space remaining on the volume, when less than this threshold, it will trigger a volume expansion. For example, if the volume is 100Gi, and the threshold 20%, then a resize will be triggered when the used capacity exceeds 80Gi, and free space is less than 20Gi. This field defaults to 20 if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#threshold_percent DataK8SCouchbaseComCouchbaseBackupV2Manifest#threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#threshold_percent DataK8SCouchbaseComCouchbaseBackupV2Manifest#threshold_percent}
   */
   readonly thresholdPercent?: number;
 }
@@ -385,13 +385,13 @@ export interface DataK8SCouchbaseComCouchbaseBackupV2ManifestSpecData {
   /**
   * Exclude defines the buckets, scopes or collections that are excluded from the backup. When this field is set, it implies that by default everything will be backed up, and data items can be explicitly excluded. You may define an exclusion as a bucket -- 'my-bucket', a scope -- 'my-bucket.my-scope', or a collection -- 'my-bucket.my-scope.my-collection'. Buckets may contain periods, and therefore must be escaped -- 'my.bucket.my-scope', as period is the separator used to delimit scopes and collections. Excluded data cannot overlap e.g. specifying 'my-bucket' and 'my-bucket.my-scope' is illegal. This field cannot be used at the same time as included items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#exclude DataK8SCouchbaseComCouchbaseBackupV2Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#exclude DataK8SCouchbaseComCouchbaseBackupV2Manifest#exclude}
   */
   readonly exclude?: string[];
   /**
   * Include defines the buckets, scopes or collections that are included in the backup. When this field is set, it implies that by default nothing will be backed up, and data items must be explicitly included. You may define an inclusion as a bucket -- 'my-bucket', a scope -- 'my-bucket.my-scope', or a collection -- 'my-bucket.my-scope.my-collection'. Buckets may contain periods, and therefore must be escaped -- 'my.bucket.my-scope', as period is the separator used to delimit scopes and collections. Included data cannot overlap e.g. specifying 'my-bucket' and 'my-bucket.my-scope' is illegal. This field cannot be used at the same time as excluded items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#include DataK8SCouchbaseComCouchbaseBackupV2Manifest#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#include DataK8SCouchbaseComCouchbaseBackupV2Manifest#include}
   */
   readonly include?: string[];
 }
@@ -516,7 +516,7 @@ export interface DataK8SCouchbaseComCouchbaseBackupV2ManifestSpecFull {
   /**
   * Schedule takes a cron schedule in string format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#schedule DataK8SCouchbaseComCouchbaseBackupV2Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#schedule DataK8SCouchbaseComCouchbaseBackupV2Manifest#schedule}
   */
   readonly schedule: string;
 }
@@ -609,7 +609,7 @@ export interface DataK8SCouchbaseComCouchbaseBackupV2ManifestSpecIncremental {
   /**
   * Schedule takes a cron schedule in string format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#schedule DataK8SCouchbaseComCouchbaseBackupV2Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#schedule DataK8SCouchbaseComCouchbaseBackupV2Manifest#schedule}
   */
   readonly schedule: string;
 }
@@ -702,19 +702,19 @@ export interface DataK8SCouchbaseComCouchbaseBackupV2ManifestSpecObjectStoreEndp
   /**
   * The name of the secret, in this namespace, that contains the CA certificate for verification of a TLS endpoint The secret must have the key with the name 'tls.crt'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#secret DataK8SCouchbaseComCouchbaseBackupV2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#secret DataK8SCouchbaseComCouchbaseBackupV2Manifest#secret}
   */
   readonly secret?: string;
   /**
   * The host/address of the custom object endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#url DataK8SCouchbaseComCouchbaseBackupV2Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#url DataK8SCouchbaseComCouchbaseBackupV2Manifest#url}
   */
   readonly url?: string;
   /**
   * UseVirtualPath will force the AWS SDK to use the new virtual style paths which are often required by S3 compatible object stores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#use_virtual_path DataK8SCouchbaseComCouchbaseBackupV2Manifest#use_virtual_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#use_virtual_path DataK8SCouchbaseComCouchbaseBackupV2Manifest#use_virtual_path}
   */
   readonly useVirtualPath?: boolean | cdktf.IResolvable;
 }
@@ -868,25 +868,25 @@ export interface DataK8SCouchbaseComCouchbaseBackupV2ManifestSpecObjectStore {
   /**
   * Endpoint contains the configuration for connecting to a custom Azure/S3/GCP compliant object store. If set will override 'CouchbaseCluster.spec.backup.objectEndpoint' See https://docs.couchbase.com/server/current/backup-restore/cbbackupmgr-cloud.html#compatible-object-stores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#endpoint DataK8SCouchbaseComCouchbaseBackupV2Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#endpoint DataK8SCouchbaseComCouchbaseBackupV2Manifest#endpoint}
   */
   readonly endpoint?: DataK8SCouchbaseComCouchbaseBackupV2ManifestSpecObjectStoreEndpoint;
   /**
   * ObjStoreSecret must contain two fields, access-key-id, secret-access-key and optionally either region or refresh-token. These correspond to the fields used by cbbackupmgr https://docs.couchbase.com/server/current/backup-restore/cbbackupmgr-backup.html#optional-2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#secret DataK8SCouchbaseComCouchbaseBackupV2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#secret DataK8SCouchbaseComCouchbaseBackupV2Manifest#secret}
   */
   readonly secret?: string;
   /**
   * URI is a reference to a remote object store. This is the prefix of the object store and the bucket name. i.e s3://bucket, az://bucket or gs://bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#uri DataK8SCouchbaseComCouchbaseBackupV2Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#uri DataK8SCouchbaseComCouchbaseBackupV2Manifest#uri}
   */
   readonly uri?: string;
   /**
   * Whether to allow the backup SDK to attempt to authenticate using the instance metadata api. If set, will override 'CouchbaseCluster.spec.backup.useIAM'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#use_iam DataK8SCouchbaseComCouchbaseBackupV2Manifest#use_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#use_iam DataK8SCouchbaseComCouchbaseBackupV2Manifest#use_iam}
   */
   readonly useIam?: boolean | cdktf.IResolvable;
 }
@@ -1069,73 +1069,73 @@ export interface DataK8SCouchbaseComCouchbaseBackupV2ManifestSpecServices {
   /**
   * Analytics enables the backup of analytics data. This field defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#analytics DataK8SCouchbaseComCouchbaseBackupV2Manifest#analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#analytics DataK8SCouchbaseComCouchbaseBackupV2Manifest#analytics}
   */
   readonly analytics?: boolean | cdktf.IResolvable;
   /**
   * BucketConfig enables the backup of bucket configuration. This field defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#bucket_config DataK8SCouchbaseComCouchbaseBackupV2Manifest#bucket_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#bucket_config DataK8SCouchbaseComCouchbaseBackupV2Manifest#bucket_config}
   */
   readonly bucketConfig?: boolean | cdktf.IResolvable;
   /**
   * BucketQuery enables the backup of query metadata for all buckets. This field defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#bucket_query DataK8SCouchbaseComCouchbaseBackupV2Manifest#bucket_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#bucket_query DataK8SCouchbaseComCouchbaseBackupV2Manifest#bucket_query}
   */
   readonly bucketQuery?: boolean | cdktf.IResolvable;
   /**
   * ClusterAnalytics enables the backup of cluster-wide analytics data, for example synonyms. This field defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#cluster_analytics DataK8SCouchbaseComCouchbaseBackupV2Manifest#cluster_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#cluster_analytics DataK8SCouchbaseComCouchbaseBackupV2Manifest#cluster_analytics}
   */
   readonly clusterAnalytics?: boolean | cdktf.IResolvable;
   /**
   * ClusterQuery enables the backup of cluster level query metadata. This field defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#cluster_query DataK8SCouchbaseComCouchbaseBackupV2Manifest#cluster_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#cluster_query DataK8SCouchbaseComCouchbaseBackupV2Manifest#cluster_query}
   */
   readonly clusterQuery?: boolean | cdktf.IResolvable;
   /**
   * Data enables the backup of key-value data/documents for all buckets. This can be further refined with the couchbasebackups.spec.data configuration. This field defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#data DataK8SCouchbaseComCouchbaseBackupV2Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#data DataK8SCouchbaseComCouchbaseBackupV2Manifest#data}
   */
   readonly data?: boolean | cdktf.IResolvable;
   /**
   * Eventing enables the backup of eventing service metadata. This field defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#eventing DataK8SCouchbaseComCouchbaseBackupV2Manifest#eventing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#eventing DataK8SCouchbaseComCouchbaseBackupV2Manifest#eventing}
   */
   readonly eventing?: boolean | cdktf.IResolvable;
   /**
   * FTSAliases enables the backup of full-text search alias definitions. This field defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#fts_aliases DataK8SCouchbaseComCouchbaseBackupV2Manifest#fts_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#fts_aliases DataK8SCouchbaseComCouchbaseBackupV2Manifest#fts_aliases}
   */
   readonly ftsAliases?: boolean | cdktf.IResolvable;
   /**
   * FTSIndexes enables the backup of full-text search index definitions for all buckets. This field defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#fts_indexes DataK8SCouchbaseComCouchbaseBackupV2Manifest#fts_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#fts_indexes DataK8SCouchbaseComCouchbaseBackupV2Manifest#fts_indexes}
   */
   readonly ftsIndexes?: boolean | cdktf.IResolvable;
   /**
   * GSIndexes enables the backup of global secondary index definitions for all buckets. This field defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#gs_indexes DataK8SCouchbaseComCouchbaseBackupV2Manifest#gs_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#gs_indexes DataK8SCouchbaseComCouchbaseBackupV2Manifest#gs_indexes}
   */
   readonly gsIndexes?: boolean | cdktf.IResolvable;
   /**
   * Users enables the backup of users including their roles and permissions. This is only available for Couchbase Server 7.6 and later. This field defaults to 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#users DataK8SCouchbaseComCouchbaseBackupV2Manifest#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#users DataK8SCouchbaseComCouchbaseBackupV2Manifest#users}
   */
   readonly users?: boolean | cdktf.IResolvable;
   /**
   * Views enables the backup of view definitions for all buckets. This field defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#views DataK8SCouchbaseComCouchbaseBackupV2Manifest#views}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#views DataK8SCouchbaseComCouchbaseBackupV2Manifest#views}
   */
   readonly views?: boolean | cdktf.IResolvable;
 }
@@ -1550,115 +1550,115 @@ export interface DataK8SCouchbaseComCouchbaseBackupV2ManifestSpec {
   /**
   * AutoScaling allows the volume size to be dynamically increased. When specified, the backup volume will start with an initial size as defined by 'spec.size', and increase as required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#auto_scaling DataK8SCouchbaseComCouchbaseBackupV2Manifest#auto_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#auto_scaling DataK8SCouchbaseComCouchbaseBackupV2Manifest#auto_scaling}
   */
   readonly autoScaling?: DataK8SCouchbaseComCouchbaseBackupV2ManifestSpecAutoScaling;
   /**
   * Number of times a backup job should try to execute. Once it hits the BackoffLimit it will not run until the next scheduled job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#backoff_limit DataK8SCouchbaseComCouchbaseBackupV2Manifest#backoff_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#backoff_limit DataK8SCouchbaseComCouchbaseBackupV2Manifest#backoff_limit}
   */
   readonly backoffLimit?: number;
   /**
   * Number of hours to hold backups for, everything older will be deleted. More info: https://golang.org/pkg/time/#ParseDuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#backup_retention DataK8SCouchbaseComCouchbaseBackupV2Manifest#backup_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#backup_retention DataK8SCouchbaseComCouchbaseBackupV2Manifest#backup_retention}
   */
   readonly backupRetention?: string;
   /**
   * Data allows control over what key-value/document data is included in the backup. By default, all data is included. Modifications to this field will only take effect on the next full backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#data DataK8SCouchbaseComCouchbaseBackupV2Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#data DataK8SCouchbaseComCouchbaseBackupV2Manifest#data}
   */
   readonly data?: DataK8SCouchbaseComCouchbaseBackupV2ManifestSpecData;
   /**
   * DefaultRecoveryMethod specifies how cbbackupmgr should recover from broken backup/restore attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#default_recovery_method DataK8SCouchbaseComCouchbaseBackupV2Manifest#default_recovery_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#default_recovery_method DataK8SCouchbaseComCouchbaseBackupV2Manifest#default_recovery_method}
   */
   readonly defaultRecoveryMethod?: string;
   /**
   * EphemeralVolume sets backup to use an ephemeral volume instead of a persistent volume. This is used when backing up to a remote cloud provider, where a persistent volume is not needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#ephemeral_volume DataK8SCouchbaseComCouchbaseBackupV2Manifest#ephemeral_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#ephemeral_volume DataK8SCouchbaseComCouchbaseBackupV2Manifest#ephemeral_volume}
   */
   readonly ephemeralVolume?: boolean | cdktf.IResolvable;
   /**
   * Amount of failed jobs to keep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#failed_jobs_history_limit DataK8SCouchbaseComCouchbaseBackupV2Manifest#failed_jobs_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#failed_jobs_history_limit DataK8SCouchbaseComCouchbaseBackupV2Manifest#failed_jobs_history_limit}
   */
   readonly failedJobsHistoryLimit?: number;
   /**
   * Full is the schedule on when to take full backups. Used in Full/Incremental and FullOnly backup strategies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#full DataK8SCouchbaseComCouchbaseBackupV2Manifest#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#full DataK8SCouchbaseComCouchbaseBackupV2Manifest#full}
   */
   readonly full?: DataK8SCouchbaseComCouchbaseBackupV2ManifestSpecFull;
   /**
   * Incremental is the schedule on when to take incremental backups. Used in Full/Incremental backup strategies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#incremental DataK8SCouchbaseComCouchbaseBackupV2Manifest#incremental}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#incremental DataK8SCouchbaseComCouchbaseBackupV2Manifest#incremental}
   */
   readonly incremental?: DataK8SCouchbaseComCouchbaseBackupV2ManifestSpecIncremental;
   /**
   * Number of hours to hold script logs for, everything older will be deleted. More info: https://golang.org/pkg/time/#ParseDuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#log_retention DataK8SCouchbaseComCouchbaseBackupV2Manifest#log_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#log_retention DataK8SCouchbaseComCouchbaseBackupV2Manifest#log_retention}
   */
   readonly logRetention?: string;
   /**
   * ObjectStore allows for backing up to a remote cloud storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#object_store DataK8SCouchbaseComCouchbaseBackupV2Manifest#object_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#object_store DataK8SCouchbaseComCouchbaseBackupV2Manifest#object_store}
   */
   readonly objectStore?: DataK8SCouchbaseComCouchbaseBackupV2ManifestSpecObjectStore;
   /**
   * DEPRECATED - by spec.objectStore.uri Name of S3 bucket to backup to. If non-empty this overrides local backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#s3bucket DataK8SCouchbaseComCouchbaseBackupV2Manifest#s3bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#s3bucket DataK8SCouchbaseComCouchbaseBackupV2Manifest#s3bucket}
   */
   readonly s3Bucket?: string;
   /**
   * Services allows control over what services are included in the backup. By default, all service data and metadata are included apart from users. Modifications to this field will only take effect on the next full backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#services DataK8SCouchbaseComCouchbaseBackupV2Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#services DataK8SCouchbaseComCouchbaseBackupV2Manifest#services}
   */
   readonly services?: DataK8SCouchbaseComCouchbaseBackupV2ManifestSpecServices;
   /**
   * Size allows the specification of a backup persistent volume, when using volume based backup. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-units-in-kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#size DataK8SCouchbaseComCouchbaseBackupV2Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#size DataK8SCouchbaseComCouchbaseBackupV2Manifest#size}
   */
   readonly size?: string;
   /**
   * Name of StorageClass to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#storage_class_name DataK8SCouchbaseComCouchbaseBackupV2Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#storage_class_name DataK8SCouchbaseComCouchbaseBackupV2Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * Strategy defines how to perform backups. 'full_only' will only perform full backups, and you must define a schedule in the 'spec.full' field. 'full_incremental' will perform periodic full backups, and incremental backups in between. You must define full and incremental schedules in the 'spec.full' and 'spec.incremental' fields respectively. Care should be taken to ensure full and incremental schedules do not overlap, taking into account the backup time, as this will cause failures as the jobs attempt to mount the same backup volume. To cause a backup to occur immediately use 'immediate_incremental' or 'immediate_full' for incremental or full backups respectively. This field default to 'full_incremental'. Info: https://docs.couchbase.com/server/current/backup-restore/cbbackupmgr-strategies.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#strategy DataK8SCouchbaseComCouchbaseBackupV2Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#strategy DataK8SCouchbaseComCouchbaseBackupV2Manifest#strategy}
   */
   readonly strategy?: string;
   /**
   * Amount of successful jobs to keep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#successful_jobs_history_limit DataK8SCouchbaseComCouchbaseBackupV2Manifest#successful_jobs_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#successful_jobs_history_limit DataK8SCouchbaseComCouchbaseBackupV2Manifest#successful_jobs_history_limit}
   */
   readonly successfulJobsHistoryLimit?: number;
   /**
   * How many threads to use during the backup. This field defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#threads DataK8SCouchbaseComCouchbaseBackupV2Manifest#threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#threads DataK8SCouchbaseComCouchbaseBackupV2Manifest#threads}
   */
   readonly threads?: number;
   /**
   * Amount of time to elapse before a completed job is deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#ttl_seconds_after_finished DataK8SCouchbaseComCouchbaseBackupV2Manifest#ttl_seconds_after_finished}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#ttl_seconds_after_finished DataK8SCouchbaseComCouchbaseBackupV2Manifest#ttl_seconds_after_finished}
   */
   readonly ttlSecondsAfterFinished?: number;
 }
@@ -2274,7 +2274,7 @@ export class DataK8SCouchbaseComCouchbaseBackupV2ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest k8s_couchbase_com_couchbase_backup_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest k8s_couchbase_com_couchbase_backup_v2_manifest}
 */
 export class DataK8SCouchbaseComCouchbaseBackupV2Manifest extends cdktf.TerraformDataSource {
 
@@ -2290,7 +2290,7 @@ export class DataK8SCouchbaseComCouchbaseBackupV2Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SCouchbaseComCouchbaseBackupV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCouchbaseComCouchbaseBackupV2Manifest to import
-  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseBackupV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseBackupV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCouchbaseComCouchbaseBackupV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2302,7 +2302,7 @@ export class DataK8SCouchbaseComCouchbaseBackupV2Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest k8s_couchbase_com_couchbase_backup_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_backup_v2_manifest k8s_couchbase_com_couchbase_backup_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2313,8 +2313,8 @@ export class DataK8SCouchbaseComCouchbaseBackupV2Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_couchbase_com_couchbase_backup_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

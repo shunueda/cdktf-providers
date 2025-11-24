@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_codedeploy
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_aws_codedeploy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ServiceAwsCodedeployConfig extends cdktf.TerraformMetaArguments
   /**
   * The id of the application the service belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_codedeploy#app_id ServiceAwsCodedeploy#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_aws_codedeploy#app_id ServiceAwsCodedeploy#app_id}
   */
   readonly appId: string;
   /**
   * Description of th service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_codedeploy#description ServiceAwsCodedeploy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_aws_codedeploy#description ServiceAwsCodedeploy#description}
   */
   readonly description?: string;
   /**
   * Name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_codedeploy#name ServiceAwsCodedeploy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_aws_codedeploy#name ServiceAwsCodedeploy#name}
   */
   readonly name: string;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_codedeploy#variable ServiceAwsCodedeploy#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_aws_codedeploy#variable ServiceAwsCodedeploy#variable}
   */
   readonly variable?: ServiceAwsCodedeployVariable[] | cdktf.IResolvable;
 }
@@ -36,19 +36,19 @@ export interface ServiceAwsCodedeployVariable {
   /**
   * Name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_codedeploy#name ServiceAwsCodedeploy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_aws_codedeploy#name ServiceAwsCodedeploy#name}
   */
   readonly name: string;
   /**
   * Type of the variable. Options are 'TEXT' and 'ENCRYPTED_TEXT'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_codedeploy#type ServiceAwsCodedeploy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_aws_codedeploy#type ServiceAwsCodedeploy#type}
   */
   readonly type: string;
   /**
   * Value of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_codedeploy#value ServiceAwsCodedeploy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_aws_codedeploy#value ServiceAwsCodedeploy#value}
   */
   readonly value: string;
 }
@@ -213,7 +213,7 @@ export class ServiceAwsCodedeployVariableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_codedeploy harness_service_aws_codedeploy}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_aws_codedeploy harness_service_aws_codedeploy}
 */
 export class ServiceAwsCodedeploy extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class ServiceAwsCodedeploy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceAwsCodedeploy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceAwsCodedeploy to import
-  * @param importFromId The id of the existing ServiceAwsCodedeploy that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_codedeploy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceAwsCodedeploy that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_aws_codedeploy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceAwsCodedeploy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class ServiceAwsCodedeploy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_codedeploy harness_service_aws_codedeploy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/service_aws_codedeploy harness_service_aws_codedeploy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class ServiceAwsCodedeploy extends cdktf.TerraformResource {
       terraformResourceType: 'harness_service_aws_codedeploy',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

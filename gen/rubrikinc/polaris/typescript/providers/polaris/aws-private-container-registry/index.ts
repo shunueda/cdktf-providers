@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_private_container_registry
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_private_container_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AwsPrivateContainerRegistryConfig extends cdktf.TerraformMetaAr
   /**
   * RSC cloud account ID (UUID) of the AWS account hosting the Exocompute. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_private_container_registry#account_id AwsPrivateContainerRegistry#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_private_container_registry#account_id AwsPrivateContainerRegistry#account_id}
   */
   readonly accountId: string;
   /**
   * AWS account ID of the AWS account that will pull images from the RSC container registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_private_container_registry#native_id AwsPrivateContainerRegistry#native_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_private_container_registry#native_id AwsPrivateContainerRegistry#native_id}
   */
   readonly nativeId: string;
   /**
   * URL for customer provided private container registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_private_container_registry#url AwsPrivateContainerRegistry#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_private_container_registry#url AwsPrivateContainerRegistry#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_private_container_registry polaris_aws_private_container_registry}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_private_container_registry polaris_aws_private_container_registry}
 */
 export class AwsPrivateContainerRegistry extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class AwsPrivateContainerRegistry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsPrivateContainerRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsPrivateContainerRegistry to import
-  * @param importFromId The id of the existing AwsPrivateContainerRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_private_container_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsPrivateContainerRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_private_container_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsPrivateContainerRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class AwsPrivateContainerRegistry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_private_container_registry polaris_aws_private_container_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_private_container_registry polaris_aws_private_container_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class AwsPrivateContainerRegistry extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_aws_private_container_registry',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

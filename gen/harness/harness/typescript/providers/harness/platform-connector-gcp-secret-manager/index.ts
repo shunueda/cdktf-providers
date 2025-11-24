@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PlatformConnectorGcpSecretManagerConfig extends cdktf.Terraform
   /**
   * Reference to the secret containing credentials of IAM service account for Google Secret Manager. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#credentials_ref PlatformConnectorGcpSecretManager#credentials_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#credentials_ref PlatformConnectorGcpSecretManager#credentials_ref}
   */
   readonly credentialsRef?: string;
   /**
   * The delegates to inherit the credentials from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#delegate_selectors PlatformConnectorGcpSecretManager#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#delegate_selectors PlatformConnectorGcpSecretManager#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#description PlatformConnectorGcpSecretManager#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#description PlatformConnectorGcpSecretManager#description}
   */
   readonly description?: string;
   /**
   * Execute on delegate or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#execute_on_delegate PlatformConnectorGcpSecretManager#execute_on_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#execute_on_delegate PlatformConnectorGcpSecretManager#execute_on_delegate}
   */
   readonly executeOnDelegate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#id PlatformConnectorGcpSecretManager#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#id PlatformConnectorGcpSecretManager#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface PlatformConnectorGcpSecretManagerConfig extends cdktf.Terraform
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#identifier PlatformConnectorGcpSecretManager#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#identifier PlatformConnectorGcpSecretManager#identifier}
   */
   readonly identifier: string;
   /**
   * Inherit configuration from delegate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#inherit_from_delegate PlatformConnectorGcpSecretManager#inherit_from_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#inherit_from_delegate PlatformConnectorGcpSecretManager#inherit_from_delegate}
   */
   readonly inheritFromDelegate?: boolean | cdktf.IResolvable;
   /**
   * Set this flag to set this secret manager as default secret manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#is_default PlatformConnectorGcpSecretManager#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#is_default PlatformConnectorGcpSecretManager#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#name PlatformConnectorGcpSecretManager#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#name PlatformConnectorGcpSecretManager#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#org_id PlatformConnectorGcpSecretManager#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#org_id PlatformConnectorGcpSecretManager#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#project_id PlatformConnectorGcpSecretManager#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#project_id PlatformConnectorGcpSecretManager#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#tags PlatformConnectorGcpSecretManager#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#tags PlatformConnectorGcpSecretManager#tags}
   */
   readonly tags?: string[];
   /**
   * oidc_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#oidc_authentication PlatformConnectorGcpSecretManager#oidc_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#oidc_authentication PlatformConnectorGcpSecretManager#oidc_authentication}
   */
   readonly oidcAuthentication?: PlatformConnectorGcpSecretManagerOidcAuthentication[] | cdktf.IResolvable;
 }
@@ -91,25 +91,25 @@ export interface PlatformConnectorGcpSecretManagerOidcAuthentication {
   /**
   * The project number of the GCP project that is used to create the workload identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#gcp_project_id PlatformConnectorGcpSecretManager#gcp_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#gcp_project_id PlatformConnectorGcpSecretManager#gcp_project_id}
   */
   readonly gcpProjectId: string;
   /**
   * The OIDC provider ID value configured in GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#provider_id PlatformConnectorGcpSecretManager#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#provider_id PlatformConnectorGcpSecretManager#provider_id}
   */
   readonly providerId: string;
   /**
   * The service account linked to workload identity pool while setting GCP workload identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#service_account_email PlatformConnectorGcpSecretManager#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#service_account_email PlatformConnectorGcpSecretManager#service_account_email}
   */
   readonly serviceAccountEmail: string;
   /**
   * The workload pool ID value created in GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#workload_pool_id PlatformConnectorGcpSecretManager#workload_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#workload_pool_id PlatformConnectorGcpSecretManager#workload_pool_id}
   */
   readonly workloadPoolId: string;
 }
@@ -300,7 +300,7 @@ export class PlatformConnectorGcpSecretManagerOidcAuthenticationList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager harness_platform_connector_gcp_secret_manager}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager harness_platform_connector_gcp_secret_manager}
 */
 export class PlatformConnectorGcpSecretManager extends cdktf.TerraformResource {
 
@@ -316,7 +316,7 @@ export class PlatformConnectorGcpSecretManager extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorGcpSecretManager resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorGcpSecretManager to import
-  * @param importFromId The id of the existing PlatformConnectorGcpSecretManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorGcpSecretManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorGcpSecretManager to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -328,7 +328,7 @@ export class PlatformConnectorGcpSecretManager extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp_secret_manager harness_platform_connector_gcp_secret_manager} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp_secret_manager harness_platform_connector_gcp_secret_manager} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -339,8 +339,8 @@ export class PlatformConnectorGcpSecretManager extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_gcp_secret_manager',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

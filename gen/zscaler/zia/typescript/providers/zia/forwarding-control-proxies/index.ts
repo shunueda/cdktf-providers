@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_proxies
+// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_proxies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface ForwardingControlProxiesConfig extends cdktf.TerraformMetaArgum
   /**
   * The IP address or the FQDN of the third-party proxy service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_proxies#address ForwardingControlProxies#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_proxies#address ForwardingControlProxies#address}
   */
   readonly address?: string;
   /**
   * Flag indicating whether the added X-Authenticated-User header is Base64 encoded. When enabled, the user ID is encoded using the Base64 encoding method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_proxies#base64_encode_xau_header ForwardingControlProxies#base64_encode_xau_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_proxies#base64_encode_xau_header ForwardingControlProxies#base64_encode_xau_header}
   */
   readonly base64EncodeXauHeader?: boolean | cdktf.IResolvable;
   /**
   * Additional details about the Proxy gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_proxies#description ForwardingControlProxies#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_proxies#description ForwardingControlProxies#description}
   */
   readonly description?: string;
   /**
   * Flag indicating whether X-Authenticated-User header is added by the proxy. Enable to automatically insert authenticated user ID to the HTTP header, X-Authenticated-User.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_proxies#insert_xau_header ForwardingControlProxies#insert_xau_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_proxies#insert_xau_header ForwardingControlProxies#insert_xau_header}
   */
   readonly insertXauHeader?: boolean | cdktf.IResolvable;
   /**
   * The name of the Proxy gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_proxies#name ForwardingControlProxies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_proxies#name ForwardingControlProxies#name}
   */
   readonly name?: string;
   /**
   * The port number on which the third-party proxy service listens to the requests forwarded from Zscaler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_proxies#port ForwardingControlProxies#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_proxies#port ForwardingControlProxies#port}
   */
   readonly port?: number;
   /**
   * Gateway type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_proxies#type ForwardingControlProxies#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_proxies#type ForwardingControlProxies#type}
   */
   readonly type?: string;
   /**
   * cert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_proxies#cert ForwardingControlProxies#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_proxies#cert ForwardingControlProxies#cert}
   */
   readonly cert?: ForwardingControlProxiesCert[] | cdktf.IResolvable;
 }
 export interface ForwardingControlProxiesCert {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_proxies#id ForwardingControlProxies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_proxies#id ForwardingControlProxies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -177,7 +177,7 @@ export class ForwardingControlProxiesCertList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_proxies zia_forwarding_control_proxies}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_proxies zia_forwarding_control_proxies}
 */
 export class ForwardingControlProxies extends cdktf.TerraformResource {
 
@@ -193,7 +193,7 @@ export class ForwardingControlProxies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ForwardingControlProxies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ForwardingControlProxies to import
-  * @param importFromId The id of the existing ForwardingControlProxies that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_proxies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ForwardingControlProxies that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_proxies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ForwardingControlProxies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -205,7 +205,7 @@ export class ForwardingControlProxies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_proxies zia_forwarding_control_proxies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_proxies zia_forwarding_control_proxies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,8 +216,8 @@ export class ForwardingControlProxies extends cdktf.TerraformResource {
       terraformResourceType: 'zia_forwarding_control_proxies',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.2',
-        providerVersionConstraint: '4.6.2'
+        providerVersion: '4.6.3',
+        providerVersionConstraint: '4.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

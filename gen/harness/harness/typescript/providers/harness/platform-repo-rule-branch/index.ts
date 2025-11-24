@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlatformRepoRuleBranchConfig extends cdktf.TerraformMetaArgumen
   /**
   * Description of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#description PlatformRepoRuleBranch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#description PlatformRepoRuleBranch#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#id PlatformRepoRuleBranch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#id PlatformRepoRuleBranch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface PlatformRepoRuleBranchConfig extends cdktf.TerraformMetaArgumen
   /**
   * Identifier of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#identifier PlatformRepoRuleBranch#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#identifier PlatformRepoRuleBranch#identifier}
   */
   readonly identifier: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#org_id PlatformRepoRuleBranch#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#org_id PlatformRepoRuleBranch#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#project_id PlatformRepoRuleBranch#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#project_id PlatformRepoRuleBranch#project_id}
   */
   readonly projectId?: string;
   /**
   * Repo identifier of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#repo_identifier PlatformRepoRuleBranch#repo_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#repo_identifier PlatformRepoRuleBranch#repo_identifier}
   */
   readonly repoIdentifier: string;
   /**
   * State of the rule (active, disable, monitor).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#state PlatformRepoRuleBranch#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#state PlatformRepoRuleBranch#state}
   */
   readonly state: string;
   /**
   * bypass block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#bypass PlatformRepoRuleBranch#bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#bypass PlatformRepoRuleBranch#bypass}
   */
   readonly bypass: PlatformRepoRuleBranchBypass[] | cdktf.IResolvable;
   /**
   * pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#pattern PlatformRepoRuleBranch#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#pattern PlatformRepoRuleBranch#pattern}
   */
   readonly pattern?: PlatformRepoRuleBranchPattern[] | cdktf.IResolvable;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#policies PlatformRepoRuleBranch#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#policies PlatformRepoRuleBranch#policies}
   */
   readonly policies: PlatformRepoRuleBranchPolicies[] | cdktf.IResolvable;
 }
@@ -73,13 +73,13 @@ export interface PlatformRepoRuleBranchBypass {
   /**
   * Allow users with repository edit permission to bypass.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#repo_owners PlatformRepoRuleBranch#repo_owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#repo_owners PlatformRepoRuleBranch#repo_owners}
   */
   readonly repoOwners?: boolean | cdktf.IResolvable;
   /**
   * List of user ids with who can bypass.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#user_ids PlatformRepoRuleBranch#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#user_ids PlatformRepoRuleBranch#user_ids}
   */
   readonly userIds?: string[];
 }
@@ -226,19 +226,19 @@ export interface PlatformRepoRuleBranchPattern {
   /**
   * Should rule apply to default branch of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#default_branch PlatformRepoRuleBranch#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#default_branch PlatformRepoRuleBranch#default_branch}
   */
   readonly defaultBranch?: boolean | cdktf.IResolvable;
   /**
   * Globstar branch patterns on which rules will NOT be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#exclude PlatformRepoRuleBranch#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#exclude PlatformRepoRuleBranch#exclude}
   */
   readonly exclude?: string[];
   /**
   * Globstar branch patterns on which rules will be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#include PlatformRepoRuleBranch#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#include PlatformRepoRuleBranch#include}
   */
   readonly include?: string[];
 }
@@ -414,67 +414,67 @@ export interface PlatformRepoRuleBranchPolicies {
   /**
   * Limit which merge strategies are available to merge a pull request(Any of squash, rebase, merge).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#allow_merge_strategies PlatformRepoRuleBranch#allow_merge_strategies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#allow_merge_strategies PlatformRepoRuleBranch#allow_merge_strategies}
   */
   readonly allowMergeStrategies?: string[];
   /**
   * Only allow users with bypass permission to create matching branches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#block_branch_creation PlatformRepoRuleBranch#block_branch_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#block_branch_creation PlatformRepoRuleBranch#block_branch_creation}
   */
   readonly blockBranchCreation?: boolean | cdktf.IResolvable;
   /**
   * Only allow users with bypass permission to delete matching branches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#block_branch_deletion PlatformRepoRuleBranch#block_branch_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#block_branch_deletion PlatformRepoRuleBranch#block_branch_deletion}
   */
   readonly blockBranchDeletion?: boolean | cdktf.IResolvable;
   /**
   * Automatically delete the source branch of a pull request after it is merged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#delete_branch_on_merge PlatformRepoRuleBranch#delete_branch_on_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#delete_branch_on_merge PlatformRepoRuleBranch#delete_branch_on_merge}
   */
   readonly deleteBranchOnMerge?: boolean | cdktf.IResolvable;
   /**
   * Require approval on pull requests from one reviewer for each codeowner rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#require_code_owners PlatformRepoRuleBranch#require_code_owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#require_code_owners PlatformRepoRuleBranch#require_code_owners}
   */
   readonly requireCodeOwners?: boolean | cdktf.IResolvable;
   /**
   * Require re-approval when there are new changes in the pull request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#require_latest_commit_approval PlatformRepoRuleBranch#require_latest_commit_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#require_latest_commit_approval PlatformRepoRuleBranch#require_latest_commit_approval}
   */
   readonly requireLatestCommitApproval?: boolean | cdktf.IResolvable;
   /**
   * Require approval on pull requests from a minimum number of reviewers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#require_minimum_approval_count PlatformRepoRuleBranch#require_minimum_approval_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#require_minimum_approval_count PlatformRepoRuleBranch#require_minimum_approval_count}
   */
   readonly requireMinimumApprovalCount?: number;
   /**
   * Require all request for changes have been resolved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#require_no_change_request PlatformRepoRuleBranch#require_no_change_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#require_no_change_request PlatformRepoRuleBranch#require_no_change_request}
   */
   readonly requireNoChangeRequest?: boolean | cdktf.IResolvable;
   /**
   * Do not allow any changes to matching branches without a pull request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#require_pull_request PlatformRepoRuleBranch#require_pull_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#require_pull_request PlatformRepoRuleBranch#require_pull_request}
   */
   readonly requirePullRequest?: boolean | cdktf.IResolvable;
   /**
   * All comments on a pull request must be resolved before it can be merged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#require_resolve_all_comments PlatformRepoRuleBranch#require_resolve_all_comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#require_resolve_all_comments PlatformRepoRuleBranch#require_resolve_all_comments}
   */
   readonly requireResolveAllComments?: boolean | cdktf.IResolvable;
   /**
   * Selected status checks must pass before a pull request can be merged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#require_status_checks PlatformRepoRuleBranch#require_status_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#require_status_checks PlatformRepoRuleBranch#require_status_checks}
   */
   readonly requireStatusChecks?: string[];
 }
@@ -880,7 +880,7 @@ export class PlatformRepoRuleBranchPoliciesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch harness_platform_repo_rule_branch}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch harness_platform_repo_rule_branch}
 */
 export class PlatformRepoRuleBranch extends cdktf.TerraformResource {
 
@@ -896,7 +896,7 @@ export class PlatformRepoRuleBranch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformRepoRuleBranch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformRepoRuleBranch to import
-  * @param importFromId The id of the existing PlatformRepoRuleBranch that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformRepoRuleBranch that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformRepoRuleBranch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -908,7 +908,7 @@ export class PlatformRepoRuleBranch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo_rule_branch harness_platform_repo_rule_branch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_repo_rule_branch harness_platform_repo_rule_branch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -919,8 +919,8 @@ export class PlatformRepoRuleBranch extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_repo_rule_branch',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manife
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1ManifestMetadata;
   /**
   * ControlPlaneUpgradeSpec defines the desired state of ControlPlaneUpgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manife
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,43 +219,43 @@ export interface DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manife
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#api_version DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#api_version DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#field_path DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#field_path DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#resource_version DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#resource_version DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#uid DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#uid DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -525,43 +525,43 @@ export interface DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manife
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#api_version DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#api_version DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#field_path DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#field_path DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#resource_version DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#resource_version DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#uid DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#uid DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -853,31 +853,31 @@ export interface DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manife
   /**
   * ControlPlane is a reference to the KubeadmControlPlane object to upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#control_plane DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#control_plane DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#control_plane}
   */
   readonly controlPlane: DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1ManifestSpecControlPlane;
   /**
   * ControlPlaneSpecData contains base64 encoded KCP spec that's used to update the statuses of CAPI objects once the control plane upgrade is done. This field is needed so that we have a static copy of the control plane spec in case it gets modified after the ControlPlaneUpgrade was created, as ControlPlane is a reference to the object in real time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#control_plane_spec_data DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#control_plane_spec_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#control_plane_spec_data DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#control_plane_spec_data}
   */
   readonly controlPlaneSpecData: string;
   /**
   * EtcdVersion refers to the version of ETCD to upgrade to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#etcd_version DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#etcd_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#etcd_version DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#etcd_version}
   */
   readonly etcdVersion: string;
   /**
   * KubernetesVersion refers to the Kubernetes version to upgrade the control planes to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#kubernetes_version DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#kubernetes_version DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#kubernetes_version}
   */
   readonly kubernetesVersion: string;
   /**
   * MachinesRequireUpgrade is a list of references to CAPI machines that need to be upgraded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#machines_require_upgrade DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#machines_require_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#machines_require_upgrade DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest#machines_require_upgrade}
   */
   readonly machinesRequireUpgrade: DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1ManifestSpecMachinesRequireUpgrade[] | cdktf.IResolvable;
 }
@@ -1072,7 +1072,7 @@ export class DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1ManifestSp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest}
 */
 export class DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1088,7 +1088,7 @@ export class DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest e
   * Generates CDKTF code for importing a DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1100,7 +1100,7 @@ export class DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest e
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1111,8 +1111,8 @@ export class DataK8SAnywhereEksAmazonawsComControlPlaneUpgradeV1Alpha1Manifest e
       terraformResourceType: 'k8s_anywhere_eks_amazonaws_com_control_plane_upgrade_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

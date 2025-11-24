@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#metadata DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#metadata DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#metadata}
   */
   readonly metadata: DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestMetadata;
   /**
   * ServiceLevelSpec is the spec for a PrometheusServiceLevel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#spec DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#spec DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#spec}
   */
   readonly spec?: DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#annotations DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#annotations DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#labels DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#labels DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#name DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#name DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#namespace DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#namespace DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlosAler
   /**
   * Annotations are the Prometheus annotations for the specific alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#annotations DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#annotations DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Disable disables the alert and makes Sloth not generating this alert. This can be helpful for example to disable ticket(warning) alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#disable DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#disable DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Labels are the Prometheus labels for the specific alert. For example can be useful to route the Page alert to specific Slack channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#labels DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#labels DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -385,19 +385,19 @@ export interface DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlosAler
   /**
   * Annotations are the Prometheus annotations for the specific alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#annotations DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#annotations DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Disable disables the alert and makes Sloth not generating this alert. This can be helpful for example to disable ticket(warning) alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#disable DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#disable DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
   * Labels are the Prometheus labels for the specific alert. For example can be useful to route the Page alert to specific Slack channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#labels DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#labels DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -551,31 +551,31 @@ export interface DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlosAler
   /**
   * Annotations are the Prometheus annotations that will have all the alerts generated by this SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#annotations DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#annotations DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels are the Prometheus labels that will have all the alerts generated by this SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#labels DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#labels DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name is the name used by the alerts generated for this SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#name DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#name DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Page alert refers to the critical alert (check multiwindow-multiburn alerts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#page_alert DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#page_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#page_alert DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#page_alert}
   */
   readonly pageAlert?: DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlosAlertingPageAlert;
   /**
   * TicketAlert alert refers to the warning alert (check multiwindow-multiburn alerts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#ticket_alert DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#ticket_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#ticket_alert DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#ticket_alert}
   */
   readonly ticketAlert?: DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlosAlertingTicketAlert;
 }
@@ -787,13 +787,13 @@ export interface DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlosSliE
   /**
   * ErrorQuery is a Prometheus query that will get the number/count of events that we consider that are bad for the SLO (e.g 'http 5xx', 'latency > 250ms'...). Requires the usage of '{{.window}}' template variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#error_query DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#error_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#error_query DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#error_query}
   */
   readonly errorQuery: string;
   /**
   * TotalQuery is a Prometheus query that will get the total number/count of events for the SLO (e.g 'all http requests'...). Requires the usage of '{{.window}}' template variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#total_query DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#total_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#total_query DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#total_query}
   */
   readonly totalQuery: string;
 }
@@ -912,7 +912,7 @@ export interface DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlosSliP
   /**
   * Name is the name of the plugin that needs to load.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#id DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#id DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -921,7 +921,7 @@ export interface DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlosSliP
   /**
   * Options are the options used for the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#options DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#options DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#options}
   */
   readonly options?: { [key: string]: string };
 }
@@ -1043,7 +1043,7 @@ export interface DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlosSliR
   /**
   * ErrorRatioQuery is a Prometheus query that will get the raw error ratio (0-1) for the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#error_ratio_query DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#error_ratio_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#error_ratio_query DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#error_ratio_query}
   */
   readonly errorRatioQuery: string;
 }
@@ -1136,19 +1136,19 @@ export interface DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlosSli 
   /**
   * Events is the events SLI type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#events DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#events DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#events}
   */
   readonly events?: DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlosSliEvents;
   /**
   * Plugin is the pluggable SLI type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#plugin DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#plugin DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#plugin}
   */
   readonly plugin?: DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlosSliPlugin;
   /**
   * Raw is the raw SLI type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#raw DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#raw DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#raw}
   */
   readonly raw?: DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlosSliRaw;
 }
@@ -1302,37 +1302,37 @@ export interface DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlos {
   /**
   * Alerting is the configuration with all the things related with the SLO alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#alerting DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#alerting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#alerting DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#alerting}
   */
   readonly alerting: DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlosAlerting;
   /**
   * Description is the description of the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#description DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#description DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#description}
   */
   readonly description?: string;
   /**
   * Labels are the Prometheus labels that will have all the recording and alerting rules for this specific SLO. These labels are merged with the previous level labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#labels DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#labels DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name is the name of the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#name DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#name DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#name}
   */
   readonly name: string;
   /**
   * Objective is target of the SLO the percentage (0, 100] (e.g 99.9).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#objective DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#objective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#objective DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#objective}
   */
   readonly objective: number;
   /**
   * SLI is the indicator (service level indicator) for this specific SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#sli DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#sli DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#sli}
   */
   readonly sli: DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlosSli;
 }
@@ -1583,19 +1583,19 @@ export interface DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpec {
   /**
   * Labels are the Prometheus labels that will have all the recording and alerting rules generated for the service SLOs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#labels DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#labels DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Service is the application of the SLOs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#service DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#service DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#service}
   */
   readonly service: string;
   /**
   * SLOs are the SLOs of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#slos DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#slos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#slos DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest#slos}
   */
   readonly slos?: DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecSlos[] | cdktf.IResolvable;
 }
@@ -1744,7 +1744,7 @@ export class DataK8SSlothSlokDevPrometheusServiceLevelV1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest k8s_sloth_slok_dev_prometheus_service_level_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest k8s_sloth_slok_dev_prometheus_service_level_v1_manifest}
 */
 export class DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1760,7 +1760,7 @@ export class DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest to import
-  * @param importFromId The id of the existing DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1772,7 +1772,7 @@ export class DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest k8s_sloth_slok_dev_prometheus_service_level_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sloth_slok_dev_prometheus_service_level_v1_manifest k8s_sloth_slok_dev_prometheus_service_level_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1783,8 +1783,8 @@ export class DataK8SSlothSlokDevPrometheusServiceLevelV1Manifest extends cdktf.T
       terraformResourceType: 'k8s_sloth_slok_dev_prometheus_service_level_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

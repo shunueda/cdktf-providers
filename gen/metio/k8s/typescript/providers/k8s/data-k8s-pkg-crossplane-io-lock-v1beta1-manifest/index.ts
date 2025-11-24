@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SPkgCrossplaneIoLockV1Beta1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#metadata DataK8SPkgCrossplaneIoLockV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#metadata DataK8SPkgCrossplaneIoLockV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SPkgCrossplaneIoLockV1Beta1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#packages DataK8SPkgCrossplaneIoLockV1Beta1Manifest#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#packages DataK8SPkgCrossplaneIoLockV1Beta1Manifest#packages}
   */
   readonly packages?: DataK8SPkgCrossplaneIoLockV1Beta1ManifestPackages[] | cdktf.IResolvable;
 }
@@ -22,19 +22,19 @@ export interface DataK8SPkgCrossplaneIoLockV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#annotations DataK8SPkgCrossplaneIoLockV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#annotations DataK8SPkgCrossplaneIoLockV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#labels DataK8SPkgCrossplaneIoLockV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#labels DataK8SPkgCrossplaneIoLockV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#name DataK8SPkgCrossplaneIoLockV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#name DataK8SPkgCrossplaneIoLockV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,19 +185,19 @@ export interface DataK8SPkgCrossplaneIoLockV1Beta1ManifestPackagesDependencies {
   /**
   * Constraints is a valid semver range or a digest, which will be used to select a valid dependency version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#constraints DataK8SPkgCrossplaneIoLockV1Beta1Manifest#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#constraints DataK8SPkgCrossplaneIoLockV1Beta1Manifest#constraints}
   */
   readonly constraints: string;
   /**
   * Package is the OCI image name without a tag or digest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#package DataK8SPkgCrossplaneIoLockV1Beta1Manifest#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#package DataK8SPkgCrossplaneIoLockV1Beta1Manifest#package}
   */
   readonly package: string;
   /**
   * Type is the type of package. Can be either Configuration or Provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#type DataK8SPkgCrossplaneIoLockV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#type DataK8SPkgCrossplaneIoLockV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -364,31 +364,31 @@ export interface DataK8SPkgCrossplaneIoLockV1Beta1ManifestPackages {
   /**
   * Dependencies are the list of dependencies of this package. The order of the dependencies will dictate the order in which they are resolved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#dependencies DataK8SPkgCrossplaneIoLockV1Beta1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#dependencies DataK8SPkgCrossplaneIoLockV1Beta1Manifest#dependencies}
   */
   readonly dependencies: DataK8SPkgCrossplaneIoLockV1Beta1ManifestPackagesDependencies[] | cdktf.IResolvable;
   /**
   * Name corresponds to the name of the package revision for this package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#name DataK8SPkgCrossplaneIoLockV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#name DataK8SPkgCrossplaneIoLockV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Source is the OCI image name without a tag or digest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#source DataK8SPkgCrossplaneIoLockV1Beta1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#source DataK8SPkgCrossplaneIoLockV1Beta1Manifest#source}
   */
   readonly source: string;
   /**
   * Type is the type of package. Can be either Configuration or Provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#type DataK8SPkgCrossplaneIoLockV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#type DataK8SPkgCrossplaneIoLockV1Beta1Manifest#type}
   */
   readonly type: string;
   /**
   * Version is the tag or digest of the OCI image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#version DataK8SPkgCrossplaneIoLockV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#version DataK8SPkgCrossplaneIoLockV1Beta1Manifest#version}
   */
   readonly version: string;
 }
@@ -605,7 +605,7 @@ export class DataK8SPkgCrossplaneIoLockV1Beta1ManifestPackagesList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest k8s_pkg_crossplane_io_lock_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest k8s_pkg_crossplane_io_lock_v1beta1_manifest}
 */
 export class DataK8SPkgCrossplaneIoLockV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -621,7 +621,7 @@ export class DataK8SPkgCrossplaneIoLockV1Beta1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SPkgCrossplaneIoLockV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPkgCrossplaneIoLockV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SPkgCrossplaneIoLockV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPkgCrossplaneIoLockV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPkgCrossplaneIoLockV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -633,7 +633,7 @@ export class DataK8SPkgCrossplaneIoLockV1Beta1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest k8s_pkg_crossplane_io_lock_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/pkg_crossplane_io_lock_v1beta1_manifest k8s_pkg_crossplane_io_lock_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -644,8 +644,8 @@ export class DataK8SPkgCrossplaneIoLockV1Beta1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_pkg_crossplane_io_lock_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

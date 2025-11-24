@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_service_overrides
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_environment_service_overrides
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlatformEnvironmentServiceOverridesConfig extends cdktf.Terrafo
   /**
   * The env ID to which the overrides associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_service_overrides#env_id PlatformEnvironmentServiceOverrides#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_environment_service_overrides#env_id PlatformEnvironmentServiceOverrides#env_id}
   */
   readonly envId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_service_overrides#id PlatformEnvironmentServiceOverrides#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_environment_service_overrides#id PlatformEnvironmentServiceOverrides#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface PlatformEnvironmentServiceOverridesConfig extends cdktf.Terrafo
   /**
   * identifier of the service overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_service_overrides#identifier PlatformEnvironmentServiceOverrides#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_environment_service_overrides#identifier PlatformEnvironmentServiceOverrides#identifier}
   */
   readonly identifier?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_service_overrides#org_id PlatformEnvironmentServiceOverrides#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_environment_service_overrides#org_id PlatformEnvironmentServiceOverrides#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_service_overrides#project_id PlatformEnvironmentServiceOverrides#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_environment_service_overrides#project_id PlatformEnvironmentServiceOverrides#project_id}
   */
   readonly projectId?: string;
   /**
   * The service ID to which the overrides applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_service_overrides#service_id PlatformEnvironmentServiceOverrides#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_environment_service_overrides#service_id PlatformEnvironmentServiceOverrides#service_id}
   */
   readonly serviceId: string;
   /**
   * Environment Service Overrides YAML. In YAML, to reference an entity at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference an entity at the account scope, prefix 'account` to the expression: account.{identifier}. For eg, to reference a connector with identifier 'connectorId' at the organization scope in a stage mention it as connectorRef: org.connectorId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_service_overrides#yaml PlatformEnvironmentServiceOverrides#yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_environment_service_overrides#yaml PlatformEnvironmentServiceOverrides#yaml}
   */
   readonly yaml: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_service_overrides harness_platform_environment_service_overrides}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_environment_service_overrides harness_platform_environment_service_overrides}
 */
 export class PlatformEnvironmentServiceOverrides extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class PlatformEnvironmentServiceOverrides extends cdktf.TerraformResource
   * Generates CDKTF code for importing a PlatformEnvironmentServiceOverrides resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformEnvironmentServiceOverrides to import
-  * @param importFromId The id of the existing PlatformEnvironmentServiceOverrides that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_service_overrides#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformEnvironmentServiceOverrides that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_environment_service_overrides#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformEnvironmentServiceOverrides to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class PlatformEnvironmentServiceOverrides extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_service_overrides harness_platform_environment_service_overrides} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_environment_service_overrides harness_platform_environment_service_overrides} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class PlatformEnvironmentServiceOverrides extends cdktf.TerraformResource
       terraformResourceType: 'harness_platform_environment_service_overrides',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

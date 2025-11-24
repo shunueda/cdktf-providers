@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#metadata DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#metadata DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestMetadata;
   /**
   * A StoreConfigSpec defines the desired state of a StoreConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#spec DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#spec DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#annotations DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#annotations DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#labels DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#labels DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#name DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#name DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpecKubern
   /**
   * Name is the name of an environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#name DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#name DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -280,7 +280,7 @@ export interface DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpecKubern
   /**
   * Path is a filesystem path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#path DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#path DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -373,19 +373,19 @@ export interface DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpecKubern
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#key DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#key DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#name DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#name DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#namespace DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#namespace DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -530,25 +530,25 @@ export interface DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpecKubern
   /**
   * Env is a reference to an environment variable that contains credentials that must be used to connect to the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#env DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#env DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpecKubernetesAuthEnv;
   /**
   * Fs is a reference to a filesystem location that contains credentials that must be used to connect to the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#fs DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#fs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#fs DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#fs}
   */
   readonly fs?: DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpecKubernetesAuthFs;
   /**
   * A SecretRef is a reference to a secret key that contains the credentials that must be used to connect to the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#secret_ref DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#secret_ref DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpecKubernetesAuthSecretRef;
   /**
   * Source of the credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#source DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#source DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#source}
   */
   readonly source: string;
 }
@@ -728,7 +728,7 @@ export interface DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpecKubern
   /**
   * Credentials used to connect to the Kubernetes API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#auth DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#auth DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#auth}
   */
   readonly auth: DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpecKubernetesAuth;
 }
@@ -821,19 +821,19 @@ export interface DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpecPlugin
   /**
   * APIVersion of the referenced config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#api_version DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#api_version DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Kind of the referenced config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#kind DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#kind DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referenced config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#name DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#name DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -978,13 +978,13 @@ export interface DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpecPlugin
   /**
   * ConfigRef contains store config reference info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#config_ref DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#config_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#config_ref DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#config_ref}
   */
   readonly configRef?: DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpecPluginConfigRef;
   /**
   * Endpoint is the endpoint of the gRPC server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#endpoint DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#endpoint DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#endpoint}
   */
   readonly endpoint?: string;
 }
@@ -1109,25 +1109,25 @@ export interface DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpec {
   /**
   * DefaultScope used for scoping secrets for 'cluster-scoped' resources. If store type is 'Kubernetes', this would mean the default namespace to store connection secrets for cluster scoped resources. In case of 'Vault', this would be used as the default parent path. Typically, should be set as Crossplane installation namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#default_scope DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#default_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#default_scope DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#default_scope}
   */
   readonly defaultScope: string;
   /**
   * Kubernetes configures a Kubernetes secret store. If the 'type' is 'Kubernetes' but no config provided, in cluster config will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#kubernetes DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#kubernetes DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#kubernetes}
   */
   readonly kubernetes?: DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpecKubernetes;
   /**
   * Plugin configures External secret store as a plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#plugin DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#plugin DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#plugin}
   */
   readonly plugin?: DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpecPlugin;
   /**
   * Type configures which secret store to be used. Only the configuration block for this store will be used and others will be ignored if provided. Default is Kubernetes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#type DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#type DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1305,7 +1305,7 @@ export class DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest k8s_secrets_crossplane_io_store_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest k8s_secrets_crossplane_io_store_config_v1alpha1_manifest}
 */
 export class DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1321,7 +1321,7 @@ export class DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1333,7 +1333,7 @@ export class DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest k8s_secrets_crossplane_io_store_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_crossplane_io_store_config_v1alpha1_manifest k8s_secrets_crossplane_io_store_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1344,8 +1344,8 @@ export class DataK8SSecretsCrossplaneIoStoreConfigV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_secrets_crossplane_io_store_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

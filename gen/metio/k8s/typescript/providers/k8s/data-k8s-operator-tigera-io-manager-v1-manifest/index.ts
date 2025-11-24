@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorTigeraIoManagerV1ManifestConfig extends cdktf.Te
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#metadata DataK8SOperatorTigeraIoManagerV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#metadata DataK8SOperatorTigeraIoManagerV1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorTigeraIoManagerV1ManifestMetadata;
   /**
   * Specification of the desired state for the Calico Enterprise manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#spec DataK8SOperatorTigeraIoManagerV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#spec DataK8SOperatorTigeraIoManagerV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoManagerV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SOperatorTigeraIoManagerV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#annotations DataK8SOperatorTigeraIoManagerV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#annotations DataK8SOperatorTigeraIoManagerV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#labels DataK8SOperatorTigeraIoManagerV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#labels DataK8SOperatorTigeraIoManagerV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#name DataK8SOperatorTigeraIoManagerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#name DataK8SOperatorTigeraIoManagerV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSp
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#name DataK8SOperatorTigeraIoManagerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#name DataK8SOperatorTigeraIoManagerV1Manifest#name}
   */
   readonly name: string;
 }
@@ -302,19 +302,19 @@ export interface DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSp
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#claims DataK8SOperatorTigeraIoManagerV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#claims DataK8SOperatorTigeraIoManagerV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#limits DataK8SOperatorTigeraIoManagerV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#limits DataK8SOperatorTigeraIoManagerV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#requests DataK8SOperatorTigeraIoManagerV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#requests DataK8SOperatorTigeraIoManagerV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -468,13 +468,13 @@ export interface DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSp
   /**
   * Name is an enum which identifies the Manager Deployment container by name. Supported values are: tigera-voltron, tigera-manager, tigera-ui-apis, and tigera-es-proxy (deprecated).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#name DataK8SOperatorTigeraIoManagerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#name DataK8SOperatorTigeraIoManagerV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named Manager Deployment container's resources. If omitted, the Manager Deployment will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#resources DataK8SOperatorTigeraIoManagerV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#resources DataK8SOperatorTigeraIoManagerV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSpecTemplateSpecContainersResources;
 }
@@ -618,7 +618,7 @@ export interface DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSp
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#name DataK8SOperatorTigeraIoManagerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#name DataK8SOperatorTigeraIoManagerV1Manifest#name}
   */
   readonly name: string;
 }
@@ -733,19 +733,19 @@ export interface DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSp
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#claims DataK8SOperatorTigeraIoManagerV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#claims DataK8SOperatorTigeraIoManagerV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#limits DataK8SOperatorTigeraIoManagerV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#limits DataK8SOperatorTigeraIoManagerV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#requests DataK8SOperatorTigeraIoManagerV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#requests DataK8SOperatorTigeraIoManagerV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -899,13 +899,13 @@ export interface DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSp
   /**
   * Name is an enum which identifies the Manager Deployment init container by name. Supported values are: manager-tls-key-cert-provisioner, internal-manager-tls-key-cert-provisioner, tigera-voltron-linseed-tls-key-cert-provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#name DataK8SOperatorTigeraIoManagerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#name DataK8SOperatorTigeraIoManagerV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named Manager Deployment init container's resources. If omitted, the Manager Deployment will use its default value for this init container's resources. If used in conjunction with the deprecated ComponentResources, then this value takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#resources DataK8SOperatorTigeraIoManagerV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#resources DataK8SOperatorTigeraIoManagerV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSpecTemplateSpecInitContainersResources;
 }
@@ -1049,13 +1049,13 @@ export interface DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSp
   /**
   * Containers is a list of Manager containers. If specified, this overrides the specified Manager Deployment containers. If omitted, the Manager Deployment will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#containers DataK8SOperatorTigeraIoManagerV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#containers DataK8SOperatorTigeraIoManagerV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of Manager init containers. If specified, this overrides the specified Manager Deployment init containers. If omitted, the Manager Deployment will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#init_containers DataK8SOperatorTigeraIoManagerV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#init_containers DataK8SOperatorTigeraIoManagerV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -1180,7 +1180,7 @@ export interface DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSp
   /**
   * Spec is the Manager Deployment's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#spec DataK8SOperatorTigeraIoManagerV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#spec DataK8SOperatorTigeraIoManagerV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSpecTemplateSpec;
 }
@@ -1276,7 +1276,7 @@ export interface DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSp
   /**
   * Template describes the Manager Deployment pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#template DataK8SOperatorTigeraIoManagerV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#template DataK8SOperatorTigeraIoManagerV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSpecTemplate;
 }
@@ -1372,7 +1372,7 @@ export interface DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeployment {
   /**
   * Spec is the specification of the Manager Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#spec DataK8SOperatorTigeraIoManagerV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#spec DataK8SOperatorTigeraIoManagerV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeploymentSpec;
 }
@@ -1468,7 +1468,7 @@ export interface DataK8SOperatorTigeraIoManagerV1ManifestSpec {
   /**
   * ManagerDeployment configures the Manager Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#manager_deployment DataK8SOperatorTigeraIoManagerV1Manifest#manager_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#manager_deployment DataK8SOperatorTigeraIoManagerV1Manifest#manager_deployment}
   */
   readonly managerDeployment?: DataK8SOperatorTigeraIoManagerV1ManifestSpecManagerDeployment;
 }
@@ -1562,7 +1562,7 @@ export class DataK8SOperatorTigeraIoManagerV1ManifestSpecOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest k8s_operator_tigera_io_manager_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest k8s_operator_tigera_io_manager_v1_manifest}
 */
 export class DataK8SOperatorTigeraIoManagerV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1578,7 +1578,7 @@ export class DataK8SOperatorTigeraIoManagerV1Manifest extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataK8SOperatorTigeraIoManagerV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorTigeraIoManagerV1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorTigeraIoManagerV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorTigeraIoManagerV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorTigeraIoManagerV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1590,7 +1590,7 @@ export class DataK8SOperatorTigeraIoManagerV1Manifest extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_manager_v1_manifest k8s_operator_tigera_io_manager_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_manager_v1_manifest k8s_operator_tigera_io_manager_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1601,8 +1601,8 @@ export class DataK8SOperatorTigeraIoManagerV1Manifest extends cdktf.TerraformDat
       terraformResourceType: 'k8s_operator_tigera_io_manager_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

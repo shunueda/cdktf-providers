@@ -23,19 +23,19 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#key DataK8SOrgEclipseCheCheClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#key DataK8SOrgEclipseCheCheClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#name DataK8SOrgEclipseCheCheClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#name DataK8SOrgEclipseCheCheClusterV2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#optional DataK8SOrgEclipseCheCheClusterV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#optional DataK8SOrgEclipseCheCheClusterV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -186,13 +186,13 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#api_version DataK8SOrgEclipseCheCheClusterV2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#api_version DataK8SOrgEclipseCheCheClusterV2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#field_path DataK8SOrgEclipseCheCheClusterV2Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#field_path DataK8SOrgEclipseCheCheClusterV2Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -314,19 +314,19 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#container_name DataK8SOrgEclipseCheCheClusterV2Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#container_name DataK8SOrgEclipseCheCheClusterV2Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#divisor DataK8SOrgEclipseCheCheClusterV2Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#divisor DataK8SOrgEclipseCheCheClusterV2Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#resource DataK8SOrgEclipseCheCheClusterV2Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#resource DataK8SOrgEclipseCheCheClusterV2Manifest#resource}
   */
   readonly resource: string;
 }
@@ -477,19 +477,19 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#key DataK8SOrgEclipseCheCheClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#key DataK8SOrgEclipseCheCheClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#name DataK8SOrgEclipseCheCheClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#name DataK8SOrgEclipseCheCheClusterV2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#optional DataK8SOrgEclipseCheCheClusterV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#optional DataK8SOrgEclipseCheCheClusterV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -640,25 +640,25 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#config_map_key_ref DataK8SOrgEclipseCheCheClusterV2Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#config_map_key_ref DataK8SOrgEclipseCheCheClusterV2Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatewayDeploymentContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#field_ref DataK8SOrgEclipseCheCheClusterV2Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#field_ref DataK8SOrgEclipseCheCheClusterV2Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatewayDeploymentContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#resource_field_ref DataK8SOrgEclipseCheCheClusterV2Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#resource_field_ref DataK8SOrgEclipseCheCheClusterV2Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatewayDeploymentContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#secret_key_ref DataK8SOrgEclipseCheCheClusterV2Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#secret_key_ref DataK8SOrgEclipseCheCheClusterV2Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatewayDeploymentContainersEnvValueFromSecretKeyRef;
 }
@@ -841,19 +841,19 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#name DataK8SOrgEclipseCheCheClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#name DataK8SOrgEclipseCheCheClusterV2Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#value DataK8SOrgEclipseCheCheClusterV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#value DataK8SOrgEclipseCheCheClusterV2Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#value_from DataK8SOrgEclipseCheCheClusterV2Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#value_from DataK8SOrgEclipseCheCheClusterV2Manifest#value_from}
   */
   readonly valueFrom?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatewayDeploymentContainersEnvValueFrom;
 }
@@ -1026,13 +1026,13 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * CPU, in cores. (500m = .5 cores) If the value is not specified, then the default value is set depending on the component. If value is '0', then no value is set for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#cpu DataK8SOrgEclipseCheCheClusterV2Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#cpu DataK8SOrgEclipseCheCheClusterV2Manifest#cpu}
   */
   readonly cpu?: string;
   /**
   * Memory, in bytes. (500Gi = 500GiB = 500 * 1024 * 1024 * 1024) If the value is not specified, then the default value is set depending on the component. If value is '0', then no value is set for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#memory DataK8SOrgEclipseCheCheClusterV2Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#memory DataK8SOrgEclipseCheCheClusterV2Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -1157,13 +1157,13 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * CPU, in cores. (500m = .5 cores) If the value is not specified, then the default value is set depending on the component. If value is '0', then no value is set for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#cpu DataK8SOrgEclipseCheCheClusterV2Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#cpu DataK8SOrgEclipseCheCheClusterV2Manifest#cpu}
   */
   readonly cpu?: string;
   /**
   * Memory, in bytes. (500Gi = 500GiB = 500 * 1024 * 1024 * 1024) If the value is not specified, then the default value is set depending on the component. If value is '0', then no value is set for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#memory DataK8SOrgEclipseCheCheClusterV2Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#memory DataK8SOrgEclipseCheCheClusterV2Manifest#memory}
   */
   readonly memory?: string;
 }
@@ -1288,13 +1288,13 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * Describes the maximum amount of compute resources allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#limits DataK8SOrgEclipseCheCheClusterV2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#limits DataK8SOrgEclipseCheCheClusterV2Manifest#limits}
   */
   readonly limits?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatewayDeploymentContainersResourcesLimits;
   /**
   * Describes the minimum amount of compute resources required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#request DataK8SOrgEclipseCheCheClusterV2Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#request DataK8SOrgEclipseCheCheClusterV2Manifest#request}
   */
   readonly request?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatewayDeploymentContainersResourcesRequest;
 }
@@ -1419,31 +1419,31 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * List of environment variables to set in the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#env DataK8SOrgEclipseCheCheClusterV2Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#env DataK8SOrgEclipseCheCheClusterV2Manifest#env}
   */
   readonly env?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatewayDeploymentContainersEnv[] | cdktf.IResolvable;
   /**
   * Container image. Omit it or leave it empty to use the default container image provided by the Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#image DataK8SOrgEclipseCheCheClusterV2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#image DataK8SOrgEclipseCheCheClusterV2Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. Default value is 'Always' for 'nightly', 'next' or 'latest' images, and 'IfNotPresent' in other cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#image_pull_policy DataK8SOrgEclipseCheCheClusterV2Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#image_pull_policy DataK8SOrgEclipseCheCheClusterV2Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Container name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#name DataK8SOrgEclipseCheCheClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#name DataK8SOrgEclipseCheCheClusterV2Manifest#name}
   */
   readonly name?: string;
   /**
   * Compute resources required by this container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#resources DataK8SOrgEclipseCheCheClusterV2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#resources DataK8SOrgEclipseCheCheClusterV2Manifest#resources}
   */
   readonly resources?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatewayDeploymentContainersResources;
 }
@@ -1677,13 +1677,13 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * A special supplemental group that applies to all containers in a pod. The default value is '1724'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#fs_group DataK8SOrgEclipseCheCheClusterV2Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#fs_group DataK8SOrgEclipseCheCheClusterV2Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * The UID to run the entrypoint of the container process. The default value is '1724'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#run_as_user DataK8SOrgEclipseCheCheClusterV2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#run_as_user DataK8SOrgEclipseCheCheClusterV2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
 }
@@ -1808,31 +1808,31 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#effect DataK8SOrgEclipseCheCheClusterV2Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#effect DataK8SOrgEclipseCheCheClusterV2Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#key DataK8SOrgEclipseCheCheClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#key DataK8SOrgEclipseCheCheClusterV2Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#operator DataK8SOrgEclipseCheCheClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#operator DataK8SOrgEclipseCheCheClusterV2Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#toleration_seconds DataK8SOrgEclipseCheCheClusterV2Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#toleration_seconds DataK8SOrgEclipseCheCheClusterV2Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#value DataK8SOrgEclipseCheCheClusterV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#value DataK8SOrgEclipseCheCheClusterV2Manifest#value}
   */
   readonly value?: string;
 }
@@ -2066,25 +2066,25 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * List of containers belonging to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#containers DataK8SOrgEclipseCheCheClusterV2Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#containers DataK8SOrgEclipseCheCheClusterV2Manifest#containers}
   */
   readonly containers?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatewayDeploymentContainers[] | cdktf.IResolvable;
   /**
   * The node selector limits the nodes that can run the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#node_selector DataK8SOrgEclipseCheCheClusterV2Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#node_selector DataK8SOrgEclipseCheCheClusterV2Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Security options the pod should run with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#security_context DataK8SOrgEclipseCheCheClusterV2Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#security_context DataK8SOrgEclipseCheCheClusterV2Manifest#security_context}
   */
   readonly securityContext?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatewayDeploymentSecurityContext;
   /**
   * The pod tolerations of the component pod limit where the pod can run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#tolerations DataK8SOrgEclipseCheCheClusterV2Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#tolerations DataK8SOrgEclipseCheCheClusterV2Manifest#tolerations}
   */
   readonly tolerations?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatewayDeploymentTolerations[] | cdktf.IResolvable;
 }
@@ -2267,7 +2267,7 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * The glog log level for the kube-rbac-proxy container within the gateway pod. Larger values represent a higher verbosity. The default value is '0'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#log_level DataK8SOrgEclipseCheCheClusterV2Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#log_level DataK8SOrgEclipseCheCheClusterV2Manifest#log_level}
   */
   readonly logLevel?: number;
 }
@@ -2363,7 +2363,7 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * Expire timeframe for cookie. If set to 0, cookie becomes a session-cookie which will expire when the browser is closed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#cookie_expire_seconds DataK8SOrgEclipseCheCheClusterV2Manifest#cookie_expire_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#cookie_expire_seconds DataK8SOrgEclipseCheCheClusterV2Manifest#cookie_expire_seconds}
   */
   readonly cookieExpireSeconds?: number;
 }
@@ -2459,7 +2459,7 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * The log level for the Traefik container within the gateway pod: 'DEBUG', 'INFO', 'WARN', 'ERROR', 'FATAL', or 'PANIC'. The default value is 'INFO'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#log_level DataK8SOrgEclipseCheCheClusterV2Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#log_level DataK8SOrgEclipseCheCheClusterV2Manifest#log_level}
   */
   readonly logLevel?: string;
 }
@@ -2555,31 +2555,31 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatew
   /**
   * Gateway configuration labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#config_labels DataK8SOrgEclipseCheCheClusterV2Manifest#config_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#config_labels DataK8SOrgEclipseCheCheClusterV2Manifest#config_labels}
   */
   readonly configLabels?: { [key: string]: string };
   /**
   * Deployment override options. Since gateway deployment consists of several containers, they must be distinguished in the configuration by their names: - 'gateway' - 'configbump' - 'oauth-proxy' - 'kube-rbac-proxy'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#deployment DataK8SOrgEclipseCheCheClusterV2Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#deployment DataK8SOrgEclipseCheCheClusterV2Manifest#deployment}
   */
   readonly deployment?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatewayDeployment;
   /**
   * Configuration for kube-rbac-proxy within the Che gateway pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#kube_rbac_proxy DataK8SOrgEclipseCheCheClusterV2Manifest#kube_rbac_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#kube_rbac_proxy DataK8SOrgEclipseCheCheClusterV2Manifest#kube_rbac_proxy}
   */
   readonly kubeRbacProxy?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatewayKubeRbacProxy;
   /**
   * Configuration for oauth-proxy within the Che gateway pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#o_auth_proxy DataK8SOrgEclipseCheCheClusterV2Manifest#o_auth_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#o_auth_proxy DataK8SOrgEclipseCheCheClusterV2Manifest#o_auth_proxy}
   */
   readonly oAuthProxy?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatewayOAuthProxy;
   /**
   * Configuration for Traefik within the Che gateway pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#traefik DataK8SOrgEclipseCheCheClusterV2Manifest#traefik}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#traefik DataK8SOrgEclipseCheCheClusterV2Manifest#traefik}
   */
   readonly traefik?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGatewayTraefik;
 }
@@ -2791,55 +2791,55 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuth {
   /**
   * Advance authorization settings. Determines which users and groups are allowed to access Che. User is allowed to access Che if he/she is either in the 'allowUsers' list or is member of group from 'allowGroups' list and not in neither the 'denyUsers' list nor is member of group from 'denyGroups' list. If 'allowUsers' and 'allowGroups' are empty, then all users are allowed to access Che. if 'denyUsers' and 'denyGroups' are empty, then no users are denied to access Che.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#advanced_authorization DataK8SOrgEclipseCheCheClusterV2Manifest#advanced_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#advanced_authorization DataK8SOrgEclipseCheCheClusterV2Manifest#advanced_authorization}
   */
   readonly advancedAuthorization?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthAdvancedAuthorization;
   /**
   * Gateway settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#gateway DataK8SOrgEclipseCheCheClusterV2Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#gateway DataK8SOrgEclipseCheCheClusterV2Manifest#gateway}
   */
   readonly gateway?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuthGateway;
   /**
   * Public URL of the Identity Provider server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#identity_provider_url DataK8SOrgEclipseCheCheClusterV2Manifest#identity_provider_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#identity_provider_url DataK8SOrgEclipseCheCheClusterV2Manifest#identity_provider_url}
   */
   readonly identityProviderUrl?: string;
   /**
   * Identity token to be passed to upstream. There are two types of tokens supported: 'id_token' and 'access_token'. Default value is 'id_token'. This field is specific to Che installations made for Kubernetes only and ignored for OpenShift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#identity_token DataK8SOrgEclipseCheCheClusterV2Manifest#identity_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#identity_token DataK8SOrgEclipseCheCheClusterV2Manifest#identity_token}
   */
   readonly identityToken?: string;
   /**
   * Inactivity timeout for tokens to set in the OpenShift 'OAuthClient' resource used to set up identity federation on the OpenShift side. 0 means tokens for this client never time out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#o_auth_access_token_inactivity_timeout_seconds DataK8SOrgEclipseCheCheClusterV2Manifest#o_auth_access_token_inactivity_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#o_auth_access_token_inactivity_timeout_seconds DataK8SOrgEclipseCheCheClusterV2Manifest#o_auth_access_token_inactivity_timeout_seconds}
   */
   readonly oAuthAccessTokenInactivityTimeoutSeconds?: number;
   /**
   * Access token max age for tokens to set in the OpenShift 'OAuthClient' resource used to set up identity federation on the OpenShift side. 0 means no expiration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#o_auth_access_token_max_age_seconds DataK8SOrgEclipseCheCheClusterV2Manifest#o_auth_access_token_max_age_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#o_auth_access_token_max_age_seconds DataK8SOrgEclipseCheCheClusterV2Manifest#o_auth_access_token_max_age_seconds}
   */
   readonly oAuthAccessTokenMaxAgeSeconds?: number;
   /**
   * Name of the OpenShift 'OAuthClient' resource used to set up identity federation on the OpenShift side.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#o_auth_client_name DataK8SOrgEclipseCheCheClusterV2Manifest#o_auth_client_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#o_auth_client_name DataK8SOrgEclipseCheCheClusterV2Manifest#o_auth_client_name}
   */
   readonly oAuthClientName?: string;
   /**
   * Access Token Scope. This field is specific to Che installations made for Kubernetes only and ignored for OpenShift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#o_auth_scope DataK8SOrgEclipseCheCheClusterV2Manifest#o_auth_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#o_auth_scope DataK8SOrgEclipseCheCheClusterV2Manifest#o_auth_scope}
   */
   readonly oAuthScope?: string;
   /**
   * Name of the secret set in the OpenShift 'OAuthClient' resource used to set up identity federation on the OpenShift side. For Kubernetes, this can either be the plain text oAuthSecret value, or the name of a kubernetes secret which contains a key 'oAuthSecret' and the value is the secret. NOTE: this secret must exist in the same namespace as the 'CheCluster' resource and contain the label 'app.kubernetes.io/part-of=che.eclipse.org'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#o_auth_secret DataK8SOrgEclipseCheCheClusterV2Manifest#o_auth_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#o_auth_secret DataK8SOrgEclipseCheCheClusterV2Manifest#o_auth_secret}
   */
   readonly oAuthSecret?: string;
 }
@@ -3167,43 +3167,43 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworking {
   /**
   * Defines annotations which will be set for an Ingress (a route for OpenShift platform). The defaults for kubernetes platforms are: kubernetes.io/ingress.class: 'nginx' nginx.ingress.kubernetes.io/proxy-read-timeout: '3600', nginx.ingress.kubernetes.io/proxy-connect-timeout: '3600', nginx.ingress.kubernetes.io/ssl-redirect: 'true'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#annotations DataK8SOrgEclipseCheCheClusterV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#annotations DataK8SOrgEclipseCheCheClusterV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Authentication settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#auth DataK8SOrgEclipseCheCheClusterV2Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#auth DataK8SOrgEclipseCheCheClusterV2Manifest#auth}
   */
   readonly auth?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworkingAuth;
   /**
   * For an OpenShift cluster, the Operator uses the domain to generate a hostname for the route. The generated hostname follows this pattern: che-<che-namespace>.<domain>. The <che-namespace> is the namespace where the CheCluster CRD is created. In conjunction with labels, it creates a route served by a non-default Ingress controller. For a Kubernetes cluster, it contains a global ingress domain. There are no default values: you must specify them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#domain DataK8SOrgEclipseCheCheClusterV2Manifest#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#domain DataK8SOrgEclipseCheCheClusterV2Manifest#domain}
   */
   readonly domain?: string;
   /**
   * The public hostname of the installed Che server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#hostname DataK8SOrgEclipseCheCheClusterV2Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#hostname DataK8SOrgEclipseCheCheClusterV2Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * IngressClassName is the name of an IngressClass cluster resource. If a class name is defined in both the 'IngressClassName' field and the 'kubernetes.io/ingress.class' annotation, 'IngressClassName' field takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#ingress_class_name DataK8SOrgEclipseCheCheClusterV2Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#ingress_class_name DataK8SOrgEclipseCheCheClusterV2Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
   * Defines labels which will be set for an Ingress (a route for OpenShift platform).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#labels DataK8SOrgEclipseCheCheClusterV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#labels DataK8SOrgEclipseCheCheClusterV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the secret used to set up Ingress TLS termination. If the field is an empty string, the default cluster certificate is used. The secret must have a 'app.kubernetes.io/part-of=che.eclipse.org' label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#tls_secret_name DataK8SOrgEclipseCheCheClusterV2Manifest#tls_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#tls_secret_name DataK8SOrgEclipseCheCheClusterV2Manifest#tls_secret_name}
   */
   readonly tlsSecretName?: string;
 }
@@ -3473,31 +3473,31 @@ export interface DataK8SOrgEclipseCheCheClusterV2ManifestSpec {
   /**
   * Che components configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#components DataK8SOrgEclipseCheCheClusterV2Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#components DataK8SOrgEclipseCheCheClusterV2Manifest#components}
   */
   readonly components?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecComponents;
   /**
   * Configuration of an alternative registry that stores Che images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#container_registry DataK8SOrgEclipseCheCheClusterV2Manifest#container_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#container_registry DataK8SOrgEclipseCheCheClusterV2Manifest#container_registry}
   */
   readonly containerRegistry?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecContainerRegistry;
   /**
   * Development environment default configuration options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#dev_environments DataK8SOrgEclipseCheCheClusterV2Manifest#dev_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#dev_environments DataK8SOrgEclipseCheCheClusterV2Manifest#dev_environments}
   */
   readonly devEnvironments?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecDevEnvironments;
   /**
   * A configuration that allows users to work with remote Git repositories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#git_services DataK8SOrgEclipseCheCheClusterV2Manifest#git_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#git_services DataK8SOrgEclipseCheCheClusterV2Manifest#git_services}
   */
   readonly gitServices?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecGitServices;
   /**
   * Networking, Che authentication, and TLS configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#networking DataK8SOrgEclipseCheCheClusterV2Manifest#networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/org_eclipse_che_che_cluster_v2_manifest#networking DataK8SOrgEclipseCheCheClusterV2Manifest#networking}
   */
   readonly networking?: DataK8SOrgEclipseCheCheClusterV2ManifestSpecNetworking;
 }

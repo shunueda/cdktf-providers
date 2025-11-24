@@ -19,25 +19,25 @@ export interface DataK8SCiliumIoCiliumNetworkPolicyV2ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_network_policy_v2_manifest#metadata DataK8SCiliumIoCiliumNetworkPolicyV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_network_policy_v2_manifest#metadata DataK8SCiliumIoCiliumNetworkPolicyV2Manifest#metadata}
   */
   readonly metadata: DataK8SCiliumIoCiliumNetworkPolicyV2ManifestMetadata;
   /**
   * Spec is the desired Cilium specific rule specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_network_policy_v2_manifest#spec DataK8SCiliumIoCiliumNetworkPolicyV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_network_policy_v2_manifest#spec DataK8SCiliumIoCiliumNetworkPolicyV2Manifest#spec}
   */
   readonly spec?: DataK8SCiliumIoCiliumNetworkPolicyV2ManifestSpec;
   /**
   * Specs is a list of desired Cilium specific rule specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_network_policy_v2_manifest#specs DataK8SCiliumIoCiliumNetworkPolicyV2Manifest#specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_network_policy_v2_manifest#specs DataK8SCiliumIoCiliumNetworkPolicyV2Manifest#specs}
   */
   readonly specs?: DataK8SCiliumIoCiliumNetworkPolicyV2ManifestSpecs[] | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_network_policy_v2_manifest k8s_cilium_io_cilium_network_policy_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_network_policy_v2_manifest k8s_cilium_io_cilium_network_policy_v2_manifest}
 */
 export class DataK8SCiliumIoCiliumNetworkPolicyV2Manifest extends cdktf.TerraformDataSource {
 
@@ -53,7 +53,7 @@ export class DataK8SCiliumIoCiliumNetworkPolicyV2Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SCiliumIoCiliumNetworkPolicyV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCiliumIoCiliumNetworkPolicyV2Manifest to import
-  * @param importFromId The id of the existing DataK8SCiliumIoCiliumNetworkPolicyV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_network_policy_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCiliumIoCiliumNetworkPolicyV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_network_policy_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCiliumIoCiliumNetworkPolicyV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DataK8SCiliumIoCiliumNetworkPolicyV2Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_network_policy_v2_manifest k8s_cilium_io_cilium_network_policy_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_network_policy_v2_manifest k8s_cilium_io_cilium_network_policy_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class DataK8SCiliumIoCiliumNetworkPolicyV2Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_cilium_io_cilium_network_policy_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

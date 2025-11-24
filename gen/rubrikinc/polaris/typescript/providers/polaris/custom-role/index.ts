@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/custom_role
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/custom_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CustomRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Role description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/custom_role#description CustomRole#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/custom_role#description CustomRole#description}
   */
   readonly description?: string;
   /**
   * Role name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/custom_role#name CustomRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/custom_role#name CustomRole#name}
   */
   readonly name: string;
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/custom_role#permission CustomRole#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/custom_role#permission CustomRole#permission}
   */
   readonly permission: CustomRolePermission[] | cdktf.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface CustomRolePermissionHierarchy {
   /**
   * Object/workload identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/custom_role#object_ids CustomRole#object_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/custom_role#object_ids CustomRole#object_ids}
   */
   readonly objectIds: string[];
   /**
   * Snappable/workload type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/custom_role#snappable_type CustomRole#snappable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/custom_role#snappable_type CustomRole#snappable_type}
   */
   readonly snappableType: string;
 }
@@ -177,13 +177,13 @@ export interface CustomRolePermission {
   /**
   * Operation to allow on object IDs under the snappable hierarchy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/custom_role#operation CustomRole#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/custom_role#operation CustomRole#operation}
   */
   readonly operation: string;
   /**
   * hierarchy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/custom_role#hierarchy CustomRole#hierarchy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/custom_role#hierarchy CustomRole#hierarchy}
   */
   readonly hierarchy: CustomRolePermissionHierarchy[] | cdktf.IResolvable;
 }
@@ -322,7 +322,7 @@ export class CustomRolePermissionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/custom_role polaris_custom_role}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/custom_role polaris_custom_role}
 */
 export class CustomRole extends cdktf.TerraformResource {
 
@@ -338,7 +338,7 @@ export class CustomRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomRole to import
-  * @param importFromId The id of the existing CustomRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/custom_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/custom_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -350,7 +350,7 @@ export class CustomRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/custom_role polaris_custom_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/custom_role polaris_custom_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -361,8 +361,8 @@ export class CustomRole extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_custom_role',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

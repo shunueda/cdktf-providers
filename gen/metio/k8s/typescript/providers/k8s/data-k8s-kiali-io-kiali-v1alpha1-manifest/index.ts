@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestConfig extends cdktf.Terrafo
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#metadata DataK8SKialiIoKialiV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#metadata DataK8SKialiIoKialiV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKialiIoKialiV1Alpha1ManifestMetadata;
   /**
   * This is the CRD for the resources called Kiali CRs. The Kiali Operator will watch for resources of this type and when it detects a Kiali CR has been added, deleted, or modified, it will install, uninstall, and update the associated Kiali Server installation. The settings here will configure the Kiali Server as well as the Kiali Operator. All of these settings will be stored in the Kiali ConfigMap. Do not modify the ConfigMap; it will be managed by the Kiali Operator. Only modify the Kiali CR when you want to change a configuration setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#spec DataK8SKialiIoKialiV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#spec DataK8SKialiIoKialiV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKialiIoKialiV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#annotations DataK8SKialiIoKialiV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#annotations DataK8SKialiIoKialiV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#labels DataK8SKialiIoKialiV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#labels DataK8SKialiIoKialiV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#name DataK8SKialiIoKialiV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#name DataK8SKialiIoKialiV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespace DataK8SKialiIoKialiV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespace DataK8SKialiIoKialiV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecAdditionalDisplayDetails
   /**
   * The name of the annotation whose value is a URL to additional documentation useful to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#annotation DataK8SKialiIoKialiV1Alpha1Manifest#annotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#annotation DataK8SKialiIoKialiV1Alpha1Manifest#annotation}
   */
   readonly annotation: string;
   /**
   * The name of the annotation whose value is used to determine what icon to display. The annotation name itself can be anything, but note that the value of that annotation must be one of: 'rest', 'grpc', and 'graphql' - any other value is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#icon_annotation DataK8SKialiIoKialiV1Alpha1Manifest#icon_annotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#icon_annotation DataK8SKialiIoKialiV1Alpha1Manifest#icon_annotation}
   */
   readonly iconAnnotation?: string;
   /**
   * The title of the link that Kiali will display. The link will go to the URL specified in the value of the configured 'annotation'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#title DataK8SKialiIoKialiV1Alpha1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#title DataK8SKialiIoKialiV1Alpha1Manifest#title}
   */
   readonly title: string;
 }
@@ -399,63 +399,63 @@ export class DataK8SKialiIoKialiV1Alpha1ManifestSpecAdditionalDisplayDetailsList
 }
 export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecAuthOpenid {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#additional_request_params DataK8SKialiIoKialiV1Alpha1Manifest#additional_request_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#additional_request_params DataK8SKialiIoKialiV1Alpha1Manifest#additional_request_params}
   */
   readonly additionalRequestParams?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#allowed_domains DataK8SKialiIoKialiV1Alpha1Manifest#allowed_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#allowed_domains DataK8SKialiIoKialiV1Alpha1Manifest#allowed_domains}
   */
   readonly allowedDomains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#api_proxy DataK8SKialiIoKialiV1Alpha1Manifest#api_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#api_proxy DataK8SKialiIoKialiV1Alpha1Manifest#api_proxy}
   */
   readonly apiProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#api_proxy_ca_data DataK8SKialiIoKialiV1Alpha1Manifest#api_proxy_ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#api_proxy_ca_data DataK8SKialiIoKialiV1Alpha1Manifest#api_proxy_ca_data}
   */
   readonly apiProxyCaData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#api_token DataK8SKialiIoKialiV1Alpha1Manifest#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#api_token DataK8SKialiIoKialiV1Alpha1Manifest#api_token}
   */
   readonly apiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#authentication_timeout DataK8SKialiIoKialiV1Alpha1Manifest#authentication_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#authentication_timeout DataK8SKialiIoKialiV1Alpha1Manifest#authentication_timeout}
   */
   readonly authenticationTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#authorization_endpoint DataK8SKialiIoKialiV1Alpha1Manifest#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#authorization_endpoint DataK8SKialiIoKialiV1Alpha1Manifest#authorization_endpoint}
   */
   readonly authorizationEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#client_id DataK8SKialiIoKialiV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#client_id DataK8SKialiIoKialiV1Alpha1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#disable_rbac DataK8SKialiIoKialiV1Alpha1Manifest#disable_rbac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#disable_rbac DataK8SKialiIoKialiV1Alpha1Manifest#disable_rbac}
   */
   readonly disableRbac?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#http_proxy DataK8SKialiIoKialiV1Alpha1Manifest#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#http_proxy DataK8SKialiIoKialiV1Alpha1Manifest#http_proxy}
   */
   readonly httpProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#https_proxy DataK8SKialiIoKialiV1Alpha1Manifest#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#https_proxy DataK8SKialiIoKialiV1Alpha1Manifest#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#insecure_skip_verify_tls DataK8SKialiIoKialiV1Alpha1Manifest#insecure_skip_verify_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#insecure_skip_verify_tls DataK8SKialiIoKialiV1Alpha1Manifest#insecure_skip_verify_tls}
   */
   readonly insecureSkipVerifyTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#issuer_uri DataK8SKialiIoKialiV1Alpha1Manifest#issuer_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#issuer_uri DataK8SKialiIoKialiV1Alpha1Manifest#issuer_uri}
   */
   readonly issuerUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#scopes DataK8SKialiIoKialiV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#scopes DataK8SKialiIoKialiV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#username_claim DataK8SKialiIoKialiV1Alpha1Manifest#username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#username_claim DataK8SKialiIoKialiV1Alpha1Manifest#username_claim}
   */
   readonly usernameClaim?: string;
 }
@@ -957,13 +957,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecAuthOpenshift {
   /**
   * Timeout that overrides the default OpenShift token inactivity timeout. This value represents the maximum amount of time in seconds that can occur between consecutive uses of the token. Tokens become invalid if they are not used within this temporal window. If 0, the Kiali tokens never timeout. OpenShift may have a minimum allowed value - see the OpenShift documentation specific for the version of OpenShift you are using. WARNING: existing tokens will not be affected by changing this setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#token_inactivity_timeout DataK8SKialiIoKialiV1Alpha1Manifest#token_inactivity_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#token_inactivity_timeout DataK8SKialiIoKialiV1Alpha1Manifest#token_inactivity_timeout}
   */
   readonly tokenInactivityTimeout?: number;
   /**
   * A time duration in seconds that overrides the default OpenShift access token max age. If 0 then there will be no expiration of tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#token_max_age DataK8SKialiIoKialiV1Alpha1Manifest#token_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#token_max_age DataK8SKialiIoKialiV1Alpha1Manifest#token_max_age}
   */
   readonly tokenMaxAge?: number;
 }
@@ -1088,19 +1088,19 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecAuth {
   /**
   * To learn more about these settings and how to configure the OpenId authentication strategy, read the documentation at https://kiali.io/docs/configuration/authentication/openid/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#openid DataK8SKialiIoKialiV1Alpha1Manifest#openid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#openid DataK8SKialiIoKialiV1Alpha1Manifest#openid}
   */
   readonly openid?: DataK8SKialiIoKialiV1Alpha1ManifestSpecAuthOpenid;
   /**
   * To learn more about these settings and how to configure the OpenShift authentication strategy, read the documentation at https://kiali.io/docs/configuration/authentication/openshift/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#openshift DataK8SKialiIoKialiV1Alpha1Manifest#openshift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#openshift DataK8SKialiIoKialiV1Alpha1Manifest#openshift}
   */
   readonly openshift?: DataK8SKialiIoKialiV1Alpha1ManifestSpecAuthOpenshift;
   /**
   * Determines what authentication strategy to use when users log into Kiali. Options are 'anonymous', 'token', 'openshift', 'openid', or 'header'. * Choose 'anonymous' to allow full access to Kiali without requiring any credentials. * Choose 'token' to allow access to Kiali using service account tokens, which controls access based on RBAC roles assigned to the service account. * Choose 'openshift' to use the OpenShift OAuth login which controls access based on the individual's RBAC roles in OpenShift. Not valid for non-OpenShift environments. * Choose 'openid' to enable OpenID Connect-based authentication. Your cluster is required to be configured to accept the tokens issued by your IdP. There are additional required configurations for this strategy. See below for the additional OpenID configuration section. * Choose 'header' when Kiali is running behind a reverse proxy that will inject an Authorization header and potentially impersonation headers. When empty, this value will default to 'openshift' on OpenShift and 'token' on other Kubernetes environments. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#strategy DataK8SKialiIoKialiV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#strategy DataK8SKialiIoKialiV1Alpha1Manifest#strategy}
   */
   readonly strategy?: string;
 }
@@ -1254,13 +1254,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecClusteringAutodetectSecr
   /**
   * If true then remote cluster secrets will be autodetected during the installation of the Kiali Server Deployment. Any remote cluster secrets found in the Kiali deployment namespace will be mounted to the Kiali Server's file system. If false, you can still manually specify the remote cluster secret information in the 'clusters' setting if you wish to utilize multicluster features.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The name and value of a label that exists on all remote cluster secrets. Default is 'kiali.io/multiCluster=true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#label DataK8SKialiIoKialiV1Alpha1Manifest#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#label DataK8SKialiIoKialiV1Alpha1Manifest#label}
   */
   readonly label?: string;
 }
@@ -1385,13 +1385,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecClusteringClusters {
   /**
   * The name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#name DataK8SKialiIoKialiV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#name DataK8SKialiIoKialiV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The name of the secret that contains the credentials necessary to connect to the remote cluster. This secret must exist in the Kiali deployment namespace. If a secret name is not provided then it's assumed that the cluster is inaccessible.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#secret_name DataK8SKialiIoKialiV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#secret_name DataK8SKialiIoKialiV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -1538,25 +1538,25 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecClusteringKialiUrls {
   /**
   * The name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cluster_name DataK8SKialiIoKialiV1Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cluster_name DataK8SKialiIoKialiV1Alpha1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * The instance name of this Kiali installation. This should be the value used in 'deployment.instance_name' for Kiali resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#instance_name DataK8SKialiIoKialiV1Alpha1Manifest#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#instance_name DataK8SKialiIoKialiV1Alpha1Manifest#instance_name}
   */
   readonly instanceName?: string;
   /**
   * The namespace into which Kiali is installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespace DataK8SKialiIoKialiV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespace DataK8SKialiIoKialiV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * The URL of Kiali in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#url DataK8SKialiIoKialiV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#url DataK8SKialiIoKialiV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -1761,19 +1761,19 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecClustering {
   /**
   * Settings to allow cluster secrets to be auto-detected. Secrets must exist in the Kiali deployment namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#autodetect_secrets DataK8SKialiIoKialiV1Alpha1Manifest#autodetect_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#autodetect_secrets DataK8SKialiIoKialiV1Alpha1Manifest#autodetect_secrets}
   */
   readonly autodetectSecrets?: DataK8SKialiIoKialiV1Alpha1ManifestSpecClusteringAutodetectSecrets;
   /**
   * A list of clusters that the Kiali Server can access. You need to specify the remote clusters here if 'autodetect_secrets.enabled' is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#clusters DataK8SKialiIoKialiV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#clusters DataK8SKialiIoKialiV1Alpha1Manifest#clusters}
   */
   readonly clusters?: DataK8SKialiIoKialiV1Alpha1ManifestSpecClusteringClusters[] | cdktf.IResolvable;
   /**
   * A map between cluster name, instance name and namespace to a Kiali URL. Will be used showing the Mesh page's Kiali URLs. The Kiali service's 'kiali.io/external-url' annotation will be overridden when this property is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#kiali_urls DataK8SKialiIoKialiV1Alpha1Manifest#kiali_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#kiali_urls DataK8SKialiIoKialiV1Alpha1Manifest#kiali_urls}
   */
   readonly kialiUrls?: DataK8SKialiIoKialiV1Alpha1ManifestSpecClusteringKialiUrls[] | cdktf.IResolvable;
 }
@@ -1925,15 +1925,15 @@ export class DataK8SKialiIoKialiV1Alpha1ManifestSpecClusteringOutputReference ex
 }
 export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#node DataK8SKialiIoKialiV1Alpha1Manifest#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#node DataK8SKialiIoKialiV1Alpha1Manifest#node}
   */
   readonly nodeAttribute?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#pod DataK8SKialiIoKialiV1Alpha1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#pod DataK8SKialiIoKialiV1Alpha1Manifest#pod}
   */
   readonly pod?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#pod_anti DataK8SKialiIoKialiV1Alpha1Manifest#pod_anti}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#pod_anti DataK8SKialiIoKialiV1Alpha1Manifest#pod_anti}
   */
   readonly podAnti?: { [key: string]: string };
 }
@@ -2087,13 +2087,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentCustomEnvs {
   /**
   * The name of the custom environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#name DataK8SKialiIoKialiV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#name DataK8SKialiIoKialiV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The value of the custom environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#value DataK8SKialiIoKialiV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#value DataK8SKialiIoKialiV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -2234,25 +2234,25 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentCustomSecrets 
   /**
   * Defines CSI-specific settings that allows a secret from an external CSI secret store to be injected in the pod via a volume mount. For details, see https://secrets-store-csi-driver.sigs.k8s.io/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#csi DataK8SKialiIoKialiV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#csi DataK8SKialiIoKialiV1Alpha1Manifest#csi}
   */
   readonly csi?: { [key: string]: string };
   /**
   * The file path location where the secret content will be mounted. The custom secret cannot be mounted on a path that the operator will use to mount its secrets. Make sure you set your custom secret mount path to a unique, unused path. Paths such as '/kiali-configuration', '/kiali-cert', '/kiali-cabundle', and '/kiali-secret' should not be used as mount paths for custom secrets because the operator may want to use one of those paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#mount DataK8SKialiIoKialiV1Alpha1Manifest#mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#mount DataK8SKialiIoKialiV1Alpha1Manifest#mount}
   */
   readonly mount: string;
   /**
   * The name of the secret that is to be mounted to the Kiali pod's file system. The name of the custom secret must not be the same name as one created by the operator. Names such as 'kiali', 'kiali-cert-secret', and 'kiali-cabundle' should not be used as a custom secret name because the operator may want to create one with one of those names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#name DataK8SKialiIoKialiV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#name DataK8SKialiIoKialiV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Indicates if the secret may or may not exist at the time the Kiali pod starts. This will default to 'false' if not specified. This is ignored if 'csi' is specified - CSI secrets must exist when specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#optional DataK8SKialiIoKialiV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#optional DataK8SKialiIoKialiV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2449,15 +2449,15 @@ export class DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentCustomSecretsList 
 }
 export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentDiscoverySelectorsDefaultMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#key DataK8SKialiIoKialiV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#key DataK8SKialiIoKialiV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#operator DataK8SKialiIoKialiV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#operator DataK8SKialiIoKialiV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#values DataK8SKialiIoKialiV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#values DataK8SKialiIoKialiV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2625,11 +2625,11 @@ export class DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentDiscoverySelectors
 }
 export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentDiscoverySelectorsDefault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#match_expressions DataK8SKialiIoKialiV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#match_expressions DataK8SKialiIoKialiV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentDiscoverySelectorsDefaultMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#match_labels DataK8SKialiIoKialiV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#match_labels DataK8SKialiIoKialiV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2776,13 +2776,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentDiscoverySelec
   /**
   * These are label selectors for the Kiali local cluster and for all remote clusters that do not have overrides. Namespaces that match these selectors are visible to Kiali users. When 'cluster_wide_access=false' these 'default' selectors are used to restrict which namespaces Kiali will have access to. If there are no default discovery selectors, then 'cluster_wide_access' should be 'true' in which case Kiali will have permissions to access all namespaces. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#default DataK8SKialiIoKialiV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#default DataK8SKialiIoKialiV1Alpha1Manifest#default}
   */
   readonly default?: DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentDiscoverySelectorsDefault[] | cdktf.IResolvable;
   /**
   * If a remote cluster has different namespaces than the local cluster, these overrides provide a way for you to match those remote namespaces. Kiali will make these remote namespaces visible to users. The name of the overrides section is the name of the remote cluster. Note that the 'default' selectors are ignored when matching namespaces on a remote cluster if that remote cluster has overrides defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#overrides DataK8SKialiIoKialiV1Alpha1Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#overrides DataK8SKialiIoKialiV1Alpha1Manifest#overrides}
   */
   readonly overrides?: { [key: string]: string };
 }
@@ -2907,13 +2907,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentDns {
   /**
   * DNS configuration that is applied to the DNS policy. See the Kubernetes documentation for the different configuration settings that are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#config DataK8SKialiIoKialiV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#config DataK8SKialiIoKialiV1Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * DNS policy. See the Kubernetes documentation for the different policies that are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#policy DataK8SKialiIoKialiV1Alpha1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#policy DataK8SKialiIoKialiV1Alpha1Manifest#policy}
   */
   readonly policy?: string;
 }
@@ -3036,11 +3036,11 @@ export class DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentDnsOutputReference
 }
 export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentHostAliases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#hostnames DataK8SKialiIoKialiV1Alpha1Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#hostnames DataK8SKialiIoKialiV1Alpha1Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ip DataK8SKialiIoKialiV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ip DataK8SKialiIoKialiV1Alpha1Manifest#ip}
   */
   readonly ip?: string;
 }
@@ -3187,13 +3187,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentHpa {
   /**
   * A specific HPA API version that can be specified in case there is some HPA feature you want to use that is only supported in that specific version. If value is an empty string, an attempt will be made to determine a valid version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#api_version DataK8SKialiIoKialiV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#api_version DataK8SKialiIoKialiV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * The 'spec' specified here will be placed in the created HPA resource's 'spec' section. If 'spec' is left empty, no HPA resource will be created. Note that you must not specify the 'scaleTargetRef' section in 'spec'; the Kiali Operator will populate that for you.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#spec DataK8SKialiIoKialiV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#spec DataK8SKialiIoKialiV1Alpha1Manifest#spec}
   */
   readonly spec?: { [key: string]: string };
 }
@@ -3316,7 +3316,7 @@ export class DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentHpaOutputReference
 }
 export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentIngressOverrideYamlMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#annotations DataK8SKialiIoKialiV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#annotations DataK8SKialiIoKialiV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
 }
@@ -3410,11 +3410,11 @@ export class DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentIngressOverrideYam
 }
 export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentIngressOverrideYaml {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#metadata DataK8SKialiIoKialiV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#metadata DataK8SKialiIoKialiV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentIngressOverrideYamlMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#spec DataK8SKialiIoKialiV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#spec DataK8SKialiIoKialiV1Alpha1Manifest#spec}
   */
   readonly spec?: { [key: string]: string };
 }
@@ -3539,25 +3539,25 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentIngress {
   /**
   * Additional labels to add to the Ingress (or Route if on OpenShift). These are added to the labels that are created by default; these do not override the default labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#additional_labels DataK8SKialiIoKialiV1Alpha1Manifest#additional_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#additional_labels DataK8SKialiIoKialiV1Alpha1Manifest#additional_labels}
   */
   readonly additionalLabels?: { [key: string]: string };
   /**
   * If 'class_name' is a non-empty string, it will be used as the 'spec.ingressClassName' in the created Kubernetes Ingress resource. This setting is ignored if on OpenShift. This is also ignored if 'override_yaml.spec' is defined (i.e. you must define the 'ingressClassName' directly in your override yaml).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#class_name DataK8SKialiIoKialiV1Alpha1Manifest#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#class_name DataK8SKialiIoKialiV1Alpha1Manifest#class_name}
   */
   readonly className?: string;
   /**
   * Determines if the Kiali endpoint should be exposed externally. If 'true', an Ingress will be created if on Kubernetes or a Route if on OpenShift. If left undefined, this will be 'false' on Kubernetes and 'true' on OpenShift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Because an Ingress into a cluster can vary wildly in its desired configuration, this setting provides a way to override complete portions of the Ingress resource configuration (Ingress on Kubernetes and Route on OpenShift). It is up to the user to ensure this override YAML configuration is valid and supports the cluster environment since the operator will blindly copy this custom configuration into the resource it creates. This setting is not used if 'deployment.ingress.enabled' is set to 'false'. Note that only 'metadata.annotations' and 'spec' is valid and only they will be used to override those same sections in the created resource. You can define either one or both. Note that 'override_yaml.metadata.labels' is not allowed - you cannot override the labels; to add labels to the default set of labels, use the 'deployment.ingress.additional_labels' setting. Example, ``` override_yaml: metadata: annotations: nginx.ingress.kubernetes.io/secure-backends: 'true' nginx.ingress.kubernetes.io/backend-protocol: 'HTTPS' spec: rules: - http: paths: - path: /kiali pathType: Prefix backend: service name: 'kiali' port: number: 20001 ``` 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#override_yaml DataK8SKialiIoKialiV1Alpha1Manifest#override_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#override_yaml DataK8SKialiIoKialiV1Alpha1Manifest#override_yaml}
   */
   readonly overrideYaml?: DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentIngressOverrideYaml;
 }
@@ -3740,25 +3740,25 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentLogger {
   /**
   * Indicates if the logs should be written with one log message per line or using a JSON format. Must be one of: 'text' or 'json'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#log_format DataK8SKialiIoKialiV1Alpha1Manifest#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#log_format DataK8SKialiIoKialiV1Alpha1Manifest#log_format}
   */
   readonly logFormat?: string;
   /**
   * The lowest priority of messages to log. Must be one of: 'trace', 'debug', 'info', 'warn', 'error', or 'fatal'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#log_level DataK8SKialiIoKialiV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#log_level DataK8SKialiIoKialiV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * With this setting every sampler_rate-th message will be logged. By default, every message is logged. As an example, setting this to ''2'' means every other message will be logged. The value of this setting is a string but must be parsable as an integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#sampler_rate DataK8SKialiIoKialiV1Alpha1Manifest#sampler_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#sampler_rate DataK8SKialiIoKialiV1Alpha1Manifest#sampler_rate}
   */
   readonly samplerRate?: string;
   /**
   * The log message timestamp format. This supports a golang time format (see https://golang.org/pkg/time/)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#time_field_format DataK8SKialiIoKialiV1Alpha1Manifest#time_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#time_field_format DataK8SKialiIoKialiV1Alpha1Manifest#time_field_format}
   */
   readonly timeFieldFormat?: string;
 }
@@ -3941,193 +3941,193 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecDeployment {
   /**
   * Additional custom yaml to add to the service definition. This is used mainly to customize the service type. For example, if the 'deployment.service_type' is set to 'LoadBalancer' and you want to set the loadBalancerIP, you can do so here with: 'additional_service_yaml: { 'loadBalancerIP': '78.11.24.19' }'. Another example would be if the 'deployment.service_type' is set to 'ExternalName' you will need to configure the name via: 'additional_service_yaml: { 'externalName': 'my.kiali.example.com' }'. A final example would be if external IPs need to be set: 'additional_service_yaml: { 'externalIPs': ['80.11.12.10'] }'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#additional_service_yaml DataK8SKialiIoKialiV1Alpha1Manifest#additional_service_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#additional_service_yaml DataK8SKialiIoKialiV1Alpha1Manifest#additional_service_yaml}
   */
   readonly additionalServiceYaml?: { [key: string]: string };
   /**
   * Affinity definitions that are to be used to define the nodes where the Kiali pod should be constrained. See the Kubernetes documentation on Assigning Pods to Nodes for the proper syntax for these three different affinity types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#affinity DataK8SKialiIoKialiV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#affinity DataK8SKialiIoKialiV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentAffinity;
   /**
   * Determines if the Kiali server will be granted cluster-wide permissions to see all namespaces. When true, this provides more efficient caching within the Kiali server. It must be 'true' if 'deployment.discovery_selectors.default' is left unset. To limit the namespaces for which Kiali has permissions, set to 'false' and define the desired selectors in 'deployment.discovery_selectors.default'. When not set, this value will default to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cluster_wide_access DataK8SKialiIoKialiV1Alpha1Manifest#cluster_wide_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cluster_wide_access DataK8SKialiIoKialiV1Alpha1Manifest#cluster_wide_access}
   */
   readonly clusterWideAccess?: boolean | cdktf.IResolvable;
   /**
   * Custom annotations to be created on the Kiali ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#configmap_annotations DataK8SKialiIoKialiV1Alpha1Manifest#configmap_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#configmap_annotations DataK8SKialiIoKialiV1Alpha1Manifest#configmap_annotations}
   */
   readonly configmapAnnotations?: { [key: string]: string };
   /**
   * Defines additional environment variables to be set in the Kiali server pod. This is typically used for (but not limited to) setting proxy environment variables such as HTTP_PROXY, HTTPS_PROXY, and/or NO_PROXY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#custom_envs DataK8SKialiIoKialiV1Alpha1Manifest#custom_envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#custom_envs DataK8SKialiIoKialiV1Alpha1Manifest#custom_envs}
   */
   readonly customEnvs?: DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentCustomEnvs[] | cdktf.IResolvable;
   /**
   * Defines additional secrets that are to be mounted in the Kiali pod. These are useful to contain certs that are used by Kiali to securely connect to third party systems (for example, see 'external_services.tracing.auth.ca_file'). These secrets must be created by an external mechanism. Kiali will not generate these secrets; it is assumed these secrets are externally managed. You can define 0, 1, or more secrets. An example configuration is, ``` custom_secrets: - name: mysecret mount: /mysecret-path - name: my-other-secret mount: /my-other-secret-location optional: true ``` 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#custom_secrets DataK8SKialiIoKialiV1Alpha1Manifest#custom_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#custom_secrets DataK8SKialiIoKialiV1Alpha1Manifest#custom_secrets}
   */
   readonly customSecrets?: DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentCustomSecrets[] | cdktf.IResolvable;
   /**
   * Discovery selectors used to determine which namespaces are accessible to Kiali and which namespaces are visible to Kiali users. You can define discovery selectors to match namespaces on the local cluster as well as remote clusters. The list of namespaces that a user can access is a subset of these namespaces, given that user's RBAC permissions. These selectors will have similar semantics as defined by Istio ( https://istio.io/latest/docs/reference/config/istio.mesh.v1alpha1/#MeshConfig ) and the syntax of the equality-based and set-based label selectors are documented by Kubernetes here ( https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#resources-that-support-set-based-requirements ) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#discovery_selectors DataK8SKialiIoKialiV1Alpha1Manifest#discovery_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#discovery_selectors DataK8SKialiIoKialiV1Alpha1Manifest#discovery_selectors}
   */
   readonly discoverySelectors?: DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentDiscoverySelectors;
   /**
   * The Kiali server pod's DNS configuration. Kubernetes supports different DNS policies and configurations. For further details, consult the Kubernetes documentation - https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/ 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#dns DataK8SKialiIoKialiV1Alpha1Manifest#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#dns DataK8SKialiIoKialiV1Alpha1Manifest#dns}
   */
   readonly dns?: DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentDns;
   /**
   * This is content for the Kubernetes 'hostAliases' setting for the Kiali server. This allows you to modify the Kiali server pod '/etc/hosts' file. A typical way to configure this setting is, ``` host_aliases: - ip: 192.168.1.100 hostnames: - 'foo.local' - 'bar.local' ``` For details on the content of this setting, see https://kubernetes.io/docs/tasks/network/customize-hosts-file-for-pods/#adding-additional-entries-with-hostaliases 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#host_aliases DataK8SKialiIoKialiV1Alpha1Manifest#host_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#host_aliases DataK8SKialiIoKialiV1Alpha1Manifest#host_aliases}
   */
   readonly hostAliases?: DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentHostAliases[] | cdktf.IResolvable;
   /**
   * Determines what (if any) HorizontalPodAutoscaler should be created to autoscale the Kiali pod. A typical way to configure HPA for Kiali is, ``` hpa: api_version: 'autoscaling/v2' spec: maxReplicas: 2 minReplicas: 1 metrics: - type: Resource resource: name: cpu target: type: Utilization averageUtilization: 50 ``` 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#hpa DataK8SKialiIoKialiV1Alpha1Manifest#hpa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#hpa DataK8SKialiIoKialiV1Alpha1Manifest#hpa}
   */
   readonly hpa?: DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentHpa;
   /**
   * If 'deployment.image_version' is a digest hash, this value indicates what type of digest it is. A typical value would be 'sha256'. Note: do NOT prefix this value with a '@'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#image_digest DataK8SKialiIoKialiV1Alpha1Manifest#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#image_digest DataK8SKialiIoKialiV1Alpha1Manifest#image_digest}
   */
   readonly imageDigest?: string;
   /**
   * Determines which Kiali image to download and install. If you set this to a specific name (i.e. you do not leave it as the default empty string), you must make sure that image is supported by the operator. If empty, the operator will use a known supported image name based on which 'version' was defined. Note that, as a security measure, a cluster admin may have configured the Kiali operator to ignore this setting. A cluster admin may do this to ensure the Kiali operator only installs a single, specific Kiali version, thus this setting may have no effect depending on how the operator itself was configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#image_name DataK8SKialiIoKialiV1Alpha1Manifest#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#image_name DataK8SKialiIoKialiV1Alpha1Manifest#image_name}
   */
   readonly imageName?: string;
   /**
   * The Kubernetes pull policy for the Kiali deployment. This is overridden to be 'Always' if 'deployment.image_version' is set to 'latest'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#image_pull_policy DataK8SKialiIoKialiV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#image_pull_policy DataK8SKialiIoKialiV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * The names of the secrets to be used when container images are to be pulled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#image_pull_secrets DataK8SKialiIoKialiV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#image_pull_secrets DataK8SKialiIoKialiV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Determines which version of Kiali to install. Choose 'lastrelease' to use the last Kiali release. Choose 'latest' to use the latest image (which may or may not be a released version of Kiali). Choose 'operator_version' to use the image whose version is the same as the operator version. Otherwise, you can set this to any valid Kiali version (such as 'v1.0') or any valid Kiali digest hash (if you set this to a digest hash, you must indicate the digest in 'deployment.image_digest'). Note that if this is set to 'latest' then the 'deployment.image_pull_policy' will be set to 'Always'. If you set this to a specific version (i.e. you do not leave it as the default empty string), you must make sure that image is supported by the operator. If empty, the operator will use a known supported image version based on which 'version' was defined. Note that, as a security measure, a cluster admin may have configured the Kiali operator to ignore this setting. A cluster admin may do this to ensure the Kiali operator only installs a single, specific Kiali version, thus this setting may have no effect depending on how the operator itself was configured. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#image_version DataK8SKialiIoKialiV1Alpha1Manifest#image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#image_version DataK8SKialiIoKialiV1Alpha1Manifest#image_version}
   */
   readonly imageVersion?: string;
   /**
   * Configures if/how the Kiali endpoint should be exposed externally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ingress DataK8SKialiIoKialiV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ingress DataK8SKialiIoKialiV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentIngress;
   /**
   * The instance name of this Kiali installation. This instance name will be the prefix prepended to the names of all Kiali resources created by the operator and will be used to label those resources as belonging to this Kiali installation instance. You cannot change this instance name after a Kiali CR is created. If you attempt to change it, the operator will abort with an error. If you want to change it, you must first delete the original Kiali CR and create a new one. Note that this does not affect the name of the auto-generated signing key secret. If you do not supply a signing key, the operator will create one for you in a secret, but that secret will always be named 'kiali-signing-key' and shared across all Kiali instances in the same deployment namespace. If you want a different signing key secret, you are free to create your own and tell the operator about it via 'login_token.signing_key'. See the docs on that setting for more details. Note also that if you are setting this value, you may also want to change the 'installation_tag' setting, but this is not required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#instance_name DataK8SKialiIoKialiV1Alpha1Manifest#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#instance_name DataK8SKialiIoKialiV1Alpha1Manifest#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Configures the logger that emits messages to the Kiali server pod logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#logger DataK8SKialiIoKialiV1Alpha1Manifest#logger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#logger DataK8SKialiIoKialiV1Alpha1Manifest#logger}
   */
   readonly logger?: DataK8SKialiIoKialiV1Alpha1ManifestSpecDeploymentLogger;
   /**
   * The namespace into which Kiali is to be installed. If this is empty or not defined, the default will be the namespace where the Kiali CR is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespace DataK8SKialiIoKialiV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespace DataK8SKialiIoKialiV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * A set of node labels that dictate onto which node the Kiali pod will be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#node_selector DataK8SKialiIoKialiV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#node_selector DataK8SKialiIoKialiV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Custom annotations to be created on the Kiali pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#pod_annotations DataK8SKialiIoKialiV1Alpha1Manifest#pod_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#pod_annotations DataK8SKialiIoKialiV1Alpha1Manifest#pod_annotations}
   */
   readonly podAnnotations?: { [key: string]: string };
   /**
   * Custom labels to be created on the Kiali pod. An example use for this setting is to inject an Istio sidecar such as, ``` sidecar.istio.io/inject: 'true' ``` 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#pod_labels DataK8SKialiIoKialiV1Alpha1Manifest#pod_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#pod_labels DataK8SKialiIoKialiV1Alpha1Manifest#pod_labels}
   */
   readonly podLabels?: { [key: string]: string };
   /**
   * The priorityClassName used to assign the priority of the Kiali pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#priority_class_name DataK8SKialiIoKialiV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#priority_class_name DataK8SKialiIoKialiV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * The replica count for the Kiail deployment. If 'deployment.hpa' is specified, this setting is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#replicas DataK8SKialiIoKialiV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#replicas DataK8SKialiIoKialiV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Defines compute resources that are to be given to the Kiali pod's container. The value is a dict as defined by Kubernetes. See the Kubernetes documentation (https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container). If you set this to an empty dict ('{}') then no resources will be defined in the Deployment. If you do not set this at all, the default is, ``` requests: cpu: '10m' memory: '64Mi' limits: memory: '1Gi' ``` 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#resources DataK8SKialiIoKialiV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#resources DataK8SKialiIoKialiV1Alpha1Manifest#resources}
   */
   readonly resources?: { [key: string]: string };
   /**
   * The name of a secret used by the Kiali. This secret is optionally used when configuring the OpenID authentication strategy. Consult the OpenID docs for more information at https://kiali.io/docs/configuration/authentication/openid/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#secret_name DataK8SKialiIoKialiV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#secret_name DataK8SKialiIoKialiV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
   * Custom security context to be placed on the server container. The entire security context on the container will be the value of this setting if the operator is configured to allow it. Note that, as a security measure, a cluster admin may have configured the Kiali operator to not allow portions of this override setting - in this case you can specify additional security context settings but you cannot replace existing, default ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#security_context DataK8SKialiIoKialiV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#security_context DataK8SKialiIoKialiV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: { [key: string]: string };
   /**
   * Custom annotations to be created on the Kiali Service resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#service_annotations DataK8SKialiIoKialiV1Alpha1Manifest#service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#service_annotations DataK8SKialiIoKialiV1Alpha1Manifest#service_annotations}
   */
   readonly serviceAnnotations?: { [key: string]: string };
   /**
   * The Kiali service type. Kubernetes determines what values are valid. Common values are 'NodePort', 'ClusterIP', and 'LoadBalancer'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#service_type DataK8SKialiIoKialiV1Alpha1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#service_type DataK8SKialiIoKialiV1Alpha1Manifest#service_type}
   */
   readonly serviceType?: string;
   /**
   * A list of tolerations which declare which node taints Kiali can tolerate. See the Kubernetes documentation on Taints and Tolerations for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#tolerations DataK8SKialiIoKialiV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#tolerations DataK8SKialiIoKialiV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * Kiali resources will be assigned a 'version' label when they are deployed. This setting determines what value those 'version' labels will have. When empty, its default will be determined as follows, * If 'deployment.image_version' is 'latest', 'version_label' will be fixed to 'master'. * If 'deployment.image_version' is 'lastrelease', 'version_label' will be fixed to the last Kiali release version string. * If 'deployment.image_version' is anything else, 'version_label' will be that value, too. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#version_label DataK8SKialiIoKialiV1Alpha1Manifest#version_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#version_label DataK8SKialiIoKialiV1Alpha1Manifest#version_label}
   */
   readonly versionLabel?: string;
   /**
   * When true, Kiali will be in 'view only' mode, allowing the user to view and retrieve management and monitoring data for the service mesh, but not allow the user to modify the service mesh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#view_only_mode DataK8SKialiIoKialiV1Alpha1Manifest#view_only_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#view_only_mode DataK8SKialiIoKialiV1Alpha1Manifest#view_only_mode}
   */
   readonly viewOnlyMode?: boolean | cdktf.IResolvable;
 }
@@ -5122,13 +5122,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExtensions {
   /**
   * Determines if the Kiali traffic graph should incorporate the extension's metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The name that is used to identify the metric time series for the extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#name DataK8SKialiIoKialiV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#name DataK8SKialiIoKialiV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5275,43 +5275,43 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesCustomDa
   /**
   * The certificate authority file to use when accessing Prometheus using https. An empty string means no extra certificate authority file is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ca_file DataK8SKialiIoKialiV1Alpha1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ca_file DataK8SKialiIoKialiV1Alpha1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Set true to skip verifying certificate validity when Kiali contacts Prometheus over https.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#insecure_skip_verify DataK8SKialiIoKialiV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#insecure_skip_verify DataK8SKialiIoKialiV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Password to be used when making requests to Prometheus, for basic authentication. May refer to a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#password DataK8SKialiIoKialiV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#password DataK8SKialiIoKialiV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * Token / API key to access Prometheus, for token-based authentication. May refer to a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#token DataK8SKialiIoKialiV1Alpha1Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#token DataK8SKialiIoKialiV1Alpha1Manifest#token}
   */
   readonly token?: string;
   /**
   * The type of authentication to use when contacting the server. Use 'bearer' to send the token to the Prometheus server. Use 'basic' to connect with username and password credentials. Use 'none' to not use any authentication (this is the default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#type DataK8SKialiIoKialiV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#type DataK8SKialiIoKialiV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * When true and if 'auth.type' is 'bearer', Kiali Service Account token will be used for the API calls to Prometheus (in this case, 'auth.token' config is ignored).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#use_kiali_token DataK8SKialiIoKialiV1Alpha1Manifest#use_kiali_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#use_kiali_token DataK8SKialiIoKialiV1Alpha1Manifest#use_kiali_token}
   */
   readonly useKialiToken?: boolean | cdktf.IResolvable;
   /**
   * Username to be used when making requests to Prometheus with 'basic' authentication. May refer to a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#username DataK8SKialiIoKialiV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#username DataK8SKialiIoKialiV1Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -5581,19 +5581,19 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesCustomDa
   /**
   * Set to true when a Thanos proxy is in front of Prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Thanos Retention period value expresed as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#retention_period DataK8SKialiIoKialiV1Alpha1Manifest#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#retention_period DataK8SKialiIoKialiV1Alpha1Manifest#retention_period}
   */
   readonly retentionPeriod?: string;
   /**
   * Thanos Scrape interval value expresed as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#scrape_interval DataK8SKialiIoKialiV1Alpha1Manifest#scrape_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#scrape_interval DataK8SKialiIoKialiV1Alpha1Manifest#scrape_interval}
   */
   readonly scrapeInterval?: string;
 }
@@ -5747,61 +5747,61 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesCustomDa
   /**
   * Settings used to authenticate with the Prometheus instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#auth DataK8SKialiIoKialiV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#auth DataK8SKialiIoKialiV1Alpha1Manifest#auth}
   */
   readonly auth?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesCustomDashboardsPrometheusAuth;
   /**
   * Prometheus caching duration expressed in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cache_duration DataK8SKialiIoKialiV1Alpha1Manifest#cache_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cache_duration DataK8SKialiIoKialiV1Alpha1Manifest#cache_duration}
   */
   readonly cacheDuration?: number;
   /**
   * Enable/disable Prometheus caching used for Health services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cache_enabled DataK8SKialiIoKialiV1Alpha1Manifest#cache_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cache_enabled DataK8SKialiIoKialiV1Alpha1Manifest#cache_enabled}
   */
   readonly cacheEnabled?: boolean | cdktf.IResolvable;
   /**
   * Prometheus caching expiration expressed in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cache_expiration DataK8SKialiIoKialiV1Alpha1Manifest#cache_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cache_expiration DataK8SKialiIoKialiV1Alpha1Manifest#cache_expiration}
   */
   readonly cacheExpiration?: number;
   /**
   * A set of name/value settings that will be passed as headers when requests are sent to Prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#custom_headers DataK8SKialiIoKialiV1Alpha1Manifest#custom_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#custom_headers DataK8SKialiIoKialiV1Alpha1Manifest#custom_headers}
   */
   readonly customHeaders?: { [key: string]: string };
   /**
   * Used in the Components health feature. This is the url which Kiali will ping to determine whether the component is reachable or not. It defaults to 'url' when not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#health_check_url DataK8SKialiIoKialiV1Alpha1Manifest#health_check_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#health_check_url DataK8SKialiIoKialiV1Alpha1Manifest#health_check_url}
   */
   readonly healthCheckUrl?: string;
   /**
   * Used in the Components health feature. When true, the unhealthy scenarios will be raised as errors. Otherwise, they will be raised as a warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#is_core DataK8SKialiIoKialiV1Alpha1Manifest#is_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#is_core DataK8SKialiIoKialiV1Alpha1Manifest#is_core}
   */
   readonly isCore?: boolean | cdktf.IResolvable;
   /**
   * A set of labelName/labelValue settings applied to every Prometheus query. Used to narrow unified metrics to only those scoped to the Kiali instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#query_scope DataK8SKialiIoKialiV1Alpha1Manifest#query_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#query_scope DataK8SKialiIoKialiV1Alpha1Manifest#query_scope}
   */
   readonly queryScope?: { [key: string]: string };
   /**
   * Define this section if Prometheus is to be queried through a Thanos proxy. Kiali will still use the 'url' setting to query for Prometheus metrics so make sure that is set appropriately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#thanos_proxy DataK8SKialiIoKialiV1Alpha1Manifest#thanos_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#thanos_proxy DataK8SKialiIoKialiV1Alpha1Manifest#thanos_proxy}
   */
   readonly thanosProxy?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesCustomDashboardsPrometheusThanosProxy;
   /**
   * The URL used to query the Prometheus Server. This URL must be accessible from the Kiali pod. If empty, the default will assume Prometheus is in the Istio control plane namespace; e.g. 'http://prometheus.<istio_namespace>:9090'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#url DataK8SKialiIoKialiV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#url DataK8SKialiIoKialiV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -6158,37 +6158,37 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesCustomDa
   /**
   * Threshold of the number of pods, for a given Application or Workload, above which dashboards discovery will be skipped. This setting only takes effect when 'discovery_enabled' is set to 'auto'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#discovery_auto_threshold DataK8SKialiIoKialiV1Alpha1Manifest#discovery_auto_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#discovery_auto_threshold DataK8SKialiIoKialiV1Alpha1Manifest#discovery_auto_threshold}
   */
   readonly discoveryAutoThreshold?: number;
   /**
   * Enable, disable or set 'auto' mode to the dashboards discovery process. If set to 'true', Kiali will always try to discover dashboards based on metrics. Note that this can generate performance penalties while discovering dashboards for workloads having many pods (thus many metrics). When set to 'auto', Kiali will skip dashboards discovery for workloads with more than a configured threshold of pods (see 'discovery_auto_threshold'). When discovery is disabled or auto/skipped, it is still possible to tie workloads with dashboards through annotations on pods (refer to the doc https://kiali.io/docs/configuration/custom-dashboard/#pod-annotations). Value must be one of: 'true', 'false', 'auto'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#discovery_enabled DataK8SKialiIoKialiV1Alpha1Manifest#discovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#discovery_enabled DataK8SKialiIoKialiV1Alpha1Manifest#discovery_enabled}
   */
   readonly discoveryEnabled?: string;
   /**
   * Enable or disable custom dashboards, including the dashboards discovery process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Used in the Components health feature. When true, the unhealthy scenarios will be raised as errors. Otherwise, they will be raised as a warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#is_core DataK8SKialiIoKialiV1Alpha1Manifest#is_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#is_core DataK8SKialiIoKialiV1Alpha1Manifest#is_core}
   */
   readonly isCore?: boolean | cdktf.IResolvable;
   /**
   * The Prometheus label name used for identifying namespaces in metrics for custom dashboards. The default is 'namespace' but you may want to use 'kubernetes_namespace' depending on your Prometheus configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespace_label DataK8SKialiIoKialiV1Alpha1Manifest#namespace_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespace_label DataK8SKialiIoKialiV1Alpha1Manifest#namespace_label}
   */
   readonly namespaceLabel?: string;
   /**
   * The Prometheus configuration defined here refers to the Prometheus instance that is dedicated to fetching metrics for custom dashboards. This means you can obtain these metrics for the custom dashboards from a Prometheus instance that is different from the one that Istio uses. If this section is omitted, the same Prometheus that is used to obtain the Istio metrics will also be used for retrieving custom dashboard metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#prometheus DataK8SKialiIoKialiV1Alpha1Manifest#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#prometheus DataK8SKialiIoKialiV1Alpha1Manifest#prometheus}
   */
   readonly prometheus?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesCustomDashboardsPrometheus;
 }
@@ -6429,43 +6429,43 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesGrafanaA
   /**
   * The certificate authority file to use when accessing Grafana using https. An empty string means no extra certificate authority file is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ca_file DataK8SKialiIoKialiV1Alpha1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ca_file DataK8SKialiIoKialiV1Alpha1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Set true to skip verifying certificate validity when Kiali contacts Grafana over https.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#insecure_skip_verify DataK8SKialiIoKialiV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#insecure_skip_verify DataK8SKialiIoKialiV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Password to be used when making requests to Grafana, for basic authentication. May refer to a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#password DataK8SKialiIoKialiV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#password DataK8SKialiIoKialiV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * Token / API key to access Grafana, for token-based authentication. May refer to a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#token DataK8SKialiIoKialiV1Alpha1Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#token DataK8SKialiIoKialiV1Alpha1Manifest#token}
   */
   readonly token?: string;
   /**
   * The type of authentication to use when contacting the server. Use 'bearer' to send the token to the Grafana server. Use 'basic' to connect with username and password credentials. Use 'none' to not use any authentication (this is the default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#type DataK8SKialiIoKialiV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#type DataK8SKialiIoKialiV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * When true and if 'auth.type' is 'bearer', Kiali Service Account token will be used for the API calls to Grafana (in this case, 'auth.token' config is ignored).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#use_kiali_token DataK8SKialiIoKialiV1Alpha1Manifest#use_kiali_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#use_kiali_token DataK8SKialiIoKialiV1Alpha1Manifest#use_kiali_token}
   */
   readonly useKialiToken?: boolean | cdktf.IResolvable;
   /**
   * Username to be used when making requests to Grafana with 'basic' authentication. May refer to a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#username DataK8SKialiIoKialiV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#username DataK8SKialiIoKialiV1Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -6735,25 +6735,25 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesGrafanaD
   /**
   * The name of a variable that holds the app name, if used in that dashboard (else it must be omitted).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#app DataK8SKialiIoKialiV1Alpha1Manifest#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#app DataK8SKialiIoKialiV1Alpha1Manifest#app}
   */
   readonly app?: string;
   /**
   * The name of a variable that holds the namespace, if used in that dashboard (else it must be omitted).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespace DataK8SKialiIoKialiV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespace DataK8SKialiIoKialiV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * The name of a variable that holds the service name, if used in that dashboard (else it must be omitted).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#service DataK8SKialiIoKialiV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#service DataK8SKialiIoKialiV1Alpha1Manifest#service}
   */
   readonly service?: string;
   /**
   * The name of a variable that holds the workload name, if used in that dashboard (else it must be omitted).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#workload DataK8SKialiIoKialiV1Alpha1Manifest#workload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#workload DataK8SKialiIoKialiV1Alpha1Manifest#workload}
   */
   readonly workload?: string;
 }
@@ -6936,11 +6936,11 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesGrafanaD
   /**
   * The name of the Grafana dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#name DataK8SKialiIoKialiV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#name DataK8SKialiIoKialiV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#variables DataK8SKialiIoKialiV1Alpha1Manifest#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#variables DataK8SKialiIoKialiV1Alpha1Manifest#variables}
   */
   readonly variables?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesGrafanaDashboardsVariables;
 }
@@ -7087,43 +7087,43 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesGrafana 
   /**
   * Settings used to authenticate with the Grafana instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#auth DataK8SKialiIoKialiV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#auth DataK8SKialiIoKialiV1Alpha1Manifest#auth}
   */
   readonly auth?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesGrafanaAuth;
   /**
   * A list of Grafana dashboards that Kiali can link to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#dashboards DataK8SKialiIoKialiV1Alpha1Manifest#dashboards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#dashboards DataK8SKialiIoKialiV1Alpha1Manifest#dashboards}
   */
   readonly dashboards?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesGrafanaDashboards[] | cdktf.IResolvable;
   /**
   * When true, Grafana support will be enabled in Kiali.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The URL that the Kiali UI uses when displaying Grafana links to the user. This URL must be accessible to clients external to the cluster (e.g. a browser) in order for the integration to work properly. If empty, an attempt to auto-discover it is made. This URL can contain query parameters if needed, such as '?orgId=1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#external_url DataK8SKialiIoKialiV1Alpha1Manifest#external_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#external_url DataK8SKialiIoKialiV1Alpha1Manifest#external_url}
   */
   readonly externalUrl?: string;
   /**
   * Used in the Components health feature. This is the URL which Kiali will ping to determine whether the component is reachable or not. It defaults to 'internal_url' when not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#health_check_url DataK8SKialiIoKialiV1Alpha1Manifest#health_check_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#health_check_url DataK8SKialiIoKialiV1Alpha1Manifest#health_check_url}
   */
   readonly healthCheckUrl?: string;
   /**
   * The URL used by Kiali to perform requests and queries to Grafana. An example would be 'http://grafana.istio-system:3000'. This URL can contain query parameters if needed, such as '?orgId=1'. If not defined, it will default to 'http://grafana.<istio_namespace>:3000'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#internal_url DataK8SKialiIoKialiV1Alpha1Manifest#internal_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#internal_url DataK8SKialiIoKialiV1Alpha1Manifest#internal_url}
   */
   readonly internalUrl?: string;
   /**
   * Used in the Components health feature. When true, the unhealthy scenarios will be raised as errors. Otherwise, they will be raised as a warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#is_core DataK8SKialiIoKialiV1Alpha1Manifest#is_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#is_core DataK8SKialiIoKialiV1Alpha1Manifest#is_core}
   */
   readonly isCore?: boolean | cdktf.IResolvable;
 }
@@ -7393,25 +7393,25 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesIstioCom
   /**
   * Istio component pod app label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#app_label DataK8SKialiIoKialiV1Alpha1Manifest#app_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#app_label DataK8SKialiIoKialiV1Alpha1Manifest#app_label}
   */
   readonly appLabel?: string;
   /**
   * Whether the component is to be considered a core component for your deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#is_core DataK8SKialiIoKialiV1Alpha1Manifest#is_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#is_core DataK8SKialiIoKialiV1Alpha1Manifest#is_core}
   */
   readonly isCore?: boolean | cdktf.IResolvable;
   /**
   * Whether the component is a native Envoy proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#is_proxy DataK8SKialiIoKialiV1Alpha1Manifest#is_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#is_proxy DataK8SKialiIoKialiV1Alpha1Manifest#is_proxy}
   */
   readonly isProxy?: boolean | cdktf.IResolvable;
   /**
   * The namespace where the component is installed. It defaults to the Istio control plane namespace (e.g. 'istio_namespace') setting. Note that the Istio documentation suggests you install the ingress and egress to different namespaces, so you most likely will want to explicitly set this namespace value for the ingress and egress components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespace DataK8SKialiIoKialiV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespace DataK8SKialiIoKialiV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -7616,13 +7616,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesIstioCom
   /**
   * A specific Istio component whose status will be monitored by Kiali.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#components DataK8SKialiIoKialiV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#components DataK8SKialiIoKialiV1Alpha1Manifest#components}
   */
   readonly components?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesIstioComponentStatusComponents[] | cdktf.IResolvable;
   /**
   * Determines if Istio component statuses will be displayed in the Kiali masthead indicator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -7747,13 +7747,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesIstioGat
   /**
   * The name of the GatewayClass.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#class_name DataK8SKialiIoKialiV1Alpha1Manifest#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#class_name DataK8SKialiIoKialiV1Alpha1Manifest#class_name}
   */
   readonly className?: string;
   /**
   * The name of the Gateway API implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#name DataK8SKialiIoKialiV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#name DataK8SKialiIoKialiV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -7900,13 +7900,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesIstioIst
   /**
   * The currently installed Istio revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#current DataK8SKialiIoKialiV1Alpha1Manifest#current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#current DataK8SKialiIoKialiV1Alpha1Manifest#current}
   */
   readonly current?: string;
   /**
   * The installed Istio canary revision to upgrade to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#upgrade DataK8SKialiIoKialiV1Alpha1Manifest#upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#upgrade DataK8SKialiIoKialiV1Alpha1Manifest#upgrade}
   */
   readonly upgrade?: string;
 }
@@ -8031,97 +8031,97 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesIstio {
   /**
   * Istio components whose status will be monitored by Kiali.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#component_status DataK8SKialiIoKialiV1Alpha1Manifest#component_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#component_status DataK8SKialiIoKialiV1Alpha1Manifest#component_status}
   */
   readonly componentStatus?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesIstioComponentStatus;
   /**
   * The name of the istio control plane config map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#config_map_name DataK8SKialiIoKialiV1Alpha1Manifest#config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#config_map_name DataK8SKialiIoKialiV1Alpha1Manifest#config_map_name}
   */
   readonly configMapName?: string;
   /**
   * The namespace where Istio EgressGateway component is read for a status check. When left empty, then 'istio_namespace' value is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#egress_gateway_namespace DataK8SKialiIoKialiV1Alpha1Manifest#egress_gateway_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#egress_gateway_namespace DataK8SKialiIoKialiV1Alpha1Manifest#egress_gateway_namespace}
   */
   readonly egressGatewayNamespace?: string;
   /**
   * The port which kiali will open to fetch envoy config data information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#envoy_admin_local_port DataK8SKialiIoKialiV1Alpha1Manifest#envoy_admin_local_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#envoy_admin_local_port DataK8SKialiIoKialiV1Alpha1Manifest#envoy_admin_local_port}
   */
   readonly envoyAdminLocalPort?: number;
   /**
   * A list declaring all the Gateways used in Istio. If left empty or undefined, the default is a single list item whose name is 'Istio' and class_name is 'istio'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#gateway_api_classes DataK8SKialiIoKialiV1Alpha1Manifest#gateway_api_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#gateway_api_classes DataK8SKialiIoKialiV1Alpha1Manifest#gateway_api_classes}
   */
   readonly gatewayApiClasses?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesIstioGatewayApiClasses[] | cdktf.IResolvable;
   /**
   * The namespace where Istio IngressGateway component is read for a status check. When left empty, then 'istio_namespace' value is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ingress_gateway_namespace DataK8SKialiIoKialiV1Alpha1Manifest#ingress_gateway_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ingress_gateway_namespace DataK8SKialiIoKialiV1Alpha1Manifest#ingress_gateway_namespace}
   */
   readonly ingressGatewayNamespace?: string;
   /**
   * Indicates if Kiali has access to istiod. true by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_api_enabled DataK8SKialiIoKialiV1Alpha1Manifest#istio_api_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_api_enabled DataK8SKialiIoKialiV1Alpha1Manifest#istio_api_enabled}
   */
   readonly istioApiEnabled?: boolean | cdktf.IResolvable;
   /**
   * These values are used in Canary upgrade/downgrade functionality when 'istio_upgrade_action' is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_canary_revision DataK8SKialiIoKialiV1Alpha1Manifest#istio_canary_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_canary_revision DataK8SKialiIoKialiV1Alpha1Manifest#istio_canary_revision}
   */
   readonly istioCanaryRevision?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesIstioIstioCanaryRevision;
   /**
   * The annotation used by Istio to identify domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_identity_domain DataK8SKialiIoKialiV1Alpha1Manifest#istio_identity_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_identity_domain DataK8SKialiIoKialiV1Alpha1Manifest#istio_identity_domain}
   */
   readonly istioIdentityDomain?: string;
   /**
   * The name of the field that annotates a workload to indicate a sidecar should be automatically injected by Istio. This is the name of a Kubernetes annotation. Note that some Istio implementations also support labels by the same name. In other words, if a workload has a Kubernetes label with this name, that may also trigger automatic sidecar injection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_injection_annotation DataK8SKialiIoKialiV1Alpha1Manifest#istio_injection_annotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_injection_annotation DataK8SKialiIoKialiV1Alpha1Manifest#istio_injection_annotation}
   */
   readonly istioInjectionAnnotation?: string;
   /**
   * The pod annotation used by Istio to identify the sidecar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_sidecar_annotation DataK8SKialiIoKialiV1Alpha1Manifest#istio_sidecar_annotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_sidecar_annotation DataK8SKialiIoKialiV1Alpha1Manifest#istio_sidecar_annotation}
   */
   readonly istioSidecarAnnotation?: string;
   /**
   * The name of the istio-sidecar-injector config map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_sidecar_injector_config_map_name DataK8SKialiIoKialiV1Alpha1Manifest#istio_sidecar_injector_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_sidecar_injector_config_map_name DataK8SKialiIoKialiV1Alpha1Manifest#istio_sidecar_injector_config_map_name}
   */
   readonly istioSidecarInjectorConfigMapName?: string;
   /**
   * The name of the istiod deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istiod_deployment_name DataK8SKialiIoKialiV1Alpha1Manifest#istiod_deployment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istiod_deployment_name DataK8SKialiIoKialiV1Alpha1Manifest#istiod_deployment_name}
   */
   readonly istiodDeploymentName?: string;
   /**
   * The monitoring port of the IstioD pod (not the Service).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istiod_pod_monitoring_port DataK8SKialiIoKialiV1Alpha1Manifest#istiod_pod_monitoring_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istiod_pod_monitoring_port DataK8SKialiIoKialiV1Alpha1Manifest#istiod_pod_monitoring_port}
   */
   readonly istiodPodMonitoringPort?: number;
   /**
   * The namespace to treat as the administrative root namespace for Istio configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#root_namespace DataK8SKialiIoKialiV1Alpha1Manifest#root_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#root_namespace DataK8SKialiIoKialiV1Alpha1Manifest#root_namespace}
   */
   readonly rootNamespace?: string;
   /**
   * The Istio service used to determine the Istio version. If empty, assumes the URL for the well-known Istio version endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#url_service_version DataK8SKialiIoKialiV1Alpha1Manifest#url_service_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#url_service_version DataK8SKialiIoKialiV1Alpha1Manifest#url_service_version}
   */
   readonly urlServiceVersion?: string;
 }
@@ -8652,43 +8652,43 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesPromethe
   /**
   * The certificate authority file to use when accessing Prometheus using https. An empty string means no extra certificate authority file is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ca_file DataK8SKialiIoKialiV1Alpha1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ca_file DataK8SKialiIoKialiV1Alpha1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Set true to skip verifying certificate validity when Kiali contacts Prometheus over https.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#insecure_skip_verify DataK8SKialiIoKialiV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#insecure_skip_verify DataK8SKialiIoKialiV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Password to be used when making requests to Prometheus, for basic authentication. May refer to a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#password DataK8SKialiIoKialiV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#password DataK8SKialiIoKialiV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * Token / API key to access Prometheus, for token-based authentication. May refer to a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#token DataK8SKialiIoKialiV1Alpha1Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#token DataK8SKialiIoKialiV1Alpha1Manifest#token}
   */
   readonly token?: string;
   /**
   * The type of authentication to use when contacting the server. Use 'bearer' to send the token to the Prometheus server. Use 'basic' to connect with username and password credentials. Use 'none' to not use any authentication (this is the default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#type DataK8SKialiIoKialiV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#type DataK8SKialiIoKialiV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * When true and if 'auth.type' is 'bearer', Kiali Service Account token will be used for the API calls to Prometheus (in this case, 'auth.token' config is ignored).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#use_kiali_token DataK8SKialiIoKialiV1Alpha1Manifest#use_kiali_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#use_kiali_token DataK8SKialiIoKialiV1Alpha1Manifest#use_kiali_token}
   */
   readonly useKialiToken?: boolean | cdktf.IResolvable;
   /**
   * Username to be used when making requests to Prometheus with 'basic' authentication. May refer to a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#username DataK8SKialiIoKialiV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#username DataK8SKialiIoKialiV1Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -8958,19 +8958,19 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesPromethe
   /**
   * Set to true when a Thanos proxy is in front of Prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Thanos Retention period value expresed as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#retention_period DataK8SKialiIoKialiV1Alpha1Manifest#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#retention_period DataK8SKialiIoKialiV1Alpha1Manifest#retention_period}
   */
   readonly retentionPeriod?: string;
   /**
   * Thanos Scrape interval value expresed as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#scrape_interval DataK8SKialiIoKialiV1Alpha1Manifest#scrape_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#scrape_interval DataK8SKialiIoKialiV1Alpha1Manifest#scrape_interval}
   */
   readonly scrapeInterval?: string;
 }
@@ -9124,61 +9124,61 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesPromethe
   /**
   * Settings used to authenticate with the Prometheus instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#auth DataK8SKialiIoKialiV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#auth DataK8SKialiIoKialiV1Alpha1Manifest#auth}
   */
   readonly auth?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesPrometheusAuth;
   /**
   * Prometheus caching duration expressed in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cache_duration DataK8SKialiIoKialiV1Alpha1Manifest#cache_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cache_duration DataK8SKialiIoKialiV1Alpha1Manifest#cache_duration}
   */
   readonly cacheDuration?: number;
   /**
   * Enable/disable Prometheus caching used for Health services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cache_enabled DataK8SKialiIoKialiV1Alpha1Manifest#cache_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cache_enabled DataK8SKialiIoKialiV1Alpha1Manifest#cache_enabled}
   */
   readonly cacheEnabled?: boolean | cdktf.IResolvable;
   /**
   * Prometheus caching expiration expressed in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cache_expiration DataK8SKialiIoKialiV1Alpha1Manifest#cache_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cache_expiration DataK8SKialiIoKialiV1Alpha1Manifest#cache_expiration}
   */
   readonly cacheExpiration?: number;
   /**
   * A set of name/value settings that will be passed as headers when requests are sent to Prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#custom_headers DataK8SKialiIoKialiV1Alpha1Manifest#custom_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#custom_headers DataK8SKialiIoKialiV1Alpha1Manifest#custom_headers}
   */
   readonly customHeaders?: { [key: string]: string };
   /**
   * Used in the Components health feature. This is the url which Kiali will ping to determine whether the component is reachable or not. It defaults to 'url' when not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#health_check_url DataK8SKialiIoKialiV1Alpha1Manifest#health_check_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#health_check_url DataK8SKialiIoKialiV1Alpha1Manifest#health_check_url}
   */
   readonly healthCheckUrl?: string;
   /**
   * Used in the Components health feature. When true, the unhealthy scenarios will be raised as errors. Otherwise, they will be raised as a warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#is_core DataK8SKialiIoKialiV1Alpha1Manifest#is_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#is_core DataK8SKialiIoKialiV1Alpha1Manifest#is_core}
   */
   readonly isCore?: boolean | cdktf.IResolvable;
   /**
   * A set of labelName/labelValue settings applied to every Prometheus query. Used to narrow unified metrics to only those scoped to the Kiali instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#query_scope DataK8SKialiIoKialiV1Alpha1Manifest#query_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#query_scope DataK8SKialiIoKialiV1Alpha1Manifest#query_scope}
   */
   readonly queryScope?: { [key: string]: string };
   /**
   * Define this section if Prometheus is to be queried through a Thanos proxy. Kiali will still use the 'url' setting to query for Prometheus metrics so make sure that is set appropriately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#thanos_proxy DataK8SKialiIoKialiV1Alpha1Manifest#thanos_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#thanos_proxy DataK8SKialiIoKialiV1Alpha1Manifest#thanos_proxy}
   */
   readonly thanosProxy?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesPrometheusThanosProxy;
   /**
   * The URL used to query the Prometheus Server. This URL must be accessible from the Kiali pod. If empty, the default will assume Prometheus is in the Istio control plane namespace; e.g. 'http://prometheus.<istio_namespace>:9090'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#url DataK8SKialiIoKialiV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#url DataK8SKialiIoKialiV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -9535,43 +9535,43 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesTracingA
   /**
   * The certificate authority file to use when accessing the Tracing server using https. An empty string means no extra certificate authority file is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ca_file DataK8SKialiIoKialiV1Alpha1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ca_file DataK8SKialiIoKialiV1Alpha1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Set true to skip verifying certificate validity when Kiali contacts the Tracing server over https.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#insecure_skip_verify DataK8SKialiIoKialiV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#insecure_skip_verify DataK8SKialiIoKialiV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Password to be used when making requests to the Tracing server, for basic authentication. May refer to a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#password DataK8SKialiIoKialiV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#password DataK8SKialiIoKialiV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * Token / API key to access the Tracing server, for token-based authentication. May refer to a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#token DataK8SKialiIoKialiV1Alpha1Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#token DataK8SKialiIoKialiV1Alpha1Manifest#token}
   */
   readonly token?: string;
   /**
   * The type of authentication to use when contacting the server. Use 'bearer' to send the token to the Tracing server. Use 'basic' to connect with username and password credentials. Use 'none' to not use any authentication (this is the default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#type DataK8SKialiIoKialiV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#type DataK8SKialiIoKialiV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * When true and if 'auth.type' is 'bearer', Kiali Service Account token will be used for the API calls to the Tracing server (in this case, 'auth.token' config is ignored).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#use_kiali_token DataK8SKialiIoKialiV1Alpha1Manifest#use_kiali_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#use_kiali_token DataK8SKialiIoKialiV1Alpha1Manifest#use_kiali_token}
   */
   readonly useKialiToken?: boolean | cdktf.IResolvable;
   /**
   * Username to be used when making requests to the Tracing server with 'basic' authentication. May refer to a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#username DataK8SKialiIoKialiV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#username DataK8SKialiIoKialiV1Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -9841,19 +9841,19 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesTracingT
   /**
   * The unique identifier (uid) of the Tempo datasource in Grafana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#datasource_uid DataK8SKialiIoKialiV1Alpha1Manifest#datasource_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#datasource_uid DataK8SKialiIoKialiV1Alpha1Manifest#datasource_uid}
   */
   readonly datasourceUid?: string;
   /**
   * The Id of the organization that the dashboard is in. Default to 1 (the first and default organization).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#org_id DataK8SKialiIoKialiV1Alpha1Manifest#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#org_id DataK8SKialiIoKialiV1Alpha1Manifest#org_id}
   */
   readonly orgId?: string;
   /**
   * The URL format for the external url. Can be 'jaeger' or 'grafana'. Default to 'grafana'. Grafana will need a Grafana url in the Grafana settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#url_format DataK8SKialiIoKialiV1Alpha1Manifest#url_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#url_format DataK8SKialiIoKialiV1Alpha1Manifest#url_format}
   */
   readonly urlFormat?: string;
 }
@@ -10007,91 +10007,91 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesTracing 
   /**
   * Settings used to authenticate with the Tracing server instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#auth DataK8SKialiIoKialiV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#auth DataK8SKialiIoKialiV1Alpha1Manifest#auth}
   */
   readonly auth?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesTracingAuth;
   /**
   * A set of name/value settings that will be passed as headers when requests are sent to the Tracing backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#custom_headers DataK8SKialiIoKialiV1Alpha1Manifest#custom_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#custom_headers DataK8SKialiIoKialiV1Alpha1Manifest#custom_headers}
   */
   readonly customHeaders?: { [key: string]: string };
   /**
   * When true, connections to the Tracing server are enabled. 'internal_url' and/or 'external_url' need to be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The URL that the Kiali UI uses when displaying Tracing UI links to the user. This URL must be accessible to clients external to the cluster (e.g. a browser) in order to generate valid links. If the tracing service is deployed with a QUERY_BASE_PATH set, set this URL like https://<hostname>/<QUERY_BASE_PATH>; for example, https://tracing-service:8080/jaeger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#external_url DataK8SKialiIoKialiV1Alpha1Manifest#external_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#external_url DataK8SKialiIoKialiV1Alpha1Manifest#external_url}
   */
   readonly externalUrl?: string;
   /**
   * Set port number when 'use_grpc' is true and 'provider' is 'tempo'. By default is '9095'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#grpc_port DataK8SKialiIoKialiV1Alpha1Manifest#grpc_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#grpc_port DataK8SKialiIoKialiV1Alpha1Manifest#grpc_port}
   */
   readonly grpcPort?: number;
   /**
   * Used in the Components health feature. This is the url which Kiali will ping to determine whether the component is reachable or not. It defaults to 'url' when not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#health_check_url DataK8SKialiIoKialiV1Alpha1Manifest#health_check_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#health_check_url DataK8SKialiIoKialiV1Alpha1Manifest#health_check_url}
   */
   readonly healthCheckUrl?: string;
   /**
   * The URL used by Kiali to perform requests and queries to the tracing backend which enables further integration between Kiali and the tracing server. When not provided, Kiali will only show external links using the 'external_url' setting. Note: Jaeger v1.20+ has separated ports for GRPC(16685) and HTTP(16686) requests. Make sure you use the appropriate port according to the 'use_grpc' value. Example: http://tracing.istio-system:16685
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#internal_url DataK8SKialiIoKialiV1Alpha1Manifest#internal_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#internal_url DataK8SKialiIoKialiV1Alpha1Manifest#internal_url}
   */
   readonly internalUrl?: string;
   /**
   * Used in the Components health feature. When true, the unhealthy scenarios will be raised as errors. Otherwise, they will be raised as a warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#is_core DataK8SKialiIoKialiV1Alpha1Manifest#is_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#is_core DataK8SKialiIoKialiV1Alpha1Manifest#is_core}
   */
   readonly isCore?: boolean | cdktf.IResolvable;
   /**
   * Kiali use this boolean to find traces with a namespace selector : service.namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespace_selector DataK8SKialiIoKialiV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespace_selector DataK8SKialiIoKialiV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: boolean | cdktf.IResolvable;
   /**
   * The trace provider to get the traces from. Value must be one of: 'jaeger' or 'tempo'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#provider DataK8SKialiIoKialiV1Alpha1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#provider DataK8SKialiIoKialiV1Alpha1Manifest#provider}
   */
   readonly provider?: string;
   /**
   * A set of tagKey/tagValue settings applied to every Jaeger query. Used to narrow unified traces to only those scoped to the Kiali instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#query_scope DataK8SKialiIoKialiV1Alpha1Manifest#query_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#query_scope DataK8SKialiIoKialiV1Alpha1Manifest#query_scope}
   */
   readonly queryScope?: { [key: string]: string };
   /**
   * The amount of time in seconds Kiali will wait for a response from 'jaeger-query' service when fetching traces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#query_timeout DataK8SKialiIoKialiV1Alpha1Manifest#query_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#query_timeout DataK8SKialiIoKialiV1Alpha1Manifest#query_timeout}
   */
   readonly queryTimeout?: number;
   /**
   * Settings used to configure the access url to the Tempo Datasource in Grafana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#tempo_config DataK8SKialiIoKialiV1Alpha1Manifest#tempo_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#tempo_config DataK8SKialiIoKialiV1Alpha1Manifest#tempo_config}
   */
   readonly tempoConfig?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesTracingTempoConfig;
   /**
   * Set to true in order to enable GRPC connections between Kiali and Jaeger which will speed up the queries. In some setups you might not be able to use GRPC (e.g. if Jaeger is behind some reverse proxy that doesn't support it). If not specified, this will defalt to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#use_grpc DataK8SKialiIoKialiV1Alpha1Manifest#use_grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#use_grpc DataK8SKialiIoKialiV1Alpha1Manifest#use_grpc}
   */
   readonly useGrpc?: boolean | cdktf.IResolvable;
   /**
   * Kiali will get the traces of these services found in the Istio control plane namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#whitelist_istio_system DataK8SKialiIoKialiV1Alpha1Manifest#whitelist_istio_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#whitelist_istio_system DataK8SKialiIoKialiV1Alpha1Manifest#whitelist_istio_system}
   */
   readonly whitelistIstioSystem?: string[];
 }
@@ -10593,31 +10593,31 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServices {
   /**
   * Settings for enabling and discovering custom dashboards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#custom_dashboards DataK8SKialiIoKialiV1Alpha1Manifest#custom_dashboards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#custom_dashboards DataK8SKialiIoKialiV1Alpha1Manifest#custom_dashboards}
   */
   readonly customDashboards?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesCustomDashboards;
   /**
   * Configuration used to access the Grafana dashboards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#grafana DataK8SKialiIoKialiV1Alpha1Manifest#grafana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#grafana DataK8SKialiIoKialiV1Alpha1Manifest#grafana}
   */
   readonly grafana?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesGrafana;
   /**
   * Istio configuration that Kiali needs to know about in order to observe the mesh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio DataK8SKialiIoKialiV1Alpha1Manifest#istio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio DataK8SKialiIoKialiV1Alpha1Manifest#istio}
   */
   readonly istio?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesIstio;
   /**
   * The Prometheus configuration defined here refers to the Prometheus instance that is used by Istio to store its telemetry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#prometheus DataK8SKialiIoKialiV1Alpha1Manifest#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#prometheus DataK8SKialiIoKialiV1Alpha1Manifest#prometheus}
   */
   readonly prometheus?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesPrometheus;
   /**
   * Configuration used to access the Tracing (Jaeger or Tempo) dashboards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#tracing DataK8SKialiIoKialiV1Alpha1Manifest#tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#tracing DataK8SKialiIoKialiV1Alpha1Manifest#tracing}
   */
   readonly tracing?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServicesTracing;
 }
@@ -10829,31 +10829,31 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecHealthConfigRateToleranc
   /**
   * The status code that applies for this tolerance. This is a regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#code DataK8SKialiIoKialiV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#code DataK8SKialiIoKialiV1Alpha1Manifest#code}
   */
   readonly code?: string;
   /**
   * Health will be considered degraded when the telemetry reaches this value (specified as an integer representing a percentage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#degraded DataK8SKialiIoKialiV1Alpha1Manifest#degraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#degraded DataK8SKialiIoKialiV1Alpha1Manifest#degraded}
   */
   readonly degraded?: number;
   /**
   * The direction that applies for this tolerance (e.g. inbound or outbound). This is a regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#direction DataK8SKialiIoKialiV1Alpha1Manifest#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#direction DataK8SKialiIoKialiV1Alpha1Manifest#direction}
   */
   readonly direction?: string;
   /**
   * A failure status will be shown when the telemetry reaches this value (specified as an integer representing a percentage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#failure DataK8SKialiIoKialiV1Alpha1Manifest#failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#failure DataK8SKialiIoKialiV1Alpha1Manifest#failure}
   */
   readonly failure?: number;
   /**
   * The protocol that applies for this tolerance (e.g. grpc or http). This is a regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#protocol DataK8SKialiIoKialiV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#protocol DataK8SKialiIoKialiV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -11087,25 +11087,25 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecHealthConfigRate {
   /**
   * The type of resource that this configuration applies to. This is a regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#kind DataK8SKialiIoKialiV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#kind DataK8SKialiIoKialiV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * The name of a resource that this configuration applies to. This is a regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#name DataK8SKialiIoKialiV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#name DataK8SKialiIoKialiV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The name of the namespace that this configuration applies to. This is a regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespace DataK8SKialiIoKialiV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespace DataK8SKialiIoKialiV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * A list of tolerances for this configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#tolerance DataK8SKialiIoKialiV1Alpha1Manifest#tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#tolerance DataK8SKialiIoKialiV1Alpha1Manifest#tolerance}
   */
   readonly tolerance?: DataK8SKialiIoKialiV1Alpha1ManifestSpecHealthConfigRateTolerance[] | cdktf.IResolvable;
 }
@@ -11308,7 +11308,7 @@ export class DataK8SKialiIoKialiV1Alpha1ManifestSpecHealthConfigRateList extends
 }
 export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecHealthConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#rate DataK8SKialiIoKialiV1Alpha1Manifest#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#rate DataK8SKialiIoKialiV1Alpha1Manifest#rate}
   */
   readonly rate?: DataK8SKialiIoKialiV1Alpha1ManifestSpecHealthConfigRate[] | cdktf.IResolvable;
 }
@@ -11404,13 +11404,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecIdentity {
   /**
   * Certificate file used to identify the Kiali server. If set, you must go over https to access Kiali. The Kiali operator will set this if it deploys Kiali behind https. When left undefined, the operator will attempt to generate a cluster-specific cert file that provides https by default (today, this auto-generation of a cluster-specific cert is only supported on OpenShift). When set to an empty string, https will be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cert_file DataK8SKialiIoKialiV1Alpha1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cert_file DataK8SKialiIoKialiV1Alpha1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Private key file used to identify the Kiali server. If set, you must go over https to access Kiali. When left undefined, the Kiali operator will attempt to generate a cluster-specific private key file that provides https by default (today, this auto-generation of a cluster-specific private key is only supported on OpenShift). When set to an empty string, https will be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#private_key_file DataK8SKialiIoKialiV1Alpha1Manifest#private_key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#private_key_file DataK8SKialiIoKialiV1Alpha1Manifest#private_key_file}
   */
   readonly privateKeyFile?: string;
 }
@@ -11535,37 +11535,37 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecIstioLabels {
   /**
   * The name of the label used to define what application a workload belongs to. This is typically something like 'app' or 'app.kubernetes.io/name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#app_label_name DataK8SKialiIoKialiV1Alpha1Manifest#app_label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#app_label_name DataK8SKialiIoKialiV1Alpha1Manifest#app_label_name}
   */
   readonly appLabelName?: string;
   /**
   * The selector label for Egress Gateway workload. This is typically 'istio=egressgateway'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#egress_gateway_label DataK8SKialiIoKialiV1Alpha1Manifest#egress_gateway_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#egress_gateway_label DataK8SKialiIoKialiV1Alpha1Manifest#egress_gateway_label}
   */
   readonly egressGatewayLabel?: string;
   /**
   * The selector label for Ingress Gateway workload. This is typically 'istio=ingressgateway'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ingress_gateway_label DataK8SKialiIoKialiV1Alpha1Manifest#ingress_gateway_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ingress_gateway_label DataK8SKialiIoKialiV1Alpha1Manifest#ingress_gateway_label}
   */
   readonly ingressGatewayLabel?: string;
   /**
   * The name of the label used to instruct Istio to automatically inject sidecar proxies when applications are deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#injection_label_name DataK8SKialiIoKialiV1Alpha1Manifest#injection_label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#injection_label_name DataK8SKialiIoKialiV1Alpha1Manifest#injection_label_name}
   */
   readonly injectionLabelName?: string;
   /**
   * The label used to identify the Istio revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#injection_label_rev DataK8SKialiIoKialiV1Alpha1Manifest#injection_label_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#injection_label_rev DataK8SKialiIoKialiV1Alpha1Manifest#injection_label_rev}
   */
   readonly injectionLabelRev?: string;
   /**
   * The name of the label used to define what version of the application a workload belongs to. This is typically something like 'version' or 'app.kubernetes.io/version'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#version_label_name DataK8SKialiIoKialiV1Alpha1Manifest#version_label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#version_label_name DataK8SKialiIoKialiV1Alpha1Manifest#version_label_name}
   */
   readonly versionLabelName?: string;
 }
@@ -11806,19 +11806,19 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefau
   /**
   * If true this option will be selected and take effect automatically. Note that only one option in the list can have this value be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#auto_select DataK8SKialiIoKialiV1Alpha1Manifest#auto_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#auto_select DataK8SKialiIoKialiV1Alpha1Manifest#auto_select}
   */
   readonly autoSelect?: boolean | cdktf.IResolvable;
   /**
   * Human-readable text to let the user know what the expression does.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#description DataK8SKialiIoKialiV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#description DataK8SKialiIoKialiV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The find expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#expression DataK8SKialiIoKialiV1Alpha1Manifest#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#expression DataK8SKialiIoKialiV1Alpha1Manifest#expression}
   */
   readonly expression?: string;
 }
@@ -11994,19 +11994,19 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefau
   /**
   * If true this option will be selected and take effect automatically. Note that only one option in the list can have this value be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#auto_select DataK8SKialiIoKialiV1Alpha1Manifest#auto_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#auto_select DataK8SKialiIoKialiV1Alpha1Manifest#auto_select}
   */
   readonly autoSelect?: boolean | cdktf.IResolvable;
   /**
   * Human-readable text to let the user know what the expression does.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#description DataK8SKialiIoKialiV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#description DataK8SKialiIoKialiV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The hide expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#expression DataK8SKialiIoKialiV1Alpha1Manifest#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#expression DataK8SKialiIoKialiV1Alpha1Manifest#expression}
   */
   readonly expression?: string;
 }
@@ -12182,19 +12182,19 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefau
   /**
   * gRPC traffic is measured in requests or sent/received/total messages. Value must be one of: 'none', 'requests', 'sent', 'received', or 'total'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#grpc DataK8SKialiIoKialiV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#grpc DataK8SKialiIoKialiV1Alpha1Manifest#grpc}
   */
   readonly grpc?: string;
   /**
   * HTTP traffic is measured in requests. Value must be one of: 'none' or 'requests'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#http DataK8SKialiIoKialiV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#http DataK8SKialiIoKialiV1Alpha1Manifest#http}
   */
   readonly http?: string;
   /**
   * TCP traffic is measured in sent/received/total bytes. Only request traffic supplies response codes. Value must be one of: 'none', 'sent', 'received', or 'total'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#tcp DataK8SKialiIoKialiV1Alpha1Manifest#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#tcp DataK8SKialiIoKialiV1Alpha1Manifest#tcp}
   */
   readonly tcp?: string;
 }
@@ -12348,19 +12348,19 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefau
   /**
   * A list of commonly used and useful find expressions that will be provided to the user out-of-box.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#find_options DataK8SKialiIoKialiV1Alpha1Manifest#find_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#find_options DataK8SKialiIoKialiV1Alpha1Manifest#find_options}
   */
   readonly findOptions?: DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsGraphFindOptions[] | cdktf.IResolvable;
   /**
   * A list of commonly used and useful hide expressions that will be provided to the user out-of-box.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#hide_options DataK8SKialiIoKialiV1Alpha1Manifest#hide_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#hide_options DataK8SKialiIoKialiV1Alpha1Manifest#hide_options}
   */
   readonly hideOptions?: DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsGraphHideOptions[] | cdktf.IResolvable;
   /**
   * These settings determine which rates are used to determine graph traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#traffic DataK8SKialiIoKialiV1Alpha1Manifest#traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#traffic DataK8SKialiIoKialiV1Alpha1Manifest#traffic}
   */
   readonly traffic?: DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsGraphTraffic;
 }
@@ -12514,13 +12514,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefau
   /**
   * Default language used in Kiali application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#language DataK8SKialiIoKialiV1Alpha1Manifest#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#language DataK8SKialiIoKialiV1Alpha1Manifest#language}
   */
   readonly language?: string;
   /**
   * If true Kiali masthead displays language selector icon. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#show_selector DataK8SKialiIoKialiV1Alpha1Manifest#show_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#show_selector DataK8SKialiIoKialiV1Alpha1Manifest#show_selector}
   */
   readonly showSelector?: boolean | cdktf.IResolvable;
 }
@@ -12645,25 +12645,25 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefau
   /**
   * Include Health column (by default) for applicable list views. Setting to false can improve performance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#include_health DataK8SKialiIoKialiV1Alpha1Manifest#include_health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#include_health DataK8SKialiIoKialiV1Alpha1Manifest#include_health}
   */
   readonly includeHealth?: boolean | cdktf.IResolvable;
   /**
   * Include Istio resources (by default) in Details column for applicable list views. Setting to false can improve performance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#include_istio_resources DataK8SKialiIoKialiV1Alpha1Manifest#include_istio_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#include_istio_resources DataK8SKialiIoKialiV1Alpha1Manifest#include_istio_resources}
   */
   readonly includeIstioResources?: boolean | cdktf.IResolvable;
   /**
   * Include Configuration validation column (by default) for applicable list views. Setting to false can improve performance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#include_validations DataK8SKialiIoKialiV1Alpha1Manifest#include_validations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#include_validations DataK8SKialiIoKialiV1Alpha1Manifest#include_validations}
   */
   readonly includeValidations?: boolean | cdktf.IResolvable;
   /**
   * If true list pages display checkbox toggles for the include options, Otherwise the configured settings are applied but can not be changed by the user. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#show_include_toggles DataK8SKialiIoKialiV1Alpha1Manifest#show_include_toggles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#show_include_toggles DataK8SKialiIoKialiV1Alpha1Manifest#show_include_toggles}
   */
   readonly showIncludeToggles?: boolean | cdktf.IResolvable;
 }
@@ -12844,11 +12844,11 @@ export class DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsL
 }
 export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsMetricsInboundAggregations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#display_name DataK8SKialiIoKialiV1Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#display_name DataK8SKialiIoKialiV1Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#label DataK8SKialiIoKialiV1Alpha1Manifest#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#label DataK8SKialiIoKialiV1Alpha1Manifest#label}
   */
   readonly label?: string;
 }
@@ -12993,7 +12993,7 @@ export class DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsM
 }
 export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsMetricsInbound {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#aggregations DataK8SKialiIoKialiV1Alpha1Manifest#aggregations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#aggregations DataK8SKialiIoKialiV1Alpha1Manifest#aggregations}
   */
   readonly aggregations?: DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsMetricsInboundAggregations[] | cdktf.IResolvable;
 }
@@ -13087,11 +13087,11 @@ export class DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsM
 }
 export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsMetricsOutboundAggregations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#display_name DataK8SKialiIoKialiV1Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#display_name DataK8SKialiIoKialiV1Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#label DataK8SKialiIoKialiV1Alpha1Manifest#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#label DataK8SKialiIoKialiV1Alpha1Manifest#label}
   */
   readonly label?: string;
 }
@@ -13236,7 +13236,7 @@ export class DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsM
 }
 export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsMetricsOutbound {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#aggregations DataK8SKialiIoKialiV1Alpha1Manifest#aggregations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#aggregations DataK8SKialiIoKialiV1Alpha1Manifest#aggregations}
   */
   readonly aggregations?: DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsMetricsOutboundAggregations[] | cdktf.IResolvable;
 }
@@ -13332,49 +13332,49 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefau
   /**
   * Default settings for the Graph UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#graph DataK8SKialiIoKialiV1Alpha1Manifest#graph}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#graph DataK8SKialiIoKialiV1Alpha1Manifest#graph}
   */
   readonly graph?: DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsGraph;
   /**
   * Default settings for the i18n values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#i18n DataK8SKialiIoKialiV1Alpha1Manifest#i18n}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#i18n DataK8SKialiIoKialiV1Alpha1Manifest#i18n}
   */
   readonly i18N?: DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsI18N;
   /**
   * Default settings for the List views (Apps, Workloads, etc).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#list DataK8SKialiIoKialiV1Alpha1Manifest#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#list DataK8SKialiIoKialiV1Alpha1Manifest#list}
   */
   readonly list?: DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsListStruct;
   /**
   * Additional label aggregation for inbound metric pages in detail pages. You will see these configurations in the 'Metric Settings' drop-down. An example, ``` metrics_inbound: aggregations: - display_name: Istio Network label: topology_istio_io_network - display_name: Istio Revision label: istio_io_rev ``` 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#metrics_inbound DataK8SKialiIoKialiV1Alpha1Manifest#metrics_inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#metrics_inbound DataK8SKialiIoKialiV1Alpha1Manifest#metrics_inbound}
   */
   readonly metricsInbound?: DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsMetricsInbound;
   /**
   * Additional label aggregation for outbound metric pages in detail pages. You will see these configurations in the 'Metric Settings' drop-down. An example, ``` metrics_outbound: aggregations: - display_name: Istio Network label: topology_istio_io_network - display_name: Istio Revision label: istio_io_rev ``` 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#metrics_outbound DataK8SKialiIoKialiV1Alpha1Manifest#metrics_outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#metrics_outbound DataK8SKialiIoKialiV1Alpha1Manifest#metrics_outbound}
   */
   readonly metricsOutbound?: DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaultsMetricsOutbound;
   /**
   * Duration of metrics to fetch on each refresh. Value must be one of: '1m', '2m', '5m', '10m', '30m', '1h', '3h', '6h', '12h', '1d', '7d', or '30d'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#metrics_per_refresh DataK8SKialiIoKialiV1Alpha1Manifest#metrics_per_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#metrics_per_refresh DataK8SKialiIoKialiV1Alpha1Manifest#metrics_per_refresh}
   */
   readonly metricsPerRefresh?: string;
   /**
   * Default selections for the namespace selection dropdown. Non-existent or inaccessible namespaces will be ignored. Omit or set to an empty array for no default namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespaces DataK8SKialiIoKialiV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#namespaces DataK8SKialiIoKialiV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * The automatic refresh interval for pages offering automatic refresh. Value must be one of: 'pause', '10s', '15s', '30s', '1m', '5m' or '15m'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#refresh_interval DataK8SKialiIoKialiV1Alpha1Manifest#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#refresh_interval DataK8SKialiIoKialiV1Alpha1Manifest#refresh_interval}
   */
   readonly refreshInterval?: string;
 }
@@ -13673,13 +13673,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsValidat
   /**
   * A list of one or more validation codes whose errors are to be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ignore DataK8SKialiIoKialiV1Alpha1Manifest#ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ignore DataK8SKialiIoKialiV1Alpha1Manifest#ignore}
   */
   readonly ignore?: string[];
   /**
   * The KIA0301 validation checks duplicity of host and port combinations across all Istio Gateways. This includes also Gateways with '*' in hosts. But Istio considers such a Gateway with a wildcard in hosts as the last in order, after the Gateways with FQDN in hosts. This option is to skip Gateways with wildcards in hosts from the KIA0301 validations but still keep Gateways with FQDN hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#skip_wildcard_gateway_hosts DataK8SKialiIoKialiV1Alpha1Manifest#skip_wildcard_gateway_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#skip_wildcard_gateway_hosts DataK8SKialiIoKialiV1Alpha1Manifest#skip_wildcard_gateway_hosts}
   */
   readonly skipWildcardGatewayHosts?: boolean | cdktf.IResolvable;
 }
@@ -13804,37 +13804,37 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlags {
   /**
   * There may be some features that admins do not want to be accessible to users (even in 'view only' mode). In this case, this setting allows you to disable one or more of those features entirely.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#disabled_features DataK8SKialiIoKialiV1Alpha1Manifest#disabled_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#disabled_features DataK8SKialiIoKialiV1Alpha1Manifest#disabled_features}
   */
   readonly disabledFeatures?: string[];
   /**
   * Flag to enable/disable an Action to edit annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_annotation_action DataK8SKialiIoKialiV1Alpha1Manifest#istio_annotation_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_annotation_action DataK8SKialiIoKialiV1Alpha1Manifest#istio_annotation_action}
   */
   readonly istioAnnotationAction?: boolean | cdktf.IResolvable;
   /**
   * Flag to enable/disable an Action to label a namespace for automatic Istio Sidecar injection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_injection_action DataK8SKialiIoKialiV1Alpha1Manifest#istio_injection_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_injection_action DataK8SKialiIoKialiV1Alpha1Manifest#istio_injection_action}
   */
   readonly istioInjectionAction?: boolean | cdktf.IResolvable;
   /**
   * Flag to activate the Kiali functionality of upgrading namespaces to point to an installed Istio Canary revision. Related Canary upgrade and current revisions of Istio should be defined in 'istio_canary_revision' section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_upgrade_action DataK8SKialiIoKialiV1Alpha1Manifest#istio_upgrade_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_upgrade_action DataK8SKialiIoKialiV1Alpha1Manifest#istio_upgrade_action}
   */
   readonly istioUpgradeAction?: boolean | cdktf.IResolvable;
   /**
   * Default settings for the UI. These defaults apply to all users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ui_defaults DataK8SKialiIoKialiV1Alpha1Manifest#ui_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ui_defaults DataK8SKialiIoKialiV1Alpha1Manifest#ui_defaults}
   */
   readonly uiDefaults?: DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsUiDefaults;
   /**
   * Features specific to the validations subsystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#validations DataK8SKialiIoKialiV1Alpha1Manifest#validations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#validations DataK8SKialiIoKialiV1Alpha1Manifest#validations}
   */
   readonly validations?: DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlagsValidations;
 }
@@ -14075,37 +14075,37 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecKubernetesConfig {
   /**
   * The Burst value of the Kubernetes client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#burst DataK8SKialiIoKialiV1Alpha1Manifest#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#burst DataK8SKialiIoKialiV1Alpha1Manifest#burst}
   */
   readonly burst?: number;
   /**
   * The ratio interval (expressed in seconds) used for the cache to perform a full refresh. Only used when 'cache_enabled' is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cache_duration DataK8SKialiIoKialiV1Alpha1Manifest#cache_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cache_duration DataK8SKialiIoKialiV1Alpha1Manifest#cache_duration}
   */
   readonly cacheDuration?: number;
   /**
   * This Kiali cache is a list of namespaces per user. This is typically a short-lived cache compared with the duration of the namespace cache defined by the 'cache_duration' setting. This is specified in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cache_token_namespace_duration DataK8SKialiIoKialiV1Alpha1Manifest#cache_token_namespace_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cache_token_namespace_duration DataK8SKialiIoKialiV1Alpha1Manifest#cache_token_namespace_duration}
   */
   readonly cacheTokenNamespaceDuration?: number;
   /**
   * The name of the cluster Kiali is deployed in. This is only used in multi cluster environments. If not set, Kiali will try to auto detect the cluster name from the Istiod deployment or use the default 'Kubernetes'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cluster_name DataK8SKialiIoKialiV1Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cluster_name DataK8SKialiIoKialiV1Alpha1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * List of controllers that won't be used for Workload calculation. Kiali queries Deployment, ReplicaSet, ReplicationController, DeploymentConfig, StatefulSet, Job and CronJob controllers. Deployment and ReplicaSet will be always queried, but ReplicationController, DeploymentConfig, StatefulSet, Job and CronJobs can be skipped from Kiali workloads queries if they are present in this list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#excluded_workloads DataK8SKialiIoKialiV1Alpha1Manifest#excluded_workloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#excluded_workloads DataK8SKialiIoKialiV1Alpha1Manifest#excluded_workloads}
   */
   readonly excludedWorkloads?: string[];
   /**
   * The QPS value of the Kubernetes client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#qps DataK8SKialiIoKialiV1Alpha1Manifest#qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#qps DataK8SKialiIoKialiV1Alpha1Manifest#qps}
   */
   readonly qps?: number;
 }
@@ -14346,13 +14346,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecLoginToken {
   /**
   * A user's login token expiration specified in seconds. This is applicable to token and header auth strategies only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#expiration_seconds DataK8SKialiIoKialiV1Alpha1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#expiration_seconds DataK8SKialiIoKialiV1Alpha1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * The signing key used to generate tokens for user authentication. Because this is potentially sensitive, you have the option to store this value in a secret. If you store this signing key value in a secret, you must indicate what key in what secret by setting this value to a string in the form of 'secret:<secretName>:<secretKey>'. If left as an empty string, a secret with a random signing key will be generated for you. The signing key must be 16, 24 or 32 byte long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#signing_key DataK8SKialiIoKialiV1Alpha1Manifest#signing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#signing_key DataK8SKialiIoKialiV1Alpha1Manifest#signing_key}
   */
   readonly signingKey?: string;
 }
@@ -14477,13 +14477,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecServerObservabilityMetri
   /**
   * When true, the metrics endpoint will be available for Prometheus to scrape.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The port that the server will bind to in order to receive metric requests. This is the port Prometheus will need to scrape when collecting metrics from Kiali.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#port DataK8SKialiIoKialiV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#port DataK8SKialiIoKialiV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -14608,25 +14608,25 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecServerObservabilityTraci
   /**
   * The name of the CA cert; this is used when 'tls_enabled' is 'true' and 'skip_verify' is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ca_name DataK8SKialiIoKialiV1Alpha1Manifest#ca_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#ca_name DataK8SKialiIoKialiV1Alpha1Manifest#ca_name}
   */
   readonly caName?: string;
   /**
   * Protocol. Supported values are: 'http', 'https' or 'grpc'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#protocol DataK8SKialiIoKialiV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#protocol DataK8SKialiIoKialiV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * If true, TLS certificate verification will not be performed. This is an unsecure option and is recommended only for testing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#skip_verify DataK8SKialiIoKialiV1Alpha1Manifest#skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#skip_verify DataK8SKialiIoKialiV1Alpha1Manifest#skip_verify}
   */
   readonly skipVerify?: boolean | cdktf.IResolvable;
   /**
   * Enable TLS for the collector. This must be specified when 'protocol' is 'https' or 'grpc'. When you set this to 'true', you must also set a 'ca_name' or set 'skip_verify' to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#tls_enabled DataK8SKialiIoKialiV1Alpha1Manifest#tls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#tls_enabled DataK8SKialiIoKialiV1Alpha1Manifest#tls_enabled}
   */
   readonly tlsEnabled?: boolean | cdktf.IResolvable;
 }
@@ -14809,25 +14809,25 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecServerObservabilityTraci
   /**
   * The collector type to use. Value must be one of: 'jaeger' or 'otel'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#collector_type DataK8SKialiIoKialiV1Alpha1Manifest#collector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#collector_type DataK8SKialiIoKialiV1Alpha1Manifest#collector_type}
   */
   readonly collectorType?: string;
   /**
   * The URL used to determine where the Kiali server tracing data will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#collector_url DataK8SKialiIoKialiV1Alpha1Manifest#collector_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#collector_url DataK8SKialiIoKialiV1Alpha1Manifest#collector_url}
   */
   readonly collectorUrl?: string;
   /**
   * When true, the Kiali server itself will product its own tracing data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specific properties when the collector type is 'otel'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#otel DataK8SKialiIoKialiV1Alpha1Manifest#otel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#otel DataK8SKialiIoKialiV1Alpha1Manifest#otel}
   */
   readonly otel?: DataK8SKialiIoKialiV1Alpha1ManifestSpecServerObservabilityTracingOtel;
 }
@@ -15010,13 +15010,13 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecServerObservability {
   /**
   * Settings that control how Kiali itself emits its own metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#metrics DataK8SKialiIoKialiV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#metrics DataK8SKialiIoKialiV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SKialiIoKialiV1Alpha1ManifestSpecServerObservabilityMetrics;
   /**
   * Settings that control how the Kiali server itself emits its own tracing data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#tracing DataK8SKialiIoKialiV1Alpha1Manifest#tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#tracing DataK8SKialiIoKialiV1Alpha1Manifest#tracing}
   */
   readonly tracing?: DataK8SKialiIoKialiV1Alpha1ManifestSpecServerObservabilityTracing;
 }
@@ -15141,7 +15141,7 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecServerProfiler {
   /**
   * When 'true', the profiler will be enabled and accessible at /debug/pprof/ on the Kiali endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#enabled DataK8SKialiIoKialiV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -15237,85 +15237,85 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpecServer {
   /**
   * Where the Kiali server is bound. The console and API server are accessible on this host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#address DataK8SKialiIoKialiV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#address DataK8SKialiIoKialiV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
   * When true, allows additional audit logging on write operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#audit_log DataK8SKialiIoKialiV1Alpha1Manifest#audit_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#audit_log DataK8SKialiIoKialiV1Alpha1Manifest#audit_log}
   */
   readonly auditLog?: boolean | cdktf.IResolvable;
   /**
   * When true, allows the web console to send requests to other domains other than where the console came from. Typically used for development environments only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cors_allow_all DataK8SKialiIoKialiV1Alpha1Manifest#cors_allow_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#cors_allow_all DataK8SKialiIoKialiV1Alpha1Manifest#cors_allow_all}
   */
   readonly corsAllowAll?: boolean | cdktf.IResolvable;
   /**
   * When true, Kiali serves http requests with gzip enabled (if the browser supports it) when the requests are over 1400 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#gzip_enabled DataK8SKialiIoKialiV1Alpha1Manifest#gzip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#gzip_enabled DataK8SKialiIoKialiV1Alpha1Manifest#gzip_enabled}
   */
   readonly gzipEnabled?: boolean | cdktf.IResolvable;
   /**
   * If 'deployment.service_type' is 'NodePort' and this value is set, then this is the node port that the Kiali service will listen to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#node_port DataK8SKialiIoKialiV1Alpha1Manifest#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#node_port DataK8SKialiIoKialiV1Alpha1Manifest#node_port}
   */
   readonly nodePort?: number;
   /**
   * Settings to enable observability into the Kiali server itself.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#observability DataK8SKialiIoKialiV1Alpha1Manifest#observability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#observability DataK8SKialiIoKialiV1Alpha1Manifest#observability}
   */
   readonly observability?: DataK8SKialiIoKialiV1Alpha1ManifestSpecServerObservability;
   /**
   * The port that the server will bind to in order to receive console and API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#port DataK8SKialiIoKialiV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#port DataK8SKialiIoKialiV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Controls the internal profiler used to debug the internals of Kiali
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#profiler DataK8SKialiIoKialiV1Alpha1Manifest#profiler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#profiler DataK8SKialiIoKialiV1Alpha1Manifest#profiler}
   */
   readonly profiler?: DataK8SKialiIoKialiV1Alpha1ManifestSpecServerProfiler;
   /**
   * Defines the public domain where Kiali is being served. This is the 'domain' part of the URL (usually it's a fully-qualified domain name). For example, 'kiali.example.org'. When empty, Kiali will try to guess this value from HTTP headers. On non-OpenShift clusters, you must populate this value if you want to enable cross-linking between Kiali instances in a multi-cluster setup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#web_fqdn DataK8SKialiIoKialiV1Alpha1Manifest#web_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#web_fqdn DataK8SKialiIoKialiV1Alpha1Manifest#web_fqdn}
   */
   readonly webFqdn?: string;
   /**
   * Define the history mode of kiali UI. Value must be one of: 'browser' or 'hash'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#web_history_mode DataK8SKialiIoKialiV1Alpha1Manifest#web_history_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#web_history_mode DataK8SKialiIoKialiV1Alpha1Manifest#web_history_mode}
   */
   readonly webHistoryMode?: string;
   /**
   * Defines the ingress port where the connections come from. This is usually necessary when the application responds through a proxy/ingress, and it does not forward the correct headers (when this happens, Kiali cannot guess the port). When empty, Kiali will try to guess this value from HTTP headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#web_port DataK8SKialiIoKialiV1Alpha1Manifest#web_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#web_port DataK8SKialiIoKialiV1Alpha1Manifest#web_port}
   */
   readonly webPort?: string;
   /**
   * Defines the context root path for the Kiali console and API endpoints and readiness probes. When providing a context root path that is not '/', do not add a trailing slash (i.e. use '/kiali' not '/kiali/'). When empty, this will default to '/' on OpenShift and '/kiali' on other Kubernetes environments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#web_root DataK8SKialiIoKialiV1Alpha1Manifest#web_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#web_root DataK8SKialiIoKialiV1Alpha1Manifest#web_root}
   */
   readonly webRoot?: string;
   /**
   * Defines the public HTTP schema used to serve Kiali. Value must be one of: 'http' or 'https'. When empty, Kiali will try to guess this value from HTTP headers. On non-OpenShift clusters, you must populate this value if you want to enable cross-linking between Kiali instances in a multi-cluster setup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#web_schema DataK8SKialiIoKialiV1Alpha1Manifest#web_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#web_schema DataK8SKialiIoKialiV1Alpha1Manifest#web_schema}
   */
   readonly webSchema?: string;
   /**
   * The maximum duration, in seconds, before timing out writes of the HTTP response back to the client. Default is 30. In OpenShift clusters, the route request time out should be also increased as the default is 30 seconds. This can be done by annotating the specific route with 'haproxy.router.openshift.io/timeout'. See https://docs.openshift.com/container-platform/4.16/networking/routes/route-configuration.html#nw-configuring-route-timeouts_route-configuration for further details. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#write_timeout DataK8SKialiIoKialiV1Alpha1Manifest#write_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#write_timeout DataK8SKialiIoKialiV1Alpha1Manifest#write_timeout}
   */
   readonly writeTimeout?: number;
 }
@@ -15788,97 +15788,97 @@ export interface DataK8SKialiIoKialiV1Alpha1ManifestSpec {
   /**
   * A list of additional details that Kiali will look for in annotations. When found on any workload or service, Kiali will display the additional details in the respective workload or service details page. This is typically used to inject some CI metadata or documentation links into Kiali views. For example, by default, Kiali will recognize these annotations on a service or workload (e.g. a Deployment, StatefulSet, etc.): ``` annotations: kiali.io/api-spec: http://list/to/my/api/doc kiali.io/api-type: rest ``` Note that if you change this setting for your own custom annotations, keep in mind that it would override the current default. So you would have to add the default setting as shown in the example CR if you want to preserve the default links. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#additional_display_details DataK8SKialiIoKialiV1Alpha1Manifest#additional_display_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#additional_display_details DataK8SKialiIoKialiV1Alpha1Manifest#additional_display_details}
   */
   readonly additionalDisplayDetails?: DataK8SKialiIoKialiV1Alpha1ManifestSpecAdditionalDisplayDetails[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#auth DataK8SKialiIoKialiV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#auth DataK8SKialiIoKialiV1Alpha1Manifest#auth}
   */
   readonly auth?: DataK8SKialiIoKialiV1Alpha1ManifestSpecAuth;
   /**
   * Multi-cluster related features.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#clustering DataK8SKialiIoKialiV1Alpha1Manifest#clustering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#clustering DataK8SKialiIoKialiV1Alpha1Manifest#clustering}
   */
   readonly clustering?: DataK8SKialiIoKialiV1Alpha1ManifestSpecClustering;
   /**
   * A list of user-defined custom monitoring dashboards that you can use to generate metrics charts for your applications. The server has some built-in dashboards; if you define a custom dashboard here with the same name as a built-in dashboard, your custom dashboard takes precedence and will overwrite the built-in dashboard. You can disable one or more of the built-in dashboards by simply defining an empty dashboard. An example of an additional user-defined dashboard, ``` - name: myapp title: My App Metrics items: - chart: name: 'Thread Count' spans: 4 metricName: 'thread-count' dataType: 'raw' ``` An example of disabling a built-in dashboard (in this case, disabling the Envoy dashboard), ``` - name: envoy ``` To learn more about custom monitoring dashboards, see the documentation at https://kiali.io/docs/configuration/custom-dashboard/ 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#custom_dashboards DataK8SKialiIoKialiV1Alpha1Manifest#custom_dashboards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#custom_dashboards DataK8SKialiIoKialiV1Alpha1Manifest#custom_dashboards}
   */
   readonly customDashboards?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#deployment DataK8SKialiIoKialiV1Alpha1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#deployment DataK8SKialiIoKialiV1Alpha1Manifest#deployment}
   */
   readonly deployment?: DataK8SKialiIoKialiV1Alpha1ManifestSpecDeployment;
   /**
   * Defines third-party extensions whose metrics can be integrated into the Kiali traffic graph. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#extensions DataK8SKialiIoKialiV1Alpha1Manifest#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#extensions DataK8SKialiIoKialiV1Alpha1Manifest#extensions}
   */
   readonly extensions?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExtensions[] | cdktf.IResolvable;
   /**
   * These external service configuration settings define how to connect to the external services like Prometheus, Grafana, and Jaeger. Regarding sensitive values in the external_services 'auth' sections: Some external services configured below support an 'auth' sub-section in order to tell Kiali how it should authenticate with the external services. Credentials used to authenticate Kiali to those external services can be defined in the 'auth.password' and 'auth.token' values within the 'auth' sub-section. Because these are sensitive values, you may not want to declare the actual credentials here in the Kiali CR. In this case, you may store the actual password or token string in a Kubernetes secret. If you do, you need to set the 'auth.password' or 'auth.token' to a value in the format 'secret:<secretName>:<secretKey>' where '<secretName>' is the name of the secret object that Kiali can access, and '<secretKey>' is the name of the key within the named secret that contains the actual password or token string. For example, if Grafana requires a password, you can store that password in a secret named 'myGrafanaCredentials' in a key named 'myGrafanaPw'. In this case, you would set 'external_services.grafana.auth.password' to 'secret:myGrafanaCredentials:myGrafanaPw'. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#external_services DataK8SKialiIoKialiV1Alpha1Manifest#external_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#external_services DataK8SKialiIoKialiV1Alpha1Manifest#external_services}
   */
   readonly externalServices?: DataK8SKialiIoKialiV1Alpha1ManifestSpecExternalServices;
   /**
   * This section defines what it means for nodes to be healthy. For more details, see https://kiali.io/docs/configuration/health/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#health_config DataK8SKialiIoKialiV1Alpha1Manifest#health_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#health_config DataK8SKialiIoKialiV1Alpha1Manifest#health_config}
   */
   readonly healthConfig?: DataK8SKialiIoKialiV1Alpha1ManifestSpecHealthConfig;
   /**
   * Settings that define the Kiali server identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#identity DataK8SKialiIoKialiV1Alpha1Manifest#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#identity DataK8SKialiIoKialiV1Alpha1Manifest#identity}
   */
   readonly identity?: DataK8SKialiIoKialiV1Alpha1ManifestSpecIdentity;
   /**
   * Tag used to identify a particular instance/installation of the Kiali server. This is merely a human-readable string that will be used within Kiali to help a user identify the Kiali being used (e.g. in the Kiali UI title bar). See 'deployment.instance_name' for the setting used to customize Kiali resource names that are created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#installation_tag DataK8SKialiIoKialiV1Alpha1Manifest#installation_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#installation_tag DataK8SKialiIoKialiV1Alpha1Manifest#installation_tag}
   */
   readonly installationTag?: string;
   /**
   * Defines specific labels used by Istio that Kiali needs to know about.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_labels DataK8SKialiIoKialiV1Alpha1Manifest#istio_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_labels DataK8SKialiIoKialiV1Alpha1Manifest#istio_labels}
   */
   readonly istioLabels?: DataK8SKialiIoKialiV1Alpha1ManifestSpecIstioLabels;
   /**
   * The namespace where Istio is installed. If left empty, it is assumed to be the same namespace as where Kiali is installed (i.e. 'deployment.namespace').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_namespace DataK8SKialiIoKialiV1Alpha1Manifest#istio_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#istio_namespace DataK8SKialiIoKialiV1Alpha1Manifest#istio_namespace}
   */
   readonly istioNamespace?: string;
   /**
   * Kiali features that can be enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#kiali_feature_flags DataK8SKialiIoKialiV1Alpha1Manifest#kiali_feature_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#kiali_feature_flags DataK8SKialiIoKialiV1Alpha1Manifest#kiali_feature_flags}
   */
   readonly kialiFeatureFlags?: DataK8SKialiIoKialiV1Alpha1ManifestSpecKialiFeatureFlags;
   /**
   * Configuration of Kiali's access of the Kubernetes API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#kubernetes_config DataK8SKialiIoKialiV1Alpha1Manifest#kubernetes_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#kubernetes_config DataK8SKialiIoKialiV1Alpha1Manifest#kubernetes_config}
   */
   readonly kubernetesConfig?: DataK8SKialiIoKialiV1Alpha1ManifestSpecKubernetesConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#login_token DataK8SKialiIoKialiV1Alpha1Manifest#login_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#login_token DataK8SKialiIoKialiV1Alpha1Manifest#login_token}
   */
   readonly loginToken?: DataK8SKialiIoKialiV1Alpha1ManifestSpecLoginToken;
   /**
   * Configuration that controls some core components within the Kiali Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#server DataK8SKialiIoKialiV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#server DataK8SKialiIoKialiV1Alpha1Manifest#server}
   */
   readonly server?: DataK8SKialiIoKialiV1Alpha1ManifestSpecServer;
   /**
   * The version of the Ansible role that will be executed in order to install Kiali. This also indirectly determines the version of Kiali that will be installed. You normally will want to use 'default' since this is the only officially supported value today. If not specified, the value of 'default' is assumed which means the most recent Ansible role is used; thus the most recent release of Kiali will be installed. Refer to this file to see what the valid values are for this 'version' field (as defined in the master branch), https://github.com/kiali/kiali-operator/blob/master/playbooks/kiali-default-supported-images.yml This 'version' setting affects the defaults of the 'deployment.image_name' and 'deployment.image_version' settings. See the documentation for those settings below for additional details. In short, this 'version' setting will dictate which version of the Kiali image will be deployed by default. However, if you explicitly set 'deployment.image_name' and/or 'deployment.image_version' to reference your own custom image, that will override the default Kiali image to be installed; therefore, you are responsible for ensuring those settings are compatible with the Ansible role that will be executed in order to install Kiali (i.e. your custom Kiali image must be compatible with the rest of the configuration and resources the operator will install). 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#version DataK8SKialiIoKialiV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#version DataK8SKialiIoKialiV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -16436,7 +16436,7 @@ export class DataK8SKialiIoKialiV1Alpha1ManifestSpecOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest k8s_kiali_io_kiali_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest k8s_kiali_io_kiali_v1alpha1_manifest}
 */
 export class DataK8SKialiIoKialiV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -16452,7 +16452,7 @@ export class DataK8SKialiIoKialiV1Alpha1Manifest extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataK8SKialiIoKialiV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKialiIoKialiV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKialiIoKialiV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKialiIoKialiV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKialiIoKialiV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -16464,7 +16464,7 @@ export class DataK8SKialiIoKialiV1Alpha1Manifest extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kiali_io_kiali_v1alpha1_manifest k8s_kiali_io_kiali_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kiali_io_kiali_v1alpha1_manifest k8s_kiali_io_kiali_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -16475,8 +16475,8 @@ export class DataK8SKialiIoKialiV1Alpha1Manifest extends cdktf.TerraformDataSour
       terraformResourceType: 'k8s_kiali_io_kiali_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/resources/tests_lambda
+// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests_lambda
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface TestsLambdaConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ARN of the IAM role to use for the Lambda function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/resources/tests_lambda#execution_role TestsLambda#execution_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests_lambda#execution_role TestsLambda#execution_role}
   */
   readonly executionRole: string;
   /**
   * The image ref to deploy and test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/resources/tests_lambda#image_ref TestsLambda#image_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests_lambda#image_ref TestsLambda#image_ref}
   */
   readonly imageRef: string;
   /**
   * The AWS region to deploy the test in. If not provided, the default region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/resources/tests_lambda#region TestsLambda#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests_lambda#region TestsLambda#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/resources/tests_lambda imagetest_tests_lambda}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests_lambda imagetest_tests_lambda}
 */
 export class TestsLambda extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class TestsLambda extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TestsLambda resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TestsLambda to import
-  * @param importFromId The id of the existing TestsLambda that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/resources/tests_lambda#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TestsLambda that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests_lambda#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TestsLambda to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class TestsLambda extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.103/docs/resources/tests_lambda imagetest_tests_lambda} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.104/docs/resources/tests_lambda imagetest_tests_lambda} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class TestsLambda extends cdktf.TerraformResource {
       terraformResourceType: 'imagetest_tests_lambda',
       terraformGeneratorMetadata: {
         providerName: 'imagetest',
-        providerVersion: '0.0.103',
-        providerVersionConstraint: '0.0.103'
+        providerVersion: '0.0.104',
+        providerVersionConstraint: '0.0.104'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

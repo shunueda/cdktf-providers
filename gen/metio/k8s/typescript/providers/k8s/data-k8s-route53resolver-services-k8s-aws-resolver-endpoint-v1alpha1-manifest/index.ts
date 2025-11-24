@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Man
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#metadata DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#metadata DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1ManifestMetadata;
   /**
   * ResolverEndpointSpec defines the desired state of ResolverEndpoint. In the response to a CreateResolverEndpoint (https://docs.aws.amazon.com/Route53/latest/APIReference/API_route53resolver_CreateResolverEndpoint.html), DeleteResolverEndpoint (https://docs.aws.amazon.com/Route53/latest/APIReference/API_route53resolver_DeleteResolverEndpoint.html), GetResolverEndpoint (https://docs.aws.amazon.com/Route53/latest/APIReference/API_route53resolver_GetResolverEndpoint.html), Updates the name, or ResolverEndpointType for an endpoint, or UpdateResolverEndpoint (https://docs.aws.amazon.com/Route53/latest/APIReference/API_route53resolver_UpdateResolverEndpoint.html) request, a complex type that contains settings for an existing inbound or outbound Resolver endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#spec DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#spec DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Man
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#annotations DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#annotations DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#labels DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#labels DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#name DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#name DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#namespace DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#namespace DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifes
 }
 export interface DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1ManifestSpecIpAddressesSubnetRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#name DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#name DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#namespace DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#namespace DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -346,7 +346,7 @@ export interface DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Man
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#from DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#from DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1ManifestSpecIpAddressesSubnetRefFrom;
 }
@@ -440,21 +440,21 @@ export class DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifes
 }
 export interface DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1ManifestSpecIpAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#ip DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#ip DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#ipv6 DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#ipv6 DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#subnet_id DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#subnet_id DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Reference field for SubnetID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#subnet_ref DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#subnet_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#subnet_ref DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#subnet_ref}
   */
   readonly subnetRef?: DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1ManifestSpecIpAddressesSubnetRef;
 }
@@ -657,11 +657,11 @@ export class DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifes
 }
 export interface DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1ManifestSpecSecurityGroupRefsFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#name DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#name DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#namespace DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#namespace DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -786,7 +786,7 @@ export interface DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Man
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#from DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#from DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1ManifestSpecSecurityGroupRefsFrom;
 }
@@ -902,11 +902,11 @@ export class DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifes
 }
 export interface DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#key DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#key DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#value DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#value DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1053,41 +1053,41 @@ export interface DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Man
   /**
   * Specify the applicable value: * INBOUND: Resolver forwards DNS queries to the DNS service for a VPC from your network * OUTBOUND: Resolver forwards DNS queries from the DNS service for a VPC to your network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#direction DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#direction DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#direction}
   */
   readonly direction: string;
   /**
   * The subnets and IP addresses in your VPC that DNS queries originate from (for outbound endpoints) or that you forward DNS queries to (for inbound endpoints). The subnet ID uniquely identifies a VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#ip_addresses DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#ip_addresses DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#ip_addresses}
   */
   readonly ipAddresses: DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1ManifestSpecIpAddresses[] | cdktf.IResolvable;
   /**
   * A friendly name that lets you easily find a configuration in the Resolver dashboard in the Route 53 console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#name DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#name DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * For the endpoint type you can choose either IPv4, IPv6. or dual-stack. A dual-stack endpoint means that it will resolve via both IPv4 and IPv6. This endpoint type is applied to all IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#resolver_endpoint_type DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#resolver_endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#resolver_endpoint_type DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#resolver_endpoint_type}
   */
   readonly resolverEndpointType?: string;
   /**
   * The ID of one or more security groups that you want to use to control access to this VPC. The security group that you specify must include one or more inbound rules (for inbound Resolver endpoints) or outbound rules (for outbound Resolver endpoints). Inbound and outbound rules must allow TCP and UDP access. For inbound access, open port 53. For outbound access, open the port that you're using for DNS queries on your network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#security_group_i_ds DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#security_group_i_ds DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#security_group_i_ds}
   */
   readonly securityGroupIDs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#security_group_refs DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#security_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#security_group_refs DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#security_group_refs}
   */
   readonly securityGroupRefs?: DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1ManifestSpecSecurityGroupRefs[] | cdktf.IResolvable;
   /**
   * A list of the tag keys and values that you want to associate with the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#tags DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#tags DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
 }
@@ -1349,7 +1349,7 @@ export class DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifes
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest k8s_route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest k8s_route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest}
 */
 export class DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1365,7 +1365,7 @@ export class DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifes
   * Generates CDKTF code for importing a DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1377,7 +1377,7 @@ export class DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest k8s_route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest k8s_route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1388,8 +1388,8 @@ export class DataK8SRoute53ResolverServicesK8SAwsResolverEndpointV1Alpha1Manifes
       terraformResourceType: 'k8s_route53resolver_services_k8s_aws_resolver_endpoint_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

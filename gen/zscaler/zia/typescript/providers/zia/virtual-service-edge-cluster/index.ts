@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/virtual_service_edge_cluster
+// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/virtual_service_edge_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface VirtualServiceEdgeClusterConfig extends cdktf.TerraformMetaArgu
   /**
   * The IP address of the default gateway to the internet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/virtual_service_edge_cluster#default_gateway VirtualServiceEdgeCluster#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/virtual_service_edge_cluster#default_gateway VirtualServiceEdgeCluster#default_gateway}
   */
   readonly defaultGateway?: string;
   /**
   * The Virtual Service Edge cluster IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/virtual_service_edge_cluster#ip_address VirtualServiceEdgeCluster#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/virtual_service_edge_cluster#ip_address VirtualServiceEdgeCluster#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * A Boolean value that specifies whether to terminate IPSec traffic from the client at selected Virtual Service Edge instances for the Virtual Service Edge cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/virtual_service_edge_cluster#ip_sec_enabled VirtualServiceEdgeCluster#ip_sec_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/virtual_service_edge_cluster#ip_sec_enabled VirtualServiceEdgeCluster#ip_sec_enabled}
   */
   readonly ipSecEnabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the Virtual Service Edge cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/virtual_service_edge_cluster#name VirtualServiceEdgeCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/virtual_service_edge_cluster#name VirtualServiceEdgeCluster#name}
   */
   readonly name?: string;
   /**
   * Specifies the status of the Virtual Service Edge cluster. The status is set to ENABLED by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/virtual_service_edge_cluster#status VirtualServiceEdgeCluster#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/virtual_service_edge_cluster#status VirtualServiceEdgeCluster#status}
   */
   readonly status?: string;
   /**
   * The Virtual Service Edge cluster subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/virtual_service_edge_cluster#subnet_mask VirtualServiceEdgeCluster#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/virtual_service_edge_cluster#subnet_mask VirtualServiceEdgeCluster#subnet_mask}
   */
   readonly subnetMask?: string;
   /**
   * The Virtual Service Edge cluster subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/virtual_service_edge_cluster#type VirtualServiceEdgeCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/virtual_service_edge_cluster#type VirtualServiceEdgeCluster#type}
   */
   readonly type?: string;
   /**
   * virtual_zen_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/virtual_service_edge_cluster#virtual_zen_nodes VirtualServiceEdgeCluster#virtual_zen_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/virtual_service_edge_cluster#virtual_zen_nodes VirtualServiceEdgeCluster#virtual_zen_nodes}
   */
   readonly virtualZenNodes?: VirtualServiceEdgeClusterVirtualZenNodes;
 }
 export interface VirtualServiceEdgeClusterVirtualZenNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/virtual_service_edge_cluster#id VirtualServiceEdgeCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/virtual_service_edge_cluster#id VirtualServiceEdgeCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -142,7 +142,7 @@ export class VirtualServiceEdgeClusterVirtualZenNodesOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/virtual_service_edge_cluster zia_virtual_service_edge_cluster}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/virtual_service_edge_cluster zia_virtual_service_edge_cluster}
 */
 export class VirtualServiceEdgeCluster extends cdktf.TerraformResource {
 
@@ -158,7 +158,7 @@ export class VirtualServiceEdgeCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualServiceEdgeCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualServiceEdgeCluster to import
-  * @param importFromId The id of the existing VirtualServiceEdgeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/virtual_service_edge_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualServiceEdgeCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/virtual_service_edge_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualServiceEdgeCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -170,7 +170,7 @@ export class VirtualServiceEdgeCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/virtual_service_edge_cluster zia_virtual_service_edge_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/virtual_service_edge_cluster zia_virtual_service_edge_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -181,8 +181,8 @@ export class VirtualServiceEdgeCluster extends cdktf.TerraformResource {
       terraformResourceType: 'zia_virtual_service_edge_cluster',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.2',
-        providerVersionConstraint: '4.6.2'
+        providerVersion: '4.6.3',
+        providerVersionConstraint: '4.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

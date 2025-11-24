@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataHarnessAutostoppingRuleVmConfig extends cdktf.TerraformMeta
   /**
   * Id of the cloud connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#cloud_connector_id DataHarnessAutostoppingRuleVm#cloud_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#cloud_connector_id DataHarnessAutostoppingRuleVm#cloud_connector_id}
   */
   readonly cloudConnectorId: string;
   /**
   * Custom URLs used to access the instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#custom_domains DataHarnessAutostoppingRuleVm#custom_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#custom_domains DataHarnessAutostoppingRuleVm#custom_domains}
   */
   readonly customDomains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#id DataHarnessAutostoppingRuleVm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#id DataHarnessAutostoppingRuleVm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface DataHarnessAutostoppingRuleVmConfig extends cdktf.TerraformMeta
   /**
   * Idle time in minutes. This is the time that the AutoStopping rule waits before stopping the idle instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#idle_time_mins DataHarnessAutostoppingRuleVm#idle_time_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#idle_time_mins DataHarnessAutostoppingRuleVm#idle_time_mins}
   */
   readonly idleTimeMins?: number;
   /**
   * Name of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#name DataHarnessAutostoppingRuleVm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#name DataHarnessAutostoppingRuleVm#name}
   */
   readonly name: string;
   /**
   * Boolean that indicates whether the selected instances should be converted to spot vm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#use_spot DataHarnessAutostoppingRuleVm#use_spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#use_spot DataHarnessAutostoppingRuleVm#use_spot}
   */
   readonly useSpot?: boolean | cdktf.IResolvable;
   /**
   * depends block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#depends DataHarnessAutostoppingRuleVm#depends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#depends DataHarnessAutostoppingRuleVm#depends}
   */
   readonly depends?: DataHarnessAutostoppingRuleVmDepends[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#filter DataHarnessAutostoppingRuleVm#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#filter DataHarnessAutostoppingRuleVm#filter}
   */
   readonly filter: DataHarnessAutostoppingRuleVmFilter;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#http DataHarnessAutostoppingRuleVm#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#http DataHarnessAutostoppingRuleVm#http}
   */
   readonly http?: DataHarnessAutostoppingRuleVmHttp[] | cdktf.IResolvable;
   /**
   * tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#tcp DataHarnessAutostoppingRuleVm#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#tcp DataHarnessAutostoppingRuleVm#tcp}
   */
   readonly tcp?: DataHarnessAutostoppingRuleVmTcp[] | cdktf.IResolvable;
 }
@@ -73,13 +73,13 @@ export interface DataHarnessAutostoppingRuleVmDepends {
   /**
   * Number of seconds the rule should wait after warming up the dependent rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#delay_in_sec DataHarnessAutostoppingRuleVm#delay_in_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#delay_in_sec DataHarnessAutostoppingRuleVm#delay_in_sec}
   */
   readonly delayInSec?: number;
   /**
   * Rule id of the dependent rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#rule_id DataHarnessAutostoppingRuleVm#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#rule_id DataHarnessAutostoppingRuleVm#rule_id}
   */
   readonly ruleId: number;
 }
@@ -221,11 +221,11 @@ export class DataHarnessAutostoppingRuleVmDependsList extends cdktf.ComplexList 
 }
 export interface DataHarnessAutostoppingRuleVmFilterTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#key DataHarnessAutostoppingRuleVm#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#key DataHarnessAutostoppingRuleVm#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#value DataHarnessAutostoppingRuleVm#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#value DataHarnessAutostoppingRuleVm#value}
   */
   readonly value: string;
 }
@@ -366,25 +366,25 @@ export interface DataHarnessAutostoppingRuleVmFilter {
   /**
   * Regions of instances that needs to be managed using the AutoStopping rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#regions DataHarnessAutostoppingRuleVm#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#regions DataHarnessAutostoppingRuleVm#regions}
   */
   readonly regions?: string[];
   /**
   * Ids of instances that needs to be managed using the AutoStopping rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#vm_ids DataHarnessAutostoppingRuleVm#vm_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#vm_ids DataHarnessAutostoppingRuleVm#vm_ids}
   */
   readonly vmIds: string[];
   /**
   * Zones of instances that needs to be managed using the AutoStopping rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#zones DataHarnessAutostoppingRuleVm#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#zones DataHarnessAutostoppingRuleVm#zones}
   */
   readonly zones?: string[];
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#tags DataHarnessAutostoppingRuleVm#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#tags DataHarnessAutostoppingRuleVm#tags}
   */
   readonly tags?: DataHarnessAutostoppingRuleVmFilterTags[] | cdktf.IResolvable;
 }
@@ -554,37 +554,37 @@ export interface DataHarnessAutostoppingRuleVmHttpHealth {
   /**
   * API path to use for health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#path DataHarnessAutostoppingRuleVm#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#path DataHarnessAutostoppingRuleVm#path}
   */
   readonly path?: string;
   /**
   * Health check port on the VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#port DataHarnessAutostoppingRuleVm#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#port DataHarnessAutostoppingRuleVm#port}
   */
   readonly port: number;
   /**
   * Protocol can be http or https
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#protocol DataHarnessAutostoppingRuleVm#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#protocol DataHarnessAutostoppingRuleVm#protocol}
   */
   readonly protocol: string;
   /**
   * Lower limit for acceptable status code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#status_code_from DataHarnessAutostoppingRuleVm#status_code_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#status_code_from DataHarnessAutostoppingRuleVm#status_code_from}
   */
   readonly statusCodeFrom?: number;
   /**
   * Upper limit for acceptable status code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#status_code_to DataHarnessAutostoppingRuleVm#status_code_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#status_code_to DataHarnessAutostoppingRuleVm#status_code_to}
   */
   readonly statusCodeTo?: number;
   /**
   * Health check timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#timeout DataHarnessAutostoppingRuleVm#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#timeout DataHarnessAutostoppingRuleVm#timeout}
   */
   readonly timeout?: number;
 }
@@ -841,31 +841,31 @@ export interface DataHarnessAutostoppingRuleVmHttpRouting {
   /**
   * Organization Identifier for the Entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#action DataHarnessAutostoppingRuleVm#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#action DataHarnessAutostoppingRuleVm#action}
   */
   readonly action?: string;
   /**
   * Port on the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#source_port DataHarnessAutostoppingRuleVm#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#source_port DataHarnessAutostoppingRuleVm#source_port}
   */
   readonly sourcePort?: number;
   /**
   * Source protocol of the proxy can be http or https
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#source_protocol DataHarnessAutostoppingRuleVm#source_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#source_protocol DataHarnessAutostoppingRuleVm#source_protocol}
   */
   readonly sourceProtocol: string;
   /**
   * Port on the VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#target_port DataHarnessAutostoppingRuleVm#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#target_port DataHarnessAutostoppingRuleVm#target_port}
   */
   readonly targetPort?: number;
   /**
   * Target protocol of the instance can be http or https
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#target_protocol DataHarnessAutostoppingRuleVm#target_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#target_protocol DataHarnessAutostoppingRuleVm#target_protocol}
   */
   readonly targetProtocol: string;
 }
@@ -1093,19 +1093,19 @@ export interface DataHarnessAutostoppingRuleVmHttp {
   /**
   * Id of the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#proxy_id DataHarnessAutostoppingRuleVm#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#proxy_id DataHarnessAutostoppingRuleVm#proxy_id}
   */
   readonly proxyId: string;
   /**
   * health block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#health DataHarnessAutostoppingRuleVm#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#health DataHarnessAutostoppingRuleVm#health}
   */
   readonly health?: DataHarnessAutostoppingRuleVmHttpHealth[] | cdktf.IResolvable;
   /**
   * routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#routing DataHarnessAutostoppingRuleVm#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#routing DataHarnessAutostoppingRuleVm#routing}
   */
   readonly routing?: DataHarnessAutostoppingRuleVmHttpRouting[] | cdktf.IResolvable;
 }
@@ -1278,13 +1278,13 @@ export interface DataHarnessAutostoppingRuleVmTcpForwardRule {
   /**
   * Port to listen on the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#connect_on DataHarnessAutostoppingRuleVm#connect_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#connect_on DataHarnessAutostoppingRuleVm#connect_on}
   */
   readonly connectOn?: number;
   /**
   * Port to listen on the vm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#port DataHarnessAutostoppingRuleVm#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#port DataHarnessAutostoppingRuleVm#port}
   */
   readonly port: number;
 }
@@ -1428,13 +1428,13 @@ export interface DataHarnessAutostoppingRuleVmTcpRdp {
   /**
   * Port to listen on the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#connect_on DataHarnessAutostoppingRuleVm#connect_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#connect_on DataHarnessAutostoppingRuleVm#connect_on}
   */
   readonly connectOn?: number;
   /**
   * Port to listen on the vm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#port DataHarnessAutostoppingRuleVm#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#port DataHarnessAutostoppingRuleVm#port}
   */
   readonly port?: number;
 }
@@ -1581,13 +1581,13 @@ export interface DataHarnessAutostoppingRuleVmTcpSsh {
   /**
   * Port to listen on the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#connect_on DataHarnessAutostoppingRuleVm#connect_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#connect_on DataHarnessAutostoppingRuleVm#connect_on}
   */
   readonly connectOn?: number;
   /**
   * Port to listen on the vm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#port DataHarnessAutostoppingRuleVm#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#port DataHarnessAutostoppingRuleVm#port}
   */
   readonly port?: number;
 }
@@ -1734,25 +1734,25 @@ export interface DataHarnessAutostoppingRuleVmTcp {
   /**
   * Id of the Proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#proxy_id DataHarnessAutostoppingRuleVm#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#proxy_id DataHarnessAutostoppingRuleVm#proxy_id}
   */
   readonly proxyId: string;
   /**
   * forward_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#forward_rule DataHarnessAutostoppingRuleVm#forward_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#forward_rule DataHarnessAutostoppingRuleVm#forward_rule}
   */
   readonly forwardRule?: DataHarnessAutostoppingRuleVmTcpForwardRule[] | cdktf.IResolvable;
   /**
   * rdp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#rdp DataHarnessAutostoppingRuleVm#rdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#rdp DataHarnessAutostoppingRuleVm#rdp}
   */
   readonly rdp?: DataHarnessAutostoppingRuleVmTcpRdp[] | cdktf.IResolvable;
   /**
   * ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#ssh DataHarnessAutostoppingRuleVm#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#ssh DataHarnessAutostoppingRuleVm#ssh}
   */
   readonly ssh?: DataHarnessAutostoppingRuleVmTcpSsh[] | cdktf.IResolvable;
 }
@@ -1952,7 +1952,7 @@ export class DataHarnessAutostoppingRuleVmTcpList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm harness_autostopping_rule_vm}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm harness_autostopping_rule_vm}
 */
 export class DataHarnessAutostoppingRuleVm extends cdktf.TerraformDataSource {
 
@@ -1968,7 +1968,7 @@ export class DataHarnessAutostoppingRuleVm extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessAutostoppingRuleVm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessAutostoppingRuleVm to import
-  * @param importFromId The id of the existing DataHarnessAutostoppingRuleVm that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessAutostoppingRuleVm that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessAutostoppingRuleVm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1980,7 +1980,7 @@ export class DataHarnessAutostoppingRuleVm extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_vm harness_autostopping_rule_vm} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_vm harness_autostopping_rule_vm} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1991,8 +1991,8 @@ export class DataHarnessAutostoppingRuleVm extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_autostopping_rule_vm',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

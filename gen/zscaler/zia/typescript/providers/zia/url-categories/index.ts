@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories
+// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,51 +8,51 @@ import * as cdktf from 'cdktf';
 
 export interface UrlCategoriesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#configured_name UrlCategories#configured_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#configured_name UrlCategories#configured_name}
   */
   readonly configuredName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#custom_category UrlCategories#custom_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#custom_category UrlCategories#custom_category}
   */
   readonly customCategory?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#custom_ip_ranges_count UrlCategories#custom_ip_ranges_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#custom_ip_ranges_count UrlCategories#custom_ip_ranges_count}
   */
   readonly customIpRangesCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#custom_urls_count UrlCategories#custom_urls_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#custom_urls_count UrlCategories#custom_urls_count}
   */
   readonly customUrlsCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#db_categorized_urls UrlCategories#db_categorized_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#db_categorized_urls UrlCategories#db_categorized_urls}
   */
   readonly dbCategorizedUrls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#description UrlCategories#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#description UrlCategories#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#editable UrlCategories#editable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#editable UrlCategories#editable}
   */
   readonly editable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#ip_ranges UrlCategories#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#ip_ranges UrlCategories#ip_ranges}
   */
   readonly ipRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#ip_ranges_retaining_parent_category UrlCategories#ip_ranges_retaining_parent_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#ip_ranges_retaining_parent_category UrlCategories#ip_ranges_retaining_parent_category}
   */
   readonly ipRangesRetainingParentCategory?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#ip_ranges_retaining_parent_category_count UrlCategories#ip_ranges_retaining_parent_category_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#ip_ranges_retaining_parent_category_count UrlCategories#ip_ranges_retaining_parent_category_count}
   */
   readonly ipRangesRetainingParentCategoryCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#keywords UrlCategories#keywords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#keywords UrlCategories#keywords}
   */
   readonly keywords?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#keywords_retaining_parent_category UrlCategories#keywords_retaining_parent_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#keywords_retaining_parent_category UrlCategories#keywords_retaining_parent_category}
   */
   readonly keywordsRetainingParentCategory?: string[];
   /**
@@ -61,37 +61,37 @@ export interface UrlCategoriesConfig extends cdktf.TerraformMetaArguments {
   * 				See the URL Categories API for the list of available super categories:
   * 				https://help.zscaler.com/zia/url-categories#/urlCategories-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#super_category UrlCategories#super_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#super_category UrlCategories#super_category}
   */
   readonly superCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#type UrlCategories#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#type UrlCategories#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#urls UrlCategories#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#urls UrlCategories#urls}
   */
   readonly urls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#urls_retaining_parent_category_count UrlCategories#urls_retaining_parent_category_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#urls_retaining_parent_category_count UrlCategories#urls_retaining_parent_category_count}
   */
   readonly urlsRetainingParentCategoryCount?: number;
   /**
   * scopes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#scopes UrlCategories#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#scopes UrlCategories#scopes}
   */
   readonly scopes?: UrlCategoriesScopes[] | cdktf.IResolvable;
   /**
   * url_keyword_counts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#url_keyword_counts UrlCategories#url_keyword_counts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#url_keyword_counts UrlCategories#url_keyword_counts}
   */
   readonly urlKeywordCounts?: UrlCategoriesUrlKeywordCounts;
 }
 export interface UrlCategoriesScopesScopeEntities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#id UrlCategories#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#id UrlCategories#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -175,7 +175,7 @@ export class UrlCategoriesScopesScopeEntitiesOutputReference extends cdktf.Compl
 }
 export interface UrlCategoriesScopesScopeGroupMemberEntities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#id UrlCategories#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#id UrlCategories#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -259,19 +259,19 @@ export class UrlCategoriesScopesScopeGroupMemberEntitiesOutputReference extends 
 }
 export interface UrlCategoriesScopes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#type UrlCategories#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#type UrlCategories#type}
   */
   readonly type?: string;
   /**
   * scope_entities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#scope_entities UrlCategories#scope_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#scope_entities UrlCategories#scope_entities}
   */
   readonly scopeEntities?: UrlCategoriesScopesScopeEntities;
   /**
   * scope_group_member_entities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#scope_group_member_entities UrlCategories#scope_group_member_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#scope_group_member_entities UrlCategories#scope_group_member_entities}
   */
   readonly scopeGroupMemberEntities?: UrlCategoriesScopesScopeGroupMemberEntities;
 }
@@ -445,19 +445,19 @@ export class UrlCategoriesScopesList extends cdktf.ComplexList {
 }
 export interface UrlCategoriesUrlKeywordCounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#retain_parent_keyword_count UrlCategories#retain_parent_keyword_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#retain_parent_keyword_count UrlCategories#retain_parent_keyword_count}
   */
   readonly retainParentKeywordCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#retain_parent_url_count UrlCategories#retain_parent_url_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#retain_parent_url_count UrlCategories#retain_parent_url_count}
   */
   readonly retainParentUrlCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#total_keyword_count UrlCategories#total_keyword_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#total_keyword_count UrlCategories#total_keyword_count}
   */
   readonly totalKeywordCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#total_url_count UrlCategories#total_url_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#total_url_count UrlCategories#total_url_count}
   */
   readonly totalUrlCount?: number;
 }
@@ -628,7 +628,7 @@ export class UrlCategoriesUrlKeywordCountsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories zia_url_categories}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories zia_url_categories}
 */
 export class UrlCategories extends cdktf.TerraformResource {
 
@@ -644,7 +644,7 @@ export class UrlCategories extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UrlCategories resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UrlCategories to import
-  * @param importFromId The id of the existing UrlCategories that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UrlCategories that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UrlCategories to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -656,7 +656,7 @@ export class UrlCategories extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/url_categories zia_url_categories} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/url_categories zia_url_categories} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -667,8 +667,8 @@ export class UrlCategories extends cdktf.TerraformResource {
       terraformResourceType: 'zia_url_categories',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.2',
-        providerVersionConstraint: '4.6.2'
+        providerVersion: '4.6.3',
+        providerVersionConstraint: '4.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#metadata DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#metadata DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestMetadata;
   /**
   * MeshGatewayInstanceSpec specifies the options available for a GatewayDataplane.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#spec DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#spec DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#annotations DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#annotations DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#labels DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#labels DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#name DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#name DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#namespace DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#namespace DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecPodTemplate
   /**
   * Annotations holds annotations to be set on an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#annotations DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#annotations DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels holds labels to be set on an objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#labels DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#labels DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -350,7 +350,7 @@ export interface DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecPodTemplate
   /**
   * ReadOnlyRootFilesystem corresponds to PodSpec.Container.SecurityContext.ReadOnlyRootFilesystem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#read_only_root_filesystem DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#read_only_root_filesystem DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
 }
@@ -446,7 +446,7 @@ export interface DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecPodTemplate
   /**
   * ContainerSecurityContext corresponds to PodSpec.Container.SecurityContext
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#security_context DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#security_context DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecPodTemplateSpecContainerSecurityContext;
 }
@@ -542,7 +542,7 @@ export interface DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecPodTemplate
   /**
   * FSGroup corresponds to PodSpec.SecurityContext.FSGroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#fs_group DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#fs_group DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
 }
@@ -638,19 +638,19 @@ export interface DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecPodTemplate
   /**
   * Container corresponds to PodSpec.Container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#container DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#container DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#container}
   */
   readonly container?: DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecPodTemplateSpecContainer;
   /**
   * PodSecurityContext corresponds to PodSpec.SecurityContext
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#security_context DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#security_context DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecPodTemplateSpecSecurityContext;
   /**
   * ServiceAccountName corresponds to PodSpec.ServiceAccountName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#service_account_name DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#service_account_name DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
 }
@@ -804,13 +804,13 @@ export interface DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecPodTemplate
   /**
   * Metadata holds metadata configuration for a Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#metadata DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#metadata DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecPodTemplateMetadata;
   /**
   * Spec holds some customizable fields of a Pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#spec DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#spec DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecPodTemplateSpec;
 }
@@ -935,13 +935,13 @@ export interface DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecResourcesCl
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#name DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#name DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#request DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#request DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#request}
   */
   readonly request?: string;
 }
@@ -1085,19 +1085,19 @@ export interface DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#claims DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#claims DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#limits DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#limits DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#requests DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#requests DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1251,13 +1251,13 @@ export interface DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecServiceTemp
   /**
   * Annotations holds annotations to be set on an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#annotations DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#annotations DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels holds labels to be set on an objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#labels DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#labels DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -1382,7 +1382,7 @@ export interface DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecServiceTemp
   /**
   * LoadBalancerIP corresponds to ServiceSpec.LoadBalancerIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#load_balancer_ip DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#load_balancer_ip DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
 }
@@ -1478,13 +1478,13 @@ export interface DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecServiceTemp
   /**
   * Metadata holds metadata configuration for a Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#metadata DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#metadata DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecServiceTemplateMetadata;
   /**
   * Spec holds some customizable fields of a Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#spec DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#spec DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecServiceTemplateSpec;
 }
@@ -1609,37 +1609,37 @@ export interface DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpec {
   /**
   * PodTemplate configures the Pod owned by this config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#pod_template DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#pod_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#pod_template DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#pod_template}
   */
   readonly podTemplate?: DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecPodTemplate;
   /**
   * Replicas is the number of dataplane proxy replicas to create. For now this is a fixed number, but in the future it could be automatically scaled based on metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#replicas DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#replicas DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources specifies the compute resources for the proxy container. The default can be set in the control plane config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#resources DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#resources DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecResources;
   /**
   * ServiceTemplate configures the Service owned by this config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#service_template DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#service_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#service_template DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#service_template}
   */
   readonly serviceTemplate?: DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecServiceTemplate;
   /**
   * ServiceType specifies the type of managed Service that will be created to expose the dataplane proxies to traffic from outside the cluster. The ports to expose will be taken from the matching Gateway resource. If there is no matching Gateway, the managed Service will be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#service_type DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#service_type DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#service_type}
   */
   readonly serviceType?: string;
   /**
   * Tags specifies the Kuma tags that are propagated to the managed dataplane proxies. These tags should not include 'kuma.io/service' tag since is auto-generated, and should match exactly one Gateway resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#tags DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#tags DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1878,7 +1878,7 @@ export class DataK8SKumaIoMeshGatewayInstanceV1Alpha1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest k8s_kuma_io_mesh_gateway_instance_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest k8s_kuma_io_mesh_gateway_instance_v1alpha1_manifest}
 */
 export class DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1894,7 +1894,7 @@ export class DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1906,7 +1906,7 @@ export class DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest k8s_kuma_io_mesh_gateway_instance_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_gateway_instance_v1alpha1_manifest k8s_kuma_io_mesh_gateway_instance_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1917,8 +1917,8 @@ export class DataK8SKumaIoMeshGatewayInstanceV1Alpha1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_kuma_io_mesh_gateway_instance_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

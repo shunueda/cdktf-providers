@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#metadata DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#metadata DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestMetadata;
   /**
   * KeycloakClientSpec defines the desired state of KeycloakClient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#spec DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#spec DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#annotations DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#annotations DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#labels DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#labels DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#namespace DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#namespace DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAutho
   /**
   * ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#_id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -228,49 +228,49 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAutho
   /**
   * The attributes associated with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#attributes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#attributes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
   * A unique name for this resource. The name can be used to uniquely identify a resource, useful when querying for a specific resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#display_name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#display_name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
   * An URI pointing to an icon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#icon_uri DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#icon_uri DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
   * A unique name for this resource. The name can be used to uniquely identify a resource, useful when querying for a specific resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * True if the access to this resource can be managed by the resource owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#owner_managed_access DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#owner_managed_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#owner_managed_access DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#owner_managed_access}
   */
   readonly ownerManagedAccess?: boolean | cdktf.IResolvable;
   /**
   * The scopes associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * The type of this resource. It can be used to group different resource instances with the same type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#type DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#type DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * Set of URIs which are protected by resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#uris DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#uris DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#uris}
   */
   readonly uris?: string[];
 }
@@ -620,25 +620,25 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAutho
   /**
   * Config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#config DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#config DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * The decision strategy dictates how the policies associated with a given permission are evaluated and how a final decision is obtained. 'Affirmative' means that at least one policy must evaluate to a positive decision in order for the final decision to be also positive. 'Unanimous' means that all policies must evaluate to a positive decision in order for the final decision to be also positive. 'Consensus' means that the number of positive decisions must be greater than the number of negative decisions. If the number of positive and negative is the same, the final decision will be negative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#decision_strategy DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#decision_strategy DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
   * A description for this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#description DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#description DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -647,55 +647,55 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAutho
   /**
   * The logic dictates how the policy decision should be made. If 'Positive', the resulting effect (permit or deny) obtained during the evaluation of this policy will be used to perform a decision. If 'Negative', the resulting effect will be negated, in other words, a permit becomes a deny and vice-versa.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#logic DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#logic DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#logic}
   */
   readonly logic?: string;
   /**
   * The name of this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#owner DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#owner DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#owner}
   */
   readonly owner?: string;
   /**
   * Policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#policies DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#policies DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#policies}
   */
   readonly policies?: string[];
   /**
   * Resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#resources DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#resources DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#resources}
   */
   readonly resources?: string[];
   /**
   * Resources Data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#resources_data DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#resources_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#resources_data DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#resources_data}
   */
   readonly resourcesData?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAuthorizationSettingsPoliciesResourcesData[] | cdktf.IResolvable;
   /**
   * Scopes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * Scopes Data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes_data DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes_data DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes_data}
   */
   readonly scopesData?: string[];
   /**
   * Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#type DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#type DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1161,7 +1161,7 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAutho
   /**
   * ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#_id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1170,49 +1170,49 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAutho
   /**
   * The attributes associated with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#attributes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#attributes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
   * A unique name for this resource. The name can be used to uniquely identify a resource, useful when querying for a specific resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#display_name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#display_name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
   * An URI pointing to an icon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#icon_uri DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#icon_uri DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
   * A unique name for this resource. The name can be used to uniquely identify a resource, useful when querying for a specific resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * True if the access to this resource can be managed by the resource owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#owner_managed_access DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#owner_managed_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#owner_managed_access DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#owner_managed_access}
   */
   readonly ownerManagedAccess?: boolean | cdktf.IResolvable;
   /**
   * The scopes associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * The type of this resource. It can be used to group different resource instances with the same type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#type DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#type DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * Set of URIs which are protected by resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#uris DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#uris DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#uris}
   */
   readonly uris?: string[];
 }
@@ -1562,7 +1562,7 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAutho
   /**
   * ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#_id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1571,49 +1571,49 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAutho
   /**
   * The attributes associated with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#attributes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#attributes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
   * A unique name for this resource. The name can be used to uniquely identify a resource, useful when querying for a specific resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#display_name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#display_name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
   * An URI pointing to an icon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#icon_uri DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#icon_uri DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
   * A unique name for this resource. The name can be used to uniquely identify a resource, useful when querying for a specific resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * True if the access to this resource can be managed by the resource owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#owner_managed_access DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#owner_managed_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#owner_managed_access DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#owner_managed_access}
   */
   readonly ownerManagedAccess?: boolean | cdktf.IResolvable;
   /**
   * The scopes associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * The type of this resource. It can be used to group different resource instances with the same type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#type DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#type DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * Set of URIs which are protected by resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#uris DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#uris DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#uris}
   */
   readonly uris?: string[];
 }
@@ -1963,25 +1963,25 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAutho
   /**
   * Config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#config DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#config DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * The decision strategy dictates how the policies associated with a given permission are evaluated and how a final decision is obtained. 'Affirmative' means that at least one policy must evaluate to a positive decision in order for the final decision to be also positive. 'Unanimous' means that all policies must evaluate to a positive decision in order for the final decision to be also positive. 'Consensus' means that the number of positive decisions must be greater than the number of negative decisions. If the number of positive and negative is the same, the final decision will be negative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#decision_strategy DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#decision_strategy DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
   * A description for this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#description DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#description DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1990,55 +1990,55 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAutho
   /**
   * The logic dictates how the policy decision should be made. If 'Positive', the resulting effect (permit or deny) obtained during the evaluation of this policy will be used to perform a decision. If 'Negative', the resulting effect will be negated, in other words, a permit becomes a deny and vice-versa.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#logic DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#logic DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#logic}
   */
   readonly logic?: string;
   /**
   * The name of this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#owner DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#owner DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#owner}
   */
   readonly owner?: string;
   /**
   * Policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#policies DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#policies DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#policies}
   */
   readonly policies?: string[];
   /**
   * Resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#resources DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#resources DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#resources}
   */
   readonly resources?: string[];
   /**
   * Resources Data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#resources_data DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#resources_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#resources_data DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#resources_data}
   */
   readonly resourcesData?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAuthorizationSettingsScopesPoliciesResourcesData[] | cdktf.IResolvable;
   /**
   * Scopes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * Scopes Data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes_data DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes_data DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes_data}
   */
   readonly scopesData?: string[];
   /**
   * Type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#type DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#type DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2504,7 +2504,7 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAutho
   /**
   * ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#_id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2513,49 +2513,49 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAutho
   /**
   * The attributes associated with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#attributes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#attributes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
   * A unique name for this resource. The name can be used to uniquely identify a resource, useful when querying for a specific resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#display_name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#display_name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
   * An URI pointing to an icon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#icon_uri DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#icon_uri DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
   * A unique name for this resource. The name can be used to uniquely identify a resource, useful when querying for a specific resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * True if the access to this resource can be managed by the resource owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#owner_managed_access DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#owner_managed_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#owner_managed_access DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#owner_managed_access}
   */
   readonly ownerManagedAccess?: boolean | cdktf.IResolvable;
   /**
   * The scopes associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * The type of this resource. It can be used to group different resource instances with the same type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#type DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#type DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * Set of URIs which are protected by resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#uris DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#uris DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#uris}
   */
   readonly uris?: string[];
 }
@@ -2905,19 +2905,19 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAutho
   /**
   * A unique name for this scope. The name can be used to uniquely identify a scope, useful when querying for a specific scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#display_name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#display_name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#display_name}
   */
   readonly displayName?: string;
   /**
   * An URI pointing to an icon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#icon_uri DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#icon_uri DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
   * ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2926,19 +2926,19 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAutho
   /**
   * A unique name for this scope. The name can be used to uniquely identify a scope, useful when querying for a specific scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#policies DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#policies DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#policies}
   */
   readonly policies?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAuthorizationSettingsScopesPolicies[] | cdktf.IResolvable;
   /**
   * Resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#resources DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#resources DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAuthorizationSettingsScopesResources[] | cdktf.IResolvable;
 }
@@ -3201,25 +3201,25 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAutho
   /**
   * True if resources should be managed remotely by the resource server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#allow_remote_resource_management DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#allow_remote_resource_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#allow_remote_resource_management DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#allow_remote_resource_management}
   */
   readonly allowRemoteResourceManagement?: boolean | cdktf.IResolvable;
   /**
   * Client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * The decision strategy dictates how permissions are evaluated and how a final decision is obtained. 'Affirmative' means that at least one permission must evaluate to a positive decision in order to grant access to a resource and its scopes. 'Unanimous' means that all permissions must evaluate to a positive decision in order for the final decision to be also positive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#decision_strategy DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#decision_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#decision_strategy DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#decision_strategy}
   */
   readonly decisionStrategy?: string;
   /**
   * ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3228,31 +3228,31 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAutho
   /**
   * Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#policies DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#policies DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#policies}
   */
   readonly policies?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAuthorizationSettingsPolicies[] | cdktf.IResolvable;
   /**
   * The policy enforcement mode dictates how policies are enforced when evaluating authorization requests. 'Enforcing' means requests are denied by default even when there is no policy associated with a given resource. 'Permissive' means requests are allowed even when there is no policy associated with a given resource. 'Disabled' completely disables the evaluation of policies and allows access to any resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#policy_enforcement_mode DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#policy_enforcement_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#policy_enforcement_mode DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#policy_enforcement_mode}
   */
   readonly policyEnforcementMode?: string;
   /**
   * Resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#resources DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#resources DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAuthorizationSettingsResources[] | cdktf.IResolvable;
   /**
   * Authorization Scopes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scopes}
   */
   readonly scopes?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAuthorizationSettingsScopes[] | cdktf.IResolvable;
 }
@@ -3580,25 +3580,25 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientProto
   /**
   * Config options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#config DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#config DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * True if Consent Screen is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#consent_required DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#consent_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#consent_required DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#consent_required}
   */
   readonly consentRequired?: boolean | cdktf.IResolvable;
   /**
   * Text to use for displaying Consent Screen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#consent_text DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#consent_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#consent_text DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#consent_text}
   */
   readonly consentText?: string;
   /**
   * Protocol Mapper ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3607,19 +3607,19 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientProto
   /**
   * Protocol Mapper Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#protocol DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#protocol DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Protocol Mapper to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#protocol_mapper DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#protocol_mapper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#protocol_mapper DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#protocol_mapper}
   */
   readonly protocolMapper?: string;
 }
@@ -3911,115 +3911,115 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClient {
   /**
   * Access options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#access DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#access DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#access}
   */
   readonly access?: { [key: string]: string };
   /**
   * Application Admin URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#admin_url DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#admin_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#admin_url DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#admin_url}
   */
   readonly adminUrl?: string;
   /**
   * Client Attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#attributes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#attributes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
   * Authentication Flow Binding Overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#authentication_flow_binding_overrides DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#authentication_flow_binding_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#authentication_flow_binding_overrides DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#authentication_flow_binding_overrides}
   */
   readonly authenticationFlowBindingOverrides?: { [key: string]: string };
   /**
   * True if fine-grained authorization support is enabled for this client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#authorization_services_enabled DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#authorization_services_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#authorization_services_enabled DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#authorization_services_enabled}
   */
   readonly authorizationServicesEnabled?: boolean | cdktf.IResolvable;
   /**
   * Authorization settings for this resource server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#authorization_settings DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#authorization_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#authorization_settings DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#authorization_settings}
   */
   readonly authorizationSettings?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientAuthorizationSettings;
   /**
   * Application base URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#base_url DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#base_url DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#base_url}
   */
   readonly baseUrl?: string;
   /**
   * True if a client supports only Bearer Tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#bearer_only DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#bearer_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#bearer_only DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#bearer_only}
   */
   readonly bearerOnly?: boolean | cdktf.IResolvable;
   /**
   * What Client authentication type to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client_authenticator_type DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client_authenticator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client_authenticator_type DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client_authenticator_type}
   */
   readonly clientAuthenticatorType?: string;
   /**
   * Client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client_id}
   */
   readonly clientId: string;
   /**
   * True if Consent Screen is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#consent_required DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#consent_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#consent_required DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#consent_required}
   */
   readonly consentRequired?: boolean | cdktf.IResolvable;
   /**
   * A list of default client scopes. Default client scopes are always applied when issuing OpenID Connect tokens or SAML assertions for this client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#default_client_scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#default_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#default_client_scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#default_client_scopes}
   */
   readonly defaultClientScopes?: string[];
   /**
   * Default Client roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#default_roles DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#default_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#default_roles DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#default_roles}
   */
   readonly defaultRoles?: string[];
   /**
   * Client description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#description DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#description DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * True if Direct Grant is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#direct_access_grants_enabled DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#direct_access_grants_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#direct_access_grants_enabled DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#direct_access_grants_enabled}
   */
   readonly directAccessGrantsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Client enabled flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#enabled DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#enabled DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * True if this client supports Front Channel logout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#frontchannel_logout DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#frontchannel_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#frontchannel_logout DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#frontchannel_logout}
   */
   readonly frontchannelLogout?: boolean | cdktf.IResolvable;
   /**
   * True if Full Scope is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#full_scope_allowed DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#full_scope_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#full_scope_allowed DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#full_scope_allowed}
   */
   readonly fullScopeAllowed?: boolean | cdktf.IResolvable;
   /**
   * Client ID. If not specified, automatically generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4028,109 +4028,109 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClient {
   /**
   * True if Implicit flow is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#implicit_flow_enabled DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#implicit_flow_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#implicit_flow_enabled DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#implicit_flow_enabled}
   */
   readonly implicitFlowEnabled?: boolean | cdktf.IResolvable;
   /**
   * Client name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Node registration timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#node_re_registration_timeout DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#node_re_registration_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#node_re_registration_timeout DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#node_re_registration_timeout}
   */
   readonly nodeReRegistrationTimeout?: number;
   /**
   * Not Before setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#not_before DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#not_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#not_before DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#not_before}
   */
   readonly notBefore?: number;
   /**
   * A list of optional client scopes. Optional client scopes are applied when issuing tokens for this client, but only when they are requested by the scope parameter in the OpenID Connect authorization request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#optional_client_scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#optional_client_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#optional_client_scopes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#optional_client_scopes}
   */
   readonly optionalClientScopes?: string[];
   /**
   * Protocol used for this Client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#protocol DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#protocol DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Protocol Mappers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#protocol_mappers DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#protocol_mappers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#protocol_mappers DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#protocol_mappers}
   */
   readonly protocolMappers?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClientProtocolMappers[] | cdktf.IResolvable;
   /**
   * True if this is a public Client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#public_client DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#public_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#public_client DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#public_client}
   */
   readonly publicClient?: boolean | cdktf.IResolvable;
   /**
   * A list of valid Redirection URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#redirect_uris DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#redirect_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#redirect_uris DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#redirect_uris}
   */
   readonly redirectUris?: string[];
   /**
   * Application root URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#root_url DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#root_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#root_url DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#root_url}
   */
   readonly rootUrl?: string;
   /**
   * Client Secret. The Operator will automatically create a Secret based on this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#secret DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#secret DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#secret}
   */
   readonly secret?: string;
   /**
   * True if Service Accounts are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#service_accounts_enabled DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#service_accounts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#service_accounts_enabled DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#service_accounts_enabled}
   */
   readonly serviceAccountsEnabled?: boolean | cdktf.IResolvable;
   /**
   * True if Standard flow is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#standard_flow_enabled DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#standard_flow_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#standard_flow_enabled DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#standard_flow_enabled}
   */
   readonly standardFlowEnabled?: boolean | cdktf.IResolvable;
   /**
   * Surrogate Authentication Required option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#surrogate_auth_required DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#surrogate_auth_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#surrogate_auth_required DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#surrogate_auth_required}
   */
   readonly surrogateAuthRequired?: boolean | cdktf.IResolvable;
   /**
   * True to use a Template Config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#use_template_config DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#use_template_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#use_template_config DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#use_template_config}
   */
   readonly useTemplateConfig?: boolean | cdktf.IResolvable;
   /**
   * True to use Template Mappers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#use_template_mappers DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#use_template_mappers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#use_template_mappers DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#use_template_mappers}
   */
   readonly useTemplateMappers?: boolean | cdktf.IResolvable;
   /**
   * True to use Template Scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#use_template_scope DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#use_template_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#use_template_scope DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#use_template_scope}
   */
   readonly useTemplateScope?: boolean | cdktf.IResolvable;
   /**
   * A list of valid Web Origins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#web_origins DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#web_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#web_origins DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#web_origins}
   */
   readonly webOrigins?: string[];
 }
@@ -5267,19 +5267,19 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecRealmSelect
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5449,13 +5449,13 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecRealmSelect
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#match_expressions DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#match_expressions DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecRealmSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#match_labels DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#match_labels DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5580,13 +5580,13 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecRolesCompos
   /**
   * Map client => []role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client}
   */
   readonly client?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Realm roles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#realm DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#realm DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#realm}
   */
   readonly realm?: string[];
 }
@@ -5711,43 +5711,43 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecRoles {
   /**
   * Role Attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#attributes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#attributes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Client Role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client_role DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client_role DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client_role}
   */
   readonly clientRole?: boolean | cdktf.IResolvable;
   /**
   * Composite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#composite DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#composite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#composite DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#composite}
   */
   readonly composite?: boolean | cdktf.IResolvable;
   /**
   * Composites
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#composites DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#composites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#composites DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#composites}
   */
   readonly composites?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecRolesComposites;
   /**
   * Container Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#container_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#container_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#container_id}
   */
   readonly containerId?: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#description DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#description DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5756,7 +5756,7 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecRoles {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -6074,13 +6074,13 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecScopeMappin
   /**
   * Map client => []role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client}
   */
   readonly client?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Realm roles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#realm DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#realm DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#realm}
   */
   readonly realm?: string[];
 }
@@ -6205,43 +6205,43 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecScopeMappin
   /**
   * Role Attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#attributes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#attributes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Client Role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client_role DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client_role DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client_role}
   */
   readonly clientRole?: boolean | cdktf.IResolvable;
   /**
   * Composite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#composite DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#composite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#composite DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#composite}
   */
   readonly composite?: boolean | cdktf.IResolvable;
   /**
   * Composites
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#composites DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#composites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#composites DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#composites}
   */
   readonly composites?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecScopeMappingsClientMappingsMappingsComposites;
   /**
   * Container Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#container_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#container_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#container_id}
   */
   readonly containerId?: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#description DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#description DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6250,7 +6250,7 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecScopeMappin
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -6568,13 +6568,13 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecScopeMappin
   /**
   * Client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client}
   */
   readonly client?: string;
   /**
   * ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6583,7 +6583,7 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecScopeMappin
   /**
   * Mappings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#mappings DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#mappings DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#mappings}
   */
   readonly mappings?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecScopeMappingsClientMappingsMappings[] | cdktf.IResolvable;
 }
@@ -6737,13 +6737,13 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecScopeMappin
   /**
   * Map client => []role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client}
   */
   readonly client?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Realm roles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#realm DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#realm DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#realm}
   */
   readonly realm?: string[];
 }
@@ -6868,43 +6868,43 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecScopeMappin
   /**
   * Role Attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#attributes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#attributes DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Client Role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client_role DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client_role DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client_role}
   */
   readonly clientRole?: boolean | cdktf.IResolvable;
   /**
   * Composite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#composite DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#composite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#composite DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#composite}
   */
   readonly composite?: boolean | cdktf.IResolvable;
   /**
   * Composites
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#composites DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#composites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#composites DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#composites}
   */
   readonly composites?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecScopeMappingsRealmMappingsComposites;
   /**
   * Container Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#container_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#container_id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#container_id}
   */
   readonly containerId?: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#description DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#description DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#id DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6913,7 +6913,7 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecScopeMappin
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -7231,13 +7231,13 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecScopeMappin
   /**
   * Client Mappings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client_mappings DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client_mappings DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client_mappings}
   */
   readonly clientMappings?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecScopeMappingsClientMappings;
   /**
   * Realm Mappings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#realm_mappings DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#realm_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#realm_mappings DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#realm_mappings}
   */
   readonly realmMappings?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecScopeMappingsRealmMappings[] | cdktf.IResolvable;
 }
@@ -7362,37 +7362,37 @@ export interface DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpec {
   /**
   * Keycloak Client REST object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#client DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#client}
   */
   readonly client: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecClient;
   /**
   * Selector for looking up KeycloakRealm Custom Resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#realm_selector DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#realm_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#realm_selector DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#realm_selector}
   */
   readonly realmSelector: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecRealmSelector;
   /**
   * Client Roles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#roles DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#roles DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#roles}
   */
   readonly roles?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecRoles[] | cdktf.IResolvable;
   /**
   * Scope Mappings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scope_mappings DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scope_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#scope_mappings DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#scope_mappings}
   */
   readonly scopeMappings?: DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecScopeMappings;
   /**
   * Service account client roles for this client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#service_account_client_roles DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#service_account_client_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#service_account_client_roles DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#service_account_client_roles}
   */
   readonly serviceAccountClientRoles?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Service account realm roles for this client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#service_account_realm_roles DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#service_account_realm_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#service_account_realm_roles DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest#service_account_realm_roles}
   */
   readonly serviceAccountRealmRoles?: string[];
 }
@@ -7625,7 +7625,7 @@ export class DataK8SKeycloakOrgKeycloakClientV1Alpha1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest k8s_keycloak_org_keycloak_client_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest k8s_keycloak_org_keycloak_client_v1alpha1_manifest}
 */
 export class DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -7641,7 +7641,7 @@ export class DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7653,7 +7653,7 @@ export class DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest k8s_keycloak_org_keycloak_client_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_client_v1alpha1_manifest k8s_keycloak_org_keycloak_client_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7664,8 +7664,8 @@ export class DataK8SKeycloakOrgKeycloakClientV1Alpha1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_keycloak_org_keycloak_client_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

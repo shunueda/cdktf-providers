@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PlatformConnectorCustomhealthsourceConfig extends cdktf.Terrafo
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#delegate_selectors PlatformConnectorCustomhealthsource#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#delegate_selectors PlatformConnectorCustomhealthsource#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#description PlatformConnectorCustomhealthsource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#description PlatformConnectorCustomhealthsource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#id PlatformConnectorCustomhealthsource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#id PlatformConnectorCustomhealthsource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,67 +29,67 @@ export interface PlatformConnectorCustomhealthsourceConfig extends cdktf.Terrafo
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#identifier PlatformConnectorCustomhealthsource#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#identifier PlatformConnectorCustomhealthsource#identifier}
   */
   readonly identifier: string;
   /**
   * HTTP Verb Method for the API Call
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#method PlatformConnectorCustomhealthsource#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#method PlatformConnectorCustomhealthsource#method}
   */
   readonly method: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#name PlatformConnectorCustomhealthsource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#name PlatformConnectorCustomhealthsource#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#org_id PlatformConnectorCustomhealthsource#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#org_id PlatformConnectorCustomhealthsource#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#project_id PlatformConnectorCustomhealthsource#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#project_id PlatformConnectorCustomhealthsource#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#tags PlatformConnectorCustomhealthsource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#tags PlatformConnectorCustomhealthsource#tags}
   */
   readonly tags?: string[];
   /**
   * URL of the Custom Healthsource controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#url PlatformConnectorCustomhealthsource#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#url PlatformConnectorCustomhealthsource#url}
   */
   readonly url: string;
   /**
   * Body to be sent with the API Call
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#validation_body PlatformConnectorCustomhealthsource#validation_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#validation_body PlatformConnectorCustomhealthsource#validation_body}
   */
   readonly validationBody?: string;
   /**
   * Path to be added to the base URL for the API Call
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#validation_path PlatformConnectorCustomhealthsource#validation_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#validation_path PlatformConnectorCustomhealthsource#validation_path}
   */
   readonly validationPath?: string;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#headers PlatformConnectorCustomhealthsource#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#headers PlatformConnectorCustomhealthsource#headers}
   */
   readonly headers?: PlatformConnectorCustomhealthsourceHeaders[] | cdktf.IResolvable;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#params PlatformConnectorCustomhealthsource#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#params PlatformConnectorCustomhealthsource#params}
   */
   readonly params?: PlatformConnectorCustomhealthsourceParams[] | cdktf.IResolvable;
 }
@@ -97,25 +97,25 @@ export interface PlatformConnectorCustomhealthsourceHeaders {
   /**
   * Reference to the Harness secret containing the encrypted value. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#encrypted_value_ref PlatformConnectorCustomhealthsource#encrypted_value_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#encrypted_value_ref PlatformConnectorCustomhealthsource#encrypted_value_ref}
   */
   readonly encryptedValueRef?: string;
   /**
   * Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#key PlatformConnectorCustomhealthsource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#key PlatformConnectorCustomhealthsource#key}
   */
   readonly key: string;
   /**
   * Value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#value PlatformConnectorCustomhealthsource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#value PlatformConnectorCustomhealthsource#value}
   */
   readonly value?: string;
   /**
   * Encrypted value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#value_encrypted PlatformConnectorCustomhealthsource#value_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#value_encrypted PlatformConnectorCustomhealthsource#value_encrypted}
   */
   readonly valueEncrypted?: boolean | cdktf.IResolvable;
 }
@@ -317,25 +317,25 @@ export interface PlatformConnectorCustomhealthsourceParams {
   /**
   * Reference to the Harness secret containing the encrypted value. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#encrypted_value_ref PlatformConnectorCustomhealthsource#encrypted_value_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#encrypted_value_ref PlatformConnectorCustomhealthsource#encrypted_value_ref}
   */
   readonly encryptedValueRef?: string;
   /**
   * Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#key PlatformConnectorCustomhealthsource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#key PlatformConnectorCustomhealthsource#key}
   */
   readonly key: string;
   /**
   * Value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#value PlatformConnectorCustomhealthsource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#value PlatformConnectorCustomhealthsource#value}
   */
   readonly value?: string;
   /**
   * Encrypted value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#value_encrypted PlatformConnectorCustomhealthsource#value_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#value_encrypted PlatformConnectorCustomhealthsource#value_encrypted}
   */
   readonly valueEncrypted?: boolean | cdktf.IResolvable;
 }
@@ -535,7 +535,7 @@ export class PlatformConnectorCustomhealthsourceParamsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource harness_platform_connector_customhealthsource}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource harness_platform_connector_customhealthsource}
 */
 export class PlatformConnectorCustomhealthsource extends cdktf.TerraformResource {
 
@@ -551,7 +551,7 @@ export class PlatformConnectorCustomhealthsource extends cdktf.TerraformResource
   * Generates CDKTF code for importing a PlatformConnectorCustomhealthsource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorCustomhealthsource to import
-  * @param importFromId The id of the existing PlatformConnectorCustomhealthsource that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorCustomhealthsource that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorCustomhealthsource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -563,7 +563,7 @@ export class PlatformConnectorCustomhealthsource extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_customhealthsource harness_platform_connector_customhealthsource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_customhealthsource harness_platform_connector_customhealthsource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -574,8 +574,8 @@ export class PlatformConnectorCustomhealthsource extends cdktf.TerraformResource
       terraformResourceType: 'harness_platform_connector_customhealthsource',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/nat_control_rules
+// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/nat_control_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZiaNatControlRulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/nat_control_rules#id DataZiaNatControlRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/nat_control_rules#id DataZiaNatControlRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataZiaNatControlRulesConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the IPS Control rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/nat_control_rules#name DataZiaNatControlRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/nat_control_rules#name DataZiaNatControlRules#name}
   */
   readonly name?: string;
   /**
   * The action the nat control policy rule takes when packets match the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/nat_control_rules#redirect_fqdn DataZiaNatControlRules#redirect_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/nat_control_rules#redirect_fqdn DataZiaNatControlRules#redirect_fqdn}
   */
   readonly redirectFqdn?: string;
   /**
   * The action the nat control policy rule takes when packets match the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/nat_control_rules#redirect_ip DataZiaNatControlRules#redirect_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/nat_control_rules#redirect_ip DataZiaNatControlRules#redirect_ip}
   */
   readonly redirectIp?: string;
   /**
   * The action the nat control policy rule takes when packets match the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/nat_control_rules#redirect_port DataZiaNatControlRules#redirect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/nat_control_rules#redirect_port DataZiaNatControlRules#redirect_port}
   */
   readonly redirectPort?: number;
 }
@@ -1417,7 +1417,7 @@ export class DataZiaNatControlRulesUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/nat_control_rules zia_nat_control_rules}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/nat_control_rules zia_nat_control_rules}
 */
 export class DataZiaNatControlRules extends cdktf.TerraformDataSource {
 
@@ -1433,7 +1433,7 @@ export class DataZiaNatControlRules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZiaNatControlRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZiaNatControlRules to import
-  * @param importFromId The id of the existing DataZiaNatControlRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/nat_control_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZiaNatControlRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/nat_control_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZiaNatControlRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1445,7 +1445,7 @@ export class DataZiaNatControlRules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/data-sources/nat_control_rules zia_nat_control_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/data-sources/nat_control_rules zia_nat_control_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1456,8 +1456,8 @@ export class DataZiaNatControlRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'zia_nat_control_rules',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.2',
-        providerVersionConstraint: '4.6.2'
+        providerVersion: '4.6.3',
+        providerVersionConstraint: '4.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -53,35 +53,35 @@ dataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionMysqlToHclTerr
 DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionMysqlOutputReference } from './structs0'
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbSslmodeValueFromVault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#agent_inject DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#agent_inject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#agent_inject DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#agent_inject}
   */
   readonly agentInject?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#connection_template DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#connection_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#connection_template DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#connection_template}
   */
   readonly connectionTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#endpoint DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#endpoint DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#kubernetes_auth_endpoint DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#kubernetes_auth_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#kubernetes_auth_endpoint DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#kubernetes_auth_endpoint}
   */
   readonly kubernetesAuthEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#role DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#role DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret}
   */
   readonly secret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#service_account DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#service_account DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#service_account_namespace DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#service_account_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#service_account_namespace DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#service_account_namespace}
   */
   readonly serviceAccountNamespace?: string;
 }
@@ -372,15 +372,15 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbSslmodeValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_key_ref DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_key_ref DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbSslmodeValueFromSecretKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#ssm DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#ssm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#ssm DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#ssm}
   */
   readonly ssm?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbSslmodeValueFromSsm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#vault DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#vault DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#vault}
   */
   readonly vault?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbSslmodeValueFromVault;
 }
@@ -532,11 +532,11 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbSslmode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value_from DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value_from DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value_from}
   */
   readonly valueFrom?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbSslmodeValueFrom;
 }
@@ -659,11 +659,11 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
   */
   readonly name: string;
 }
@@ -780,11 +780,11 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromSsmAccessKeyIdValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
   */
   readonly name: string;
 }
@@ -901,7 +901,7 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromSsmAccessKeyIdValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_key_ref DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_key_ref DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromSsmAccessKeyIdValueFromSecretKeyRef;
 }
@@ -995,11 +995,11 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromSsmAccessKeyId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value}
   */
   readonly value: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value_from DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value_from DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value_from}
   */
   readonly valueFrom?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromSsmAccessKeyIdValueFrom;
 }
@@ -1119,11 +1119,11 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromSsmSecretAccessKeyValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
   */
   readonly name: string;
 }
@@ -1240,7 +1240,7 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromSsmSecretAccessKeyValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_key_ref DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_key_ref DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromSsmSecretAccessKeyValueFromSecretKeyRef;
 }
@@ -1334,11 +1334,11 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromSsmSecretAccessKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value}
   */
   readonly value: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value_from DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value_from DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value_from}
   */
   readonly valueFrom?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromSsmSecretAccessKeyValueFrom;
 }
@@ -1458,23 +1458,23 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromSsm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#access_key_id DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#access_key_id DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#access_key_id}
   */
   readonly accessKeyId?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromSsmAccessKeyId;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#region DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#region DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_access_key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_access_key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_access_key}
   */
   readonly secretAccessKey?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromSsmSecretAccessKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#with_decryption DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#with_decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#with_decryption DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#with_decryption}
   */
   readonly withDecryption?: boolean | cdktf.IResolvable;
 }
@@ -1681,35 +1681,35 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromVault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#agent_inject DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#agent_inject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#agent_inject DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#agent_inject}
   */
   readonly agentInject?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#connection_template DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#connection_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#connection_template DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#connection_template}
   */
   readonly connectionTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#endpoint DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#endpoint DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#kubernetes_auth_endpoint DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#kubernetes_auth_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#kubernetes_auth_endpoint DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#kubernetes_auth_endpoint}
   */
   readonly kubernetesAuthEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#role DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#role DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret}
   */
   readonly secret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#service_account DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#service_account DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#service_account_namespace DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#service_account_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#service_account_namespace DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#service_account_namespace}
   */
   readonly serviceAccountNamespace?: string;
 }
@@ -2000,15 +2000,15 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_key_ref DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_key_ref DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromSecretKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#ssm DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#ssm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#ssm DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#ssm}
   */
   readonly ssm?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromSsm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#vault DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#vault DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#vault}
   */
   readonly vault?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFromVault;
 }
@@ -2160,11 +2160,11 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUri {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value_from DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value_from DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value_from}
   */
   readonly valueFrom?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUriValueFrom;
 }
@@ -2287,11 +2287,11 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
   */
   readonly name: string;
 }
@@ -2408,11 +2408,11 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromSsmAccessKeyIdValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
   */
   readonly name: string;
 }
@@ -2529,7 +2529,7 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromSsmAccessKeyIdValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_key_ref DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_key_ref DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromSsmAccessKeyIdValueFromSecretKeyRef;
 }
@@ -2623,11 +2623,11 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromSsmAccessKeyId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value}
   */
   readonly value: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value_from DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value_from DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value_from}
   */
   readonly valueFrom?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromSsmAccessKeyIdValueFrom;
 }
@@ -2747,11 +2747,11 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromSsmSecretAccessKeyValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
   */
   readonly name: string;
 }
@@ -2868,7 +2868,7 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromSsmSecretAccessKeyValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_key_ref DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_key_ref DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromSsmSecretAccessKeyValueFromSecretKeyRef;
 }
@@ -2962,11 +2962,11 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromSsmSecretAccessKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value}
   */
   readonly value: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value_from DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value_from DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value_from}
   */
   readonly valueFrom?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromSsmSecretAccessKeyValueFrom;
 }
@@ -3086,23 +3086,23 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromSsm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#access_key_id DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#access_key_id DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#access_key_id}
   */
   readonly accessKeyId?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromSsmAccessKeyId;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#region DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#region DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_access_key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_access_key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_access_key}
   */
   readonly secretAccessKey?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromSsmSecretAccessKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#with_decryption DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#with_decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#with_decryption DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#with_decryption}
   */
   readonly withDecryption?: boolean | cdktf.IResolvable;
 }
@@ -3309,35 +3309,35 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromVault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#agent_inject DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#agent_inject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#agent_inject DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#agent_inject}
   */
   readonly agentInject?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#connection_template DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#connection_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#connection_template DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#connection_template}
   */
   readonly connectionTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#endpoint DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#endpoint DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#kubernetes_auth_endpoint DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#kubernetes_auth_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#kubernetes_auth_endpoint DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#kubernetes_auth_endpoint}
   */
   readonly kubernetesAuthEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#role DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#role DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret}
   */
   readonly secret: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#service_account DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#service_account DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#service_account_namespace DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#service_account_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#service_account_namespace DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#service_account_namespace}
   */
   readonly serviceAccountNamespace?: string;
 }
@@ -3628,15 +3628,15 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_key_ref DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#secret_key_ref DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromSecretKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#ssm DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#ssm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#ssm DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#ssm}
   */
   readonly ssm?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromSsm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#vault DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#vault DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#vault}
   */
   readonly vault?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFromVault;
 }
@@ -3788,11 +3788,11 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value_from DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value_from DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value_from}
   */
   readonly valueFrom?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUserValueFrom;
 }
@@ -3915,35 +3915,35 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#dbname DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#dbname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#dbname DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#dbname}
   */
   readonly dbname?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbDbname;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#host DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#host DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#host}
   */
   readonly host?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbHost;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#password DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#password DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#password}
   */
   readonly password?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbPassword;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#port DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#port DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#port}
   */
   readonly port?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbPort;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#schema DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#schema DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#schema}
   */
   readonly schema?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbSchema;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#sslmode DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#sslmode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#sslmode DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#sslmode}
   */
   readonly sslmode?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbSslmode;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#uri DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#uri DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#uri}
   */
   readonly uri?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUri;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#user DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#user DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#user}
   */
   readonly user?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledbUser;
 }
@@ -4240,31 +4240,31 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#cassandra DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#cassandra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#cassandra DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#cassandra}
   */
   readonly cassandra?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionCassandra;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#cockroachdb DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#cockroachdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#cockroachdb DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#cockroachdb}
   */
   readonly cockroachdb?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionCockroachdb;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#mysql DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#mysql DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#mysql}
   */
   readonly mysql?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionMysql;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#postgres DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#postgres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#postgres DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#postgres}
   */
   readonly postgres?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionPostgres;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#rqlite DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#rqlite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#rqlite DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#rqlite}
   */
   readonly rqlite?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionRqlite;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#sqlite DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#sqlite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#sqlite DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#sqlite}
   */
   readonly sqlite?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionSqlite;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#timescaledb DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#timescaledb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#timescaledb DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#timescaledb}
   */
   readonly timescaledb?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionTimescaledb;
 }
@@ -4532,19 +4532,19 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnectionO
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecSchemaheroTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#effect DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#effect DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#key DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#operator DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#operator DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#value DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#value}
   */
   readonly value?: string;
 }
@@ -4747,15 +4747,15 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecSchemaheroT
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecSchemahero {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#image DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#image DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#node_selector DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#node_selector DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#tolerations DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#tolerations DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#tolerations}
   */
   readonly tolerations?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecSchemaheroTolerations[] | cdktf.IResolvable;
 }
@@ -4907,23 +4907,23 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecSchemaheroO
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#annotations DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#annotations DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#finalizers DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#finalizers DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#labels DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#labels DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#name DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#namespace DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#namespace DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -5133,7 +5133,7 @@ export class DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecTemplateMet
 }
 export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#metadata DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#metadata DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#metadata}
   */
   readonly metadata?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecTemplateMetadata;
 }
@@ -5229,27 +5229,27 @@ export interface DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpec {
   /**
   * DatabaseConnection defines connection parameters for the database driver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#connection DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#connection DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#connection}
   */
   readonly connection?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecConnection;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#deploy_seed_data DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#deploy_seed_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#deploy_seed_data DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#deploy_seed_data}
   */
   readonly deploySeedData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#enable_shell_command DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#enable_shell_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#enable_shell_command DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#enable_shell_command}
   */
   readonly enableShellCommand?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#immediate_deploy DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#immediate_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#immediate_deploy DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#immediate_deploy}
   */
   readonly immediateDeploy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#schemahero DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#schemahero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#schemahero DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#schemahero}
   */
   readonly schemahero?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecSchemahero;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#template DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_schemahero_io_database_v1alpha4_manifest#template DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4Manifest#template}
   */
   readonly template?: DataK8SDatabasesSchemaheroIoDatabaseV1Alpha4ManifestSpecTemplate;
 }

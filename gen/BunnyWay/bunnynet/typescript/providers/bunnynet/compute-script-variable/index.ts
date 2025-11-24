@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_script_variable
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/compute_script_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ComputeScriptVariableConfig extends cdktf.TerraformMetaArgument
   /**
   * The default value of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_script_variable#default_value ComputeScriptVariable#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/compute_script_variable#default_value ComputeScriptVariable#default_value}
   */
   readonly defaultValue: string;
   /**
   * The name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_script_variable#name ComputeScriptVariable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/compute_script_variable#name ComputeScriptVariable#name}
   */
   readonly name: string;
   /**
   * Indicates whether the environment variable is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_script_variable#required ComputeScriptVariable#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/compute_script_variable#required ComputeScriptVariable#required}
   */
   readonly required: boolean | cdktf.IResolvable;
   /**
   * The ID of the associated compute script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_script_variable#script ComputeScriptVariable#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/compute_script_variable#script ComputeScriptVariable#script}
   */
   readonly script: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_script_variable bunnynet_compute_script_variable}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/compute_script_variable bunnynet_compute_script_variable}
 */
 export class ComputeScriptVariable extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ComputeScriptVariable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeScriptVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeScriptVariable to import
-  * @param importFromId The id of the existing ComputeScriptVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_script_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeScriptVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/compute_script_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeScriptVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ComputeScriptVariable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/compute_script_variable bunnynet_compute_script_variable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/compute_script_variable bunnynet_compute_script_variable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ComputeScriptVariable extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_compute_script_variable',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.2',
-        providerVersionConstraint: '0.11.2'
+        providerVersion: '0.11.3',
+        providerVersionConstraint: '0.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AutostoppingRuleRdsConfig extends cdktf.TerraformMetaArguments 
   /**
   * Id of the cloud connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#cloud_connector_id AutostoppingRuleRds#cloud_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#cloud_connector_id AutostoppingRuleRds#cloud_connector_id}
   */
   readonly cloudConnectorId: string;
   /**
   * Boolean that indicates whether the AutoStopping rule should be created in DryRun mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#dry_run AutostoppingRuleRds#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#dry_run AutostoppingRuleRds#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#id AutostoppingRuleRds#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#id AutostoppingRuleRds#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface AutostoppingRuleRdsConfig extends cdktf.TerraformMetaArguments 
   /**
   * Idle time in minutes. This is the time that the AutoStopping rule waits before stopping the idle instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#idle_time_mins AutostoppingRuleRds#idle_time_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#idle_time_mins AutostoppingRuleRds#idle_time_mins}
   */
   readonly idleTimeMins?: number;
   /**
   * Name of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#name AutostoppingRuleRds#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#name AutostoppingRuleRds#name}
   */
   readonly name: string;
   /**
   * database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#database AutostoppingRuleRds#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#database AutostoppingRuleRds#database}
   */
   readonly database: AutostoppingRuleRdsDatabase;
   /**
   * depends block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#depends AutostoppingRuleRds#depends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#depends AutostoppingRuleRds#depends}
   */
   readonly depends?: AutostoppingRuleRdsDepends[] | cdktf.IResolvable;
   /**
   * tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#tcp AutostoppingRuleRds#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#tcp AutostoppingRuleRds#tcp}
   */
   readonly tcp?: AutostoppingRuleRdsTcp[] | cdktf.IResolvable;
 }
@@ -61,7 +61,7 @@ export interface AutostoppingRuleRdsDatabase {
   /**
   * ID of the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#id AutostoppingRuleRds#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#id AutostoppingRuleRds#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,7 +70,7 @@ export interface AutostoppingRuleRdsDatabase {
   /**
   * Region to which database belong to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#region AutostoppingRuleRds#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#region AutostoppingRuleRds#region}
   */
   readonly region: string;
 }
@@ -179,13 +179,13 @@ export interface AutostoppingRuleRdsDepends {
   /**
   * Number of seconds the rule should wait after warming up the dependent rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#delay_in_sec AutostoppingRuleRds#delay_in_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#delay_in_sec AutostoppingRuleRds#delay_in_sec}
   */
   readonly delayInSec?: number;
   /**
   * Rule id of the dependent rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#rule_id AutostoppingRuleRds#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#rule_id AutostoppingRuleRds#rule_id}
   */
   readonly ruleId: number;
 }
@@ -329,13 +329,13 @@ export interface AutostoppingRuleRdsTcpForwardRule {
   /**
   * Port to listen on the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#connect_on AutostoppingRuleRds#connect_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#connect_on AutostoppingRuleRds#connect_on}
   */
   readonly connectOn?: number;
   /**
   * Port to listen on the vm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#port AutostoppingRuleRds#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#port AutostoppingRuleRds#port}
   */
   readonly port: number;
 }
@@ -479,13 +479,13 @@ export interface AutostoppingRuleRdsTcp {
   /**
   * Id of the Proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#proxy_id AutostoppingRuleRds#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#proxy_id AutostoppingRuleRds#proxy_id}
   */
   readonly proxyId: string;
   /**
   * forward_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#forward_rule AutostoppingRuleRds#forward_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#forward_rule AutostoppingRuleRds#forward_rule}
   */
   readonly forwardRule?: AutostoppingRuleRdsTcpForwardRule[] | cdktf.IResolvable;
 }
@@ -627,7 +627,7 @@ export class AutostoppingRuleRdsTcpList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds harness_autostopping_rule_rds}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds harness_autostopping_rule_rds}
 */
 export class AutostoppingRuleRds extends cdktf.TerraformResource {
 
@@ -643,7 +643,7 @@ export class AutostoppingRuleRds extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutostoppingRuleRds resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutostoppingRuleRds to import
-  * @param importFromId The id of the existing AutostoppingRuleRds that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutostoppingRuleRds that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutostoppingRuleRds to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -655,7 +655,7 @@ export class AutostoppingRuleRds extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_rds harness_autostopping_rule_rds} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/autostopping_rule_rds harness_autostopping_rule_rds} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -666,8 +666,8 @@ export class AutostoppingRuleRds extends cdktf.TerraformResource {
       terraformResourceType: 'harness_autostopping_rule_rds',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

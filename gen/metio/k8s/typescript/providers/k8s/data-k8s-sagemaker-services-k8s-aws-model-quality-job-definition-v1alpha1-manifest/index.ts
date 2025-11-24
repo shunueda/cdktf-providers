@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestMetadata;
   /**
   * ModelQualityJobDefinitionSpec defines the desired state of ModelQualityJobDefinition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,19 +217,19 @@ export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Mani
 }
 export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecJobResourcesClusterConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#volume_kms_key_id DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#volume_kms_key_id DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
 }
@@ -412,7 +412,7 @@ export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1
   /**
   * Configuration for the cluster used to run model monitoring jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#cluster_config DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#cluster_config DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#cluster_config}
   */
   readonly clusterConfig?: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecJobResourcesClusterConfig;
 }
@@ -506,31 +506,31 @@ export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Mani
 }
 export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecModelQualityAppSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#container_arguments DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#container_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#container_arguments DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#container_arguments}
   */
   readonly containerArguments?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#container_entrypoint DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#container_entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#container_entrypoint DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#container_entrypoint}
   */
   readonly containerEntrypoint?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#environment DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#environment DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#image_uri DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#image_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#image_uri DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#image_uri}
   */
   readonly imageUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#post_analytics_processor_source_uri DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#post_analytics_processor_source_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#post_analytics_processor_source_uri DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#post_analytics_processor_source_uri}
   */
   readonly postAnalyticsProcessorSourceUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#problem_type DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#problem_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#problem_type DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#problem_type}
   */
   readonly problemType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#record_preprocessor_source_uri DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#record_preprocessor_source_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#record_preprocessor_source_uri DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#record_preprocessor_source_uri}
   */
   readonly recordPreprocessorSourceUri?: string;
 }
@@ -798,7 +798,7 @@ export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Mani
 }
 export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecModelQualityBaselineConfigConstraintsResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -892,13 +892,13 @@ export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Mani
 }
 export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecModelQualityBaselineConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#baselining_job_name DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#baselining_job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#baselining_job_name DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#baselining_job_name}
   */
   readonly baseliningJobName?: string;
   /**
   * The constraints resource for a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#constraints_resource DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#constraints_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#constraints_resource DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#constraints_resource}
   */
   readonly constraintsResource?: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecModelQualityBaselineConfigConstraintsResource;
 }
@@ -1021,47 +1021,47 @@ export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Mani
 }
 export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecModelQualityJobInputEndpointInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#end_time_offset DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#end_time_offset DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#end_time_offset}
   */
   readonly endTimeOffset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#endpoint_name DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#endpoint_name DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#endpoint_name}
   */
   readonly endpointName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#exclude_features_attribute DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#exclude_features_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#exclude_features_attribute DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#exclude_features_attribute}
   */
   readonly excludeFeaturesAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#features_attribute DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#features_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#features_attribute DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#features_attribute}
   */
   readonly featuresAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#inference_attribute DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#inference_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#inference_attribute DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#inference_attribute}
   */
   readonly inferenceAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#probability_attribute DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#probability_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#probability_attribute DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#probability_attribute}
   */
   readonly probabilityAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#probability_threshold_attribute DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#probability_threshold_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#probability_threshold_attribute DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#probability_threshold_attribute}
   */
   readonly probabilityThresholdAttribute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#s3_data_distribution_type DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#s3_data_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#s3_data_distribution_type DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#s3_data_distribution_type}
   */
   readonly s3DataDistributionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#s3_input_mode DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#s3_input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#s3_input_mode DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#s3_input_mode}
   */
   readonly s3InputMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#start_time_offset DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#start_time_offset DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#start_time_offset}
   */
   readonly startTimeOffset?: string;
 }
@@ -1445,7 +1445,7 @@ export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Mani
 }
 export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecModelQualityJobInputGroundTruthS3Input {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -1541,13 +1541,13 @@ export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1
   /**
   * Input object for the endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#endpoint_input DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#endpoint_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#endpoint_input DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#endpoint_input}
   */
   readonly endpointInput?: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecModelQualityJobInputEndpointInput;
   /**
   * The ground truth labels for the dataset used for the monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#ground_truth_s3_input DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#ground_truth_s3_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#ground_truth_s3_input DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#ground_truth_s3_input}
   */
   readonly groundTruthS3Input?: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecModelQualityJobInputGroundTruthS3Input;
 }
@@ -1670,15 +1670,15 @@ export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Mani
 }
 export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecModelQualityJobOutputConfigMonitoringOutputsS3Output {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#s3_upload_mode DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#s3_upload_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#s3_upload_mode DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#s3_upload_mode}
   */
   readonly s3UploadMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -1832,7 +1832,7 @@ export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1
   /**
   * Information about where and how you want to store the results of a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#s3_output DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#s3_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#s3_output DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#s3_output}
   */
   readonly s3Output?: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecModelQualityJobOutputConfigMonitoringOutputsS3Output;
 }
@@ -1948,11 +1948,11 @@ export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Mani
 }
 export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecModelQualityJobOutputConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#monitoring_outputs DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#monitoring_outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#monitoring_outputs DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#monitoring_outputs}
   */
   readonly monitoringOutputs?: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecModelQualityJobOutputConfigMonitoringOutputs[] | cdktf.IResolvable;
 }
@@ -2075,11 +2075,11 @@ export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Mani
 }
 export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecNetworkConfigVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#security_group_i_ds DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#security_group_i_ds DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#security_group_i_ds}
   */
   readonly securityGroupIDs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#subnets DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#subnets DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#subnets}
   */
   readonly subnets?: string[];
 }
@@ -2202,17 +2202,17 @@ export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Mani
 }
 export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecNetworkConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#enable_inter_container_traffic_encryption DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#enable_inter_container_traffic_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#enable_inter_container_traffic_encryption DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#enable_inter_container_traffic_encryption}
   */
   readonly enableInterContainerTrafficEncryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#enable_network_isolation DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#enable_network_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#enable_network_isolation DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#enable_network_isolation}
   */
   readonly enableNetworkIsolation?: boolean | cdktf.IResolvable;
   /**
   * Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted models, and compute resources have access to. You can control access to and from your resources by configuring a VPC. For more information, see Give SageMaker Access to Resources in your Amazon VPC (https://docs.aws.amazon.com/sagemaker/latest/dg/infrastructure-give-access.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#vpc_config DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#vpc_config DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#vpc_config}
   */
   readonly vpcConfig?: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecNetworkConfigVpcConfig;
 }
@@ -2364,7 +2364,7 @@ export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Mani
 }
 export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecStoppingCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#max_runtime_in_seconds DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#max_runtime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#max_runtime_in_seconds DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#max_runtime_in_seconds}
   */
   readonly maxRuntimeInSeconds?: number;
 }
@@ -2458,11 +2458,11 @@ export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Mani
 }
 export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2609,61 +2609,61 @@ export interface DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1
   /**
   * The name of the monitoring job definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#job_definition_name DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#job_definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#job_definition_name DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#job_definition_name}
   */
   readonly jobDefinitionName: string;
   /**
   * Identifies the resources to deploy for a monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#job_resources DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#job_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#job_resources DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#job_resources}
   */
   readonly jobResources: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecJobResources;
   /**
   * The container that runs the monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#model_quality_app_specification DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#model_quality_app_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#model_quality_app_specification DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#model_quality_app_specification}
   */
   readonly modelQualityAppSpecification: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecModelQualityAppSpecification;
   /**
   * Specifies the constraints and baselines for the monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#model_quality_baseline_config DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#model_quality_baseline_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#model_quality_baseline_config DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#model_quality_baseline_config}
   */
   readonly modelQualityBaselineConfig?: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecModelQualityBaselineConfig;
   /**
   * A list of the inputs that are monitored. Currently endpoints are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#model_quality_job_input DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#model_quality_job_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#model_quality_job_input DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#model_quality_job_input}
   */
   readonly modelQualityJobInput: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecModelQualityJobInput;
   /**
   * The output configuration for monitoring jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#model_quality_job_output_config DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#model_quality_job_output_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#model_quality_job_output_config DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#model_quality_job_output_config}
   */
   readonly modelQualityJobOutputConfig: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecModelQualityJobOutputConfig;
   /**
   * Specifies the network configuration for the monitoring job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#network_config DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#network_config DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#network_config}
   */
   readonly networkConfig?: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecNetworkConfig;
   /**
   * The Amazon Resource Name (ARN) of an IAM role that Amazon SageMaker can assume to perform tasks on your behalf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#role_arn DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#role_arn DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#role_arn}
   */
   readonly roleArn: string;
   /**
   * A time limit for how long the monitoring job is allowed to run before stopping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#stopping_condition DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#stopping_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#stopping_condition DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#stopping_condition}
   */
   readonly stoppingCondition?: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecStoppingCondition;
   /**
   * (Optional) An array of key-value pairs. For more information, see Using Cost Allocation Tags (https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html#allocation-whatURL) in the Amazon Web Services Billing and Cost Management User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
 }
@@ -3000,7 +3000,7 @@ export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Mani
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest}
 */
 export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3016,7 +3016,7 @@ export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Mani
   * Generates CDKTF code for importing a DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3028,7 +3028,7 @@ export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Mani
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3039,8 +3039,8 @@ export class DataK8SSagemakerServicesK8SAwsModelQualityJobDefinitionV1Alpha1Mani
       terraformResourceType: 'k8s_sagemaker_services_k8s_aws_model_quality_job_definition_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_cluster
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataHarnessPlatformGitopsClusterConfig extends cdktf.TerraformM
   /**
   * Account identifier of the GitOps cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_cluster#account_id DataHarnessPlatformGitopsCluster#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_cluster#account_id DataHarnessPlatformGitopsCluster#account_id}
   */
   readonly accountId?: string;
   /**
   * Agent identifier of the GitOps cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_cluster#agent_id DataHarnessPlatformGitopsCluster#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_cluster#agent_id DataHarnessPlatformGitopsCluster#agent_id}
   */
   readonly agentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_cluster#id DataHarnessPlatformGitopsCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_cluster#id DataHarnessPlatformGitopsCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataHarnessPlatformGitopsClusterConfig extends cdktf.TerraformM
   /**
   * Identifier of the GitOps cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_cluster#identifier DataHarnessPlatformGitopsCluster#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_cluster#identifier DataHarnessPlatformGitopsCluster#identifier}
   */
   readonly identifier: string;
   /**
   * Organization identifier of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_cluster#org_id DataHarnessPlatformGitopsCluster#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_cluster#org_id DataHarnessPlatformGitopsCluster#org_id}
   */
   readonly orgId?: string;
   /**
   * Project identifier of the GitOps cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_cluster#project_id DataHarnessPlatformGitopsCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_cluster#project_id DataHarnessPlatformGitopsCluster#project_id}
   */
   readonly projectId?: string;
 }
@@ -1009,7 +1009,7 @@ export class DataHarnessPlatformGitopsClusterRequestList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_cluster harness_platform_gitops_cluster}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_cluster harness_platform_gitops_cluster}
 */
 export class DataHarnessPlatformGitopsCluster extends cdktf.TerraformDataSource {
 
@@ -1025,7 +1025,7 @@ export class DataHarnessPlatformGitopsCluster extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataHarnessPlatformGitopsCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformGitopsCluster to import
-  * @param importFromId The id of the existing DataHarnessPlatformGitopsCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformGitopsCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformGitopsCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1037,7 +1037,7 @@ export class DataHarnessPlatformGitopsCluster extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_cluster harness_platform_gitops_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_cluster harness_platform_gitops_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1048,8 +1048,8 @@ export class DataHarnessPlatformGitopsCluster extends cdktf.TerraformDataSource 
       terraformResourceType: 'harness_platform_gitops_cluster',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

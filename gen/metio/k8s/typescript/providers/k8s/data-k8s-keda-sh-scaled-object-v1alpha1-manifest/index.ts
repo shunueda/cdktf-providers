@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKedaShScaledObjectV1Alpha1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#metadata DataK8SKedaShScaledObjectV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#metadata DataK8SKedaShScaledObjectV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKedaShScaledObjectV1Alpha1ManifestMetadata;
   /**
   * ScaledObjectSpec is the spec for a ScaledObject resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#spec DataK8SKedaShScaledObjectV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#spec DataK8SKedaShScaledObjectV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SKedaShScaledObjectV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKedaShScaledObjectV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#annotations DataK8SKedaShScaledObjectV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#annotations DataK8SKedaShScaledObjectV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#labels DataK8SKedaShScaledObjectV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#labels DataK8SKedaShScaledObjectV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#name DataK8SKedaShScaledObjectV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#name DataK8SKedaShScaledObjectV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#namespace DataK8SKedaShScaledObjectV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#namespace DataK8SKedaShScaledObjectV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvancedHorizontal
   /**
   * periodSeconds specifies the window of time for which the policy should hold true. PeriodSeconds must be greater than zero and less than or equal to 1800 (30 min).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#period_seconds DataK8SKedaShScaledObjectV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#period_seconds DataK8SKedaShScaledObjectV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds: number;
   /**
   * type is used to specify the scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#type DataK8SKedaShScaledObjectV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#type DataK8SKedaShScaledObjectV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value contains the amount of change which is permitted by the policy. It must be greater than zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#value DataK8SKedaShScaledObjectV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#value DataK8SKedaShScaledObjectV1Alpha1Manifest#value}
   */
   readonly value: number;
 }
@@ -398,19 +398,19 @@ export interface DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvancedHorizontal
   /**
   * policies is a list of potential scaling polices which can be used during scaling. At least one policy must be specified, otherwise the HPAScalingRules will be discarded as invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#policies DataK8SKedaShScaledObjectV1Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#policies DataK8SKedaShScaledObjectV1Alpha1Manifest#policies}
   */
   readonly policies?: DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvancedHorizontalPodAutoscalerConfigBehaviorScaleDownPolicies[] | cdktf.IResolvable;
   /**
   * selectPolicy is used to specify which policy should be used. If not set, the default value Max is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#select_policy DataK8SKedaShScaledObjectV1Alpha1Manifest#select_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#select_policy DataK8SKedaShScaledObjectV1Alpha1Manifest#select_policy}
   */
   readonly selectPolicy?: string;
   /**
   * stabilizationWindowSeconds is the number of seconds for which past recommendations should be considered while scaling up or scaling down. StabilizationWindowSeconds must be greater than or equal to zero and less than or equal to 3600 (one hour). If not set, use the default values: - For scale up: 0 (i.e. no stabilization is done). - For scale down: 300 (i.e. the stabilization window is 300 seconds long).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#stabilization_window_seconds DataK8SKedaShScaledObjectV1Alpha1Manifest#stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#stabilization_window_seconds DataK8SKedaShScaledObjectV1Alpha1Manifest#stabilization_window_seconds}
   */
   readonly stabilizationWindowSeconds?: number;
 }
@@ -564,19 +564,19 @@ export interface DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvancedHorizontal
   /**
   * periodSeconds specifies the window of time for which the policy should hold true. PeriodSeconds must be greater than zero and less than or equal to 1800 (30 min).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#period_seconds DataK8SKedaShScaledObjectV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#period_seconds DataK8SKedaShScaledObjectV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds: number;
   /**
   * type is used to specify the scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#type DataK8SKedaShScaledObjectV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#type DataK8SKedaShScaledObjectV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value contains the amount of change which is permitted by the policy. It must be greater than zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#value DataK8SKedaShScaledObjectV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#value DataK8SKedaShScaledObjectV1Alpha1Manifest#value}
   */
   readonly value: number;
 }
@@ -743,19 +743,19 @@ export interface DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvancedHorizontal
   /**
   * policies is a list of potential scaling polices which can be used during scaling. At least one policy must be specified, otherwise the HPAScalingRules will be discarded as invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#policies DataK8SKedaShScaledObjectV1Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#policies DataK8SKedaShScaledObjectV1Alpha1Manifest#policies}
   */
   readonly policies?: DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvancedHorizontalPodAutoscalerConfigBehaviorScaleUpPolicies[] | cdktf.IResolvable;
   /**
   * selectPolicy is used to specify which policy should be used. If not set, the default value Max is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#select_policy DataK8SKedaShScaledObjectV1Alpha1Manifest#select_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#select_policy DataK8SKedaShScaledObjectV1Alpha1Manifest#select_policy}
   */
   readonly selectPolicy?: string;
   /**
   * stabilizationWindowSeconds is the number of seconds for which past recommendations should be considered while scaling up or scaling down. StabilizationWindowSeconds must be greater than or equal to zero and less than or equal to 3600 (one hour). If not set, use the default values: - For scale up: 0 (i.e. no stabilization is done). - For scale down: 300 (i.e. the stabilization window is 300 seconds long).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#stabilization_window_seconds DataK8SKedaShScaledObjectV1Alpha1Manifest#stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#stabilization_window_seconds DataK8SKedaShScaledObjectV1Alpha1Manifest#stabilization_window_seconds}
   */
   readonly stabilizationWindowSeconds?: number;
 }
@@ -909,13 +909,13 @@ export interface DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvancedHorizontal
   /**
   * scaleDown is scaling policy for scaling Down. If not set, the default value is to allow to scale down to minReplicas pods, with a 300 second stabilization window (i.e., the highest recommendation for the last 300sec is used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#scale_down DataK8SKedaShScaledObjectV1Alpha1Manifest#scale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#scale_down DataK8SKedaShScaledObjectV1Alpha1Manifest#scale_down}
   */
   readonly scaleDown?: DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvancedHorizontalPodAutoscalerConfigBehaviorScaleDown;
   /**
   * scaleUp is scaling policy for scaling Up. If not set, the default value is the higher of: * increase no more than 4 pods per 60 seconds * double the number of pods per 60 seconds No stabilization is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#scale_up DataK8SKedaShScaledObjectV1Alpha1Manifest#scale_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#scale_up DataK8SKedaShScaledObjectV1Alpha1Manifest#scale_up}
   */
   readonly scaleUp?: DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvancedHorizontalPodAutoscalerConfigBehaviorScaleUp;
 }
@@ -1040,11 +1040,11 @@ export interface DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvancedHorizontal
   /**
   * HorizontalPodAutoscalerBehavior configures the scaling behavior of the target in both Up and Down directions (scaleUp and scaleDown fields respectively).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#behavior DataK8SKedaShScaledObjectV1Alpha1Manifest#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#behavior DataK8SKedaShScaledObjectV1Alpha1Manifest#behavior}
   */
   readonly behavior?: DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvancedHorizontalPodAutoscalerConfigBehavior;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#name DataK8SKedaShScaledObjectV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#name DataK8SKedaShScaledObjectV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1167,21 +1167,21 @@ export class DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvancedHorizontalPodA
 }
 export interface DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvancedScalingModifiers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#activation_target DataK8SKedaShScaledObjectV1Alpha1Manifest#activation_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#activation_target DataK8SKedaShScaledObjectV1Alpha1Manifest#activation_target}
   */
   readonly activationTarget?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#formula DataK8SKedaShScaledObjectV1Alpha1Manifest#formula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#formula DataK8SKedaShScaledObjectV1Alpha1Manifest#formula}
   */
   readonly formula?: string;
   /**
   * MetricTargetType specifies the type of metric being targeted, and should be either 'Value', 'AverageValue', or 'Utilization'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#metric_type DataK8SKedaShScaledObjectV1Alpha1Manifest#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#metric_type DataK8SKedaShScaledObjectV1Alpha1Manifest#metric_type}
   */
   readonly metricType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#target DataK8SKedaShScaledObjectV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#target DataK8SKedaShScaledObjectV1Alpha1Manifest#target}
   */
   readonly target?: string;
 }
@@ -1364,17 +1364,17 @@ export interface DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvanced {
   /**
   * HorizontalPodAutoscalerConfig specifies horizontal scale config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#horizontal_pod_autoscaler_config DataK8SKedaShScaledObjectV1Alpha1Manifest#horizontal_pod_autoscaler_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#horizontal_pod_autoscaler_config DataK8SKedaShScaledObjectV1Alpha1Manifest#horizontal_pod_autoscaler_config}
   */
   readonly horizontalPodAutoscalerConfig?: DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvancedHorizontalPodAutoscalerConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#restore_to_original_replica_count DataK8SKedaShScaledObjectV1Alpha1Manifest#restore_to_original_replica_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#restore_to_original_replica_count DataK8SKedaShScaledObjectV1Alpha1Manifest#restore_to_original_replica_count}
   */
   readonly restoreToOriginalReplicaCount?: boolean | cdktf.IResolvable;
   /**
   * ScalingModifiers describes advanced scaling logic options like formula
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#scaling_modifiers DataK8SKedaShScaledObjectV1Alpha1Manifest#scaling_modifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#scaling_modifiers DataK8SKedaShScaledObjectV1Alpha1Manifest#scaling_modifiers}
   */
   readonly scalingModifiers?: DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvancedScalingModifiers;
 }
@@ -1526,11 +1526,11 @@ export class DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvancedOutputReferenc
 }
 export interface DataK8SKedaShScaledObjectV1Alpha1ManifestSpecFallback {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#failure_threshold DataK8SKedaShScaledObjectV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#failure_threshold DataK8SKedaShScaledObjectV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#replicas DataK8SKedaShScaledObjectV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#replicas DataK8SKedaShScaledObjectV1Alpha1Manifest#replicas}
   */
   readonly replicas: number;
 }
@@ -1647,19 +1647,19 @@ export class DataK8SKedaShScaledObjectV1Alpha1ManifestSpecFallbackOutputReferenc
 }
 export interface DataK8SKedaShScaledObjectV1Alpha1ManifestSpecScaleTargetRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#api_version DataK8SKedaShScaledObjectV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#api_version DataK8SKedaShScaledObjectV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#env_source_container_name DataK8SKedaShScaledObjectV1Alpha1Manifest#env_source_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#env_source_container_name DataK8SKedaShScaledObjectV1Alpha1Manifest#env_source_container_name}
   */
   readonly envSourceContainerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#kind DataK8SKedaShScaledObjectV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#kind DataK8SKedaShScaledObjectV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#name DataK8SKedaShScaledObjectV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#name DataK8SKedaShScaledObjectV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1839,11 +1839,11 @@ export interface DataK8SKedaShScaledObjectV1Alpha1ManifestSpecTriggersAuthentica
   /**
   * Kind of the resource being referred to. Defaults to TriggerAuthentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#kind DataK8SKedaShScaledObjectV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#kind DataK8SKedaShScaledObjectV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#name DataK8SKedaShScaledObjectV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#name DataK8SKedaShScaledObjectV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1965,29 +1965,29 @@ export interface DataK8SKedaShScaledObjectV1Alpha1ManifestSpecTriggers {
   /**
   * AuthenticationRef points to the TriggerAuthentication or ClusterTriggerAuthentication object that is used to authenticate the scaler with the environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#authentication_ref DataK8SKedaShScaledObjectV1Alpha1Manifest#authentication_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#authentication_ref DataK8SKedaShScaledObjectV1Alpha1Manifest#authentication_ref}
   */
   readonly authenticationRef?: DataK8SKedaShScaledObjectV1Alpha1ManifestSpecTriggersAuthenticationRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#metadata DataK8SKedaShScaledObjectV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#metadata DataK8SKedaShScaledObjectV1Alpha1Manifest#metadata}
   */
   readonly metadata: { [key: string]: string };
   /**
   * MetricTargetType specifies the type of metric being targeted, and should be either 'Value', 'AverageValue', or 'Utilization'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#metric_type DataK8SKedaShScaledObjectV1Alpha1Manifest#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#metric_type DataK8SKedaShScaledObjectV1Alpha1Manifest#metric_type}
   */
   readonly metricType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#name DataK8SKedaShScaledObjectV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#name DataK8SKedaShScaledObjectV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#type DataK8SKedaShScaledObjectV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#type DataK8SKedaShScaledObjectV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#use_cached_metrics DataK8SKedaShScaledObjectV1Alpha1Manifest#use_cached_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#use_cached_metrics DataK8SKedaShScaledObjectV1Alpha1Manifest#use_cached_metrics}
   */
   readonly useCachedMetrics?: boolean | cdktf.IResolvable;
 }
@@ -2244,47 +2244,47 @@ export interface DataK8SKedaShScaledObjectV1Alpha1ManifestSpec {
   /**
   * AdvancedConfig specifies advance scaling options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#advanced DataK8SKedaShScaledObjectV1Alpha1Manifest#advanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#advanced DataK8SKedaShScaledObjectV1Alpha1Manifest#advanced}
   */
   readonly advanced?: DataK8SKedaShScaledObjectV1Alpha1ManifestSpecAdvanced;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#cooldown_period DataK8SKedaShScaledObjectV1Alpha1Manifest#cooldown_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#cooldown_period DataK8SKedaShScaledObjectV1Alpha1Manifest#cooldown_period}
   */
   readonly cooldownPeriod?: number;
   /**
   * Fallback is the spec for fallback options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#fallback DataK8SKedaShScaledObjectV1Alpha1Manifest#fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#fallback DataK8SKedaShScaledObjectV1Alpha1Manifest#fallback}
   */
   readonly fallback?: DataK8SKedaShScaledObjectV1Alpha1ManifestSpecFallback;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#idle_replica_count DataK8SKedaShScaledObjectV1Alpha1Manifest#idle_replica_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#idle_replica_count DataK8SKedaShScaledObjectV1Alpha1Manifest#idle_replica_count}
   */
   readonly idleReplicaCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#initial_cooldown_period DataK8SKedaShScaledObjectV1Alpha1Manifest#initial_cooldown_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#initial_cooldown_period DataK8SKedaShScaledObjectV1Alpha1Manifest#initial_cooldown_period}
   */
   readonly initialCooldownPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#max_replica_count DataK8SKedaShScaledObjectV1Alpha1Manifest#max_replica_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#max_replica_count DataK8SKedaShScaledObjectV1Alpha1Manifest#max_replica_count}
   */
   readonly maxReplicaCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#min_replica_count DataK8SKedaShScaledObjectV1Alpha1Manifest#min_replica_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#min_replica_count DataK8SKedaShScaledObjectV1Alpha1Manifest#min_replica_count}
   */
   readonly minReplicaCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#polling_interval DataK8SKedaShScaledObjectV1Alpha1Manifest#polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#polling_interval DataK8SKedaShScaledObjectV1Alpha1Manifest#polling_interval}
   */
   readonly pollingInterval?: number;
   /**
   * ScaleTarget holds the reference to the scale target Object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#scale_target_ref DataK8SKedaShScaledObjectV1Alpha1Manifest#scale_target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#scale_target_ref DataK8SKedaShScaledObjectV1Alpha1Manifest#scale_target_ref}
   */
   readonly scaleTargetRef: DataK8SKedaShScaledObjectV1Alpha1ManifestSpecScaleTargetRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#triggers DataK8SKedaShScaledObjectV1Alpha1Manifest#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#triggers DataK8SKedaShScaledObjectV1Alpha1Manifest#triggers}
   */
   readonly triggers: DataK8SKedaShScaledObjectV1Alpha1ManifestSpecTriggers[] | cdktf.IResolvable;
 }
@@ -2633,7 +2633,7 @@ export class DataK8SKedaShScaledObjectV1Alpha1ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest k8s_keda_sh_scaled_object_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest k8s_keda_sh_scaled_object_v1alpha1_manifest}
 */
 export class DataK8SKedaShScaledObjectV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2649,7 +2649,7 @@ export class DataK8SKedaShScaledObjectV1Alpha1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SKedaShScaledObjectV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKedaShScaledObjectV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKedaShScaledObjectV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKedaShScaledObjectV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKedaShScaledObjectV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2661,7 +2661,7 @@ export class DataK8SKedaShScaledObjectV1Alpha1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest k8s_keda_sh_scaled_object_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_scaled_object_v1alpha1_manifest k8s_keda_sh_scaled_object_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2672,8 +2672,8 @@ export class DataK8SKedaShScaledObjectV1Alpha1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_keda_sh_scaled_object_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

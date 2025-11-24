@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestMetadata;
   /**
   * The specification of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#spec DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#spec DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#namespace DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#namespace DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,15 +217,15 @@ export class DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestMetadataOutputReferenc
 }
 export interface DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecAuthenticationPasswordValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -379,7 +379,7 @@ export interface DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecAuthentication
   /**
   * Selects a key of a Secret in the resource's namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#secret_key_ref DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#secret_key_ref DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecAuthenticationPasswordValueFromSecretKeyRef;
 }
@@ -475,7 +475,7 @@ export interface DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecAuthentication
   /**
   * Secret from which the password should be read.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#value_from DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#value_from DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#value_from}
   */
   readonly valueFrom: DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecAuthenticationPasswordValueFrom;
 }
@@ -568,13 +568,13 @@ export interface DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecAuthentication
   /**
   * Specify the password for the user. If not set, a new password is generated by the User Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#password DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#password DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#password}
   */
   readonly password?: DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecAuthenticationPassword;
   /**
   * Authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#type}
   */
   readonly type: string;
 }
@@ -696,19 +696,19 @@ export interface DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecAuthorizationA
   /**
   * Name of resource for which given ACL rule applies. Can be combined with 'patternType' field to use prefix pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * Describes the pattern used in the resource field. The supported types are 'literal' and 'prefix'. With 'literal' pattern type, the resource field will be used as a definition of a full name. With 'prefix' pattern type, the resource name will be used only as a prefix. Default value is 'literal'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#pattern_type DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#pattern_type DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#pattern_type}
   */
   readonly patternType?: string;
   /**
   * Resource type. The available resource types are 'topic', 'group', 'cluster', and 'transactionalId'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#type}
   */
   readonly type: string;
 }
@@ -859,31 +859,31 @@ export interface DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecAuthorizationA
   /**
   * The host from which the action described in the ACL rule is allowed or denied. If not set, it defaults to '*', allowing or denying the action from any host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#host DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#host DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#host}
   */
   readonly host?: string;
   /**
   * Operation which will be allowed or denied. Supported operations are: Read, Write, Create, Delete, Alter, Describe, ClusterAction, AlterConfigs, DescribeConfigs, IdempotentWrite and All.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#operation DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#operation DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#operation}
   */
   readonly operation?: string;
   /**
   * List of operations to allow or deny. Supported operations are: Read, Write, Create, Delete, Alter, Describe, ClusterAction, AlterConfigs, DescribeConfigs, IdempotentWrite and All. Only certain operations work with the specified resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#operations DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#operations DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#operations}
   */
   readonly operations?: string[];
   /**
   * Indicates the resource for which given ACL rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#resource DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#resource DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#resource}
   */
   readonly resource: DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecAuthorizationAclsResource;
   /**
   * The type of the rule. Currently the only supported type is 'allow'. ACL rules with type 'allow' are used to allow user to execute the specified operations. Default value is 'allow'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -1114,13 +1114,13 @@ export interface DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecAuthorization 
   /**
   * List of ACL rules which should be applied to this user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#acls DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#acls DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#acls}
   */
   readonly acls: DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecAuthorizationAcls[] | cdktf.IResolvable;
   /**
   * Authorization type. Currently the only supported type is 'simple'. 'simple' authorization type uses the Kafka Admin API for managing the ACL rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#type}
   */
   readonly type: string;
 }
@@ -1239,25 +1239,25 @@ export interface DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecQuotas {
   /**
   * A quota on the maximum bytes per-second that each client group can fetch from a broker before the clients in the group are throttled. Defined on a per-broker basis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#consumer_byte_rate DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#consumer_byte_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#consumer_byte_rate DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#consumer_byte_rate}
   */
   readonly consumerByteRate?: number;
   /**
   * A quota on the rate at which mutations are accepted for the create topics request, the create partitions request and the delete topics request. The rate is accumulated by the number of partitions created or deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#controller_mutation_rate DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#controller_mutation_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#controller_mutation_rate DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#controller_mutation_rate}
   */
   readonly controllerMutationRate?: number;
   /**
   * A quota on the maximum bytes per-second that each client group can publish to a broker before the clients in the group are throttled. Defined on a per-broker basis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#producer_byte_rate DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#producer_byte_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#producer_byte_rate DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#producer_byte_rate}
   */
   readonly producerByteRate?: number;
   /**
   * A quota on the maximum CPU utilization of each client group as a percentage of network and I/O threads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#request_percentage DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#request_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#request_percentage DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#request_percentage}
   */
   readonly requestPercentage?: number;
 }
@@ -1440,13 +1440,13 @@ export interface DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecTemplateSecret
   /**
   * Annotations added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -1571,7 +1571,7 @@ export interface DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecTemplateSecret
   /**
   * Metadata applied to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#metadata}
   */
   readonly metadata?: DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecTemplateSecretMetadata;
 }
@@ -1667,7 +1667,7 @@ export interface DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecTemplate {
   /**
   * Template for KafkaUser resources. The template allows users to specify how the 'Secret' with password or TLS certificates is generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#secret DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#secret DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#secret}
   */
   readonly secret?: DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecTemplateSecret;
 }
@@ -1763,25 +1763,25 @@ export interface DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpec {
   /**
   * Authentication mechanism enabled for this Kafka user. The supported authentication mechanisms are 'scram-sha-512', 'tls', and 'tls-external'. * 'scram-sha-512' generates a secret with SASL SCRAM-SHA-512 credentials. * 'tls' generates a secret with user certificate for mutual TLS authentication. * 'tls-external' does not generate a user certificate. But prepares the user for using mutual TLS authentication using a user certificate generated outside the User Operator. ACLs and quotas set for this user are configured in the 'CN=<username>' format. Authentication is optional. If authentication is not configured, no credentials are generated. ACLs and quotas set for the user are configured in the '<username>' format suitable for SASL authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#authentication DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#authentication DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#authentication}
   */
   readonly authentication?: DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecAuthentication;
   /**
   * Authorization rules for this Kafka user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#authorization DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#authorization DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#authorization}
   */
   readonly authorization?: DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecAuthorization;
   /**
   * Quotas on requests to control the broker resources used by clients. Network bandwidth and request rate quotas can be enforced.Kafka documentation for Kafka User quotas can be found at http://kafka.apache.org/documentation/#design_quotas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#quotas DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#quotas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#quotas DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#quotas}
   */
   readonly quotas?: DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecQuotas;
   /**
   * Template to specify how Kafka User 'Secrets' are generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#template DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#template DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest#template}
   */
   readonly template?: DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecTemplate;
 }
@@ -1962,7 +1962,7 @@ export class DataK8SKafkaStrimziIoKafkaUserV1Beta2ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest k8s_kafka_strimzi_io_kafka_user_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest k8s_kafka_strimzi_io_kafka_user_v1beta2_manifest}
 */
 export class DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -1978,7 +1978,7 @@ export class DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1990,7 +1990,7 @@ export class DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest k8s_kafka_strimzi_io_kafka_user_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_user_v1beta2_manifest k8s_kafka_strimzi_io_kafka_user_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2001,8 +2001,8 @@ export class DataK8SKafkaStrimziIoKafkaUserV1Beta2Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_kafka_strimzi_io_kafka_user_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_provider
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlatformProviderConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the provider entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_provider#description PlatformProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_provider#description PlatformProvider#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_provider#id PlatformProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_provider#id PlatformProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface PlatformProviderConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identifier of the provider entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_provider#identifier PlatformProvider#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_provider#identifier PlatformProvider#identifier}
   */
   readonly identifier: string;
   /**
   * The name of the provider entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_provider#name PlatformProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_provider#name PlatformProvider#name}
   */
   readonly name: string;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_provider#spec PlatformProvider#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_provider#spec PlatformProvider#spec}
   */
   readonly spec: PlatformProviderSpec;
 }
@@ -43,37 +43,37 @@ export interface PlatformProviderSpec {
   /**
   * Client Id of the OAuth app to connect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_provider#client_id PlatformProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_provider#client_id PlatformProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * Client Secret Ref of the OAuth app to connect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_provider#client_secret_ref PlatformProvider#client_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_provider#client_secret_ref PlatformProvider#client_secret_ref}
   */
   readonly clientSecretRef?: string;
   /**
   * Delegate selectors to fetch the access token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_provider#delegate_selectors PlatformProvider#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_provider#delegate_selectors PlatformProvider#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Host domain of the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_provider#domain PlatformProvider#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_provider#domain PlatformProvider#domain}
   */
   readonly domain?: string;
   /**
   * Secret Manager Ref to store the access/refresh tokens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_provider#secret_manager_ref PlatformProvider#secret_manager_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_provider#secret_manager_ref PlatformProvider#secret_manager_ref}
   */
   readonly secretManagerRef?: string;
   /**
   * The type of the provider entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_provider#type PlatformProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_provider#type PlatformProvider#type}
   */
   readonly type: string;
 }
@@ -299,7 +299,7 @@ export class PlatformProviderSpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_provider harness_platform_provider}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_provider harness_platform_provider}
 */
 export class PlatformProvider extends cdktf.TerraformResource {
 
@@ -315,7 +315,7 @@ export class PlatformProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformProvider to import
-  * @param importFromId The id of the existing PlatformProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -327,7 +327,7 @@ export class PlatformProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_provider harness_platform_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_provider harness_platform_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -338,8 +338,8 @@ export class PlatformProvider extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_provider',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

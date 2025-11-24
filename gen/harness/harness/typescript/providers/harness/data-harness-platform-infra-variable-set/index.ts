@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHarnessPlatformInfraVariableSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#id DataHarnessPlatformInfraVariableSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#id DataHarnessPlatformInfraVariableSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface DataHarnessPlatformInfraVariableSetConfig extends cdktf.Terrafo
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#identifier DataHarnessPlatformInfraVariableSet#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#identifier DataHarnessPlatformInfraVariableSet#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#name DataHarnessPlatformInfraVariableSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#name DataHarnessPlatformInfraVariableSet#name}
   */
   readonly name?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#org_id DataHarnessPlatformInfraVariableSet#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#org_id DataHarnessPlatformInfraVariableSet#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#project_id DataHarnessPlatformInfraVariableSet#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#project_id DataHarnessPlatformInfraVariableSet#project_id}
   */
   readonly projectId?: string;
   /**
   * connector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#connector DataHarnessPlatformInfraVariableSet#connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#connector DataHarnessPlatformInfraVariableSet#connector}
   */
   readonly connector?: DataHarnessPlatformInfraVariableSetConnector[] | cdktf.IResolvable;
   /**
   * environment_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#environment_variable DataHarnessPlatformInfraVariableSet#environment_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#environment_variable DataHarnessPlatformInfraVariableSet#environment_variable}
   */
   readonly environmentVariable?: DataHarnessPlatformInfraVariableSetEnvironmentVariable[] | cdktf.IResolvable;
   /**
   * terraform_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#terraform_variable DataHarnessPlatformInfraVariableSet#terraform_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#terraform_variable DataHarnessPlatformInfraVariableSet#terraform_variable}
   */
   readonly terraformVariable?: DataHarnessPlatformInfraVariableSetTerraformVariable[] | cdktf.IResolvable;
   /**
   * terraform_variable_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#terraform_variable_file DataHarnessPlatformInfraVariableSet#terraform_variable_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#terraform_variable_file DataHarnessPlatformInfraVariableSet#terraform_variable_file}
   */
   readonly terraformVariableFile?: DataHarnessPlatformInfraVariableSetTerraformVariableFile[] | cdktf.IResolvable;
 }
@@ -67,13 +67,13 @@ export interface DataHarnessPlatformInfraVariableSetConnector {
   /**
   * Connector Ref is the reference to the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#connector_ref DataHarnessPlatformInfraVariableSet#connector_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#connector_ref DataHarnessPlatformInfraVariableSet#connector_ref}
   */
   readonly connectorRef: string;
   /**
   * Type is the connector type of the connector. Supported types: aws, azure, gcp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#type DataHarnessPlatformInfraVariableSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#type DataHarnessPlatformInfraVariableSet#type}
   */
   readonly type: string;
 }
@@ -214,19 +214,19 @@ export interface DataHarnessPlatformInfraVariableSetEnvironmentVariable {
   /**
   * Key is the identifier for the variable. Must be unique within the Variable Set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#key DataHarnessPlatformInfraVariableSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#key DataHarnessPlatformInfraVariableSet#key}
   */
   readonly key: string;
   /**
   * Value is the value of the variable. For string value types this field should contain the value of the variable. For secret value types this should contain a reference to a valid harness secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#value DataHarnessPlatformInfraVariableSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#value DataHarnessPlatformInfraVariableSet#value}
   */
   readonly value: string;
   /**
   * Value type indicates the value type of the variable. Currently we support string and secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#value_type DataHarnessPlatformInfraVariableSet#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#value_type DataHarnessPlatformInfraVariableSet#value_type}
   */
   readonly valueType: string;
 }
@@ -393,19 +393,19 @@ export interface DataHarnessPlatformInfraVariableSetTerraformVariable {
   /**
   * Key is the identifier for the variable. Must be unique within the Variable Set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#key DataHarnessPlatformInfraVariableSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#key DataHarnessPlatformInfraVariableSet#key}
   */
   readonly key: string;
   /**
   * Value is the value of the variable. For string value types this field should contain the value of the variable. For secret value types this should contain a reference to a valid harness secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#value DataHarnessPlatformInfraVariableSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#value DataHarnessPlatformInfraVariableSet#value}
   */
   readonly value: string;
   /**
   * Value type indicates the value type of the variable. Currently we support string and secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#value_type DataHarnessPlatformInfraVariableSet#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#value_type DataHarnessPlatformInfraVariableSet#value_type}
   */
   readonly valueType: string;
 }
@@ -572,37 +572,37 @@ export interface DataHarnessPlatformInfraVariableSetTerraformVariableFile {
   /**
   * Repository is the name of the repository to fetch the code from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#repository DataHarnessPlatformInfraVariableSet#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#repository DataHarnessPlatformInfraVariableSet#repository}
   */
   readonly repository: string;
   /**
   * Repository branch is the name of the branch to fetch the variables from. This cannot be set if repository commit or sha is set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#repository_branch DataHarnessPlatformInfraVariableSet#repository_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#repository_branch DataHarnessPlatformInfraVariableSet#repository_branch}
   */
   readonly repositoryBranch?: string;
   /**
   * Repository commit is tag to fetch the variables from. This cannot be set if repository branch or sha is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#repository_commit DataHarnessPlatformInfraVariableSet#repository_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#repository_commit DataHarnessPlatformInfraVariableSet#repository_commit}
   */
   readonly repositoryCommit?: string;
   /**
   * Repository connector is the reference to the connector used to fetch the variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#repository_connector DataHarnessPlatformInfraVariableSet#repository_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#repository_connector DataHarnessPlatformInfraVariableSet#repository_connector}
   */
   readonly repositoryConnector: string;
   /**
   * Repository path is the path in which the variables reside.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#repository_path DataHarnessPlatformInfraVariableSet#repository_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#repository_path DataHarnessPlatformInfraVariableSet#repository_path}
   */
   readonly repositoryPath?: string;
   /**
   * Repository commit is SHA to fetch the variables from. This cannot be set if repository branch or commit is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#repository_sha DataHarnessPlatformInfraVariableSet#repository_sha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#repository_sha DataHarnessPlatformInfraVariableSet#repository_sha}
   */
   readonly repositorySha?: string;
 }
@@ -857,7 +857,7 @@ export class DataHarnessPlatformInfraVariableSetTerraformVariableFileList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set harness_platform_infra_variable_set}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set harness_platform_infra_variable_set}
 */
 export class DataHarnessPlatformInfraVariableSet extends cdktf.TerraformDataSource {
 
@@ -873,7 +873,7 @@ export class DataHarnessPlatformInfraVariableSet extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataHarnessPlatformInfraVariableSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformInfraVariableSet to import
-  * @param importFromId The id of the existing DataHarnessPlatformInfraVariableSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformInfraVariableSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformInfraVariableSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -885,7 +885,7 @@ export class DataHarnessPlatformInfraVariableSet extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_variable_set harness_platform_infra_variable_set} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_infra_variable_set harness_platform_infra_variable_set} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -896,8 +896,8 @@ export class DataHarnessPlatformInfraVariableSet extends cdktf.TerraformDataSour
       terraformResourceType: 'harness_platform_infra_variable_set',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/data-sources/customer
+// https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/customer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,11 @@ export interface DataIndykiteCustomerConfig extends cdktf.TerraformMetaArguments
   /**
   * Identifier of Customer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/data-sources/customer#customer_id DataIndykiteCustomer#customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/customer#customer_id DataIndykiteCustomer#customer_id}
   */
   readonly customerId?: string;
   /**
-  * Your own description of the resource. Must be less than or equal to 256 UTF-8 bytes.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/data-sources/customer#description DataIndykiteCustomer#description}
-  */
-  readonly description?: string;
-  /**
-  * The display name for the instance. Can be updated without creating a new resource.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/data-sources/customer#display_name DataIndykiteCustomer#display_name}
-  */
-  readonly displayName?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/data-sources/customer#id DataIndykiteCustomer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/customer#id DataIndykiteCustomer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,23 +23,23 @@ export interface DataIndykiteCustomerConfig extends cdktf.TerraformMetaArguments
   /**
   * Unique client assigned immutable identifier. Can not be updated without creating a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/data-sources/customer#name DataIndykiteCustomer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/customer#name DataIndykiteCustomer#name}
   */
   readonly name?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/data-sources/customer#timeouts DataIndykiteCustomer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/customer#timeouts DataIndykiteCustomer#timeouts}
   */
   readonly timeouts?: DataIndykiteCustomerTimeouts;
 }
 export interface DataIndykiteCustomerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/data-sources/customer#default DataIndykiteCustomer#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/customer#default DataIndykiteCustomer#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/data-sources/customer#read DataIndykiteCustomer#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/customer#read DataIndykiteCustomer#read}
   */
   readonly read?: string;
 }
@@ -174,7 +162,7 @@ export class DataIndykiteCustomerTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/data-sources/customer indykite_customer}
+* Represents a {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/customer indykite_customer}
 */
 export class DataIndykiteCustomer extends cdktf.TerraformDataSource {
 
@@ -190,7 +178,7 @@ export class DataIndykiteCustomer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIndykiteCustomer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIndykiteCustomer to import
-  * @param importFromId The id of the existing DataIndykiteCustomer that should be imported. Refer to the {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/data-sources/customer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIndykiteCustomer that should be imported. Refer to the {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/customer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIndykiteCustomer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +190,7 @@ export class DataIndykiteCustomer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/data-sources/customer indykite_customer} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/data-sources/customer indykite_customer} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +201,8 @@ export class DataIndykiteCustomer extends cdktf.TerraformDataSource {
       terraformResourceType: 'indykite_customer',
       terraformGeneratorMetadata: {
         providerName: 'indykite',
-        providerVersion: '0.27.0',
-        providerVersionConstraint: '0.27.0'
+        providerVersion: '0.28.0',
+        providerVersionConstraint: '0.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -225,8 +213,6 @@ export class DataIndykiteCustomer extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._customerId = config.customerId;
-    this._description = config.description;
-    this._displayName = config.displayName;
     this._id = config.id;
     this._name = config.name;
     this._timeouts.internalValue = config.timeouts;
@@ -241,7 +227,7 @@ export class DataIndykiteCustomer extends cdktf.TerraformDataSource {
     return this.getStringAttribute('create_time');
   }
 
-  // customer_id - computed: false, optional: true, required: false
+  // customer_id - computed: true, optional: true, required: false
   private _customerId?: string; 
   public get customerId() {
     return this.getStringAttribute('customer_id');
@@ -257,36 +243,14 @@ export class DataIndykiteCustomer extends cdktf.TerraformDataSource {
     return this._customerId;
   }
 
-  // description - computed: false, optional: true, required: false
-  private _description?: string; 
+  // description - computed: true, optional: false, required: false
   public get description() {
     return this.getStringAttribute('description');
   }
-  public set description(value: string) {
-    this._description = value;
-  }
-  public resetDescription() {
-    this._description = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get descriptionInput() {
-    return this._description;
-  }
 
-  // display_name - computed: false, optional: true, required: false
-  private _displayName?: string; 
+  // display_name - computed: true, optional: false, required: false
   public get displayName() {
     return this.getStringAttribute('display_name');
-  }
-  public set displayName(value: string) {
-    this._displayName = value;
-  }
-  public resetDisplayName() {
-    this._displayName = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get displayNameInput() {
-    return this._displayName;
   }
 
   // id - computed: true, optional: true, required: false
@@ -305,7 +269,7 @@ export class DataIndykiteCustomer extends cdktf.TerraformDataSource {
     return this._id;
   }
 
-  // name - computed: false, optional: true, required: false
+  // name - computed: true, optional: true, required: false
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -349,8 +313,6 @@ export class DataIndykiteCustomer extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       customer_id: cdktf.stringToTerraform(this._customerId),
-      description: cdktf.stringToTerraform(this._description),
-      display_name: cdktf.stringToTerraform(this._displayName),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       timeouts: dataIndykiteCustomerTimeoutsToTerraform(this._timeouts.internalValue),
@@ -361,18 +323,6 @@ export class DataIndykiteCustomer extends cdktf.TerraformDataSource {
     const attrs = {
       customer_id: {
         value: cdktf.stringToHclTerraform(this._customerId),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      description: {
-        value: cdktf.stringToHclTerraform(this._description),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      display_name: {
-        value: cdktf.stringToHclTerraform(this._displayName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

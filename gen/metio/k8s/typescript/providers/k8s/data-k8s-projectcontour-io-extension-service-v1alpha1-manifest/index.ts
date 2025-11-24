@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#metadata DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#metadata DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestMetadata;
   /**
   * ExtensionServiceSpec defines the desired state of an ExtensionService resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#spec DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#spec DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#annotations DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#annotations DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#labels DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#labels DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#name DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#name DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#namespace DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#namespace DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,31 +219,31 @@ export interface DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecCirc
   /**
   * The maximum number of connections that a single Envoy instance allows to the Kubernetes Service; defaults to 1024.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#max_connections DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#max_connections DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * The maximum number of pending requests that a single Envoy instance allows to the Kubernetes Service; defaults to 1024.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#max_pending_requests DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#max_pending_requests DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#max_pending_requests}
   */
   readonly maxPendingRequests?: number;
   /**
   * The maximum parallel requests a single Envoy instance allows to the Kubernetes Service; defaults to 1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#max_requests DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#max_requests DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#max_requests}
   */
   readonly maxRequests?: number;
   /**
   * The maximum number of parallel retries a single Envoy instance allows to the Kubernetes Service; defaults to 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#max_retries DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#max_retries DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * PerHostMaxConnections is the maximum number of connections that Envoy will allow to each individual host in a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#per_host_max_connections DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#per_host_max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#per_host_max_connections DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#per_host_max_connections}
   */
   readonly perHostMaxConnections?: number;
 }
@@ -455,7 +455,7 @@ export interface DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecLoad
   /**
   * HeaderName is the name of the HTTP request header that will be used to calculate the hash key. If the header specified is not present on a request, no hash will be produced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#header_name DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#header_name DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#header_name}
   */
   readonly headerName?: string;
 }
@@ -551,7 +551,7 @@ export interface DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecLoad
   /**
   * ParameterName is the name of the HTTP request query parameter that will be used to calculate the hash key. If the query parameter specified is not present on a request, no hash will be produced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#parameter_name DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#parameter_name DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#parameter_name}
   */
   readonly parameterName?: string;
 }
@@ -647,25 +647,25 @@ export interface DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecLoad
   /**
   * HashSourceIP should be set to true when request source IP hash based load balancing is desired. It must be the only hash option field set, otherwise this request hash policy object will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#hash_source_ip DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#hash_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#hash_source_ip DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#hash_source_ip}
   */
   readonly hashSourceIp?: boolean | cdktf.IResolvable;
   /**
   * HeaderHashOptions should be set when request header hash based load balancing is desired. It must be the only hash option field set, otherwise this request hash policy object will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#header_hash_options DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#header_hash_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#header_hash_options DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#header_hash_options}
   */
   readonly headerHashOptions?: DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecLoadBalancerPolicyRequestHashPoliciesHeaderHashOptions;
   /**
   * QueryParameterHashOptions should be set when request query parameter hash based load balancing is desired. It must be the only hash option field set, otherwise this request hash policy object will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#query_parameter_hash_options DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#query_parameter_hash_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#query_parameter_hash_options DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#query_parameter_hash_options}
   */
   readonly queryParameterHashOptions?: DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecLoadBalancerPolicyRequestHashPoliciesQueryParameterHashOptions;
   /**
   * Terminal is a flag that allows for short-circuiting computing of a hash for a given request. If set to true, and the request attribute specified in the attribute hash options is present, no further hash policies will be used to calculate a hash for the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#terminal DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#terminal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#terminal DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#terminal}
   */
   readonly terminal?: boolean | cdktf.IResolvable;
 }
@@ -870,13 +870,13 @@ export interface DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecLoad
   /**
   * RequestHashPolicies contains a list of hash policies to apply when the 'RequestHash' load balancing strategy is chosen. If an element of the supplied list of hash policies is invalid, it will be ignored. If the list of hash policies is empty after validation, the load balancing strategy will fall back to the default 'RoundRobin'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#request_hash_policies DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#request_hash_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#request_hash_policies DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#request_hash_policies}
   */
   readonly requestHashPolicies?: DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecLoadBalancerPolicyRequestHashPolicies[] | cdktf.IResolvable;
   /**
   * Strategy specifies the policy used to balance requests across the pool of backend pods. Valid policy names are 'Random', 'RoundRobin', 'WeightedLeastRequest', 'Cookie', and 'RequestHash'. If an unknown strategy name is specified or no policy is supplied, the default 'RoundRobin' policy is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#strategy DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#strategy DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#strategy}
   */
   readonly strategy?: string;
 }
@@ -1001,19 +1001,19 @@ export interface DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecServ
   /**
   * Name is the name of Kubernetes service that will accept service traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#name DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#name DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Port (defined as Integer) to proxy traffic to since a service can have multiple defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#port DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#port DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Weight defines proportion of traffic to balance to the Kubernetes Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#weight DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#weight DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -1183,19 +1183,19 @@ export interface DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecTime
   /**
   * Timeout for how long the proxy should wait while there is no activity during single request/response (for HTTP/1.1) or stream (for HTTP/2). Timeout will not trigger while HTTP/1.1 connection is idle between two consecutive requests. If not specified, there is no per-route idle timeout, though a connection manager-wide stream_idle_timeout default of 5m still applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#idle DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#idle DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#idle}
   */
   readonly idle?: string;
   /**
   * Timeout for how long connection from the proxy to the upstream service is kept when there are no active requests. If not supplied, Envoy's default value of 1h applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#idle_connection DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#idle_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#idle_connection DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#idle_connection}
   */
   readonly idleConnection?: string;
   /**
   * Timeout for receiving a response from the server after processing a request from client. If not supplied, Envoy's default value of 15s applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#response DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#response DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#response}
   */
   readonly response?: string;
 }
@@ -1349,19 +1349,19 @@ export interface DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecVali
   /**
   * Name or namespaced name of the Kubernetes secret used to validate the certificate presented by the backend. The secret must contain key named ca.crt. The name can be optionally prefixed with namespace 'namespace/name'. When cross-namespace reference is used, TLSCertificateDelegation resource must exist in the namespace to grant access to the secret. Max length should be the actual max possible length of a namespaced name (63 + 253 + 1 = 317)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#ca_secret DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#ca_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#ca_secret DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#ca_secret}
   */
   readonly caSecret: string;
   /**
   * Key which is expected to be present in the 'subjectAltName' of the presented certificate. Deprecated: migrate to using the plural field subjectNames.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#subject_name DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#subject_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#subject_name DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#subject_name}
   */
   readonly subjectName: string;
   /**
   * List of keys, of which at least one is expected to be present in the 'subjectAltName of the presented certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#subject_names DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#subject_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#subject_names DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#subject_names}
   */
   readonly subjectNames?: string[];
 }
@@ -1509,43 +1509,43 @@ export interface DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpec {
   /**
   * CircuitBreakerPolicy specifies the circuit breaker budget across the extension service. If defined this overrides the global circuit breaker budget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#circuit_breaker_policy DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#circuit_breaker_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#circuit_breaker_policy DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#circuit_breaker_policy}
   */
   readonly circuitBreakerPolicy?: DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecCircuitBreakerPolicy;
   /**
   * The policy for load balancing GRPC service requests. Note that the 'Cookie' and 'RequestHash' load balancing strategies cannot be used here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#load_balancer_policy DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#load_balancer_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#load_balancer_policy DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#load_balancer_policy}
   */
   readonly loadBalancerPolicy?: DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecLoadBalancerPolicy;
   /**
   * Protocol may be used to specify (or override) the protocol used to reach this Service. Values may be h2 or h2c. If omitted, protocol-selection falls back on Service annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#protocol DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#protocol DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * This field sets the version of the GRPC protocol that Envoy uses to send requests to the extension service. Since Contour always uses the v3 Envoy API, this is currently fixed at 'v3'. However, other protocol options will be available in future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#protocol_version DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#protocol_version DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#protocol_version}
   */
   readonly protocolVersion?: string;
   /**
   * Services specifies the set of Kubernetes Service resources that receive GRPC extension API requests. If no weights are specified for any of the entries in this array, traffic will be spread evenly across all the services. Otherwise, traffic is balanced proportionally to the Weight field in each entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#services DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#services DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#services}
   */
   readonly services: DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecServices[] | cdktf.IResolvable;
   /**
   * The timeout policy for requests to the services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#timeout_policy DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#timeout_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#timeout_policy DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#timeout_policy}
   */
   readonly timeoutPolicy?: DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecTimeoutPolicy;
   /**
   * UpstreamValidation defines how to verify the backend service's certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#validation DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#validation DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest#validation}
   */
   readonly validation?: DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecValidation;
 }
@@ -1810,7 +1810,7 @@ export class DataK8SProjectcontourIoExtensionServiceV1Alpha1ManifestSpecOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest k8s_projectcontour_io_extension_service_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest k8s_projectcontour_io_extension_service_v1alpha1_manifest}
 */
 export class DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1826,7 +1826,7 @@ export class DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1838,7 +1838,7 @@ export class DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest k8s_projectcontour_io_extension_service_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/projectcontour_io_extension_service_v1alpha1_manifest k8s_projectcontour_io_extension_service_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1849,8 +1849,8 @@ export class DataK8SProjectcontourIoExtensionServiceV1Alpha1Manifest extends cdk
       terraformResourceType: 'k8s_projectcontour_io_extension_service_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

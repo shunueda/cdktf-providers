@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ChaosImageRegistryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#id ChaosImageRegistry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#id ChaosImageRegistry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,85 +17,85 @@ export interface ChaosImageRegistryConfig extends cdktf.TerraformMetaArguments {
   /**
   * The infrastructure ID to set up the image registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#infra_id ChaosImageRegistry#infra_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#infra_id ChaosImageRegistry#infra_id}
   */
   readonly infraId?: string;
   /**
   * Whether this is the default registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#is_default ChaosImageRegistry#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#is_default ChaosImageRegistry#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * Whether override is allowed for this registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#is_override_allowed ChaosImageRegistry#is_override_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#is_override_allowed ChaosImageRegistry#is_override_allowed}
   */
   readonly isOverrideAllowed?: boolean | cdktf.IResolvable;
   /**
   * Whether the registry is private
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#is_private ChaosImageRegistry#is_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#is_private ChaosImageRegistry#is_private}
   */
   readonly isPrivate: boolean | cdktf.IResolvable;
   /**
   * The organization ID of the image registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#org_id ChaosImageRegistry#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#org_id ChaosImageRegistry#org_id}
   */
   readonly orgId?: string;
   /**
   * The project ID of the image registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#project_id ChaosImageRegistry#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#project_id ChaosImageRegistry#project_id}
   */
   readonly projectId?: string;
   /**
   * The registry account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#registry_account ChaosImageRegistry#registry_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#registry_account ChaosImageRegistry#registry_account}
   */
   readonly registryAccount: string;
   /**
   * The registry server URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#registry_server ChaosImageRegistry#registry_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#registry_server ChaosImageRegistry#registry_server}
   */
   readonly registryServer: string;
   /**
   * The name of the secret for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#secret_name ChaosImageRegistry#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#secret_name ChaosImageRegistry#secret_name}
   */
   readonly secretName?: string;
   /**
   * Whether to use custom images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#use_custom_images ChaosImageRegistry#use_custom_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#use_custom_images ChaosImageRegistry#use_custom_images}
   */
   readonly useCustomImages?: boolean | cdktf.IResolvable;
   /**
   * custom_images block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#custom_images ChaosImageRegistry#custom_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#custom_images ChaosImageRegistry#custom_images}
   */
   readonly customImages?: ChaosImageRegistryCustomImages[] | cdktf.IResolvable;
 }
 export interface ChaosImageRegistryCustomImages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#ddcr ChaosImageRegistry#ddcr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#ddcr ChaosImageRegistry#ddcr}
   */
   readonly ddcr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#ddcr_fault ChaosImageRegistry#ddcr_fault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#ddcr_fault ChaosImageRegistry#ddcr_fault}
   */
   readonly ddcrFault?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#ddcr_lib ChaosImageRegistry#ddcr_lib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#ddcr_lib ChaosImageRegistry#ddcr_lib}
   */
   readonly ddcrLib?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#log_watcher ChaosImageRegistry#log_watcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#log_watcher ChaosImageRegistry#log_watcher}
   */
   readonly logWatcher?: string;
 }
@@ -298,7 +298,7 @@ export class ChaosImageRegistryCustomImagesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry harness_chaos_image_registry}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry harness_chaos_image_registry}
 */
 export class ChaosImageRegistry extends cdktf.TerraformResource {
 
@@ -314,7 +314,7 @@ export class ChaosImageRegistry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ChaosImageRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChaosImageRegistry to import
-  * @param importFromId The id of the existing ChaosImageRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChaosImageRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChaosImageRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -326,7 +326,7 @@ export class ChaosImageRegistry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_image_registry harness_chaos_image_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_image_registry harness_chaos_image_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -337,8 +337,8 @@ export class ChaosImageRegistry extends cdktf.TerraformResource {
       terraformResourceType: 'harness_chaos_image_registry',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

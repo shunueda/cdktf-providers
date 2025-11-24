@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PlatformTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify comment with respect to changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#comments PlatformTemplate#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#comments PlatformTemplate#comments}
   */
   readonly comments?: string;
   /**
   * Description of the entity. Description field is deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#description PlatformTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#description PlatformTemplate#description}
   */
   readonly description?: string;
   /**
   * Enable this flag for force deletion of template. It will delete the Harness entity even if your pipelines or other entities reference it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#force_delete PlatformTemplate#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#force_delete PlatformTemplate#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#id PlatformTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#id PlatformTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,73 +35,73 @@ export interface PlatformTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#identifier PlatformTemplate#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#identifier PlatformTemplate#identifier}
   */
   readonly identifier: string;
   /**
   * Flag to set if importing from Git
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#import_from_git PlatformTemplate#import_from_git}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#import_from_git PlatformTemplate#import_from_git}
   */
   readonly importFromGit?: boolean | cdktf.IResolvable;
   /**
   * True if given version for template to be set as stable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#is_stable PlatformTemplate#is_stable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#is_stable PlatformTemplate#is_stable}
   */
   readonly isStable?: boolean | cdktf.IResolvable;
   /**
   * Name of the Variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#name PlatformTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#name PlatformTemplate#name}
   */
   readonly name: string;
   /**
   * Organization Identifier for the Entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#org_id PlatformTemplate#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#org_id PlatformTemplate#org_id}
   */
   readonly orgId?: string;
   /**
   * Project Identifier for the Entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#project_id PlatformTemplate#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#project_id PlatformTemplate#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#tags PlatformTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#tags PlatformTemplate#tags}
   */
   readonly tags?: string[];
   /**
   * Yaml for creating new Template. In YAML, to reference an entity at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference an entity at the account scope, prefix 'account` to the expression: account.{identifier}. For eg, to reference a connector with identifier 'connectorId' at the organization scope in a stage mention it as connectorRef: org.connectorId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#template_yaml PlatformTemplate#template_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#template_yaml PlatformTemplate#template_yaml}
   */
   readonly templateYaml?: string;
   /**
   * Version Label for Template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#version PlatformTemplate#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#version PlatformTemplate#version}
   */
   readonly version: string;
   /**
   * git_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#git_details PlatformTemplate#git_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#git_details PlatformTemplate#git_details}
   */
   readonly gitDetails?: PlatformTemplateGitDetails;
   /**
   * git_import_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#git_import_details PlatformTemplate#git_import_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#git_import_details PlatformTemplate#git_import_details}
   */
   readonly gitImportDetails?: PlatformTemplateGitImportDetails;
   /**
   * template_import_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#template_import_request PlatformTemplate#template_import_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#template_import_request PlatformTemplate#template_import_request}
   */
   readonly templateImportRequest?: PlatformTemplateTemplateImportRequest;
 }
@@ -109,55 +109,55 @@ export interface PlatformTemplateGitDetails {
   /**
   * Name of the default branch (this checks out a new branch titled by branch_name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#base_branch PlatformTemplate#base_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#base_branch PlatformTemplate#base_branch}
   */
   readonly baseBranch?: string;
   /**
   * Name of the branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#branch_name PlatformTemplate#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#branch_name PlatformTemplate#branch_name}
   */
   readonly branchName?: string;
   /**
   * Commit message used for the merge commit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#commit_message PlatformTemplate#commit_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#commit_message PlatformTemplate#commit_message}
   */
   readonly commitMessage?: string;
   /**
   * Identifier of the Harness Connector used for CRUD operations on the Entity. To reference a connector at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a connector at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#connector_ref PlatformTemplate#connector_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#connector_ref PlatformTemplate#connector_ref}
   */
   readonly connectorRef?: string;
   /**
   * File path of the Entity in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#file_path PlatformTemplate#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#file_path PlatformTemplate#file_path}
   */
   readonly filePath?: string;
   /**
   * Last commit identifier (for Git Repositories other than Github). To be provided only when updating Pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#last_commit_id PlatformTemplate#last_commit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#last_commit_id PlatformTemplate#last_commit_id}
   */
   readonly lastCommitId?: string;
   /**
   * Last object identifier (for Github). To be provided only when updating Pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#last_object_id PlatformTemplate#last_object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#last_object_id PlatformTemplate#last_object_id}
   */
   readonly lastObjectId?: string;
   /**
   * Name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#repo_name PlatformTemplate#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#repo_name PlatformTemplate#repo_name}
   */
   readonly repoName?: string;
   /**
   * Specifies whether the Entity is to be stored in Git or not. Possible values: INLINE, REMOTE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#store_type PlatformTemplate#store_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#store_type PlatformTemplate#store_type}
   */
   readonly storeType?: string;
 }
@@ -475,29 +475,29 @@ export interface PlatformTemplateGitImportDetails {
   /**
   * Name of the branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#branch_name PlatformTemplate#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#branch_name PlatformTemplate#branch_name}
   */
   readonly branchName?: string;
   /**
   * Identifier of the Harness Connector used for importing entity from Git To reference a connector at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a connector at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#connector_ref PlatformTemplate#connector_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#connector_ref PlatformTemplate#connector_ref}
   */
   readonly connectorRef?: string;
   /**
   * File path of the Entity in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#file_path PlatformTemplate#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#file_path PlatformTemplate#file_path}
   */
   readonly filePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#is_force_import PlatformTemplate#is_force_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#is_force_import PlatformTemplate#is_force_import}
   */
   readonly isForceImport?: boolean | cdktf.IResolvable;
   /**
   * Name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#repo_name PlatformTemplate#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#repo_name PlatformTemplate#repo_name}
   */
   readonly repoName?: string;
 }
@@ -699,19 +699,19 @@ export interface PlatformTemplateTemplateImportRequest {
   /**
   * Description of the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#template_description PlatformTemplate#template_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#template_description PlatformTemplate#template_description}
   */
   readonly templateDescription?: string;
   /**
   * Name of the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#template_name PlatformTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#template_name PlatformTemplate#template_name}
   */
   readonly templateName?: string;
   /**
   * Version of the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#template_version PlatformTemplate#template_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#template_version PlatformTemplate#template_version}
   */
   readonly templateVersion?: string;
 }
@@ -853,7 +853,7 @@ export class PlatformTemplateTemplateImportRequestOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template harness_platform_template}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template harness_platform_template}
 */
 export class PlatformTemplate extends cdktf.TerraformResource {
 
@@ -869,7 +869,7 @@ export class PlatformTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformTemplate to import
-  * @param importFromId The id of the existing PlatformTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -881,7 +881,7 @@ export class PlatformTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_template harness_platform_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_template harness_platform_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -892,8 +892,8 @@ export class PlatformTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_template',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

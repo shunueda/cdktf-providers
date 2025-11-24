@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alp
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#metadata DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#metadata DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1ManifestMetadata;
   /**
   * Spec defines properties of a VolumeGroupSnapshotContent created by the underlying storage system. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#spec DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#spec DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alp
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#annotations DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#annotations DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#labels DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#labels DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#name DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#name DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alp
   /**
   * VolumeGroupSnapshotHandle specifies the CSI 'group_snapshot_id' of a pre-existing group snapshot on the underlying storage system for which a Kubernetes object representation was (or should be) created. This field is immutable. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#volume_group_snapshot_handle DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#volume_group_snapshot_handle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#volume_group_snapshot_handle DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#volume_group_snapshot_handle}
   */
   readonly volumeGroupSnapshotHandle: string;
   /**
   * VolumeSnapshotHandles is a list of CSI 'snapshot_id' of pre-existing snapshots on the underlying storage system for which Kubernetes objects representation were (or should be) created. This field is immutable. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#volume_snapshot_handles DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#volume_snapshot_handles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#volume_snapshot_handles DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#volume_snapshot_handles}
   */
   readonly volumeSnapshotHandles: string[];
 }
@@ -312,13 +312,13 @@ export interface DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alp
   /**
   * GroupSnapshotHandles specifies the CSI 'group_snapshot_id' of a pre-existing group snapshot and a list of CSI 'snapshot_id' of pre-existing snapshots on the underlying storage system for which a Kubernetes object representation was (or should be) created. This field is immutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#group_snapshot_handles DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#group_snapshot_handles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#group_snapshot_handles DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#group_snapshot_handles}
   */
   readonly groupSnapshotHandles?: DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1ManifestSpecSourceGroupSnapshotHandles;
   /**
   * VolumeHandles is a list of volume handles on the backend to be snapshotted together. It is specified for dynamic provisioning of the VolumeGroupSnapshot. This field is immutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#volume_handles DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#volume_handles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#volume_handles DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#volume_handles}
   */
   readonly volumeHandles?: string[];
 }
@@ -443,43 +443,43 @@ export interface DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alp
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#api_version DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#api_version DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#field_path DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#field_path DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#kind DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#kind DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#name DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#name DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#namespace DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#namespace DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#resource_version DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#resource_version DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#uid DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#uid DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -749,31 +749,31 @@ export interface DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alp
   /**
   * DeletionPolicy determines whether this VolumeGroupSnapshotContent and the physical group snapshot on the underlying storage system should be deleted when the bound VolumeGroupSnapshot is deleted. Supported values are 'Retain' and 'Delete'. 'Retain' means that the VolumeGroupSnapshotContent and its physical group snapshot on underlying storage system are kept. 'Delete' means that the VolumeGroupSnapshotContent and its physical group snapshot on underlying storage system are deleted. For dynamically provisioned group snapshots, this field will automatically be filled in by the CSI snapshotter sidecar with the 'DeletionPolicy' field defined in the corresponding VolumeGroupSnapshotClass. For pre-existing snapshots, users MUST specify this field when creating the VolumeGroupSnapshotContent object. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#deletion_policy DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#deletion_policy DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#deletion_policy}
   */
   readonly deletionPolicy: string;
   /**
   * Driver is the name of the CSI driver used to create the physical group snapshot on the underlying storage system. This MUST be the same as the name returned by the CSI GetPluginName() call for that driver. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#driver DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#driver DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * Source specifies whether the snapshot is (or should be) dynamically provisioned or already exists, and just requires a Kubernetes object representation. This field is immutable after creation. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#source DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#source DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#source}
   */
   readonly source: DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1ManifestSpecSource;
   /**
   * VolumeGroupSnapshotClassName is the name of the VolumeGroupSnapshotClass from which this group snapshot was (or will be) created. Note that after provisioning, the VolumeGroupSnapshotClass may be deleted or recreated with different set of values, and as such, should not be referenced post-snapshot creation. For dynamic provisioning, this field must be set. This field may be unset for pre-provisioned snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#volume_group_snapshot_class_name DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#volume_group_snapshot_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#volume_group_snapshot_class_name DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#volume_group_snapshot_class_name}
   */
   readonly volumeGroupSnapshotClassName?: string;
   /**
   * VolumeGroupSnapshotRef specifies the VolumeGroupSnapshot object to which this VolumeGroupSnapshotContent object is bound. VolumeGroupSnapshot.Spec.VolumeGroupSnapshotContentName field must reference to this VolumeGroupSnapshotContent's name for the bidirectional binding to be valid. For a pre-existing VolumeGroupSnapshotContent object, name and namespace of the VolumeGroupSnapshot object MUST be provided for binding to happen. This field is immutable after creation. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#volume_group_snapshot_ref DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#volume_group_snapshot_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#volume_group_snapshot_ref DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest#volume_group_snapshot_ref}
   */
   readonly volumeGroupSnapshotRef: DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1ManifestSpecVolumeGroupSnapshotRef;
 }
@@ -971,7 +971,7 @@ export class DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1M
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest k8s_groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest k8s_groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest}
 */
 export class DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -987,7 +987,7 @@ export class DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1M
   * Generates CDKTF code for importing a DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -999,7 +999,7 @@ export class DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1M
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest k8s_groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest k8s_groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1010,8 +1010,8 @@ export class DataK8SGroupsnapshotStorageK8SIoVolumeGroupSnapshotContentV1Alpha1M
       terraformResourceType: 'k8s_groupsnapshot_storage_k8s_io_volume_group_snapshot_content_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

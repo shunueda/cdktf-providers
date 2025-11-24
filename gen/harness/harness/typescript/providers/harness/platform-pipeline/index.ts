@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlatformPipelineConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#description PlatformPipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#description PlatformPipeline#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#id PlatformPipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#id PlatformPipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,73 +23,73 @@ export interface PlatformPipelineConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#identifier PlatformPipeline#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#identifier PlatformPipeline#identifier}
   */
   readonly identifier: string;
   /**
   * Flag to set if importing from Git
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#import_from_git PlatformPipeline#import_from_git}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#import_from_git PlatformPipeline#import_from_git}
   */
   readonly importFromGit?: boolean | cdktf.IResolvable;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#name PlatformPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#name PlatformPipeline#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#org_id PlatformPipeline#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#org_id PlatformPipeline#org_id}
   */
   readonly orgId: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#project_id PlatformPipeline#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#project_id PlatformPipeline#project_id}
   */
   readonly projectId: string;
   /**
   * Tags to associate with the resource. These should match the tag value passed in the YAML; if this parameter is null or not passed, the tags specified in YAML should also be null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#tags PlatformPipeline#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#tags PlatformPipeline#tags}
   */
   readonly tags?: string[];
   /**
   * If true, returns Pipeline YAML with Templates applied on it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#template_applied PlatformPipeline#template_applied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#template_applied PlatformPipeline#template_applied}
   */
   readonly templateApplied?: boolean | cdktf.IResolvable;
   /**
   * Pipeline YAML after resolving Templates (returned as a String).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#template_applied_pipeline_yaml PlatformPipeline#template_applied_pipeline_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#template_applied_pipeline_yaml PlatformPipeline#template_applied_pipeline_yaml}
   */
   readonly templateAppliedPipelineYaml?: string;
   /**
   * YAML of the pipeline. In YAML, to reference an entity at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference an entity at the account scope, prefix 'account` to the expression: account.{identifier}. For eg, to reference a connector with identifier 'connectorId' at the organization scope in a stage mention it as connectorRef: org.connectorId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#yaml PlatformPipeline#yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#yaml PlatformPipeline#yaml}
   */
   readonly yaml?: string;
   /**
   * git_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#git_details PlatformPipeline#git_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#git_details PlatformPipeline#git_details}
   */
   readonly gitDetails?: PlatformPipelineGitDetails;
   /**
   * git_import_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#git_import_info PlatformPipeline#git_import_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#git_import_info PlatformPipeline#git_import_info}
   */
   readonly gitImportInfo?: PlatformPipelineGitImportInfo;
   /**
   * pipeline_import_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#pipeline_import_request PlatformPipeline#pipeline_import_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#pipeline_import_request PlatformPipeline#pipeline_import_request}
   */
   readonly pipelineImportRequest?: PlatformPipelinePipelineImportRequest;
 }
@@ -97,61 +97,61 @@ export interface PlatformPipelineGitDetails {
   /**
   * Name of the default branch (this checks out a new branch titled by branch_name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#base_branch PlatformPipeline#base_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#base_branch PlatformPipeline#base_branch}
   */
   readonly baseBranch?: string;
   /**
   * Name of the branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#branch_name PlatformPipeline#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#branch_name PlatformPipeline#branch_name}
   */
   readonly branchName?: string;
   /**
   * Commit message used for the merge commit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#commit_message PlatformPipeline#commit_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#commit_message PlatformPipeline#commit_message}
   */
   readonly commitMessage?: string;
   /**
   * Identifier of the Harness Connector used for CRUD operations on the Entity. To reference a connector at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a connector at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#connector_ref PlatformPipeline#connector_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#connector_ref PlatformPipeline#connector_ref}
   */
   readonly connectorRef?: string;
   /**
   * File path of the Entity in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#file_path PlatformPipeline#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#file_path PlatformPipeline#file_path}
   */
   readonly filePath?: string;
   /**
   * If the repo is harness code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#is_harness_code_repo PlatformPipeline#is_harness_code_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#is_harness_code_repo PlatformPipeline#is_harness_code_repo}
   */
   readonly isHarnessCodeRepo?: boolean | cdktf.IResolvable;
   /**
   * Last commit identifier (for Git Repositories other than Github). To be provided only when updating Pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#last_commit_id PlatformPipeline#last_commit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#last_commit_id PlatformPipeline#last_commit_id}
   */
   readonly lastCommitId?: string;
   /**
   * Last object identifier (for Github). To be provided only when updating Pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#last_object_id PlatformPipeline#last_object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#last_object_id PlatformPipeline#last_object_id}
   */
   readonly lastObjectId?: string;
   /**
   * Name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#repo_name PlatformPipeline#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#repo_name PlatformPipeline#repo_name}
   */
   readonly repoName?: string;
   /**
   * Specifies whether the Entity is to be stored in Git or not. Possible values: INLINE, REMOTE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#store_type PlatformPipeline#store_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#store_type PlatformPipeline#store_type}
   */
   readonly storeType?: string;
 }
@@ -498,25 +498,25 @@ export interface PlatformPipelineGitImportInfo {
   /**
   * Name of the branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#branch_name PlatformPipeline#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#branch_name PlatformPipeline#branch_name}
   */
   readonly branchName?: string;
   /**
   * Identifier of the Harness Connector used for importing entity from Git To reference a connector at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a connector at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#connector_ref PlatformPipeline#connector_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#connector_ref PlatformPipeline#connector_ref}
   */
   readonly connectorRef?: string;
   /**
   * File path of the Entity in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#file_path PlatformPipeline#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#file_path PlatformPipeline#file_path}
   */
   readonly filePath?: string;
   /**
   * Name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#repo_name PlatformPipeline#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#repo_name PlatformPipeline#repo_name}
   */
   readonly repoName?: string;
 }
@@ -689,13 +689,13 @@ export interface PlatformPipelinePipelineImportRequest {
   /**
   * Description of the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#pipeline_description PlatformPipeline#pipeline_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#pipeline_description PlatformPipeline#pipeline_description}
   */
   readonly pipelineDescription?: string;
   /**
   * Name of the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#pipeline_name PlatformPipeline#pipeline_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#pipeline_name PlatformPipeline#pipeline_name}
   */
   readonly pipelineName?: string;
 }
@@ -808,7 +808,7 @@ export class PlatformPipelinePipelineImportRequestOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline harness_platform_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline harness_platform_pipeline}
 */
 export class PlatformPipeline extends cdktf.TerraformResource {
 
@@ -824,7 +824,7 @@ export class PlatformPipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformPipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformPipeline to import
-  * @param importFromId The id of the existing PlatformPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -836,7 +836,7 @@ export class PlatformPipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_pipeline harness_platform_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_pipeline harness_platform_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -847,8 +847,8 @@ export class PlatformPipeline extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

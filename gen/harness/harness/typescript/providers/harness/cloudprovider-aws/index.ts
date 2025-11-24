@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface CloudproviderAwsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The plain text AWS access key id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws#access_key_id CloudproviderAws#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws#access_key_id CloudproviderAws#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
   * The name of the Harness secret containing the AWS access key id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws#access_key_id_secret_name CloudproviderAws#access_key_id_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws#access_key_id_secret_name CloudproviderAws#access_key_id_secret_name}
   */
   readonly accessKeyIdSecretName?: string;
   /**
   * Select the Delegate to use via one of its Selectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws#delegate_selector CloudproviderAws#delegate_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws#delegate_selector CloudproviderAws#delegate_selector}
   */
   readonly delegateSelector?: string;
   /**
   * The name of the cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws#name CloudproviderAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws#name CloudproviderAws#name}
   */
   readonly name: string;
   /**
   * The name of the Harness secret containing the AWS secret access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws#secret_access_key_secret_name CloudproviderAws#secret_access_key_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws#secret_access_key_secret_name CloudproviderAws#secret_access_key_secret_name}
   */
   readonly secretAccessKeySecretName?: string;
   /**
   * Use the EC2 Instance Profile for Service Accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws#use_ec2_iam_credentials CloudproviderAws#use_ec2_iam_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws#use_ec2_iam_credentials CloudproviderAws#use_ec2_iam_credentials}
   */
   readonly useEc2IamCredentials?: boolean | cdktf.IResolvable;
   /**
   * Use the AWS IAM Role for Service Accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws#use_irsa CloudproviderAws#use_irsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws#use_irsa CloudproviderAws#use_irsa}
   */
   readonly useIrsa?: boolean | cdktf.IResolvable;
   /**
   * assume_cross_account_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws#assume_cross_account_role CloudproviderAws#assume_cross_account_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws#assume_cross_account_role CloudproviderAws#assume_cross_account_role}
   */
   readonly assumeCrossAccountRole?: CloudproviderAwsAssumeCrossAccountRole;
   /**
   * usage_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws#usage_scope CloudproviderAws#usage_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws#usage_scope CloudproviderAws#usage_scope}
   */
   readonly usageScope?: CloudproviderAwsUsageScope[] | cdktf.IResolvable;
 }
@@ -66,13 +66,13 @@ export interface CloudproviderAwsAssumeCrossAccountRole {
   /**
   * If the administrator of the account to which the role belongs provided you with an external ID, then enter that value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws#external_id CloudproviderAws#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws#external_id CloudproviderAws#external_id}
   */
   readonly externalId?: string;
   /**
   * This is an IAM role in the target deployment AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws#role_arn CloudproviderAws#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws#role_arn CloudproviderAws#role_arn}
   */
   readonly roleArn: string;
 }
@@ -184,19 +184,19 @@ export interface CloudproviderAwsUsageScope {
   /**
   * Id of the application to scope to. If empty then this scope applies to all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws#application_id CloudproviderAws#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws#application_id CloudproviderAws#application_id}
   */
   readonly applicationId?: string;
   /**
   * Type of environment filter applied. Cannot be used with `environment_id`. Valid options are NON_PRODUCTION_ENVIRONMENTS, PRODUCTION_ENVIRONMENTS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws#environment_filter_type CloudproviderAws#environment_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws#environment_filter_type CloudproviderAws#environment_filter_type}
   */
   readonly environmentFilterType?: string;
   /**
   * Id of the id of the specific environment to scope to. Cannot be used with `environment_filter_type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws#environment_id CloudproviderAws#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws#environment_id CloudproviderAws#environment_id}
   */
   readonly environmentId?: string;
 }
@@ -370,7 +370,7 @@ export class CloudproviderAwsUsageScopeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws harness_cloudprovider_aws}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws harness_cloudprovider_aws}
 */
 export class CloudproviderAws extends cdktf.TerraformResource {
 
@@ -386,7 +386,7 @@ export class CloudproviderAws extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudproviderAws resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudproviderAws to import
-  * @param importFromId The id of the existing CloudproviderAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudproviderAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudproviderAws to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -398,7 +398,7 @@ export class CloudproviderAws extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_aws harness_cloudprovider_aws} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_aws harness_cloudprovider_aws} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -409,8 +409,8 @@ export class CloudproviderAws extends cdktf.TerraformResource {
       terraformResourceType: 'harness_cloudprovider_aws',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

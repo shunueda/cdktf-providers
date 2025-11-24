@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PlatformGitopsRepoCredConfig extends cdktf.TerraformMetaArgumen
   /**
   * Account identifier of the Repository Credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#account_id PlatformGitopsRepoCred#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#account_id PlatformGitopsRepoCred#account_id}
   */
   readonly accountId?: string;
   /**
   * Agent identifier of the Repository Credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#agent_id PlatformGitopsRepoCred#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#agent_id PlatformGitopsRepoCred#agent_id}
   */
   readonly agentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#id PlatformGitopsRepoCred#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#id PlatformGitopsRepoCred#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface PlatformGitopsRepoCredConfig extends cdktf.TerraformMetaArgumen
   /**
   * Identifier of the Repository Credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#identifier PlatformGitopsRepoCred#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#identifier PlatformGitopsRepoCred#identifier}
   */
   readonly identifier: string;
   /**
   * Organization identifier of the Repository Credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#org_id PlatformGitopsRepoCred#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#org_id PlatformGitopsRepoCred#org_id}
   */
   readonly orgId?: string;
   /**
   * Project identifier of the Repository Credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#project_id PlatformGitopsRepoCred#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#project_id PlatformGitopsRepoCred#project_id}
   */
   readonly projectId?: string;
   /**
   * Indicates if the GitOps repository credential should be updated if existing and inserted if not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#upsert PlatformGitopsRepoCred#upsert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#upsert PlatformGitopsRepoCred#upsert}
   */
   readonly upsert?: boolean | cdktf.IResolvable;
   /**
   * creds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#creds PlatformGitopsRepoCred#creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#creds PlatformGitopsRepoCred#creds}
   */
   readonly creds?: PlatformGitopsRepoCredCreds;
 }
@@ -61,73 +61,73 @@ export interface PlatformGitopsRepoCredCreds {
   /**
   * Specifies whether helm-oci support should be enabled for this repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#enable_oci PlatformGitopsRepoCred#enable_oci}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#enable_oci PlatformGitopsRepoCred#enable_oci}
   */
   readonly enableOci?: boolean | cdktf.IResolvable;
   /**
   * Specifies the GitHub API URL for GitHub app authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#github_app_enterprise_base_url PlatformGitopsRepoCred#github_app_enterprise_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#github_app_enterprise_base_url PlatformGitopsRepoCred#github_app_enterprise_base_url}
   */
   readonly githubAppEnterpriseBaseUrl?: string;
   /**
   * Specifies the Github App ID of the app used to access the repo for GitHub app authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#github_app_id PlatformGitopsRepoCred#github_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#github_app_id PlatformGitopsRepoCred#github_app_id}
   */
   readonly githubAppId?: string;
   /**
   * Specifies the ID of the installed GitHub App for GitHub app authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#github_app_installation_id PlatformGitopsRepoCred#github_app_installation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#github_app_installation_id PlatformGitopsRepoCred#github_app_installation_id}
   */
   readonly githubAppInstallationId?: string;
   /**
   * github_app_private_key specifies the private key PEM data for authentication via GitHub app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#github_app_private_key PlatformGitopsRepoCred#github_app_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#github_app_private_key PlatformGitopsRepoCred#github_app_private_key}
   */
   readonly githubAppPrivateKey?: string;
   /**
   * Password or PAT to be used for authenticating the remote repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#password PlatformGitopsRepoCred#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#password PlatformGitopsRepoCred#password}
   */
   readonly password?: string;
   /**
   * SSH Key in PEM format for authenticating the repository. Used only for Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#ssh_private_key PlatformGitopsRepoCred#ssh_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#ssh_private_key PlatformGitopsRepoCred#ssh_private_key}
   */
   readonly sshPrivateKey?: string;
   /**
   * Certificate in PEM format for authenticating at the repo server. This is used for mTLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#tls_client_cert_data PlatformGitopsRepoCred#tls_client_cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#tls_client_cert_data PlatformGitopsRepoCred#tls_client_cert_data}
   */
   readonly tlsClientCertData?: string;
   /**
   * Private key in PEM format for authenticating at the repo server. This is used for mTLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#tls_client_cert_key PlatformGitopsRepoCred#tls_client_cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#tls_client_cert_key PlatformGitopsRepoCred#tls_client_cert_key}
   */
   readonly tlsClientCertKey?: string;
   /**
   * Type specifies the type of the repoCreds.Can be either 'git' or 'helm. 'git' is assumed if empty or absent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#type PlatformGitopsRepoCred#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#type PlatformGitopsRepoCred#type}
   */
   readonly type?: string;
   /**
   * URL of the remote repository. Make sure you pass at least an org, this will not work if you just provide the host, for eg. "https://github.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#url PlatformGitopsRepoCred#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#url PlatformGitopsRepoCred#url}
   */
   readonly url?: string;
   /**
   * Username to be used for authenticating the remote repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#username PlatformGitopsRepoCred#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#username PlatformGitopsRepoCred#username}
   */
   readonly username?: string;
 }
@@ -530,7 +530,7 @@ export class PlatformGitopsRepoCredCredsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred harness_platform_gitops_repo_cred}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred harness_platform_gitops_repo_cred}
 */
 export class PlatformGitopsRepoCred extends cdktf.TerraformResource {
 
@@ -546,7 +546,7 @@ export class PlatformGitopsRepoCred extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformGitopsRepoCred resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformGitopsRepoCred to import
-  * @param importFromId The id of the existing PlatformGitopsRepoCred that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformGitopsRepoCred that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformGitopsRepoCred to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -558,7 +558,7 @@ export class PlatformGitopsRepoCred extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cred harness_platform_gitops_repo_cred} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_repo_cred harness_platform_gitops_repo_cred} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -569,8 +569,8 @@ export class PlatformGitopsRepoCred extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_gitops_repo_cred',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

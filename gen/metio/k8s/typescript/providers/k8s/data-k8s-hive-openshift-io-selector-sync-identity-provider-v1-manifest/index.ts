@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#metadata DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#metadata DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#metadata}
   */
   readonly metadata: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestMetadata;
   /**
   * SelectorSyncIdentityProviderSpec defines the SyncIdentityProviderCommonSpec to sync to ClusterDeploymentSelector indicating which clusters the SelectorSyncIdentityProvider applies to in any namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#spec DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#spec DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#spec}
   */
   readonly spec?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#annotations DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#annotations DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#labels DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#labels DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#key DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#key DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#operator DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#operator DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#values DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#values DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -369,13 +369,13 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#match_expressions DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#match_expressions DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecClusterDeploymentSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#match_labels DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#match_labels DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -500,7 +500,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced config map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -593,7 +593,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -686,7 +686,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -779,25 +779,25 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * ca is an optional reference to a config map by name containing the PEM-encoded CA bundle. It is used as a trust anchor to validate the TLS certificate presented by the remote server. The key 'ca.crt' is used to locate the data. If specified and the config map or expected key is not found, the identity provider is not honored. If the specified ca data is not valid, the identity provider is not honored. If empty, the default system roots are used. The namespace for this config map is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#ca DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#ca DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#ca}
   */
   readonly ca?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersBasicAuthCa;
   /**
   * tlsClientCert is an optional reference to a secret by name that contains the PEM-encoded TLS client certificate to present when connecting to the server. The key 'tls.crt' is used to locate the data. If specified and the secret or expected key is not found, the identity provider is not honored. If the specified certificate data is not valid, the identity provider is not honored. The namespace for this secret is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#tls_client_cert DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#tls_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#tls_client_cert DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#tls_client_cert}
   */
   readonly tlsClientCert?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersBasicAuthTlsClientCert;
   /**
   * tlsClientKey is an optional reference to a secret by name that contains the PEM-encoded TLS private key for the client certificate referenced in tlsClientCert. The key 'tls.key' is used to locate the data. If specified and the secret or expected key is not found, the identity provider is not honored. If the specified certificate data is not valid, the identity provider is not honored. The namespace for this secret is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#tls_client_key DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#tls_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#tls_client_key DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#tls_client_key}
   */
   readonly tlsClientKey?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersBasicAuthTlsClientKey;
   /**
   * url is the remote URL to connect to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#url DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#url DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -980,7 +980,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced config map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1073,7 +1073,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1166,37 +1166,37 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * ca is an optional reference to a config map by name containing the PEM-encoded CA bundle. It is used as a trust anchor to validate the TLS certificate presented by the remote server. The key 'ca.crt' is used to locate the data. If specified and the config map or expected key is not found, the identity provider is not honored. If the specified ca data is not valid, the identity provider is not honored. If empty, the default system roots are used. This can only be configured when hostname is set to a non-empty value. The namespace for this config map is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#ca DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#ca DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#ca}
   */
   readonly ca?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersGithubCa;
   /**
   * clientID is the oauth client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_id DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_id DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * clientSecret is a required reference to the secret by name containing the oauth client secret. The key 'clientSecret' is used to locate the data. If the secret or expected key is not found, the identity provider is not honored. The namespace for this secret is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_secret DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_secret DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_secret}
   */
   readonly clientSecret?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersGithubClientSecret;
   /**
   * hostname is the optional domain (e.g. 'mycompany.com') for use with a hosted instance of GitHub Enterprise. It must match the GitHub Enterprise settings value configured at /setup/settings#hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#hostname DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#hostname DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * organizations optionally restricts which organizations are allowed to log in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#organizations DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#organizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#organizations DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#organizations}
   */
   readonly organizations?: string[];
   /**
   * teams optionally restricts which teams are allowed to log in. Format is <org>/<team>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#teams DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#teams DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#teams}
   */
   readonly teams?: string[];
 }
@@ -1437,7 +1437,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced config map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1530,7 +1530,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1623,25 +1623,25 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * ca is an optional reference to a config map by name containing the PEM-encoded CA bundle. It is used as a trust anchor to validate the TLS certificate presented by the remote server. The key 'ca.crt' is used to locate the data. If specified and the config map or expected key is not found, the identity provider is not honored. If the specified ca data is not valid, the identity provider is not honored. If empty, the default system roots are used. The namespace for this config map is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#ca DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#ca DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#ca}
   */
   readonly ca?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersGitlabCa;
   /**
   * clientID is the oauth client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_id DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_id DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * clientSecret is a required reference to the secret by name containing the oauth client secret. The key 'clientSecret' is used to locate the data. If the secret or expected key is not found, the identity provider is not honored. The namespace for this secret is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_secret DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_secret DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_secret}
   */
   readonly clientSecret?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersGitlabClientSecret;
   /**
   * url is the oauth server base URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#url DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#url DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -1824,7 +1824,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1917,19 +1917,19 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * clientID is the oauth client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_id DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_id DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * clientSecret is a required reference to the secret by name containing the oauth client secret. The key 'clientSecret' is used to locate the data. If the secret or expected key is not found, the identity provider is not honored. The namespace for this secret is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_secret DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_secret DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_secret}
   */
   readonly clientSecret?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersGoogleClientSecret;
   /**
   * hostedDomain is the optional Google App domain (e.g. 'mycompany.com') to restrict logins to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#hosted_domain DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#hosted_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#hosted_domain DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#hosted_domain}
   */
   readonly hostedDomain?: string;
 }
@@ -2083,7 +2083,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2176,7 +2176,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * fileData is a required reference to a secret by name containing the data to use as the htpasswd file. The key 'htpasswd' is used to locate the data. If the secret or expected key is not found, the identity provider is not honored. If the specified htpasswd data is not valid, the identity provider is not honored. The namespace for this secret is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#file_data DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#file_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#file_data DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#file_data}
   */
   readonly fileData?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersHtpasswdFileData;
 }
@@ -2272,7 +2272,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced config map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2365,7 +2365,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2458,7 +2458,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2551,31 +2551,31 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * ca is an optional reference to a config map by name containing the PEM-encoded CA bundle. It is used as a trust anchor to validate the TLS certificate presented by the remote server. The key 'ca.crt' is used to locate the data. If specified and the config map or expected key is not found, the identity provider is not honored. If the specified ca data is not valid, the identity provider is not honored. If empty, the default system roots are used. The namespace for this config map is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#ca DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#ca DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#ca}
   */
   readonly ca?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersKeystoneCa;
   /**
   * domainName is required for keystone v3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#domain_name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#domain_name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#domain_name}
   */
   readonly domainName?: string;
   /**
   * tlsClientCert is an optional reference to a secret by name that contains the PEM-encoded TLS client certificate to present when connecting to the server. The key 'tls.crt' is used to locate the data. If specified and the secret or expected key is not found, the identity provider is not honored. If the specified certificate data is not valid, the identity provider is not honored. The namespace for this secret is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#tls_client_cert DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#tls_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#tls_client_cert DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#tls_client_cert}
   */
   readonly tlsClientCert?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersKeystoneTlsClientCert;
   /**
   * tlsClientKey is an optional reference to a secret by name that contains the PEM-encoded TLS private key for the client certificate referenced in tlsClientCert. The key 'tls.key' is used to locate the data. If specified and the secret or expected key is not found, the identity provider is not honored. If the specified certificate data is not valid, the identity provider is not honored. The namespace for this secret is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#tls_client_key DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#tls_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#tls_client_key DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#tls_client_key}
   */
   readonly tlsClientKey?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersKeystoneTlsClientKey;
   /**
   * url is the remote URL to connect to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#url DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#url DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -2787,13 +2787,13 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * email is the list of attributes whose values should be used as the email address. Optional. If unspecified, no email is set for the identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#email DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#email DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#email}
   */
   readonly email?: string[];
   /**
   * id is the list of attributes whose values should be used as the user ID. Required. First non-empty attribute is used. At least one attribute is required. If none of the listed attribute have a value, authentication fails. LDAP standard identity attribute is 'dn'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#id DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#id DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2802,13 +2802,13 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the list of attributes whose values should be used as the display name. Optional. If unspecified, no display name is set for the identity LDAP standard display name attribute is 'cn'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name?: string[];
   /**
   * preferredUsername is the list of attributes whose values should be used as the preferred username. LDAP standard login attribute is 'uid'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#preferred_username DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#preferred_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#preferred_username DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#preferred_username}
   */
   readonly preferredUsername?: string[];
 }
@@ -2991,7 +2991,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -3084,7 +3084,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced config map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -3177,37 +3177,37 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * attributes maps LDAP attributes to identities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#attributes DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#attributes DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#attributes}
   */
   readonly attributes?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersLdapAttributes;
   /**
   * bindDN is an optional DN to bind with during the search phase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#bind_dn DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#bind_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#bind_dn DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#bind_dn}
   */
   readonly bindDn?: string;
   /**
   * bindPassword is an optional reference to a secret by name containing a password to bind with during the search phase. The key 'bindPassword' is used to locate the data. If specified and the secret or expected key is not found, the identity provider is not honored. The namespace for this secret is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#bind_password DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#bind_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#bind_password DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#bind_password}
   */
   readonly bindPassword?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersLdapBindPassword;
   /**
   * ca is an optional reference to a config map by name containing the PEM-encoded CA bundle. It is used as a trust anchor to validate the TLS certificate presented by the remote server. The key 'ca.crt' is used to locate the data. If specified and the config map or expected key is not found, the identity provider is not honored. If the specified ca data is not valid, the identity provider is not honored. If empty, the default system roots are used. The namespace for this config map is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#ca DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#ca DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#ca}
   */
   readonly ca?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersLdapCa;
   /**
   * insecure, if true, indicates the connection should not use TLS WARNING: Should not be set to 'true' with the URL scheme 'ldaps://' as 'ldaps://' URLs always attempt to connect using TLS, even when 'insecure' is set to 'true' When 'true', 'ldap://' URLS connect insecurely. When 'false', 'ldap://' URLs are upgraded to a TLS connection using StartTLS as specified in https://tools.ietf.org/html/rfc2830.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#insecure DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#insecure DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * url is an RFC 2255 URL which specifies the LDAP search parameters to use. The syntax of the URL is: ldap://host:port/basedn?attribute?scope?filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#url DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#url DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -3448,7 +3448,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced config map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -3541,25 +3541,25 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * email is the list of claims whose values should be used as the email address. Optional. If unspecified, no email is set for the identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#email DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#email DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#email}
   */
   readonly email?: string[];
   /**
   * groups is the list of claims value of which should be used to synchronize groups from the OIDC provider to OpenShift for the user. If multiple claims are specified, the first one with a non-empty value is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#groups DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#groups DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#groups}
   */
   readonly groups?: string[];
   /**
   * name is the list of claims whose values should be used as the display name. Optional. If unspecified, no display name is set for the identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name?: string[];
   /**
   * preferredUsername is the list of claims whose values should be used as the preferred username. If unspecified, the preferred username is determined from the value of the sub claim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#preferred_username DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#preferred_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#preferred_username DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#preferred_username}
   */
   readonly preferredUsername?: string[];
 }
@@ -3742,7 +3742,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -3835,43 +3835,43 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * ca is an optional reference to a config map by name containing the PEM-encoded CA bundle. It is used as a trust anchor to validate the TLS certificate presented by the remote server. The key 'ca.crt' is used to locate the data. If specified and the config map or expected key is not found, the identity provider is not honored. If the specified ca data is not valid, the identity provider is not honored. If empty, the default system roots are used. The namespace for this config map is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#ca DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#ca DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#ca}
   */
   readonly ca?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersOpenIdCa;
   /**
   * claims mappings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#claims DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#claims DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#claims}
   */
   readonly claims?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersOpenIdClaims;
   /**
   * clientID is the oauth client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_id DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_id DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * clientSecret is a required reference to the secret by name containing the oauth client secret. The key 'clientSecret' is used to locate the data. If the secret or expected key is not found, the identity provider is not honored. The namespace for this secret is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_secret DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_secret DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_secret}
   */
   readonly clientSecret?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersOpenIdClientSecret;
   /**
   * extraAuthorizeParameters are any custom parameters to add to the authorize request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#extra_authorize_parameters DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#extra_authorize_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#extra_authorize_parameters DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#extra_authorize_parameters}
   */
   readonly extraAuthorizeParameters?: { [key: string]: string };
   /**
   * extraScopes are any scopes to request in addition to the standard 'openid' scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#extra_scopes DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#extra_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#extra_scopes DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#extra_scopes}
   */
   readonly extraScopes?: string[];
   /**
   * issuer is the URL that the OpenID Provider asserts as its Issuer Identifier. It must use the https scheme with no query or fragment component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#issuer DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#issuer DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#issuer}
   */
   readonly issuer?: string;
 }
@@ -4141,7 +4141,7 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * name is the metadata.name of the referenced config map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name: string;
 }
@@ -4234,49 +4234,49 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * ca is a required reference to a config map by name containing the PEM-encoded CA bundle. It is used as a trust anchor to validate the TLS certificate presented by the remote server. Specifically, it allows verification of incoming requests to prevent header spoofing. The key 'ca.crt' is used to locate the data. If the config map or expected key is not found, the identity provider is not honored. If the specified ca data is not valid, the identity provider is not honored. The namespace for this config map is openshift-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#ca DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#ca DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#ca}
   */
   readonly ca?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersRequestHeaderCa;
   /**
   * challengeURL is a URL to redirect unauthenticated /authorize requests to Unauthenticated requests from OAuth clients which expect WWW-Authenticate challenges will be redirected here. ${url} is replaced with the current URL, escaped to be safe in a query parameter https://www.example.com/sso-login?then=${url} ${query} is replaced with the current query string https://www.example.com/auth-proxy/oauth/authorize?${query} Required when challenge is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#challenge_url DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#challenge_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#challenge_url DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#challenge_url}
   */
   readonly challengeUrl?: string;
   /**
   * clientCommonNames is an optional list of common names to require a match from. If empty, any client certificate validated against the clientCA bundle is considered authoritative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_common_names DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_common_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#client_common_names DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#client_common_names}
   */
   readonly clientCommonNames?: string[];
   /**
   * emailHeaders is the set of headers to check for the email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#email_headers DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#email_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#email_headers DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#email_headers}
   */
   readonly emailHeaders?: string[];
   /**
   * headers is the set of headers to check for identity information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#headers DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#headers DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#headers}
   */
   readonly headers?: string[];
   /**
   * loginURL is a URL to redirect unauthenticated /authorize requests to Unauthenticated requests from OAuth clients which expect interactive logins will be redirected here ${url} is replaced with the current URL, escaped to be safe in a query parameter https://www.example.com/sso-login?then=${url} ${query} is replaced with the current query string https://www.example.com/auth-proxy/oauth/authorize?${query} Required when login is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#login_url DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#login_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#login_url DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#login_url}
   */
   readonly loginUrl?: string;
   /**
   * nameHeaders is the set of headers to check for the display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name_headers DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name_headers DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name_headers}
   */
   readonly nameHeaders?: string[];
   /**
   * preferredUsernameHeaders is the set of headers to check for the preferred username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#preferred_username_headers DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#preferred_username_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#preferred_username_headers DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#preferred_username_headers}
   */
   readonly preferredUsernameHeaders?: string[];
 }
@@ -4575,73 +4575,73 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * basicAuth contains configuration options for the BasicAuth IdP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#basic_auth DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#basic_auth DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersBasicAuth;
   /**
   * github enables user authentication using GitHub credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#github DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#github}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#github DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#github}
   */
   readonly github?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersGithub;
   /**
   * gitlab enables user authentication using GitLab credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#gitlab DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#gitlab DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#gitlab}
   */
   readonly gitlab?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersGitlab;
   /**
   * google enables user authentication using Google credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#google DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#google}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#google DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#google}
   */
   readonly google?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersGoogle;
   /**
   * htpasswd enables user authentication using an HTPasswd file to validate credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#htpasswd DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#htpasswd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#htpasswd DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#htpasswd}
   */
   readonly htpasswd?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersHtpasswd;
   /**
   * keystone enables user authentication using keystone password credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#keystone DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#keystone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#keystone DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#keystone}
   */
   readonly keystone?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersKeystone;
   /**
   * ldap enables user authentication using LDAP credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#ldap DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#ldap DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#ldap}
   */
   readonly ldap?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersLdap;
   /**
   * mappingMethod determines how identities from this provider are mapped to users Defaults to 'claim'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#mapping_method DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#mapping_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#mapping_method DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#mapping_method}
   */
   readonly mappingMethod?: string;
   /**
   * name is used to qualify the identities returned by this provider. - It MUST be unique and not shared by any other identity provider used - It MUST be a valid path segment: name cannot equal '.' or '..' or contain '/' or '%' or ':' Ref: https://godoc.org/github.com/openshift/origin/pkg/user/apis/user/validation#ValidateIdentityProviderName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#name}
   */
   readonly name?: string;
   /**
   * openID enables user authentication using OpenID credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#open_id DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#open_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#open_id DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#open_id}
   */
   readonly openId?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersOpenId;
   /**
   * requestHeader enables user authentication using request header credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#request_header DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#request_header DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#request_header}
   */
   readonly requestHeader?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProvidersRequestHeader;
   /**
   * type identifies the identity provider type for this entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#type DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#type DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -5078,13 +5078,13 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpe
   /**
   * ClusterDeploymentSelector is a LabelSelector indicating which clusters the SelectorIdentityProvider applies to in any namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#cluster_deployment_selector DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#cluster_deployment_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#cluster_deployment_selector DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#cluster_deployment_selector}
   */
   readonly clusterDeploymentSelector?: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecClusterDeploymentSelector;
   /**
   * IdentityProviders is an ordered list of ways for a user to identify themselves
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#identity_providers DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#identity_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#identity_providers DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest#identity_providers}
   */
   readonly identityProviders: DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecIdentityProviders[] | cdktf.IResolvable;
 }
@@ -5204,7 +5204,7 @@ export class DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1ManifestSpecOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest k8s_hive_openshift_io_selector_sync_identity_provider_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest k8s_hive_openshift_io_selector_sync_identity_provider_v1_manifest}
 */
 export class DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest extends cdktf.TerraformDataSource {
 
@@ -5220,7 +5220,7 @@ export class DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest extend
   * Generates CDKTF code for importing a DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest to import
-  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5232,7 +5232,7 @@ export class DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest k8s_hive_openshift_io_selector_sync_identity_provider_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_identity_provider_v1_manifest k8s_hive_openshift_io_selector_sync_identity_provider_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5243,8 +5243,8 @@ export class DataK8SHiveOpenshiftIoSelectorSyncIdentityProviderV1Manifest extend
       terraformResourceType: 'k8s_hive_openshift_io_selector_sync_identity_provider_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#metadata DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#metadata DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1ManifestMetadata;
   /**
   * LayerVersionSpec defines the desired state of LayerVersion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#spec DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#spec DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#annotations DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#annotations DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#labels DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#labels DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#name DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#namespace DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,19 +217,19 @@ export class DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1ManifestMetadataOutp
 }
 export interface DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1ManifestSpecContent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#s3_bucket DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#s3_bucket DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#s3_bucket}
   */
   readonly s3Bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#s3_key DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#s3_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#s3_key DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#s3_key}
   */
   readonly s3Key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#s3_object_version DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#s3_object_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#s3_object_version DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#s3_object_version}
   */
   readonly s3ObjectVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#zip_file DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#zip_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#zip_file DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#zip_file}
   */
   readonly zipFile?: string;
 }
@@ -412,37 +412,37 @@ export interface DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1ManifestSpec {
   /**
   * A list of compatible instruction set architectures (https://docs.aws.amazon.com/lambda/latest/dg/foundation-arch.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#compatible_architectures DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#compatible_architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#compatible_architectures DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#compatible_architectures}
   */
   readonly compatibleArchitectures?: string[];
   /**
   * A list of compatible function runtimes (https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html). Used for filtering with ListLayers and ListLayerVersions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#compatible_runtimes DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#compatible_runtimes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#compatible_runtimes DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#compatible_runtimes}
   */
   readonly compatibleRuntimes?: string[];
   /**
   * The function layer archive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#content DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#content DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#content}
   */
   readonly content: DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1ManifestSpecContent;
   /**
   * The description of the version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#description DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#description DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The name or Amazon Resource Name (ARN) of the layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#layer_name DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#layer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#layer_name DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#layer_name}
   */
   readonly layerName: string;
   /**
   * The layer's software license. It can be any of the following: * An SPDX license identifier (https://spdx.org/licenses/). For example, MIT. * The URL of a license hosted on the internet. For example, https://opensource.org/licenses/MIT. * The full text of the license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#license_info DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#license_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#license_info DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest#license_info}
   */
   readonly licenseInfo?: string;
 }
@@ -675,7 +675,7 @@ export class DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1ManifestSpecOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest k8s_lambda_services_k8s_aws_layer_version_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest k8s_lambda_services_k8s_aws_layer_version_v1alpha1_manifest}
 */
 export class DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -691,7 +691,7 @@ export class DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -703,7 +703,7 @@ export class DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest k8s_lambda_services_k8s_aws_layer_version_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/lambda_services_k8s_aws_layer_version_v1alpha1_manifest k8s_lambda_services_k8s_aws_layer_version_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -714,8 +714,8 @@ export class DataK8SLambdaServicesK8SAwsLayerVersionV1Alpha1Manifest extends cdk
       terraformResourceType: 'k8s_lambda_services_k8s_aws_layer_version_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_static_ip
+// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_forwarding_static_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TrafficForwardingStaticIpConfig extends cdktf.TerraformMetaArgu
   /**
   * Additional information about this static IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_static_ip#comment TrafficForwardingStaticIp#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_forwarding_static_ip#comment TrafficForwardingStaticIp#comment}
   */
   readonly comment?: string;
   /**
   * If not set, geographic coordinates and city are automatically determined from the IP address. Otherwise, the latitude and longitude coordinates must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_static_ip#geo_override TrafficForwardingStaticIp#geo_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_forwarding_static_ip#geo_override TrafficForwardingStaticIp#geo_override}
   */
   readonly geoOverride?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_static_ip#id TrafficForwardingStaticIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_forwarding_static_ip#id TrafficForwardingStaticIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface TrafficForwardingStaticIpConfig extends cdktf.TerraformMetaArgu
   /**
   * The static IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_static_ip#ip_address TrafficForwardingStaticIp#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_forwarding_static_ip#ip_address TrafficForwardingStaticIp#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Latitude with 7 digit precision after decimal point, ranges between -90 and 90 degrees. If not provided, the API will automatically determine it from the IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_static_ip#latitude TrafficForwardingStaticIp#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_forwarding_static_ip#latitude TrafficForwardingStaticIp#latitude}
   */
   readonly latitude?: number;
   /**
   * Longitude with 7 digit precision after decimal point, ranges between -180 and 180 degrees. If not provided, the API will automatically determine it from the IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_static_ip#longitude TrafficForwardingStaticIp#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_forwarding_static_ip#longitude TrafficForwardingStaticIp#longitude}
   */
   readonly longitude?: number;
   /**
   * Indicates whether a non-RFC 1918 IP address is publicly routable. This attribute is ignored if there is no ZIA Private Service Edge associated to the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_static_ip#routable_ip TrafficForwardingStaticIp#routable_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_forwarding_static_ip#routable_ip TrafficForwardingStaticIp#routable_ip}
   */
   readonly routableIp?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_static_ip zia_traffic_forwarding_static_ip}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_forwarding_static_ip zia_traffic_forwarding_static_ip}
 */
 export class TrafficForwardingStaticIp extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class TrafficForwardingStaticIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrafficForwardingStaticIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrafficForwardingStaticIp to import
-  * @param importFromId The id of the existing TrafficForwardingStaticIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_static_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrafficForwardingStaticIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_forwarding_static_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrafficForwardingStaticIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class TrafficForwardingStaticIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/traffic_forwarding_static_ip zia_traffic_forwarding_static_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/traffic_forwarding_static_ip zia_traffic_forwarding_static_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class TrafficForwardingStaticIp extends cdktf.TerraformResource {
       terraformResourceType: 'zia_traffic_forwarding_static_ip',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.2',
-        providerVersionConstraint: '4.6.2'
+        providerVersion: '4.6.3',
+        providerVersionConstraint: '4.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

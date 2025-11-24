@@ -1,3 +1,3 @@
 # `harness_cloudprovider_datacenter`
 
-Refer to the Terraform Registry for docs: [`harness_cloudprovider_datacenter`](https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_datacenter).
+Refer to the Terraform Registry for docs: [`harness_cloudprovider_datacenter`](https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_datacenter).

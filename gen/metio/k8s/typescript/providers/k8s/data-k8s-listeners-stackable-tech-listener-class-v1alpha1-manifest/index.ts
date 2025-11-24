@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SListenersStackableTechListenerClassV1Alpha1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#metadata DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#metadata DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SListenersStackableTechListenerClassV1Alpha1ManifestMetadata;
   /**
   * Defines a policy for how [Listeners](https://docs.stackable.tech/home/nightly/listener-operator/listener) should be exposed. Read the [ListenerClass documentation](https://docs.stackable.tech/home/nightly/listener-operator/listenerclass) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#spec DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#spec DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SListenersStackableTechListenerClassV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SListenersStackableTechListenerClassV1Alpha1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#annotations DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#annotations DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#labels DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#labels DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#name DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#name DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,25 +187,25 @@ export interface DataK8SListenersStackableTechListenerClassV1Alpha1ManifestSpec 
   /**
   * Whether addresses should prefer using the IP address ('IP') or the hostname ('Hostname'). The other type will be used if the preferred type is not available. By default 'Hostname' is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#preferred_address_type DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#preferred_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#preferred_address_type DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#preferred_address_type}
   */
   readonly preferredAddressType?: string;
   /**
   * Annotations that should be added to the Service object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#service_annotations DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#service_annotations DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#service_annotations}
   */
   readonly serviceAnnotations?: { [key: string]: string };
   /**
   * 'externalTrafficPolicy' that should be set on the created ['Service'] objects. The default is 'Local' (in contrast to 'Cluster'), as we aim to direct traffic to a node running the workload and we should keep testing that as the primary configuration. Cluster is a fallback option for providers that break Local mode (IONOS so far).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#service_external_traffic_policy DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#service_external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#service_external_traffic_policy DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#service_external_traffic_policy}
   */
   readonly serviceExternalTrafficPolicy?: string;
   /**
   * The method used to access the services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#service_type DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#service_type DataK8SListenersStackableTechListenerClassV1Alpha1Manifest#service_type}
   */
   readonly serviceType: string;
 }
@@ -383,7 +383,7 @@ export class DataK8SListenersStackableTechListenerClassV1Alpha1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest k8s_listeners_stackable_tech_listener_class_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest k8s_listeners_stackable_tech_listener_class_v1alpha1_manifest}
 */
 export class DataK8SListenersStackableTechListenerClassV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -399,7 +399,7 @@ export class DataK8SListenersStackableTechListenerClassV1Alpha1Manifest extends 
   * Generates CDKTF code for importing a DataK8SListenersStackableTechListenerClassV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SListenersStackableTechListenerClassV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SListenersStackableTechListenerClassV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SListenersStackableTechListenerClassV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SListenersStackableTechListenerClassV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -411,7 +411,7 @@ export class DataK8SListenersStackableTechListenerClassV1Alpha1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest k8s_listeners_stackable_tech_listener_class_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/listeners_stackable_tech_listener_class_v1alpha1_manifest k8s_listeners_stackable_tech_listener_class_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -422,8 +422,8 @@ export class DataK8SListenersStackableTechListenerClassV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_listeners_stackable_tech_listener_class_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

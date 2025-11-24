@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile
+// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface TenantRestrictionProfileConfig extends cdktf.TerraformMetaArgum
   /**
   * Flag to allow or disallow cloud storage resources for GCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#allow_gcp_cloud_storage_read TenantRestrictionProfile#allow_gcp_cloud_storage_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#allow_gcp_cloud_storage_read TenantRestrictionProfile#allow_gcp_cloud_storage_read}
   */
   readonly allowGcpCloudStorageRead?: boolean | cdktf.IResolvable;
   /**
   * Flag to allow Google consumers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#allow_google_consumers TenantRestrictionProfile#allow_google_consumers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#allow_google_consumers TenantRestrictionProfile#allow_google_consumers}
   */
   readonly allowGoogleConsumers?: boolean | cdktf.IResolvable;
   /**
   * Flag to allow Google visitors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#allow_google_visitors TenantRestrictionProfile#allow_google_visitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#allow_google_visitors TenantRestrictionProfile#allow_google_visitors}
   */
   readonly allowGoogleVisitors?: boolean | cdktf.IResolvable;
   /**
@@ -30,25 +30,25 @@ export interface TenantRestrictionProfileConfig extends cdktf.TerraformMetaArgum
   * 				See the Tenancy Restriction Profile API for the list of available application types:
   * 				https://help.zscaler.com/zia/cloud-app-control-policy#/tenancyRestrictionProfile-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#app_type TenantRestrictionProfile#app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#app_type TenantRestrictionProfile#app_type}
   */
   readonly appType?: string;
   /**
   * Additional information about the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#description TenantRestrictionProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#description TenantRestrictionProfile#description}
   */
   readonly description?: string;
   /**
   * Tenant profile primary item data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#item_data_primary TenantRestrictionProfile#item_data_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#item_data_primary TenantRestrictionProfile#item_data_primary}
   */
   readonly itemDataPrimary?: string[];
   /**
   * List of certifications to be included or excluded for the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#item_data_secondary TenantRestrictionProfile#item_data_secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#item_data_secondary TenantRestrictionProfile#item_data_secondary}
   */
   readonly itemDataSecondary?: string[];
   /**
@@ -56,7 +56,7 @@ export interface TenantRestrictionProfileConfig extends cdktf.TerraformMetaArgum
   * 				See the Tenancy Restriction Profile API for the list of available items:
   * 				https://help.zscaler.com/zia/cloud-app-control-policy#/tenancyRestrictionProfile-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#item_type_primary TenantRestrictionProfile#item_type_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#item_type_primary TenantRestrictionProfile#item_type_primary}
   */
   readonly itemTypePrimary?: string;
   /**
@@ -64,7 +64,7 @@ export interface TenantRestrictionProfileConfig extends cdktf.TerraformMetaArgum
   * 				See the Tenancy Restriction Profile API for the list of available items:
   * 				https://help.zscaler.com/zia/cloud-app-control-policy#/tenancyRestrictionProfile-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#item_type_secondary TenantRestrictionProfile#item_type_secondary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#item_type_secondary TenantRestrictionProfile#item_type_secondary}
   */
   readonly itemTypeSecondary?: string;
   /**
@@ -72,41 +72,41 @@ export interface TenantRestrictionProfileConfig extends cdktf.TerraformMetaArgum
   * 				See the Tenancy Restriction Profile API for the list of available item values:
   * 				https://help.zscaler.com/zia/cloud-app-control-policy#/tenancyRestrictionProfile-get
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#item_value TenantRestrictionProfile#item_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#item_value TenantRestrictionProfile#item_value}
   */
   readonly itemValue?: string[];
   /**
   * Flag to decide between v1 and v2 for tenant restriction on MSLOGINSERVICES
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#ms_login_services_tr_v2 TenantRestrictionProfile#ms_login_services_tr_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#ms_login_services_tr_v2 TenantRestrictionProfile#ms_login_services_tr_v2}
   */
   readonly msLoginServicesTrV2?: boolean | cdktf.IResolvable;
   /**
   * The tenant restriction profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#name TenantRestrictionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#name TenantRestrictionProfile#name}
   */
   readonly name: string;
   /**
   * Flag to restrict personal domains for Office 365
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#restrict_personal_o365_domains TenantRestrictionProfile#restrict_personal_o365_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#restrict_personal_o365_domains TenantRestrictionProfile#restrict_personal_o365_domains}
   */
   readonly restrictPersonalO365Domains?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#timeouts TenantRestrictionProfile#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#timeouts TenantRestrictionProfile#timeouts}
   */
   readonly timeouts?: TenantRestrictionProfileTimeouts;
 }
 export interface TenantRestrictionProfileTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#create TenantRestrictionProfile#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#create TenantRestrictionProfile#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#update TenantRestrictionProfile#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#update TenantRestrictionProfile#update}
   */
   readonly update?: string;
 }
@@ -229,7 +229,7 @@ export class TenantRestrictionProfileTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile zia_tenant_restriction_profile}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile zia_tenant_restriction_profile}
 */
 export class TenantRestrictionProfile extends cdktf.TerraformResource {
 
@@ -245,7 +245,7 @@ export class TenantRestrictionProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TenantRestrictionProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TenantRestrictionProfile to import
-  * @param importFromId The id of the existing TenantRestrictionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TenantRestrictionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TenantRestrictionProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -257,7 +257,7 @@ export class TenantRestrictionProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/tenant_restriction_profile zia_tenant_restriction_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/tenant_restriction_profile zia_tenant_restriction_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -268,8 +268,8 @@ export class TenantRestrictionProfile extends cdktf.TerraformResource {
       terraformResourceType: 'zia_tenant_restriction_profile',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.2',
-        providerVersionConstraint: '4.6.2'
+        providerVersion: '4.6.3',
+        providerVersionConstraint: '4.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library
+// https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,271 +10,271 @@ export interface StreamLibraryConfig extends cdktf.TerraformMetaArguments {
   /**
   * The bitrate used for encoding 1080p videos, in kilobits per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#bitrate_1080p StreamLibrary#bitrate_1080p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#bitrate_1080p StreamLibrary#bitrate_1080p}
   */
   readonly bitrate1080P?: number;
   /**
   * The bitrate used for encoding 1440p videos, in kilobits per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#bitrate_1440p StreamLibrary#bitrate_1440p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#bitrate_1440p StreamLibrary#bitrate_1440p}
   */
   readonly bitrate1440P?: number;
   /**
   * The bitrate used for encoding 2160p videos, in kilobits per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#bitrate_2160p StreamLibrary#bitrate_2160p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#bitrate_2160p StreamLibrary#bitrate_2160p}
   */
   readonly bitrate2160P?: number;
   /**
   * The bitrate used for encoding 240p videos, in kilobits per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#bitrate_240p StreamLibrary#bitrate_240p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#bitrate_240p StreamLibrary#bitrate_240p}
   */
   readonly bitrate240P?: number;
   /**
   * The bitrate used for encoding 360p videos, in kilobits per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#bitrate_360p StreamLibrary#bitrate_360p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#bitrate_360p StreamLibrary#bitrate_360p}
   */
   readonly bitrate360P?: number;
   /**
   * The bitrate used for encoding 480p videos, in kilobits per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#bitrate_480p StreamLibrary#bitrate_480p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#bitrate_480p StreamLibrary#bitrate_480p}
   */
   readonly bitrate480P?: number;
   /**
   * The bitrate used for encoding 720p videos, in kilobits per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#bitrate_720p StreamLibrary#bitrate_720p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#bitrate_720p StreamLibrary#bitrate_720p}
   */
   readonly bitrate720P?: number;
   /**
   * Indicates whether CDN token authentication is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#cdn_token_authentication_required StreamLibrary#cdn_token_authentication_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#cdn_token_authentication_required StreamLibrary#cdn_token_authentication_required}
   */
   readonly cdnTokenAuthenticationRequired?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether content tagging is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#content_tagging_enabled StreamLibrary#content_tagging_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#content_tagging_enabled StreamLibrary#content_tagging_enabled}
   */
   readonly contentTaggingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Determines direct play URLs are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#direct_play_enabled StreamLibrary#direct_play_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#direct_play_enabled StreamLibrary#direct_play_enabled}
   */
   readonly directPlayEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the requests without a referrer are blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#direct_url_file_access_blocked StreamLibrary#direct_url_file_access_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#direct_url_file_access_blocked StreamLibrary#direct_url_file_access_blocked}
   */
   readonly directUrlFileAccessBlocked?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the MediaCage basic DRM is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#drm_mediacage_basic_enabled StreamLibrary#drm_mediacage_basic_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#drm_mediacage_basic_enabled StreamLibrary#drm_mediacage_basic_enabled}
   */
   readonly drmMediacageBasicEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the Early-Play feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#early_play_enabled StreamLibrary#early_play_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#early_play_enabled StreamLibrary#early_play_enabled}
   */
   readonly earlyPlayEnabled?: boolean | cdktf.IResolvable;
   /**
   * Options: `Free`, `Premium`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#encoding_tier StreamLibrary#encoding_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#encoding_tier StreamLibrary#encoding_tier}
   */
   readonly encodingTier?: string;
   /**
   * Indicates whether Just-In-Time Encoding is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#jit_encoding StreamLibrary#jit_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#jit_encoding StreamLibrary#jit_encoding}
   */
   readonly jitEncoding?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the MP4 fallback feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#mp4_fallback_enabled StreamLibrary#mp4_fallback_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#mp4_fallback_enabled StreamLibrary#mp4_fallback_enabled}
   */
   readonly mp4FallbackEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether multiple output audio track support is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#multi_audio_track_support_enabled StreamLibrary#multi_audio_track_support_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#multi_audio_track_support_enabled StreamLibrary#multi_audio_track_support_enabled}
   */
   readonly multiAudioTrackSupportEnabled?: boolean | cdktf.IResolvable;
   /**
   * The name of the stream library.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#name StreamLibrary#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#name StreamLibrary#name}
   */
   readonly name: string;
   /**
   * Indicates whether to keep original files after encoding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#original_files_keep StreamLibrary#original_files_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#original_files_keep StreamLibrary#original_files_keep}
   */
   readonly originalFilesKeep?: boolean | cdktf.IResolvable;
   /**
   * Options: `av1`, `hevc`, `vp9`, `x264`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#output_codecs StreamLibrary#output_codecs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#output_codecs StreamLibrary#output_codecs}
   */
   readonly outputCodecs?: string[];
   /**
   * The background color of the captions in the video player.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#player_captions_background_color StreamLibrary#player_captions_background_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#player_captions_background_color StreamLibrary#player_captions_background_color}
   */
   readonly playerCaptionsBackgroundColor?: string;
   /**
   * The font color of the captions in the video player.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#player_captions_font_color StreamLibrary#player_captions_font_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#player_captions_font_color StreamLibrary#player_captions_font_color}
   */
   readonly playerCaptionsFontColor?: string;
   /**
   * The font size of the captions in the video player.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#player_captions_font_size StreamLibrary#player_captions_font_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#player_captions_font_size StreamLibrary#player_captions_font_size}
   */
   readonly playerCaptionsFontSize?: number;
   /**
   * Options: `airplay`, `captions`, `chromecast`, `current-time`, `duration`, `fast-forward`, `fullscreen`, `mute`, `pip`, `play`, `play-large`, `progress`, `rewind`, `settings`, `volume`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#player_controls StreamLibrary#player_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#player_controls StreamLibrary#player_controls}
   */
   readonly playerControls?: string[];
   /**
   * Custom HTML to be included in the head of the video player.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#player_custom_head StreamLibrary#player_custom_head}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#player_custom_head StreamLibrary#player_custom_head}
   */
   readonly playerCustomHead?: string;
   /**
   * Options: `arial`, `inter`, `lato`, `oswald`, `raleway`, `roboto`, `rubik`, `ubuntu`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#player_font_family StreamLibrary#player_font_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#player_font_family StreamLibrary#player_font_family}
   */
   readonly playerFontFamily?: string;
   /**
   * Specifies the language for the video player interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#player_language StreamLibrary#player_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#player_language StreamLibrary#player_language}
   */
   readonly playerLanguage?: string;
   /**
   * Customizes the appearance of the video player.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#player_primary_color StreamLibrary#player_primary_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#player_primary_color StreamLibrary#player_primary_color}
   */
   readonly playerPrimaryColor?: string;
   /**
   * Specifies the video player version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#player_version StreamLibrary#player_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#player_version StreamLibrary#player_version}
   */
   readonly playerVersion?: number;
   /**
   * Indicates whether the video watch heatmap should be displayed in the player.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#player_watchtime_heatmap_enabled StreamLibrary#player_watchtime_heatmap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#player_watchtime_heatmap_enabled StreamLibrary#player_watchtime_heatmap_enabled}
   */
   readonly playerWatchtimeHeatmapEnabled?: boolean | cdktf.IResolvable;
   /**
   * The list of allowed referrer domains allowed to access videos in this library.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#referers_allowed StreamLibrary#referers_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#referers_allowed StreamLibrary#referers_allowed}
   */
   readonly referersAllowed?: string[];
   /**
   * The list of blocked referrer domains blocked from accessing videos in this library.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#referers_blocked StreamLibrary#referers_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#referers_blocked StreamLibrary#referers_blocked}
   */
   readonly referersBlocked?: string[];
   /**
   * A list of resolutions available for the videos.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#resolutions StreamLibrary#resolutions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#resolutions StreamLibrary#resolutions}
   */
   readonly resolutions?: string[];
   /**
   * Indicates whether the automatic audio transcribing is currently enabled for this zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#transcribing_enabled StreamLibrary#transcribing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#transcribing_enabled StreamLibrary#transcribing_enabled}
   */
   readonly transcribingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The list of languages that the captions will be automatically transcribed to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#transcribing_languages StreamLibrary#transcribing_languages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#transcribing_languages StreamLibrary#transcribing_languages}
   */
   readonly transcribingLanguages?: string[];
   /**
   * Indicates whether automatic transcribing description generation is currently enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#transcribing_smart_description_enabled StreamLibrary#transcribing_smart_description_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#transcribing_smart_description_enabled StreamLibrary#transcribing_smart_description_enabled}
   */
   readonly transcribingSmartDescriptionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether automatic transcribing title generation is currently enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#transcribing_smart_title_enabled StreamLibrary#transcribing_smart_title_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#transcribing_smart_title_enabled StreamLibrary#transcribing_smart_title_enabled}
   */
   readonly transcribingSmartTitleEnabled?: boolean | cdktf.IResolvable;
   /**
   * The URL of the VAST tag for ad integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#vast_tag_url StreamLibrary#vast_tag_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#vast_tag_url StreamLibrary#vast_tag_url}
   */
   readonly vastTagUrl?: string;
   /**
   * Indicates whether the player token authentication is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#view_token_authentication_required StreamLibrary#view_token_authentication_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#view_token_authentication_required StreamLibrary#view_token_authentication_required}
   */
   readonly viewTokenAuthenticationRequired?: boolean | cdktf.IResolvable;
   /**
   * The height of the watermark (in %).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#watermark_height StreamLibrary#watermark_height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#watermark_height StreamLibrary#watermark_height}
   */
   readonly watermarkHeight?: number;
   /**
   * The left offset of the watermark position (in %).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#watermark_position_left StreamLibrary#watermark_position_left}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#watermark_position_left StreamLibrary#watermark_position_left}
   */
   readonly watermarkPositionLeft?: number;
   /**
   * The top offset of the watermark position (in %).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#watermark_position_top StreamLibrary#watermark_position_top}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#watermark_position_top StreamLibrary#watermark_position_top}
   */
   readonly watermarkPositionTop?: number;
   /**
   * The width of the watermark (in %).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#watermark_width StreamLibrary#watermark_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#watermark_width StreamLibrary#watermark_width}
   */
   readonly watermarkWidth?: number;
   /**
   * The URL for webhook notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#webhook_url StreamLibrary#webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#webhook_url StreamLibrary#webhook_url}
   */
   readonly webhookUrl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library bunnynet_stream_library}
+* Represents a {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library bunnynet_stream_library}
 */
 export class StreamLibrary extends cdktf.TerraformResource {
 
@@ -290,7 +290,7 @@ export class StreamLibrary extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StreamLibrary resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StreamLibrary to import
-  * @param importFromId The id of the existing StreamLibrary that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StreamLibrary that should be imported. Refer to the {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StreamLibrary to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -302,7 +302,7 @@ export class StreamLibrary extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.2/docs/resources/stream_library bunnynet_stream_library} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bunnyway/bunnynet/0.11.3/docs/resources/stream_library bunnynet_stream_library} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -313,8 +313,8 @@ export class StreamLibrary extends cdktf.TerraformResource {
       terraformResourceType: 'bunnynet_stream_library',
       terraformGeneratorMetadata: {
         providerName: 'bunnynet',
-        providerVersion: '0.11.2',
-        providerVersionConstraint: '0.11.2'
+        providerVersion: '0.11.3',
+        providerVersionConstraint: '0.11.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#metadata DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#metadata DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#spec DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#spec DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#annotations DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#annotations DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#labels DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#labels DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#name DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#name DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#namespace DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#namespace DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,13 +217,13 @@ export interface DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2ManifestSpecAnnotatio
   /**
   * Key is the name of the label or annotation. It must conform to the normal rules for Kubernetes label/annotation keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#key DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#key DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the value of the label or annotation. It must confirm to the normal rules for Kubernetes label or annoation values, which are far more restrictive for labels than for anntations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#value DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#value DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#value}
   */
   readonly value: string;
 }
@@ -364,13 +364,13 @@ export interface DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2ManifestSpecLabels {
   /**
   * Key is the name of the label or annotation. It must conform to the normal rules for Kubernetes label/annotation keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#key DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#key DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the value of the label or annotation. It must confirm to the normal rules for Kubernetes label or annoation values, which are far more restrictive for labels than for anntations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#value DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#value DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#value}
   */
   readonly value: string;
 }
@@ -511,13 +511,13 @@ export interface DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2ManifestSpec {
   /**
   * Annotations is a list of annotations and values to apply to the current subnamespace and all of its descendants. All annotation keys must match a regex specified on the command line by --managed-namespace-annotation. All annotation keys must be managed annotations (see HNC docs) and must match a regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#annotations DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#annotations DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#annotations}
   */
   readonly annotations?: DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2ManifestSpecAnnotations[] | cdktf.IResolvable;
   /**
   * Labels is a list of labels and values to apply to the current subnamespace and all of its descendants. All label keys must match a regex specified on the command line by --managed-namespace-label. All label keys must be managed labels (see HNC docs) and must match a regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#labels DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#labels DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest#labels}
   */
   readonly labels?: DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2ManifestSpecLabels[] | cdktf.IResolvable;
 }
@@ -640,7 +640,7 @@ export class DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest k8s_hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest k8s_hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest}
 */
 export class DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -656,7 +656,7 @@ export class DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -668,7 +668,7 @@ export class DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest k8s_hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest k8s_hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -679,8 +679,8 @@ export class DataK8SHncXK8SIoSubnamespaceAnchorV1Alpha2Manifest extends cdktf.Te
       terraformResourceType: 'k8s_hnc_x_k8s_io_subnamespace_anchor_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

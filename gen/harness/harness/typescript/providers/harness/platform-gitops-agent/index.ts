@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PlatformGitopsAgentConfig extends cdktf.TerraformMetaArguments 
   /**
   * Account identifier of the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent#account_id PlatformGitopsAgent#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent#account_id PlatformGitopsAgent#account_id}
   */
   readonly accountId?: string;
   /**
   * Description of the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent#description PlatformGitopsAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent#description PlatformGitopsAgent#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent#id PlatformGitopsAgent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent#id PlatformGitopsAgent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,50 +29,50 @@ export interface PlatformGitopsAgentConfig extends cdktf.TerraformMetaArguments 
   /**
   * Identifier of the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent#identifier PlatformGitopsAgent#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent#identifier PlatformGitopsAgent#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent#name PlatformGitopsAgent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent#name PlatformGitopsAgent#name}
   */
   readonly name: string;
   /**
   * The Operator to use for the Harness GitOps agent. Enum: "ARGO" "FLAMINGO"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent#operator PlatformGitopsAgent#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent#operator PlatformGitopsAgent#operator}
   */
   readonly operator?: string;
   /**
   * Organization identifier of the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent#org_id PlatformGitopsAgent#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent#org_id PlatformGitopsAgent#org_id}
   */
   readonly orgId?: string;
   /**
   * Project identifier of the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent#project_id PlatformGitopsAgent#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent#project_id PlatformGitopsAgent#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags for the GitOps agents. These can be used to search or filter the GitOps agents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent#tags PlatformGitopsAgent#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent#tags PlatformGitopsAgent#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Default: "AGENT_TYPE_UNSET"
   * Enum: "AGENT_TYPE_UNSET" "CONNECTED_ARGO_PROVIDER" "MANAGED_ARGO_PROVIDER"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent#type PlatformGitopsAgent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent#type PlatformGitopsAgent#type}
   */
   readonly type: string;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent#metadata PlatformGitopsAgent#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent#metadata PlatformGitopsAgent#metadata}
   */
   readonly metadata?: PlatformGitopsAgentMetadata;
 }
@@ -80,19 +80,19 @@ export interface PlatformGitopsAgentMetadata {
   /**
   * Indicates if the agent is deployed in HA mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent#high_availability PlatformGitopsAgent#high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent#high_availability PlatformGitopsAgent#high_availability}
   */
   readonly highAvailability?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the agent is namespaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent#is_namespaced PlatformGitopsAgent#is_namespaced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent#is_namespaced PlatformGitopsAgent#is_namespaced}
   */
   readonly isNamespaced?: boolean | cdktf.IResolvable;
   /**
   * The kubernetes namespace where the agent should be installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent#namespace PlatformGitopsAgent#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent#namespace PlatformGitopsAgent#namespace}
   */
   readonly namespace?: string;
 }
@@ -234,7 +234,7 @@ export class PlatformGitopsAgentMetadataOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent harness_platform_gitops_agent}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent harness_platform_gitops_agent}
 */
 export class PlatformGitopsAgent extends cdktf.TerraformResource {
 
@@ -250,7 +250,7 @@ export class PlatformGitopsAgent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformGitopsAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformGitopsAgent to import
-  * @param importFromId The id of the existing PlatformGitopsAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformGitopsAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformGitopsAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -262,7 +262,7 @@ export class PlatformGitopsAgent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_agent harness_platform_gitops_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_agent harness_platform_gitops_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,8 +273,8 @@ export class PlatformGitopsAgent extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_gitops_agent',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

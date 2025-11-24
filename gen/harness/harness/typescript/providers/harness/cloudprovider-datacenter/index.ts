@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_datacenter
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_datacenter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CloudproviderDatacenterConfig extends cdktf.TerraformMetaArgume
   /**
   * The name of the cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_datacenter#name CloudproviderDatacenter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_datacenter#name CloudproviderDatacenter#name}
   */
   readonly name: string;
   /**
   * usage_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_datacenter#usage_scope CloudproviderDatacenter#usage_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_datacenter#usage_scope CloudproviderDatacenter#usage_scope}
   */
   readonly usageScope?: CloudproviderDatacenterUsageScope[] | cdktf.IResolvable;
 }
@@ -24,19 +24,19 @@ export interface CloudproviderDatacenterUsageScope {
   /**
   * Id of the application to scope to. If empty then this scope applies to all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_datacenter#application_id CloudproviderDatacenter#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_datacenter#application_id CloudproviderDatacenter#application_id}
   */
   readonly applicationId?: string;
   /**
   * Type of environment filter applied. Cannot be used with `environment_id`. Valid options are NON_PRODUCTION_ENVIRONMENTS, PRODUCTION_ENVIRONMENTS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_datacenter#environment_filter_type CloudproviderDatacenter#environment_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_datacenter#environment_filter_type CloudproviderDatacenter#environment_filter_type}
   */
   readonly environmentFilterType?: string;
   /**
   * Id of the id of the specific environment to scope to. Cannot be used with `environment_filter_type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_datacenter#environment_id CloudproviderDatacenter#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_datacenter#environment_id CloudproviderDatacenter#environment_id}
   */
   readonly environmentId?: string;
 }
@@ -210,7 +210,7 @@ export class CloudproviderDatacenterUsageScopeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_datacenter harness_cloudprovider_datacenter}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_datacenter harness_cloudprovider_datacenter}
 */
 export class CloudproviderDatacenter extends cdktf.TerraformResource {
 
@@ -226,7 +226,7 @@ export class CloudproviderDatacenter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudproviderDatacenter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudproviderDatacenter to import
-  * @param importFromId The id of the existing CloudproviderDatacenter that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_datacenter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudproviderDatacenter that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_datacenter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudproviderDatacenter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -238,7 +238,7 @@ export class CloudproviderDatacenter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_datacenter harness_cloudprovider_datacenter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cloudprovider_datacenter harness_cloudprovider_datacenter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -249,8 +249,8 @@ export class CloudproviderDatacenter extends cdktf.TerraformResource {
       terraformResourceType: 'harness_cloudprovider_datacenter',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

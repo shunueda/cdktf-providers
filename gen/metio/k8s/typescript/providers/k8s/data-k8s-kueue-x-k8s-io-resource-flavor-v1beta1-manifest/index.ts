@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKueueXK8SIoResourceFlavorV1Beta1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#metadata DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#metadata DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SKueueXK8SIoResourceFlavorV1Beta1ManifestMetadata;
   /**
   * ResourceFlavorSpec defines the desired state of the ResourceFlavor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#spec DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#spec DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SKueueXK8SIoResourceFlavorV1Beta1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SKueueXK8SIoResourceFlavorV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#annotations DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#annotations DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#labels DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#labels DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#name DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#name DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,25 +187,25 @@ export interface DataK8SKueueXK8SIoResourceFlavorV1Beta1ManifestSpecNodeTaints {
   /**
   * Required. The effect of the taint on pods that do not tolerate the taint. Valid effects are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#effect DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#effect DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#effect}
   */
   readonly effect: string;
   /**
   * Required. The taint key to be applied to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#key DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#key DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * TimeAdded represents the time at which the taint was added. It is only written for NoExecute taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#time_added DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#time_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#time_added DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#time_added}
   */
   readonly timeAdded?: string;
   /**
   * The taint value corresponding to the taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#value DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#value DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -404,31 +404,31 @@ export interface DataK8SKueueXK8SIoResourceFlavorV1Beta1ManifestSpecTolerations 
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#effect DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#effect DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#key DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#key DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#operator DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#operator DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#toleration_seconds DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#toleration_seconds DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#value DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#value DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -662,25 +662,25 @@ export interface DataK8SKueueXK8SIoResourceFlavorV1Beta1ManifestSpec {
   /**
   * nodeLabels are labels that associate the ResourceFlavor with Nodes that have the same labels. When a Workload is admitted, its podsets can only get assigned ResourceFlavors whose nodeLabels match the nodeSelector and nodeAffinity fields. Once a ResourceFlavor is assigned to a podSet, the ResourceFlavor's nodeLabels should be injected into the pods of the Workload by the controller that integrates with the Workload object. nodeLabels can be up to 8 elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#node_labels DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#node_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#node_labels DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#node_labels}
   */
   readonly nodeLabels?: { [key: string]: string };
   /**
   * nodeTaints are taints that the nodes associated with this ResourceFlavor have. Workloads' podsets must have tolerations for these nodeTaints in order to get assigned this ResourceFlavor during admission. An example of a nodeTaint is cloud.provider.com/preemptible='true':NoSchedule nodeTaints can be up to 8 elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#node_taints DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#node_taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#node_taints DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#node_taints}
   */
   readonly nodeTaints?: DataK8SKueueXK8SIoResourceFlavorV1Beta1ManifestSpecNodeTaints[] | cdktf.IResolvable;
   /**
   * tolerations are extra tolerations that will be added to the pods admitted in the quota associated with this resource flavor. An example of a toleration is cloud.provider.com/preemptible='true':NoSchedule tolerations can be up to 8 elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#tolerations DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#tolerations DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SKueueXK8SIoResourceFlavorV1Beta1ManifestSpecTolerations[] | cdktf.IResolvable;
   /**
   * topologyName indicates topology for the TAS ResourceFlavor. When specified, it enables scraping of the topology information from the nodes matching to the Resource Flavor node labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#topology_name DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#topology_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#topology_name DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest#topology_name}
   */
   readonly topologyName?: string;
 }
@@ -861,7 +861,7 @@ export class DataK8SKueueXK8SIoResourceFlavorV1Beta1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest k8s_kueue_x_k8s_io_resource_flavor_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest k8s_kueue_x_k8s_io_resource_flavor_v1beta1_manifest}
 */
 export class DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -877,7 +877,7 @@ export class DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -889,7 +889,7 @@ export class DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest k8s_kueue_x_k8s_io_resource_flavor_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kueue_x_k8s_io_resource_flavor_v1beta1_manifest k8s_kueue_x_k8s_io_resource_flavor_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -900,8 +900,8 @@ export class DataK8SKueueXK8SIoResourceFlavorV1Beta1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_kueue_x_k8s_io_resource_flavor_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

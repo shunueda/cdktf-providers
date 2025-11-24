@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSubmarinerIoSubmarinerV1Alpha1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#metadata DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#metadata DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSubmarinerIoSubmarinerV1Alpha1ManifestMetadata;
   /**
   * SubmarinerSpec defines the desired state of Submariner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#spec DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#spec DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSubmarinerIoSubmarinerV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSubmarinerIoSubmarinerV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#annotations DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#annotations DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#labels DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#labels DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#name DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#name DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#namespace DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#namespace DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SSubmarinerIoSubmarinerV1Alpha1ManifestSpecConnectionHeal
   /**
   * Enable the connection health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#enabled DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#enabled DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The interval at which health check pings are sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#interval_seconds DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#interval_seconds DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#interval_seconds}
   */
   readonly intervalSeconds?: number;
   /**
   * The maximum number of packets lost at which the health checker will mark the connection as down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#max_packet_loss_count DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#max_packet_loss_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#max_packet_loss_count DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#max_packet_loss_count}
   */
   readonly maxPacketLossCount?: number;
 }
@@ -385,13 +385,13 @@ export interface DataK8SSubmarinerIoSubmarinerV1Alpha1ManifestSpecCoreDnsCustomC
   /**
   * Name of the custom CoreDNS configmap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#config_map_name DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#config_map_name DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#config_map_name}
   */
   readonly configMapName?: string;
   /**
   * Namespace of the custom CoreDNS configmap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#namespace DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#namespace DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -516,31 +516,31 @@ export interface DataK8SSubmarinerIoSubmarinerV1Alpha1ManifestSpecTolerations {
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#effect DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#effect DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#key DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#key DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#operator DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#operator DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#toleration_seconds DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#toleration_seconds DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#value DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#value DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -772,211 +772,211 @@ export class DataK8SSubmarinerIoSubmarinerV1Alpha1ManifestSpecTolerationsList ex
 }
 export interface DataK8SSubmarinerIoSubmarinerV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#air_gapped_deployment DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#air_gapped_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#air_gapped_deployment DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#air_gapped_deployment}
   */
   readonly airGappedDeployment?: boolean | cdktf.IResolvable;
   /**
   * Type of broker (must be 'k8s').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#broker DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#broker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#broker DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#broker}
   */
   readonly broker: string;
   /**
   * The broker API URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#broker_k8s_api_server DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#broker_k8s_api_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#broker_k8s_api_server DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#broker_k8s_api_server}
   */
   readonly brokerK8SApiServer: string;
   /**
   * The broker API Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#broker_k8s_api_server_token DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#broker_k8s_api_server_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#broker_k8s_api_server_token DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#broker_k8s_api_server_token}
   */
   readonly brokerK8SApiServerToken?: string;
   /**
   * The broker certificate authority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#broker_k8s_ca DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#broker_k8s_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#broker_k8s_ca DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#broker_k8s_ca}
   */
   readonly brokerK8SCa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#broker_k8s_insecure DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#broker_k8s_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#broker_k8s_insecure DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#broker_k8s_insecure}
   */
   readonly brokerK8SInsecure?: boolean | cdktf.IResolvable;
   /**
   * The Broker namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#broker_k8s_remote_namespace DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#broker_k8s_remote_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#broker_k8s_remote_namespace DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#broker_k8s_remote_namespace}
   */
   readonly brokerK8SRemoteNamespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#broker_k8s_secret DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#broker_k8s_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#broker_k8s_secret DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#broker_k8s_secret}
   */
   readonly brokerK8SSecret?: string;
   /**
   * Cable driver implementation - any of [libreswan, wireguard, vxlan].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#cable_driver DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#cable_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#cable_driver DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#cable_driver}
   */
   readonly cableDriver?: string;
   /**
   * Enable logging IPsec debugging information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#ce_ip_sec_debug DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#ce_ip_sec_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#ce_ip_sec_debug DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#ce_ip_sec_debug}
   */
   readonly ceIpSecDebug: boolean | cdktf.IResolvable;
   /**
   * Force UDP encapsulation for IPsec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#ce_ip_sec_force_udp_encaps DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#ce_ip_sec_force_udp_encaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#ce_ip_sec_force_udp_encaps DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#ce_ip_sec_force_udp_encaps}
   */
   readonly ceIpSecForceUdpEncaps?: boolean | cdktf.IResolvable;
   /**
   * The IPsec IKE port (500 usually).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#ce_ip_sec_ike_port DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#ce_ip_sec_ike_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#ce_ip_sec_ike_port DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#ce_ip_sec_ike_port}
   */
   readonly ceIpSecIkePort?: number;
   /**
   * The IPsec NAT traversal port (4500 usually).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#ce_ip_sec_natt_port DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#ce_ip_sec_natt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#ce_ip_sec_natt_port DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#ce_ip_sec_natt_port}
   */
   readonly ceIpSecNattPort?: number;
   /**
   * Enable this cluster as a preferred server for data-plane connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#ce_ip_sec_preferred_server DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#ce_ip_sec_preferred_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#ce_ip_sec_preferred_server DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#ce_ip_sec_preferred_server}
   */
   readonly ceIpSecPreferredServer?: boolean | cdktf.IResolvable;
   /**
   * The IPsec Pre-Shared Key which must be identical in all route agents across the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#ce_ip_sec_psk DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#ce_ip_sec_psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#ce_ip_sec_psk DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#ce_ip_sec_psk}
   */
   readonly ceIpSecPsk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#ce_ip_sec_psk_secret DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#ce_ip_sec_psk_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#ce_ip_sec_psk_secret DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#ce_ip_sec_psk_secret}
   */
   readonly ceIpSecPskSecret?: string;
   /**
   * The cluster CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#cluster_cidr DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#cluster_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#cluster_cidr DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#cluster_cidr}
   */
   readonly clusterCidr: string;
   /**
   * The cluster ID used to identify the tunnels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#cluster_id DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#cluster_id DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#cluster_id}
   */
   readonly clusterId: string;
   /**
   * ClustersetIP CIDR for allocating ClustersetIPs to exported services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#clusterset_ip_cidr DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#clusterset_ip_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#clusterset_ip_cidr DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#clusterset_ip_cidr}
   */
   readonly clustersetIpCidr?: string;
   /**
   * Enable ClustersetIP default for services exported on this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#clusterset_ip_enabled DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#clusterset_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#clusterset_ip_enabled DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#clusterset_ip_enabled}
   */
   readonly clustersetIpEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#color_codes DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#color_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#color_codes DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#color_codes}
   */
   readonly colorCodes?: string;
   /**
   * The gateway connection health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#connection_health_check DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#connection_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#connection_health_check DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#connection_health_check}
   */
   readonly connectionHealthCheck?: DataK8SSubmarinerIoSubmarinerV1Alpha1ManifestSpecConnectionHealthCheck;
   /**
   * Name of the custom CoreDNS configmap to configure forwarding to Lighthouse. It should be in <namespace>/<name> format where <namespace> is optional and defaults to kube-system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#core_dns_custom_config DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#core_dns_custom_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#core_dns_custom_config DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#core_dns_custom_config}
   */
   readonly coreDnsCustomConfig?: DataK8SSubmarinerIoSubmarinerV1Alpha1ManifestSpecCoreDnsCustomConfig;
   /**
   * List of domains to use for multi-cluster service discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#custom_domains DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#custom_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#custom_domains DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#custom_domains}
   */
   readonly customDomains?: string[];
   /**
   * Enable operator debugging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#debug DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#debug DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#debug}
   */
   readonly debug: boolean | cdktf.IResolvable;
   /**
   * The Global CIDR super-net range for allocating GlobalCIDRs to each cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#global_cidr DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#global_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#global_cidr DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#global_cidr}
   */
   readonly globalCidr?: string;
   /**
   * Halt on certificate error (so the pod gets restarted).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#halt_on_certificate_error DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#halt_on_certificate_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#halt_on_certificate_error DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#halt_on_certificate_error}
   */
   readonly haltOnCertificateError?: boolean | cdktf.IResolvable;
   /**
   * Override component images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#image_overrides DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#image_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#image_overrides DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#image_overrides}
   */
   readonly imageOverrides?: { [key: string]: string };
   /**
   * Enable automatic Load Balancer in front of the gateways.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#load_balancer_enabled DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#load_balancer_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#load_balancer_enabled DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#load_balancer_enabled}
   */
   readonly loadBalancerEnabled?: boolean | cdktf.IResolvable;
   /**
   * The namespace in which to deploy the submariner operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#namespace DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#namespace DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
   /**
   * Enable NAT between clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#nat_enabled DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#nat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#nat_enabled DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#nat_enabled}
   */
   readonly natEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#node_selector DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#node_selector DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * The image repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#repository DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#repository DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * The service CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#service_cidr DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#service_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#service_cidr DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#service_cidr}
   */
   readonly serviceCidr: string;
   /**
   * Enable support for Service Discovery (Lighthouse).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#service_discovery_enabled DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#service_discovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#service_discovery_enabled DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#service_discovery_enabled}
   */
   readonly serviceDiscoveryEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#tolerations DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#tolerations DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SSubmarinerIoSubmarinerV1Alpha1ManifestSpecTolerations[] | cdktf.IResolvable;
   /**
   * The image tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#version DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#version DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -2084,7 +2084,7 @@ export class DataK8SSubmarinerIoSubmarinerV1Alpha1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest k8s_submariner_io_submariner_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest k8s_submariner_io_submariner_v1alpha1_manifest}
 */
 export class DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2100,7 +2100,7 @@ export class DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2112,7 +2112,7 @@ export class DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/submariner_io_submariner_v1alpha1_manifest k8s_submariner_io_submariner_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_submariner_v1alpha1_manifest k8s_submariner_io_submariner_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2123,8 +2123,8 @@ export class DataK8SSubmarinerIoSubmarinerV1Alpha1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_submariner_io_submariner_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

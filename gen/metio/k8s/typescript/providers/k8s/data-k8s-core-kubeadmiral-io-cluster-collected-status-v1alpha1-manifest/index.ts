@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1ManifestC
   /**
   * Clusters is the list of member clusters and collected fields for its propagated Kubernetes object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#clusters DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#clusters DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#clusters}
   */
   readonly clusters: DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1ManifestClusters[] | cdktf.IResolvable;
   /**
   * LastUpdateTime is the last time that a collection was performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#last_update_time DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#last_update_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#last_update_time DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#last_update_time}
   */
   readonly lastUpdateTime: string;
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#metadata DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#metadata DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1ManifestMetadata;
 }
@@ -30,19 +30,19 @@ export interface DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1ManifestC
   /**
   * Cluster is the name of the member cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#cluster DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#cluster DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#cluster}
   */
   readonly cluster: string;
   /**
   * CollectedFields is the the set of fields collected for the Kubernetes object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#collected_fields DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#collected_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#collected_fields DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#collected_fields}
   */
   readonly collectedFields: { [key: string]: string };
   /**
   * Error records any errors encountered while collecting fields from the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#error DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#error DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#error}
   */
   readonly error?: string;
 }
@@ -212,19 +212,19 @@ export interface DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1ManifestM
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#annotations DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#annotations DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#labels DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#labels DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -373,7 +373,7 @@ export class DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1ManifestMetad
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest k8s_core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest k8s_core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest}
 */
 export class DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -389,7 +389,7 @@ export class DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest exte
   * Generates CDKTF code for importing a DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +401,7 @@ export class DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest exte
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest k8s_core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest k8s_core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,8 +412,8 @@ export class DataK8SCoreKubeadmiralIoClusterCollectedStatusV1Alpha1Manifest exte
       terraformResourceType: 'k8s_core_kubeadmiral_io_cluster_collected_status_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

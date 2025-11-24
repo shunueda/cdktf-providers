@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SServicesK8SAwsAdoptedResourceV1Alpha1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#metadata DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#metadata DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SServicesK8SAwsAdoptedResourceV1Alpha1ManifestMetadata;
   /**
   * AdoptedResourceSpec defines the desired state of the AdoptedResource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#spec DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#spec DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SServicesK8SAwsAdoptedResourceV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SServicesK8SAwsAdoptedResourceV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#annotations DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#annotations DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#labels DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#labels DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#name DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#name DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#namespace DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#namespace DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SServicesK8SAwsAdoptedResourceV1Alpha1ManifestSpecAws {
   /**
   * AdditionalKeys represents any additional arbitrary identifiers used when describing the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#additional_keys DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#additional_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#additional_keys DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#additional_keys}
   */
   readonly additionalKeys?: { [key: string]: string };
   /**
   * ARN is the AWS Resource Name for the resource. It is a globally unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#arn DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#arn DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#arn}
   */
   readonly arn?: string;
   /**
   * NameOrId is a user-supplied string identifier for the resource. It may or may not be globally unique, depending on the type of resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#name_or_id DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#name_or_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#name_or_id DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#name_or_id}
   */
   readonly nameOrId?: string;
 }
@@ -385,37 +385,37 @@ export interface DataK8SServicesK8SAwsAdoptedResourceV1Alpha1ManifestSpecKuberne
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#api_version DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#api_version DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * If true, AND if the owner has the 'foregroundDeletion' finalizer, then the owner cannot be deleted from the key-value store until this reference is removed. See https://kubernetes.io/docs/concepts/architecture/garbage-collection/#foreground-deletion for how the garbage collector interacts with this field and enforces the foreground deletion. Defaults to false. To set this field, a user needs 'delete' permission of the owner, otherwise 422 (Unprocessable Entity) will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#block_owner_deletion DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#block_owner_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#block_owner_deletion DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#block_owner_deletion}
   */
   readonly blockOwnerDeletion?: boolean | cdktf.IResolvable;
   /**
   * If true, this reference points to the managing controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#controller DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#controller DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#controller}
   */
   readonly controller?: boolean | cdktf.IResolvable;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#kind DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#kind DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#name DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#name DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#uid DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#uid DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#uid}
   */
   readonly uid: string;
 }
@@ -666,37 +666,37 @@ export interface DataK8SServicesK8SAwsAdoptedResourceV1Alpha1ManifestSpecKuberne
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#annotations DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#annotations DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server. If this field is specified and the generated name exists, the server will NOT return a 409 - instead, it will either return 201 Created or 500 with Reason ServerTimeout indicating a unique name could not be found in the time allotted, and the client should retry (optionally after the time indicated in the Retry-After header). Applied only if Name is not specified. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#idempotency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#generate_name DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#generate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#generate_name DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#generate_name}
   */
   readonly generateName?: string;
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#labels DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#labels DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#name DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#name DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace defines the space within each name must be unique. An empty namespace is equivalent to the 'default' namespace, but 'default' is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty. Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#namespace DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#namespace DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#owner_references DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#owner_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#owner_references DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#owner_references}
   */
   readonly ownerReferences?: DataK8SServicesK8SAwsAdoptedResourceV1Alpha1ManifestSpecKubernetesMetadataOwnerReferences[] | cdktf.IResolvable;
 }
@@ -935,17 +935,17 @@ export class DataK8SServicesK8SAwsAdoptedResourceV1Alpha1ManifestSpecKubernetesM
 }
 export interface DataK8SServicesK8SAwsAdoptedResourceV1Alpha1ManifestSpecKubernetes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#group DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#group DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#kind DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#kind DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * ObjectMeta is metadata that all persisted resources must have, which includes all objects users must create. It is not possible to use 'metav1.ObjectMeta' inside spec, as the controller-gen automatically converts this to an arbitrary string-string map. https://github.com/kubernetes-sigs/controller-tools/issues/385 Active discussion about inclusion of this field in the spec is happening in this PR: https://github.com/kubernetes-sigs/controller-tools/pull/395 Until this is allowed, or if it never is, we will produce a subset of the object meta that contains only the fields which the user is allowed to modify in the metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#metadata DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#metadata DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SServicesK8SAwsAdoptedResourceV1Alpha1ManifestSpecKubernetesMetadata;
 }
@@ -1093,13 +1093,13 @@ export interface DataK8SServicesK8SAwsAdoptedResourceV1Alpha1ManifestSpec {
   /**
   * AWSIdentifiers provide all unique ways to reference an AWS resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#aws DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#aws DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#aws}
   */
   readonly aws: DataK8SServicesK8SAwsAdoptedResourceV1Alpha1ManifestSpecAws;
   /**
   * ResourceWithMetadata provides the values necessary to create a Kubernetes resource and override any of its metadata values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#kubernetes DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#kubernetes DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest#kubernetes}
   */
   readonly kubernetes: DataK8SServicesK8SAwsAdoptedResourceV1Alpha1ManifestSpecKubernetes;
 }
@@ -1216,7 +1216,7 @@ export class DataK8SServicesK8SAwsAdoptedResourceV1Alpha1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest k8s_services_k8s_aws_adopted_resource_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest k8s_services_k8s_aws_adopted_resource_v1alpha1_manifest}
 */
 export class DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1232,7 +1232,7 @@ export class DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1244,7 +1244,7 @@ export class DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest k8s_services_k8s_aws_adopted_resource_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/services_k8s_aws_adopted_resource_v1alpha1_manifest k8s_services_k8s_aws_adopted_resource_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1255,8 +1255,8 @@ export class DataK8SServicesK8SAwsAdoptedResourceV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_services_k8s_aws_adopted_resource_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

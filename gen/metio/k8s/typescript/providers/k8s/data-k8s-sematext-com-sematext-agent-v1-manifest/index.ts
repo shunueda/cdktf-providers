@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sematext_com_sematext_agent_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sematext_com_sematext_agent_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSematextComSematextAgentV1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sematext_com_sematext_agent_v1_manifest#metadata DataK8SSematextComSematextAgentV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sematext_com_sematext_agent_v1_manifest#metadata DataK8SSematextComSematextAgentV1Manifest#metadata}
   */
   readonly metadata: DataK8SSematextComSematextAgentV1ManifestMetadata;
   /**
   * Your account data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sematext_com_sematext_agent_v1_manifest#spec DataK8SSematextComSematextAgentV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sematext_com_sematext_agent_v1_manifest#spec DataK8SSematextComSematextAgentV1Manifest#spec}
   */
   readonly spec?: DataK8SSematextComSematextAgentV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSematextComSematextAgentV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sematext_com_sematext_agent_v1_manifest#annotations DataK8SSematextComSematextAgentV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sematext_com_sematext_agent_v1_manifest#annotations DataK8SSematextComSematextAgentV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sematext_com_sematext_agent_v1_manifest#labels DataK8SSematextComSematextAgentV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sematext_com_sematext_agent_v1_manifest#labels DataK8SSematextComSematextAgentV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sematext_com_sematext_agent_v1_manifest#name DataK8SSematextComSematextAgentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sematext_com_sematext_agent_v1_manifest#name DataK8SSematextComSematextAgentV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sematext_com_sematext_agent_v1_manifest#namespace DataK8SSematextComSematextAgentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sematext_com_sematext_agent_v1_manifest#namespace DataK8SSematextComSematextAgentV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SSematextComSematextAgentV1ManifestSpec {
   /**
   * The Infra App token from your SC account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sematext_com_sematext_agent_v1_manifest#infra_token DataK8SSematextComSematextAgentV1Manifest#infra_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sematext_com_sematext_agent_v1_manifest#infra_token DataK8SSematextComSematextAgentV1Manifest#infra_token}
   */
   readonly infraToken?: string;
   /**
   * The region where your account data is hosted. Can be EU or US
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sematext_com_sematext_agent_v1_manifest#region DataK8SSematextComSematextAgentV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sematext_com_sematext_agent_v1_manifest#region DataK8SSematextComSematextAgentV1Manifest#region}
   */
   readonly region?: string;
 }
@@ -348,7 +348,7 @@ export class DataK8SSematextComSematextAgentV1ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sematext_com_sematext_agent_v1_manifest k8s_sematext_com_sematext_agent_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sematext_com_sematext_agent_v1_manifest k8s_sematext_com_sematext_agent_v1_manifest}
 */
 export class DataK8SSematextComSematextAgentV1Manifest extends cdktf.TerraformDataSource {
 
@@ -364,7 +364,7 @@ export class DataK8SSematextComSematextAgentV1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SSematextComSematextAgentV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSematextComSematextAgentV1Manifest to import
-  * @param importFromId The id of the existing DataK8SSematextComSematextAgentV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sematext_com_sematext_agent_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSematextComSematextAgentV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sematext_com_sematext_agent_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSematextComSematextAgentV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -376,7 +376,7 @@ export class DataK8SSematextComSematextAgentV1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sematext_com_sematext_agent_v1_manifest k8s_sematext_com_sematext_agent_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sematext_com_sematext_agent_v1_manifest k8s_sematext_com_sematext_agent_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -387,8 +387,8 @@ export class DataK8SSematextComSematextAgentV1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_sematext_com_sematext_agent_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_agent
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/service_discovery_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataHarnessServiceDiscoveryAgentConfig extends cdktf.TerraformM
   /**
   * The environment identifier of the agent. This is a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_agent#environment_identifier DataHarnessServiceDiscoveryAgent#environment_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/service_discovery_agent#environment_identifier DataHarnessServiceDiscoveryAgent#environment_identifier}
   */
   readonly environmentIdentifier: string;
   /**
   * The unique identity of the agent. Either this or 'name' must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_agent#identity DataHarnessServiceDiscoveryAgent#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/service_discovery_agent#identity DataHarnessServiceDiscoveryAgent#identity}
   */
   readonly identity?: string;
   /**
   * The name of the agent. Either this or 'identity' must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_agent#name DataHarnessServiceDiscoveryAgent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/service_discovery_agent#name DataHarnessServiceDiscoveryAgent#name}
   */
   readonly name?: string;
   /**
   * The organization identifier of the agent (optional). Must be 1-64 characters and contain only alphanumeric characters, hyphens, or underscores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_agent#org_identifier DataHarnessServiceDiscoveryAgent#org_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/service_discovery_agent#org_identifier DataHarnessServiceDiscoveryAgent#org_identifier}
   */
   readonly orgIdentifier?: string;
   /**
   * The project identifier of the agent (optional). Must be 1-64 characters and contain only alphanumeric characters, hyphens, or underscores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_agent#project_identifier DataHarnessServiceDiscoveryAgent#project_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/service_discovery_agent#project_identifier DataHarnessServiceDiscoveryAgent#project_identifier}
   */
   readonly projectIdentifier?: string;
 }
@@ -1435,7 +1435,7 @@ export class DataHarnessServiceDiscoveryAgentInstallationDetailsList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_agent harness_service_discovery_agent}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/service_discovery_agent harness_service_discovery_agent}
 */
 export class DataHarnessServiceDiscoveryAgent extends cdktf.TerraformDataSource {
 
@@ -1451,7 +1451,7 @@ export class DataHarnessServiceDiscoveryAgent extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataHarnessServiceDiscoveryAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessServiceDiscoveryAgent to import
-  * @param importFromId The id of the existing DataHarnessServiceDiscoveryAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessServiceDiscoveryAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/service_discovery_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessServiceDiscoveryAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1463,7 +1463,7 @@ export class DataHarnessServiceDiscoveryAgent extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_agent harness_service_discovery_agent} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/service_discovery_agent harness_service_discovery_agent} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1474,8 +1474,8 @@ export class DataHarnessServiceDiscoveryAgent extends cdktf.TerraformDataSource 
       terraformResourceType: 'harness_service_discovery_agent',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ClusterOrchestratorConfigAConfig extends cdktf.TerraformMetaArg
   /**
   * Whether the cluster orchestrator is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#disabled ClusterOrchestratorConfigA#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#disabled ClusterOrchestratorConfigA#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#id ClusterOrchestratorConfigA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#id ClusterOrchestratorConfigA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface ClusterOrchestratorConfigAConfig extends cdktf.TerraformMetaArg
   /**
   * ID of the Cluster Orchestrator Object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#orchestrator_id ClusterOrchestratorConfigA#orchestrator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#orchestrator_id ClusterOrchestratorConfigA#orchestrator_id}
   */
   readonly orchestratorId: string;
   /**
   * binpacking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#binpacking ClusterOrchestratorConfigA#binpacking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#binpacking ClusterOrchestratorConfigA#binpacking}
   */
   readonly binpacking?: ClusterOrchestratorConfigBinpacking;
   /**
   * commitment_integration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#commitment_integration ClusterOrchestratorConfigA#commitment_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#commitment_integration ClusterOrchestratorConfigA#commitment_integration}
   */
   readonly commitmentIntegration?: ClusterOrchestratorConfigCommitmentIntegration;
   /**
   * distribution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#distribution ClusterOrchestratorConfigA#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#distribution ClusterOrchestratorConfigA#distribution}
   */
   readonly distribution: ClusterOrchestratorConfigDistribution;
   /**
   * node_preferences block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#node_preferences ClusterOrchestratorConfigA#node_preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#node_preferences ClusterOrchestratorConfigA#node_preferences}
   */
   readonly nodePreferences?: ClusterOrchestratorConfigNodePreferences;
   /**
   * replacement_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#replacement_schedule ClusterOrchestratorConfigA#replacement_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#replacement_schedule ClusterOrchestratorConfigA#replacement_schedule}
   */
   readonly replacementSchedule?: ClusterOrchestratorConfigReplacementSchedule;
 }
@@ -61,13 +61,13 @@ export interface ClusterOrchestratorConfigBinpackingDisruptionBudgetSchedule {
   /**
   * Duration for disruption budget
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#duration ClusterOrchestratorConfigA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#duration ClusterOrchestratorConfigA#duration}
   */
   readonly duration: string;
   /**
   * Frequency for disruption budget
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#frequency ClusterOrchestratorConfigA#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#frequency ClusterOrchestratorConfigA#frequency}
   */
   readonly frequency: string;
 }
@@ -176,19 +176,19 @@ export interface ClusterOrchestratorConfigBinpackingDisruptionBudget {
   /**
   * Number or percentage of Nodes to consider for disruption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#nodes ClusterOrchestratorConfigA#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#nodes ClusterOrchestratorConfigA#nodes}
   */
   readonly nodes: string;
   /**
   * Reasons for disruption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#reasons ClusterOrchestratorConfigA#reasons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#reasons ClusterOrchestratorConfigA#reasons}
   */
   readonly reasons?: string[];
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#schedule ClusterOrchestratorConfigA#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#schedule ClusterOrchestratorConfigA#schedule}
   */
   readonly schedule?: ClusterOrchestratorConfigBinpackingDisruptionBudgetSchedule;
 }
@@ -361,19 +361,19 @@ export interface ClusterOrchestratorConfigBinpackingDisruption {
   /**
   * Criteria for considering a nodes for disruption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#criteria ClusterOrchestratorConfigA#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#criteria ClusterOrchestratorConfigA#criteria}
   */
   readonly criteria?: string;
   /**
   * Deletion delay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#delay ClusterOrchestratorConfigA#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#delay ClusterOrchestratorConfigA#delay}
   */
   readonly delay?: string;
   /**
   * budget block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#budget ClusterOrchestratorConfigA#budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#budget ClusterOrchestratorConfigA#budget}
   */
   readonly budget?: ClusterOrchestratorConfigBinpackingDisruptionBudget[] | cdktf.IResolvable;
 }
@@ -517,13 +517,13 @@ export interface ClusterOrchestratorConfigBinpackingPodEvictionThreshold {
   /**
   * CPU percentage for considering a node as underutilized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#cpu ClusterOrchestratorConfigA#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#cpu ClusterOrchestratorConfigA#cpu}
   */
   readonly cpu: number;
   /**
   * Memory percentage for considering a node as underutilized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#memory ClusterOrchestratorConfigA#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#memory ClusterOrchestratorConfigA#memory}
   */
   readonly memory: number;
 }
@@ -632,7 +632,7 @@ export interface ClusterOrchestratorConfigBinpackingPodEviction {
   /**
   * threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#threshold ClusterOrchestratorConfigA#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#threshold ClusterOrchestratorConfigA#threshold}
   */
   readonly threshold: ClusterOrchestratorConfigBinpackingPodEvictionThreshold;
 }
@@ -715,13 +715,13 @@ export interface ClusterOrchestratorConfigBinpacking {
   /**
   * disruption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#disruption ClusterOrchestratorConfigA#disruption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#disruption ClusterOrchestratorConfigA#disruption}
   */
   readonly disruption?: ClusterOrchestratorConfigBinpackingDisruption;
   /**
   * pod_eviction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#pod_eviction ClusterOrchestratorConfigA#pod_eviction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#pod_eviction ClusterOrchestratorConfigA#pod_eviction}
   */
   readonly podEviction?: ClusterOrchestratorConfigBinpackingPodEviction;
 }
@@ -836,13 +836,13 @@ export interface ClusterOrchestratorConfigCommitmentIntegration {
   /**
   * Flag to enable Commitment Integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#enabled ClusterOrchestratorConfigA#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#enabled ClusterOrchestratorConfigA#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Master AWS account id for commitment integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#master_account_id ClusterOrchestratorConfigA#master_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#master_account_id ClusterOrchestratorConfigA#master_account_id}
   */
   readonly masterAccountId: string;
 }
@@ -951,25 +951,25 @@ export interface ClusterOrchestratorConfigDistribution {
   /**
   * Number of minimum ondemand replicas required for workloads
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#base_ondemand_capacity ClusterOrchestratorConfigA#base_ondemand_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#base_ondemand_capacity ClusterOrchestratorConfigA#base_ondemand_capacity}
   */
   readonly baseOndemandCapacity?: number;
   /**
   * Percentage of on-demand replicas required for workloads
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#ondemand_replica_percentage ClusterOrchestratorConfigA#ondemand_replica_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#ondemand_replica_percentage ClusterOrchestratorConfigA#ondemand_replica_percentage}
   */
   readonly ondemandReplicaPercentage: number;
   /**
   * Selector for choosing workloads for distribution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#selector ClusterOrchestratorConfigA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#selector ClusterOrchestratorConfigA#selector}
   */
   readonly selector?: string;
   /**
   * Strategy for choosing spot nodes for cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#strategy ClusterOrchestratorConfigA#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#strategy ClusterOrchestratorConfigA#strategy}
   */
   readonly strategy?: string;
 }
@@ -1139,13 +1139,13 @@ export interface ClusterOrchestratorConfigNodePreferences {
   /**
   * Reverse fallback interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#reverse_fallback_interval ClusterOrchestratorConfigA#reverse_fallback_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#reverse_fallback_interval ClusterOrchestratorConfigA#reverse_fallback_interval}
   */
   readonly reverseFallbackInterval?: string;
   /**
   * TTL for nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#ttl ClusterOrchestratorConfigA#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#ttl ClusterOrchestratorConfigA#ttl}
   */
   readonly ttl?: string;
 }
@@ -1258,15 +1258,15 @@ export class ClusterOrchestratorConfigNodePreferencesOutputReference extends cdk
 }
 export interface ClusterOrchestratorConfigReplacementScheduleAppliesTo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#consolidation ClusterOrchestratorConfigA#consolidation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#consolidation ClusterOrchestratorConfigA#consolidation}
   */
   readonly consolidation: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#harness_pod_eviction ClusterOrchestratorConfigA#harness_pod_eviction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#harness_pod_eviction ClusterOrchestratorConfigA#harness_pod_eviction}
   */
   readonly harnessPodEviction: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#reverse_fallback ClusterOrchestratorConfigA#reverse_fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#reverse_fallback ClusterOrchestratorConfigA#reverse_fallback}
   */
   readonly reverseFallback: boolean | cdktf.IResolvable;
 }
@@ -1399,31 +1399,31 @@ export class ClusterOrchestratorConfigReplacementScheduleAppliesToOutputReferenc
 }
 export interface ClusterOrchestratorConfigReplacementScheduleWindowDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#all_day ClusterOrchestratorConfigA#all_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#all_day ClusterOrchestratorConfigA#all_day}
   */
   readonly allDay?: boolean | cdktf.IResolvable;
   /**
   * List of days on which schedule need to be active. Valid values are SUN, MON, TUE, WED, THU, FRI and SAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#days ClusterOrchestratorConfigA#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#days ClusterOrchestratorConfigA#days}
   */
   readonly days: string[];
   /**
   * End time of schedule in the format HH:MM. Eg : 13:15 for 01:15pm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#end_time ClusterOrchestratorConfigA#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#end_time ClusterOrchestratorConfigA#end_time}
   */
   readonly endTime?: string;
   /**
   * Start time of schedule in the format HH:MM. Eg : 13:15 for 01:15pm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#start_time ClusterOrchestratorConfigA#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#start_time ClusterOrchestratorConfigA#start_time}
   */
   readonly startTime?: string;
   /**
   * Time zone in which the schedule needs to be executed. Example Valid values: UTC, America/New_York, Europe/London, Asia/Kolkata, Asia/Tokyo, Asia/Hong_Kong, Asia/Singapore, Australia/Melbourne and Australia/Sydney.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#time_zone ClusterOrchestratorConfigA#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#time_zone ClusterOrchestratorConfigA#time_zone}
   */
   readonly timeZone: string;
 }
@@ -1619,19 +1619,19 @@ export interface ClusterOrchestratorConfigReplacementSchedule {
   /**
   * Window type for replacement schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#window_type ClusterOrchestratorConfigA#window_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#window_type ClusterOrchestratorConfigA#window_type}
   */
   readonly windowType: string;
   /**
   * applies_to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#applies_to ClusterOrchestratorConfigA#applies_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#applies_to ClusterOrchestratorConfigA#applies_to}
   */
   readonly appliesTo: ClusterOrchestratorConfigReplacementScheduleAppliesTo;
   /**
   * window_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#window_details ClusterOrchestratorConfigA#window_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#window_details ClusterOrchestratorConfigA#window_details}
   */
   readonly windowDetails?: ClusterOrchestratorConfigReplacementScheduleWindowDetails;
 }
@@ -1767,7 +1767,7 @@ export class ClusterOrchestratorConfigReplacementScheduleOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config harness_cluster_orchestrator_config}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config harness_cluster_orchestrator_config}
 */
 export class ClusterOrchestratorConfigA extends cdktf.TerraformResource {
 
@@ -1783,7 +1783,7 @@ export class ClusterOrchestratorConfigA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterOrchestratorConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterOrchestratorConfigA to import
-  * @param importFromId The id of the existing ClusterOrchestratorConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterOrchestratorConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterOrchestratorConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1795,7 +1795,7 @@ export class ClusterOrchestratorConfigA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cluster_orchestrator_config harness_cluster_orchestrator_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/cluster_orchestrator_config harness_cluster_orchestrator_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1806,8 +1806,8 @@ export class ClusterOrchestratorConfigA extends cdktf.TerraformResource {
       terraformResourceType: 'harness_cluster_orchestrator_config',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

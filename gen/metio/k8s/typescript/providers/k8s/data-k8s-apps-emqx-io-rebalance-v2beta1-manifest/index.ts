@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SAppsEmqxIoRebalanceV2Beta1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#metadata DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#metadata DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SAppsEmqxIoRebalanceV2Beta1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#spec DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#spec DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#spec}
   */
   readonly spec?: DataK8SAppsEmqxIoRebalanceV2Beta1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SAppsEmqxIoRebalanceV2Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#annotations DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#annotations DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#labels DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#labels DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#name DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#name DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#namespace DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#namespace DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,35 +215,35 @@ export class DataK8SAppsEmqxIoRebalanceV2Beta1ManifestMetadataOutputReference ex
 }
 export interface DataK8SAppsEmqxIoRebalanceV2Beta1ManifestSpecRebalanceStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#abs_conn_threshold DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#abs_conn_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#abs_conn_threshold DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#abs_conn_threshold}
   */
   readonly absConnThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#abs_sess_threshold DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#abs_sess_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#abs_sess_threshold DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#abs_sess_threshold}
   */
   readonly absSessThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#conn_evict_rate DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#conn_evict_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#conn_evict_rate DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#conn_evict_rate}
   */
   readonly connEvictRate: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#rel_conn_threshold DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#rel_conn_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#rel_conn_threshold DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#rel_conn_threshold}
   */
   readonly relConnThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#rel_sess_threshold DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#rel_sess_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#rel_sess_threshold DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#rel_sess_threshold}
   */
   readonly relSessThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#sess_evict_rate DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#sess_evict_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#sess_evict_rate DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#sess_evict_rate}
   */
   readonly sessEvictRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#wait_health_check DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#wait_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#wait_health_check DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#wait_health_check}
   */
   readonly waitHealthCheck?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#wait_takeover DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#wait_takeover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#wait_takeover DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#wait_takeover}
   */
   readonly waitTakeover?: number;
 }
@@ -537,15 +537,15 @@ export class DataK8SAppsEmqxIoRebalanceV2Beta1ManifestSpecRebalanceStrategyOutpu
 }
 export interface DataK8SAppsEmqxIoRebalanceV2Beta1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#instance_kind DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#instance_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#instance_kind DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#instance_kind}
   */
   readonly instanceKind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#instance_name DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#instance_name DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#instance_name}
   */
   readonly instanceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#rebalance_strategy DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#rebalance_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#rebalance_strategy DataK8SAppsEmqxIoRebalanceV2Beta1Manifest#rebalance_strategy}
   */
   readonly rebalanceStrategy: DataK8SAppsEmqxIoRebalanceV2Beta1ManifestSpecRebalanceStrategy;
 }
@@ -688,7 +688,7 @@ export class DataK8SAppsEmqxIoRebalanceV2Beta1ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest k8s_apps_emqx_io_rebalance_v2beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest k8s_apps_emqx_io_rebalance_v2beta1_manifest}
 */
 export class DataK8SAppsEmqxIoRebalanceV2Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -704,7 +704,7 @@ export class DataK8SAppsEmqxIoRebalanceV2Beta1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SAppsEmqxIoRebalanceV2Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsEmqxIoRebalanceV2Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsEmqxIoRebalanceV2Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsEmqxIoRebalanceV2Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsEmqxIoRebalanceV2Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -716,7 +716,7 @@ export class DataK8SAppsEmqxIoRebalanceV2Beta1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest k8s_apps_emqx_io_rebalance_v2beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_rebalance_v2beta1_manifest k8s_apps_emqx_io_rebalance_v2beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -727,8 +727,8 @@ export class DataK8SAppsEmqxIoRebalanceV2Beta1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_apps_emqx_io_rebalance_v2beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

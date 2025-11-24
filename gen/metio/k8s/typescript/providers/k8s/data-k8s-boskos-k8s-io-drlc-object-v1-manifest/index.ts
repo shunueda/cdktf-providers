@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SBoskosK8SIoDrlcObjectV1ManifestConfig extends cdktf.Terr
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#metadata DataK8SBoskosK8SIoDrlcObjectV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#metadata DataK8SBoskosK8SIoDrlcObjectV1Manifest#metadata}
   */
   readonly metadata: DataK8SBoskosK8SIoDrlcObjectV1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#spec DataK8SBoskosK8SIoDrlcObjectV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#spec DataK8SBoskosK8SIoDrlcObjectV1Manifest#spec}
   */
   readonly spec?: DataK8SBoskosK8SIoDrlcObjectV1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SBoskosK8SIoDrlcObjectV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#annotations DataK8SBoskosK8SIoDrlcObjectV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#annotations DataK8SBoskosK8SIoDrlcObjectV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#labels DataK8SBoskosK8SIoDrlcObjectV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#labels DataK8SBoskosK8SIoDrlcObjectV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#name DataK8SBoskosK8SIoDrlcObjectV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#name DataK8SBoskosK8SIoDrlcObjectV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#namespace DataK8SBoskosK8SIoDrlcObjectV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#namespace DataK8SBoskosK8SIoDrlcObjectV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,13 +215,13 @@ export class DataK8SBoskosK8SIoDrlcObjectV1ManifestMetadataOutputReference exten
 }
 export interface DataK8SBoskosK8SIoDrlcObjectV1ManifestSpecConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#content DataK8SBoskosK8SIoDrlcObjectV1Manifest#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#content DataK8SBoskosK8SIoDrlcObjectV1Manifest#content}
   */
   readonly content?: string;
   /**
   * The dynamic resource type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#type DataK8SBoskosK8SIoDrlcObjectV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#type DataK8SBoskosK8SIoDrlcObjectV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -346,35 +346,35 @@ export interface DataK8SBoskosK8SIoDrlcObjectV1ManifestSpec {
   /**
   * Config information about how to create the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#config DataK8SBoskosK8SIoDrlcObjectV1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#config DataK8SBoskosK8SIoDrlcObjectV1Manifest#config}
   */
   readonly config?: DataK8SBoskosK8SIoDrlcObjectV1ManifestSpecConfig;
   /**
   * Lifespan of a resource, time after which the resource should be reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#lifespan DataK8SBoskosK8SIoDrlcObjectV1Manifest#lifespan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#lifespan DataK8SBoskosK8SIoDrlcObjectV1Manifest#lifespan}
   */
   readonly lifespan?: number;
   /**
   * Maxiumum number of resources expected. This maximum may be temporarily exceeded while resources are in the process of being deleted, though this is only expected when MaxCount is lowered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#max_count DataK8SBoskosK8SIoDrlcObjectV1Manifest#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#max_count DataK8SBoskosK8SIoDrlcObjectV1Manifest#max_count}
   */
   readonly maxCount?: number;
   /**
   * Minimum number of resources to be used as a buffer. Resources in the process of being deleted and cleaned up are included in this count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#min_count DataK8SBoskosK8SIoDrlcObjectV1Manifest#min_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#min_count DataK8SBoskosK8SIoDrlcObjectV1Manifest#min_count}
   */
   readonly minCount?: number;
   /**
   * Define the resource needs to create the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#needs DataK8SBoskosK8SIoDrlcObjectV1Manifest#needs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#needs DataK8SBoskosK8SIoDrlcObjectV1Manifest#needs}
   */
   readonly needs?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#state DataK8SBoskosK8SIoDrlcObjectV1Manifest#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#state DataK8SBoskosK8SIoDrlcObjectV1Manifest#state}
   */
   readonly state?: string;
 }
@@ -613,7 +613,7 @@ export class DataK8SBoskosK8SIoDrlcObjectV1ManifestSpecOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest k8s_boskos_k8s_io_drlc_object_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest k8s_boskos_k8s_io_drlc_object_v1_manifest}
 */
 export class DataK8SBoskosK8SIoDrlcObjectV1Manifest extends cdktf.TerraformDataSource {
 
@@ -629,7 +629,7 @@ export class DataK8SBoskosK8SIoDrlcObjectV1Manifest extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataK8SBoskosK8SIoDrlcObjectV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SBoskosK8SIoDrlcObjectV1Manifest to import
-  * @param importFromId The id of the existing DataK8SBoskosK8SIoDrlcObjectV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SBoskosK8SIoDrlcObjectV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SBoskosK8SIoDrlcObjectV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -641,7 +641,7 @@ export class DataK8SBoskosK8SIoDrlcObjectV1Manifest extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest k8s_boskos_k8s_io_drlc_object_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/boskos_k8s_io_drlc_object_v1_manifest k8s_boskos_k8s_io_drlc_object_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -652,8 +652,8 @@ export class DataK8SBoskosK8SIoDrlcObjectV1Manifest extends cdktf.TerraformDataS
       terraformResourceType: 'k8s_boskos_k8s_io_drlc_object_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

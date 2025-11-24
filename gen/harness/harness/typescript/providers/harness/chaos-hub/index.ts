@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_hub
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_hub
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface ChaosHubConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the Git connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_hub#connector_id ChaosHub#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_hub#connector_id ChaosHub#connector_id}
   */
   readonly connectorId: string;
   /**
   * Scope of the Git connector (PROJECT, ORGANISATION, or ACCOUNT)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_hub#connector_scope ChaosHub#connector_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_hub#connector_scope ChaosHub#connector_scope}
   */
   readonly connectorScope?: string;
   /**
   * Description of the chaos hub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_hub#description ChaosHub#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_hub#description ChaosHub#description}
   */
   readonly description?: string;
   /**
   * Whether this is the default chaos hub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_hub#is_default ChaosHub#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_hub#is_default ChaosHub#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * Name of the chaos hub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_hub#name ChaosHub#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_hub#name ChaosHub#name}
   */
   readonly name: string;
   /**
   * The organization ID of the chaos hub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_hub#org_id ChaosHub#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_hub#org_id ChaosHub#org_id}
   */
   readonly orgId?: string;
   /**
   * The project ID of the chaos hub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_hub#project_id ChaosHub#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_hub#project_id ChaosHub#project_id}
   */
   readonly projectId?: string;
   /**
   * Git repository branch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_hub#repo_branch ChaosHub#repo_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_hub#repo_branch ChaosHub#repo_branch}
   */
   readonly repoBranch: string;
   /**
   * Name of the Git repository (required for account-level connectors)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_hub#repo_name ChaosHub#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_hub#repo_name ChaosHub#repo_name}
   */
   readonly repoName?: string;
   /**
   * Tags to associate with the chaos hub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_hub#tags ChaosHub#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_hub#tags ChaosHub#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_hub harness_chaos_hub}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_hub harness_chaos_hub}
 */
 export class ChaosHub extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class ChaosHub extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ChaosHub resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChaosHub to import
-  * @param importFromId The id of the existing ChaosHub that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_hub#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChaosHub that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_hub#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChaosHub to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class ChaosHub extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_hub harness_chaos_hub} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/chaos_hub harness_chaos_hub} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class ChaosHub extends cdktf.TerraformResource {
       terraformResourceType: 'harness_chaos_hub',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

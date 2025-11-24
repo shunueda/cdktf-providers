@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface PlatformCentralNotificationChannelConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#id PlatformCentralNotificationChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#id PlatformCentralNotificationChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#identifier PlatformCentralNotificationChannel#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#identifier PlatformCentralNotificationChannel#identifier}
   */
   readonly identifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#name PlatformCentralNotificationChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#name PlatformCentralNotificationChannel#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#notification_channel_type PlatformCentralNotificationChannel#notification_channel_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#notification_channel_type PlatformCentralNotificationChannel#notification_channel_type}
   */
   readonly notificationChannelType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#org PlatformCentralNotificationChannel#org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#org PlatformCentralNotificationChannel#org}
   */
   readonly org?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#project PlatformCentralNotificationChannel#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#project PlatformCentralNotificationChannel#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#status PlatformCentralNotificationChannel#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#status PlatformCentralNotificationChannel#status}
   */
   readonly status?: string;
   /**
   * channel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#channel PlatformCentralNotificationChannel#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#channel PlatformCentralNotificationChannel#channel}
   */
   readonly channel: PlatformCentralNotificationChannelChannel;
 }
 export interface PlatformCentralNotificationChannelChannelHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#key PlatformCentralNotificationChannel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#key PlatformCentralNotificationChannel#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#value PlatformCentralNotificationChannel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#value PlatformCentralNotificationChannel#value}
   */
   readonly value: string;
 }
@@ -190,7 +190,7 @@ export class PlatformCentralNotificationChannelChannelHeadersList extends cdktf.
 }
 export interface PlatformCentralNotificationChannelChannelUserGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#identifier PlatformCentralNotificationChannel#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#identifier PlatformCentralNotificationChannel#identifier}
   */
   readonly identifier: string;
 }
@@ -303,51 +303,51 @@ export class PlatformCentralNotificationChannelChannelUserGroupsList extends cdk
 }
 export interface PlatformCentralNotificationChannelChannel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#api_key PlatformCentralNotificationChannel#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#api_key PlatformCentralNotificationChannel#api_key}
   */
   readonly apiKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#datadog_urls PlatformCentralNotificationChannel#datadog_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#datadog_urls PlatformCentralNotificationChannel#datadog_urls}
   */
   readonly datadogUrls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#delegate_selectors PlatformCentralNotificationChannel#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#delegate_selectors PlatformCentralNotificationChannel#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#email_ids PlatformCentralNotificationChannel#email_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#email_ids PlatformCentralNotificationChannel#email_ids}
   */
   readonly emailIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#execute_on_delegate PlatformCentralNotificationChannel#execute_on_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#execute_on_delegate PlatformCentralNotificationChannel#execute_on_delegate}
   */
   readonly executeOnDelegate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#ms_team_keys PlatformCentralNotificationChannel#ms_team_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#ms_team_keys PlatformCentralNotificationChannel#ms_team_keys}
   */
   readonly msTeamKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#pager_duty_integration_keys PlatformCentralNotificationChannel#pager_duty_integration_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#pager_duty_integration_keys PlatformCentralNotificationChannel#pager_duty_integration_keys}
   */
   readonly pagerDutyIntegrationKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#slack_webhook_urls PlatformCentralNotificationChannel#slack_webhook_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#slack_webhook_urls PlatformCentralNotificationChannel#slack_webhook_urls}
   */
   readonly slackWebhookUrls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#webhook_urls PlatformCentralNotificationChannel#webhook_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#webhook_urls PlatformCentralNotificationChannel#webhook_urls}
   */
   readonly webhookUrls?: string[];
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#headers PlatformCentralNotificationChannel#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#headers PlatformCentralNotificationChannel#headers}
   */
   readonly headers?: PlatformCentralNotificationChannelChannelHeaders[] | cdktf.IResolvable;
   /**
   * user_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#user_groups PlatformCentralNotificationChannel#user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#user_groups PlatformCentralNotificationChannel#user_groups}
   */
   readonly userGroups?: PlatformCentralNotificationChannelChannelUserGroups[] | cdktf.IResolvable;
 }
@@ -721,7 +721,7 @@ export class PlatformCentralNotificationChannelChannelOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel harness_platform_central_notification_channel}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel harness_platform_central_notification_channel}
 */
 export class PlatformCentralNotificationChannel extends cdktf.TerraformResource {
 
@@ -737,7 +737,7 @@ export class PlatformCentralNotificationChannel extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a PlatformCentralNotificationChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformCentralNotificationChannel to import
-  * @param importFromId The id of the existing PlatformCentralNotificationChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformCentralNotificationChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformCentralNotificationChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -749,7 +749,7 @@ export class PlatformCentralNotificationChannel extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_central_notification_channel harness_platform_central_notification_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_central_notification_channel harness_platform_central_notification_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -760,8 +760,8 @@ export class PlatformCentralNotificationChannel extends cdktf.TerraformResource 
       terraformResourceType: 'harness_platform_central_notification_channel',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

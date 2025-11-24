@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/role_assignment
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/role_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface RoleAssignmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Role ID (UUID). **Deprecated:** use `role_ids` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/role_assignment#role_id RoleAssignment#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/role_assignment#role_id RoleAssignment#role_id}
   */
   readonly roleId?: string;
   /**
   * Role IDs (UUID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/role_assignment#role_ids RoleAssignment#role_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/role_assignment#role_ids RoleAssignment#role_ids}
   */
   readonly roleIds?: string[];
   /**
   * SSO group ID. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/role_assignment#sso_group_id RoleAssignment#sso_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/role_assignment#sso_group_id RoleAssignment#sso_group_id}
   */
   readonly ssoGroupId?: string;
   /**
   * User email address. Changing this forces a new resource to be created. **Deprecated:** use `user_id` with the `polaris_user` data source instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/role_assignment#user_email RoleAssignment#user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/role_assignment#user_email RoleAssignment#user_email}
   */
   readonly userEmail?: string;
   /**
   * User ID. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/role_assignment#user_id RoleAssignment#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/role_assignment#user_id RoleAssignment#user_id}
   */
   readonly userId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/role_assignment polaris_role_assignment}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/role_assignment polaris_role_assignment}
 */
 export class RoleAssignment extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class RoleAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoleAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoleAssignment to import
-  * @param importFromId The id of the existing RoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/role_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoleAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/role_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoleAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class RoleAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/role_assignment polaris_role_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/role_assignment polaris_role_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class RoleAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_role_assignment',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

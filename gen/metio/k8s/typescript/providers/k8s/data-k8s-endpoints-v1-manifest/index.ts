@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SEndpointsV1ManifestConfig extends cdktf.TerraformMetaArg
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#metadata DataK8SEndpointsV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#metadata DataK8SEndpointsV1Manifest#metadata}
   */
   readonly metadata: DataK8SEndpointsV1ManifestMetadata;
   /**
   * The set of all endpoints is the union of all subsets. Addresses are placed into subsets according to the IPs they share. A single address with multiple ports, some of which are ready and some of which are not (because they come from different containers) will result in the address being displayed in different subsets for the different ports. No address will appear in both Addresses and NotReadyAddresses in the same subset. Sets of addresses and ports that comprise a service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#subsets DataK8SEndpointsV1Manifest#subsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#subsets DataK8SEndpointsV1Manifest#subsets}
   */
   readonly subsets?: DataK8SEndpointsV1ManifestSubsets[] | cdktf.IResolvable;
 }
@@ -24,25 +24,25 @@ export interface DataK8SEndpointsV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#annotations DataK8SEndpointsV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#annotations DataK8SEndpointsV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#labels DataK8SEndpointsV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#labels DataK8SEndpointsV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#name DataK8SEndpointsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#name DataK8SEndpointsV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#namespace DataK8SEndpointsV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#namespace DataK8SEndpointsV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,43 +219,43 @@ export interface DataK8SEndpointsV1ManifestSubsetsAddressesTargetRef {
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#api_version DataK8SEndpointsV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#api_version DataK8SEndpointsV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#field_path DataK8SEndpointsV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#field_path DataK8SEndpointsV1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#kind DataK8SEndpointsV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#kind DataK8SEndpointsV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#name DataK8SEndpointsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#name DataK8SEndpointsV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#namespace DataK8SEndpointsV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#namespace DataK8SEndpointsV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#resource_version DataK8SEndpointsV1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#resource_version DataK8SEndpointsV1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#uid DataK8SEndpointsV1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#uid DataK8SEndpointsV1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -525,25 +525,25 @@ export interface DataK8SEndpointsV1ManifestSubsetsAddresses {
   /**
   * The Hostname of this endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#hostname DataK8SEndpointsV1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#hostname DataK8SEndpointsV1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * The IP of this endpoint. May not be loopback (127.0.0.0/8 or ::1), link-local (169.254.0.0/16 or fe80::/10), or link-local multicast (224.0.0.0/24 or ff02::/16).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#ip DataK8SEndpointsV1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#ip DataK8SEndpointsV1Manifest#ip}
   */
   readonly ip: string;
   /**
   * Optional: Node hosting this endpoint. This can be used to determine endpoints local to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#node_name DataK8SEndpointsV1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#node_name DataK8SEndpointsV1Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
   * ObjectReference contains enough information to let you inspect or modify the referred object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#target_ref DataK8SEndpointsV1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#target_ref DataK8SEndpointsV1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SEndpointsV1ManifestSubsetsAddressesTargetRef;
 }
@@ -745,43 +745,43 @@ export interface DataK8SEndpointsV1ManifestSubsetsNotReadyAddressesTargetRef {
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#api_version DataK8SEndpointsV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#api_version DataK8SEndpointsV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#field_path DataK8SEndpointsV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#field_path DataK8SEndpointsV1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#kind DataK8SEndpointsV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#kind DataK8SEndpointsV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#name DataK8SEndpointsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#name DataK8SEndpointsV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#namespace DataK8SEndpointsV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#namespace DataK8SEndpointsV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#resource_version DataK8SEndpointsV1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#resource_version DataK8SEndpointsV1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#uid DataK8SEndpointsV1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#uid DataK8SEndpointsV1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1051,25 +1051,25 @@ export interface DataK8SEndpointsV1ManifestSubsetsNotReadyAddresses {
   /**
   * The Hostname of this endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#hostname DataK8SEndpointsV1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#hostname DataK8SEndpointsV1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * The IP of this endpoint. May not be loopback (127.0.0.0/8 or ::1), link-local (169.254.0.0/16 or fe80::/10), or link-local multicast (224.0.0.0/24 or ff02::/16).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#ip DataK8SEndpointsV1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#ip DataK8SEndpointsV1Manifest#ip}
   */
   readonly ip: string;
   /**
   * Optional: Node hosting this endpoint. This can be used to determine endpoints local to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#node_name DataK8SEndpointsV1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#node_name DataK8SEndpointsV1Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
   * ObjectReference contains enough information to let you inspect or modify the referred object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#target_ref DataK8SEndpointsV1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#target_ref DataK8SEndpointsV1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SEndpointsV1ManifestSubsetsNotReadyAddressesTargetRef;
 }
@@ -1271,25 +1271,25 @@ export interface DataK8SEndpointsV1ManifestSubsetsPorts {
   /**
   * The application protocol for this port. This is used as a hint for implementations to offer richer behavior for protocols that they understand. This field follows standard Kubernetes label syntax. Valid values are either: * Un-prefixed protocol names - reserved for IANA standard service names (as per RFC-6335 and https://www.iana.org/assignments/service-names). * Kubernetes-defined prefixed names: * 'kubernetes.io/h2c' - HTTP/2 prior knowledge over cleartext as described in https://www.rfc-editor.org/rfc/rfc9113.html#name-starting-http-2-with-prior- * 'kubernetes.io/ws' - WebSocket over cleartext as described in https://www.rfc-editor.org/rfc/rfc6455 * 'kubernetes.io/wss' - WebSocket over TLS as described in https://www.rfc-editor.org/rfc/rfc6455 * Other protocols should use implementation-defined prefixed names such as mycompany.com/my-custom-protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#app_protocol DataK8SEndpointsV1Manifest#app_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#app_protocol DataK8SEndpointsV1Manifest#app_protocol}
   */
   readonly appProtocol?: string;
   /**
   * The name of this port. This must match the 'name' field in the corresponding ServicePort. Must be a DNS_LABEL. Optional only if one port is defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#name DataK8SEndpointsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#name DataK8SEndpointsV1Manifest#name}
   */
   readonly name?: string;
   /**
   * The port number of the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#port DataK8SEndpointsV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#port DataK8SEndpointsV1Manifest#port}
   */
   readonly port: number;
   /**
   * The IP protocol for this port. Must be UDP, TCP, or SCTP. Default is TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#protocol DataK8SEndpointsV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#protocol DataK8SEndpointsV1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -1491,19 +1491,19 @@ export interface DataK8SEndpointsV1ManifestSubsets {
   /**
   * IP addresses which offer the related ports that are marked as ready. These endpoints should be considered safe for load balancers and clients to utilize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#addresses DataK8SEndpointsV1Manifest#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#addresses DataK8SEndpointsV1Manifest#addresses}
   */
   readonly addresses?: DataK8SEndpointsV1ManifestSubsetsAddresses[] | cdktf.IResolvable;
   /**
   * IP addresses which offer the related ports but are not currently marked as ready because they have not yet finished starting, have recently failed a readiness check, or have recently failed a liveness check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#not_ready_addresses DataK8SEndpointsV1Manifest#not_ready_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#not_ready_addresses DataK8SEndpointsV1Manifest#not_ready_addresses}
   */
   readonly notReadyAddresses?: DataK8SEndpointsV1ManifestSubsetsNotReadyAddresses[] | cdktf.IResolvable;
   /**
   * Port numbers available on the related IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#ports DataK8SEndpointsV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#ports DataK8SEndpointsV1Manifest#ports}
   */
   readonly ports?: DataK8SEndpointsV1ManifestSubsetsPorts[] | cdktf.IResolvable;
 }
@@ -1677,7 +1677,7 @@ export class DataK8SEndpointsV1ManifestSubsetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest k8s_endpoints_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest k8s_endpoints_v1_manifest}
 */
 export class DataK8SEndpointsV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1693,7 +1693,7 @@ export class DataK8SEndpointsV1Manifest extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataK8SEndpointsV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEndpointsV1Manifest to import
-  * @param importFromId The id of the existing DataK8SEndpointsV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEndpointsV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEndpointsV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1705,7 +1705,7 @@ export class DataK8SEndpointsV1Manifest extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/endpoints_v1_manifest k8s_endpoints_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/endpoints_v1_manifest k8s_endpoints_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1716,8 +1716,8 @@ export class DataK8SEndpointsV1Manifest extends cdktf.TerraformDataSource {
       terraformResourceType: 'k8s_endpoints_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

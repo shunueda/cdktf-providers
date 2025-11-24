@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_gnupg
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_gnupg
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PlatformGitopsGnupgConfig extends cdktf.TerraformMetaArguments 
   /**
   * Account Identifier for the GnuPG Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_gnupg#account_id PlatformGitopsGnupg#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_gnupg#account_id PlatformGitopsGnupg#account_id}
   */
   readonly accountId?: string;
   /**
   * Agent identifier for the GnuPG Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_gnupg#agent_id PlatformGitopsGnupg#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_gnupg#agent_id PlatformGitopsGnupg#agent_id}
   */
   readonly agentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_gnupg#id PlatformGitopsGnupg#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_gnupg#id PlatformGitopsGnupg#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface PlatformGitopsGnupgConfig extends cdktf.TerraformMetaArguments 
   /**
   * Organization Identifier for the GnuPG Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_gnupg#org_id PlatformGitopsGnupg#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_gnupg#org_id PlatformGitopsGnupg#org_id}
   */
   readonly orgId?: string;
   /**
   * Project Identifier for the GnuPG Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_gnupg#project_id PlatformGitopsGnupg#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_gnupg#project_id PlatformGitopsGnupg#project_id}
   */
   readonly projectId?: string;
   /**
   * request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_gnupg#request PlatformGitopsGnupg#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_gnupg#request PlatformGitopsGnupg#request}
   */
   readonly request: PlatformGitopsGnupgRequest[] | cdktf.IResolvable;
 }
@@ -49,7 +49,7 @@ export interface PlatformGitopsGnupgRequestPublickey {
   /**
   * KeyData holds the raw key data, in base64 encoded format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_gnupg#key_data PlatformGitopsGnupg#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_gnupg#key_data PlatformGitopsGnupg#key_data}
   */
   readonly keyData: string;
 }
@@ -189,13 +189,13 @@ export interface PlatformGitopsGnupgRequest {
   /**
   * Indicates if the GnuPG Key should be inserted if not present or updated if present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_gnupg#upsert PlatformGitopsGnupg#upsert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_gnupg#upsert PlatformGitopsGnupg#upsert}
   */
   readonly upsert: boolean | cdktf.IResolvable;
   /**
   * publickey block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_gnupg#publickey PlatformGitopsGnupg#publickey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_gnupg#publickey PlatformGitopsGnupg#publickey}
   */
   readonly publickey?: PlatformGitopsGnupgRequestPublickey[] | cdktf.IResolvable;
 }
@@ -337,7 +337,7 @@ export class PlatformGitopsGnupgRequestList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_gnupg harness_platform_gitops_gnupg}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_gnupg harness_platform_gitops_gnupg}
 */
 export class PlatformGitopsGnupg extends cdktf.TerraformResource {
 
@@ -353,7 +353,7 @@ export class PlatformGitopsGnupg extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformGitopsGnupg resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformGitopsGnupg to import
-  * @param importFromId The id of the existing PlatformGitopsGnupg that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_gnupg#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformGitopsGnupg that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_gnupg#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformGitopsGnupg to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -365,7 +365,7 @@ export class PlatformGitopsGnupg extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_gnupg harness_platform_gitops_gnupg} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_gnupg harness_platform_gitops_gnupg} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -376,8 +376,8 @@ export class PlatformGitopsGnupg extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_gitops_gnupg',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

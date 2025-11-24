@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PlatformConnectorGcpConfig extends cdktf.TerraformMetaArguments
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#description PlatformConnectorGcp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#description PlatformConnectorGcp#description}
   */
   readonly description?: string;
   /**
   * Enable this flag to execute on Delegate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#execute_on_delegate PlatformConnectorGcp#execute_on_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#execute_on_delegate PlatformConnectorGcp#execute_on_delegate}
   */
   readonly executeOnDelegate?: boolean | cdktf.IResolvable;
   /**
   * Enable this flag for force deletion of connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#force_delete PlatformConnectorGcp#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#force_delete PlatformConnectorGcp#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#id PlatformConnectorGcp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#id PlatformConnectorGcp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface PlatformConnectorGcpConfig extends cdktf.TerraformMetaArguments
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#identifier PlatformConnectorGcp#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#identifier PlatformConnectorGcp#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#name PlatformConnectorGcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#name PlatformConnectorGcp#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#org_id PlatformConnectorGcp#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#org_id PlatformConnectorGcp#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#project_id PlatformConnectorGcp#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#project_id PlatformConnectorGcp#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#tags PlatformConnectorGcp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#tags PlatformConnectorGcp#tags}
   */
   readonly tags?: string[];
   /**
   * inherit_from_delegate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#inherit_from_delegate PlatformConnectorGcp#inherit_from_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#inherit_from_delegate PlatformConnectorGcp#inherit_from_delegate}
   */
   readonly inheritFromDelegate?: PlatformConnectorGcpInheritFromDelegate[] | cdktf.IResolvable;
   /**
   * manual block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#manual PlatformConnectorGcp#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#manual PlatformConnectorGcp#manual}
   */
   readonly manual?: PlatformConnectorGcpManual;
   /**
   * oidc_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#oidc_authentication PlatformConnectorGcp#oidc_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#oidc_authentication PlatformConnectorGcp#oidc_authentication}
   */
   readonly oidcAuthentication?: PlatformConnectorGcpOidcAuthentication[] | cdktf.IResolvable;
 }
@@ -85,7 +85,7 @@ export interface PlatformConnectorGcpInheritFromDelegate {
   /**
   * The delegates to inherit the credentials from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#delegate_selectors PlatformConnectorGcp#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#delegate_selectors PlatformConnectorGcp#delegate_selectors}
   */
   readonly delegateSelectors: string[];
 }
@@ -200,13 +200,13 @@ export interface PlatformConnectorGcpManual {
   /**
   * The delegates to connect with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#delegate_selectors PlatformConnectorGcp#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#delegate_selectors PlatformConnectorGcp#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Reference to the Harness secret containing the secret key. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#secret_key_ref PlatformConnectorGcp#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#secret_key_ref PlatformConnectorGcp#secret_key_ref}
   */
   readonly secretKeyRef: string;
 }
@@ -318,31 +318,31 @@ export interface PlatformConnectorGcpOidcAuthentication {
   /**
   * The delegates to inherit the credentials from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#delegate_selectors PlatformConnectorGcp#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#delegate_selectors PlatformConnectorGcp#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * The project number of the GCP project that is used to create the workload identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#gcp_project_id PlatformConnectorGcp#gcp_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#gcp_project_id PlatformConnectorGcp#gcp_project_id}
   */
   readonly gcpProjectId: string;
   /**
   * The OIDC provider ID value configured in GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#provider_id PlatformConnectorGcp#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#provider_id PlatformConnectorGcp#provider_id}
   */
   readonly providerId: string;
   /**
   * The service account linked to workload identity pool while setting GCP workload identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#service_account_email PlatformConnectorGcp#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#service_account_email PlatformConnectorGcp#service_account_email}
   */
   readonly serviceAccountEmail: string;
   /**
   * The workload pool ID value created in GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#workload_pool_id PlatformConnectorGcp#workload_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#workload_pool_id PlatformConnectorGcp#workload_pool_id}
   */
   readonly workloadPoolId: string;
 }
@@ -562,7 +562,7 @@ export class PlatformConnectorGcpOidcAuthenticationList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp harness_platform_connector_gcp}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp harness_platform_connector_gcp}
 */
 export class PlatformConnectorGcp extends cdktf.TerraformResource {
 
@@ -578,7 +578,7 @@ export class PlatformConnectorGcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorGcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorGcp to import
-  * @param importFromId The id of the existing PlatformConnectorGcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorGcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorGcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -590,7 +590,7 @@ export class PlatformConnectorGcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gcp harness_platform_connector_gcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gcp harness_platform_connector_gcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -601,8 +601,8 @@ export class PlatformConnectorGcp extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_gcp',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

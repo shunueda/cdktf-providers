@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_ff_api_key
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ff_api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PlatformFfApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the SDK API Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_ff_api_key#description PlatformFfApiKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ff_api_key#description PlatformFfApiKey#description}
   */
   readonly description?: string;
   /**
   * Environment Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_ff_api_key#env_id PlatformFfApiKey#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ff_api_key#env_id PlatformFfApiKey#env_id}
   */
   readonly envId: string;
   /**
   * Expiration datetime of the SDK API Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_ff_api_key#expired_at PlatformFfApiKey#expired_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ff_api_key#expired_at PlatformFfApiKey#expired_at}
   */
   readonly expiredAt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_ff_api_key#id PlatformFfApiKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ff_api_key#id PlatformFfApiKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface PlatformFfApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Identifier of the SDK API Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_ff_api_key#identifier PlatformFfApiKey#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ff_api_key#identifier PlatformFfApiKey#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the SDK API Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_ff_api_key#name PlatformFfApiKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ff_api_key#name PlatformFfApiKey#name}
   */
   readonly name: string;
   /**
   * Organization Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_ff_api_key#org_id PlatformFfApiKey#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ff_api_key#org_id PlatformFfApiKey#org_id}
   */
   readonly orgId: string;
   /**
   * Project Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_ff_api_key#project_id PlatformFfApiKey#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ff_api_key#project_id PlatformFfApiKey#project_id}
   */
   readonly projectId: string;
   /**
   * Type of SDK. Valid values are `Server` or `Client`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_ff_api_key#type PlatformFfApiKey#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ff_api_key#type PlatformFfApiKey#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_ff_api_key harness_platform_ff_api_key}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ff_api_key harness_platform_ff_api_key}
 */
 export class PlatformFfApiKey extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class PlatformFfApiKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformFfApiKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformFfApiKey to import
-  * @param importFromId The id of the existing PlatformFfApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_ff_api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformFfApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ff_api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformFfApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class PlatformFfApiKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_ff_api_key harness_platform_ff_api_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ff_api_key harness_platform_ff_api_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class PlatformFfApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_ff_api_key',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

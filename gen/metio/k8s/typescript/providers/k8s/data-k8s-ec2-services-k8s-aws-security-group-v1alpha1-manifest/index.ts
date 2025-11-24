@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#metadata DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#metadata DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestMetadata;
   /**
   * SecurityGroupSpec defines the desired state of SecurityGroup. Describes a security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#spec DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#spec DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#annotations DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#annotations DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#labels DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#labels DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestMetadataOutput
 }
 export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRulesIpRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#cidr_ip DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#cidr_ip DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#cidr_ip}
   */
   readonly cidrIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
   */
   readonly description?: string;
 }
@@ -366,11 +366,11 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRule
 }
 export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRulesIpv6Ranges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#cidr_i_pv6 DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#cidr_i_pv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#cidr_i_pv6 DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#cidr_i_pv6}
   */
   readonly cidrIPv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
   */
   readonly description?: string;
 }
@@ -515,11 +515,11 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRule
 }
 export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRulesPrefixListIDs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#prefix_list_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#prefix_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#prefix_list_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#prefix_list_id}
   */
   readonly prefixListId?: string;
 }
@@ -664,11 +664,11 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRule
 }
 export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRulesUserIdGroupPairsGroupRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -793,7 +793,7 @@ export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgress
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#from DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#from DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRulesUserIdGroupPairsGroupRefFrom;
 }
@@ -887,11 +887,11 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRule
 }
 export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRulesUserIdGroupPairsVpcRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1016,7 +1016,7 @@ export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgress
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#from DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#from DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRulesUserIdGroupPairsVpcRefFrom;
 }
@@ -1110,43 +1110,43 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRule
 }
 export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRulesUserIdGroupPairs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#group_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#group_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#group_name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#group_name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#group_name}
   */
   readonly groupName?: string;
   /**
   * Reference field for GroupID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#group_ref DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#group_ref DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#group_ref}
   */
   readonly groupRef?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRulesUserIdGroupPairsGroupRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#peering_status DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#peering_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#peering_status DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#peering_status}
   */
   readonly peeringStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#user_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#user_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#user_id}
   */
   readonly userId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#vpc_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#vpc_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#vpc_peering_connection_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#vpc_peering_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#vpc_peering_connection_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#vpc_peering_connection_id}
   */
   readonly vpcPeeringConnectionId?: string;
   /**
   * Reference field for VPCID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#vpc_ref DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#vpc_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#vpc_ref DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#vpc_ref}
   */
   readonly vpcRef?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRulesUserIdGroupPairsVpcRef;
 }
@@ -1494,31 +1494,31 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRule
 }
 export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#from_port DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#from_port DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#from_port}
   */
   readonly fromPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#ip_protocol DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#ip_protocol DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#ip_ranges DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#ip_ranges DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#ip_ranges}
   */
   readonly ipRanges?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRulesIpRanges[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#ipv6_ranges DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#ipv6_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#ipv6_ranges DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#ipv6_ranges}
   */
   readonly ipv6Ranges?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRulesIpv6Ranges[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#prefix_list_i_ds DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#prefix_list_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#prefix_list_i_ds DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#prefix_list_i_ds}
   */
   readonly prefixListIDs?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRulesPrefixListIDs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#to_port DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#to_port DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#to_port}
   */
   readonly toPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#user_id_group_pairs DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#user_id_group_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#user_id_group_pairs DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#user_id_group_pairs}
   */
   readonly userIdGroupPairs?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRulesUserIdGroupPairs[] | cdktf.IResolvable;
 }
@@ -1808,11 +1808,11 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRule
 }
 export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRulesIpRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#cidr_ip DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#cidr_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#cidr_ip DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#cidr_ip}
   */
   readonly cidrIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
   */
   readonly description?: string;
 }
@@ -1957,11 +1957,11 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRul
 }
 export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRulesIpv6Ranges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#cidr_i_pv6 DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#cidr_i_pv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#cidr_i_pv6 DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#cidr_i_pv6}
   */
   readonly cidrIPv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
   */
   readonly description?: string;
 }
@@ -2106,11 +2106,11 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRul
 }
 export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRulesPrefixListIDs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#prefix_list_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#prefix_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#prefix_list_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#prefix_list_id}
   */
   readonly prefixListId?: string;
 }
@@ -2255,11 +2255,11 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRul
 }
 export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRulesUserIdGroupPairsGroupRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2384,7 +2384,7 @@ export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngres
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#from DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#from DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRulesUserIdGroupPairsGroupRefFrom;
 }
@@ -2478,11 +2478,11 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRul
 }
 export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRulesUserIdGroupPairsVpcRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2607,7 +2607,7 @@ export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngres
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#from DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#from DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRulesUserIdGroupPairsVpcRefFrom;
 }
@@ -2701,43 +2701,43 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRul
 }
 export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRulesUserIdGroupPairs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#group_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#group_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#group_name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#group_name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#group_name}
   */
   readonly groupName?: string;
   /**
   * Reference field for GroupID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#group_ref DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#group_ref DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#group_ref}
   */
   readonly groupRef?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRulesUserIdGroupPairsGroupRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#peering_status DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#peering_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#peering_status DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#peering_status}
   */
   readonly peeringStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#user_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#user_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#user_id}
   */
   readonly userId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#vpc_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#vpc_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#vpc_peering_connection_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#vpc_peering_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#vpc_peering_connection_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#vpc_peering_connection_id}
   */
   readonly vpcPeeringConnectionId?: string;
   /**
   * Reference field for VPCID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#vpc_ref DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#vpc_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#vpc_ref DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#vpc_ref}
   */
   readonly vpcRef?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRulesUserIdGroupPairsVpcRef;
 }
@@ -3085,31 +3085,31 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRul
 }
 export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#from_port DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#from_port DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#from_port}
   */
   readonly fromPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#ip_protocol DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#ip_protocol DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#ip_ranges DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#ip_ranges DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#ip_ranges}
   */
   readonly ipRanges?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRulesIpRanges[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#ipv6_ranges DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#ipv6_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#ipv6_ranges DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#ipv6_ranges}
   */
   readonly ipv6Ranges?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRulesIpv6Ranges[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#prefix_list_i_ds DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#prefix_list_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#prefix_list_i_ds DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#prefix_list_i_ds}
   */
   readonly prefixListIDs?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRulesPrefixListIDs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#to_port DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#to_port DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#to_port}
   */
   readonly toPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#user_id_group_pairs DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#user_id_group_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#user_id_group_pairs DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#user_id_group_pairs}
   */
   readonly userIdGroupPairs?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRulesUserIdGroupPairs[] | cdktf.IResolvable;
 }
@@ -3399,11 +3399,11 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRul
 }
 export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#key DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#key DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#value DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#value DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3548,11 +3548,11 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecTagsList e
 }
 export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecVpcRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3677,7 +3677,7 @@ export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecVpcRef
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#from DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#from DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecVpcRefFrom;
 }
@@ -3773,39 +3773,39 @@ export interface DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpec {
   /**
   * A description for the security group. This is informational only. Constraints: Up to 255 characters in length Constraints for EC2-Classic: ASCII characters Constraints for EC2-VPC: a-z, A-Z, 0-9, spaces, and ._-:/()#,@[]+=&;{}!$*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#egress_rules DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#egress_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#egress_rules DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#egress_rules}
   */
   readonly egressRules?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecEgressRules[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#ingress_rules DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#ingress_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#ingress_rules DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#ingress_rules}
   */
   readonly ingressRules?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecIngressRules[] | cdktf.IResolvable;
   /**
   * The name of the security group. Constraints: Up to 255 characters in length. Cannot start with sg-. Constraints for EC2-Classic: ASCII characters Constraints for EC2-VPC: a-z, A-Z, 0-9, spaces, and ._-:/()#,@[]+=&;{}!$*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The tags. The value parameter is required, but if you don't want the tag to have a value, specify the parameter with no value, and we set the value to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#tags DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#tags DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * [EC2-VPC] The ID of the VPC. Required for EC2-VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#vpc_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#vpc_id DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#vpc_ref DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#vpc_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#vpc_ref DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest#vpc_ref}
   */
   readonly vpcRef?: DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecVpcRef;
 }
@@ -4067,7 +4067,7 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest k8s_ec2_services_k8s_aws_security_group_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest k8s_ec2_services_k8s_aws_security_group_v1alpha1_manifest}
 */
 export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -4083,7 +4083,7 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4095,7 +4095,7 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest k8s_ec2_services_k8s_aws_security_group_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_security_group_v1alpha1_manifest k8s_ec2_services_k8s_aws_security_group_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4106,8 +4106,8 @@ export class DataK8SEc2ServicesK8SAwsSecurityGroupV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_ec2_services_k8s_aws_security_group_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

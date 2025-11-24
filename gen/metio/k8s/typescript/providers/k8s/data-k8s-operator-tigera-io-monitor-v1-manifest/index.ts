@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestConfig extends cdktf.Te
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#metadata DataK8SOperatorTigeraIoMonitorV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#metadata DataK8SOperatorTigeraIoMonitorV1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorTigeraIoMonitorV1ManifestMetadata;
   /**
   * MonitorSpec defines the desired state of Tigera monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#spec DataK8SOperatorTigeraIoMonitorV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#spec DataK8SOperatorTigeraIoMonitorV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoMonitorV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#annotations DataK8SOperatorTigeraIoMonitorV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#annotations DataK8SOperatorTigeraIoMonitorV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#labels DataK8SOperatorTigeraIoMonitorV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#labels DataK8SOperatorTigeraIoMonitorV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#name DataK8SOperatorTigeraIoMonitorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#name DataK8SOperatorTigeraIoMonitorV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecAlertManagerSpecRes
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#name DataK8SOperatorTigeraIoMonitorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#name DataK8SOperatorTigeraIoMonitorV1Manifest#name}
   */
   readonly name: string;
 }
@@ -302,19 +302,19 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecAlertManagerSpecRes
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#claims DataK8SOperatorTigeraIoMonitorV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#claims DataK8SOperatorTigeraIoMonitorV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecAlertManagerSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#limits DataK8SOperatorTigeraIoMonitorV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#limits DataK8SOperatorTigeraIoMonitorV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#requests DataK8SOperatorTigeraIoMonitorV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#requests DataK8SOperatorTigeraIoMonitorV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -468,7 +468,7 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecAlertManagerSpec {
   /**
   * Define resources requests and limits for single Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#resources DataK8SOperatorTigeraIoMonitorV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#resources DataK8SOperatorTigeraIoMonitorV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecAlertManagerSpecResources;
 }
@@ -564,7 +564,7 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecAlertManager {
   /**
   * Spec is the specification of the Alertmanager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#spec DataK8SOperatorTigeraIoMonitorV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#spec DataK8SOperatorTigeraIoMonitorV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecAlertManagerSpec;
 }
@@ -660,19 +660,19 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecExternalPrometheusS
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#key DataK8SOperatorTigeraIoMonitorV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#key DataK8SOperatorTigeraIoMonitorV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#name DataK8SOperatorTigeraIoMonitorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#name DataK8SOperatorTigeraIoMonitorV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#optional DataK8SOperatorTigeraIoMonitorV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#optional DataK8SOperatorTigeraIoMonitorV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -823,43 +823,43 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecExternalPrometheusS
   /**
   * Action to perform based on regex matching. Default is 'replace'. uppercase and lowercase actions require Prometheus >= 2.36.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#action DataK8SOperatorTigeraIoMonitorV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#action DataK8SOperatorTigeraIoMonitorV1Manifest#action}
   */
   readonly action?: string;
   /**
   * Modulus to take of the hash of the source label values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#modulus DataK8SOperatorTigeraIoMonitorV1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#modulus DataK8SOperatorTigeraIoMonitorV1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched. Default is '(.*)'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#regex DataK8SOperatorTigeraIoMonitorV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#regex DataK8SOperatorTigeraIoMonitorV1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Replacement value against which a regex replace is performed if the regular expression matches. Regex capture groups are available. Default is '$1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#replacement DataK8SOperatorTigeraIoMonitorV1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#replacement DataK8SOperatorTigeraIoMonitorV1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator placed between concatenated source label values. default is ';'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#separator DataK8SOperatorTigeraIoMonitorV1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#separator DataK8SOperatorTigeraIoMonitorV1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured separator and matched against the configured regular expression for the replace, keep, and drop actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#source_labels DataK8SOperatorTigeraIoMonitorV1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#source_labels DataK8SOperatorTigeraIoMonitorV1Manifest#source_labels}
   */
   readonly sourceLabels?: string[];
   /**
   * Label to which the resulting value is written in a replace action. It is mandatory for replace actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#target_label DataK8SOperatorTigeraIoMonitorV1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#target_label DataK8SOperatorTigeraIoMonitorV1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -1151,43 +1151,43 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecExternalPrometheusS
   /**
   * Action to perform based on regex matching. Default is 'replace'. uppercase and lowercase actions require Prometheus >= 2.36.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#action DataK8SOperatorTigeraIoMonitorV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#action DataK8SOperatorTigeraIoMonitorV1Manifest#action}
   */
   readonly action?: string;
   /**
   * Modulus to take of the hash of the source label values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#modulus DataK8SOperatorTigeraIoMonitorV1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#modulus DataK8SOperatorTigeraIoMonitorV1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched. Default is '(.*)'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#regex DataK8SOperatorTigeraIoMonitorV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#regex DataK8SOperatorTigeraIoMonitorV1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Replacement value against which a regex replace is performed if the regular expression matches. Regex capture groups are available. Default is '$1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#replacement DataK8SOperatorTigeraIoMonitorV1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#replacement DataK8SOperatorTigeraIoMonitorV1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator placed between concatenated source label values. default is ';'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#separator DataK8SOperatorTigeraIoMonitorV1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#separator DataK8SOperatorTigeraIoMonitorV1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured separator and matched against the configured regular expression for the replace, keep, and drop actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#source_labels DataK8SOperatorTigeraIoMonitorV1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#source_labels DataK8SOperatorTigeraIoMonitorV1Manifest#source_labels}
   */
   readonly sourceLabels?: string[];
   /**
   * Label to which the resulting value is written in a replace action. It is mandatory for replace actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#target_label DataK8SOperatorTigeraIoMonitorV1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#target_label DataK8SOperatorTigeraIoMonitorV1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -1479,49 +1479,49 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecExternalPrometheusS
   /**
   * Secret to mount to read bearer token for scraping targets. Recommended: when unset, the operator will create a Secret, a ClusterRole and a ClusterRoleBinding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#bearer_token_secret DataK8SOperatorTigeraIoMonitorV1Manifest#bearer_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#bearer_token_secret DataK8SOperatorTigeraIoMonitorV1Manifest#bearer_token_secret}
   */
   readonly bearerTokenSecret?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecExternalPrometheusServiceMonitorEndpointsBearerTokenSecret;
   /**
   * HonorLabels chooses the metric's labels on collisions with target labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#honor_labels DataK8SOperatorTigeraIoMonitorV1Manifest#honor_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#honor_labels DataK8SOperatorTigeraIoMonitorV1Manifest#honor_labels}
   */
   readonly honorLabels?: boolean | cdktf.IResolvable;
   /**
   * HonorTimestamps controls whether Prometheus respects the timestamps present in scraped data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#honor_timestamps DataK8SOperatorTigeraIoMonitorV1Manifest#honor_timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#honor_timestamps DataK8SOperatorTigeraIoMonitorV1Manifest#honor_timestamps}
   */
   readonly honorTimestamps?: boolean | cdktf.IResolvable;
   /**
   * Interval at which metrics should be scraped. If not specified Prometheus' global scrape interval is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#interval DataK8SOperatorTigeraIoMonitorV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#interval DataK8SOperatorTigeraIoMonitorV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * MetricRelabelConfigs to apply to samples before ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#metric_relabelings DataK8SOperatorTigeraIoMonitorV1Manifest#metric_relabelings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#metric_relabelings DataK8SOperatorTigeraIoMonitorV1Manifest#metric_relabelings}
   */
   readonly metricRelabelings?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecExternalPrometheusServiceMonitorEndpointsMetricRelabelings[] | cdktf.IResolvable;
   /**
   * Optional HTTP URL parameters Default: scrape all metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#params DataK8SOperatorTigeraIoMonitorV1Manifest#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#params DataK8SOperatorTigeraIoMonitorV1Manifest#params}
   */
   readonly params?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * RelabelConfigs to apply to samples before scraping. Prometheus Operator automatically adds relabelings for a few standard Kubernetes fields. The original scrape job's name is available via the '__tmp_prometheus_job_name' label. More info: https://prometheus.io/docs/prometheus/latest/configuration/configuration/#relabel_config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#relabelings DataK8SOperatorTigeraIoMonitorV1Manifest#relabelings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#relabelings DataK8SOperatorTigeraIoMonitorV1Manifest#relabelings}
   */
   readonly relabelings?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecExternalPrometheusServiceMonitorEndpointsRelabelings[] | cdktf.IResolvable;
   /**
   * Timeout after which the scrape is ended. If not specified, the Prometheus global scrape timeout is used unless it is less than 'Interval' in which the latter is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#scrape_timeout DataK8SOperatorTigeraIoMonitorV1Manifest#scrape_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#scrape_timeout DataK8SOperatorTigeraIoMonitorV1Manifest#scrape_timeout}
   */
   readonly scrapeTimeout?: string;
 }
@@ -1842,13 +1842,13 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecExternalPrometheusS
   /**
   * The endpoints to scrape. This struct contains a subset of the Endpoint as defined in the prometheus docs. Fields related to connecting to our Prometheus server are automatically set by the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#endpoints DataK8SOperatorTigeraIoMonitorV1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#endpoints DataK8SOperatorTigeraIoMonitorV1Manifest#endpoints}
   */
   readonly endpoints?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecExternalPrometheusServiceMonitorEndpoints[] | cdktf.IResolvable;
   /**
   * Labels are the metadata.labels of the ServiceMonitor. When combined with spec.serviceMonitorSelector.matchLabels on your prometheus instance, the service monitor will automatically be picked up. Default: k8s-app=tigera-prometheus
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#labels DataK8SOperatorTigeraIoMonitorV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#labels DataK8SOperatorTigeraIoMonitorV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -1973,13 +1973,13 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecExternalPrometheus 
   /**
   * Namespace is the namespace where the operator will create resources for your Prometheus instance. The namespace must be created before the operator will create Prometheus resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#namespace DataK8SOperatorTigeraIoMonitorV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#namespace DataK8SOperatorTigeraIoMonitorV1Manifest#namespace}
   */
   readonly namespace: string;
   /**
   * ServiceMonitor when specified, the operator will create a ServiceMonitor object in the namespace. It is recommended that you configure labels if you want your prometheus instance to pick up the configuration automatically. The operator will configure 1 endpoint by default: - Params to scrape all metrics available in Calico Enterprise. - BearerTokenSecret (If not overridden, the operator will also create corresponding RBAC that allows authz to the metrics.) - TLSConfig, containing the caFile and serverName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#service_monitor DataK8SOperatorTigeraIoMonitorV1Manifest#service_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#service_monitor DataK8SOperatorTigeraIoMonitorV1Manifest#service_monitor}
   */
   readonly serviceMonitor?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecExternalPrometheusServiceMonitor;
 }
@@ -2101,7 +2101,7 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecPrometheusSpecCommo
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#name DataK8SOperatorTigeraIoMonitorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#name DataK8SOperatorTigeraIoMonitorV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2216,19 +2216,19 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecPrometheusSpecCommo
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#claims DataK8SOperatorTigeraIoMonitorV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#claims DataK8SOperatorTigeraIoMonitorV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecPrometheusSpecCommonPrometheusFieldsContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#limits DataK8SOperatorTigeraIoMonitorV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#limits DataK8SOperatorTigeraIoMonitorV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#requests DataK8SOperatorTigeraIoMonitorV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#requests DataK8SOperatorTigeraIoMonitorV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2382,13 +2382,13 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecPrometheusSpecCommo
   /**
   * Name is an enum which identifies the Prometheus Deployment container by name. Supported values are: authn-proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#name DataK8SOperatorTigeraIoMonitorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#name DataK8SOperatorTigeraIoMonitorV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named Prometheus container's resources. If omitted, the Prometheus will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#resources DataK8SOperatorTigeraIoMonitorV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#resources DataK8SOperatorTigeraIoMonitorV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecPrometheusSpecCommonPrometheusFieldsContainersResources;
 }
@@ -2532,7 +2532,7 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecPrometheusSpecCommo
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#name DataK8SOperatorTigeraIoMonitorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#name DataK8SOperatorTigeraIoMonitorV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2647,19 +2647,19 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecPrometheusSpecCommo
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#claims DataK8SOperatorTigeraIoMonitorV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#claims DataK8SOperatorTigeraIoMonitorV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecPrometheusSpecCommonPrometheusFieldsResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#limits DataK8SOperatorTigeraIoMonitorV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#limits DataK8SOperatorTigeraIoMonitorV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#requests DataK8SOperatorTigeraIoMonitorV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#requests DataK8SOperatorTigeraIoMonitorV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2813,13 +2813,13 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecPrometheusSpecCommo
   /**
   * Containers is a list of Prometheus containers. If specified, this overrides the specified Prometheus Deployment containers. If omitted, the Prometheus Deployment will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#containers DataK8SOperatorTigeraIoMonitorV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#containers DataK8SOperatorTigeraIoMonitorV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecPrometheusSpecCommonPrometheusFieldsContainers[] | cdktf.IResolvable;
   /**
   * Define resources requests and limits for single Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#resources DataK8SOperatorTigeraIoMonitorV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#resources DataK8SOperatorTigeraIoMonitorV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecPrometheusSpecCommonPrometheusFieldsResources;
 }
@@ -2944,7 +2944,7 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecPrometheusSpec {
   /**
   * CommonPrometheusFields are the options available to both the Prometheus server and agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#common_prometheus_fields DataK8SOperatorTigeraIoMonitorV1Manifest#common_prometheus_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#common_prometheus_fields DataK8SOperatorTigeraIoMonitorV1Manifest#common_prometheus_fields}
   */
   readonly commonPrometheusFields?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecPrometheusSpecCommonPrometheusFields;
 }
@@ -3040,7 +3040,7 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpecPrometheus {
   /**
   * Spec is the specification of the Prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#spec DataK8SOperatorTigeraIoMonitorV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#spec DataK8SOperatorTigeraIoMonitorV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecPrometheusSpec;
 }
@@ -3136,19 +3136,19 @@ export interface DataK8SOperatorTigeraIoMonitorV1ManifestSpec {
   /**
   * AlertManager is the configuration for the AlertManager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#alert_manager DataK8SOperatorTigeraIoMonitorV1Manifest#alert_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#alert_manager DataK8SOperatorTigeraIoMonitorV1Manifest#alert_manager}
   */
   readonly alertManager?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecAlertManager;
   /**
   * ExternalPrometheus optionally configures integration with an external Prometheus for scraping Calico metrics. When specified, the operator will render resources in the defined namespace. This option can be useful for configuring scraping from git-ops tools without the need of post-installation steps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#external_prometheus DataK8SOperatorTigeraIoMonitorV1Manifest#external_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#external_prometheus DataK8SOperatorTigeraIoMonitorV1Manifest#external_prometheus}
   */
   readonly externalPrometheus?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecExternalPrometheus;
   /**
   * Prometheus is the configuration for the Prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#prometheus DataK8SOperatorTigeraIoMonitorV1Manifest#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#prometheus DataK8SOperatorTigeraIoMonitorV1Manifest#prometheus}
   */
   readonly prometheus?: DataK8SOperatorTigeraIoMonitorV1ManifestSpecPrometheus;
 }
@@ -3300,7 +3300,7 @@ export class DataK8SOperatorTigeraIoMonitorV1ManifestSpecOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest k8s_operator_tigera_io_monitor_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest k8s_operator_tigera_io_monitor_v1_manifest}
 */
 export class DataK8SOperatorTigeraIoMonitorV1Manifest extends cdktf.TerraformDataSource {
 
@@ -3316,7 +3316,7 @@ export class DataK8SOperatorTigeraIoMonitorV1Manifest extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataK8SOperatorTigeraIoMonitorV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorTigeraIoMonitorV1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorTigeraIoMonitorV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorTigeraIoMonitorV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorTigeraIoMonitorV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3328,7 +3328,7 @@ export class DataK8SOperatorTigeraIoMonitorV1Manifest extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_monitor_v1_manifest k8s_operator_tigera_io_monitor_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_monitor_v1_manifest k8s_operator_tigera_io_monitor_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3339,8 +3339,8 @@ export class DataK8SOperatorTigeraIoMonitorV1Manifest extends cdktf.TerraformDat
       terraformResourceType: 'k8s_operator_tigera_io_monitor_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

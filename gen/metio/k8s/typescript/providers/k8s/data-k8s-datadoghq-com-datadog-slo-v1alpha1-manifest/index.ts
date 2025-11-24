@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SDatadoghqComDatadogSloV1Alpha1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#metadata DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#metadata DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SDatadoghqComDatadogSloV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#spec DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#spec DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDatadoghqComDatadogSloV1Alpha1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SDatadoghqComDatadogSloV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#annotations DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#annotations DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#labels DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#labels DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#name DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#name DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#namespace DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#namespace DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export interface DataK8SDatadoghqComDatadogSloV1Alpha1ManifestSpecControllerOpti
   /**
   * DisableRequiredTags disables the automatic addition of required tags to SLOs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#disable_required_tags DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#disable_required_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#disable_required_tags DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#disable_required_tags}
   */
   readonly disableRequiredTags?: boolean | cdktf.IResolvable;
 }
@@ -313,13 +313,13 @@ export interface DataK8SDatadoghqComDatadogSloV1Alpha1ManifestSpecQuery {
   /**
   * Denominator is a Datadog metric query for total (valid) events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#denominator DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#denominator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#denominator DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#denominator}
   */
   readonly denominator: string;
   /**
   * Numerator is a Datadog metric query for good events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#numerator DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#numerator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#numerator DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#numerator}
   */
   readonly numerator: string;
 }
@@ -438,67 +438,67 @@ export interface DataK8SDatadoghqComDatadogSloV1Alpha1ManifestSpec {
   /**
   * ControllerOptions are the optional parameters in the DatadogSLO controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#controller_options DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#controller_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#controller_options DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#controller_options}
   */
   readonly controllerOptions?: DataK8SDatadoghqComDatadogSloV1Alpha1ManifestSpecControllerOptions;
   /**
   * Description is a user-defined description of the service level objective. Always included in service level objective responses (but may be null). Optional in create/update requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#description DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#description DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * Groups is a list of (up to 100) monitor groups that narrow the scope of a monitor service level objective. Included in service level objective responses if it is not empty. Optional in create/update requests for monitor service level objectives, but may only be used when the length of the monitor_ids field is one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#groups DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#groups DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#groups}
   */
   readonly groups?: string[];
   /**
   * MonitorIDs is a list of monitor IDs that defines the scope of a monitor service level objective. Required if type is monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#monitor_i_ds DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#monitor_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#monitor_i_ds DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#monitor_i_ds}
   */
   readonly monitorIDs?: string[];
   /**
   * Name is the name of the service level objective.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#name DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#name DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Query is the query for a metric-based SLO. Required if type is metric. Note that only the 'sum by' aggregator is allowed, which sums all request counts. 'Average', 'max', nor 'min' request aggregators are not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#query DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#query DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#query}
   */
   readonly query?: DataK8SDatadoghqComDatadogSloV1Alpha1ManifestSpecQuery;
   /**
   * Tags is a list of tags to associate with your service level objective. This can help you categorize and filter service level objectives in the service level objectives page of the UI. Note: it's not currently possible to filter by these tags when querying via the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#tags DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#tags DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#tags}
   */
   readonly tags?: string[];
   /**
   * TargetThreshold is the target threshold such that when the service level indicator is above this threshold over the given timeframe, the objective is being met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#target_threshold DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#target_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#target_threshold DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#target_threshold}
   */
   readonly targetThreshold: string;
   /**
   * The SLO time window options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#timeframe DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#timeframe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#timeframe DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#timeframe}
   */
   readonly timeframe: string;
   /**
   * Type is the type of the service level objective.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#type DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#type DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * WarningThreshold is a optional warning threshold such that when the service level indicator is below this value for the given threshold, but above the target threshold, the objective appears in a 'warning' state. This value must be greater than the target threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#warning_threshold DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#warning_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#warning_threshold DataK8SDatadoghqComDatadogSloV1Alpha1Manifest#warning_threshold}
   */
   readonly warningThreshold?: string;
 }
@@ -870,7 +870,7 @@ export class DataK8SDatadoghqComDatadogSloV1Alpha1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest k8s_datadoghq_com_datadog_slo_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest k8s_datadoghq_com_datadog_slo_v1alpha1_manifest}
 */
 export class DataK8SDatadoghqComDatadogSloV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -886,7 +886,7 @@ export class DataK8SDatadoghqComDatadogSloV1Alpha1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SDatadoghqComDatadogSloV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDatadoghqComDatadogSloV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SDatadoghqComDatadogSloV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDatadoghqComDatadogSloV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDatadoghqComDatadogSloV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -898,7 +898,7 @@ export class DataK8SDatadoghqComDatadogSloV1Alpha1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest k8s_datadoghq_com_datadog_slo_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/datadoghq_com_datadog_slo_v1alpha1_manifest k8s_datadoghq_com_datadog_slo_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -909,8 +909,8 @@ export class DataK8SDatadoghqComDatadogSloV1Alpha1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_datadoghq_com_datadog_slo_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

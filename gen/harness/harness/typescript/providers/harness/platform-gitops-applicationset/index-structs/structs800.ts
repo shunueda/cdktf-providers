@@ -75,49 +75,49 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * List of additional annotations to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#common_annotations PlatformGitopsApplicationset#common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#common_annotations PlatformGitopsApplicationset#common_annotations}
   */
   readonly commonAnnotations?: { [key: string]: string };
   /**
   * List of additional labels to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#common_labels PlatformGitopsApplicationset#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#common_labels PlatformGitopsApplicationset#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
   * Indicates if to force applying common annotations to resources for kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_common_annotations PlatformGitopsApplicationset#force_common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_common_annotations PlatformGitopsApplicationset#force_common_annotations}
   */
   readonly forceCommonAnnotations?: boolean | cdktf.IResolvable;
   /**
   * Indicates if to force apply common labels to resources for kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_common_labels PlatformGitopsApplicationset#force_common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_common_labels PlatformGitopsApplicationset#force_common_labels}
   */
   readonly forceCommonLabels?: boolean | cdktf.IResolvable;
   /**
   * List of Kustomize image override specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#images PlatformGitopsApplicationset#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#images PlatformGitopsApplicationset#images}
   */
   readonly images?: string[];
   /**
   * Prefix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name_prefix PlatformGitopsApplicationset#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name_prefix PlatformGitopsApplicationset#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Suffix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name_suffix PlatformGitopsApplicationset#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name_suffix PlatformGitopsApplicationset#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
   * Version of Kustomize to use for rendering manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
   */
   readonly version?: string;
 }
@@ -406,13 +406,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -559,13 +559,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Name of the plugin. Only set the plugin name if the plugin is defined in `argocd-cm`. If the plugin is defined as a sidecar, omit the name. The plugin will be automatically matched with the Application according to the plugin's discovery rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#env PlatformGitopsApplicationset#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#env PlatformGitopsApplicationset#env}
   */
   readonly env?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSourcePluginEnv[] | cdktf.IResolvable;
 }
@@ -680,55 +680,55 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Helm chart name. Must be specified for applications sourced from a Helm repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#chart PlatformGitopsApplicationset#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#chart PlatformGitopsApplicationset#chart}
   */
   readonly chart?: string;
   /**
   * Directory path within the repository. Only valid for applications sourced from Git.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
   */
   readonly path?: string;
   /**
   * Reference to another `source` within defined sources. See associated documentation on [Helm value files from external Git repository](https://argo-cd.readthedocs.io/en/stable/user-guide/multiple_sources/#helm-value-files-from-external-git-repository) regarding combining `ref` with `path` and/or `chart`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ref PlatformGitopsApplicationset#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ref PlatformGitopsApplicationset#ref}
   */
   readonly ref?: string;
   /**
   * URL to the repository (Git or Helm) that contains the application manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#repo_url PlatformGitopsApplicationset#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#repo_url PlatformGitopsApplicationset#repo_url}
   */
   readonly repoUrl?: string;
   /**
   * Revision of the source to sync the application to. In case of Git, this can be commit, tag, or branch. If omitted, will equal to HEAD. In case of Helm, this is a semver tag for the Chart's version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#target_revision PlatformGitopsApplicationset#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#target_revision PlatformGitopsApplicationset#target_revision}
   */
   readonly targetRevision?: string;
   /**
   * directory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#directory PlatformGitopsApplicationset#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#directory PlatformGitopsApplicationset#directory}
   */
   readonly directory?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSourceDirectory;
   /**
   * helm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#helm PlatformGitopsApplicationset#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#helm PlatformGitopsApplicationset#helm}
   */
   readonly helm?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSourceHelm;
   /**
   * kustomize block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#kustomize PlatformGitopsApplicationset#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#kustomize PlatformGitopsApplicationset#kustomize}
   */
   readonly kustomize?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSourceKustomize;
   /**
   * plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#plugin PlatformGitopsApplicationset#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#plugin PlatformGitopsApplicationset#plugin}
   */
   readonly plugin?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSourcePlugin;
 }
@@ -1078,19 +1078,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -1266,19 +1266,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -1454,19 +1454,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Additional library search dirs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#libs PlatformGitopsApplicationset#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#libs PlatformGitopsApplicationset#libs}
   */
   readonly libs?: string[];
   /**
   * ext_var block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ext_var PlatformGitopsApplicationset#ext_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ext_var PlatformGitopsApplicationset#ext_var}
   */
   readonly extVar?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSourcesDirectoryJsonnetExtVar[] | cdktf.IResolvable;
   /**
   * tlas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#tlas PlatformGitopsApplicationset#tlas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#tlas PlatformGitopsApplicationset#tlas}
   */
   readonly tlas?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSourcesDirectoryJsonnetTlas[] | cdktf.IResolvable;
 }
@@ -1610,25 +1610,25 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Glob pattern to match paths against that should be explicitly excluded from being used during manifest generation. This takes precedence over the `include` field. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{config.yaml,env-use2/*}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#exclude PlatformGitopsApplicationset#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#exclude PlatformGitopsApplicationset#exclude}
   */
   readonly exclude?: string;
   /**
   * Glob pattern to match paths against that should be explicitly included during manifest generation. If this field is set, only matching manifests will be included. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{*.yml,*.yaml}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#include PlatformGitopsApplicationset#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#include PlatformGitopsApplicationset#include}
   */
   readonly include?: string;
   /**
   * Whether to scan a directory recursively for manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#recurse PlatformGitopsApplicationset#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#recurse PlatformGitopsApplicationset#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
   /**
   * jsonnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#jsonnet PlatformGitopsApplicationset#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#jsonnet PlatformGitopsApplicationset#jsonnet}
   */
   readonly jsonnet?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSourcesDirectoryJsonnet;
 }
@@ -1801,13 +1801,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name: string;
   /**
   * Path to the file containing the values for the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
   */
   readonly path: string;
 }
@@ -1948,19 +1948,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Determines whether to tell Helm to interpret booleans and numbers as strings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_string PlatformGitopsApplicationset#force_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_string PlatformGitopsApplicationset#force_string}
   */
   readonly forceString?: boolean | cdktf.IResolvable;
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -2136,73 +2136,73 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Prevents 'helm template' from failing when `value_files` do not exist locally by not appending them to 'helm template --values'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ignore_missing_value_files PlatformGitopsApplicationset#ignore_missing_value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ignore_missing_value_files PlatformGitopsApplicationset#ignore_missing_value_files}
   */
   readonly ignoreMissingValueFiles?: boolean | cdktf.IResolvable;
   /**
   * If true then adds '--pass-credentials' to Helm commands to pass credentials to all domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#pass_credentials PlatformGitopsApplicationset#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#pass_credentials PlatformGitopsApplicationset#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
   * Helm release name. If omitted it will use the application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#release_name PlatformGitopsApplicationset#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#release_name PlatformGitopsApplicationset#release_name}
   */
   readonly releaseName?: string;
   /**
   * Whether to skip custom resource definition installation step (Helm's [--skip-crds](https://helm.sh/docs/chart_best_practices/custom_resource_definitions/)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#skip_crds PlatformGitopsApplicationset#skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#skip_crds PlatformGitopsApplicationset#skip_crds}
   */
   readonly skipCrds?: boolean | cdktf.IResolvable;
   /**
   * Indicates if to skip schema validation during helm template. Corresponds to helm --skip-schema-validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#skip_schema_validation PlatformGitopsApplicationset#skip_schema_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#skip_schema_validation PlatformGitopsApplicationset#skip_schema_validation}
   */
   readonly skipSchemaValidation?: boolean | cdktf.IResolvable;
   /**
   * Indicates if to skip tests during helm template. Corresponds to helm --skip-tests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#skip_tests PlatformGitopsApplicationset#skip_tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#skip_tests PlatformGitopsApplicationset#skip_tests}
   */
   readonly skipTests?: boolean | cdktf.IResolvable;
   /**
   * List of Helm value files to use when generating a template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value_files PlatformGitopsApplicationset#value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value_files PlatformGitopsApplicationset#value_files}
   */
   readonly valueFiles?: string[];
   /**
   * Helm values to be passed to 'helm template', typically defined as a block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#values PlatformGitopsApplicationset#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#values PlatformGitopsApplicationset#values}
   */
   readonly values?: string;
   /**
   * Helm values to be passed to 'helm template', typically defined as a block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#values_object PlatformGitopsApplicationset#values_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#values_object PlatformGitopsApplicationset#values_object}
   */
   readonly valuesObject?: { [key: string]: string };
   /**
   * Helm version to use for templating (either "2" or "3").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
   */
   readonly version?: string;
   /**
   * file_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#file_parameters PlatformGitopsApplicationset#file_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#file_parameters PlatformGitopsApplicationset#file_parameters}
   */
   readonly fileParameters?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSourcesHelmFileParameters[] | cdktf.IResolvable;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#parameters PlatformGitopsApplicationset#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#parameters PlatformGitopsApplicationset#parameters}
   */
   readonly parameters?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSourcesHelmParameters[] | cdktf.IResolvable;
 }
@@ -2607,49 +2607,49 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * List of additional annotations to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#common_annotations PlatformGitopsApplicationset#common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#common_annotations PlatformGitopsApplicationset#common_annotations}
   */
   readonly commonAnnotations?: { [key: string]: string };
   /**
   * List of additional labels to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#common_labels PlatformGitopsApplicationset#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#common_labels PlatformGitopsApplicationset#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
   * Indicates if to force applying common annotations to resources for kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_common_annotations PlatformGitopsApplicationset#force_common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_common_annotations PlatformGitopsApplicationset#force_common_annotations}
   */
   readonly forceCommonAnnotations?: boolean | cdktf.IResolvable;
   /**
   * Indicates if to force apply common labels to resources for kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_common_labels PlatformGitopsApplicationset#force_common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_common_labels PlatformGitopsApplicationset#force_common_labels}
   */
   readonly forceCommonLabels?: boolean | cdktf.IResolvable;
   /**
   * List of Kustomize image override specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#images PlatformGitopsApplicationset#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#images PlatformGitopsApplicationset#images}
   */
   readonly images?: string[];
   /**
   * Prefix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name_prefix PlatformGitopsApplicationset#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name_prefix PlatformGitopsApplicationset#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Suffix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name_suffix PlatformGitopsApplicationset#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name_suffix PlatformGitopsApplicationset#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
   * Version of Kustomize to use for rendering manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
   */
   readonly version?: string;
 }
@@ -2938,13 +2938,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -3091,13 +3091,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Name of the plugin. Only set the plugin name if the plugin is defined in `argocd-cm`. If the plugin is defined as a sidecar, omit the name. The plugin will be automatically matched with the Application according to the plugin's discovery rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#env PlatformGitopsApplicationset#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#env PlatformGitopsApplicationset#env}
   */
   readonly env?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSourcesPluginEnv[] | cdktf.IResolvable;
 }
@@ -3212,55 +3212,55 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Helm chart name. Must be specified for applications sourced from a Helm repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#chart PlatformGitopsApplicationset#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#chart PlatformGitopsApplicationset#chart}
   */
   readonly chart?: string;
   /**
   * Directory path within the repository. Only valid for applications sourced from Git.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
   */
   readonly path?: string;
   /**
   * Reference to another `source` within defined sources. See associated documentation on [Helm value files from external Git repository](https://argo-cd.readthedocs.io/en/stable/user-guide/multiple_sources/#helm-value-files-from-external-git-repository) regarding combining `ref` with `path` and/or `chart`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ref PlatformGitopsApplicationset#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ref PlatformGitopsApplicationset#ref}
   */
   readonly ref?: string;
   /**
   * URL to the repository (Git or Helm) that contains the application manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#repo_url PlatformGitopsApplicationset#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#repo_url PlatformGitopsApplicationset#repo_url}
   */
   readonly repoUrl?: string;
   /**
   * Revision of the source to sync the application to. In case of Git, this can be commit, tag, or branch. If omitted, will equal to HEAD. In case of Helm, this is a semver tag for the Chart's version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#target_revision PlatformGitopsApplicationset#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#target_revision PlatformGitopsApplicationset#target_revision}
   */
   readonly targetRevision?: string;
   /**
   * directory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#directory PlatformGitopsApplicationset#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#directory PlatformGitopsApplicationset#directory}
   */
   readonly directory?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSourcesDirectory;
   /**
   * helm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#helm PlatformGitopsApplicationset#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#helm PlatformGitopsApplicationset#helm}
   */
   readonly helm?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSourcesHelm;
   /**
   * kustomize block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#kustomize PlatformGitopsApplicationset#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#kustomize PlatformGitopsApplicationset#kustomize}
   */
   readonly kustomize?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSourcesKustomize;
   /**
   * plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#plugin PlatformGitopsApplicationset#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#plugin PlatformGitopsApplicationset#plugin}
   */
   readonly plugin?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSourcesPlugin;
 }
@@ -3610,19 +3610,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Allows apps have zero live resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#allow_empty PlatformGitopsApplicationset#allow_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#allow_empty PlatformGitopsApplicationset#allow_empty}
   */
   readonly allowEmpty?: boolean | cdktf.IResolvable;
   /**
   * Whether to delete resources from the cluster that are not found in the sources anymore as part of automated sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#prune PlatformGitopsApplicationset#prune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#prune PlatformGitopsApplicationset#prune}
   */
   readonly prune?: boolean | cdktf.IResolvable;
   /**
   * Whether to revert resources back to their desired state upon modification in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#self_heal PlatformGitopsApplicationset#self_heal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#self_heal PlatformGitopsApplicationset#self_heal}
   */
   readonly selfHeal?: boolean | cdktf.IResolvable;
 }
@@ -3766,13 +3766,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Annotations to apply to the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#annotations PlatformGitopsApplicationset#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#annotations PlatformGitopsApplicationset#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels to apply to the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#labels PlatformGitopsApplicationset#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#labels PlatformGitopsApplicationset#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -3887,19 +3887,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Duration is the amount to back off. Default unit is seconds, but could also be a duration (e.g. `2m`, `1h`), as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#duration PlatformGitopsApplicationset#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#duration PlatformGitopsApplicationset#duration}
   */
   readonly duration?: string;
   /**
   * Factor to multiply the base duration after each failed retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#factor PlatformGitopsApplicationset#factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#factor PlatformGitopsApplicationset#factor}
   */
   readonly factor?: string;
   /**
   * Maximum amount of time allowed for the backoff strategy. Default unit is seconds, but could also be a duration (e.g. `2m`, `1h`), as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#max_duration PlatformGitopsApplicationset#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#max_duration PlatformGitopsApplicationset#max_duration}
   */
   readonly maxDuration?: string;
 }
@@ -4043,13 +4043,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * Maximum number of attempts for retrying a failed sync. If set to 0, no retries will be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#limit PlatformGitopsApplicationset#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#limit PlatformGitopsApplicationset#limit}
   */
   readonly limit?: string;
   /**
   * backoff block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#backoff PlatformGitopsApplicationset#backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#backoff PlatformGitopsApplicationset#backoff}
   */
   readonly backoff?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSyncPolicyRetryBackoff;
 }
@@ -4164,25 +4164,25 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * List of sync options. More info: https://argo-cd.readthedocs.io/en/stable/user-guide/sync-options/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#sync_options PlatformGitopsApplicationset#sync_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#sync_options PlatformGitopsApplicationset#sync_options}
   */
   readonly syncOptions?: string[];
   /**
   * automated block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#automated PlatformGitopsApplicationset#automated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#automated PlatformGitopsApplicationset#automated}
   */
   readonly automated?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSyncPolicyAutomated;
   /**
   * managed_namespace_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#managed_namespace_metadata PlatformGitopsApplicationset#managed_namespace_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#managed_namespace_metadata PlatformGitopsApplicationset#managed_namespace_metadata}
   */
   readonly managedNamespaceMetadata?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSyncPolicyManagedNamespaceMetadata;
   /**
   * retry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#retry PlatformGitopsApplicationset#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#retry PlatformGitopsApplicationset#retry}
   */
   readonly retry?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSyncPolicyRetry;
 }
@@ -4355,49 +4355,49 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * The project the application belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#project PlatformGitopsApplicationset#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#project PlatformGitopsApplicationset#project}
   */
   readonly project?: string;
   /**
   * Limits the number of items kept in the application's revision history, which is used for informational purposes as well as for rollbacks to previous versions. This should only be changed in exceptional circumstances. Setting to zero will store no history. This will reduce storage used. Increasing will increase the space used to store the history, so we do not recommend increasing it. Default is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#revision_history_limit PlatformGitopsApplicationset#revision_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#revision_history_limit PlatformGitopsApplicationset#revision_history_limit}
   */
   readonly revisionHistoryLimit?: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#destination PlatformGitopsApplicationset#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#destination PlatformGitopsApplicationset#destination}
   */
   readonly destination?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecDestination;
   /**
   * ignore_difference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ignore_difference PlatformGitopsApplicationset#ignore_difference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ignore_difference PlatformGitopsApplicationset#ignore_difference}
   */
   readonly ignoreDifference?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecIgnoreDifference[] | cdktf.IResolvable;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#info PlatformGitopsApplicationset#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#info PlatformGitopsApplicationset#info}
   */
   readonly info?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecInfo[] | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#source PlatformGitopsApplicationset#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#source PlatformGitopsApplicationset#source}
   */
   readonly source?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSource[] | cdktf.IResolvable;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#sources PlatformGitopsApplicationset#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#sources PlatformGitopsApplicationset#sources}
   */
   readonly sources?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSources[] | cdktf.IResolvable;
   /**
   * sync_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#sync_policy PlatformGitopsApplicationset#sync_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#sync_policy PlatformGitopsApplicationset#sync_policy}
   */
   readonly syncPolicy?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpecSyncPolicy;
 }
@@ -4686,13 +4686,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#metadata PlatformGitopsApplicationset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#metadata PlatformGitopsApplicationset#metadata}
   */
   readonly metadata?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#spec PlatformGitopsApplicationset#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#spec PlatformGitopsApplicationset#spec}
   */
   readonly spec?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplateSpec;
 }
@@ -4807,43 +4807,43 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequ
   /**
   * How often to check for changes (in seconds). Default: 30min.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#requeue_after_seconds PlatformGitopsApplicationset#requeue_after_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#requeue_after_seconds PlatformGitopsApplicationset#requeue_after_seconds}
   */
   readonly requeueAfterSeconds?: string;
   /**
   * bitbucket_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#bitbucket_server PlatformGitopsApplicationset#bitbucket_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#bitbucket_server PlatformGitopsApplicationset#bitbucket_server}
   */
   readonly bitbucketServer?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestBitbucketServer;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#filter PlatformGitopsApplicationset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#filter PlatformGitopsApplicationset#filter}
   */
   readonly filter?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestFilter[] | cdktf.IResolvable;
   /**
   * gitea block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#gitea PlatformGitopsApplicationset#gitea}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#gitea PlatformGitopsApplicationset#gitea}
   */
   readonly gitea?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestGitea;
   /**
   * github block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#github PlatformGitopsApplicationset#github}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#github PlatformGitopsApplicationset#github}
   */
   readonly github?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestGithub;
   /**
   * gitlab block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#gitlab PlatformGitopsApplicationset#gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#gitlab PlatformGitopsApplicationset#gitlab}
   */
   readonly gitlab?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestGitlab;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#template PlatformGitopsApplicationset#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#template PlatformGitopsApplicationset#template}
   */
   readonly template?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequestTemplate;
 }
@@ -5135,13 +5135,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Key containing information in Kubernetes `Secret`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
   */
   readonly key: string;
   /**
   * Name of Kubernetes `Secret`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#secret_name PlatformGitopsApplicationset#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#secret_name PlatformGitopsApplicationset#secret_name}
   */
   readonly secretName: string;
 }
@@ -5250,31 +5250,31 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Scan all branches instead of just the default branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#all_branches PlatformGitopsApplicationset#all_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#all_branches PlatformGitopsApplicationset#all_branches}
   */
   readonly allBranches?: boolean | cdktf.IResolvable;
   /**
   * The URL to Azure DevOps. Defaults to https://dev.azure.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#api PlatformGitopsApplicationset#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#api PlatformGitopsApplicationset#api}
   */
   readonly api?: string;
   /**
   * Azure Devops organization. E.g. "my-organization".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#organization PlatformGitopsApplicationset#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#organization PlatformGitopsApplicationset#organization}
   */
   readonly organization: string;
   /**
   * Azure Devops team project. E.g. "my-team".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#team_project PlatformGitopsApplicationset#team_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#team_project PlatformGitopsApplicationset#team_project}
   */
   readonly teamProject: string;
   /**
   * access_token_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#access_token_ref PlatformGitopsApplicationset#access_token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#access_token_ref PlatformGitopsApplicationset#access_token_ref}
   */
   readonly accessTokenRef?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderAzureDevopsAccessTokenRef;
 }
@@ -5470,13 +5470,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Key containing information in Kubernetes `Secret`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
   */
   readonly key: string;
   /**
   * Name of Kubernetes `Secret`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#secret_name PlatformGitopsApplicationset#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#secret_name PlatformGitopsApplicationset#secret_name}
   */
   readonly secretName: string;
 }
@@ -5585,25 +5585,25 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Scan all branches instead of just the default branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#all_branches PlatformGitopsApplicationset#all_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#all_branches PlatformGitopsApplicationset#all_branches}
   */
   readonly allBranches?: boolean | cdktf.IResolvable;
   /**
   * Bitbucket workspace to scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#owner PlatformGitopsApplicationset#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#owner PlatformGitopsApplicationset#owner}
   */
   readonly owner: string;
   /**
   * Bitbucket user to use when authenticating. Should have a "member" role to be able to read all repositories and branches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#user PlatformGitopsApplicationset#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#user PlatformGitopsApplicationset#user}
   */
   readonly user: string;
   /**
   * app_password_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#app_password_ref PlatformGitopsApplicationset#app_password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#app_password_ref PlatformGitopsApplicationset#app_password_ref}
   */
   readonly appPasswordRef?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderBitbucketCloudAppPasswordRef;
 }
@@ -5770,13 +5770,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Key containing information in Kubernetes `Secret`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
   */
   readonly key: string;
   /**
   * Name of Kubernetes `Secret`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#secret_name PlatformGitopsApplicationset#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#secret_name PlatformGitopsApplicationset#secret_name}
   */
   readonly secretName: string;
 }
@@ -5885,13 +5885,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Username for Basic auth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#username PlatformGitopsApplicationset#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#username PlatformGitopsApplicationset#username}
   */
   readonly username?: string;
   /**
   * password_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#password_ref PlatformGitopsApplicationset#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#password_ref PlatformGitopsApplicationset#password_ref}
   */
   readonly passwordRef?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderBitbucketServerBasicAuthPasswordRef;
 }
@@ -6006,25 +6006,25 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Scan all branches instead of just the default branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#all_branches PlatformGitopsApplicationset#all_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#all_branches PlatformGitopsApplicationset#all_branches}
   */
   readonly allBranches?: boolean | cdktf.IResolvable;
   /**
   * The Bitbucket REST API URL to talk to e.g. https://bitbucket.org/rest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#api PlatformGitopsApplicationset#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#api PlatformGitopsApplicationset#api}
   */
   readonly api: string;
   /**
   * Project to scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#project PlatformGitopsApplicationset#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#project PlatformGitopsApplicationset#project}
   */
   readonly project: string;
   /**
   * basic_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#basic_auth PlatformGitopsApplicationset#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#basic_auth PlatformGitopsApplicationset#basic_auth}
   */
   readonly basicAuth?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderBitbucketServerBasicAuth;
 }
@@ -6191,31 +6191,31 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * A regex which must match the branch name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#branch_match PlatformGitopsApplicationset#branch_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#branch_match PlatformGitopsApplicationset#branch_match}
   */
   readonly branchMatch?: string;
   /**
   * A regex which must match at least one label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#label_match PlatformGitopsApplicationset#label_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#label_match PlatformGitopsApplicationset#label_match}
   */
   readonly labelMatch?: string;
   /**
   * An array of paths, all of which must not exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#paths_do_not_exist PlatformGitopsApplicationset#paths_do_not_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#paths_do_not_exist PlatformGitopsApplicationset#paths_do_not_exist}
   */
   readonly pathsDoNotExist?: string[];
   /**
   * An array of paths, all of which must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#paths_exist PlatformGitopsApplicationset#paths_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#paths_exist PlatformGitopsApplicationset#paths_exist}
   */
   readonly pathsExist?: string[];
   /**
   * A regex for repo names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#repository_match PlatformGitopsApplicationset#repository_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#repository_match PlatformGitopsApplicationset#repository_match}
   */
   readonly repositoryMatch?: string;
 }
@@ -6449,13 +6449,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Key containing information in Kubernetes `Secret`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
   */
   readonly key: string;
   /**
   * Name of Kubernetes `Secret`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#secret_name PlatformGitopsApplicationset#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#secret_name PlatformGitopsApplicationset#secret_name}
   */
   readonly secretName: string;
 }
@@ -6564,31 +6564,31 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Scan all branches instead of just the default branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#all_branches PlatformGitopsApplicationset#all_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#all_branches PlatformGitopsApplicationset#all_branches}
   */
   readonly allBranches?: boolean | cdktf.IResolvable;
   /**
   * The Gitea URL to talk to. For example https://gitea.mydomain.com/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#api PlatformGitopsApplicationset#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#api PlatformGitopsApplicationset#api}
   */
   readonly api?: string;
   /**
   * Allow self-signed TLS / Certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#insecure PlatformGitopsApplicationset#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#insecure PlatformGitopsApplicationset#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Gitea organization or user to scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#owner PlatformGitopsApplicationset#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#owner PlatformGitopsApplicationset#owner}
   */
   readonly owner: string;
   /**
   * token_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#token_ref PlatformGitopsApplicationset#token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#token_ref PlatformGitopsApplicationset#token_ref}
   */
   readonly tokenRef?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderGiteaTokenRef;
 }
@@ -6787,13 +6787,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Key containing information in Kubernetes `Secret`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
   */
   readonly key: string;
   /**
   * Name of Kubernetes `Secret`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#secret_name PlatformGitopsApplicationset#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#secret_name PlatformGitopsApplicationset#secret_name}
   */
   readonly secretName: string;
 }
@@ -6902,31 +6902,31 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * If true, scan every branch of every repository. If false, scan only the default branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#all_branches PlatformGitopsApplicationset#all_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#all_branches PlatformGitopsApplicationset#all_branches}
   */
   readonly allBranches?: boolean | cdktf.IResolvable;
   /**
   * The GitHub API URL to talk to. Default https://api.github.com/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#api PlatformGitopsApplicationset#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#api PlatformGitopsApplicationset#api}
   */
   readonly api?: string;
   /**
   * Reference to a GitHub App repo-creds secret. Uses a GitHub App to access the API instead of a PAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#app_secret_name PlatformGitopsApplicationset#app_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#app_secret_name PlatformGitopsApplicationset#app_secret_name}
   */
   readonly appSecretName?: string;
   /**
   * GitHub org to scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#organization PlatformGitopsApplicationset#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#organization PlatformGitopsApplicationset#organization}
   */
   readonly organization: string;
   /**
   * token_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#token_ref PlatformGitopsApplicationset#token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#token_ref PlatformGitopsApplicationset#token_ref}
   */
   readonly tokenRef?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderGithubTokenRef;
 }
@@ -7125,13 +7125,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Name of Kubernetes `ConfigMap`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#config_map_name PlatformGitopsApplicationset#config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#config_map_name PlatformGitopsApplicationset#config_map_name}
   */
   readonly configMapName: string;
   /**
   * Key containing information in Kubernetes `ConfigMap`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
   */
   readonly key: string;
 }
@@ -7240,13 +7240,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Key containing information in Kubernetes `Secret`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
   */
   readonly key: string;
   /**
   * Name of Kubernetes `Secret`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#secret_name PlatformGitopsApplicationset#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#secret_name PlatformGitopsApplicationset#secret_name}
   */
   readonly secretName: string;
 }
@@ -7355,37 +7355,37 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * If true, scan every branch of every repository. If false, scan only the default branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#all_branches PlatformGitopsApplicationset#all_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#all_branches PlatformGitopsApplicationset#all_branches}
   */
   readonly allBranches?: boolean | cdktf.IResolvable;
   /**
   * The Gitlab API URL to talk to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#api PlatformGitopsApplicationset#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#api PlatformGitopsApplicationset#api}
   */
   readonly api?: string;
   /**
   * Gitlab group to scan. You can use either the project id (recommended) or the full namespaced path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#group PlatformGitopsApplicationset#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#group PlatformGitopsApplicationset#group}
   */
   readonly group: string;
   /**
   * Recurse through subgroups (true) or scan only the base group (false). Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#include_subgroups PlatformGitopsApplicationset#include_subgroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#include_subgroups PlatformGitopsApplicationset#include_subgroups}
   */
   readonly includeSubgroups?: boolean | cdktf.IResolvable;
   /**
   * ca_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ca_ref PlatformGitopsApplicationset#ca_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ca_ref PlatformGitopsApplicationset#ca_ref}
   */
   readonly caRef?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderGitlabCaRef;
   /**
   * token_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#token_ref PlatformGitopsApplicationset#token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#token_ref PlatformGitopsApplicationset#token_ref}
   */
   readonly tokenRef?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderGitlabTokenRef;
 }
@@ -7613,31 +7613,31 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * An unstructured key value map that may be used to store arbitrary metadata for the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#annotations PlatformGitopsApplicationset#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#annotations PlatformGitopsApplicationset#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * List of finalizers to apply to the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#finalizers PlatformGitopsApplicationset#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#finalizers PlatformGitopsApplicationset#finalizers}
   */
   readonly finalizers?: string[];
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#labels PlatformGitopsApplicationset#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#labels PlatformGitopsApplicationset#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the resulting Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resulting Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#namespace PlatformGitopsApplicationset#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#namespace PlatformGitopsApplicationset#namespace}
   */
   readonly namespace?: string;
 }
@@ -7839,19 +7839,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Name of the target cluster. Can be used instead of `server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Target namespace for the application's resources. The namespace will only be set for namespace-scoped resources that have not set a value for .metadata.namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#namespace PlatformGitopsApplicationset#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#namespace PlatformGitopsApplicationset#namespace}
   */
   readonly namespace?: string;
   /**
   * URL of the target cluster and must be set to the Kubernetes control plane API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#server PlatformGitopsApplicationset#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#server PlatformGitopsApplicationset#server}
   */
   readonly server?: string;
 }
@@ -7995,37 +7995,37 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#group PlatformGitopsApplicationset#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#group PlatformGitopsApplicationset#group}
   */
   readonly group?: string;
   /**
   * List of JQ path expression strings targeting the field(s) to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#jq_path_expressions PlatformGitopsApplicationset#jq_path_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#jq_path_expressions PlatformGitopsApplicationset#jq_path_expressions}
   */
   readonly jqPathExpressions?: string[];
   /**
   * List of JSONPaths strings targeting the field(s) to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#json_pointers PlatformGitopsApplicationset#json_pointers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#json_pointers PlatformGitopsApplicationset#json_pointers}
   */
   readonly jsonPointers?: string[];
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#kind PlatformGitopsApplicationset#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#kind PlatformGitopsApplicationset#kind}
   */
   readonly kind?: string;
   /**
   * The Kubernetes resource Name to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * The Kubernetes resource Namespace to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#namespace PlatformGitopsApplicationset#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#namespace PlatformGitopsApplicationset#namespace}
   */
   readonly namespace?: string;
 }
@@ -8288,13 +8288,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Name of the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -8441,19 +8441,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -8629,19 +8629,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -8817,19 +8817,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Additional library search dirs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#libs PlatformGitopsApplicationset#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#libs PlatformGitopsApplicationset#libs}
   */
   readonly libs?: string[];
   /**
   * ext_var block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ext_var PlatformGitopsApplicationset#ext_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ext_var PlatformGitopsApplicationset#ext_var}
   */
   readonly extVar?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourceDirectoryJsonnetExtVar[] | cdktf.IResolvable;
   /**
   * tlas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#tlas PlatformGitopsApplicationset#tlas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#tlas PlatformGitopsApplicationset#tlas}
   */
   readonly tlas?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourceDirectoryJsonnetTlas[] | cdktf.IResolvable;
 }
@@ -8973,25 +8973,25 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Glob pattern to match paths against that should be explicitly excluded from being used during manifest generation. This takes precedence over the `include` field. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{config.yaml,env-use2/*}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#exclude PlatformGitopsApplicationset#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#exclude PlatformGitopsApplicationset#exclude}
   */
   readonly exclude?: string;
   /**
   * Glob pattern to match paths against that should be explicitly included during manifest generation. If this field is set, only matching manifests will be included. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{*.yml,*.yaml}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#include PlatformGitopsApplicationset#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#include PlatformGitopsApplicationset#include}
   */
   readonly include?: string;
   /**
   * Whether to scan a directory recursively for manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#recurse PlatformGitopsApplicationset#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#recurse PlatformGitopsApplicationset#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
   /**
   * jsonnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#jsonnet PlatformGitopsApplicationset#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#jsonnet PlatformGitopsApplicationset#jsonnet}
   */
   readonly jsonnet?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourceDirectoryJsonnet;
 }
@@ -9164,13 +9164,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name: string;
   /**
   * Path to the file containing the values for the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
   */
   readonly path: string;
 }
@@ -9311,19 +9311,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Determines whether to tell Helm to interpret booleans and numbers as strings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_string PlatformGitopsApplicationset#force_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_string PlatformGitopsApplicationset#force_string}
   */
   readonly forceString?: boolean | cdktf.IResolvable;
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -9499,73 +9499,73 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Prevents 'helm template' from failing when `value_files` do not exist locally by not appending them to 'helm template --values'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ignore_missing_value_files PlatformGitopsApplicationset#ignore_missing_value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ignore_missing_value_files PlatformGitopsApplicationset#ignore_missing_value_files}
   */
   readonly ignoreMissingValueFiles?: boolean | cdktf.IResolvable;
   /**
   * If true then adds '--pass-credentials' to Helm commands to pass credentials to all domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#pass_credentials PlatformGitopsApplicationset#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#pass_credentials PlatformGitopsApplicationset#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
   * Helm release name. If omitted it will use the application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#release_name PlatformGitopsApplicationset#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#release_name PlatformGitopsApplicationset#release_name}
   */
   readonly releaseName?: string;
   /**
   * Whether to skip custom resource definition installation step (Helm's [--skip-crds](https://helm.sh/docs/chart_best_practices/custom_resource_definitions/)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#skip_crds PlatformGitopsApplicationset#skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#skip_crds PlatformGitopsApplicationset#skip_crds}
   */
   readonly skipCrds?: boolean | cdktf.IResolvable;
   /**
   * Indicates if to skip schema validation during helm template. Corresponds to helm --skip-schema-validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#skip_schema_validation PlatformGitopsApplicationset#skip_schema_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#skip_schema_validation PlatformGitopsApplicationset#skip_schema_validation}
   */
   readonly skipSchemaValidation?: boolean | cdktf.IResolvable;
   /**
   * Indicates if to skip tests during helm template. Corresponds to helm --skip-tests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#skip_tests PlatformGitopsApplicationset#skip_tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#skip_tests PlatformGitopsApplicationset#skip_tests}
   */
   readonly skipTests?: boolean | cdktf.IResolvable;
   /**
   * List of Helm value files to use when generating a template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value_files PlatformGitopsApplicationset#value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value_files PlatformGitopsApplicationset#value_files}
   */
   readonly valueFiles?: string[];
   /**
   * Helm values to be passed to 'helm template', typically defined as a block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#values PlatformGitopsApplicationset#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#values PlatformGitopsApplicationset#values}
   */
   readonly values?: string;
   /**
   * Helm values to be passed to 'helm template', typically defined as a block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#values_object PlatformGitopsApplicationset#values_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#values_object PlatformGitopsApplicationset#values_object}
   */
   readonly valuesObject?: { [key: string]: string };
   /**
   * Helm version to use for templating (either "2" or "3").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
   */
   readonly version?: string;
   /**
   * file_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#file_parameters PlatformGitopsApplicationset#file_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#file_parameters PlatformGitopsApplicationset#file_parameters}
   */
   readonly fileParameters?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourceHelmFileParameters[] | cdktf.IResolvable;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#parameters PlatformGitopsApplicationset#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#parameters PlatformGitopsApplicationset#parameters}
   */
   readonly parameters?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourceHelmParameters[] | cdktf.IResolvable;
 }
@@ -9970,49 +9970,49 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * List of additional annotations to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#common_annotations PlatformGitopsApplicationset#common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#common_annotations PlatformGitopsApplicationset#common_annotations}
   */
   readonly commonAnnotations?: { [key: string]: string };
   /**
   * List of additional labels to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#common_labels PlatformGitopsApplicationset#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#common_labels PlatformGitopsApplicationset#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
   * Indicates if to force applying common annotations to resources for kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_common_annotations PlatformGitopsApplicationset#force_common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_common_annotations PlatformGitopsApplicationset#force_common_annotations}
   */
   readonly forceCommonAnnotations?: boolean | cdktf.IResolvable;
   /**
   * Indicates if to force apply common labels to resources for kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_common_labels PlatformGitopsApplicationset#force_common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_common_labels PlatformGitopsApplicationset#force_common_labels}
   */
   readonly forceCommonLabels?: boolean | cdktf.IResolvable;
   /**
   * List of Kustomize image override specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#images PlatformGitopsApplicationset#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#images PlatformGitopsApplicationset#images}
   */
   readonly images?: string[];
   /**
   * Prefix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name_prefix PlatformGitopsApplicationset#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name_prefix PlatformGitopsApplicationset#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Suffix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name_suffix PlatformGitopsApplicationset#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name_suffix PlatformGitopsApplicationset#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
   * Version of Kustomize to use for rendering manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
   */
   readonly version?: string;
 }
@@ -10301,13 +10301,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -10454,13 +10454,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Name of the plugin. Only set the plugin name if the plugin is defined in `argocd-cm`. If the plugin is defined as a sidecar, omit the name. The plugin will be automatically matched with the Application according to the plugin's discovery rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#env PlatformGitopsApplicationset#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#env PlatformGitopsApplicationset#env}
   */
   readonly env?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourcePluginEnv[] | cdktf.IResolvable;
 }
@@ -10575,55 +10575,55 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Helm chart name. Must be specified for applications sourced from a Helm repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#chart PlatformGitopsApplicationset#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#chart PlatformGitopsApplicationset#chart}
   */
   readonly chart?: string;
   /**
   * Directory path within the repository. Only valid for applications sourced from Git.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
   */
   readonly path?: string;
   /**
   * Reference to another `source` within defined sources. See associated documentation on [Helm value files from external Git repository](https://argo-cd.readthedocs.io/en/stable/user-guide/multiple_sources/#helm-value-files-from-external-git-repository) regarding combining `ref` with `path` and/or `chart`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ref PlatformGitopsApplicationset#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ref PlatformGitopsApplicationset#ref}
   */
   readonly ref?: string;
   /**
   * URL to the repository (Git or Helm) that contains the application manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#repo_url PlatformGitopsApplicationset#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#repo_url PlatformGitopsApplicationset#repo_url}
   */
   readonly repoUrl?: string;
   /**
   * Revision of the source to sync the application to. In case of Git, this can be commit, tag, or branch. If omitted, will equal to HEAD. In case of Helm, this is a semver tag for the Chart's version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#target_revision PlatformGitopsApplicationset#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#target_revision PlatformGitopsApplicationset#target_revision}
   */
   readonly targetRevision?: string;
   /**
   * directory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#directory PlatformGitopsApplicationset#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#directory PlatformGitopsApplicationset#directory}
   */
   readonly directory?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourceDirectory;
   /**
   * helm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#helm PlatformGitopsApplicationset#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#helm PlatformGitopsApplicationset#helm}
   */
   readonly helm?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourceHelm;
   /**
   * kustomize block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#kustomize PlatformGitopsApplicationset#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#kustomize PlatformGitopsApplicationset#kustomize}
   */
   readonly kustomize?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourceKustomize;
   /**
   * plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#plugin PlatformGitopsApplicationset#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#plugin PlatformGitopsApplicationset#plugin}
   */
   readonly plugin?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourcePlugin;
 }
@@ -10973,19 +10973,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -11161,19 +11161,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -11349,19 +11349,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Additional library search dirs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#libs PlatformGitopsApplicationset#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#libs PlatformGitopsApplicationset#libs}
   */
   readonly libs?: string[];
   /**
   * ext_var block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ext_var PlatformGitopsApplicationset#ext_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ext_var PlatformGitopsApplicationset#ext_var}
   */
   readonly extVar?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourcesDirectoryJsonnetExtVar[] | cdktf.IResolvable;
   /**
   * tlas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#tlas PlatformGitopsApplicationset#tlas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#tlas PlatformGitopsApplicationset#tlas}
   */
   readonly tlas?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourcesDirectoryJsonnetTlas[] | cdktf.IResolvable;
 }
@@ -11505,25 +11505,25 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Glob pattern to match paths against that should be explicitly excluded from being used during manifest generation. This takes precedence over the `include` field. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{config.yaml,env-use2/*}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#exclude PlatformGitopsApplicationset#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#exclude PlatformGitopsApplicationset#exclude}
   */
   readonly exclude?: string;
   /**
   * Glob pattern to match paths against that should be explicitly included during manifest generation. If this field is set, only matching manifests will be included. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{*.yml,*.yaml}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#include PlatformGitopsApplicationset#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#include PlatformGitopsApplicationset#include}
   */
   readonly include?: string;
   /**
   * Whether to scan a directory recursively for manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#recurse PlatformGitopsApplicationset#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#recurse PlatformGitopsApplicationset#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
   /**
   * jsonnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#jsonnet PlatformGitopsApplicationset#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#jsonnet PlatformGitopsApplicationset#jsonnet}
   */
   readonly jsonnet?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourcesDirectoryJsonnet;
 }
@@ -11696,13 +11696,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name: string;
   /**
   * Path to the file containing the values for the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
   */
   readonly path: string;
 }
@@ -11843,19 +11843,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Determines whether to tell Helm to interpret booleans and numbers as strings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_string PlatformGitopsApplicationset#force_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_string PlatformGitopsApplicationset#force_string}
   */
   readonly forceString?: boolean | cdktf.IResolvable;
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -12031,73 +12031,73 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Prevents 'helm template' from failing when `value_files` do not exist locally by not appending them to 'helm template --values'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ignore_missing_value_files PlatformGitopsApplicationset#ignore_missing_value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ignore_missing_value_files PlatformGitopsApplicationset#ignore_missing_value_files}
   */
   readonly ignoreMissingValueFiles?: boolean | cdktf.IResolvable;
   /**
   * If true then adds '--pass-credentials' to Helm commands to pass credentials to all domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#pass_credentials PlatformGitopsApplicationset#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#pass_credentials PlatformGitopsApplicationset#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
   * Helm release name. If omitted it will use the application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#release_name PlatformGitopsApplicationset#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#release_name PlatformGitopsApplicationset#release_name}
   */
   readonly releaseName?: string;
   /**
   * Whether to skip custom resource definition installation step (Helm's [--skip-crds](https://helm.sh/docs/chart_best_practices/custom_resource_definitions/)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#skip_crds PlatformGitopsApplicationset#skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#skip_crds PlatformGitopsApplicationset#skip_crds}
   */
   readonly skipCrds?: boolean | cdktf.IResolvable;
   /**
   * Indicates if to skip schema validation during helm template. Corresponds to helm --skip-schema-validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#skip_schema_validation PlatformGitopsApplicationset#skip_schema_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#skip_schema_validation PlatformGitopsApplicationset#skip_schema_validation}
   */
   readonly skipSchemaValidation?: boolean | cdktf.IResolvable;
   /**
   * Indicates if to skip tests during helm template. Corresponds to helm --skip-tests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#skip_tests PlatformGitopsApplicationset#skip_tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#skip_tests PlatformGitopsApplicationset#skip_tests}
   */
   readonly skipTests?: boolean | cdktf.IResolvable;
   /**
   * List of Helm value files to use when generating a template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value_files PlatformGitopsApplicationset#value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value_files PlatformGitopsApplicationset#value_files}
   */
   readonly valueFiles?: string[];
   /**
   * Helm values to be passed to 'helm template', typically defined as a block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#values PlatformGitopsApplicationset#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#values PlatformGitopsApplicationset#values}
   */
   readonly values?: string;
   /**
   * Helm values to be passed to 'helm template', typically defined as a block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#values_object PlatformGitopsApplicationset#values_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#values_object PlatformGitopsApplicationset#values_object}
   */
   readonly valuesObject?: { [key: string]: string };
   /**
   * Helm version to use for templating (either "2" or "3").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
   */
   readonly version?: string;
   /**
   * file_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#file_parameters PlatformGitopsApplicationset#file_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#file_parameters PlatformGitopsApplicationset#file_parameters}
   */
   readonly fileParameters?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourcesHelmFileParameters[] | cdktf.IResolvable;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#parameters PlatformGitopsApplicationset#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#parameters PlatformGitopsApplicationset#parameters}
   */
   readonly parameters?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourcesHelmParameters[] | cdktf.IResolvable;
 }
@@ -12502,49 +12502,49 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * List of additional annotations to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#common_annotations PlatformGitopsApplicationset#common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#common_annotations PlatformGitopsApplicationset#common_annotations}
   */
   readonly commonAnnotations?: { [key: string]: string };
   /**
   * List of additional labels to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#common_labels PlatformGitopsApplicationset#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#common_labels PlatformGitopsApplicationset#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
   * Indicates if to force applying common annotations to resources for kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_common_annotations PlatformGitopsApplicationset#force_common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_common_annotations PlatformGitopsApplicationset#force_common_annotations}
   */
   readonly forceCommonAnnotations?: boolean | cdktf.IResolvable;
   /**
   * Indicates if to force apply common labels to resources for kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_common_labels PlatformGitopsApplicationset#force_common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_common_labels PlatformGitopsApplicationset#force_common_labels}
   */
   readonly forceCommonLabels?: boolean | cdktf.IResolvable;
   /**
   * List of Kustomize image override specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#images PlatformGitopsApplicationset#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#images PlatformGitopsApplicationset#images}
   */
   readonly images?: string[];
   /**
   * Prefix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name_prefix PlatformGitopsApplicationset#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name_prefix PlatformGitopsApplicationset#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Suffix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name_suffix PlatformGitopsApplicationset#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name_suffix PlatformGitopsApplicationset#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
   * Version of Kustomize to use for rendering manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
   */
   readonly version?: string;
 }
@@ -12833,13 +12833,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -12986,13 +12986,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Name of the plugin. Only set the plugin name if the plugin is defined in `argocd-cm`. If the plugin is defined as a sidecar, omit the name. The plugin will be automatically matched with the Application according to the plugin's discovery rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#env PlatformGitopsApplicationset#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#env PlatformGitopsApplicationset#env}
   */
   readonly env?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourcesPluginEnv[] | cdktf.IResolvable;
 }
@@ -13107,55 +13107,55 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Helm chart name. Must be specified for applications sourced from a Helm repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#chart PlatformGitopsApplicationset#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#chart PlatformGitopsApplicationset#chart}
   */
   readonly chart?: string;
   /**
   * Directory path within the repository. Only valid for applications sourced from Git.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
   */
   readonly path?: string;
   /**
   * Reference to another `source` within defined sources. See associated documentation on [Helm value files from external Git repository](https://argo-cd.readthedocs.io/en/stable/user-guide/multiple_sources/#helm-value-files-from-external-git-repository) regarding combining `ref` with `path` and/or `chart`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ref PlatformGitopsApplicationset#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ref PlatformGitopsApplicationset#ref}
   */
   readonly ref?: string;
   /**
   * URL to the repository (Git or Helm) that contains the application manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#repo_url PlatformGitopsApplicationset#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#repo_url PlatformGitopsApplicationset#repo_url}
   */
   readonly repoUrl?: string;
   /**
   * Revision of the source to sync the application to. In case of Git, this can be commit, tag, or branch. If omitted, will equal to HEAD. In case of Helm, this is a semver tag for the Chart's version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#target_revision PlatformGitopsApplicationset#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#target_revision PlatformGitopsApplicationset#target_revision}
   */
   readonly targetRevision?: string;
   /**
   * directory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#directory PlatformGitopsApplicationset#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#directory PlatformGitopsApplicationset#directory}
   */
   readonly directory?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourcesDirectory;
   /**
   * helm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#helm PlatformGitopsApplicationset#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#helm PlatformGitopsApplicationset#helm}
   */
   readonly helm?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourcesHelm;
   /**
   * kustomize block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#kustomize PlatformGitopsApplicationset#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#kustomize PlatformGitopsApplicationset#kustomize}
   */
   readonly kustomize?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourcesKustomize;
   /**
   * plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#plugin PlatformGitopsApplicationset#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#plugin PlatformGitopsApplicationset#plugin}
   */
   readonly plugin?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSourcesPlugin;
 }
@@ -13505,19 +13505,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Allows apps have zero live resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#allow_empty PlatformGitopsApplicationset#allow_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#allow_empty PlatformGitopsApplicationset#allow_empty}
   */
   readonly allowEmpty?: boolean | cdktf.IResolvable;
   /**
   * Whether to delete resources from the cluster that are not found in the sources anymore as part of automated sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#prune PlatformGitopsApplicationset#prune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#prune PlatformGitopsApplicationset#prune}
   */
   readonly prune?: boolean | cdktf.IResolvable;
   /**
   * Whether to revert resources back to their desired state upon modification in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#self_heal PlatformGitopsApplicationset#self_heal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#self_heal PlatformGitopsApplicationset#self_heal}
   */
   readonly selfHeal?: boolean | cdktf.IResolvable;
 }
@@ -13661,13 +13661,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Annotations to apply to the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#annotations PlatformGitopsApplicationset#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#annotations PlatformGitopsApplicationset#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels to apply to the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#labels PlatformGitopsApplicationset#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#labels PlatformGitopsApplicationset#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -13782,19 +13782,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Duration is the amount to back off. Default unit is seconds, but could also be a duration (e.g. `2m`, `1h`), as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#duration PlatformGitopsApplicationset#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#duration PlatformGitopsApplicationset#duration}
   */
   readonly duration?: string;
   /**
   * Factor to multiply the base duration after each failed retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#factor PlatformGitopsApplicationset#factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#factor PlatformGitopsApplicationset#factor}
   */
   readonly factor?: string;
   /**
   * Maximum amount of time allowed for the backoff strategy. Default unit is seconds, but could also be a duration (e.g. `2m`, `1h`), as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#max_duration PlatformGitopsApplicationset#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#max_duration PlatformGitopsApplicationset#max_duration}
   */
   readonly maxDuration?: string;
 }
@@ -13938,13 +13938,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Maximum number of attempts for retrying a failed sync. If set to 0, no retries will be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#limit PlatformGitopsApplicationset#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#limit PlatformGitopsApplicationset#limit}
   */
   readonly limit?: string;
   /**
   * backoff block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#backoff PlatformGitopsApplicationset#backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#backoff PlatformGitopsApplicationset#backoff}
   */
   readonly backoff?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSyncPolicyRetryBackoff;
 }
@@ -14059,25 +14059,25 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * List of sync options. More info: https://argo-cd.readthedocs.io/en/stable/user-guide/sync-options/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#sync_options PlatformGitopsApplicationset#sync_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#sync_options PlatformGitopsApplicationset#sync_options}
   */
   readonly syncOptions?: string[];
   /**
   * automated block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#automated PlatformGitopsApplicationset#automated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#automated PlatformGitopsApplicationset#automated}
   */
   readonly automated?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSyncPolicyAutomated;
   /**
   * managed_namespace_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#managed_namespace_metadata PlatformGitopsApplicationset#managed_namespace_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#managed_namespace_metadata PlatformGitopsApplicationset#managed_namespace_metadata}
   */
   readonly managedNamespaceMetadata?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSyncPolicyManagedNamespaceMetadata;
   /**
   * retry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#retry PlatformGitopsApplicationset#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#retry PlatformGitopsApplicationset#retry}
   */
   readonly retry?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSyncPolicyRetry;
 }
@@ -14250,49 +14250,49 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * The project the application belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#project PlatformGitopsApplicationset#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#project PlatformGitopsApplicationset#project}
   */
   readonly project?: string;
   /**
   * Limits the number of items kept in the application's revision history, which is used for informational purposes as well as for rollbacks to previous versions. This should only be changed in exceptional circumstances. Setting to zero will store no history. This will reduce storage used. Increasing will increase the space used to store the history, so we do not recommend increasing it. Default is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#revision_history_limit PlatformGitopsApplicationset#revision_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#revision_history_limit PlatformGitopsApplicationset#revision_history_limit}
   */
   readonly revisionHistoryLimit?: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#destination PlatformGitopsApplicationset#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#destination PlatformGitopsApplicationset#destination}
   */
   readonly destination?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecDestination;
   /**
   * ignore_difference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ignore_difference PlatformGitopsApplicationset#ignore_difference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ignore_difference PlatformGitopsApplicationset#ignore_difference}
   */
   readonly ignoreDifference?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecIgnoreDifference[] | cdktf.IResolvable;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#info PlatformGitopsApplicationset#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#info PlatformGitopsApplicationset#info}
   */
   readonly info?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecInfo[] | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#source PlatformGitopsApplicationset#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#source PlatformGitopsApplicationset#source}
   */
   readonly source?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSource[] | cdktf.IResolvable;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#sources PlatformGitopsApplicationset#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#sources PlatformGitopsApplicationset#sources}
   */
   readonly sources?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSources[] | cdktf.IResolvable;
   /**
   * sync_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#sync_policy PlatformGitopsApplicationset#sync_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#sync_policy PlatformGitopsApplicationset#sync_policy}
   */
   readonly syncPolicy?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpecSyncPolicy;
 }
@@ -14581,13 +14581,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#metadata PlatformGitopsApplicationset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#metadata PlatformGitopsApplicationset#metadata}
   */
   readonly metadata?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#spec PlatformGitopsApplicationset#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#spec PlatformGitopsApplicationset#spec}
   */
   readonly spec?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplateSpec;
 }
@@ -14702,61 +14702,61 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvi
   /**
   * Which protocol to use for the SCM URL. Default is provider-specific but ssh if possible. Not all providers necessarily support all protocols.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#clone_protocol PlatformGitopsApplicationset#clone_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#clone_protocol PlatformGitopsApplicationset#clone_protocol}
   */
   readonly cloneProtocol?: string;
   /**
   * How often to check for changes (in seconds). Default: 3min.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#requeue_after_seconds PlatformGitopsApplicationset#requeue_after_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#requeue_after_seconds PlatformGitopsApplicationset#requeue_after_seconds}
   */
   readonly requeueAfterSeconds?: string;
   /**
   * azure_devops block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#azure_devops PlatformGitopsApplicationset#azure_devops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#azure_devops PlatformGitopsApplicationset#azure_devops}
   */
   readonly azureDevops?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderAzureDevops;
   /**
   * bitbucket_cloud block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#bitbucket_cloud PlatformGitopsApplicationset#bitbucket_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#bitbucket_cloud PlatformGitopsApplicationset#bitbucket_cloud}
   */
   readonly bitbucketCloud?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderBitbucketCloud;
   /**
   * bitbucket_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#bitbucket_server PlatformGitopsApplicationset#bitbucket_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#bitbucket_server PlatformGitopsApplicationset#bitbucket_server}
   */
   readonly bitbucketServer?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderBitbucketServer;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#filter PlatformGitopsApplicationset#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#filter PlatformGitopsApplicationset#filter}
   */
   readonly filter?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderFilter[] | cdktf.IResolvable;
   /**
   * gitea block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#gitea PlatformGitopsApplicationset#gitea}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#gitea PlatformGitopsApplicationset#gitea}
   */
   readonly gitea?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderGitea;
   /**
   * github block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#github PlatformGitopsApplicationset#github}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#github PlatformGitopsApplicationset#github}
   */
   readonly github?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderGithub;
   /**
   * gitlab block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#gitlab PlatformGitopsApplicationset#gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#gitlab PlatformGitopsApplicationset#gitlab}
   */
   readonly gitlab?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderGitlab;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#template PlatformGitopsApplicationset#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#template PlatformGitopsApplicationset#template}
   */
   readonly template?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProviderTemplate;
 }
@@ -15135,19 +15135,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorSelector
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
   */
   readonly key?: string;
   /**
   * A key's relationship to a set of values. Valid operators ard `In`, `NotIn`, `Exists` and `DoesNotExist`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#operator PlatformGitopsApplicationset#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#operator PlatformGitopsApplicationset#operator}
   */
   readonly operator?: string;
   /**
   * An array of string values. If the operator is `In` or `NotIn`, the values array must be non-empty. If the operator is `Exists` or `DoesNotExist`, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#values PlatformGitopsApplicationset#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#values PlatformGitopsApplicationset#values}
   */
   readonly values?: string[];
 }
@@ -15323,13 +15323,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGeneratorSelector
   /**
   * A map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of `match_expressions`, whose key field is "key", the operator is "In", and the values array contains only "value". The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#match_labels PlatformGitopsApplicationset#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#match_labels PlatformGitopsApplicationset#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#match_expressions PlatformGitopsApplicationset#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#match_expressions PlatformGitopsApplicationset#match_expressions}
   */
   readonly matchExpressions?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -15444,55 +15444,55 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecGenerator {
   /**
   * cluster_decision_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#cluster_decision_resource PlatformGitopsApplicationset#cluster_decision_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#cluster_decision_resource PlatformGitopsApplicationset#cluster_decision_resource}
   */
   readonly clusterDecisionResource?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorClusterDecisionResource[] | cdktf.IResolvable;
   /**
   * clusters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#clusters PlatformGitopsApplicationset#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#clusters PlatformGitopsApplicationset#clusters}
   */
   readonly clusters?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorClusters[] | cdktf.IResolvable;
   /**
   * git block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#git PlatformGitopsApplicationset#git}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#git PlatformGitopsApplicationset#git}
   */
   readonly git?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorGit[] | cdktf.IResolvable;
   /**
   * list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#list PlatformGitopsApplicationset#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#list PlatformGitopsApplicationset#list}
   */
   readonly list?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorListStruct[] | cdktf.IResolvable;
   /**
   * matrix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#matrix PlatformGitopsApplicationset#matrix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#matrix PlatformGitopsApplicationset#matrix}
   */
   readonly matrix?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorMatrix[] | cdktf.IResolvable;
   /**
   * merge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#merge PlatformGitopsApplicationset#merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#merge PlatformGitopsApplicationset#merge}
   */
   readonly merge?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorMerge[] | cdktf.IResolvable;
   /**
   * pull_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#pull_request PlatformGitopsApplicationset#pull_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#pull_request PlatformGitopsApplicationset#pull_request}
   */
   readonly pullRequest?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorPullRequest[] | cdktf.IResolvable;
   /**
   * scm_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#scm_provider PlatformGitopsApplicationset#scm_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#scm_provider PlatformGitopsApplicationset#scm_provider}
   */
   readonly scmProvider?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorScmProvider[] | cdktf.IResolvable;
   /**
   * selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#selector PlatformGitopsApplicationset#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#selector PlatformGitopsApplicationset#selector}
   */
   readonly selector?: PlatformGitopsApplicationsetApplicationsetSpecGeneratorSelector;
 }
@@ -15842,19 +15842,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecIgnoreApplication
   /**
   * jq path to ignore differences
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#jq_path_expressions PlatformGitopsApplicationset#jq_path_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#jq_path_expressions PlatformGitopsApplicationset#jq_path_expressions}
   */
   readonly jqPathExpressions?: string[];
   /**
   * Json pointers to ignore differences
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#json_pointers PlatformGitopsApplicationset#json_pointers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#json_pointers PlatformGitopsApplicationset#json_pointers}
   */
   readonly jsonPointers?: string[];
   /**
   * name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
 }
@@ -16030,19 +16030,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecStrategyRollingSy
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#key PlatformGitopsApplicationset#key}
   */
   readonly key?: string;
   /**
   * A key's relationship to a set of values. Valid operators ard `In`, `NotIn`, `Exists` and `DoesNotExist`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#operator PlatformGitopsApplicationset#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#operator PlatformGitopsApplicationset#operator}
   */
   readonly operator?: string;
   /**
   * An array of string values. If the operator is `In` or `NotIn`, the values array must be non-empty. If the operator is `Exists` or `DoesNotExist`, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#values PlatformGitopsApplicationset#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#values PlatformGitopsApplicationset#values}
   */
   readonly values?: string[];
 }
@@ -16218,13 +16218,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecStrategyRollingSy
   /**
   * Maximum number of simultaneous Application updates in a group. Supports both integer and percentage string values (rounds down, but floored at 1 Application for >0%). Default is 100%, unbounded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#max_update PlatformGitopsApplicationset#max_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#max_update PlatformGitopsApplicationset#max_update}
   */
   readonly maxUpdate?: string;
   /**
   * match_expressions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#match_expressions PlatformGitopsApplicationset#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#match_expressions PlatformGitopsApplicationset#match_expressions}
   */
   readonly matchExpressions?: PlatformGitopsApplicationsetApplicationsetSpecStrategyRollingSyncStepMatchExpressions[] | cdktf.IResolvable;
 }
@@ -16371,7 +16371,7 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecStrategyRollingSy
   /**
   * step block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#step PlatformGitopsApplicationset#step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#step PlatformGitopsApplicationset#step}
   */
   readonly step: PlatformGitopsApplicationsetApplicationsetSpecStrategyRollingSyncStep[] | cdktf.IResolvable;
 }
@@ -16486,13 +16486,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecStrategy {
   /**
   * Type of progressive sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#type PlatformGitopsApplicationset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#type PlatformGitopsApplicationset#type}
   */
   readonly type: string;
   /**
   * rolling_sync block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#rolling_sync PlatformGitopsApplicationset#rolling_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#rolling_sync PlatformGitopsApplicationset#rolling_sync}
   */
   readonly rollingSync?: PlatformGitopsApplicationsetApplicationsetSpecStrategyRollingSync[] | cdktf.IResolvable;
 }
@@ -16604,13 +16604,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecSyncPolicy {
   /**
   * Represents the policy applied on the generated applications. Possible values are create-only, create-update, create-delete, and sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#applications_sync PlatformGitopsApplicationset#applications_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#applications_sync PlatformGitopsApplicationset#applications_sync}
   */
   readonly applicationsSync?: string;
   /**
   * Label selector used to narrow the scope of targeted clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#preserve_resources_on_deletion PlatformGitopsApplicationset#preserve_resources_on_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#preserve_resources_on_deletion PlatformGitopsApplicationset#preserve_resources_on_deletion}
   */
   readonly preserveResourcesOnDeletion?: boolean | cdktf.IResolvable;
 }
@@ -16725,31 +16725,31 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateMetadata 
   /**
   * An unstructured key value map that may be used to store arbitrary metadata for the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#annotations PlatformGitopsApplicationset#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#annotations PlatformGitopsApplicationset#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * List of finalizers to apply to the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#finalizers PlatformGitopsApplicationset#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#finalizers PlatformGitopsApplicationset#finalizers}
   */
   readonly finalizers?: string[];
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) the resulting Application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#labels PlatformGitopsApplicationset#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#labels PlatformGitopsApplicationset#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the resulting Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name: string;
   /**
   * Namespace of the resulting Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#namespace PlatformGitopsApplicationset#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#namespace PlatformGitopsApplicationset#namespace}
   */
   readonly namespace?: string;
 }
@@ -16948,19 +16948,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecDesti
   /**
   * Name of the target cluster. Can be used instead of `server`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Target namespace for the application's resources. The namespace will only be set for namespace-scoped resources that have not set a value for .metadata.namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#namespace PlatformGitopsApplicationset#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#namespace PlatformGitopsApplicationset#namespace}
   */
   readonly namespace?: string;
   /**
   * URL of the target cluster and must be set to the Kubernetes control plane API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#server PlatformGitopsApplicationset#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#server PlatformGitopsApplicationset#server}
   */
   readonly server?: string;
 }
@@ -17104,37 +17104,37 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecIgnor
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#group PlatformGitopsApplicationset#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#group PlatformGitopsApplicationset#group}
   */
   readonly group?: string;
   /**
   * List of JQ path expression strings targeting the field(s) to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#jq_path_expressions PlatformGitopsApplicationset#jq_path_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#jq_path_expressions PlatformGitopsApplicationset#jq_path_expressions}
   */
   readonly jqPathExpressions?: string[];
   /**
   * List of JSONPaths strings targeting the field(s) to ignore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#json_pointers PlatformGitopsApplicationset#json_pointers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#json_pointers PlatformGitopsApplicationset#json_pointers}
   */
   readonly jsonPointers?: string[];
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#kind PlatformGitopsApplicationset#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#kind PlatformGitopsApplicationset#kind}
   */
   readonly kind?: string;
   /**
   * The Kubernetes resource Name to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * The Kubernetes resource Namespace to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#namespace PlatformGitopsApplicationset#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#namespace PlatformGitopsApplicationset#namespace}
   */
   readonly namespace?: string;
 }
@@ -17397,13 +17397,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecInfo 
   /**
   * Name of the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of the information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -17550,19 +17550,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -17738,19 +17738,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -17926,19 +17926,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Additional library search dirs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#libs PlatformGitopsApplicationset#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#libs PlatformGitopsApplicationset#libs}
   */
   readonly libs?: string[];
   /**
   * ext_var block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ext_var PlatformGitopsApplicationset#ext_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ext_var PlatformGitopsApplicationset#ext_var}
   */
   readonly extVar?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourceDirectoryJsonnetExtVar[] | cdktf.IResolvable;
   /**
   * tlas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#tlas PlatformGitopsApplicationset#tlas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#tlas PlatformGitopsApplicationset#tlas}
   */
   readonly tlas?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourceDirectoryJsonnetTlas[] | cdktf.IResolvable;
 }
@@ -18082,25 +18082,25 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Glob pattern to match paths against that should be explicitly excluded from being used during manifest generation. This takes precedence over the `include` field. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{config.yaml,env-use2/*}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#exclude PlatformGitopsApplicationset#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#exclude PlatformGitopsApplicationset#exclude}
   */
   readonly exclude?: string;
   /**
   * Glob pattern to match paths against that should be explicitly included during manifest generation. If this field is set, only matching manifests will be included. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{*.yml,*.yaml}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#include PlatformGitopsApplicationset#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#include PlatformGitopsApplicationset#include}
   */
   readonly include?: string;
   /**
   * Whether to scan a directory recursively for manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#recurse PlatformGitopsApplicationset#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#recurse PlatformGitopsApplicationset#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
   /**
   * jsonnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#jsonnet PlatformGitopsApplicationset#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#jsonnet PlatformGitopsApplicationset#jsonnet}
   */
   readonly jsonnet?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourceDirectoryJsonnet;
 }
@@ -18273,13 +18273,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name: string;
   /**
   * Path to the file containing the values for the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
   */
   readonly path: string;
 }
@@ -18420,19 +18420,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Determines whether to tell Helm to interpret booleans and numbers as strings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_string PlatformGitopsApplicationset#force_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_string PlatformGitopsApplicationset#force_string}
   */
   readonly forceString?: boolean | cdktf.IResolvable;
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -18608,73 +18608,73 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Prevents 'helm template' from failing when `value_files` do not exist locally by not appending them to 'helm template --values'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ignore_missing_value_files PlatformGitopsApplicationset#ignore_missing_value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ignore_missing_value_files PlatformGitopsApplicationset#ignore_missing_value_files}
   */
   readonly ignoreMissingValueFiles?: boolean | cdktf.IResolvable;
   /**
   * If true then adds '--pass-credentials' to Helm commands to pass credentials to all domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#pass_credentials PlatformGitopsApplicationset#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#pass_credentials PlatformGitopsApplicationset#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
   * Helm release name. If omitted it will use the application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#release_name PlatformGitopsApplicationset#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#release_name PlatformGitopsApplicationset#release_name}
   */
   readonly releaseName?: string;
   /**
   * Whether to skip custom resource definition installation step (Helm's [--skip-crds](https://helm.sh/docs/chart_best_practices/custom_resource_definitions/)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#skip_crds PlatformGitopsApplicationset#skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#skip_crds PlatformGitopsApplicationset#skip_crds}
   */
   readonly skipCrds?: boolean | cdktf.IResolvable;
   /**
   * Indicates if to skip schema validation during helm template. Corresponds to helm --skip-schema-validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#skip_schema_validation PlatformGitopsApplicationset#skip_schema_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#skip_schema_validation PlatformGitopsApplicationset#skip_schema_validation}
   */
   readonly skipSchemaValidation?: boolean | cdktf.IResolvable;
   /**
   * Indicates if to skip tests during helm template. Corresponds to helm --skip-tests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#skip_tests PlatformGitopsApplicationset#skip_tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#skip_tests PlatformGitopsApplicationset#skip_tests}
   */
   readonly skipTests?: boolean | cdktf.IResolvable;
   /**
   * List of Helm value files to use when generating a template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value_files PlatformGitopsApplicationset#value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value_files PlatformGitopsApplicationset#value_files}
   */
   readonly valueFiles?: string[];
   /**
   * Helm values to be passed to 'helm template', typically defined as a block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#values PlatformGitopsApplicationset#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#values PlatformGitopsApplicationset#values}
   */
   readonly values?: string;
   /**
   * Helm values to be passed to 'helm template', typically defined as a block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#values_object PlatformGitopsApplicationset#values_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#values_object PlatformGitopsApplicationset#values_object}
   */
   readonly valuesObject?: { [key: string]: string };
   /**
   * Helm version to use for templating (either "2" or "3").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
   */
   readonly version?: string;
   /**
   * file_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#file_parameters PlatformGitopsApplicationset#file_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#file_parameters PlatformGitopsApplicationset#file_parameters}
   */
   readonly fileParameters?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourceHelmFileParameters[] | cdktf.IResolvable;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#parameters PlatformGitopsApplicationset#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#parameters PlatformGitopsApplicationset#parameters}
   */
   readonly parameters?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourceHelmParameters[] | cdktf.IResolvable;
 }
@@ -19079,49 +19079,49 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * List of additional annotations to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#common_annotations PlatformGitopsApplicationset#common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#common_annotations PlatformGitopsApplicationset#common_annotations}
   */
   readonly commonAnnotations?: { [key: string]: string };
   /**
   * List of additional labels to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#common_labels PlatformGitopsApplicationset#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#common_labels PlatformGitopsApplicationset#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
   * Indicates if to force applying common annotations to resources for kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_common_annotations PlatformGitopsApplicationset#force_common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_common_annotations PlatformGitopsApplicationset#force_common_annotations}
   */
   readonly forceCommonAnnotations?: boolean | cdktf.IResolvable;
   /**
   * Indicates if to force apply common labels to resources for kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_common_labels PlatformGitopsApplicationset#force_common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_common_labels PlatformGitopsApplicationset#force_common_labels}
   */
   readonly forceCommonLabels?: boolean | cdktf.IResolvable;
   /**
   * List of Kustomize image override specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#images PlatformGitopsApplicationset#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#images PlatformGitopsApplicationset#images}
   */
   readonly images?: string[];
   /**
   * Prefix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name_prefix PlatformGitopsApplicationset#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name_prefix PlatformGitopsApplicationset#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Suffix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name_suffix PlatformGitopsApplicationset#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name_suffix PlatformGitopsApplicationset#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
   * Version of Kustomize to use for rendering manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
   */
   readonly version?: string;
 }
@@ -19410,13 +19410,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -19563,13 +19563,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Name of the plugin. Only set the plugin name if the plugin is defined in `argocd-cm`. If the plugin is defined as a sidecar, omit the name. The plugin will be automatically matched with the Application according to the plugin's discovery rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#env PlatformGitopsApplicationset#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#env PlatformGitopsApplicationset#env}
   */
   readonly env?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourcePluginEnv[] | cdktf.IResolvable;
 }
@@ -19684,55 +19684,55 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Helm chart name. Must be specified for applications sourced from a Helm repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#chart PlatformGitopsApplicationset#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#chart PlatformGitopsApplicationset#chart}
   */
   readonly chart?: string;
   /**
   * Directory path within the repository. Only valid for applications sourced from Git.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
   */
   readonly path?: string;
   /**
   * Reference to another `source` within defined sources. See associated documentation on [Helm value files from external Git repository](https://argo-cd.readthedocs.io/en/stable/user-guide/multiple_sources/#helm-value-files-from-external-git-repository) regarding combining `ref` with `path` and/or `chart`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ref PlatformGitopsApplicationset#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ref PlatformGitopsApplicationset#ref}
   */
   readonly ref?: string;
   /**
   * URL to the repository (Git or Helm) that contains the application manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#repo_url PlatformGitopsApplicationset#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#repo_url PlatformGitopsApplicationset#repo_url}
   */
   readonly repoUrl: string;
   /**
   * Revision of the source to sync the application to. In case of Git, this can be commit, tag, or branch. If omitted, will equal to HEAD. In case of Helm, this is a semver tag for the Chart's version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#target_revision PlatformGitopsApplicationset#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#target_revision PlatformGitopsApplicationset#target_revision}
   */
   readonly targetRevision?: string;
   /**
   * directory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#directory PlatformGitopsApplicationset#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#directory PlatformGitopsApplicationset#directory}
   */
   readonly directory?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourceDirectory;
   /**
   * helm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#helm PlatformGitopsApplicationset#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#helm PlatformGitopsApplicationset#helm}
   */
   readonly helm?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourceHelm;
   /**
   * kustomize block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#kustomize PlatformGitopsApplicationset#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#kustomize PlatformGitopsApplicationset#kustomize}
   */
   readonly kustomize?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourceKustomize;
   /**
   * plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#plugin PlatformGitopsApplicationset#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#plugin PlatformGitopsApplicationset#plugin}
   */
   readonly plugin?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourcePlugin;
 }
@@ -20079,19 +20079,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -20267,19 +20267,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Determines whether the variable should be evaluated as jsonnet code or treated as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#code PlatformGitopsApplicationset#code}
   */
   readonly code?: boolean | cdktf.IResolvable;
   /**
   * Name of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of Jsonnet variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -20455,19 +20455,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Additional library search dirs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#libs PlatformGitopsApplicationset#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#libs PlatformGitopsApplicationset#libs}
   */
   readonly libs?: string[];
   /**
   * ext_var block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ext_var PlatformGitopsApplicationset#ext_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ext_var PlatformGitopsApplicationset#ext_var}
   */
   readonly extVar?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourcesDirectoryJsonnetExtVar[] | cdktf.IResolvable;
   /**
   * tlas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#tlas PlatformGitopsApplicationset#tlas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#tlas PlatformGitopsApplicationset#tlas}
   */
   readonly tlas?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourcesDirectoryJsonnetTlas[] | cdktf.IResolvable;
 }
@@ -20611,25 +20611,25 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Glob pattern to match paths against that should be explicitly excluded from being used during manifest generation. This takes precedence over the `include` field. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{config.yaml,env-use2/*}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#exclude PlatformGitopsApplicationset#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#exclude PlatformGitopsApplicationset#exclude}
   */
   readonly exclude?: string;
   /**
   * Glob pattern to match paths against that should be explicitly included during manifest generation. If this field is set, only matching manifests will be included. To match multiple patterns, wrap the patterns in {} and separate them with commas. For example: '{*.yml,*.yaml}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#include PlatformGitopsApplicationset#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#include PlatformGitopsApplicationset#include}
   */
   readonly include?: string;
   /**
   * Whether to scan a directory recursively for manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#recurse PlatformGitopsApplicationset#recurse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#recurse PlatformGitopsApplicationset#recurse}
   */
   readonly recurse?: boolean | cdktf.IResolvable;
   /**
   * jsonnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#jsonnet PlatformGitopsApplicationset#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#jsonnet PlatformGitopsApplicationset#jsonnet}
   */
   readonly jsonnet?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourcesDirectoryJsonnet;
 }
@@ -20802,13 +20802,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name: string;
   /**
   * Path to the file containing the values for the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
   */
   readonly path: string;
 }
@@ -20949,19 +20949,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Determines whether to tell Helm to interpret booleans and numbers as strings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_string PlatformGitopsApplicationset#force_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_string PlatformGitopsApplicationset#force_string}
   */
   readonly forceString?: boolean | cdktf.IResolvable;
   /**
   * Name of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of the Helm parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -21137,73 +21137,73 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Prevents 'helm template' from failing when `value_files` do not exist locally by not appending them to 'helm template --values'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ignore_missing_value_files PlatformGitopsApplicationset#ignore_missing_value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ignore_missing_value_files PlatformGitopsApplicationset#ignore_missing_value_files}
   */
   readonly ignoreMissingValueFiles?: boolean | cdktf.IResolvable;
   /**
   * If true then adds '--pass-credentials' to Helm commands to pass credentials to all domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#pass_credentials PlatformGitopsApplicationset#pass_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#pass_credentials PlatformGitopsApplicationset#pass_credentials}
   */
   readonly passCredentials?: boolean | cdktf.IResolvable;
   /**
   * Helm release name. If omitted it will use the application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#release_name PlatformGitopsApplicationset#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#release_name PlatformGitopsApplicationset#release_name}
   */
   readonly releaseName?: string;
   /**
   * Whether to skip custom resource definition installation step (Helm's [--skip-crds](https://helm.sh/docs/chart_best_practices/custom_resource_definitions/)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#skip_crds PlatformGitopsApplicationset#skip_crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#skip_crds PlatformGitopsApplicationset#skip_crds}
   */
   readonly skipCrds?: boolean | cdktf.IResolvable;
   /**
   * Indicates if to skip schema validation during helm template. Corresponds to helm --skip-schema-validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#skip_schema_validation PlatformGitopsApplicationset#skip_schema_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#skip_schema_validation PlatformGitopsApplicationset#skip_schema_validation}
   */
   readonly skipSchemaValidation?: boolean | cdktf.IResolvable;
   /**
   * Indicates if to skip tests during helm template. Corresponds to helm --skip-tests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#skip_tests PlatformGitopsApplicationset#skip_tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#skip_tests PlatformGitopsApplicationset#skip_tests}
   */
   readonly skipTests?: boolean | cdktf.IResolvable;
   /**
   * List of Helm value files to use when generating a template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value_files PlatformGitopsApplicationset#value_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value_files PlatformGitopsApplicationset#value_files}
   */
   readonly valueFiles?: string[];
   /**
   * Helm values to be passed to 'helm template', typically defined as a block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#values PlatformGitopsApplicationset#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#values PlatformGitopsApplicationset#values}
   */
   readonly values?: string;
   /**
   * Helm values to be passed to 'helm template', typically defined as a block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#values_object PlatformGitopsApplicationset#values_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#values_object PlatformGitopsApplicationset#values_object}
   */
   readonly valuesObject?: { [key: string]: string };
   /**
   * Helm version to use for templating (either "2" or "3").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
   */
   readonly version?: string;
   /**
   * file_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#file_parameters PlatformGitopsApplicationset#file_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#file_parameters PlatformGitopsApplicationset#file_parameters}
   */
   readonly fileParameters?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourcesHelmFileParameters[] | cdktf.IResolvable;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#parameters PlatformGitopsApplicationset#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#parameters PlatformGitopsApplicationset#parameters}
   */
   readonly parameters?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourcesHelmParameters[] | cdktf.IResolvable;
 }
@@ -21608,49 +21608,49 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * List of additional annotations to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#common_annotations PlatformGitopsApplicationset#common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#common_annotations PlatformGitopsApplicationset#common_annotations}
   */
   readonly commonAnnotations?: { [key: string]: string };
   /**
   * List of additional labels to add to rendered manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#common_labels PlatformGitopsApplicationset#common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#common_labels PlatformGitopsApplicationset#common_labels}
   */
   readonly commonLabels?: { [key: string]: string };
   /**
   * Indicates if to force applying common annotations to resources for kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_common_annotations PlatformGitopsApplicationset#force_common_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_common_annotations PlatformGitopsApplicationset#force_common_annotations}
   */
   readonly forceCommonAnnotations?: boolean | cdktf.IResolvable;
   /**
   * Indicates if to force apply common labels to resources for kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#force_common_labels PlatformGitopsApplicationset#force_common_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#force_common_labels PlatformGitopsApplicationset#force_common_labels}
   */
   readonly forceCommonLabels?: boolean | cdktf.IResolvable;
   /**
   * List of Kustomize image override specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#images PlatformGitopsApplicationset#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#images PlatformGitopsApplicationset#images}
   */
   readonly images?: string[];
   /**
   * Prefix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name_prefix PlatformGitopsApplicationset#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name_prefix PlatformGitopsApplicationset#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * Suffix appended to resources for Kustomize apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name_suffix PlatformGitopsApplicationset#name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name_suffix PlatformGitopsApplicationset#name_suffix}
   */
   readonly nameSuffix?: string;
   /**
   * Version of Kustomize to use for rendering manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#version PlatformGitopsApplicationset#version}
   */
   readonly version?: string;
 }
@@ -21939,13 +21939,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Name of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * Value of the environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#value PlatformGitopsApplicationset#value}
   */
   readonly value?: string;
 }
@@ -22092,13 +22092,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Name of the plugin. Only set the plugin name if the plugin is defined in `argocd-cm`. If the plugin is defined as a sidecar, omit the name. The plugin will be automatically matched with the Application according to the plugin's discovery rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#name PlatformGitopsApplicationset#name}
   */
   readonly name?: string;
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#env PlatformGitopsApplicationset#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#env PlatformGitopsApplicationset#env}
   */
   readonly env?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourcesPluginEnv[] | cdktf.IResolvable;
 }
@@ -22213,55 +22213,55 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourc
   /**
   * Helm chart name. Must be specified for applications sourced from a Helm repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#chart PlatformGitopsApplicationset#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#chart PlatformGitopsApplicationset#chart}
   */
   readonly chart?: string;
   /**
   * Directory path within the repository. Only valid for applications sourced from Git.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#path PlatformGitopsApplicationset#path}
   */
   readonly path?: string;
   /**
   * Reference to another `source` within defined sources. See associated documentation on [Helm value files from external Git repository](https://argo-cd.readthedocs.io/en/stable/user-guide/multiple_sources/#helm-value-files-from-external-git-repository) regarding combining `ref` with `path` and/or `chart`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ref PlatformGitopsApplicationset#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ref PlatformGitopsApplicationset#ref}
   */
   readonly ref?: string;
   /**
   * URL to the repository (Git or Helm) that contains the application manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#repo_url PlatformGitopsApplicationset#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#repo_url PlatformGitopsApplicationset#repo_url}
   */
   readonly repoUrl: string;
   /**
   * Revision of the source to sync the application to. In case of Git, this can be commit, tag, or branch. If omitted, will equal to HEAD. In case of Helm, this is a semver tag for the Chart's version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#target_revision PlatformGitopsApplicationset#target_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#target_revision PlatformGitopsApplicationset#target_revision}
   */
   readonly targetRevision?: string;
   /**
   * directory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#directory PlatformGitopsApplicationset#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#directory PlatformGitopsApplicationset#directory}
   */
   readonly directory?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourcesDirectory;
   /**
   * helm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#helm PlatformGitopsApplicationset#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#helm PlatformGitopsApplicationset#helm}
   */
   readonly helm?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourcesHelm;
   /**
   * kustomize block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#kustomize PlatformGitopsApplicationset#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#kustomize PlatformGitopsApplicationset#kustomize}
   */
   readonly kustomize?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourcesKustomize;
   /**
   * plugin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#plugin PlatformGitopsApplicationset#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#plugin PlatformGitopsApplicationset#plugin}
   */
   readonly plugin?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSourcesPlugin;
 }
@@ -22608,19 +22608,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSyncP
   /**
   * Allows apps have zero live resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#allow_empty PlatformGitopsApplicationset#allow_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#allow_empty PlatformGitopsApplicationset#allow_empty}
   */
   readonly allowEmpty?: boolean | cdktf.IResolvable;
   /**
   * Whether to delete resources from the cluster that are not found in the sources anymore as part of automated sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#prune PlatformGitopsApplicationset#prune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#prune PlatformGitopsApplicationset#prune}
   */
   readonly prune?: boolean | cdktf.IResolvable;
   /**
   * Whether to revert resources back to their desired state upon modification in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#self_heal PlatformGitopsApplicationset#self_heal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#self_heal PlatformGitopsApplicationset#self_heal}
   */
   readonly selfHeal?: boolean | cdktf.IResolvable;
 }
@@ -22764,13 +22764,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSyncP
   /**
   * Annotations to apply to the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#annotations PlatformGitopsApplicationset#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#annotations PlatformGitopsApplicationset#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels to apply to the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#labels PlatformGitopsApplicationset#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#labels PlatformGitopsApplicationset#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -22885,19 +22885,19 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSyncP
   /**
   * Duration is the amount to back off. Default unit is seconds, but could also be a duration (e.g. `2m`, `1h`), as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#duration PlatformGitopsApplicationset#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#duration PlatformGitopsApplicationset#duration}
   */
   readonly duration?: string;
   /**
   * Factor to multiply the base duration after each failed retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#factor PlatformGitopsApplicationset#factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#factor PlatformGitopsApplicationset#factor}
   */
   readonly factor?: string;
   /**
   * Maximum amount of time allowed for the backoff strategy. Default unit is seconds, but could also be a duration (e.g. `2m`, `1h`), as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#max_duration PlatformGitopsApplicationset#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#max_duration PlatformGitopsApplicationset#max_duration}
   */
   readonly maxDuration?: string;
 }
@@ -23041,13 +23041,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSyncP
   /**
   * Maximum number of attempts for retrying a failed sync. If set to 0, no retries will be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#limit PlatformGitopsApplicationset#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#limit PlatformGitopsApplicationset#limit}
   */
   readonly limit?: string;
   /**
   * backoff block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#backoff PlatformGitopsApplicationset#backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#backoff PlatformGitopsApplicationset#backoff}
   */
   readonly backoff?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSyncPolicyRetryBackoff;
 }
@@ -23162,25 +23162,25 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSyncP
   /**
   * List of sync options. More info: https://argo-cd.readthedocs.io/en/stable/user-guide/sync-options/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#sync_options PlatformGitopsApplicationset#sync_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#sync_options PlatformGitopsApplicationset#sync_options}
   */
   readonly syncOptions?: string[];
   /**
   * automated block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#automated PlatformGitopsApplicationset#automated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#automated PlatformGitopsApplicationset#automated}
   */
   readonly automated?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSyncPolicyAutomated;
   /**
   * managed_namespace_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#managed_namespace_metadata PlatformGitopsApplicationset#managed_namespace_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#managed_namespace_metadata PlatformGitopsApplicationset#managed_namespace_metadata}
   */
   readonly managedNamespaceMetadata?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSyncPolicyManagedNamespaceMetadata;
   /**
   * retry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#retry PlatformGitopsApplicationset#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#retry PlatformGitopsApplicationset#retry}
   */
   readonly retry?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSyncPolicyRetry;
 }
@@ -23353,49 +23353,49 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplateSpec {
   /**
   * The project the application belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#project PlatformGitopsApplicationset#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#project PlatformGitopsApplicationset#project}
   */
   readonly project?: string;
   /**
   * Limits the number of items kept in the application's revision history, which is used for informational purposes as well as for rollbacks to previous versions. This should only be changed in exceptional circumstances. Setting to zero will store no history. This will reduce storage used. Increasing will increase the space used to store the history, so we do not recommend increasing it. Default is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#revision_history_limit PlatformGitopsApplicationset#revision_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#revision_history_limit PlatformGitopsApplicationset#revision_history_limit}
   */
   readonly revisionHistoryLimit?: string;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#destination PlatformGitopsApplicationset#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#destination PlatformGitopsApplicationset#destination}
   */
   readonly destination: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecDestination;
   /**
   * ignore_difference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ignore_difference PlatformGitopsApplicationset#ignore_difference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ignore_difference PlatformGitopsApplicationset#ignore_difference}
   */
   readonly ignoreDifference?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecIgnoreDifference[] | cdktf.IResolvable;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#info PlatformGitopsApplicationset#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#info PlatformGitopsApplicationset#info}
   */
   readonly info?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecInfo[] | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#source PlatformGitopsApplicationset#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#source PlatformGitopsApplicationset#source}
   */
   readonly source: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSource[] | cdktf.IResolvable;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#sources PlatformGitopsApplicationset#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#sources PlatformGitopsApplicationset#sources}
   */
   readonly sources?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSources[] | cdktf.IResolvable;
   /**
   * sync_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#sync_policy PlatformGitopsApplicationset#sync_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#sync_policy PlatformGitopsApplicationset#sync_policy}
   */
   readonly syncPolicy?: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpecSyncPolicy;
 }
@@ -23678,13 +23678,13 @@ export interface PlatformGitopsApplicationsetApplicationsetSpecTemplate {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#metadata PlatformGitopsApplicationset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#metadata PlatformGitopsApplicationset#metadata}
   */
   readonly metadata: PlatformGitopsApplicationsetApplicationsetSpecTemplateMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#spec PlatformGitopsApplicationset#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#spec PlatformGitopsApplicationset#spec}
   */
   readonly spec: PlatformGitopsApplicationsetApplicationsetSpecTemplateSpec;
 }
@@ -23793,43 +23793,43 @@ export interface PlatformGitopsApplicationsetApplicationsetSpec {
   /**
   * Enable Go templating for the template field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#go_template PlatformGitopsApplicationset#go_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#go_template PlatformGitopsApplicationset#go_template}
   */
   readonly goTemplate?: boolean | cdktf.IResolvable;
   /**
   * Optional list of go templating options, see https://pkg.go.dev/text/template#Template.Optional. This is only relevant if `goTemplate` is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#go_template_options PlatformGitopsApplicationset#go_template_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#go_template_options PlatformGitopsApplicationset#go_template_options}
   */
   readonly goTemplateOptions?: string[];
   /**
   * generator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#generator PlatformGitopsApplicationset#generator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#generator PlatformGitopsApplicationset#generator}
   */
   readonly generator: PlatformGitopsApplicationsetApplicationsetSpecGenerator[] | cdktf.IResolvable;
   /**
   * ignore_application_differences block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#ignore_application_differences PlatformGitopsApplicationset#ignore_application_differences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#ignore_application_differences PlatformGitopsApplicationset#ignore_application_differences}
   */
   readonly ignoreApplicationDifferences?: PlatformGitopsApplicationsetApplicationsetSpecIgnoreApplicationDifferences[] | cdktf.IResolvable;
   /**
   * strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#strategy PlatformGitopsApplicationset#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#strategy PlatformGitopsApplicationset#strategy}
   */
   readonly strategy?: PlatformGitopsApplicationsetApplicationsetSpecStrategy;
   /**
   * sync_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#sync_policy PlatformGitopsApplicationset#sync_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#sync_policy PlatformGitopsApplicationset#sync_policy}
   */
   readonly syncPolicy?: PlatformGitopsApplicationsetApplicationsetSpecSyncPolicy;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#template PlatformGitopsApplicationset#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#template PlatformGitopsApplicationset#template}
   */
   readonly template: PlatformGitopsApplicationsetApplicationsetSpecTemplate;
 }
@@ -24083,13 +24083,13 @@ export interface PlatformGitopsApplicationsetApplicationset {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#metadata PlatformGitopsApplicationset#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#metadata PlatformGitopsApplicationset#metadata}
   */
   readonly metadata: PlatformGitopsApplicationsetApplicationsetMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#spec PlatformGitopsApplicationset#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_gitops_applicationset#spec PlatformGitopsApplicationset#spec}
   */
   readonly spec: PlatformGitopsApplicationsetApplicationsetSpec;
 }

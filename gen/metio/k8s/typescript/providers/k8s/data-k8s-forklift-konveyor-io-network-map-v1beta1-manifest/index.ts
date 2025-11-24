@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#metadata DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#metadata DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestMetadata;
   /**
   * Network map spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#spec DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#spec DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#annotations DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#annotations DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#labels DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#labels DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#name DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#name DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#namespace DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#namespace DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestSpecMapDestin
   /**
   * The name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#name DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#name DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * The namespace (multus only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#namespace DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#namespace DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * The network type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#type DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#type DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -382,7 +382,7 @@ export interface DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestSpecMapSource
   /**
   * The object ID. vsphere: The managed object ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#id DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#id DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -391,19 +391,19 @@ export interface DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestSpecMapSource
   /**
   * An object Name. vsphere: A qualified name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#name DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#name DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * The VM Namespace Only relevant for an openshift source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#namespace DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#namespace DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Type used to qualify the name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#type DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#type DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -586,13 +586,13 @@ export interface DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestSpecMap {
   /**
   * Destination network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#destination DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#destination DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#destination}
   */
   readonly destination: DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestSpecMapDestination;
   /**
   * Source network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#source DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#source DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#source}
   */
   readonly source: DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestSpecMapSource;
 }
@@ -733,43 +733,43 @@ export interface DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestSpecProviderD
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#api_version DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#api_version DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#field_path DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#field_path DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#kind DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#kind DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#name DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#name DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#namespace DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#namespace DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#resource_version DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#resource_version DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#uid DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#uid DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1039,43 +1039,43 @@ export interface DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestSpecProviderS
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#api_version DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#api_version DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#field_path DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#field_path DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#kind DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#kind DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#name DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#name DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#namespace DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#namespace DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#resource_version DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#resource_version DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#uid DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#uid DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1345,13 +1345,13 @@ export interface DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestSpecProvider 
   /**
   * Destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#destination DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#destination DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#destination}
   */
   readonly destination: DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestSpecProviderDestination;
   /**
   * Source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#source DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#source DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#source}
   */
   readonly source: DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestSpecProviderSource;
 }
@@ -1470,13 +1470,13 @@ export interface DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestSpec {
   /**
   * Map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#map DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#map DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#map}
   */
   readonly map: DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestSpecMap[] | cdktf.IResolvable;
   /**
   * Provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#provider DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#provider DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest#provider}
   */
   readonly provider: DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestSpecProvider;
 }
@@ -1593,7 +1593,7 @@ export class DataK8SForkliftKonveyorIoNetworkMapV1Beta1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest k8s_forklift_konveyor_io_network_map_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest k8s_forklift_konveyor_io_network_map_v1beta1_manifest}
 */
 export class DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1609,7 +1609,7 @@ export class DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1621,7 +1621,7 @@ export class DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest k8s_forklift_konveyor_io_network_map_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/forklift_konveyor_io_network_map_v1beta1_manifest k8s_forklift_konveyor_io_network_map_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1632,8 +1632,8 @@ export class DataK8SForkliftKonveyorIoNetworkMapV1Beta1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_forklift_konveyor_io_network_map_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

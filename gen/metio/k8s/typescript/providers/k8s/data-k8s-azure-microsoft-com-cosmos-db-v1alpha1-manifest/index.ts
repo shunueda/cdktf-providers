@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#metadata DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#metadata DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestMetadata;
   /**
   * CosmosDBSpec defines the desired state of CosmosDB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#spec DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#spec DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#annotations DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#annotations DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#labels DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#labels DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#name DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#name DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#namespace DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#namespace DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,15 +217,15 @@ export class DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestMetadataOutputRefer
 }
 export interface DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestSpecLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#failover_priority DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#failover_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#failover_priority DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#failover_priority}
   */
   readonly failoverPriority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#is_zone_redundant DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#is_zone_redundant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#is_zone_redundant DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#is_zone_redundant}
   */
   readonly isZoneRedundant?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#location_name DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#location_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#location_name DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#location_name}
   */
   readonly locationName: string;
 }
@@ -395,7 +395,7 @@ export interface DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestSpecPropertiesC
   /**
   * Name *CosmosCapability 'json:'name,omitempty''
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#name DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#name DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -511,27 +511,27 @@ export class DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestSpecPropertiesCapab
 }
 export interface DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestSpecProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#capabilities DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#capabilities DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestSpecPropertiesCapabilities[] | cdktf.IResolvable;
   /**
   * DatabaseAccountOfferType - The offer type for the Cosmos DB database account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#database_account_offer_type DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#database_account_offer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#database_account_offer_type DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#database_account_offer_type}
   */
   readonly databaseAccountOfferType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#enable_multiple_write_locations DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#enable_multiple_write_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#enable_multiple_write_locations DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#enable_multiple_write_locations}
   */
   readonly enableMultipleWriteLocations?: boolean | cdktf.IResolvable;
   /**
   * IsVirtualNetworkFilterEnabled - Flag to indicate whether to enable/disable Virtual Network ACL rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#is_virtual_network_filter_enabled DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#is_virtual_network_filter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#is_virtual_network_filter_enabled DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#is_virtual_network_filter_enabled}
   */
   readonly isVirtualNetworkFilterEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#mongo_db_version DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#mongo_db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#mongo_db_version DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#mongo_db_version}
   */
   readonly mongoDbVersion?: string;
 }
@@ -743,13 +743,13 @@ export interface DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestSpecVirtualNetw
   /**
   * IgnoreMissingVNetServiceEndpoint - Create firewall rule before the virtual network has vnet service endpoint enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#ignore_missing_v_net_service_endpoint DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#ignore_missing_v_net_service_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#ignore_missing_v_net_service_endpoint DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#ignore_missing_v_net_service_endpoint}
   */
   readonly ignoreMissingVNetServiceEndpoint?: boolean | cdktf.IResolvable;
   /**
   * ID - Resource ID of a subnet, for example: /subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.Network/virtualNetworks/{virtualNetworkName}/subnets/{subnetName}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#subnet_id DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#subnet_id DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -894,41 +894,41 @@ export class DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestSpecVirtualNetworkR
 }
 export interface DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#ip_rules DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#ip_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#ip_rules DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#ip_rules}
   */
   readonly ipRules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#key_vault_to_store_secrets DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#key_vault_to_store_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#key_vault_to_store_secrets DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#key_vault_to_store_secrets}
   */
   readonly keyVaultToStoreSecrets?: string;
   /**
   * CosmosDBKind enumerates the values for kind. Only one of the following kinds may be specified. If none of the following kinds is specified, the default one is GlobalDocumentDBKind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#kind DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#kind DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Location is the Azure location where the CosmosDB exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#location DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#location DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#locations DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#locations DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#locations}
   */
   readonly locations?: DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestSpecLocations[] | cdktf.IResolvable;
   /**
   * CosmosDBProperties the CosmosDBProperties of CosmosDB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#properties DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#properties DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#properties}
   */
   readonly properties?: DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestSpecProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#resource_group DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#resource_group DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#resource_group}
   */
   readonly resourceGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#virtual_network_rules DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#virtual_network_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#virtual_network_rules DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest#virtual_network_rules}
   */
   readonly virtualNetworkRules?: DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestSpecVirtualNetworkRules[] | cdktf.IResolvable;
 }
@@ -1222,7 +1222,7 @@ export class DataK8SAzureMicrosoftComCosmosDbV1Alpha1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest k8s_azure_microsoft_com_cosmos_db_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest k8s_azure_microsoft_com_cosmos_db_v1alpha1_manifest}
 */
 export class DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1238,7 +1238,7 @@ export class DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1250,7 +1250,7 @@ export class DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest k8s_azure_microsoft_com_cosmos_db_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/azure_microsoft_com_cosmos_db_v1alpha1_manifest k8s_azure_microsoft_com_cosmos_db_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1261,8 +1261,8 @@ export class DataK8SAzureMicrosoftComCosmosDbV1Alpha1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_azure_microsoft_com_cosmos_db_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

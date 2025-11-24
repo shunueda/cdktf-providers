@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_environment_clusters_mapping
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment_clusters_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataHarnessPlatformEnvironmentClustersMappingConfig extends cdk
   /**
   * environment identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_environment_clusters_mapping#env_id DataHarnessPlatformEnvironmentClustersMapping#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment_clusters_mapping#env_id DataHarnessPlatformEnvironmentClustersMapping#env_id}
   */
   readonly envId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_environment_clusters_mapping#id DataHarnessPlatformEnvironmentClustersMapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment_clusters_mapping#id DataHarnessPlatformEnvironmentClustersMapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataHarnessPlatformEnvironmentClustersMappingConfig extends cdk
   /**
   * identifier for the cluster mapping(can be given any value).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_environment_clusters_mapping#identifier DataHarnessPlatformEnvironmentClustersMapping#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment_clusters_mapping#identifier DataHarnessPlatformEnvironmentClustersMapping#identifier}
   */
   readonly identifier: string;
   /**
   * org_id of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_environment_clusters_mapping#org_id DataHarnessPlatformEnvironmentClustersMapping#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment_clusters_mapping#org_id DataHarnessPlatformEnvironmentClustersMapping#org_id}
   */
   readonly orgId?: string;
   /**
   * project_id of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_environment_clusters_mapping#project_id DataHarnessPlatformEnvironmentClustersMapping#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment_clusters_mapping#project_id DataHarnessPlatformEnvironmentClustersMapping#project_id}
   */
   readonly projectId?: string;
   /**
   * clusters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_environment_clusters_mapping#clusters DataHarnessPlatformEnvironmentClustersMapping#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment_clusters_mapping#clusters DataHarnessPlatformEnvironmentClustersMapping#clusters}
   */
   readonly clusters?: DataHarnessPlatformEnvironmentClustersMappingClusters[] | cdktf.IResolvable;
 }
@@ -49,25 +49,25 @@ export interface DataHarnessPlatformEnvironmentClustersMappingClusters {
   /**
   * agent identifier of the cluster (include scope prefix)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_environment_clusters_mapping#agent_identifier DataHarnessPlatformEnvironmentClustersMapping#agent_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment_clusters_mapping#agent_identifier DataHarnessPlatformEnvironmentClustersMapping#agent_identifier}
   */
   readonly agentIdentifier?: string;
   /**
   * identifier of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_environment_clusters_mapping#identifier DataHarnessPlatformEnvironmentClustersMapping#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment_clusters_mapping#identifier DataHarnessPlatformEnvironmentClustersMapping#identifier}
   */
   readonly identifier?: string;
   /**
   * name of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_environment_clusters_mapping#name DataHarnessPlatformEnvironmentClustersMapping#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment_clusters_mapping#name DataHarnessPlatformEnvironmentClustersMapping#name}
   */
   readonly name?: string;
   /**
   * scope at which the cluster exists in harness gitops, one of "ACCOUNT", "ORGANIZATION", "PROJECT". Scope of environment to which clusters are being mapped must be lower or equal to in hierarchy than the scope of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_environment_clusters_mapping#scope DataHarnessPlatformEnvironmentClustersMapping#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment_clusters_mapping#scope DataHarnessPlatformEnvironmentClustersMapping#scope}
   */
   readonly scope?: string;
 }
@@ -270,7 +270,7 @@ export class DataHarnessPlatformEnvironmentClustersMappingClustersList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_environment_clusters_mapping harness_platform_environment_clusters_mapping}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment_clusters_mapping harness_platform_environment_clusters_mapping}
 */
 export class DataHarnessPlatformEnvironmentClustersMapping extends cdktf.TerraformDataSource {
 
@@ -286,7 +286,7 @@ export class DataHarnessPlatformEnvironmentClustersMapping extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataHarnessPlatformEnvironmentClustersMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformEnvironmentClustersMapping to import
-  * @param importFromId The id of the existing DataHarnessPlatformEnvironmentClustersMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_environment_clusters_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformEnvironmentClustersMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment_clusters_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformEnvironmentClustersMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -298,7 +298,7 @@ export class DataHarnessPlatformEnvironmentClustersMapping extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_environment_clusters_mapping harness_platform_environment_clusters_mapping} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_environment_clusters_mapping harness_platform_environment_clusters_mapping} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -309,8 +309,8 @@ export class DataHarnessPlatformEnvironmentClustersMapping extends cdktf.Terrafo
       terraformResourceType: 'harness_platform_environment_clusters_mapping',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

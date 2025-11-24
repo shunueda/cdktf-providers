@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#metadata DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#metadata DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1ManifestMetadata;
   /**
   * DeveloperAccountSpec defines the desired state of DeveloperAccount
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#spec DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#spec DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#annotations DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#annotations DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#labels DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#labels DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#name DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#name DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#namespace DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#namespace DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1ManifestSpec
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#name DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#name DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -315,25 +315,25 @@ export interface DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1ManifestSpec
   /**
   * MonthlyBillingEnabled sets the billing status. Defaults to 'true', ie., active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#monthly_billing_enabled DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#monthly_billing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#monthly_billing_enabled DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#monthly_billing_enabled}
   */
   readonly monthlyBillingEnabled?: boolean | cdktf.IResolvable;
   /**
   * MonthlyChargingEnabled Defaults to 'true'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#monthly_charging_enabled DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#monthly_charging_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#monthly_charging_enabled DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#monthly_charging_enabled}
   */
   readonly monthlyChargingEnabled?: boolean | cdktf.IResolvable;
   /**
   * OrgName is the organization name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#org_name DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#org_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#org_name DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#org_name}
   */
   readonly orgName: string;
   /**
   * ProviderAccountRef references account provider credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#provider_account_ref DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#provider_account_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#provider_account_ref DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest#provider_account_ref}
   */
   readonly providerAccountRef?: DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1ManifestSpecProviderAccountRef;
 }
@@ -511,7 +511,7 @@ export class DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest k8s_capabilities_3scale_net_developer_account_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest k8s_capabilities_3scale_net_developer_account_v1beta1_manifest}
 */
 export class DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -527,7 +527,7 @@ export class DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest extends
   * Generates CDKTF code for importing a DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -539,7 +539,7 @@ export class DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest k8s_capabilities_3scale_net_developer_account_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/capabilities_3scale_net_developer_account_v1beta1_manifest k8s_capabilities_3scale_net_developer_account_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -550,8 +550,8 @@ export class DataK8SCapabilities3ScaleNetDeveloperAccountV1Beta1Manifest extends
       terraformResourceType: 'k8s_capabilities_3scale_net_developer_account_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy
+// https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AuthorizationPolicyConfig extends cdktf.TerraformMetaArguments 
   /**
   * Your own description of the resource. Must be less than or equal to 256 UTF-8 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy#description AuthorizationPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy#description AuthorizationPolicy#description}
   */
   readonly description?: string;
   /**
   * The display name for the instance. Can be updated without creating a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy#display_name AuthorizationPolicy#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy#display_name AuthorizationPolicy#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy#id AuthorizationPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy#id AuthorizationPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,59 +29,59 @@ export interface AuthorizationPolicyConfig extends cdktf.TerraformMetaArguments 
   /**
   * Configuration of Authorization Policy in JSON format, the same one exported by The Hub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy#json AuthorizationPolicy#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy#json AuthorizationPolicy#json}
   */
   readonly json: string;
   /**
   * Identifier of Location, where to create resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy#location AuthorizationPolicy#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy#location AuthorizationPolicy#location}
   */
   readonly location: string;
   /**
   * Unique client assigned immutable identifier. Can not be updated without creating a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy#name AuthorizationPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy#name AuthorizationPolicy#name}
   */
   readonly name: string;
   /**
   * Status of the Authorization Policy. Possible values are: active, draft, inactive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy#status AuthorizationPolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy#status AuthorizationPolicy#status}
   */
   readonly status: string;
   /**
   * Tags of the Authorization Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy#tags AuthorizationPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy#tags AuthorizationPolicy#tags}
   */
   readonly tags?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy#timeouts AuthorizationPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy#timeouts AuthorizationPolicy#timeouts}
   */
   readonly timeouts?: AuthorizationPolicyTimeouts;
 }
 export interface AuthorizationPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy#create AuthorizationPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy#create AuthorizationPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy#default AuthorizationPolicy#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy#default AuthorizationPolicy#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy#delete AuthorizationPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy#delete AuthorizationPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy#read AuthorizationPolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy#read AuthorizationPolicy#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy#update AuthorizationPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy#update AuthorizationPolicy#update}
   */
   readonly update?: string;
 }
@@ -291,7 +291,7 @@ export class AuthorizationPolicyTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy indykite_authorization_policy}
+* Represents a {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy indykite_authorization_policy}
 */
 export class AuthorizationPolicy extends cdktf.TerraformResource {
 
@@ -307,7 +307,7 @@ export class AuthorizationPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthorizationPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthorizationPolicy to import
-  * @param importFromId The id of the existing AuthorizationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthorizationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthorizationPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class AuthorizationPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/authorization_policy indykite_authorization_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/authorization_policy indykite_authorization_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class AuthorizationPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'indykite_authorization_policy',
       terraformGeneratorMetadata: {
         providerName: 'indykite',
-        providerVersion: '0.27.0',
-        providerVersionConstraint: '0.27.0'
+        providerVersion: '0.28.0',
+        providerVersionConstraint: '0.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

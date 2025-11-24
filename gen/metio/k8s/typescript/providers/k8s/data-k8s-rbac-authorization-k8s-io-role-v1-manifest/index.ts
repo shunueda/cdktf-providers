@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SRbacAuthorizationK8SIoRoleV1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#metadata DataK8SRbacAuthorizationK8SIoRoleV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#metadata DataK8SRbacAuthorizationK8SIoRoleV1Manifest#metadata}
   */
   readonly metadata: DataK8SRbacAuthorizationK8SIoRoleV1ManifestMetadata;
   /**
   * Rules holds all the PolicyRules for this Role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#rules DataK8SRbacAuthorizationK8SIoRoleV1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#rules DataK8SRbacAuthorizationK8SIoRoleV1Manifest#rules}
   */
   readonly rules?: DataK8SRbacAuthorizationK8SIoRoleV1ManifestRules[] | cdktf.IResolvable;
 }
@@ -24,25 +24,25 @@ export interface DataK8SRbacAuthorizationK8SIoRoleV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#annotations DataK8SRbacAuthorizationK8SIoRoleV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#annotations DataK8SRbacAuthorizationK8SIoRoleV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#labels DataK8SRbacAuthorizationK8SIoRoleV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#labels DataK8SRbacAuthorizationK8SIoRoleV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#name DataK8SRbacAuthorizationK8SIoRoleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#name DataK8SRbacAuthorizationK8SIoRoleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#namespace DataK8SRbacAuthorizationK8SIoRoleV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#namespace DataK8SRbacAuthorizationK8SIoRoleV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,31 +219,31 @@ export interface DataK8SRbacAuthorizationK8SIoRoleV1ManifestRules {
   /**
   * APIGroups is the name of the APIGroup that contains the resources. If multiple API groups are specified, any action requested against one of the enumerated resources in any API group will be allowed. '' represents the core API group and '*' represents all API groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#api_groups DataK8SRbacAuthorizationK8SIoRoleV1Manifest#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#api_groups DataK8SRbacAuthorizationK8SIoRoleV1Manifest#api_groups}
   */
   readonly apiGroups?: string[];
   /**
   * NonResourceURLs is a set of partial urls that a user should have access to. *s are allowed, but only as the full, final step in the path Since non-resource URLs are not namespaced, this field is only applicable for ClusterRoles referenced from a ClusterRoleBinding. Rules can either apply to API resources (such as 'pods' or 'secrets') or non-resource URL paths (such as '/api'), but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#non_resource_urls DataK8SRbacAuthorizationK8SIoRoleV1Manifest#non_resource_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#non_resource_urls DataK8SRbacAuthorizationK8SIoRoleV1Manifest#non_resource_urls}
   */
   readonly nonResourceUrls?: string[];
   /**
   * ResourceNames is an optional white list of names that the rule applies to. An empty set means that everything is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#resource_names DataK8SRbacAuthorizationK8SIoRoleV1Manifest#resource_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#resource_names DataK8SRbacAuthorizationK8SIoRoleV1Manifest#resource_names}
   */
   readonly resourceNames?: string[];
   /**
   * Resources is a list of resources this rule applies to. '*' represents all resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#resources DataK8SRbacAuthorizationK8SIoRoleV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#resources DataK8SRbacAuthorizationK8SIoRoleV1Manifest#resources}
   */
   readonly resources?: string[];
   /**
   * Verbs is a list of Verbs that apply to ALL the ResourceKinds contained in this rule. '*' represents all verbs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#verbs DataK8SRbacAuthorizationK8SIoRoleV1Manifest#verbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#verbs DataK8SRbacAuthorizationK8SIoRoleV1Manifest#verbs}
   */
   readonly verbs: string[];
 }
@@ -472,7 +472,7 @@ export class DataK8SRbacAuthorizationK8SIoRoleV1ManifestRulesList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest k8s_rbac_authorization_k8s_io_role_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest k8s_rbac_authorization_k8s_io_role_v1_manifest}
 */
 export class DataK8SRbacAuthorizationK8SIoRoleV1Manifest extends cdktf.TerraformDataSource {
 
@@ -488,7 +488,7 @@ export class DataK8SRbacAuthorizationK8SIoRoleV1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SRbacAuthorizationK8SIoRoleV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SRbacAuthorizationK8SIoRoleV1Manifest to import
-  * @param importFromId The id of the existing DataK8SRbacAuthorizationK8SIoRoleV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SRbacAuthorizationK8SIoRoleV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SRbacAuthorizationK8SIoRoleV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -500,7 +500,7 @@ export class DataK8SRbacAuthorizationK8SIoRoleV1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest k8s_rbac_authorization_k8s_io_role_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/rbac_authorization_k8s_io_role_v1_manifest k8s_rbac_authorization_k8s_io_role_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -511,8 +511,8 @@ export class DataK8SRbacAuthorizationK8SIoRoleV1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_rbac_authorization_k8s_io_role_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

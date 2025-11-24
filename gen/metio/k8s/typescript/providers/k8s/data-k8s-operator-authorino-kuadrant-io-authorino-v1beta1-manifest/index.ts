@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#metadata DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#metadata DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestMetadata;
   /**
   * AuthorinoSpec defines the desired state of Authorino
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#spec DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#spec DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#annotations DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#annotations DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#labels DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#labels DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#name DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#name DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#namespace DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#namespace DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecH
   /**
   * Port number of the health/readiness probe endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#port DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#port DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#port}
   */
   readonly port?: number;
 }
@@ -313,11 +313,11 @@ export class DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecHealt
 }
 export interface DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecListenerPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#grpc DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#grpc DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#grpc}
   */
   readonly grpc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#http DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#http DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#http}
   */
   readonly http?: number;
 }
@@ -442,7 +442,7 @@ export interface DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecL
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#name DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#name DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -538,11 +538,11 @@ export interface DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecL
   /**
   * LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#cert_secret_ref DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#cert_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#cert_secret_ref DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#cert_secret_ref}
   */
   readonly certSecretRef?: DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecListenerTlsCertSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#enabled DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#enabled DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -667,31 +667,31 @@ export interface DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecL
   /**
   * Maximum payload (request body) size for the auth service (HTTP interface), in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#max_http_request_body_size DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#max_http_request_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#max_http_request_body_size DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#max_http_request_body_size}
   */
   readonly maxHttpRequestBodySize?: number;
   /**
   * Port number of the GRPC interface. DEPRECATED: use 'ports.grpc' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#port DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#port DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#port}
   */
   readonly port?: number;
   /**
   * Port numbers of the GRPC and HTTP auth interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#ports DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#ports DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#ports}
   */
   readonly ports?: DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecListenerPorts;
   /**
   * Timeout of the auth service (GRPC and HTTP interfaces), in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#timeout DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#timeout DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#timeout}
   */
   readonly timeout?: number;
   /**
   * TLS configuration of the auth service (GRPC and HTTP interfaces).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#tls DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#tls DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#tls}
   */
   readonly tls: DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecListenerTls;
 }
@@ -898,11 +898,11 @@ export class DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecListe
 }
 export interface DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#deep DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#deep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#deep DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#deep}
   */
   readonly deep?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#port DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#port DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#port}
   */
   readonly port?: number;
 }
@@ -1027,7 +1027,7 @@ export interface DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecO
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#name DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#name DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1123,11 +1123,11 @@ export interface DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecO
   /**
   * LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#cert_secret_ref DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#cert_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#cert_secret_ref DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#cert_secret_ref}
   */
   readonly certSecretRef?: DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecOidcServerTlsCertSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#enabled DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#enabled DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1250,11 +1250,11 @@ export class DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecOidcS
 }
 export interface DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecOidcServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#port DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#port DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#tls DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#tls DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#tls}
   */
   readonly tls: DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecOidcServerTls;
 }
@@ -1374,15 +1374,15 @@ export class DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecOidcS
 }
 export interface DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecTracing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#endpoint DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#endpoint DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#endpoint}
   */
   readonly endpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#insecure DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#insecure DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#tags DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#tags DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1533,19 +1533,19 @@ export interface DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecV
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#key DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#key DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#mode DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#mode DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#path DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#path DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -1715,31 +1715,31 @@ export interface DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecV
   /**
   * Allow multiple configmaps to mount to the same directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#config_maps DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#config_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#config_maps DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#config_maps}
   */
   readonly configMaps?: string[];
   /**
   * Mount details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#items DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#items DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#items}
   */
   readonly items?: DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecVolumesItemsItems[] | cdktf.IResolvable;
   /**
   * An absolute path where to mount it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#mount_path DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#mount_path DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * Volume name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#name DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#name DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Secret mount
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#secrets DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#secrets DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#secrets}
   */
   readonly secrets?: string[];
 }
@@ -1970,11 +1970,11 @@ export interface DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecV
   /**
   * Permissions mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#default_mode DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#default_mode DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#items DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#items DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#items}
   */
   readonly items?: DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecVolumesItems[] | cdktf.IResolvable;
 }
@@ -2097,69 +2097,69 @@ export class DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecVolum
 }
 export interface DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#auth_config_label_selectors DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#auth_config_label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#auth_config_label_selectors DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#auth_config_label_selectors}
   */
   readonly authConfigLabelSelectors?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#cluster_wide DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#cluster_wide}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#cluster_wide DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#cluster_wide}
   */
   readonly clusterWide?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#evaluator_cache_size DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#evaluator_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#evaluator_cache_size DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#evaluator_cache_size}
   */
   readonly evaluatorCacheSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#healthz DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#healthz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#healthz DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#healthz}
   */
   readonly healthz?: DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecHealthz;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#image DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#image DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * PullPolicy describes a policy for if/when to pull a container image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#image_pull_policy DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#image_pull_policy DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#listener DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#listener DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#listener}
   */
   readonly listener: DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecListener;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#log_level DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#log_level DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#log_mode DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#log_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#log_mode DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#log_mode}
   */
   readonly logMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#metrics DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#metrics DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#metrics}
   */
   readonly metrics?: DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#oidc_server DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#oidc_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#oidc_server DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#oidc_server}
   */
   readonly oidcServer: DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecOidcServer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#replicas DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#replicas DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#secret_label_selectors DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#secret_label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#secret_label_selectors DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#secret_label_selectors}
   */
   readonly secretLabelSelectors?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#superseding_host_subsets DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#superseding_host_subsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#superseding_host_subsets DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#superseding_host_subsets}
   */
   readonly supersedingHostSubsets?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#tracing DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#tracing DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#tracing}
   */
   readonly tracing?: DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecTracing;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#volumes DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#volumes DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest#volumes}
   */
   readonly volumes?: DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecVolumes;
 }
@@ -2682,7 +2682,7 @@ export class DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest k8s_operator_authorino_kuadrant_io_authorino_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest k8s_operator_authorino_kuadrant_io_authorino_v1beta1_manifest}
 */
 export class DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -2698,7 +2698,7 @@ export class DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest extends 
   * Generates CDKTF code for importing a DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2710,7 +2710,7 @@ export class DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest k8s_operator_authorino_kuadrant_io_authorino_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_authorino_kuadrant_io_authorino_v1beta1_manifest k8s_operator_authorino_kuadrant_io_authorino_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2721,8 +2721,8 @@ export class DataK8SOperatorAuthorinoKuadrantIoAuthorinoV1Beta1Manifest extends 
       terraformResourceType: 'k8s_operator_authorino_kuadrant_io_authorino_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

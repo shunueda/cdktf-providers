@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKarpenterShNodePoolV1Beta1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#metadata DataK8SKarpenterShNodePoolV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#metadata DataK8SKarpenterShNodePoolV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SKarpenterShNodePoolV1Beta1ManifestMetadata;
   /**
   * NodePoolSpec is the top level nodepool specification. Nodepools launch nodes in response to pods that are unschedulable. A single nodepool is capable of managing a diverse set of nodes. Node properties are determined from a combination of nodepool and pod scheduling constraints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#spec DataK8SKarpenterShNodePoolV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#spec DataK8SKarpenterShNodePoolV1Beta1Manifest#spec}
   */
   readonly spec: DataK8SKarpenterShNodePoolV1Beta1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SKarpenterShNodePoolV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#annotations DataK8SKarpenterShNodePoolV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#annotations DataK8SKarpenterShNodePoolV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#labels DataK8SKarpenterShNodePoolV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#labels DataK8SKarpenterShNodePoolV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#name DataK8SKarpenterShNodePoolV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#name DataK8SKarpenterShNodePoolV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SKarpenterShNodePoolV1Beta1ManifestSpecDisruptionBudgets 
   /**
   * Duration determines how long a Budget is active since each Schedule hit. Only minutes and hours are accepted, as cron does not work in seconds. If omitted, the budget is always active. This is required if Schedule is set. This regex has an optional 0s at the end since the duration.String() always adds a 0s at the end.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#duration DataK8SKarpenterShNodePoolV1Beta1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#duration DataK8SKarpenterShNodePoolV1Beta1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Nodes dictates the maximum number of NodeClaims owned by this NodePool that can be terminating at once. This is calculated by counting nodes that have a deletion timestamp set, or are actively being deleted by Karpenter. This field is required when specifying a budget. This cannot be of type intstr.IntOrString since kubebuilder doesn't support pattern checking for int nodes for IntOrString nodes. Ref: https://github.com/kubernetes-sigs/controller-tools/blob/55efe4be40394a288216dab63156b0a64fb82929/pkg/crd/markers/validation.go#L379-L388
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#nodes DataK8SKarpenterShNodePoolV1Beta1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#nodes DataK8SKarpenterShNodePoolV1Beta1Manifest#nodes}
   */
   readonly nodes: string;
   /**
   * Schedule specifies when a budget begins being active, following the upstream cronjob syntax. If omitted, the budget is always active. Timezones are not supported. This field is required if Duration is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#schedule DataK8SKarpenterShNodePoolV1Beta1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#schedule DataK8SKarpenterShNodePoolV1Beta1Manifest#schedule}
   */
   readonly schedule?: string;
 }
@@ -372,25 +372,25 @@ export interface DataK8SKarpenterShNodePoolV1Beta1ManifestSpecDisruption {
   /**
   * Budgets is a list of Budgets. If there are multiple active budgets, Karpenter uses the most restrictive value. If left undefined, this will default to one budget with a value to 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#budgets DataK8SKarpenterShNodePoolV1Beta1Manifest#budgets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#budgets DataK8SKarpenterShNodePoolV1Beta1Manifest#budgets}
   */
   readonly budgets?: DataK8SKarpenterShNodePoolV1Beta1ManifestSpecDisruptionBudgets[] | cdktf.IResolvable;
   /**
   * ConsolidateAfter is the duration the controller will wait before attempting to terminate nodes that are underutilized. Refer to ConsolidationPolicy for how underutilization is considered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#consolidate_after DataK8SKarpenterShNodePoolV1Beta1Manifest#consolidate_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#consolidate_after DataK8SKarpenterShNodePoolV1Beta1Manifest#consolidate_after}
   */
   readonly consolidateAfter?: string;
   /**
   * ConsolidationPolicy describes which nodes Karpenter can disrupt through its consolidation algorithm. This policy defaults to 'WhenUnderutilized' if not specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#consolidation_policy DataK8SKarpenterShNodePoolV1Beta1Manifest#consolidation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#consolidation_policy DataK8SKarpenterShNodePoolV1Beta1Manifest#consolidation_policy}
   */
   readonly consolidationPolicy?: string;
   /**
   * ExpireAfter is the duration the controller will wait before terminating a node, measured from when the node is created. This is useful to implement features like eventually consistent node upgrade, memory leak protection, and disruption testing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#expire_after DataK8SKarpenterShNodePoolV1Beta1Manifest#expire_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#expire_after DataK8SKarpenterShNodePoolV1Beta1Manifest#expire_after}
   */
   readonly expireAfter?: string;
 }
@@ -573,13 +573,13 @@ export interface DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateMetadata {
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#annotations DataK8SKarpenterShNodePoolV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#annotations DataK8SKarpenterShNodePoolV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#labels DataK8SKarpenterShNodePoolV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#labels DataK8SKarpenterShNodePoolV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -704,73 +704,73 @@ export interface DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateSpecKubele
   /**
   * clusterDNS is a list of IP addresses for the cluster DNS server. Note that not all providers may use all addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#cluster_dns DataK8SKarpenterShNodePoolV1Beta1Manifest#cluster_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#cluster_dns DataK8SKarpenterShNodePoolV1Beta1Manifest#cluster_dns}
   */
   readonly clusterDns?: string[];
   /**
   * CPUCFSQuota enables CPU CFS quota enforcement for containers that specify CPU limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#cpu_cfs_quota DataK8SKarpenterShNodePoolV1Beta1Manifest#cpu_cfs_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#cpu_cfs_quota DataK8SKarpenterShNodePoolV1Beta1Manifest#cpu_cfs_quota}
   */
   readonly cpuCfsQuota?: boolean | cdktf.IResolvable;
   /**
   * EvictionHard is the map of signal names to quantities that define hard eviction thresholds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#eviction_hard DataK8SKarpenterShNodePoolV1Beta1Manifest#eviction_hard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#eviction_hard DataK8SKarpenterShNodePoolV1Beta1Manifest#eviction_hard}
   */
   readonly evictionHard?: { [key: string]: string };
   /**
   * EvictionMaxPodGracePeriod is the maximum allowed grace period (in seconds) to use when terminating pods in response to soft eviction thresholds being met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#eviction_max_pod_grace_period DataK8SKarpenterShNodePoolV1Beta1Manifest#eviction_max_pod_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#eviction_max_pod_grace_period DataK8SKarpenterShNodePoolV1Beta1Manifest#eviction_max_pod_grace_period}
   */
   readonly evictionMaxPodGracePeriod?: number;
   /**
   * EvictionSoft is the map of signal names to quantities that define soft eviction thresholds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#eviction_soft DataK8SKarpenterShNodePoolV1Beta1Manifest#eviction_soft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#eviction_soft DataK8SKarpenterShNodePoolV1Beta1Manifest#eviction_soft}
   */
   readonly evictionSoft?: { [key: string]: string };
   /**
   * EvictionSoftGracePeriod is the map of signal names to quantities that define grace periods for each eviction signal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#eviction_soft_grace_period DataK8SKarpenterShNodePoolV1Beta1Manifest#eviction_soft_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#eviction_soft_grace_period DataK8SKarpenterShNodePoolV1Beta1Manifest#eviction_soft_grace_period}
   */
   readonly evictionSoftGracePeriod?: { [key: string]: string };
   /**
   * ImageGCHighThresholdPercent is the percent of disk usage after which image garbage collection is always run. The percent is calculated by dividing this field value by 100, so this field must be between 0 and 100, inclusive. When specified, the value must be greater than ImageGCLowThresholdPercent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#image_gc_high_threshold_percent DataK8SKarpenterShNodePoolV1Beta1Manifest#image_gc_high_threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#image_gc_high_threshold_percent DataK8SKarpenterShNodePoolV1Beta1Manifest#image_gc_high_threshold_percent}
   */
   readonly imageGcHighThresholdPercent?: number;
   /**
   * ImageGCLowThresholdPercent is the percent of disk usage before which image garbage collection is never run. Lowest disk usage to garbage collect to. The percent is calculated by dividing this field value by 100, so the field value must be between 0 and 100, inclusive. When specified, the value must be less than imageGCHighThresholdPercent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#image_gc_low_threshold_percent DataK8SKarpenterShNodePoolV1Beta1Manifest#image_gc_low_threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#image_gc_low_threshold_percent DataK8SKarpenterShNodePoolV1Beta1Manifest#image_gc_low_threshold_percent}
   */
   readonly imageGcLowThresholdPercent?: number;
   /**
   * KubeReserved contains resources reserved for Kubernetes system components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#kube_reserved DataK8SKarpenterShNodePoolV1Beta1Manifest#kube_reserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#kube_reserved DataK8SKarpenterShNodePoolV1Beta1Manifest#kube_reserved}
   */
   readonly kubeReserved?: { [key: string]: string };
   /**
   * MaxPods is an override for the maximum number of pods that can run on a worker node instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#max_pods DataK8SKarpenterShNodePoolV1Beta1Manifest#max_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#max_pods DataK8SKarpenterShNodePoolV1Beta1Manifest#max_pods}
   */
   readonly maxPods?: number;
   /**
   * PodsPerCore is an override for the number of pods that can run on a worker node instance based on the number of cpu cores. This value cannot exceed MaxPods, so, if MaxPods is a lower value, that value will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#pods_per_core DataK8SKarpenterShNodePoolV1Beta1Manifest#pods_per_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#pods_per_core DataK8SKarpenterShNodePoolV1Beta1Manifest#pods_per_core}
   */
   readonly podsPerCore?: number;
   /**
   * SystemReserved contains resources reserved for OS system daemons and kernel memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#system_reserved DataK8SKarpenterShNodePoolV1Beta1Manifest#system_reserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#system_reserved DataK8SKarpenterShNodePoolV1Beta1Manifest#system_reserved}
   */
   readonly systemReserved?: { [key: string]: string };
 }
@@ -1185,19 +1185,19 @@ export interface DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateSpecNodeCl
   /**
   * API version of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#api_version DataK8SKarpenterShNodePoolV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#api_version DataK8SKarpenterShNodePoolV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind of the referent; More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#kind DataK8SKarpenterShNodePoolV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#kind DataK8SKarpenterShNodePoolV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent; More info: http://kubernetes.io/docs/user-guide/identifiers#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#name DataK8SKarpenterShNodePoolV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#name DataK8SKarpenterShNodePoolV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -1348,25 +1348,25 @@ export interface DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateSpecRequir
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#key DataK8SKarpenterShNodePoolV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#key DataK8SKarpenterShNodePoolV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * This field is ALPHA and can be dropped or replaced at any time MinValues is the minimum number of unique values required to define the flexibility of the specific requirement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#min_values DataK8SKarpenterShNodePoolV1Beta1Manifest#min_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#min_values DataK8SKarpenterShNodePoolV1Beta1Manifest#min_values}
   */
   readonly minValues?: number;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#operator DataK8SKarpenterShNodePoolV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#operator DataK8SKarpenterShNodePoolV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#values DataK8SKarpenterShNodePoolV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#values DataK8SKarpenterShNodePoolV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1565,7 +1565,7 @@ export interface DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateSpecResour
   /**
   * Requests describes the minimum required resources for the NodeClaim to launch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#requests DataK8SKarpenterShNodePoolV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#requests DataK8SKarpenterShNodePoolV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1661,25 +1661,25 @@ export interface DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateSpecStartu
   /**
   * Required. The effect of the taint on pods that do not tolerate the taint. Valid effects are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#effect DataK8SKarpenterShNodePoolV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#effect DataK8SKarpenterShNodePoolV1Beta1Manifest#effect}
   */
   readonly effect: string;
   /**
   * Required. The taint key to be applied to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#key DataK8SKarpenterShNodePoolV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#key DataK8SKarpenterShNodePoolV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * TimeAdded represents the time at which the taint was added. It is only written for NoExecute taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#time_added DataK8SKarpenterShNodePoolV1Beta1Manifest#time_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#time_added DataK8SKarpenterShNodePoolV1Beta1Manifest#time_added}
   */
   readonly timeAdded?: string;
   /**
   * The taint value corresponding to the taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#value DataK8SKarpenterShNodePoolV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#value DataK8SKarpenterShNodePoolV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1878,25 +1878,25 @@ export interface DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateSpecTaints
   /**
   * Required. The effect of the taint on pods that do not tolerate the taint. Valid effects are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#effect DataK8SKarpenterShNodePoolV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#effect DataK8SKarpenterShNodePoolV1Beta1Manifest#effect}
   */
   readonly effect: string;
   /**
   * Required. The taint key to be applied to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#key DataK8SKarpenterShNodePoolV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#key DataK8SKarpenterShNodePoolV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * TimeAdded represents the time at which the taint was added. It is only written for NoExecute taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#time_added DataK8SKarpenterShNodePoolV1Beta1Manifest#time_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#time_added DataK8SKarpenterShNodePoolV1Beta1Manifest#time_added}
   */
   readonly timeAdded?: string;
   /**
   * The taint value corresponding to the taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#value DataK8SKarpenterShNodePoolV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#value DataK8SKarpenterShNodePoolV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2095,37 +2095,37 @@ export interface DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateSpec {
   /**
   * Kubelet defines args to be used when configuring kubelet on provisioned nodes. They are a subset of the upstream types, recognizing not all options may be supported. Wherever possible, the types and names should reflect the upstream kubelet types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#kubelet DataK8SKarpenterShNodePoolV1Beta1Manifest#kubelet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#kubelet DataK8SKarpenterShNodePoolV1Beta1Manifest#kubelet}
   */
   readonly kubelet?: DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateSpecKubelet;
   /**
   * NodeClassRef is a reference to an object that defines provider specific configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#node_class_ref DataK8SKarpenterShNodePoolV1Beta1Manifest#node_class_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#node_class_ref DataK8SKarpenterShNodePoolV1Beta1Manifest#node_class_ref}
   */
   readonly nodeClassRef: DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateSpecNodeClassRef;
   /**
   * Requirements are layered with GetLabels and applied to every node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#requirements DataK8SKarpenterShNodePoolV1Beta1Manifest#requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#requirements DataK8SKarpenterShNodePoolV1Beta1Manifest#requirements}
   */
   readonly requirements: DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateSpecRequirements[] | cdktf.IResolvable;
   /**
   * Resources models the resource requirements for the NodeClaim to launch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#resources DataK8SKarpenterShNodePoolV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#resources DataK8SKarpenterShNodePoolV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateSpecResources;
   /**
   * StartupTaints are taints that are applied to nodes upon startup which are expected to be removed automatically within a short period of time, typically by a DaemonSet that tolerates the taint. These are commonly used by daemonsets to allow initialization and enforce startup ordering. StartupTaints are ignored for provisioning purposes in that pods are not required to tolerate a StartupTaint in order to have nodes provisioned for them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#startup_taints DataK8SKarpenterShNodePoolV1Beta1Manifest#startup_taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#startup_taints DataK8SKarpenterShNodePoolV1Beta1Manifest#startup_taints}
   */
   readonly startupTaints?: DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateSpecStartupTaints[] | cdktf.IResolvable;
   /**
   * Taints will be applied to the NodeClaim's node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#taints DataK8SKarpenterShNodePoolV1Beta1Manifest#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#taints DataK8SKarpenterShNodePoolV1Beta1Manifest#taints}
   */
   readonly taints?: DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateSpecTaints[] | cdktf.IResolvable;
 }
@@ -2358,13 +2358,13 @@ export class DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateSpecOutputRefe
 }
 export interface DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#metadata DataK8SKarpenterShNodePoolV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#metadata DataK8SKarpenterShNodePoolV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateMetadata;
   /**
   * NodeClaimSpec describes the desired state of the NodeClaim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#spec DataK8SKarpenterShNodePoolV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#spec DataK8SKarpenterShNodePoolV1Beta1Manifest#spec}
   */
   readonly spec: DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplateSpec;
 }
@@ -2486,25 +2486,25 @@ export interface DataK8SKarpenterShNodePoolV1Beta1ManifestSpec {
   /**
   * Disruption contains the parameters that relate to Karpenter's disruption logic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#disruption DataK8SKarpenterShNodePoolV1Beta1Manifest#disruption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#disruption DataK8SKarpenterShNodePoolV1Beta1Manifest#disruption}
   */
   readonly disruption?: DataK8SKarpenterShNodePoolV1Beta1ManifestSpecDisruption;
   /**
   * Limits define a set of bounds for provisioning capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#limits DataK8SKarpenterShNodePoolV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#limits DataK8SKarpenterShNodePoolV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Template contains the template of possibilities for the provisioning logic to launch a NodeClaim with. NodeClaims launched from this NodePool will often be further constrained than the template specifies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#template DataK8SKarpenterShNodePoolV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#template DataK8SKarpenterShNodePoolV1Beta1Manifest#template}
   */
   readonly template: DataK8SKarpenterShNodePoolV1Beta1ManifestSpecTemplate;
   /**
   * Weight is the priority given to the nodepool during scheduling. A higher numerical weight indicates that this nodepool will be ordered ahead of other nodepools with lower weights. A nodepool with no weight will be treated as if it is a nodepool with a weight of 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#weight DataK8SKarpenterShNodePoolV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#weight DataK8SKarpenterShNodePoolV1Beta1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -2682,7 +2682,7 @@ export class DataK8SKarpenterShNodePoolV1Beta1ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest k8s_karpenter_sh_node_pool_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest k8s_karpenter_sh_node_pool_v1beta1_manifest}
 */
 export class DataK8SKarpenterShNodePoolV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -2698,7 +2698,7 @@ export class DataK8SKarpenterShNodePoolV1Beta1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SKarpenterShNodePoolV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKarpenterShNodePoolV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SKarpenterShNodePoolV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKarpenterShNodePoolV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKarpenterShNodePoolV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2710,7 +2710,7 @@ export class DataK8SKarpenterShNodePoolV1Beta1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest k8s_karpenter_sh_node_pool_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_sh_node_pool_v1beta1_manifest k8s_karpenter_sh_node_pool_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2721,8 +2721,8 @@ export class DataK8SKarpenterShNodePoolV1Beta1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_karpenter_sh_node_pool_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

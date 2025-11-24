@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PlatformConnectorAzureRepoConfig extends cdktf.TerraformMetaArg
   /**
   * Whether the connection we're making is to a azure repository or a azure account. Valid values are Project, Repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#connection_type PlatformConnectorAzureRepo#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#connection_type PlatformConnectorAzureRepo#connection_type}
   */
   readonly connectionType: string;
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#delegate_selectors PlatformConnectorAzureRepo#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#delegate_selectors PlatformConnectorAzureRepo#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#description PlatformConnectorAzureRepo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#description PlatformConnectorAzureRepo#description}
   */
   readonly description?: string;
   /**
   * Execute on delegate or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#execute_on_delegate PlatformConnectorAzureRepo#execute_on_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#execute_on_delegate PlatformConnectorAzureRepo#execute_on_delegate}
   */
   readonly executeOnDelegate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#id PlatformConnectorAzureRepo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#id PlatformConnectorAzureRepo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,55 +41,55 @@ export interface PlatformConnectorAzureRepoConfig extends cdktf.TerraformMetaArg
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#identifier PlatformConnectorAzureRepo#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#identifier PlatformConnectorAzureRepo#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#name PlatformConnectorAzureRepo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#name PlatformConnectorAzureRepo#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#org_id PlatformConnectorAzureRepo#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#org_id PlatformConnectorAzureRepo#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#project_id PlatformConnectorAzureRepo#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#project_id PlatformConnectorAzureRepo#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#tags PlatformConnectorAzureRepo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#tags PlatformConnectorAzureRepo#tags}
   */
   readonly tags?: string[];
   /**
   * URL of the azure repository or account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#url PlatformConnectorAzureRepo#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#url PlatformConnectorAzureRepo#url}
   */
   readonly url: string;
   /**
   * Repository to test the connection with. This is only used when `connection_type` is `Account`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#validation_repo PlatformConnectorAzureRepo#validation_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#validation_repo PlatformConnectorAzureRepo#validation_repo}
   */
   readonly validationRepo?: string;
   /**
   * api_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#api_authentication PlatformConnectorAzureRepo#api_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#api_authentication PlatformConnectorAzureRepo#api_authentication}
   */
   readonly apiAuthentication?: PlatformConnectorAzureRepoApiAuthentication;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#credentials PlatformConnectorAzureRepo#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#credentials PlatformConnectorAzureRepo#credentials}
   */
   readonly credentials: PlatformConnectorAzureRepoCredentials;
 }
@@ -97,7 +97,7 @@ export interface PlatformConnectorAzureRepoApiAuthentication {
   /**
   * Personal access token for interacting with the azure api. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#token_ref PlatformConnectorAzureRepo#token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#token_ref PlatformConnectorAzureRepo#token_ref}
   */
   readonly tokenRef: string;
 }
@@ -180,19 +180,19 @@ export interface PlatformConnectorAzureRepoCredentialsHttp {
   /**
   * Reference to a secret containing the personal access to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#token_ref PlatformConnectorAzureRepo#token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#token_ref PlatformConnectorAzureRepo#token_ref}
   */
   readonly tokenRef: string;
   /**
   * Username to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#username PlatformConnectorAzureRepo#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#username PlatformConnectorAzureRepo#username}
   */
   readonly username?: string;
   /**
   * Reference to a secret containing the username to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#username_ref PlatformConnectorAzureRepo#username_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#username_ref PlatformConnectorAzureRepo#username_ref}
   */
   readonly usernameRef?: string;
 }
@@ -333,7 +333,7 @@ export interface PlatformConnectorAzureRepoCredentialsSsh {
   /**
   * Reference to the Harness secret containing the ssh key. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#ssh_key_ref PlatformConnectorAzureRepo#ssh_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#ssh_key_ref PlatformConnectorAzureRepo#ssh_key_ref}
   */
   readonly sshKeyRef: string;
 }
@@ -416,13 +416,13 @@ export interface PlatformConnectorAzureRepoCredentials {
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#http PlatformConnectorAzureRepo#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#http PlatformConnectorAzureRepo#http}
   */
   readonly http?: PlatformConnectorAzureRepoCredentialsHttp;
   /**
   * ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#ssh PlatformConnectorAzureRepo#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#ssh PlatformConnectorAzureRepo#ssh}
   */
   readonly ssh?: PlatformConnectorAzureRepoCredentialsSsh;
 }
@@ -535,7 +535,7 @@ export class PlatformConnectorAzureRepoCredentialsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo harness_platform_connector_azure_repo}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo harness_platform_connector_azure_repo}
 */
 export class PlatformConnectorAzureRepo extends cdktf.TerraformResource {
 
@@ -551,7 +551,7 @@ export class PlatformConnectorAzureRepo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorAzureRepo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorAzureRepo to import
-  * @param importFromId The id of the existing PlatformConnectorAzureRepo that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorAzureRepo that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorAzureRepo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -563,7 +563,7 @@ export class PlatformConnectorAzureRepo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_repo harness_platform_connector_azure_repo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_azure_repo harness_platform_connector_azure_repo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -574,8 +574,8 @@ export class PlatformConnectorAzureRepo extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_azure_repo',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

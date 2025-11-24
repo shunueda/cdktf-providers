@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#metadata DataK8STraefikIoMiddlewareV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#metadata DataK8STraefikIoMiddlewareV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8STraefikIoMiddlewareV1Alpha1ManifestMetadata;
   /**
   * MiddlewareSpec defines the desired state of a Middleware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#spec DataK8STraefikIoMiddlewareV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#spec DataK8STraefikIoMiddlewareV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#annotations DataK8STraefikIoMiddlewareV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#annotations DataK8STraefikIoMiddlewareV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#labels DataK8STraefikIoMiddlewareV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#labels DataK8STraefikIoMiddlewareV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#name DataK8STraefikIoMiddlewareV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#name DataK8STraefikIoMiddlewareV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#namespace DataK8STraefikIoMiddlewareV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#namespace DataK8STraefikIoMiddlewareV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecAddPrefix {
   /**
   * Prefix is the string to add before the current path in the requested URL. It should include a leading slash (/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#prefix DataK8STraefikIoMiddlewareV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#prefix DataK8STraefikIoMiddlewareV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
 }
@@ -315,25 +315,25 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecBasicAuth {
   /**
   * HeaderField defines a header field to store the authenticated user. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/basicauth/#headerfield
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#header_field DataK8STraefikIoMiddlewareV1Alpha1Manifest#header_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#header_field DataK8STraefikIoMiddlewareV1Alpha1Manifest#header_field}
   */
   readonly headerField?: string;
   /**
   * Realm allows the protected resources on a server to be partitioned into a set of protection spaces, each with its own authentication scheme. Default: traefik.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#realm DataK8STraefikIoMiddlewareV1Alpha1Manifest#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#realm DataK8STraefikIoMiddlewareV1Alpha1Manifest#realm}
   */
   readonly realm?: string;
   /**
   * RemoveHeader sets the removeHeader option to true to remove the authorization header before forwarding the request to your service. Default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#remove_header DataK8STraefikIoMiddlewareV1Alpha1Manifest#remove_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#remove_header DataK8STraefikIoMiddlewareV1Alpha1Manifest#remove_header}
   */
   readonly removeHeader?: boolean | cdktf.IResolvable;
   /**
   * Secret is the name of the referenced Kubernetes Secret containing user credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#secret DataK8STraefikIoMiddlewareV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#secret DataK8STraefikIoMiddlewareV1Alpha1Manifest#secret}
   */
   readonly secret?: string;
 }
@@ -516,31 +516,31 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecBuffering {
   /**
   * MaxRequestBodyBytes defines the maximum allowed body size for the request (in bytes). If the request exceeds the allowed size, it is not forwarded to the service, and the client gets a 413 (Request Entity Too Large) response. Default: 0 (no maximum).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#max_request_body_bytes DataK8STraefikIoMiddlewareV1Alpha1Manifest#max_request_body_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#max_request_body_bytes DataK8STraefikIoMiddlewareV1Alpha1Manifest#max_request_body_bytes}
   */
   readonly maxRequestBodyBytes?: number;
   /**
   * MaxResponseBodyBytes defines the maximum allowed response size from the service (in bytes). If the response exceeds the allowed size, it is not forwarded to the client. The client gets a 500 (Internal Server Error) response instead. Default: 0 (no maximum).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#max_response_body_bytes DataK8STraefikIoMiddlewareV1Alpha1Manifest#max_response_body_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#max_response_body_bytes DataK8STraefikIoMiddlewareV1Alpha1Manifest#max_response_body_bytes}
   */
   readonly maxResponseBodyBytes?: number;
   /**
   * MemRequestBodyBytes defines the threshold (in bytes) from which the request will be buffered on disk instead of in memory. Default: 1048576 (1Mi).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#mem_request_body_bytes DataK8STraefikIoMiddlewareV1Alpha1Manifest#mem_request_body_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#mem_request_body_bytes DataK8STraefikIoMiddlewareV1Alpha1Manifest#mem_request_body_bytes}
   */
   readonly memRequestBodyBytes?: number;
   /**
   * MemResponseBodyBytes defines the threshold (in bytes) from which the response will be buffered on disk instead of in memory. Default: 1048576 (1Mi).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#mem_response_body_bytes DataK8STraefikIoMiddlewareV1Alpha1Manifest#mem_response_body_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#mem_response_body_bytes DataK8STraefikIoMiddlewareV1Alpha1Manifest#mem_response_body_bytes}
   */
   readonly memResponseBodyBytes?: number;
   /**
   * RetryExpression defines the retry conditions. It is a logical combination of functions with operators AND (&&) and OR (||). More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/buffering/#retryexpression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#retry_expression DataK8STraefikIoMiddlewareV1Alpha1Manifest#retry_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#retry_expression DataK8STraefikIoMiddlewareV1Alpha1Manifest#retry_expression}
   */
   readonly retryExpression?: string;
 }
@@ -752,13 +752,13 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecChainMiddlewares 
   /**
   * Name defines the name of the referenced Middleware resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#name DataK8STraefikIoMiddlewareV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#name DataK8STraefikIoMiddlewareV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace defines the namespace of the referenced Middleware resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#namespace DataK8STraefikIoMiddlewareV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#namespace DataK8STraefikIoMiddlewareV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -902,7 +902,7 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecChain {
   /**
   * Middlewares is the list of MiddlewareRef which composes the chain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#middlewares DataK8STraefikIoMiddlewareV1Alpha1Manifest#middlewares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#middlewares DataK8STraefikIoMiddlewareV1Alpha1Manifest#middlewares}
   */
   readonly middlewares?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecChainMiddlewares[] | cdktf.IResolvable;
 }
@@ -998,31 +998,31 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecCircuitBreaker {
   /**
   * CheckPeriod is the interval between successive checks of the circuit breaker condition (when in standby state).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#check_period DataK8STraefikIoMiddlewareV1Alpha1Manifest#check_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#check_period DataK8STraefikIoMiddlewareV1Alpha1Manifest#check_period}
   */
   readonly checkPeriod?: string;
   /**
   * Expression is the condition that triggers the tripped state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#expression DataK8STraefikIoMiddlewareV1Alpha1Manifest#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#expression DataK8STraefikIoMiddlewareV1Alpha1Manifest#expression}
   */
   readonly expression?: string;
   /**
   * FallbackDuration is the duration for which the circuit breaker will wait before trying to recover (from a tripped state).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#fallback_duration DataK8STraefikIoMiddlewareV1Alpha1Manifest#fallback_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#fallback_duration DataK8STraefikIoMiddlewareV1Alpha1Manifest#fallback_duration}
   */
   readonly fallbackDuration?: string;
   /**
   * RecoveryDuration is the duration for which the circuit breaker will try to recover (as soon as it is in recovering state).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#recovery_duration DataK8STraefikIoMiddlewareV1Alpha1Manifest#recovery_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#recovery_duration DataK8STraefikIoMiddlewareV1Alpha1Manifest#recovery_duration}
   */
   readonly recoveryDuration?: string;
   /**
   * ResponseCode is the status code that the circuit breaker will return while it is in the open state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#response_code DataK8STraefikIoMiddlewareV1Alpha1Manifest#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#response_code DataK8STraefikIoMiddlewareV1Alpha1Manifest#response_code}
   */
   readonly responseCode?: number;
 }
@@ -1234,31 +1234,31 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecCompress {
   /**
   * DefaultEncoding specifies the default encoding if the 'Accept-Encoding' header is not in the request or contains a wildcard ('*').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#default_encoding DataK8STraefikIoMiddlewareV1Alpha1Manifest#default_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#default_encoding DataK8STraefikIoMiddlewareV1Alpha1Manifest#default_encoding}
   */
   readonly defaultEncoding?: string;
   /**
   * Encodings defines the list of supported compression algorithms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#encodings DataK8STraefikIoMiddlewareV1Alpha1Manifest#encodings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#encodings DataK8STraefikIoMiddlewareV1Alpha1Manifest#encodings}
   */
   readonly encodings?: string[];
   /**
   * ExcludedContentTypes defines the list of content types to compare the Content-Type header of the incoming requests and responses before compressing. 'application/grpc' is always excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#excluded_content_types DataK8STraefikIoMiddlewareV1Alpha1Manifest#excluded_content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#excluded_content_types DataK8STraefikIoMiddlewareV1Alpha1Manifest#excluded_content_types}
   */
   readonly excludedContentTypes?: string[];
   /**
   * IncludedContentTypes defines the list of content types to compare the Content-Type header of the responses before compressing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#included_content_types DataK8STraefikIoMiddlewareV1Alpha1Manifest#included_content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#included_content_types DataK8STraefikIoMiddlewareV1Alpha1Manifest#included_content_types}
   */
   readonly includedContentTypes?: string[];
   /**
   * MinResponseBodyBytes defines the minimum amount of bytes a response body must have to be compressed. Default: 1024.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#min_response_body_bytes DataK8STraefikIoMiddlewareV1Alpha1Manifest#min_response_body_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#min_response_body_bytes DataK8STraefikIoMiddlewareV1Alpha1Manifest#min_response_body_bytes}
   */
   readonly minResponseBodyBytes?: number;
 }
@@ -1470,7 +1470,7 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecContentType {
   /**
   * AutoDetect specifies whether to let the 'Content-Type' header, if it has not been set by the backend, be automatically set to a value derived from the contents of the response. Deprecated: AutoDetect option is deprecated, Content-Type middleware is only meant to be used to enable the content-type detection, please remove any usage of this option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#auto_detect DataK8STraefikIoMiddlewareV1Alpha1Manifest#auto_detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#auto_detect DataK8STraefikIoMiddlewareV1Alpha1Manifest#auto_detect}
   */
   readonly autoDetect?: boolean | cdktf.IResolvable;
 }
@@ -1566,25 +1566,25 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecDigestAuth {
   /**
   * HeaderField defines a header field to store the authenticated user. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/basicauth/#headerfield
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#header_field DataK8STraefikIoMiddlewareV1Alpha1Manifest#header_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#header_field DataK8STraefikIoMiddlewareV1Alpha1Manifest#header_field}
   */
   readonly headerField?: string;
   /**
   * Realm allows the protected resources on a server to be partitioned into a set of protection spaces, each with its own authentication scheme. Default: traefik.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#realm DataK8STraefikIoMiddlewareV1Alpha1Manifest#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#realm DataK8STraefikIoMiddlewareV1Alpha1Manifest#realm}
   */
   readonly realm?: string;
   /**
   * RemoveHeader defines whether to remove the authorization header before forwarding the request to the backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#remove_header DataK8STraefikIoMiddlewareV1Alpha1Manifest#remove_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#remove_header DataK8STraefikIoMiddlewareV1Alpha1Manifest#remove_header}
   */
   readonly removeHeader?: boolean | cdktf.IResolvable;
   /**
   * Secret is the name of the referenced Kubernetes Secret containing user credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#secret DataK8STraefikIoMiddlewareV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#secret DataK8STraefikIoMiddlewareV1Alpha1Manifest#secret}
   */
   readonly secret?: string;
 }
@@ -1767,67 +1767,67 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecErrorsServiceHeal
   /**
   * FollowRedirects defines whether redirects should be followed during the health check calls. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#follow_redirects DataK8STraefikIoMiddlewareV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#follow_redirects DataK8STraefikIoMiddlewareV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * Headers defines custom headers to be sent to the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Hostname defines the value of hostname in the Host header of the health check request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#hostname DataK8STraefikIoMiddlewareV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#hostname DataK8STraefikIoMiddlewareV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * Interval defines the frequency of the health check calls. Default: 30s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#interval DataK8STraefikIoMiddlewareV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#interval DataK8STraefikIoMiddlewareV1Alpha1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Method defines the healthcheck method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#method DataK8STraefikIoMiddlewareV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#method DataK8STraefikIoMiddlewareV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Mode defines the health check mode. If defined to grpc, will use the gRPC health check protocol to probe the server. Default: http
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#mode DataK8STraefikIoMiddlewareV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#mode DataK8STraefikIoMiddlewareV1Alpha1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * Path defines the server URL path for the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#path DataK8STraefikIoMiddlewareV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#path DataK8STraefikIoMiddlewareV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Port defines the server URL port for the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#port DataK8STraefikIoMiddlewareV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#port DataK8STraefikIoMiddlewareV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Scheme replaces the server URL scheme for the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#scheme DataK8STraefikIoMiddlewareV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#scheme DataK8STraefikIoMiddlewareV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * Status defines the expected HTTP status code of the response to the health check request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#status DataK8STraefikIoMiddlewareV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#status DataK8STraefikIoMiddlewareV1Alpha1Manifest#status}
   */
   readonly status?: number;
   /**
   * Timeout defines the maximum duration Traefik will wait for a health check request before considering the server unhealthy. Default: 5s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#timeout DataK8STraefikIoMiddlewareV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#timeout DataK8STraefikIoMiddlewareV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -2213,7 +2213,7 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecErrorsServiceResp
   /**
   * FlushInterval defines the interval, in milliseconds, in between flushes to the client while copying the response body. A negative value means to flush immediately after each write to the client. This configuration is ignored when ReverseProxy recognizes a response as a streaming response; for such responses, writes are flushed to the client immediately. Default: 100ms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#flush_interval DataK8STraefikIoMiddlewareV1Alpha1Manifest#flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#flush_interval DataK8STraefikIoMiddlewareV1Alpha1Manifest#flush_interval}
   */
   readonly flushInterval?: string;
 }
@@ -2309,31 +2309,31 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecErrorsServiceStic
   /**
   * HTTPOnly defines whether the cookie can be accessed by client-side APIs, such as JavaScript.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#http_only DataK8STraefikIoMiddlewareV1Alpha1Manifest#http_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#http_only DataK8STraefikIoMiddlewareV1Alpha1Manifest#http_only}
   */
   readonly httpOnly?: boolean | cdktf.IResolvable;
   /**
   * MaxAge indicates the number of seconds until the cookie expires. When set to a negative number, the cookie expires immediately. When set to zero, the cookie never expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#max_age DataK8STraefikIoMiddlewareV1Alpha1Manifest#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#max_age DataK8STraefikIoMiddlewareV1Alpha1Manifest#max_age}
   */
   readonly maxAge?: number;
   /**
   * Name defines the Cookie name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#name DataK8STraefikIoMiddlewareV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#name DataK8STraefikIoMiddlewareV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * SameSite defines the same site policy. More info: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie/SameSite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#same_site DataK8STraefikIoMiddlewareV1Alpha1Manifest#same_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#same_site DataK8STraefikIoMiddlewareV1Alpha1Manifest#same_site}
   */
   readonly sameSite?: string;
   /**
   * Secure defines whether the cookie can only be transmitted over an encrypted connection (i.e. HTTPS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#secure DataK8STraefikIoMiddlewareV1Alpha1Manifest#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#secure DataK8STraefikIoMiddlewareV1Alpha1Manifest#secure}
   */
   readonly secure?: boolean | cdktf.IResolvable;
 }
@@ -2545,7 +2545,7 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecErrorsServiceStic
   /**
   * Cookie defines the sticky cookie configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#cookie DataK8STraefikIoMiddlewareV1Alpha1Manifest#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#cookie DataK8STraefikIoMiddlewareV1Alpha1Manifest#cookie}
   */
   readonly cookie?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecErrorsServiceStickyCookie;
 }
@@ -2641,85 +2641,85 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecErrorsService {
   /**
   * Healthcheck defines health checks for ExternalName services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#health_check DataK8STraefikIoMiddlewareV1Alpha1Manifest#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#health_check DataK8STraefikIoMiddlewareV1Alpha1Manifest#health_check}
   */
   readonly healthCheck?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecErrorsServiceHealthCheck;
   /**
   * Kind defines the kind of the Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#kind DataK8STraefikIoMiddlewareV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#kind DataK8STraefikIoMiddlewareV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name defines the name of the referenced Kubernetes Service or TraefikService. The differentiation between the two is specified in the Kind field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#name DataK8STraefikIoMiddlewareV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#name DataK8STraefikIoMiddlewareV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace defines the namespace of the referenced Kubernetes Service or TraefikService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#namespace DataK8STraefikIoMiddlewareV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#namespace DataK8STraefikIoMiddlewareV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * NativeLB controls, when creating the load-balancer, whether the LB's children are directly the pods IPs or if the only child is the Kubernetes Service clusterIP. The Kubernetes Service itself does load-balance to the pods. By default, NativeLB is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#native_lb DataK8STraefikIoMiddlewareV1Alpha1Manifest#native_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#native_lb DataK8STraefikIoMiddlewareV1Alpha1Manifest#native_lb}
   */
   readonly nativeLb?: boolean | cdktf.IResolvable;
   /**
   * NodePortLB controls, when creating the load-balancer, whether the LB's children are directly the nodes internal IPs using the nodePort when the service type is NodePort. It allows services to be reachable when Traefik runs externally from the Kubernetes cluster but within the same network of the nodes. By default, NodePortLB is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#node_port_lb DataK8STraefikIoMiddlewareV1Alpha1Manifest#node_port_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#node_port_lb DataK8STraefikIoMiddlewareV1Alpha1Manifest#node_port_lb}
   */
   readonly nodePortLb?: boolean | cdktf.IResolvable;
   /**
   * PassHostHeader defines whether the client Host header is forwarded to the upstream Kubernetes Service. By default, passHostHeader is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#pass_host_header DataK8STraefikIoMiddlewareV1Alpha1Manifest#pass_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#pass_host_header DataK8STraefikIoMiddlewareV1Alpha1Manifest#pass_host_header}
   */
   readonly passHostHeader?: boolean | cdktf.IResolvable;
   /**
   * Port defines the port of a Kubernetes Service. This can be a reference to a named port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#port DataK8STraefikIoMiddlewareV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#port DataK8STraefikIoMiddlewareV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
   * ResponseForwarding defines how Traefik forwards the response from the upstream Kubernetes Service to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#response_forwarding DataK8STraefikIoMiddlewareV1Alpha1Manifest#response_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#response_forwarding DataK8STraefikIoMiddlewareV1Alpha1Manifest#response_forwarding}
   */
   readonly responseForwarding?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecErrorsServiceResponseForwarding;
   /**
   * Scheme defines the scheme to use for the request to the upstream Kubernetes Service. It defaults to https when Kubernetes Service port is 443, http otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#scheme DataK8STraefikIoMiddlewareV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#scheme DataK8STraefikIoMiddlewareV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * ServersTransport defines the name of ServersTransport resource to use. It allows to configure the transport between Traefik and your servers. Can only be used on a Kubernetes Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#servers_transport DataK8STraefikIoMiddlewareV1Alpha1Manifest#servers_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#servers_transport DataK8STraefikIoMiddlewareV1Alpha1Manifest#servers_transport}
   */
   readonly serversTransport?: string;
   /**
   * Sticky defines the sticky sessions configuration. More info: https://doc.traefik.io/traefik/v3.2/routing/services/#sticky-sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#sticky DataK8STraefikIoMiddlewareV1Alpha1Manifest#sticky}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#sticky DataK8STraefikIoMiddlewareV1Alpha1Manifest#sticky}
   */
   readonly sticky?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecErrorsServiceSticky;
   /**
   * Strategy defines the load balancing strategy between the servers. RoundRobin is the only supported value at the moment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#strategy DataK8STraefikIoMiddlewareV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#strategy DataK8STraefikIoMiddlewareV1Alpha1Manifest#strategy}
   */
   readonly strategy?: string;
   /**
   * Weight defines the weight and should only be specified when Name references a TraefikService object (and to be precise, one that embeds a Weighted Round Robin).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#weight DataK8STraefikIoMiddlewareV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#weight DataK8STraefikIoMiddlewareV1Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -3189,19 +3189,19 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecErrors {
   /**
   * Query defines the URL for the error page (hosted by service). The {status} variable can be used in order to insert the status code in the URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#query DataK8STraefikIoMiddlewareV1Alpha1Manifest#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#query DataK8STraefikIoMiddlewareV1Alpha1Manifest#query}
   */
   readonly query?: string;
   /**
   * Service defines the reference to a Kubernetes Service that will serve the error page. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/errorpages/#service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#service DataK8STraefikIoMiddlewareV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#service DataK8STraefikIoMiddlewareV1Alpha1Manifest#service}
   */
   readonly service?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecErrorsService;
   /**
   * Status defines which status or range of statuses should result in an error page. It can be either a status code as a number (500), as multiple comma-separated numbers (500,502), as ranges by separating two codes with a dash (500-599), or a combination of the two (404,418,500-599).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#status DataK8STraefikIoMiddlewareV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#status DataK8STraefikIoMiddlewareV1Alpha1Manifest#status}
   */
   readonly status?: string[];
 }
@@ -3355,25 +3355,25 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecForwardAuthTls {
   /**
   * Deprecated: TLS client authentication is a server side option (see https://github.com/golang/go/blob/740a490f71d026bb7d2d13cb8fa2d6d6e0572b70/src/crypto/tls/common.go#L634).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ca_optional DataK8STraefikIoMiddlewareV1Alpha1Manifest#ca_optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ca_optional DataK8STraefikIoMiddlewareV1Alpha1Manifest#ca_optional}
   */
   readonly caOptional?: boolean | cdktf.IResolvable;
   /**
   * CASecret is the name of the referenced Kubernetes Secret containing the CA to validate the server certificate. The CA certificate is extracted from key 'tls.ca' or 'ca.crt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ca_secret DataK8STraefikIoMiddlewareV1Alpha1Manifest#ca_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ca_secret DataK8STraefikIoMiddlewareV1Alpha1Manifest#ca_secret}
   */
   readonly caSecret?: string;
   /**
   * CertSecret is the name of the referenced Kubernetes Secret containing the client certificate. The client certificate is extracted from the keys 'tls.crt' and 'tls.key'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#cert_secret DataK8STraefikIoMiddlewareV1Alpha1Manifest#cert_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#cert_secret DataK8STraefikIoMiddlewareV1Alpha1Manifest#cert_secret}
   */
   readonly certSecret?: string;
   /**
   * InsecureSkipVerify defines whether the server certificates should be validated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#insecure_skip_verify DataK8STraefikIoMiddlewareV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#insecure_skip_verify DataK8STraefikIoMiddlewareV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
 }
@@ -3556,43 +3556,43 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecForwardAuth {
   /**
   * AddAuthCookiesToResponse defines the list of cookies to copy from the authentication server response to the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#add_auth_cookies_to_response DataK8STraefikIoMiddlewareV1Alpha1Manifest#add_auth_cookies_to_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#add_auth_cookies_to_response DataK8STraefikIoMiddlewareV1Alpha1Manifest#add_auth_cookies_to_response}
   */
   readonly addAuthCookiesToResponse?: string[];
   /**
   * Address defines the authentication server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#address DataK8STraefikIoMiddlewareV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#address DataK8STraefikIoMiddlewareV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
   * AuthRequestHeaders defines the list of the headers to copy from the request to the authentication server. If not set or empty then all request headers are passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#auth_request_headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#auth_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#auth_request_headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#auth_request_headers}
   */
   readonly authRequestHeaders?: string[];
   /**
   * AuthResponseHeaders defines the list of headers to copy from the authentication server response and set on forwarded request, replacing any existing conflicting headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#auth_response_headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#auth_response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#auth_response_headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#auth_response_headers}
   */
   readonly authResponseHeaders?: string[];
   /**
   * AuthResponseHeadersRegex defines the regex to match headers to copy from the authentication server response and set on forwarded request, after stripping all headers that match the regex. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/forwardauth/#authresponseheadersregex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#auth_response_headers_regex DataK8STraefikIoMiddlewareV1Alpha1Manifest#auth_response_headers_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#auth_response_headers_regex DataK8STraefikIoMiddlewareV1Alpha1Manifest#auth_response_headers_regex}
   */
   readonly authResponseHeadersRegex?: string;
   /**
   * TLS defines the configuration used to secure the connection to the authentication server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#tls DataK8STraefikIoMiddlewareV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#tls DataK8STraefikIoMiddlewareV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecForwardAuthTls;
   /**
   * TrustForwardHeader defines whether to trust (ie: forward) all X-Forwarded-* headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#trust_forward_header DataK8STraefikIoMiddlewareV1Alpha1Manifest#trust_forward_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#trust_forward_header DataK8STraefikIoMiddlewareV1Alpha1Manifest#trust_forward_header}
   */
   readonly trustForwardHeader?: boolean | cdktf.IResolvable;
 }
@@ -3862,7 +3862,7 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecGrpcWeb {
   /**
   * AllowOrigins is a list of allowable origins. Can also be a wildcard origin '*'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#allow_origins DataK8STraefikIoMiddlewareV1Alpha1Manifest#allow_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#allow_origins DataK8STraefikIoMiddlewareV1Alpha1Manifest#allow_origins}
   */
   readonly allowOrigins?: string[];
 }
@@ -3958,199 +3958,199 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecHeaders {
   /**
   * AccessControlAllowCredentials defines whether the request can include user credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#access_control_allow_credentials DataK8STraefikIoMiddlewareV1Alpha1Manifest#access_control_allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#access_control_allow_credentials DataK8STraefikIoMiddlewareV1Alpha1Manifest#access_control_allow_credentials}
   */
   readonly accessControlAllowCredentials?: boolean | cdktf.IResolvable;
   /**
   * AccessControlAllowHeaders defines the Access-Control-Request-Headers values sent in preflight response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#access_control_allow_headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#access_control_allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#access_control_allow_headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#access_control_allow_headers}
   */
   readonly accessControlAllowHeaders?: string[];
   /**
   * AccessControlAllowMethods defines the Access-Control-Request-Method values sent in preflight response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#access_control_allow_methods DataK8STraefikIoMiddlewareV1Alpha1Manifest#access_control_allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#access_control_allow_methods DataK8STraefikIoMiddlewareV1Alpha1Manifest#access_control_allow_methods}
   */
   readonly accessControlAllowMethods?: string[];
   /**
   * AccessControlAllowOriginList is a list of allowable origins. Can also be a wildcard origin '*'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#access_control_allow_origin_list DataK8STraefikIoMiddlewareV1Alpha1Manifest#access_control_allow_origin_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#access_control_allow_origin_list DataK8STraefikIoMiddlewareV1Alpha1Manifest#access_control_allow_origin_list}
   */
   readonly accessControlAllowOriginList?: string[];
   /**
   * AccessControlAllowOriginListRegex is a list of allowable origins written following the Regular Expression syntax (https://golang.org/pkg/regexp/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#access_control_allow_origin_list_regex DataK8STraefikIoMiddlewareV1Alpha1Manifest#access_control_allow_origin_list_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#access_control_allow_origin_list_regex DataK8STraefikIoMiddlewareV1Alpha1Manifest#access_control_allow_origin_list_regex}
   */
   readonly accessControlAllowOriginListRegex?: string[];
   /**
   * AccessControlExposeHeaders defines the Access-Control-Expose-Headers values sent in preflight response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#access_control_expose_headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#access_control_expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#access_control_expose_headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#access_control_expose_headers}
   */
   readonly accessControlExposeHeaders?: string[];
   /**
   * AccessControlMaxAge defines the time that a preflight request may be cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#access_control_max_age DataK8STraefikIoMiddlewareV1Alpha1Manifest#access_control_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#access_control_max_age DataK8STraefikIoMiddlewareV1Alpha1Manifest#access_control_max_age}
   */
   readonly accessControlMaxAge?: number;
   /**
   * AddVaryHeader defines whether the Vary header is automatically added/updated when the AccessControlAllowOriginList is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#add_vary_header DataK8STraefikIoMiddlewareV1Alpha1Manifest#add_vary_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#add_vary_header DataK8STraefikIoMiddlewareV1Alpha1Manifest#add_vary_header}
   */
   readonly addVaryHeader?: boolean | cdktf.IResolvable;
   /**
   * AllowedHosts defines the fully qualified list of allowed domain names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#allowed_hosts DataK8STraefikIoMiddlewareV1Alpha1Manifest#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#allowed_hosts DataK8STraefikIoMiddlewareV1Alpha1Manifest#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
   * BrowserXSSFilter defines whether to add the X-XSS-Protection header with the value 1; mode=block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#browser_xss_filter DataK8STraefikIoMiddlewareV1Alpha1Manifest#browser_xss_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#browser_xss_filter DataK8STraefikIoMiddlewareV1Alpha1Manifest#browser_xss_filter}
   */
   readonly browserXssFilter?: boolean | cdktf.IResolvable;
   /**
   * ContentSecurityPolicy defines the Content-Security-Policy header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#content_security_policy DataK8STraefikIoMiddlewareV1Alpha1Manifest#content_security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#content_security_policy DataK8STraefikIoMiddlewareV1Alpha1Manifest#content_security_policy}
   */
   readonly contentSecurityPolicy?: string;
   /**
   * ContentSecurityPolicyReportOnly defines the Content-Security-Policy-Report-Only header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#content_security_policy_report_only DataK8STraefikIoMiddlewareV1Alpha1Manifest#content_security_policy_report_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#content_security_policy_report_only DataK8STraefikIoMiddlewareV1Alpha1Manifest#content_security_policy_report_only}
   */
   readonly contentSecurityPolicyReportOnly?: string;
   /**
   * ContentTypeNosniff defines whether to add the X-Content-Type-Options header with the nosniff value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#content_type_nosniff DataK8STraefikIoMiddlewareV1Alpha1Manifest#content_type_nosniff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#content_type_nosniff DataK8STraefikIoMiddlewareV1Alpha1Manifest#content_type_nosniff}
   */
   readonly contentTypeNosniff?: boolean | cdktf.IResolvable;
   /**
   * CustomBrowserXSSValue defines the X-XSS-Protection header value. This overrides the BrowserXssFilter option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#custom_browser_xss_value DataK8STraefikIoMiddlewareV1Alpha1Manifest#custom_browser_xss_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#custom_browser_xss_value DataK8STraefikIoMiddlewareV1Alpha1Manifest#custom_browser_xss_value}
   */
   readonly customBrowserXssValue?: string;
   /**
   * CustomFrameOptionsValue defines the X-Frame-Options header value. This overrides the FrameDeny option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#custom_frame_options_value DataK8STraefikIoMiddlewareV1Alpha1Manifest#custom_frame_options_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#custom_frame_options_value DataK8STraefikIoMiddlewareV1Alpha1Manifest#custom_frame_options_value}
   */
   readonly customFrameOptionsValue?: string;
   /**
   * CustomRequestHeaders defines the header names and values to apply to the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#custom_request_headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#custom_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#custom_request_headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#custom_request_headers}
   */
   readonly customRequestHeaders?: { [key: string]: string };
   /**
   * CustomResponseHeaders defines the header names and values to apply to the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#custom_response_headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#custom_response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#custom_response_headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#custom_response_headers}
   */
   readonly customResponseHeaders?: { [key: string]: string };
   /**
   * Deprecated: FeaturePolicy option is deprecated, please use PermissionsPolicy instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#feature_policy DataK8STraefikIoMiddlewareV1Alpha1Manifest#feature_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#feature_policy DataK8STraefikIoMiddlewareV1Alpha1Manifest#feature_policy}
   */
   readonly featurePolicy?: string;
   /**
   * ForceSTSHeader defines whether to add the STS header even when the connection is HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#force_sts_header DataK8STraefikIoMiddlewareV1Alpha1Manifest#force_sts_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#force_sts_header DataK8STraefikIoMiddlewareV1Alpha1Manifest#force_sts_header}
   */
   readonly forceStsHeader?: boolean | cdktf.IResolvable;
   /**
   * FrameDeny defines whether to add the X-Frame-Options header with the DENY value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#frame_deny DataK8STraefikIoMiddlewareV1Alpha1Manifest#frame_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#frame_deny DataK8STraefikIoMiddlewareV1Alpha1Manifest#frame_deny}
   */
   readonly frameDeny?: boolean | cdktf.IResolvable;
   /**
   * HostsProxyHeaders defines the header keys that may hold a proxied hostname value for the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#hosts_proxy_headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#hosts_proxy_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#hosts_proxy_headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#hosts_proxy_headers}
   */
   readonly hostsProxyHeaders?: string[];
   /**
   * IsDevelopment defines whether to mitigate the unwanted effects of the AllowedHosts, SSL, and STS options when developing. Usually testing takes place using HTTP, not HTTPS, and on localhost, not your production domain. If you would like your development environment to mimic production with complete Host blocking, SSL redirects, and STS headers, leave this as false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#is_development DataK8STraefikIoMiddlewareV1Alpha1Manifest#is_development}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#is_development DataK8STraefikIoMiddlewareV1Alpha1Manifest#is_development}
   */
   readonly isDevelopment?: boolean | cdktf.IResolvable;
   /**
   * PermissionsPolicy defines the Permissions-Policy header value. This allows sites to control browser features.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#permissions_policy DataK8STraefikIoMiddlewareV1Alpha1Manifest#permissions_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#permissions_policy DataK8STraefikIoMiddlewareV1Alpha1Manifest#permissions_policy}
   */
   readonly permissionsPolicy?: string;
   /**
   * PublicKey is the public key that implements HPKP to prevent MITM attacks with forged certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#public_key DataK8STraefikIoMiddlewareV1Alpha1Manifest#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#public_key DataK8STraefikIoMiddlewareV1Alpha1Manifest#public_key}
   */
   readonly publicKey?: string;
   /**
   * ReferrerPolicy defines the Referrer-Policy header value. This allows sites to control whether browsers forward the Referer header to other sites.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#referrer_policy DataK8STraefikIoMiddlewareV1Alpha1Manifest#referrer_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#referrer_policy DataK8STraefikIoMiddlewareV1Alpha1Manifest#referrer_policy}
   */
   readonly referrerPolicy?: string;
   /**
   * Deprecated: SSLForceHost option is deprecated, please use RedirectRegex instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ssl_force_host DataK8STraefikIoMiddlewareV1Alpha1Manifest#ssl_force_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ssl_force_host DataK8STraefikIoMiddlewareV1Alpha1Manifest#ssl_force_host}
   */
   readonly sslForceHost?: boolean | cdktf.IResolvable;
   /**
   * Deprecated: SSLHost option is deprecated, please use RedirectRegex instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ssl_host DataK8STraefikIoMiddlewareV1Alpha1Manifest#ssl_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ssl_host DataK8STraefikIoMiddlewareV1Alpha1Manifest#ssl_host}
   */
   readonly sslHost?: string;
   /**
   * SSLProxyHeaders defines the header keys with associated values that would indicate a valid HTTPS request. It can be useful when using other proxies (example: 'X-Forwarded-Proto': 'https').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ssl_proxy_headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#ssl_proxy_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ssl_proxy_headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#ssl_proxy_headers}
   */
   readonly sslProxyHeaders?: { [key: string]: string };
   /**
   * Deprecated: SSLRedirect option is deprecated, please use EntryPoint redirection or RedirectScheme instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ssl_redirect DataK8STraefikIoMiddlewareV1Alpha1Manifest#ssl_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ssl_redirect DataK8STraefikIoMiddlewareV1Alpha1Manifest#ssl_redirect}
   */
   readonly sslRedirect?: boolean | cdktf.IResolvable;
   /**
   * Deprecated: SSLTemporaryRedirect option is deprecated, please use EntryPoint redirection or RedirectScheme instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ssl_temporary_redirect DataK8STraefikIoMiddlewareV1Alpha1Manifest#ssl_temporary_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ssl_temporary_redirect DataK8STraefikIoMiddlewareV1Alpha1Manifest#ssl_temporary_redirect}
   */
   readonly sslTemporaryRedirect?: boolean | cdktf.IResolvable;
   /**
   * STSIncludeSubdomains defines whether the includeSubDomains directive is appended to the Strict-Transport-Security header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#sts_include_subdomains DataK8STraefikIoMiddlewareV1Alpha1Manifest#sts_include_subdomains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#sts_include_subdomains DataK8STraefikIoMiddlewareV1Alpha1Manifest#sts_include_subdomains}
   */
   readonly stsIncludeSubdomains?: boolean | cdktf.IResolvable;
   /**
   * STSPreload defines whether the preload flag is appended to the Strict-Transport-Security header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#sts_preload DataK8STraefikIoMiddlewareV1Alpha1Manifest#sts_preload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#sts_preload DataK8STraefikIoMiddlewareV1Alpha1Manifest#sts_preload}
   */
   readonly stsPreload?: boolean | cdktf.IResolvable;
   /**
   * STSSeconds defines the max-age of the Strict-Transport-Security header. If set to 0, the header is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#sts_seconds DataK8STraefikIoMiddlewareV1Alpha1Manifest#sts_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#sts_seconds DataK8STraefikIoMiddlewareV1Alpha1Manifest#sts_seconds}
   */
   readonly stsSeconds?: number;
 }
@@ -5174,19 +5174,19 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecInFlightReqSource
   /**
   * Depth tells Traefik to use the X-Forwarded-For header and take the IP located at the depth position (starting from the right).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#depth DataK8STraefikIoMiddlewareV1Alpha1Manifest#depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#depth DataK8STraefikIoMiddlewareV1Alpha1Manifest#depth}
   */
   readonly depth?: number;
   /**
   * ExcludedIPs configures Traefik to scan the X-Forwarded-For header and select the first IP not in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#excluded_i_ps DataK8STraefikIoMiddlewareV1Alpha1Manifest#excluded_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#excluded_i_ps DataK8STraefikIoMiddlewareV1Alpha1Manifest#excluded_i_ps}
   */
   readonly excludedIPs?: string[];
   /**
   * IPv6Subnet configures Traefik to consider all IPv6 addresses from the defined subnet as originating from the same IP. Applies to RemoteAddrStrategy and DepthStrategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ipv6_subnet DataK8STraefikIoMiddlewareV1Alpha1Manifest#ipv6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ipv6_subnet DataK8STraefikIoMiddlewareV1Alpha1Manifest#ipv6_subnet}
   */
   readonly ipv6Subnet?: number;
 }
@@ -5340,19 +5340,19 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecInFlightReqSource
   /**
   * IPStrategy holds the IP strategy configuration used by Traefik to determine the client IP. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/ipallowlist/#ipstrategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ip_strategy DataK8STraefikIoMiddlewareV1Alpha1Manifest#ip_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ip_strategy DataK8STraefikIoMiddlewareV1Alpha1Manifest#ip_strategy}
   */
   readonly ipStrategy?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecInFlightReqSourceCriterionIpStrategy;
   /**
   * RequestHeaderName defines the name of the header used to group incoming requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#request_header_name DataK8STraefikIoMiddlewareV1Alpha1Manifest#request_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#request_header_name DataK8STraefikIoMiddlewareV1Alpha1Manifest#request_header_name}
   */
   readonly requestHeaderName?: string;
   /**
   * RequestHost defines whether to consider the request Host as the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#request_host DataK8STraefikIoMiddlewareV1Alpha1Manifest#request_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#request_host DataK8STraefikIoMiddlewareV1Alpha1Manifest#request_host}
   */
   readonly requestHost?: boolean | cdktf.IResolvable;
 }
@@ -5506,13 +5506,13 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecInFlightReq {
   /**
   * Amount defines the maximum amount of allowed simultaneous in-flight request. The middleware responds with HTTP 429 Too Many Requests if there are already amount requests in progress (based on the same sourceCriterion strategy).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#amount DataK8STraefikIoMiddlewareV1Alpha1Manifest#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#amount DataK8STraefikIoMiddlewareV1Alpha1Manifest#amount}
   */
   readonly amount?: number;
   /**
   * SourceCriterion defines what criterion is used to group requests as originating from a common source. If several strategies are defined at the same time, an error will be raised. If none are set, the default is to use the requestHost. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/inflightreq/#sourcecriterion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#source_criterion DataK8STraefikIoMiddlewareV1Alpha1Manifest#source_criterion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#source_criterion DataK8STraefikIoMiddlewareV1Alpha1Manifest#source_criterion}
   */
   readonly sourceCriterion?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecInFlightReqSourceCriterion;
 }
@@ -5637,19 +5637,19 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecIpAllowListIpStra
   /**
   * Depth tells Traefik to use the X-Forwarded-For header and take the IP located at the depth position (starting from the right).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#depth DataK8STraefikIoMiddlewareV1Alpha1Manifest#depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#depth DataK8STraefikIoMiddlewareV1Alpha1Manifest#depth}
   */
   readonly depth?: number;
   /**
   * ExcludedIPs configures Traefik to scan the X-Forwarded-For header and select the first IP not in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#excluded_i_ps DataK8STraefikIoMiddlewareV1Alpha1Manifest#excluded_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#excluded_i_ps DataK8STraefikIoMiddlewareV1Alpha1Manifest#excluded_i_ps}
   */
   readonly excludedIPs?: string[];
   /**
   * IPv6Subnet configures Traefik to consider all IPv6 addresses from the defined subnet as originating from the same IP. Applies to RemoteAddrStrategy and DepthStrategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ipv6_subnet DataK8STraefikIoMiddlewareV1Alpha1Manifest#ipv6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ipv6_subnet DataK8STraefikIoMiddlewareV1Alpha1Manifest#ipv6_subnet}
   */
   readonly ipv6Subnet?: number;
 }
@@ -5803,19 +5803,19 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecIpAllowListStruct
   /**
   * IPStrategy holds the IP strategy configuration used by Traefik to determine the client IP. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/ipallowlist/#ipstrategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ip_strategy DataK8STraefikIoMiddlewareV1Alpha1Manifest#ip_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ip_strategy DataK8STraefikIoMiddlewareV1Alpha1Manifest#ip_strategy}
   */
   readonly ipStrategy?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecIpAllowListIpStrategy;
   /**
   * RejectStatusCode defines the HTTP status code used for refused requests. If not set, the default is 403 (Forbidden).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#reject_status_code DataK8STraefikIoMiddlewareV1Alpha1Manifest#reject_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#reject_status_code DataK8STraefikIoMiddlewareV1Alpha1Manifest#reject_status_code}
   */
   readonly rejectStatusCode?: number;
   /**
   * SourceRange defines the set of allowed IPs (or ranges of allowed IPs by using CIDR notation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#source_range DataK8STraefikIoMiddlewareV1Alpha1Manifest#source_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#source_range DataK8STraefikIoMiddlewareV1Alpha1Manifest#source_range}
   */
   readonly sourceRange?: string[];
 }
@@ -5969,19 +5969,19 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecIpWhiteListIpStra
   /**
   * Depth tells Traefik to use the X-Forwarded-For header and take the IP located at the depth position (starting from the right).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#depth DataK8STraefikIoMiddlewareV1Alpha1Manifest#depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#depth DataK8STraefikIoMiddlewareV1Alpha1Manifest#depth}
   */
   readonly depth?: number;
   /**
   * ExcludedIPs configures Traefik to scan the X-Forwarded-For header and select the first IP not in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#excluded_i_ps DataK8STraefikIoMiddlewareV1Alpha1Manifest#excluded_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#excluded_i_ps DataK8STraefikIoMiddlewareV1Alpha1Manifest#excluded_i_ps}
   */
   readonly excludedIPs?: string[];
   /**
   * IPv6Subnet configures Traefik to consider all IPv6 addresses from the defined subnet as originating from the same IP. Applies to RemoteAddrStrategy and DepthStrategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ipv6_subnet DataK8STraefikIoMiddlewareV1Alpha1Manifest#ipv6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ipv6_subnet DataK8STraefikIoMiddlewareV1Alpha1Manifest#ipv6_subnet}
   */
   readonly ipv6Subnet?: number;
 }
@@ -6135,13 +6135,13 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecIpWhiteListStruct
   /**
   * IPStrategy holds the IP strategy configuration used by Traefik to determine the client IP. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/ipallowlist/#ipstrategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ip_strategy DataK8STraefikIoMiddlewareV1Alpha1Manifest#ip_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ip_strategy DataK8STraefikIoMiddlewareV1Alpha1Manifest#ip_strategy}
   */
   readonly ipStrategy?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecIpWhiteListIpStrategy;
   /**
   * SourceRange defines the set of allowed IPs (or ranges of allowed IPs by using CIDR notation). Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#source_range DataK8STraefikIoMiddlewareV1Alpha1Manifest#source_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#source_range DataK8STraefikIoMiddlewareV1Alpha1Manifest#source_range}
   */
   readonly sourceRange?: string[];
 }
@@ -6266,43 +6266,43 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecPassTlsClientCert
   /**
   * CommonName defines whether to add the organizationalUnit information into the issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#common_name DataK8STraefikIoMiddlewareV1Alpha1Manifest#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#common_name DataK8STraefikIoMiddlewareV1Alpha1Manifest#common_name}
   */
   readonly commonName?: boolean | cdktf.IResolvable;
   /**
   * Country defines whether to add the country information into the issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#country DataK8STraefikIoMiddlewareV1Alpha1Manifest#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#country DataK8STraefikIoMiddlewareV1Alpha1Manifest#country}
   */
   readonly country?: boolean | cdktf.IResolvable;
   /**
   * DomainComponent defines whether to add the domainComponent information into the issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#domain_component DataK8STraefikIoMiddlewareV1Alpha1Manifest#domain_component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#domain_component DataK8STraefikIoMiddlewareV1Alpha1Manifest#domain_component}
   */
   readonly domainComponent?: boolean | cdktf.IResolvable;
   /**
   * Locality defines whether to add the locality information into the issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#locality DataK8STraefikIoMiddlewareV1Alpha1Manifest#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#locality DataK8STraefikIoMiddlewareV1Alpha1Manifest#locality}
   */
   readonly locality?: boolean | cdktf.IResolvable;
   /**
   * Organization defines whether to add the organization information into the issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#organization DataK8STraefikIoMiddlewareV1Alpha1Manifest#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#organization DataK8STraefikIoMiddlewareV1Alpha1Manifest#organization}
   */
   readonly organization?: boolean | cdktf.IResolvable;
   /**
   * Province defines whether to add the province information into the issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#province DataK8STraefikIoMiddlewareV1Alpha1Manifest#province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#province DataK8STraefikIoMiddlewareV1Alpha1Manifest#province}
   */
   readonly province?: boolean | cdktf.IResolvable;
   /**
   * SerialNumber defines whether to add the serialNumber information into the issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#serial_number DataK8STraefikIoMiddlewareV1Alpha1Manifest#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#serial_number DataK8STraefikIoMiddlewareV1Alpha1Manifest#serial_number}
   */
   readonly serialNumber?: boolean | cdktf.IResolvable;
 }
@@ -6572,49 +6572,49 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecPassTlsClientCert
   /**
   * CommonName defines whether to add the organizationalUnit information into the subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#common_name DataK8STraefikIoMiddlewareV1Alpha1Manifest#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#common_name DataK8STraefikIoMiddlewareV1Alpha1Manifest#common_name}
   */
   readonly commonName?: boolean | cdktf.IResolvable;
   /**
   * Country defines whether to add the country information into the subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#country DataK8STraefikIoMiddlewareV1Alpha1Manifest#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#country DataK8STraefikIoMiddlewareV1Alpha1Manifest#country}
   */
   readonly country?: boolean | cdktf.IResolvable;
   /**
   * DomainComponent defines whether to add the domainComponent information into the subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#domain_component DataK8STraefikIoMiddlewareV1Alpha1Manifest#domain_component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#domain_component DataK8STraefikIoMiddlewareV1Alpha1Manifest#domain_component}
   */
   readonly domainComponent?: boolean | cdktf.IResolvable;
   /**
   * Locality defines whether to add the locality information into the subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#locality DataK8STraefikIoMiddlewareV1Alpha1Manifest#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#locality DataK8STraefikIoMiddlewareV1Alpha1Manifest#locality}
   */
   readonly locality?: boolean | cdktf.IResolvable;
   /**
   * Organization defines whether to add the organization information into the subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#organization DataK8STraefikIoMiddlewareV1Alpha1Manifest#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#organization DataK8STraefikIoMiddlewareV1Alpha1Manifest#organization}
   */
   readonly organization?: boolean | cdktf.IResolvable;
   /**
   * OrganizationalUnit defines whether to add the organizationalUnit information into the subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#organizational_unit DataK8STraefikIoMiddlewareV1Alpha1Manifest#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#organizational_unit DataK8STraefikIoMiddlewareV1Alpha1Manifest#organizational_unit}
   */
   readonly organizationalUnit?: boolean | cdktf.IResolvable;
   /**
   * Province defines whether to add the province information into the subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#province DataK8STraefikIoMiddlewareV1Alpha1Manifest#province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#province DataK8STraefikIoMiddlewareV1Alpha1Manifest#province}
   */
   readonly province?: boolean | cdktf.IResolvable;
   /**
   * SerialNumber defines whether to add the serialNumber information into the subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#serial_number DataK8STraefikIoMiddlewareV1Alpha1Manifest#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#serial_number DataK8STraefikIoMiddlewareV1Alpha1Manifest#serial_number}
   */
   readonly serialNumber?: boolean | cdktf.IResolvable;
 }
@@ -6913,37 +6913,37 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecPassTlsClientCert
   /**
   * Issuer defines the client certificate issuer details to add to the X-Forwarded-Tls-Client-Cert-Info header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#issuer DataK8STraefikIoMiddlewareV1Alpha1Manifest#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#issuer DataK8STraefikIoMiddlewareV1Alpha1Manifest#issuer}
   */
   readonly issuer?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecPassTlsClientCertInfoIssuer;
   /**
   * NotAfter defines whether to add the Not After information from the Validity part.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#not_after DataK8STraefikIoMiddlewareV1Alpha1Manifest#not_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#not_after DataK8STraefikIoMiddlewareV1Alpha1Manifest#not_after}
   */
   readonly notAfter?: boolean | cdktf.IResolvable;
   /**
   * NotBefore defines whether to add the Not Before information from the Validity part.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#not_before DataK8STraefikIoMiddlewareV1Alpha1Manifest#not_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#not_before DataK8STraefikIoMiddlewareV1Alpha1Manifest#not_before}
   */
   readonly notBefore?: boolean | cdktf.IResolvable;
   /**
   * Sans defines whether to add the Subject Alternative Name information from the Subject Alternative Name part.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#sans DataK8STraefikIoMiddlewareV1Alpha1Manifest#sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#sans DataK8STraefikIoMiddlewareV1Alpha1Manifest#sans}
   */
   readonly sans?: boolean | cdktf.IResolvable;
   /**
   * SerialNumber defines whether to add the client serialNumber information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#serial_number DataK8STraefikIoMiddlewareV1Alpha1Manifest#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#serial_number DataK8STraefikIoMiddlewareV1Alpha1Manifest#serial_number}
   */
   readonly serialNumber?: boolean | cdktf.IResolvable;
   /**
   * Subject defines the client certificate subject details to add to the X-Forwarded-Tls-Client-Cert-Info header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#subject DataK8STraefikIoMiddlewareV1Alpha1Manifest#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#subject DataK8STraefikIoMiddlewareV1Alpha1Manifest#subject}
   */
   readonly subject?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecPassTlsClientCertInfoSubject;
 }
@@ -7184,13 +7184,13 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecPassTlsClientCert
   /**
   * Info selects the specific client certificate details you want to add to the X-Forwarded-Tls-Client-Cert-Info header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#info DataK8STraefikIoMiddlewareV1Alpha1Manifest#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#info DataK8STraefikIoMiddlewareV1Alpha1Manifest#info}
   */
   readonly info?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecPassTlsClientCertInfo;
   /**
   * PEM sets the X-Forwarded-Tls-Client-Cert header with the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#pem DataK8STraefikIoMiddlewareV1Alpha1Manifest#pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#pem DataK8STraefikIoMiddlewareV1Alpha1Manifest#pem}
   */
   readonly pem?: boolean | cdktf.IResolvable;
 }
@@ -7315,19 +7315,19 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecRateLimitSourceCr
   /**
   * Depth tells Traefik to use the X-Forwarded-For header and take the IP located at the depth position (starting from the right).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#depth DataK8STraefikIoMiddlewareV1Alpha1Manifest#depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#depth DataK8STraefikIoMiddlewareV1Alpha1Manifest#depth}
   */
   readonly depth?: number;
   /**
   * ExcludedIPs configures Traefik to scan the X-Forwarded-For header and select the first IP not in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#excluded_i_ps DataK8STraefikIoMiddlewareV1Alpha1Manifest#excluded_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#excluded_i_ps DataK8STraefikIoMiddlewareV1Alpha1Manifest#excluded_i_ps}
   */
   readonly excludedIPs?: string[];
   /**
   * IPv6Subnet configures Traefik to consider all IPv6 addresses from the defined subnet as originating from the same IP. Applies to RemoteAddrStrategy and DepthStrategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ipv6_subnet DataK8STraefikIoMiddlewareV1Alpha1Manifest#ipv6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ipv6_subnet DataK8STraefikIoMiddlewareV1Alpha1Manifest#ipv6_subnet}
   */
   readonly ipv6Subnet?: number;
 }
@@ -7481,19 +7481,19 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecRateLimitSourceCr
   /**
   * IPStrategy holds the IP strategy configuration used by Traefik to determine the client IP. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/ipallowlist/#ipstrategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ip_strategy DataK8STraefikIoMiddlewareV1Alpha1Manifest#ip_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ip_strategy DataK8STraefikIoMiddlewareV1Alpha1Manifest#ip_strategy}
   */
   readonly ipStrategy?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecRateLimitSourceCriterionIpStrategy;
   /**
   * RequestHeaderName defines the name of the header used to group incoming requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#request_header_name DataK8STraefikIoMiddlewareV1Alpha1Manifest#request_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#request_header_name DataK8STraefikIoMiddlewareV1Alpha1Manifest#request_header_name}
   */
   readonly requestHeaderName?: string;
   /**
   * RequestHost defines whether to consider the request Host as the source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#request_host DataK8STraefikIoMiddlewareV1Alpha1Manifest#request_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#request_host DataK8STraefikIoMiddlewareV1Alpha1Manifest#request_host}
   */
   readonly requestHost?: boolean | cdktf.IResolvable;
 }
@@ -7647,25 +7647,25 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecRateLimit {
   /**
   * Average is the maximum rate, by default in requests/s, allowed for the given source. It defaults to 0, which means no rate limiting. The rate is actually defined by dividing Average by Period. So for a rate below 1req/s, one needs to define a Period larger than a second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#average DataK8STraefikIoMiddlewareV1Alpha1Manifest#average}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#average DataK8STraefikIoMiddlewareV1Alpha1Manifest#average}
   */
   readonly average?: number;
   /**
   * Burst is the maximum number of requests allowed to arrive in the same arbitrarily small period of time. It defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#burst DataK8STraefikIoMiddlewareV1Alpha1Manifest#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#burst DataK8STraefikIoMiddlewareV1Alpha1Manifest#burst}
   */
   readonly burst?: number;
   /**
   * Period, in combination with Average, defines the actual maximum rate, such as: r = Average / Period. It defaults to a second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#period DataK8STraefikIoMiddlewareV1Alpha1Manifest#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#period DataK8STraefikIoMiddlewareV1Alpha1Manifest#period}
   */
   readonly period?: string;
   /**
   * SourceCriterion defines what criterion is used to group requests as originating from a common source. If several strategies are defined at the same time, an error will be raised. If none are set, the default is to use the request's remote address field (as an ipStrategy).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#source_criterion DataK8STraefikIoMiddlewareV1Alpha1Manifest#source_criterion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#source_criterion DataK8STraefikIoMiddlewareV1Alpha1Manifest#source_criterion}
   */
   readonly sourceCriterion?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecRateLimitSourceCriterion;
 }
@@ -7848,19 +7848,19 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecRedirectRegex {
   /**
   * Permanent defines whether the redirection is permanent (301).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#permanent DataK8STraefikIoMiddlewareV1Alpha1Manifest#permanent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#permanent DataK8STraefikIoMiddlewareV1Alpha1Manifest#permanent}
   */
   readonly permanent?: boolean | cdktf.IResolvable;
   /**
   * Regex defines the regex used to match and capture elements from the request URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#regex DataK8STraefikIoMiddlewareV1Alpha1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#regex DataK8STraefikIoMiddlewareV1Alpha1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Replacement defines how to modify the URL to have the new target URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#replacement DataK8STraefikIoMiddlewareV1Alpha1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#replacement DataK8STraefikIoMiddlewareV1Alpha1Manifest#replacement}
   */
   readonly replacement?: string;
 }
@@ -8014,19 +8014,19 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecRedirectScheme {
   /**
   * Permanent defines whether the redirection is permanent (301).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#permanent DataK8STraefikIoMiddlewareV1Alpha1Manifest#permanent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#permanent DataK8STraefikIoMiddlewareV1Alpha1Manifest#permanent}
   */
   readonly permanent?: boolean | cdktf.IResolvable;
   /**
   * Port defines the port of the new URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#port DataK8STraefikIoMiddlewareV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#port DataK8STraefikIoMiddlewareV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
   * Scheme defines the scheme of the new URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#scheme DataK8STraefikIoMiddlewareV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#scheme DataK8STraefikIoMiddlewareV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8180,7 +8180,7 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecReplacePath {
   /**
   * Path defines the path to use as replacement in the request URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#path DataK8STraefikIoMiddlewareV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#path DataK8STraefikIoMiddlewareV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -8276,13 +8276,13 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecReplacePathRegex 
   /**
   * Regex defines the regular expression used to match and capture the path from the request URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#regex DataK8STraefikIoMiddlewareV1Alpha1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#regex DataK8STraefikIoMiddlewareV1Alpha1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Replacement defines the replacement path format, which can include captured variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#replacement DataK8STraefikIoMiddlewareV1Alpha1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#replacement DataK8STraefikIoMiddlewareV1Alpha1Manifest#replacement}
   */
   readonly replacement?: string;
 }
@@ -8407,13 +8407,13 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecRetry {
   /**
   * Attempts defines how many times the request should be retried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#attempts DataK8STraefikIoMiddlewareV1Alpha1Manifest#attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#attempts DataK8STraefikIoMiddlewareV1Alpha1Manifest#attempts}
   */
   readonly attempts?: number;
   /**
   * InitialInterval defines the first wait time in the exponential backoff series. The maximum interval is calculated as twice the initialInterval. If unspecified, requests will be retried immediately. The value of initialInterval should be provided in seconds or as a valid duration format, see https://pkg.go.dev/time#ParseDuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#initial_interval DataK8STraefikIoMiddlewareV1Alpha1Manifest#initial_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#initial_interval DataK8STraefikIoMiddlewareV1Alpha1Manifest#initial_interval}
   */
   readonly initialInterval?: string;
 }
@@ -8538,13 +8538,13 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecStripPrefix {
   /**
   * Deprecated: ForceSlash option is deprecated, please remove any usage of this option. ForceSlash ensures that the resulting stripped path is not the empty string, by replacing it with / when necessary. Default: true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#force_slash DataK8STraefikIoMiddlewareV1Alpha1Manifest#force_slash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#force_slash DataK8STraefikIoMiddlewareV1Alpha1Manifest#force_slash}
   */
   readonly forceSlash?: boolean | cdktf.IResolvable;
   /**
   * Prefixes defines the prefixes to strip from the request URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#prefixes DataK8STraefikIoMiddlewareV1Alpha1Manifest#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#prefixes DataK8STraefikIoMiddlewareV1Alpha1Manifest#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -8669,7 +8669,7 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecStripPrefixRegex 
   /**
   * Regex defines the regular expression to match the path prefix from the request URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#regex DataK8STraefikIoMiddlewareV1Alpha1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#regex DataK8STraefikIoMiddlewareV1Alpha1Manifest#regex}
   */
   readonly regex?: string[];
 }
@@ -8765,151 +8765,151 @@ export interface DataK8STraefikIoMiddlewareV1Alpha1ManifestSpec {
   /**
   * AddPrefix holds the add prefix middleware configuration. This middleware updates the path of a request before forwarding it. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/addprefix/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#add_prefix DataK8STraefikIoMiddlewareV1Alpha1Manifest#add_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#add_prefix DataK8STraefikIoMiddlewareV1Alpha1Manifest#add_prefix}
   */
   readonly addPrefix?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecAddPrefix;
   /**
   * BasicAuth holds the basic auth middleware configuration. This middleware restricts access to your services to known users. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/basicauth/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#basic_auth DataK8STraefikIoMiddlewareV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#basic_auth DataK8STraefikIoMiddlewareV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecBasicAuth;
   /**
   * Buffering holds the buffering middleware configuration. This middleware retries or limits the size of requests that can be forwarded to backends. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/buffering/#maxrequestbodybytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#buffering DataK8STraefikIoMiddlewareV1Alpha1Manifest#buffering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#buffering DataK8STraefikIoMiddlewareV1Alpha1Manifest#buffering}
   */
   readonly buffering?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecBuffering;
   /**
   * Chain holds the configuration of the chain middleware. This middleware enables to define reusable combinations of other pieces of middleware. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/chain/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#chain DataK8STraefikIoMiddlewareV1Alpha1Manifest#chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#chain DataK8STraefikIoMiddlewareV1Alpha1Manifest#chain}
   */
   readonly chain?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecChain;
   /**
   * CircuitBreaker holds the circuit breaker configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#circuit_breaker DataK8STraefikIoMiddlewareV1Alpha1Manifest#circuit_breaker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#circuit_breaker DataK8STraefikIoMiddlewareV1Alpha1Manifest#circuit_breaker}
   */
   readonly circuitBreaker?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecCircuitBreaker;
   /**
   * Compress holds the compress middleware configuration. This middleware compresses responses before sending them to the client, using gzip, brotli, or zstd compression. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/compress/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#compress DataK8STraefikIoMiddlewareV1Alpha1Manifest#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#compress DataK8STraefikIoMiddlewareV1Alpha1Manifest#compress}
   */
   readonly compress?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecCompress;
   /**
   * ContentType holds the content-type middleware configuration. This middleware exists to enable the correct behavior until at least the default one can be changed in a future version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#content_type DataK8STraefikIoMiddlewareV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#content_type DataK8STraefikIoMiddlewareV1Alpha1Manifest#content_type}
   */
   readonly contentType?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecContentType;
   /**
   * DigestAuth holds the digest auth middleware configuration. This middleware restricts access to your services to known users. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/digestauth/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#digest_auth DataK8STraefikIoMiddlewareV1Alpha1Manifest#digest_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#digest_auth DataK8STraefikIoMiddlewareV1Alpha1Manifest#digest_auth}
   */
   readonly digestAuth?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecDigestAuth;
   /**
   * ErrorPage holds the custom error middleware configuration. This middleware returns a custom page in lieu of the default, according to configured ranges of HTTP Status codes. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/errorpages/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#errors DataK8STraefikIoMiddlewareV1Alpha1Manifest#errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#errors DataK8STraefikIoMiddlewareV1Alpha1Manifest#errors}
   */
   readonly errors?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecErrors;
   /**
   * ForwardAuth holds the forward auth middleware configuration. This middleware delegates the request authentication to a Service. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/forwardauth/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#forward_auth DataK8STraefikIoMiddlewareV1Alpha1Manifest#forward_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#forward_auth DataK8STraefikIoMiddlewareV1Alpha1Manifest#forward_auth}
   */
   readonly forwardAuth?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecForwardAuth;
   /**
   * GrpcWeb holds the gRPC web middleware configuration. This middleware converts a gRPC web request to an HTTP/2 gRPC request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#grpc_web DataK8STraefikIoMiddlewareV1Alpha1Manifest#grpc_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#grpc_web DataK8STraefikIoMiddlewareV1Alpha1Manifest#grpc_web}
   */
   readonly grpcWeb?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecGrpcWeb;
   /**
   * Headers holds the headers middleware configuration. This middleware manages the requests and responses headers. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/headers/#customrequestheaders
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#headers DataK8STraefikIoMiddlewareV1Alpha1Manifest#headers}
   */
   readonly headers?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecHeaders;
   /**
   * InFlightReq holds the in-flight request middleware configuration. This middleware limits the number of requests being processed and served concurrently. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/inflightreq/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#in_flight_req DataK8STraefikIoMiddlewareV1Alpha1Manifest#in_flight_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#in_flight_req DataK8STraefikIoMiddlewareV1Alpha1Manifest#in_flight_req}
   */
   readonly inFlightReq?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecInFlightReq;
   /**
   * IPAllowList holds the IP allowlist middleware configuration. This middleware limits allowed requests based on the client IP. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/ipallowlist/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ip_allow_list DataK8STraefikIoMiddlewareV1Alpha1Manifest#ip_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ip_allow_list DataK8STraefikIoMiddlewareV1Alpha1Manifest#ip_allow_list}
   */
   readonly ipAllowList?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecIpAllowListStruct;
   /**
   * Deprecated: please use IPAllowList instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ip_white_list DataK8STraefikIoMiddlewareV1Alpha1Manifest#ip_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#ip_white_list DataK8STraefikIoMiddlewareV1Alpha1Manifest#ip_white_list}
   */
   readonly ipWhiteList?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecIpWhiteListStruct;
   /**
   * PassTLSClientCert holds the pass TLS client cert middleware configuration. This middleware adds the selected data from the passed client TLS certificate to a header. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/passtlsclientcert/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#pass_tls_client_cert DataK8STraefikIoMiddlewareV1Alpha1Manifest#pass_tls_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#pass_tls_client_cert DataK8STraefikIoMiddlewareV1Alpha1Manifest#pass_tls_client_cert}
   */
   readonly passTlsClientCert?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecPassTlsClientCert;
   /**
   * Plugin defines the middleware plugin configuration. More info: https://doc.traefik.io/traefik/plugins/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#plugin DataK8STraefikIoMiddlewareV1Alpha1Manifest#plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#plugin DataK8STraefikIoMiddlewareV1Alpha1Manifest#plugin}
   */
   readonly plugin?: { [key: string]: string };
   /**
   * RateLimit holds the rate limit configuration. This middleware ensures that services will receive a fair amount of requests, and allows one to define what fair is. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/ratelimit/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#rate_limit DataK8STraefikIoMiddlewareV1Alpha1Manifest#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#rate_limit DataK8STraefikIoMiddlewareV1Alpha1Manifest#rate_limit}
   */
   readonly rateLimit?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecRateLimit;
   /**
   * RedirectRegex holds the redirect regex middleware configuration. This middleware redirects a request using regex matching and replacement. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/redirectregex/#regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#redirect_regex DataK8STraefikIoMiddlewareV1Alpha1Manifest#redirect_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#redirect_regex DataK8STraefikIoMiddlewareV1Alpha1Manifest#redirect_regex}
   */
   readonly redirectRegex?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecRedirectRegex;
   /**
   * RedirectScheme holds the redirect scheme middleware configuration. This middleware redirects requests from a scheme/port to another. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/redirectscheme/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#redirect_scheme DataK8STraefikIoMiddlewareV1Alpha1Manifest#redirect_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#redirect_scheme DataK8STraefikIoMiddlewareV1Alpha1Manifest#redirect_scheme}
   */
   readonly redirectScheme?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecRedirectScheme;
   /**
   * ReplacePath holds the replace path middleware configuration. This middleware replaces the path of the request URL and store the original path in an X-Replaced-Path header. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/replacepath/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#replace_path DataK8STraefikIoMiddlewareV1Alpha1Manifest#replace_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#replace_path DataK8STraefikIoMiddlewareV1Alpha1Manifest#replace_path}
   */
   readonly replacePath?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecReplacePath;
   /**
   * ReplacePathRegex holds the replace path regex middleware configuration. This middleware replaces the path of a URL using regex matching and replacement. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/replacepathregex/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#replace_path_regex DataK8STraefikIoMiddlewareV1Alpha1Manifest#replace_path_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#replace_path_regex DataK8STraefikIoMiddlewareV1Alpha1Manifest#replace_path_regex}
   */
   readonly replacePathRegex?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecReplacePathRegex;
   /**
   * Retry holds the retry middleware configuration. This middleware reissues requests a given number of times to a backend server if that server does not reply. As soon as the server answers, the middleware stops retrying, regardless of the response status. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/retry/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#retry DataK8STraefikIoMiddlewareV1Alpha1Manifest#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#retry DataK8STraefikIoMiddlewareV1Alpha1Manifest#retry}
   */
   readonly retry?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecRetry;
   /**
   * StripPrefix holds the strip prefix middleware configuration. This middleware removes the specified prefixes from the URL path. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/stripprefix/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#strip_prefix DataK8STraefikIoMiddlewareV1Alpha1Manifest#strip_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#strip_prefix DataK8STraefikIoMiddlewareV1Alpha1Manifest#strip_prefix}
   */
   readonly stripPrefix?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecStripPrefix;
   /**
   * StripPrefixRegex holds the strip prefix regex middleware configuration. This middleware removes the matching prefixes from the URL path. More info: https://doc.traefik.io/traefik/v3.2/middlewares/http/stripprefixregex/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#strip_prefix_regex DataK8STraefikIoMiddlewareV1Alpha1Manifest#strip_prefix_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#strip_prefix_regex DataK8STraefikIoMiddlewareV1Alpha1Manifest#strip_prefix_regex}
   */
   readonly stripPrefixRegex?: DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecStripPrefixRegex;
 }
@@ -9699,7 +9699,7 @@ export class DataK8STraefikIoMiddlewareV1Alpha1ManifestSpecOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest k8s_traefik_io_middleware_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest k8s_traefik_io_middleware_v1alpha1_manifest}
 */
 export class DataK8STraefikIoMiddlewareV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -9715,7 +9715,7 @@ export class DataK8STraefikIoMiddlewareV1Alpha1Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8STraefikIoMiddlewareV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STraefikIoMiddlewareV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8STraefikIoMiddlewareV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STraefikIoMiddlewareV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STraefikIoMiddlewareV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9727,7 +9727,7 @@ export class DataK8STraefikIoMiddlewareV1Alpha1Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_middleware_v1alpha1_manifest k8s_traefik_io_middleware_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_middleware_v1alpha1_manifest k8s_traefik_io_middleware_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9738,8 +9738,8 @@ export class DataK8STraefikIoMiddlewareV1Alpha1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_traefik_io_middleware_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

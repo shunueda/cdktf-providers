@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_delegatetoken
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_delegatetoken
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataHarnessPlatformDelegatetokenConfig extends cdktf.TerraformM
   /**
   * Account Identifier for the Entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_delegatetoken#account_id DataHarnessPlatformDelegatetoken#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_delegatetoken#account_id DataHarnessPlatformDelegatetoken#account_id}
   */
   readonly accountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_delegatetoken#id DataHarnessPlatformDelegatetoken#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_delegatetoken#id DataHarnessPlatformDelegatetoken#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataHarnessPlatformDelegatetokenConfig extends cdktf.TerraformM
   /**
   * Name of the delegate token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_delegatetoken#name DataHarnessPlatformDelegatetoken#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_delegatetoken#name DataHarnessPlatformDelegatetoken#name}
   */
   readonly name: string;
   /**
   * Org Identifier for the Entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_delegatetoken#org_id DataHarnessPlatformDelegatetoken#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_delegatetoken#org_id DataHarnessPlatformDelegatetoken#org_id}
   */
   readonly orgId?: string;
   /**
   * Project Identifier for the Entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_delegatetoken#project_id DataHarnessPlatformDelegatetoken#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_delegatetoken#project_id DataHarnessPlatformDelegatetoken#project_id}
   */
   readonly projectId?: string;
   /**
   * Status of Delegate Token (ACTIVE or REVOKED). If left empty both active and revoked tokens will be assumed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_delegatetoken#token_status DataHarnessPlatformDelegatetoken#token_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_delegatetoken#token_status DataHarnessPlatformDelegatetoken#token_status}
   */
   readonly tokenStatus?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_delegatetoken harness_platform_delegatetoken}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_delegatetoken harness_platform_delegatetoken}
 */
 export class DataHarnessPlatformDelegatetoken extends cdktf.TerraformDataSource {
 
@@ -63,7 +63,7 @@ export class DataHarnessPlatformDelegatetoken extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataHarnessPlatformDelegatetoken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformDelegatetoken to import
-  * @param importFromId The id of the existing DataHarnessPlatformDelegatetoken that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_delegatetoken#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformDelegatetoken that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_delegatetoken#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformDelegatetoken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DataHarnessPlatformDelegatetoken extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_delegatetoken harness_platform_delegatetoken} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_delegatetoken harness_platform_delegatetoken} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DataHarnessPlatformDelegatetoken extends cdktf.TerraformDataSource 
       terraformResourceType: 'harness_platform_delegatetoken',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

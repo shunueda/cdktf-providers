@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_rancher
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_rancher
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHarnessPlatformConnectorRancherConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_rancher#id DataHarnessPlatformConnectorRancher#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_rancher#id DataHarnessPlatformConnectorRancher#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataHarnessPlatformConnectorRancherConfig extends cdktf.Terrafo
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_rancher#identifier DataHarnessPlatformConnectorRancher#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_rancher#identifier DataHarnessPlatformConnectorRancher#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_rancher#name DataHarnessPlatformConnectorRancher#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_rancher#name DataHarnessPlatformConnectorRancher#name}
   */
   readonly name?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_rancher#org_id DataHarnessPlatformConnectorRancher#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_rancher#org_id DataHarnessPlatformConnectorRancher#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_rancher#project_id DataHarnessPlatformConnectorRancher#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_rancher#project_id DataHarnessPlatformConnectorRancher#project_id}
   */
   readonly projectId?: string;
   /**
   * bearer_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_rancher#bearer_token DataHarnessPlatformConnectorRancher#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_rancher#bearer_token DataHarnessPlatformConnectorRancher#bearer_token}
   */
   readonly bearerToken?: DataHarnessPlatformConnectorRancherBearerToken;
 }
@@ -49,13 +49,13 @@ export interface DataHarnessPlatformConnectorRancherBearerToken {
   /**
   * Reference to the secret containing the bearer token for the rancher cluster. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_rancher#password_ref DataHarnessPlatformConnectorRancher#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_rancher#password_ref DataHarnessPlatformConnectorRancher#password_ref}
   */
   readonly passwordRef: string;
   /**
   * The URL of the Rancher cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_rancher#rancher_url DataHarnessPlatformConnectorRancher#rancher_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_rancher#rancher_url DataHarnessPlatformConnectorRancher#rancher_url}
   */
   readonly rancherUrl: string;
 }
@@ -162,7 +162,7 @@ export class DataHarnessPlatformConnectorRancherBearerTokenOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_rancher harness_platform_connector_rancher}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_rancher harness_platform_connector_rancher}
 */
 export class DataHarnessPlatformConnectorRancher extends cdktf.TerraformDataSource {
 
@@ -178,7 +178,7 @@ export class DataHarnessPlatformConnectorRancher extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataHarnessPlatformConnectorRancher resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformConnectorRancher to import
-  * @param importFromId The id of the existing DataHarnessPlatformConnectorRancher that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_rancher#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformConnectorRancher that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_rancher#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformConnectorRancher to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class DataHarnessPlatformConnectorRancher extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_rancher harness_platform_connector_rancher} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_rancher harness_platform_connector_rancher} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class DataHarnessPlatformConnectorRancher extends cdktf.TerraformDataSour
       terraformResourceType: 'harness_platform_connector_rancher',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

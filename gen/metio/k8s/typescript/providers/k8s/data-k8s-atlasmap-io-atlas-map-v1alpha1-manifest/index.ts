@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAtlasmapIoAtlasMapV1Alpha1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#metadata DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#metadata DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAtlasmapIoAtlasMapV1Alpha1ManifestMetadata;
   /**
   * AtlasMapSpec defines the desired state of AtlasMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#spec DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#spec DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAtlasmapIoAtlasMapV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAtlasmapIoAtlasMapV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#annotations DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#annotations DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#labels DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#labels DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#name DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#name DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#namespace DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#namespace DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,43 +219,43 @@ export interface DataK8SAtlasmapIoAtlasMapV1Alpha1ManifestSpec {
   /**
   * The amount of CPU to limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#limit_cpu DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#limit_cpu DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#limit_cpu}
   */
   readonly limitCpu?: string;
   /**
   * The amount of memory to request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#limit_memory DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#limit_memory DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#limit_memory}
   */
   readonly limitMemory?: string;
   /**
   * Replicas determines the desired number of running AtlasMap pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#replicas DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#replicas DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * The amount of CPU to request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#request_cpu DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#request_cpu DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#request_cpu}
   */
   readonly requestCpu?: string;
   /**
   * The amount of memory to request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#request_memory DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#request_memory DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#request_memory}
   */
   readonly requestMemory?: string;
   /**
   * RouteHostName sets the host name to use on the Ingress or OpenShift Route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#route_host_name DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#route_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#route_host_name DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#route_host_name}
   */
   readonly routeHostName?: string;
   /**
   * Version sets the version of the container image used for AtlasMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#version DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#version DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -523,7 +523,7 @@ export class DataK8SAtlasmapIoAtlasMapV1Alpha1ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest k8s_atlasmap_io_atlas_map_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest k8s_atlasmap_io_atlas_map_v1alpha1_manifest}
 */
 export class DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -539,7 +539,7 @@ export class DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -551,7 +551,7 @@ export class DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest k8s_atlasmap_io_atlas_map_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/atlasmap_io_atlas_map_v1alpha1_manifest k8s_atlasmap_io_atlas_map_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -562,8 +562,8 @@ export class DataK8SAtlasmapIoAtlasMapV1Alpha1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_atlasmap_io_atlas_map_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

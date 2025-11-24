@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#metadata DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#metadata DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestMetadata;
   /**
   * DeviceSpec represents a single device instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#spec DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#spec DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#annotations DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#annotations DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#labels DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#labels DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#namespace DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#namespace DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecDeviceModelRef
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -315,19 +315,19 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecMethods {
   /**
   * Define the description of device method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#description DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#description DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
   * Required: The device method name to be accessed. It must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * PropertyNames are list of device properties that device methods can control. Required: A device method can control multiple device properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#property_names DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#property_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#property_names DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#property_names}
   */
   readonly propertyNames?: string[];
 }
@@ -503,13 +503,13 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesDesi
   /**
   * Additional metadata like timestamp when the value was reported etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#metadata DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#metadata DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Required: The value for this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#value DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#value DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -631,19 +631,19 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPush
   /**
   * Bucket of the user in influx database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#bucket DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#bucket DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
   * Org of the user in influx database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#org DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#org DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#org}
   */
   readonly org?: string;
   /**
   * Url of influx database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#url DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#url DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#url}
   */
   readonly url?: string;
 }
@@ -797,19 +797,19 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPush
   /**
   * FieldKey of the user data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#field_key DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#field_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#field_key DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#field_key}
   */
   readonly fieldKey?: string;
   /**
   * Measurement of the user data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#measurement DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#measurement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#measurement DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#measurement}
   */
   readonly measurement?: string;
   /**
   * the tag of device data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#tag DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#tag DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#tag}
   */
   readonly tag?: { [key: string]: string };
 }
@@ -963,13 +963,13 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPush
   /**
   * Config of influx database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#influxdb2_client_config DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#influxdb2_client_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#influxdb2_client_config DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#influxdb2_client_config}
   */
   readonly influxdb2ClientConfig?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMethodDbMethodInfluxdb2Influxdb2ClientConfig;
   /**
   * config of device data when push to influx database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#influxdb2_data_config DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#influxdb2_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#influxdb2_data_config DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#influxdb2_data_config}
   */
   readonly influxdb2DataConfig?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMethodDbMethodInfluxdb2Influxdb2DataConfig;
 }
@@ -1094,19 +1094,19 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPush
   /**
   * mysql address,like localhost:3306
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#addr DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#addr DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#addr}
   */
   readonly addr?: string;
   /**
   * database name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#database DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#database DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#database}
   */
   readonly database?: string;
   /**
   * user name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#user_name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#user_name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#user_name}
   */
   readonly userName?: string;
 }
@@ -1258,7 +1258,7 @@ export class DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMeth
 }
 export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMethodDbMethodMysql {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#mysql_client_config DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#mysql_client_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#mysql_client_config DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#mysql_client_config}
   */
   readonly mysqlClientConfig?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMethodDbMethodMysqlMysqlClientConfig;
 }
@@ -1354,25 +1354,25 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPush
   /**
   * Addr of Redis database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#addr DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#addr DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#addr}
   */
   readonly addr?: string;
   /**
   * Db of Redis database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#db DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#db DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#db}
   */
   readonly db?: number;
   /**
   * MinIdleConns of Redis database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#min_idle_conns DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#min_idle_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#min_idle_conns DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#min_idle_conns}
   */
   readonly minIdleConns?: number;
   /**
   * Poolsize of Redis database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#poolsize DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#poolsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#poolsize DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#poolsize}
   */
   readonly poolsize?: number;
 }
@@ -1555,7 +1555,7 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPush
   /**
   * RedisClientConfig of redis database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#redis_client_config DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#redis_client_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#redis_client_config DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#redis_client_config}
   */
   readonly redisClientConfig?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMethodDbMethodRedisRedisClientConfig;
 }
@@ -1651,13 +1651,13 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPush
   /**
   * addr of tdEngine database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#addr DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#addr DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#addr}
   */
   readonly addr?: string;
   /**
   * dbname of tdEngine database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#db_name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#db_name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#db_name}
   */
   readonly dbName?: string;
 }
@@ -1782,7 +1782,7 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPush
   /**
   * tdengineClientConfig of tdengine database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#td_engine_client_config DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#td_engine_client_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#td_engine_client_config DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#td_engine_client_config}
   */
   readonly tdEngineClientConfig?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMethodDbMethodTdEngineTdEngineClientConfig;
 }
@@ -1878,19 +1878,19 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPush
   /**
   * method configuration for database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#influxdb2 DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#influxdb2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#influxdb2 DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#influxdb2}
   */
   readonly influxdb2?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMethodDbMethodInfluxdb2;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#mysql DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#mysql DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#mysql}
   */
   readonly mysql?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMethodDbMethodMysql;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#redis DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#redis DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#redis}
   */
   readonly redis?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMethodDbMethodRedis;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#td_engine DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#td_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#td_engine DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#td_engine}
   */
   readonly tdEngine?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMethodDbMethodTdEngine;
 }
@@ -2071,19 +2071,19 @@ export class DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMeth
 }
 export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMethodHttp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#host_name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#host_name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#port DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#port DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#request_path DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#request_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#request_path DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#request_path}
   */
   readonly requestPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#timeout DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#timeout DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#timeout}
   */
   readonly timeout?: number;
 }
@@ -2266,25 +2266,25 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPush
   /**
   * broker address, like mqtt://127.0.0.1:1883
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#address DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#address DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#address}
   */
   readonly address?: string;
   /**
   * qos of mqtt publish param
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#qos DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#qos DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#qos}
   */
   readonly qos?: number;
   /**
   * Is the message retained
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#retained DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#retained}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#retained DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#retained}
   */
   readonly retained?: boolean | cdktf.IResolvable;
   /**
   * publish topic for mqtt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#topic DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#topic DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#topic}
   */
   readonly topic?: string;
 }
@@ -2467,19 +2467,19 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPush
   /**
   * DBMethod represents the method used to push data to database, please ensure that the mapper can access the destination address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#db_method DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#db_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#db_method DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#db_method}
   */
   readonly dbMethod?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMethodDbMethod;
   /**
   * HTTP Push method configuration for http
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#http DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#http DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#http}
   */
   readonly http?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMethodHttp;
   /**
   * MQTT Push method configuration for mqtt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#mqtt DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#mqtt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#mqtt DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#mqtt}
   */
   readonly mqtt?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMethodMqtt;
 }
@@ -2633,13 +2633,13 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesVisi
   /**
   * Required: The configData of customized protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#config_data DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#config_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#config_data DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#config_data}
   */
   readonly configData?: { [key: string]: string };
   /**
   * Required: name of customized protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#protocol_name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#protocol_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#protocol_name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#protocol_name}
   */
   readonly protocolName?: string;
 }
@@ -2764,43 +2764,43 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecProperties {
   /**
   * Define how frequent mapper will collect from device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#collect_cycle DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#collect_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#collect_cycle DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#collect_cycle}
   */
   readonly collectCycle?: number;
   /**
   * The desired property value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#desired DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#desired}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#desired DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#desired}
   */
   readonly desired?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesDesired;
   /**
   * Required: The device property name to be accessed. It must be unique. Note: If you need to use the built-in stream data processing function, you need to define Name as saveFrame or saveVideo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * PushMethod represents the protocol used to push data, please ensure that the mapper can access the destination address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#push_method DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#push_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#push_method DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#push_method}
   */
   readonly pushMethod?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesPushMethod;
   /**
   * Define how frequent mapper will report the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#report_cycle DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#report_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#report_cycle DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#report_cycle}
   */
   readonly reportCycle?: number;
   /**
   * whether be reported to the cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#report_to_cloud DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#report_to_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#report_to_cloud DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#report_to_cloud}
   */
   readonly reportToCloud?: boolean | cdktf.IResolvable;
   /**
   * Visitors are intended to be consumed by device mappers which connect to devices and collect data / perform actions on the device. Required: Protocol relevant config details about the how to access the device property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#visitors DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#visitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#visitors DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#visitors}
   */
   readonly visitors?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecPropertiesVisitors;
 }
@@ -3092,13 +3092,13 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecProtocol {
   /**
   * Any config data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#config_data DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#config_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#config_data DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#config_data}
   */
   readonly configData?: { [key: string]: string };
   /**
   * Unique protocol name Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#protocol_name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#protocol_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#protocol_name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#protocol_name}
   */
   readonly protocolName?: string;
 }
@@ -3223,31 +3223,31 @@ export interface DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpec {
   /**
   * Required: DeviceModelRef is reference to the device model used as a template to create the device instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#device_model_ref DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#device_model_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#device_model_ref DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#device_model_ref}
   */
   readonly deviceModelRef?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecDeviceModelRef;
   /**
   * List of methods of device. methods list item must be unique by method.Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#methods DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#methods DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#methods}
   */
   readonly methods?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecMethods[] | cdktf.IResolvable;
   /**
   * NodeName is a request to schedule this device onto a specific node. If it is non-empty, the scheduler simply schedules this device onto that node, assuming that it fits resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#node_name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#node_name DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
   * List of properties which describe the device properties. properties list item must be unique by properties.Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#properties DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#properties DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#properties}
   */
   readonly properties?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecProperties[] | cdktf.IResolvable;
   /**
   * Required: The protocol configuration used to connect to the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#protocol DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#protocol DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest#protocol}
   */
   readonly protocol?: DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecProtocol;
 }
@@ -3457,7 +3457,7 @@ export class DataK8SDevicesKubeedgeIoDeviceV1Beta1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest k8s_devices_kubeedge_io_device_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest k8s_devices_kubeedge_io_device_v1beta1_manifest}
 */
 export class DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -3473,7 +3473,7 @@ export class DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3485,7 +3485,7 @@ export class DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest k8s_devices_kubeedge_io_device_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/devices_kubeedge_io_device_v1beta1_manifest k8s_devices_kubeedge_io_device_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3496,8 +3496,8 @@ export class DataK8SDevicesKubeedgeIoDeviceV1Beta1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_devices_kubeedge_io_device_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

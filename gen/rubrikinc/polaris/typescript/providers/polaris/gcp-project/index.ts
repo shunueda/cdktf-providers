@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface GcpProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Base64 encoded GCP service account private key or path to GCP service account key file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project#credentials GcpProject#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project#credentials GcpProject#credentials}
   */
   readonly credentials?: string;
   /**
   * Should snapshots be deleted when the resource is destroyed. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project#delete_snapshots_on_destroy GcpProject#delete_snapshots_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project#delete_snapshots_on_destroy GcpProject#delete_snapshots_on_destroy}
   */
   readonly deleteSnapshotsOnDestroy?: boolean | cdktf.IResolvable;
   /**
   * GCP organization name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project#organization_name GcpProject#organization_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project#organization_name GcpProject#organization_name}
   */
   readonly organizationName?: string;
   /**
   * Signals that the permissions has been updated. **Deprecated:** use the `permissions` field of `feature` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project#permissions_hash GcpProject#permissions_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project#permissions_hash GcpProject#permissions_hash}
   */
   readonly permissionsHash?: string;
   /**
   * GCP project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project#project GcpProject#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project#project GcpProject#project}
   */
   readonly project: string;
   /**
   * GCP project name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project#project_name GcpProject#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project#project_name GcpProject#project_name}
   */
   readonly projectName: string;
   /**
   * GCP project number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project#project_number GcpProject#project_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project#project_number GcpProject#project_number}
   */
   readonly projectNumber: string;
   /**
   * cloud_native_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project#cloud_native_protection GcpProject#cloud_native_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project#cloud_native_protection GcpProject#cloud_native_protection}
   */
   readonly cloudNativeProtection?: GcpProjectCloudNativeProtection;
   /**
   * feature block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project#feature GcpProject#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project#feature GcpProject#feature}
   */
   readonly feature?: GcpProjectFeature[] | cdktf.IResolvable;
 }
@@ -66,7 +66,7 @@ export interface GcpProjectCloudNativeProtection {
   /**
   * Status of the Cloud Native Protection feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project#status GcpProject#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project#status GcpProject#status}
   */
   readonly status?: string;
 }
@@ -152,19 +152,19 @@ export interface GcpProjectFeature {
   /**
   * RSC feature name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project#name GcpProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project#name GcpProject#name}
   */
   readonly name: string;
   /**
   * Permission groups for the RSC feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project#permission_groups GcpProject#permission_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project#permission_groups GcpProject#permission_groups}
   */
   readonly permissionGroups: string[];
   /**
   * Permissions updated signal. When this field changes, the provider will notify RSC that the permissions for the feature has been updated. Use this field with the `polaris_gcp_permissions` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project#permissions GcpProject#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project#permissions GcpProject#permissions}
   */
   readonly permissions?: string;
 }
@@ -337,7 +337,7 @@ export class GcpProjectFeatureList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project polaris_gcp_project}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project polaris_gcp_project}
 */
 export class GcpProject extends cdktf.TerraformResource {
 
@@ -353,7 +353,7 @@ export class GcpProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpProject to import
-  * @param importFromId The id of the existing GcpProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -365,7 +365,7 @@ export class GcpProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/gcp_project polaris_gcp_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/gcp_project polaris_gcp_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -376,8 +376,8 @@ export class GcpProject extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_gcp_project',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

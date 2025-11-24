@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PlatformSloConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#id PlatformSlo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#id PlatformSlo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface PlatformSloConfig extends cdktf.TerraformMetaArguments {
   /**
   * Identifier of the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#identifier PlatformSlo#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#identifier PlatformSlo#identifier}
   */
   readonly identifier: string;
   /**
   * Identifier of the organization in which the SLO is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#org_id PlatformSlo#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#org_id PlatformSlo#org_id}
   */
   readonly orgId: string;
   /**
   * Identifier of the project in which the SLO is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#project_id PlatformSlo#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#project_id PlatformSlo#project_id}
   */
   readonly projectId: string;
   /**
   * request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#request PlatformSlo#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#request PlatformSlo#request}
   */
   readonly request?: PlatformSloRequest;
 }
@@ -43,13 +43,13 @@ export interface PlatformSloRequestNotificationRuleRefs {
   /**
   * Enable or disable notification rule reference for the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#enabled PlatformSlo#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#enabled PlatformSlo#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Notification rule reference for the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#notification_rule_ref PlatformSlo#notification_rule_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#notification_rule_ref PlatformSlo#notification_rule_ref}
   */
   readonly notificationRuleRef: string;
 }
@@ -190,19 +190,19 @@ export interface PlatformSloRequestSloTarget {
   /**
   * Target percentage for the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#slo_target_percentage PlatformSlo#slo_target_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#slo_target_percentage PlatformSlo#slo_target_percentage}
   */
   readonly sloTargetPercentage: number;
   /**
   * Specification of the SLO Target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#spec PlatformSlo#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#spec PlatformSlo#spec}
   */
   readonly spec: string;
   /**
   * Type of the SLO target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#type PlatformSlo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#type PlatformSlo#type}
   */
   readonly type: string;
 }
@@ -337,49 +337,49 @@ export interface PlatformSloRequest {
   /**
   * Description for the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#description PlatformSlo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#description PlatformSlo#description}
   */
   readonly description?: string;
   /**
   * Name for the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#name PlatformSlo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#name PlatformSlo#name}
   */
   readonly name: string;
   /**
   * Specification of the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#spec PlatformSlo#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#spec PlatformSlo#spec}
   */
   readonly spec: string;
   /**
   * Tags for the SLO. comma-separated key value string pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#tags PlatformSlo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#tags PlatformSlo#tags}
   */
   readonly tags?: string[];
   /**
   * Type of the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#type PlatformSlo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#type PlatformSlo#type}
   */
   readonly type: string;
   /**
   * User journey reference list for the SLO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#user_journey_refs PlatformSlo#user_journey_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#user_journey_refs PlatformSlo#user_journey_refs}
   */
   readonly userJourneyRefs: string[];
   /**
   * notification_rule_refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#notification_rule_refs PlatformSlo#notification_rule_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#notification_rule_refs PlatformSlo#notification_rule_refs}
   */
   readonly notificationRuleRefs?: PlatformSloRequestNotificationRuleRefs[] | cdktf.IResolvable;
   /**
   * slo_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#slo_target PlatformSlo#slo_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#slo_target PlatformSlo#slo_target}
   */
   readonly sloTarget: PlatformSloRequestSloTarget;
 }
@@ -651,7 +651,7 @@ export class PlatformSloRequestOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo harness_platform_slo}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo harness_platform_slo}
 */
 export class PlatformSlo extends cdktf.TerraformResource {
 
@@ -667,7 +667,7 @@ export class PlatformSlo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformSlo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformSlo to import
-  * @param importFromId The id of the existing PlatformSlo that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformSlo that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformSlo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -679,7 +679,7 @@ export class PlatformSlo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_slo harness_platform_slo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_slo harness_platform_slo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -690,8 +690,8 @@ export class PlatformSlo extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_slo',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

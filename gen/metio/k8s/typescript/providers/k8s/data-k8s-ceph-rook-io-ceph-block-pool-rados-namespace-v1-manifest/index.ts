@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCephRookIoCephBlockPoolRadosNamespaceV1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#metadata DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#metadata DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#metadata}
   */
   readonly metadata: DataK8SCephRookIoCephBlockPoolRadosNamespaceV1ManifestMetadata;
   /**
   * Spec represents the specification of a Ceph BlockPool Rados Namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#spec DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#spec DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#spec}
   */
   readonly spec: DataK8SCephRookIoCephBlockPoolRadosNamespaceV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCephRookIoCephBlockPoolRadosNamespaceV1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#annotations DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#annotations DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#labels DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#labels DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#name DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#name DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#namespace DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#namespace DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SCephRookIoCephBlockPoolRadosNamespaceV1ManifestSpecMirro
   /**
   * Interval represent the periodicity of the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#interval DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#interval DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Path is the path to snapshot, only valid for CephFS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#path DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#path DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#path}
   */
   readonly path?: string;
   /**
   * StartTime indicates when to start the snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#start_time DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#start_time DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#start_time}
   */
   readonly startTime?: string;
 }
@@ -407,19 +407,19 @@ export interface DataK8SCephRookIoCephBlockPoolRadosNamespaceV1ManifestSpecMirro
   /**
   * Mode is the mirroring mode; either pool or image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#mode DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#mode DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#mode}
   */
   readonly mode: string;
   /**
   * RemoteNamespace is the name of the CephBlockPoolRadosNamespace on the secondary cluster CephBlockPool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#remote_namespace DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#remote_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#remote_namespace DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#remote_namespace}
   */
   readonly remoteNamespace?: string;
   /**
   * SnapshotSchedules is the scheduling of snapshot for mirrored images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#snapshot_schedules DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#snapshot_schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#snapshot_schedules DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#snapshot_schedules}
   */
   readonly snapshotSchedules?: DataK8SCephRookIoCephBlockPoolRadosNamespaceV1ManifestSpecMirroringSnapshotSchedules[] | cdktf.IResolvable;
 }
@@ -570,19 +570,19 @@ export interface DataK8SCephRookIoCephBlockPoolRadosNamespaceV1ManifestSpec {
   /**
   * BlockPoolName is the name of Ceph BlockPool. Typically it's the name of the CephBlockPool CR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#block_pool_name DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#block_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#block_pool_name DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#block_pool_name}
   */
   readonly blockPoolName: string;
   /**
   * Mirroring configuration of CephBlockPoolRadosNamespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#mirroring DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#mirroring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#mirroring DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#mirroring}
   */
   readonly mirroring?: DataK8SCephRookIoCephBlockPoolRadosNamespaceV1ManifestSpecMirroring;
   /**
   * The name of the CephBlockPoolRadosNamespaceSpec namespace. If not set, the default is the name of the CR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#name DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#name DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -731,7 +731,7 @@ export class DataK8SCephRookIoCephBlockPoolRadosNamespaceV1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest k8s_ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest k8s_ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest}
 */
 export class DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest extends cdktf.TerraformDataSource {
 
@@ -747,7 +747,7 @@ export class DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -759,7 +759,7 @@ export class DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest k8s_ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest k8s_ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -770,8 +770,8 @@ export class DataK8SCephRookIoCephBlockPoolRadosNamespaceV1Manifest extends cdkt
       terraformResourceType: 'k8s_ceph_rook_io_ceph_block_pool_rados_namespace_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

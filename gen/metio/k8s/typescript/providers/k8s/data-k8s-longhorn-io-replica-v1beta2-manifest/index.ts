@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SLonghornIoReplicaV1Beta2ManifestConfig extends cdktf.Ter
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#metadata DataK8SLonghornIoReplicaV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#metadata DataK8SLonghornIoReplicaV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SLonghornIoReplicaV1Beta2ManifestMetadata;
   /**
   * ReplicaSpec defines the desired state of the Longhorn replica
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#spec DataK8SLonghornIoReplicaV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#spec DataK8SLonghornIoReplicaV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SLonghornIoReplicaV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SLonghornIoReplicaV1Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#annotations DataK8SLonghornIoReplicaV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#annotations DataK8SLonghornIoReplicaV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#labels DataK8SLonghornIoReplicaV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#labels DataK8SLonghornIoReplicaV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#name DataK8SLonghornIoReplicaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#name DataK8SLonghornIoReplicaV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#namespace DataK8SLonghornIoReplicaV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#namespace DataK8SLonghornIoReplicaV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,123 +217,123 @@ export class DataK8SLonghornIoReplicaV1Beta2ManifestMetadataOutputReference exte
 }
 export interface DataK8SLonghornIoReplicaV1Beta2ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#active DataK8SLonghornIoReplicaV1Beta2Manifest#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#active DataK8SLonghornIoReplicaV1Beta2Manifest#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Deprecated:Replaced by field 'dataEngine'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#backend_store_driver DataK8SLonghornIoReplicaV1Beta2Manifest#backend_store_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#backend_store_driver DataK8SLonghornIoReplicaV1Beta2Manifest#backend_store_driver}
   */
   readonly backendStoreDriver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#backing_image DataK8SLonghornIoReplicaV1Beta2Manifest#backing_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#backing_image DataK8SLonghornIoReplicaV1Beta2Manifest#backing_image}
   */
   readonly backingImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#data_directory_name DataK8SLonghornIoReplicaV1Beta2Manifest#data_directory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#data_directory_name DataK8SLonghornIoReplicaV1Beta2Manifest#data_directory_name}
   */
   readonly dataDirectoryName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#data_engine DataK8SLonghornIoReplicaV1Beta2Manifest#data_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#data_engine DataK8SLonghornIoReplicaV1Beta2Manifest#data_engine}
   */
   readonly dataEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#desire_state DataK8SLonghornIoReplicaV1Beta2Manifest#desire_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#desire_state DataK8SLonghornIoReplicaV1Beta2Manifest#desire_state}
   */
   readonly desireState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#disk_id DataK8SLonghornIoReplicaV1Beta2Manifest#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#disk_id DataK8SLonghornIoReplicaV1Beta2Manifest#disk_id}
   */
   readonly diskId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#disk_path DataK8SLonghornIoReplicaV1Beta2Manifest#disk_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#disk_path DataK8SLonghornIoReplicaV1Beta2Manifest#disk_path}
   */
   readonly diskPath?: string;
   /**
   * Deprecated: Replaced by field 'image'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#engine_image DataK8SLonghornIoReplicaV1Beta2Manifest#engine_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#engine_image DataK8SLonghornIoReplicaV1Beta2Manifest#engine_image}
   */
   readonly engineImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#engine_name DataK8SLonghornIoReplicaV1Beta2Manifest#engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#engine_name DataK8SLonghornIoReplicaV1Beta2Manifest#engine_name}
   */
   readonly engineName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#eviction_requested DataK8SLonghornIoReplicaV1Beta2Manifest#eviction_requested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#eviction_requested DataK8SLonghornIoReplicaV1Beta2Manifest#eviction_requested}
   */
   readonly evictionRequested?: boolean | cdktf.IResolvable;
   /**
   * FailedAt is set when a running replica fails or when a running engine is unable to use a replica for any reason. FailedAt indicates the time the failure occurred. When FailedAt is set, a replica is likely to have useful (though possibly stale) data. A replica with FailedAt set must be rebuilt from a non-failed replica (or it can be used in a salvage if all replicas are failed). FailedAt is cleared before a rebuild or salvage. FailedAt may be later than the corresponding entry in an engine's replicaTransitionTimeMap because it is set when the volume controller acknowledges the change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#failed_at DataK8SLonghornIoReplicaV1Beta2Manifest#failed_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#failed_at DataK8SLonghornIoReplicaV1Beta2Manifest#failed_at}
   */
   readonly failedAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#hard_node_affinity DataK8SLonghornIoReplicaV1Beta2Manifest#hard_node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#hard_node_affinity DataK8SLonghornIoReplicaV1Beta2Manifest#hard_node_affinity}
   */
   readonly hardNodeAffinity?: string;
   /**
   * HealthyAt is set the first time a replica becomes read/write in an engine after creation or rebuild. HealthyAt indicates the time the last successful rebuild occurred. When HealthyAt is set, a replica is likely to have useful (though possibly stale) data. HealthyAt is cleared before a rebuild. HealthyAt may be later than the corresponding entry in an engine's replicaTransitionTimeMap because it is set when the volume controller acknowledges the change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#healthy_at DataK8SLonghornIoReplicaV1Beta2Manifest#healthy_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#healthy_at DataK8SLonghornIoReplicaV1Beta2Manifest#healthy_at}
   */
   readonly healthyAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#image DataK8SLonghornIoReplicaV1Beta2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#image DataK8SLonghornIoReplicaV1Beta2Manifest#image}
   */
   readonly image?: string;
   /**
   * LastFailedAt is always set at the same time as FailedAt. Unlike FailedAt, LastFailedAt is never cleared. LastFailedAt is not a reliable indicator of the state of a replica's data. For example, a replica with LastFailedAt may already be healthy and in use again. However, because it is never cleared, it can be compared to LastHealthyAt to help prevent dangerous replica deletion in some corner cases. LastFailedAt may be later than the corresponding entry in an engine's replicaTransitionTimeMap because it is set when the volume controller acknowledges the change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#last_failed_at DataK8SLonghornIoReplicaV1Beta2Manifest#last_failed_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#last_failed_at DataK8SLonghornIoReplicaV1Beta2Manifest#last_failed_at}
   */
   readonly lastFailedAt?: string;
   /**
   * LastHealthyAt is set every time a replica becomes read/write in an engine. Unlike HealthyAt, LastHealthyAt is never cleared. LastHealthyAt is not a reliable indicator of the state of a replica's data. For example, a replica with LastHealthyAt set may be in the middle of a rebuild. However, because it is never cleared, it can be compared to LastFailedAt to help prevent dangerous replica deletion in some corner cases. LastHealthyAt may be later than the corresponding entry in an engine's replicaTransitionTimeMap because it is set when the volume controller acknowledges the change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#last_healthy_at DataK8SLonghornIoReplicaV1Beta2Manifest#last_healthy_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#last_healthy_at DataK8SLonghornIoReplicaV1Beta2Manifest#last_healthy_at}
   */
   readonly lastHealthyAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#log_requested DataK8SLonghornIoReplicaV1Beta2Manifest#log_requested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#log_requested DataK8SLonghornIoReplicaV1Beta2Manifest#log_requested}
   */
   readonly logRequested?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#node_id DataK8SLonghornIoReplicaV1Beta2Manifest#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#node_id DataK8SLonghornIoReplicaV1Beta2Manifest#node_id}
   */
   readonly nodeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#rebuild_retry_count DataK8SLonghornIoReplicaV1Beta2Manifest#rebuild_retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#rebuild_retry_count DataK8SLonghornIoReplicaV1Beta2Manifest#rebuild_retry_count}
   */
   readonly rebuildRetryCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#revision_counter_disabled DataK8SLonghornIoReplicaV1Beta2Manifest#revision_counter_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#revision_counter_disabled DataK8SLonghornIoReplicaV1Beta2Manifest#revision_counter_disabled}
   */
   readonly revisionCounterDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#salvage_requested DataK8SLonghornIoReplicaV1Beta2Manifest#salvage_requested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#salvage_requested DataK8SLonghornIoReplicaV1Beta2Manifest#salvage_requested}
   */
   readonly salvageRequested?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#snapshot_max_count DataK8SLonghornIoReplicaV1Beta2Manifest#snapshot_max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#snapshot_max_count DataK8SLonghornIoReplicaV1Beta2Manifest#snapshot_max_count}
   */
   readonly snapshotMaxCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#snapshot_max_size DataK8SLonghornIoReplicaV1Beta2Manifest#snapshot_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#snapshot_max_size DataK8SLonghornIoReplicaV1Beta2Manifest#snapshot_max_size}
   */
   readonly snapshotMaxSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#unmap_mark_disk_chain_removed_enabled DataK8SLonghornIoReplicaV1Beta2Manifest#unmap_mark_disk_chain_removed_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#unmap_mark_disk_chain_removed_enabled DataK8SLonghornIoReplicaV1Beta2Manifest#unmap_mark_disk_chain_removed_enabled}
   */
   readonly unmapMarkDiskChainRemovedEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#volume_name DataK8SLonghornIoReplicaV1Beta2Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#volume_name DataK8SLonghornIoReplicaV1Beta2Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#volume_size DataK8SLonghornIoReplicaV1Beta2Manifest#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#volume_size DataK8SLonghornIoReplicaV1Beta2Manifest#volume_size}
   */
   readonly volumeSize?: string;
 }
@@ -1181,7 +1181,7 @@ export class DataK8SLonghornIoReplicaV1Beta2ManifestSpecOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest k8s_longhorn_io_replica_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest k8s_longhorn_io_replica_v1beta2_manifest}
 */
 export class DataK8SLonghornIoReplicaV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -1197,7 +1197,7 @@ export class DataK8SLonghornIoReplicaV1Beta2Manifest extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataK8SLonghornIoReplicaV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SLonghornIoReplicaV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SLonghornIoReplicaV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SLonghornIoReplicaV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SLonghornIoReplicaV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1209,7 +1209,7 @@ export class DataK8SLonghornIoReplicaV1Beta2Manifest extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/longhorn_io_replica_v1beta2_manifest k8s_longhorn_io_replica_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/longhorn_io_replica_v1beta2_manifest k8s_longhorn_io_replica_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1220,8 +1220,8 @@ export class DataK8SLonghornIoReplicaV1Beta2Manifest extends cdktf.TerraformData
       terraformResourceType: 'k8s_longhorn_io_replica_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

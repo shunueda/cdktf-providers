@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestConfig extends cdktf.Terraf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#metadata DataK8SCamelApacheOrgBuildV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#metadata DataK8SCamelApacheOrgBuildV1Manifest#metadata}
   */
   readonly metadata: DataK8SCamelApacheOrgBuildV1ManifestMetadata;
   /**
   * BuildSpec defines the list of tasks to be execute for a Build. From Camel K version 2, it would be more appropriate to think it as pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#spec DataK8SCamelApacheOrgBuildV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#spec DataK8SCamelApacheOrgBuildV1Manifest#spec}
   */
   readonly spec?: DataK8SCamelApacheOrgBuildV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#labels DataK8SCamelApacheOrgBuildV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#labels DataK8SCamelApacheOrgBuildV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#namespace DataK8SCamelApacheOrgBuildV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#namespace DataK8SCamelApacheOrgBuildV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,67 +219,67 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecConfiguration {
   /**
   * Annotation to use for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The maximum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
   */
   readonly limitCpu?: string;
   /**
   * The maximum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
   */
   readonly limitMemory?: string;
   /**
   * The node selector for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * The namespace where to run the builder Pod (must be the same of the operator in charge of this Build reconciliation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
   */
   readonly operatorNamespace?: string;
   /**
   * the build order strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
   */
   readonly orderStrategy?: string;
   /**
   * The list of platforms used in order to build a container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
   */
   readonly platforms?: string[];
   /**
   * The minimum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
   */
   readonly requestCpu?: string;
   /**
   * The minimum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
   */
   readonly requestMemory?: string;
   /**
   * the strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
   */
   readonly strategy?: string;
   /**
   * The container image to be used to run the build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
   */
   readonly toolImage?: string;
 }
@@ -665,67 +665,67 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuildahConfigurati
   /**
   * Annotation to use for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The maximum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
   */
   readonly limitCpu?: string;
   /**
   * The maximum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
   */
   readonly limitMemory?: string;
   /**
   * The node selector for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * The namespace where to run the builder Pod (must be the same of the operator in charge of this Build reconciliation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
   */
   readonly operatorNamespace?: string;
   /**
   * the build order strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
   */
   readonly orderStrategy?: string;
   /**
   * The list of platforms used in order to build a container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
   */
   readonly platforms?: string[];
   /**
   * The minimum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
   */
   readonly requestCpu?: string;
   /**
   * The minimum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
   */
   readonly requestMemory?: string;
   /**
   * the strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
   */
   readonly strategy?: string;
   /**
   * The container image to be used to run the build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
   */
   readonly toolImage?: string;
 }
@@ -1111,31 +1111,31 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuildahRegistry {
   /**
   * the URI to access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#address DataK8SCamelApacheOrgBuildV1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#address DataK8SCamelApacheOrgBuildV1Manifest#address}
   */
   readonly address?: string;
   /**
   * the configmap which stores the Certificate Authority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#ca DataK8SCamelApacheOrgBuildV1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#ca DataK8SCamelApacheOrgBuildV1Manifest#ca}
   */
   readonly ca?: string;
   /**
   * if the container registry is insecure (ie, http only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#insecure DataK8SCamelApacheOrgBuildV1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#insecure DataK8SCamelApacheOrgBuildV1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * the registry organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#organization DataK8SCamelApacheOrgBuildV1Manifest#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#organization DataK8SCamelApacheOrgBuildV1Manifest#organization}
   */
   readonly organization?: string;
   /**
   * the secret where credentials are stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#secret DataK8SCamelApacheOrgBuildV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#secret DataK8SCamelApacheOrgBuildV1Manifest#secret}
   */
   readonly secret?: string;
 }
@@ -1347,55 +1347,55 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuildah {
   /**
   * base image layer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#base_image DataK8SCamelApacheOrgBuildV1Manifest#base_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#base_image DataK8SCamelApacheOrgBuildV1Manifest#base_image}
   */
   readonly baseImage?: string;
   /**
   * The configuration that should be used to perform the Build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
   */
   readonly configuration?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuildahConfiguration;
   /**
   * can be useful to share info with other tasks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#context_dir DataK8SCamelApacheOrgBuildV1Manifest#context_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#context_dir DataK8SCamelApacheOrgBuildV1Manifest#context_dir}
   */
   readonly contextDir?: string;
   /**
   * docker image to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#executor_image DataK8SCamelApacheOrgBuildV1Manifest#executor_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#executor_image DataK8SCamelApacheOrgBuildV1Manifest#executor_image}
   */
   readonly executorImage?: string;
   /**
   * final image name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#image DataK8SCamelApacheOrgBuildV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#image DataK8SCamelApacheOrgBuildV1Manifest#image}
   */
   readonly image?: string;
   /**
   * name of the task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * The platform of build image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#platform DataK8SCamelApacheOrgBuildV1Manifest#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#platform DataK8SCamelApacheOrgBuildV1Manifest#platform}
   */
   readonly platform?: string;
   /**
   * where to publish the final image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#registry DataK8SCamelApacheOrgBuildV1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#registry DataK8SCamelApacheOrgBuildV1Manifest#registry}
   */
   readonly registry?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuildahRegistry;
   /**
   * log more information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#verbose DataK8SCamelApacheOrgBuildV1Manifest#verbose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#verbose DataK8SCamelApacheOrgBuildV1Manifest#verbose}
   */
   readonly verbose?: boolean | cdktf.IResolvable;
 }
@@ -1723,67 +1723,67 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderConfigurati
   /**
   * Annotation to use for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The maximum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
   */
   readonly limitCpu?: string;
   /**
   * The maximum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
   */
   readonly limitMemory?: string;
   /**
   * The node selector for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * The namespace where to run the builder Pod (must be the same of the operator in charge of this Build reconciliation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
   */
   readonly operatorNamespace?: string;
   /**
   * the build order strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
   */
   readonly orderStrategy?: string;
   /**
   * The list of platforms used in order to build a container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
   */
   readonly platforms?: string[];
   /**
   * The minimum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
   */
   readonly requestCpu?: string;
   /**
   * The minimum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
   */
   readonly requestMemory?: string;
   /**
   * the strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
   */
   readonly strategy?: string;
   /**
   * The container image to be used to run the build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
   */
   readonly toolImage?: string;
 }
@@ -2169,19 +2169,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenCaSecr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2354,31 +2354,31 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenExtens
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#artifact_id DataK8SCamelApacheOrgBuildV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#artifact_id DataK8SCamelApacheOrgBuildV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Classifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#classifier DataK8SCamelApacheOrgBuildV1Manifest#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#classifier DataK8SCamelApacheOrgBuildV1Manifest#classifier}
   */
   readonly classifier?: string;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#group_id DataK8SCamelApacheOrgBuildV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#group_id DataK8SCamelApacheOrgBuildV1Manifest#group_id}
   */
   readonly groupId: string;
   /**
   * Maven Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#type DataK8SCamelApacheOrgBuildV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#type DataK8SCamelApacheOrgBuildV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Maven Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#version DataK8SCamelApacheOrgBuildV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#version DataK8SCamelApacheOrgBuildV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -2606,19 +2606,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenProfil
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2769,19 +2769,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenProfil
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2932,13 +2932,13 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenProfil
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgBuildV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgBuildV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenProfilesConfigMapKeyRef;
   /**
   * Selects a key of a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#secret_key_ref DataK8SCamelApacheOrgBuildV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#secret_key_ref DataK8SCamelApacheOrgBuildV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenProfilesSecretKeyRef;
 }
@@ -3085,19 +3085,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenReposi
   /**
   * When Maven deploys files to the repository, it also deploys corresponding checksum files. Your options are to 'ignore', 'fail', or 'warn' on missing or incorrect checksums.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#checksum_policy DataK8SCamelApacheOrgBuildV1Manifest#checksum_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#checksum_policy DataK8SCamelApacheOrgBuildV1Manifest#checksum_policy}
   */
   readonly checksumPolicy?: string;
   /**
   * is the policy activated or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#enabled DataK8SCamelApacheOrgBuildV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#enabled DataK8SCamelApacheOrgBuildV1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * This element specifies how often updates should attempt to occur. Maven will compare the local POM's timestamp (stored in a repository's maven-metadata file) to the remote. The choices are: 'always', 'daily' (default), 'interval:X' (where X is an integer in minutes) or 'never'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#update_policy DataK8SCamelApacheOrgBuildV1Manifest#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#update_policy DataK8SCamelApacheOrgBuildV1Manifest#update_policy}
   */
   readonly updatePolicy?: string;
 }
@@ -3248,19 +3248,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenReposi
   /**
   * When Maven deploys files to the repository, it also deploys corresponding checksum files. Your options are to 'ignore', 'fail', or 'warn' on missing or incorrect checksums.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#checksum_policy DataK8SCamelApacheOrgBuildV1Manifest#checksum_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#checksum_policy DataK8SCamelApacheOrgBuildV1Manifest#checksum_policy}
   */
   readonly checksumPolicy?: string;
   /**
   * is the policy activated or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#enabled DataK8SCamelApacheOrgBuildV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#enabled DataK8SCamelApacheOrgBuildV1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * This element specifies how often updates should attempt to occur. Maven will compare the local POM's timestamp (stored in a repository's maven-metadata file) to the remote. The choices are: 'always', 'daily' (default), 'interval:X' (where X is an integer in minutes) or 'never'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#update_policy DataK8SCamelApacheOrgBuildV1Manifest#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#update_policy DataK8SCamelApacheOrgBuildV1Manifest#update_policy}
   */
   readonly updatePolicy?: string;
 }
@@ -3411,7 +3411,7 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenReposi
   /**
   * identifies the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#id DataK8SCamelApacheOrgBuildV1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#id DataK8SCamelApacheOrgBuildV1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3420,25 +3420,25 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenReposi
   /**
   * name of the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * can use stable releases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#releases DataK8SCamelApacheOrgBuildV1Manifest#releases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#releases DataK8SCamelApacheOrgBuildV1Manifest#releases}
   */
   readonly releases?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenRepositoriesReleases;
   /**
   * can use snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#snapshots DataK8SCamelApacheOrgBuildV1Manifest#snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#snapshots DataK8SCamelApacheOrgBuildV1Manifest#snapshots}
   */
   readonly snapshots?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenRepositoriesSnapshots;
   /**
   * location of the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#url DataK8SCamelApacheOrgBuildV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#url DataK8SCamelApacheOrgBuildV1Manifest#url}
   */
   readonly url: string;
 }
@@ -3666,22 +3666,22 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenServer
   /**
   * Properties -- .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#id DataK8SCamelApacheOrgBuildV1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#id DataK8SCamelApacheOrgBuildV1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#password DataK8SCamelApacheOrgBuildV1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#password DataK8SCamelApacheOrgBuildV1Manifest#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#username DataK8SCamelApacheOrgBuildV1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#username DataK8SCamelApacheOrgBuildV1Manifest#username}
   */
   readonly username?: string;
 }
@@ -3886,19 +3886,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenSettin
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4049,19 +4049,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenSettin
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4212,13 +4212,13 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenSettin
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgBuildV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgBuildV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenSettingsConfigMapKeyRef;
   /**
   * Selects a key of a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#secret_key_ref DataK8SCamelApacheOrgBuildV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#secret_key_ref DataK8SCamelApacheOrgBuildV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenSettingsSecretKeyRef;
 }
@@ -4343,19 +4343,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenSettin
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4506,19 +4506,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenSettin
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4669,13 +4669,13 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenSettin
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgBuildV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgBuildV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenSettingsSecurityConfigMapKeyRef;
   /**
   * Selects a key of a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#secret_key_ref DataK8SCamelApacheOrgBuildV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#secret_key_ref DataK8SCamelApacheOrgBuildV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenSettingsSecuritySecretKeyRef;
 }
@@ -4800,61 +4800,61 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMaven {
   /**
   * The Secrets name and key, containing the CA certificate(s) used to connect to remote Maven repositories. It can contain X.509 certificates, and PKCS#7 formatted certificate chains. A JKS formatted keystore is automatically created to store the CA certificate(s), and configured to be used as a trusted certificate(s) by the Maven commands. Note that the root CA certificates are also imported into the created keystore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#ca_secrets DataK8SCamelApacheOrgBuildV1Manifest#ca_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#ca_secrets DataK8SCamelApacheOrgBuildV1Manifest#ca_secrets}
   */
   readonly caSecrets?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenCaSecrets[] | cdktf.IResolvable;
   /**
   * The CLI options that are appended to the list of arguments for Maven commands, e.g., '-V,--no-transfer-progress,-Dstyle.color=never'. See https://maven.apache.org/ref/3.8.4/maven-embedder/cli.html.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#cli_options DataK8SCamelApacheOrgBuildV1Manifest#cli_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#cli_options DataK8SCamelApacheOrgBuildV1Manifest#cli_options}
   */
   readonly cliOptions?: string[];
   /**
   * The Maven build extensions. See https://maven.apache.org/guides/mini/guide-using-extensions.html.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#extension DataK8SCamelApacheOrgBuildV1Manifest#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#extension DataK8SCamelApacheOrgBuildV1Manifest#extension}
   */
   readonly extension?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenExtension[] | cdktf.IResolvable;
   /**
   * The path of the local Maven repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#local_repository DataK8SCamelApacheOrgBuildV1Manifest#local_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#local_repository DataK8SCamelApacheOrgBuildV1Manifest#local_repository}
   */
   readonly localRepository?: string;
   /**
   * A reference to the ConfigMap or Secret key that contains the Maven profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#profiles DataK8SCamelApacheOrgBuildV1Manifest#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#profiles DataK8SCamelApacheOrgBuildV1Manifest#profiles}
   */
   readonly profiles?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenProfiles[] | cdktf.IResolvable;
   /**
   * The Maven properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#properties DataK8SCamelApacheOrgBuildV1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#properties DataK8SCamelApacheOrgBuildV1Manifest#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * additional repositories
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#repositories DataK8SCamelApacheOrgBuildV1Manifest#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#repositories DataK8SCamelApacheOrgBuildV1Manifest#repositories}
   */
   readonly repositories?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenRepositories[] | cdktf.IResolvable;
   /**
   * Servers (auth)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#servers DataK8SCamelApacheOrgBuildV1Manifest#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#servers DataK8SCamelApacheOrgBuildV1Manifest#servers}
   */
   readonly servers?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenServers[] | cdktf.IResolvable;
   /**
   * A reference to the ConfigMap or Secret key that contains the Maven settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#settings DataK8SCamelApacheOrgBuildV1Manifest#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#settings DataK8SCamelApacheOrgBuildV1Manifest#settings}
   */
   readonly settings?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenSettings;
   /**
   * A reference to the ConfigMap or Secret key that contains the security of the Maven settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#settings_security DataK8SCamelApacheOrgBuildV1Manifest#settings_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#settings_security DataK8SCamelApacheOrgBuildV1Manifest#settings_security}
   */
   readonly settingsSecurity?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenSettingsSecurity;
 }
@@ -5209,11 +5209,11 @@ export class DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMavenOutputRefe
 }
 export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderRuntimeCapabilitiesBuildTimeProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#value DataK8SCamelApacheOrgBuildV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#value DataK8SCamelApacheOrgBuildV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5357,31 +5357,31 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderRuntimeCapa
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#artifact_id DataK8SCamelApacheOrgBuildV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#artifact_id DataK8SCamelApacheOrgBuildV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Classifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#classifier DataK8SCamelApacheOrgBuildV1Manifest#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#classifier DataK8SCamelApacheOrgBuildV1Manifest#classifier}
   */
   readonly classifier?: string;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#group_id DataK8SCamelApacheOrgBuildV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#group_id DataK8SCamelApacheOrgBuildV1Manifest#group_id}
   */
   readonly groupId: string;
   /**
   * Maven Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#type DataK8SCamelApacheOrgBuildV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#type DataK8SCamelApacheOrgBuildV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Maven Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#version DataK8SCamelApacheOrgBuildV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#version DataK8SCamelApacheOrgBuildV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -5607,11 +5607,11 @@ export class DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderRuntimeCapabili
 }
 export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderRuntimeCapabilitiesRuntimeProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#value DataK8SCamelApacheOrgBuildV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#value DataK8SCamelApacheOrgBuildV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5755,25 +5755,25 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderRuntimeCapa
   /**
   * Set of required Camel build time properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#build_time_properties DataK8SCamelApacheOrgBuildV1Manifest#build_time_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#build_time_properties DataK8SCamelApacheOrgBuildV1Manifest#build_time_properties}
   */
   readonly buildTimeProperties?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderRuntimeCapabilitiesBuildTimeProperties[] | cdktf.IResolvable;
   /**
   * List of required Maven dependencies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#dependencies DataK8SCamelApacheOrgBuildV1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#dependencies DataK8SCamelApacheOrgBuildV1Manifest#dependencies}
   */
   readonly dependencies?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderRuntimeCapabilitiesDependencies[] | cdktf.IResolvable;
   /**
   * Set of generic metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#metadata DataK8SCamelApacheOrgBuildV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#metadata DataK8SCamelApacheOrgBuildV1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Set of required Camel runtime properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#runtime_properties DataK8SCamelApacheOrgBuildV1Manifest#runtime_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#runtime_properties DataK8SCamelApacheOrgBuildV1Manifest#runtime_properties}
   */
   readonly runtimeProperties?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderRuntimeCapabilitiesRuntimeProperties[] | cdktf.IResolvable;
 }
@@ -5956,31 +5956,31 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderRuntimeDepe
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#artifact_id DataK8SCamelApacheOrgBuildV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#artifact_id DataK8SCamelApacheOrgBuildV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Classifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#classifier DataK8SCamelApacheOrgBuildV1Manifest#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#classifier DataK8SCamelApacheOrgBuildV1Manifest#classifier}
   */
   readonly classifier?: string;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#group_id DataK8SCamelApacheOrgBuildV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#group_id DataK8SCamelApacheOrgBuildV1Manifest#group_id}
   */
   readonly groupId: string;
   /**
   * Maven Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#type DataK8SCamelApacheOrgBuildV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#type DataK8SCamelApacheOrgBuildV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Maven Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#version DataK8SCamelApacheOrgBuildV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#version DataK8SCamelApacheOrgBuildV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -6208,37 +6208,37 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderRuntime {
   /**
   * application entry point (main) to be executed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#application_class DataK8SCamelApacheOrgBuildV1Manifest#application_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#application_class DataK8SCamelApacheOrgBuildV1Manifest#application_class}
   */
   readonly applicationClass: string;
   /**
   * features offered by this runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#capabilities DataK8SCamelApacheOrgBuildV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#capabilities DataK8SCamelApacheOrgBuildV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderRuntimeCapabilities;
   /**
   * list of dependencies needed to run the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#dependencies DataK8SCamelApacheOrgBuildV1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#dependencies DataK8SCamelApacheOrgBuildV1Manifest#dependencies}
   */
   readonly dependencies: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderRuntimeDependencies[] | cdktf.IResolvable;
   /**
   * set of metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#metadata DataK8SCamelApacheOrgBuildV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#metadata DataK8SCamelApacheOrgBuildV1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Camel main application provider, ie, Camel Quarkus
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#provider DataK8SCamelApacheOrgBuildV1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#provider DataK8SCamelApacheOrgBuildV1Manifest#provider}
   */
   readonly provider: string;
   /**
   * Camel K Runtime version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#version DataK8SCamelApacheOrgBuildV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#version DataK8SCamelApacheOrgBuildV1Manifest#version}
   */
   readonly version: string;
 }
@@ -6467,85 +6467,85 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderSources {
   /**
   * if the content is compressed (base64 encrypted)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#compression DataK8SCamelApacheOrgBuildV1Manifest#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#compression DataK8SCamelApacheOrgBuildV1Manifest#compression}
   */
   readonly compression?: boolean | cdktf.IResolvable;
   /**
   * the source code (plain text)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#content DataK8SCamelApacheOrgBuildV1Manifest#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#content DataK8SCamelApacheOrgBuildV1Manifest#content}
   */
   readonly content?: string;
   /**
   * the confimap key holding the source content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#content_key DataK8SCamelApacheOrgBuildV1Manifest#content_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#content_key DataK8SCamelApacheOrgBuildV1Manifest#content_key}
   */
   readonly contentKey?: string;
   /**
   * the confimap reference holding the source content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#content_ref DataK8SCamelApacheOrgBuildV1Manifest#content_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#content_ref DataK8SCamelApacheOrgBuildV1Manifest#content_ref}
   */
   readonly contentRef?: string;
   /**
   * the content type (tipically text or binary)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#content_type DataK8SCamelApacheOrgBuildV1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#content_type DataK8SCamelApacheOrgBuildV1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
   * True if the spec is generated from a Kamelet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#from_kamelet DataK8SCamelApacheOrgBuildV1Manifest#from_kamelet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#from_kamelet DataK8SCamelApacheOrgBuildV1Manifest#from_kamelet}
   */
   readonly fromKamelet?: boolean | cdktf.IResolvable;
   /**
   * Interceptors are optional identifiers the org.apache.camel.k.RoutesLoader uses to pre/post process sources Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#interceptors DataK8SCamelApacheOrgBuildV1Manifest#interceptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#interceptors DataK8SCamelApacheOrgBuildV1Manifest#interceptors}
   */
   readonly interceptors?: string[];
   /**
   * specify which is the language (Camel DSL) used to interpret this source code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#language DataK8SCamelApacheOrgBuildV1Manifest#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#language DataK8SCamelApacheOrgBuildV1Manifest#language}
   */
   readonly language?: string;
   /**
   * Loader is an optional id of the org.apache.camel.k.RoutesLoader that will interpret this source at runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#loader DataK8SCamelApacheOrgBuildV1Manifest#loader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#loader DataK8SCamelApacheOrgBuildV1Manifest#loader}
   */
   readonly loader?: string;
   /**
   * the name of the specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * the path where the file is stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#path DataK8SCamelApacheOrgBuildV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#path DataK8SCamelApacheOrgBuildV1Manifest#path}
   */
   readonly path?: string;
   /**
   * List of property names defined in the source (e.g. if type is 'template')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#property_names DataK8SCamelApacheOrgBuildV1Manifest#property_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#property_names DataK8SCamelApacheOrgBuildV1Manifest#property_names}
   */
   readonly propertyNames?: string[];
   /**
   * the source code (binary)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#raw_content DataK8SCamelApacheOrgBuildV1Manifest#raw_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#raw_content DataK8SCamelApacheOrgBuildV1Manifest#raw_content}
   */
   readonly rawContent?: string;
   /**
   * Type defines the kind of source described by this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#type DataK8SCamelApacheOrgBuildV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#type DataK8SCamelApacheOrgBuildV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -7040,55 +7040,55 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilder {
   /**
   * the base image layer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#base_image DataK8SCamelApacheOrgBuildV1Manifest#base_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#base_image DataK8SCamelApacheOrgBuildV1Manifest#base_image}
   */
   readonly baseImage?: string;
   /**
   * workspace directory to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#build_dir DataK8SCamelApacheOrgBuildV1Manifest#build_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#build_dir DataK8SCamelApacheOrgBuildV1Manifest#build_dir}
   */
   readonly buildDir?: string;
   /**
   * The configuration that should be used to perform the Build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
   */
   readonly configuration?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderConfiguration;
   /**
   * the list of dependencies to use for this build
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#dependencies DataK8SCamelApacheOrgBuildV1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#dependencies DataK8SCamelApacheOrgBuildV1Manifest#dependencies}
   */
   readonly dependencies?: string[];
   /**
   * the configuration required by Maven for the application build phase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#maven DataK8SCamelApacheOrgBuildV1Manifest#maven}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#maven DataK8SCamelApacheOrgBuildV1Manifest#maven}
   */
   readonly maven?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderMaven;
   /**
   * name of the task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * the configuration required for the runtime application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#runtime DataK8SCamelApacheOrgBuildV1Manifest#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#runtime DataK8SCamelApacheOrgBuildV1Manifest#runtime}
   */
   readonly runtime?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderRuntime;
   /**
   * the sources to add at build time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#sources DataK8SCamelApacheOrgBuildV1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#sources DataK8SCamelApacheOrgBuildV1Manifest#sources}
   */
   readonly sources?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilderSources[] | cdktf.IResolvable;
   /**
   * the list of steps to execute (see pkg/builder/)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#steps DataK8SCamelApacheOrgBuildV1Manifest#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#steps DataK8SCamelApacheOrgBuildV1Manifest#steps}
   */
   readonly steps?: string[];
 }
@@ -7416,67 +7416,67 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksCustomConfiguratio
   /**
   * Annotation to use for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The maximum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
   */
   readonly limitCpu?: string;
   /**
   * The maximum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
   */
   readonly limitMemory?: string;
   /**
   * The node selector for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * The namespace where to run the builder Pod (must be the same of the operator in charge of this Build reconciliation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
   */
   readonly operatorNamespace?: string;
   /**
   * the build order strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
   */
   readonly orderStrategy?: string;
   /**
   * The list of platforms used in order to build a container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
   */
   readonly platforms?: string[];
   /**
   * The minimum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
   */
   readonly requestCpu?: string;
   /**
   * The minimum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
   */
   readonly requestMemory?: string;
   /**
   * the strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
   */
   readonly strategy?: string;
   /**
   * The container image to be used to run the build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
   */
   readonly toolImage?: string;
 }
@@ -7862,43 +7862,43 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksCustom {
   /**
   * the command to execute Deprecated: use ContainerCommands
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#command DataK8SCamelApacheOrgBuildV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#command DataK8SCamelApacheOrgBuildV1Manifest#command}
   */
   readonly command?: string;
   /**
   * the command to execute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#commands DataK8SCamelApacheOrgBuildV1Manifest#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#commands DataK8SCamelApacheOrgBuildV1Manifest#commands}
   */
   readonly commands?: string[];
   /**
   * The configuration that should be used to perform the Build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
   */
   readonly configuration?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksCustomConfiguration;
   /**
   * the container image to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#image DataK8SCamelApacheOrgBuildV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#image DataK8SCamelApacheOrgBuildV1Manifest#image}
   */
   readonly image?: string;
   /**
   * name of the task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * the desired image build name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#publishing_image DataK8SCamelApacheOrgBuildV1Manifest#publishing_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#publishing_image DataK8SCamelApacheOrgBuildV1Manifest#publishing_image}
   */
   readonly publishingImage?: string;
   /**
   * the user id used to run the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#user_id DataK8SCamelApacheOrgBuildV1Manifest#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#user_id DataK8SCamelApacheOrgBuildV1Manifest#user_id}
   */
   readonly userId?: number;
 }
@@ -8168,67 +8168,67 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksJibConfiguration {
   /**
   * Annotation to use for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The maximum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
   */
   readonly limitCpu?: string;
   /**
   * The maximum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
   */
   readonly limitMemory?: string;
   /**
   * The node selector for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * The namespace where to run the builder Pod (must be the same of the operator in charge of this Build reconciliation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
   */
   readonly operatorNamespace?: string;
   /**
   * the build order strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
   */
   readonly orderStrategy?: string;
   /**
   * The list of platforms used in order to build a container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
   */
   readonly platforms?: string[];
   /**
   * The minimum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
   */
   readonly requestCpu?: string;
   /**
   * The minimum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
   */
   readonly requestMemory?: string;
   /**
   * the strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
   */
   readonly strategy?: string;
   /**
   * The container image to be used to run the build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
   */
   readonly toolImage?: string;
 }
@@ -8614,31 +8614,31 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksJibRegistry {
   /**
   * the URI to access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#address DataK8SCamelApacheOrgBuildV1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#address DataK8SCamelApacheOrgBuildV1Manifest#address}
   */
   readonly address?: string;
   /**
   * the configmap which stores the Certificate Authority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#ca DataK8SCamelApacheOrgBuildV1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#ca DataK8SCamelApacheOrgBuildV1Manifest#ca}
   */
   readonly ca?: string;
   /**
   * if the container registry is insecure (ie, http only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#insecure DataK8SCamelApacheOrgBuildV1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#insecure DataK8SCamelApacheOrgBuildV1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * the registry organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#organization DataK8SCamelApacheOrgBuildV1Manifest#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#organization DataK8SCamelApacheOrgBuildV1Manifest#organization}
   */
   readonly organization?: string;
   /**
   * the secret where credentials are stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#secret DataK8SCamelApacheOrgBuildV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#secret DataK8SCamelApacheOrgBuildV1Manifest#secret}
   */
   readonly secret?: string;
 }
@@ -8850,37 +8850,37 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksJib {
   /**
   * base image layer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#base_image DataK8SCamelApacheOrgBuildV1Manifest#base_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#base_image DataK8SCamelApacheOrgBuildV1Manifest#base_image}
   */
   readonly baseImage?: string;
   /**
   * The configuration that should be used to perform the Build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
   */
   readonly configuration?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksJibConfiguration;
   /**
   * can be useful to share info with other tasks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#context_dir DataK8SCamelApacheOrgBuildV1Manifest#context_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#context_dir DataK8SCamelApacheOrgBuildV1Manifest#context_dir}
   */
   readonly contextDir?: string;
   /**
   * final image name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#image DataK8SCamelApacheOrgBuildV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#image DataK8SCamelApacheOrgBuildV1Manifest#image}
   */
   readonly image?: string;
   /**
   * name of the task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * where to publish the final image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#registry DataK8SCamelApacheOrgBuildV1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#registry DataK8SCamelApacheOrgBuildV1Manifest#registry}
   */
   readonly registry?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksJibRegistry;
 }
@@ -9121,13 +9121,13 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksKanikoCache {
   /**
   * true if a cache is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#enabled DataK8SCamelApacheOrgBuildV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#enabled DataK8SCamelApacheOrgBuildV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * the PVC used to store the cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#persistent_volume_claim DataK8SCamelApacheOrgBuildV1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#persistent_volume_claim DataK8SCamelApacheOrgBuildV1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: string;
 }
@@ -9252,67 +9252,67 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksKanikoConfiguratio
   /**
   * Annotation to use for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The maximum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
   */
   readonly limitCpu?: string;
   /**
   * The maximum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
   */
   readonly limitMemory?: string;
   /**
   * The node selector for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * The namespace where to run the builder Pod (must be the same of the operator in charge of this Build reconciliation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
   */
   readonly operatorNamespace?: string;
   /**
   * the build order strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
   */
   readonly orderStrategy?: string;
   /**
   * The list of platforms used in order to build a container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
   */
   readonly platforms?: string[];
   /**
   * The minimum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
   */
   readonly requestCpu?: string;
   /**
   * The minimum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
   */
   readonly requestMemory?: string;
   /**
   * the strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
   */
   readonly strategy?: string;
   /**
   * The container image to be used to run the build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
   */
   readonly toolImage?: string;
 }
@@ -9698,31 +9698,31 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksKanikoRegistry {
   /**
   * the URI to access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#address DataK8SCamelApacheOrgBuildV1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#address DataK8SCamelApacheOrgBuildV1Manifest#address}
   */
   readonly address?: string;
   /**
   * the configmap which stores the Certificate Authority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#ca DataK8SCamelApacheOrgBuildV1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#ca DataK8SCamelApacheOrgBuildV1Manifest#ca}
   */
   readonly ca?: string;
   /**
   * if the container registry is insecure (ie, http only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#insecure DataK8SCamelApacheOrgBuildV1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#insecure DataK8SCamelApacheOrgBuildV1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * the registry organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#organization DataK8SCamelApacheOrgBuildV1Manifest#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#organization DataK8SCamelApacheOrgBuildV1Manifest#organization}
   */
   readonly organization?: string;
   /**
   * the secret where credentials are stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#secret DataK8SCamelApacheOrgBuildV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#secret DataK8SCamelApacheOrgBuildV1Manifest#secret}
   */
   readonly secret?: string;
 }
@@ -9934,55 +9934,55 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksKaniko {
   /**
   * base image layer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#base_image DataK8SCamelApacheOrgBuildV1Manifest#base_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#base_image DataK8SCamelApacheOrgBuildV1Manifest#base_image}
   */
   readonly baseImage?: string;
   /**
   * use a cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#cache DataK8SCamelApacheOrgBuildV1Manifest#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#cache DataK8SCamelApacheOrgBuildV1Manifest#cache}
   */
   readonly cache?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksKanikoCache;
   /**
   * The configuration that should be used to perform the Build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
   */
   readonly configuration?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksKanikoConfiguration;
   /**
   * can be useful to share info with other tasks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#context_dir DataK8SCamelApacheOrgBuildV1Manifest#context_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#context_dir DataK8SCamelApacheOrgBuildV1Manifest#context_dir}
   */
   readonly contextDir?: string;
   /**
   * docker image to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#executor_image DataK8SCamelApacheOrgBuildV1Manifest#executor_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#executor_image DataK8SCamelApacheOrgBuildV1Manifest#executor_image}
   */
   readonly executorImage?: string;
   /**
   * final image name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#image DataK8SCamelApacheOrgBuildV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#image DataK8SCamelApacheOrgBuildV1Manifest#image}
   */
   readonly image?: string;
   /**
   * name of the task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * where to publish the final image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#registry DataK8SCamelApacheOrgBuildV1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#registry DataK8SCamelApacheOrgBuildV1Manifest#registry}
   */
   readonly registry?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksKanikoRegistry;
   /**
   * log more information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#verbose DataK8SCamelApacheOrgBuildV1Manifest#verbose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#verbose DataK8SCamelApacheOrgBuildV1Manifest#verbose}
   */
   readonly verbose?: boolean | cdktf.IResolvable;
 }
@@ -10310,67 +10310,67 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageConfigurati
   /**
   * Annotation to use for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The maximum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
   */
   readonly limitCpu?: string;
   /**
   * The maximum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
   */
   readonly limitMemory?: string;
   /**
   * The node selector for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * The namespace where to run the builder Pod (must be the same of the operator in charge of this Build reconciliation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
   */
   readonly operatorNamespace?: string;
   /**
   * the build order strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
   */
   readonly orderStrategy?: string;
   /**
   * The list of platforms used in order to build a container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
   */
   readonly platforms?: string[];
   /**
   * The minimum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
   */
   readonly requestCpu?: string;
   /**
   * The minimum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
   */
   readonly requestMemory?: string;
   /**
   * the strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
   */
   readonly strategy?: string;
   /**
   * The container image to be used to run the build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
   */
   readonly toolImage?: string;
 }
@@ -10756,19 +10756,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenCaSecr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10941,31 +10941,31 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenExtens
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#artifact_id DataK8SCamelApacheOrgBuildV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#artifact_id DataK8SCamelApacheOrgBuildV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Classifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#classifier DataK8SCamelApacheOrgBuildV1Manifest#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#classifier DataK8SCamelApacheOrgBuildV1Manifest#classifier}
   */
   readonly classifier?: string;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#group_id DataK8SCamelApacheOrgBuildV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#group_id DataK8SCamelApacheOrgBuildV1Manifest#group_id}
   */
   readonly groupId: string;
   /**
   * Maven Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#type DataK8SCamelApacheOrgBuildV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#type DataK8SCamelApacheOrgBuildV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Maven Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#version DataK8SCamelApacheOrgBuildV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#version DataK8SCamelApacheOrgBuildV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -11193,19 +11193,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenProfil
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11356,19 +11356,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenProfil
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11519,13 +11519,13 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenProfil
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgBuildV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgBuildV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenProfilesConfigMapKeyRef;
   /**
   * Selects a key of a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#secret_key_ref DataK8SCamelApacheOrgBuildV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#secret_key_ref DataK8SCamelApacheOrgBuildV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenProfilesSecretKeyRef;
 }
@@ -11672,19 +11672,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenReposi
   /**
   * When Maven deploys files to the repository, it also deploys corresponding checksum files. Your options are to 'ignore', 'fail', or 'warn' on missing or incorrect checksums.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#checksum_policy DataK8SCamelApacheOrgBuildV1Manifest#checksum_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#checksum_policy DataK8SCamelApacheOrgBuildV1Manifest#checksum_policy}
   */
   readonly checksumPolicy?: string;
   /**
   * is the policy activated or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#enabled DataK8SCamelApacheOrgBuildV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#enabled DataK8SCamelApacheOrgBuildV1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * This element specifies how often updates should attempt to occur. Maven will compare the local POM's timestamp (stored in a repository's maven-metadata file) to the remote. The choices are: 'always', 'daily' (default), 'interval:X' (where X is an integer in minutes) or 'never'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#update_policy DataK8SCamelApacheOrgBuildV1Manifest#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#update_policy DataK8SCamelApacheOrgBuildV1Manifest#update_policy}
   */
   readonly updatePolicy?: string;
 }
@@ -11835,19 +11835,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenReposi
   /**
   * When Maven deploys files to the repository, it also deploys corresponding checksum files. Your options are to 'ignore', 'fail', or 'warn' on missing or incorrect checksums.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#checksum_policy DataK8SCamelApacheOrgBuildV1Manifest#checksum_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#checksum_policy DataK8SCamelApacheOrgBuildV1Manifest#checksum_policy}
   */
   readonly checksumPolicy?: string;
   /**
   * is the policy activated or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#enabled DataK8SCamelApacheOrgBuildV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#enabled DataK8SCamelApacheOrgBuildV1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * This element specifies how often updates should attempt to occur. Maven will compare the local POM's timestamp (stored in a repository's maven-metadata file) to the remote. The choices are: 'always', 'daily' (default), 'interval:X' (where X is an integer in minutes) or 'never'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#update_policy DataK8SCamelApacheOrgBuildV1Manifest#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#update_policy DataK8SCamelApacheOrgBuildV1Manifest#update_policy}
   */
   readonly updatePolicy?: string;
 }
@@ -11998,7 +11998,7 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenReposi
   /**
   * identifies the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#id DataK8SCamelApacheOrgBuildV1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#id DataK8SCamelApacheOrgBuildV1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -12007,25 +12007,25 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenReposi
   /**
   * name of the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * can use stable releases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#releases DataK8SCamelApacheOrgBuildV1Manifest#releases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#releases DataK8SCamelApacheOrgBuildV1Manifest#releases}
   */
   readonly releases?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenRepositoriesReleases;
   /**
   * can use snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#snapshots DataK8SCamelApacheOrgBuildV1Manifest#snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#snapshots DataK8SCamelApacheOrgBuildV1Manifest#snapshots}
   */
   readonly snapshots?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenRepositoriesSnapshots;
   /**
   * location of the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#url DataK8SCamelApacheOrgBuildV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#url DataK8SCamelApacheOrgBuildV1Manifest#url}
   */
   readonly url: string;
 }
@@ -12253,22 +12253,22 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenServer
   /**
   * Properties -- .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#id DataK8SCamelApacheOrgBuildV1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#id DataK8SCamelApacheOrgBuildV1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#password DataK8SCamelApacheOrgBuildV1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#password DataK8SCamelApacheOrgBuildV1Manifest#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#username DataK8SCamelApacheOrgBuildV1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#username DataK8SCamelApacheOrgBuildV1Manifest#username}
   */
   readonly username?: string;
 }
@@ -12473,19 +12473,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenSettin
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12636,19 +12636,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenSettin
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12799,13 +12799,13 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenSettin
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgBuildV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgBuildV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenSettingsConfigMapKeyRef;
   /**
   * Selects a key of a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#secret_key_ref DataK8SCamelApacheOrgBuildV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#secret_key_ref DataK8SCamelApacheOrgBuildV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenSettingsSecretKeyRef;
 }
@@ -12930,19 +12930,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenSettin
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13093,19 +13093,19 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenSettin
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#optional DataK8SCamelApacheOrgBuildV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13256,13 +13256,13 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenSettin
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgBuildV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#config_map_key_ref DataK8SCamelApacheOrgBuildV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenSettingsSecurityConfigMapKeyRef;
   /**
   * Selects a key of a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#secret_key_ref DataK8SCamelApacheOrgBuildV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#secret_key_ref DataK8SCamelApacheOrgBuildV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenSettingsSecuritySecretKeyRef;
 }
@@ -13387,61 +13387,61 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMaven {
   /**
   * The Secrets name and key, containing the CA certificate(s) used to connect to remote Maven repositories. It can contain X.509 certificates, and PKCS#7 formatted certificate chains. A JKS formatted keystore is automatically created to store the CA certificate(s), and configured to be used as a trusted certificate(s) by the Maven commands. Note that the root CA certificates are also imported into the created keystore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#ca_secrets DataK8SCamelApacheOrgBuildV1Manifest#ca_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#ca_secrets DataK8SCamelApacheOrgBuildV1Manifest#ca_secrets}
   */
   readonly caSecrets?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenCaSecrets[] | cdktf.IResolvable;
   /**
   * The CLI options that are appended to the list of arguments for Maven commands, e.g., '-V,--no-transfer-progress,-Dstyle.color=never'. See https://maven.apache.org/ref/3.8.4/maven-embedder/cli.html.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#cli_options DataK8SCamelApacheOrgBuildV1Manifest#cli_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#cli_options DataK8SCamelApacheOrgBuildV1Manifest#cli_options}
   */
   readonly cliOptions?: string[];
   /**
   * The Maven build extensions. See https://maven.apache.org/guides/mini/guide-using-extensions.html.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#extension DataK8SCamelApacheOrgBuildV1Manifest#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#extension DataK8SCamelApacheOrgBuildV1Manifest#extension}
   */
   readonly extension?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenExtension[] | cdktf.IResolvable;
   /**
   * The path of the local Maven repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#local_repository DataK8SCamelApacheOrgBuildV1Manifest#local_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#local_repository DataK8SCamelApacheOrgBuildV1Manifest#local_repository}
   */
   readonly localRepository?: string;
   /**
   * A reference to the ConfigMap or Secret key that contains the Maven profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#profiles DataK8SCamelApacheOrgBuildV1Manifest#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#profiles DataK8SCamelApacheOrgBuildV1Manifest#profiles}
   */
   readonly profiles?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenProfiles[] | cdktf.IResolvable;
   /**
   * The Maven properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#properties DataK8SCamelApacheOrgBuildV1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#properties DataK8SCamelApacheOrgBuildV1Manifest#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * additional repositories
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#repositories DataK8SCamelApacheOrgBuildV1Manifest#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#repositories DataK8SCamelApacheOrgBuildV1Manifest#repositories}
   */
   readonly repositories?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenRepositories[] | cdktf.IResolvable;
   /**
   * Servers (auth)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#servers DataK8SCamelApacheOrgBuildV1Manifest#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#servers DataK8SCamelApacheOrgBuildV1Manifest#servers}
   */
   readonly servers?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenServers[] | cdktf.IResolvable;
   /**
   * A reference to the ConfigMap or Secret key that contains the Maven settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#settings DataK8SCamelApacheOrgBuildV1Manifest#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#settings DataK8SCamelApacheOrgBuildV1Manifest#settings}
   */
   readonly settings?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenSettings;
   /**
   * A reference to the ConfigMap or Secret key that contains the security of the Maven settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#settings_security DataK8SCamelApacheOrgBuildV1Manifest#settings_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#settings_security DataK8SCamelApacheOrgBuildV1Manifest#settings_security}
   */
   readonly settingsSecurity?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenSettingsSecurity;
 }
@@ -13796,11 +13796,11 @@ export class DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMavenOutputRefe
 }
 export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageRuntimeCapabilitiesBuildTimeProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#value DataK8SCamelApacheOrgBuildV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#value DataK8SCamelApacheOrgBuildV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -13944,31 +13944,31 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageRuntimeCapa
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#artifact_id DataK8SCamelApacheOrgBuildV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#artifact_id DataK8SCamelApacheOrgBuildV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Classifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#classifier DataK8SCamelApacheOrgBuildV1Manifest#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#classifier DataK8SCamelApacheOrgBuildV1Manifest#classifier}
   */
   readonly classifier?: string;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#group_id DataK8SCamelApacheOrgBuildV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#group_id DataK8SCamelApacheOrgBuildV1Manifest#group_id}
   */
   readonly groupId: string;
   /**
   * Maven Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#type DataK8SCamelApacheOrgBuildV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#type DataK8SCamelApacheOrgBuildV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Maven Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#version DataK8SCamelApacheOrgBuildV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#version DataK8SCamelApacheOrgBuildV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -14194,11 +14194,11 @@ export class DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageRuntimeCapabili
 }
 export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageRuntimeCapabilitiesRuntimeProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#key DataK8SCamelApacheOrgBuildV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#value DataK8SCamelApacheOrgBuildV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#value DataK8SCamelApacheOrgBuildV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -14342,25 +14342,25 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageRuntimeCapa
   /**
   * Set of required Camel build time properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#build_time_properties DataK8SCamelApacheOrgBuildV1Manifest#build_time_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#build_time_properties DataK8SCamelApacheOrgBuildV1Manifest#build_time_properties}
   */
   readonly buildTimeProperties?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageRuntimeCapabilitiesBuildTimeProperties[] | cdktf.IResolvable;
   /**
   * List of required Maven dependencies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#dependencies DataK8SCamelApacheOrgBuildV1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#dependencies DataK8SCamelApacheOrgBuildV1Manifest#dependencies}
   */
   readonly dependencies?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageRuntimeCapabilitiesDependencies[] | cdktf.IResolvable;
   /**
   * Set of generic metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#metadata DataK8SCamelApacheOrgBuildV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#metadata DataK8SCamelApacheOrgBuildV1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Set of required Camel runtime properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#runtime_properties DataK8SCamelApacheOrgBuildV1Manifest#runtime_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#runtime_properties DataK8SCamelApacheOrgBuildV1Manifest#runtime_properties}
   */
   readonly runtimeProperties?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageRuntimeCapabilitiesRuntimeProperties[] | cdktf.IResolvable;
 }
@@ -14543,31 +14543,31 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageRuntimeDepe
   /**
   * Maven Artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#artifact_id DataK8SCamelApacheOrgBuildV1Manifest#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#artifact_id DataK8SCamelApacheOrgBuildV1Manifest#artifact_id}
   */
   readonly artifactId: string;
   /**
   * Maven Classifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#classifier DataK8SCamelApacheOrgBuildV1Manifest#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#classifier DataK8SCamelApacheOrgBuildV1Manifest#classifier}
   */
   readonly classifier?: string;
   /**
   * Maven Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#group_id DataK8SCamelApacheOrgBuildV1Manifest#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#group_id DataK8SCamelApacheOrgBuildV1Manifest#group_id}
   */
   readonly groupId: string;
   /**
   * Maven Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#type DataK8SCamelApacheOrgBuildV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#type DataK8SCamelApacheOrgBuildV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Maven Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#version DataK8SCamelApacheOrgBuildV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#version DataK8SCamelApacheOrgBuildV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -14795,37 +14795,37 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageRuntime {
   /**
   * application entry point (main) to be executed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#application_class DataK8SCamelApacheOrgBuildV1Manifest#application_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#application_class DataK8SCamelApacheOrgBuildV1Manifest#application_class}
   */
   readonly applicationClass: string;
   /**
   * features offered by this runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#capabilities DataK8SCamelApacheOrgBuildV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#capabilities DataK8SCamelApacheOrgBuildV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageRuntimeCapabilities;
   /**
   * list of dependencies needed to run the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#dependencies DataK8SCamelApacheOrgBuildV1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#dependencies DataK8SCamelApacheOrgBuildV1Manifest#dependencies}
   */
   readonly dependencies: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageRuntimeDependencies[] | cdktf.IResolvable;
   /**
   * set of metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#metadata DataK8SCamelApacheOrgBuildV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#metadata DataK8SCamelApacheOrgBuildV1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Camel main application provider, ie, Camel Quarkus
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#provider DataK8SCamelApacheOrgBuildV1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#provider DataK8SCamelApacheOrgBuildV1Manifest#provider}
   */
   readonly provider: string;
   /**
   * Camel K Runtime version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#version DataK8SCamelApacheOrgBuildV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#version DataK8SCamelApacheOrgBuildV1Manifest#version}
   */
   readonly version: string;
 }
@@ -15054,85 +15054,85 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageSources {
   /**
   * if the content is compressed (base64 encrypted)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#compression DataK8SCamelApacheOrgBuildV1Manifest#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#compression DataK8SCamelApacheOrgBuildV1Manifest#compression}
   */
   readonly compression?: boolean | cdktf.IResolvable;
   /**
   * the source code (plain text)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#content DataK8SCamelApacheOrgBuildV1Manifest#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#content DataK8SCamelApacheOrgBuildV1Manifest#content}
   */
   readonly content?: string;
   /**
   * the confimap key holding the source content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#content_key DataK8SCamelApacheOrgBuildV1Manifest#content_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#content_key DataK8SCamelApacheOrgBuildV1Manifest#content_key}
   */
   readonly contentKey?: string;
   /**
   * the confimap reference holding the source content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#content_ref DataK8SCamelApacheOrgBuildV1Manifest#content_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#content_ref DataK8SCamelApacheOrgBuildV1Manifest#content_ref}
   */
   readonly contentRef?: string;
   /**
   * the content type (tipically text or binary)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#content_type DataK8SCamelApacheOrgBuildV1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#content_type DataK8SCamelApacheOrgBuildV1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
   * True if the spec is generated from a Kamelet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#from_kamelet DataK8SCamelApacheOrgBuildV1Manifest#from_kamelet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#from_kamelet DataK8SCamelApacheOrgBuildV1Manifest#from_kamelet}
   */
   readonly fromKamelet?: boolean | cdktf.IResolvable;
   /**
   * Interceptors are optional identifiers the org.apache.camel.k.RoutesLoader uses to pre/post process sources Deprecated: no longer in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#interceptors DataK8SCamelApacheOrgBuildV1Manifest#interceptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#interceptors DataK8SCamelApacheOrgBuildV1Manifest#interceptors}
   */
   readonly interceptors?: string[];
   /**
   * specify which is the language (Camel DSL) used to interpret this source code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#language DataK8SCamelApacheOrgBuildV1Manifest#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#language DataK8SCamelApacheOrgBuildV1Manifest#language}
   */
   readonly language?: string;
   /**
   * Loader is an optional id of the org.apache.camel.k.RoutesLoader that will interpret this source at runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#loader DataK8SCamelApacheOrgBuildV1Manifest#loader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#loader DataK8SCamelApacheOrgBuildV1Manifest#loader}
   */
   readonly loader?: string;
   /**
   * the name of the specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * the path where the file is stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#path DataK8SCamelApacheOrgBuildV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#path DataK8SCamelApacheOrgBuildV1Manifest#path}
   */
   readonly path?: string;
   /**
   * List of property names defined in the source (e.g. if type is 'template')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#property_names DataK8SCamelApacheOrgBuildV1Manifest#property_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#property_names DataK8SCamelApacheOrgBuildV1Manifest#property_names}
   */
   readonly propertyNames?: string[];
   /**
   * the source code (binary)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#raw_content DataK8SCamelApacheOrgBuildV1Manifest#raw_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#raw_content DataK8SCamelApacheOrgBuildV1Manifest#raw_content}
   */
   readonly rawContent?: string;
   /**
   * Type defines the kind of source described by this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#type DataK8SCamelApacheOrgBuildV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#type DataK8SCamelApacheOrgBuildV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -15627,55 +15627,55 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackage {
   /**
   * the base image layer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#base_image DataK8SCamelApacheOrgBuildV1Manifest#base_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#base_image DataK8SCamelApacheOrgBuildV1Manifest#base_image}
   */
   readonly baseImage?: string;
   /**
   * workspace directory to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#build_dir DataK8SCamelApacheOrgBuildV1Manifest#build_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#build_dir DataK8SCamelApacheOrgBuildV1Manifest#build_dir}
   */
   readonly buildDir?: string;
   /**
   * The configuration that should be used to perform the Build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
   */
   readonly configuration?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageConfiguration;
   /**
   * the list of dependencies to use for this build
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#dependencies DataK8SCamelApacheOrgBuildV1Manifest#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#dependencies DataK8SCamelApacheOrgBuildV1Manifest#dependencies}
   */
   readonly dependencies?: string[];
   /**
   * the configuration required by Maven for the application build phase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#maven DataK8SCamelApacheOrgBuildV1Manifest#maven}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#maven DataK8SCamelApacheOrgBuildV1Manifest#maven}
   */
   readonly maven?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageMaven;
   /**
   * name of the task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * the configuration required for the runtime application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#runtime DataK8SCamelApacheOrgBuildV1Manifest#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#runtime DataK8SCamelApacheOrgBuildV1Manifest#runtime}
   */
   readonly runtime?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageRuntime;
   /**
   * the sources to add at build time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#sources DataK8SCamelApacheOrgBuildV1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#sources DataK8SCamelApacheOrgBuildV1Manifest#sources}
   */
   readonly sources?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackageSources[] | cdktf.IResolvable;
   /**
   * the list of steps to execute (see pkg/builder/)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#steps DataK8SCamelApacheOrgBuildV1Manifest#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#steps DataK8SCamelApacheOrgBuildV1Manifest#steps}
   */
   readonly steps?: string[];
 }
@@ -16003,67 +16003,67 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksS2IConfiguration {
   /**
   * Annotation to use for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The maximum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
   */
   readonly limitCpu?: string;
   /**
   * The maximum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
   */
   readonly limitMemory?: string;
   /**
   * The node selector for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * The namespace where to run the builder Pod (must be the same of the operator in charge of this Build reconciliation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
   */
   readonly operatorNamespace?: string;
   /**
   * the build order strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
   */
   readonly orderStrategy?: string;
   /**
   * The list of platforms used in order to build a container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
   */
   readonly platforms?: string[];
   /**
   * The minimum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
   */
   readonly requestCpu?: string;
   /**
   * The minimum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
   */
   readonly requestMemory?: string;
   /**
   * the strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
   */
   readonly strategy?: string;
   /**
   * The container image to be used to run the build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
   */
   readonly toolImage?: string;
 }
@@ -16449,31 +16449,31 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksS2IRegistry {
   /**
   * the URI to access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#address DataK8SCamelApacheOrgBuildV1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#address DataK8SCamelApacheOrgBuildV1Manifest#address}
   */
   readonly address?: string;
   /**
   * the configmap which stores the Certificate Authority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#ca DataK8SCamelApacheOrgBuildV1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#ca DataK8SCamelApacheOrgBuildV1Manifest#ca}
   */
   readonly ca?: string;
   /**
   * if the container registry is insecure (ie, http only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#insecure DataK8SCamelApacheOrgBuildV1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#insecure DataK8SCamelApacheOrgBuildV1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * the registry organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#organization DataK8SCamelApacheOrgBuildV1Manifest#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#organization DataK8SCamelApacheOrgBuildV1Manifest#organization}
   */
   readonly organization?: string;
   /**
   * the secret where credentials are stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#secret DataK8SCamelApacheOrgBuildV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#secret DataK8SCamelApacheOrgBuildV1Manifest#secret}
   */
   readonly secret?: string;
 }
@@ -16685,43 +16685,43 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksS2I {
   /**
   * base image layer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#base_image DataK8SCamelApacheOrgBuildV1Manifest#base_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#base_image DataK8SCamelApacheOrgBuildV1Manifest#base_image}
   */
   readonly baseImage?: string;
   /**
   * The configuration that should be used to perform the Build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
   */
   readonly configuration?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksS2IConfiguration;
   /**
   * can be useful to share info with other tasks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#context_dir DataK8SCamelApacheOrgBuildV1Manifest#context_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#context_dir DataK8SCamelApacheOrgBuildV1Manifest#context_dir}
   */
   readonly contextDir?: string;
   /**
   * final image name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#image DataK8SCamelApacheOrgBuildV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#image DataK8SCamelApacheOrgBuildV1Manifest#image}
   */
   readonly image?: string;
   /**
   * name of the task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * where to publish the final image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#registry DataK8SCamelApacheOrgBuildV1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#registry DataK8SCamelApacheOrgBuildV1Manifest#registry}
   */
   readonly registry?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksS2IRegistry;
   /**
   * used by the ImageStream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#tag DataK8SCamelApacheOrgBuildV1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#tag DataK8SCamelApacheOrgBuildV1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -16991,67 +16991,67 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksSpectrumConfigurat
   /**
   * Annotation to use for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#annotations DataK8SCamelApacheOrgBuildV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The maximum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_cpu DataK8SCamelApacheOrgBuildV1Manifest#limit_cpu}
   */
   readonly limitCpu?: string;
   /**
   * The maximum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#limit_memory DataK8SCamelApacheOrgBuildV1Manifest#limit_memory}
   */
   readonly limitMemory?: string;
   /**
   * The node selector for the builder pod. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#node_selector DataK8SCamelApacheOrgBuildV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * The namespace where to run the builder Pod (must be the same of the operator in charge of this Build reconciliation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
   */
   readonly operatorNamespace?: string;
   /**
   * the build order strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#order_strategy DataK8SCamelApacheOrgBuildV1Manifest#order_strategy}
   */
   readonly orderStrategy?: string;
   /**
   * The list of platforms used in order to build a container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#platforms DataK8SCamelApacheOrgBuildV1Manifest#platforms}
   */
   readonly platforms?: string[];
   /**
   * The minimum amount of CPU required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_cpu DataK8SCamelApacheOrgBuildV1Manifest#request_cpu}
   */
   readonly requestCpu?: string;
   /**
   * The minimum amount of memory required. Only used for 'pod' strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#request_memory DataK8SCamelApacheOrgBuildV1Manifest#request_memory}
   */
   readonly requestMemory?: string;
   /**
   * the strategy to adopt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#strategy DataK8SCamelApacheOrgBuildV1Manifest#strategy}
   */
   readonly strategy?: string;
   /**
   * The container image to be used to run the build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
   */
   readonly toolImage?: string;
 }
@@ -17437,31 +17437,31 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksSpectrumRegistry {
   /**
   * the URI to access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#address DataK8SCamelApacheOrgBuildV1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#address DataK8SCamelApacheOrgBuildV1Manifest#address}
   */
   readonly address?: string;
   /**
   * the configmap which stores the Certificate Authority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#ca DataK8SCamelApacheOrgBuildV1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#ca DataK8SCamelApacheOrgBuildV1Manifest#ca}
   */
   readonly ca?: string;
   /**
   * if the container registry is insecure (ie, http only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#insecure DataK8SCamelApacheOrgBuildV1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#insecure DataK8SCamelApacheOrgBuildV1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * the registry organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#organization DataK8SCamelApacheOrgBuildV1Manifest#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#organization DataK8SCamelApacheOrgBuildV1Manifest#organization}
   */
   readonly organization?: string;
   /**
   * the secret where credentials are stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#secret DataK8SCamelApacheOrgBuildV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#secret DataK8SCamelApacheOrgBuildV1Manifest#secret}
   */
   readonly secret?: string;
 }
@@ -17673,37 +17673,37 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasksSpectrum {
   /**
   * base image layer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#base_image DataK8SCamelApacheOrgBuildV1Manifest#base_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#base_image DataK8SCamelApacheOrgBuildV1Manifest#base_image}
   */
   readonly baseImage?: string;
   /**
   * The configuration that should be used to perform the Build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
   */
   readonly configuration?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksSpectrumConfiguration;
   /**
   * can be useful to share info with other tasks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#context_dir DataK8SCamelApacheOrgBuildV1Manifest#context_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#context_dir DataK8SCamelApacheOrgBuildV1Manifest#context_dir}
   */
   readonly contextDir?: string;
   /**
   * final image name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#image DataK8SCamelApacheOrgBuildV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#image DataK8SCamelApacheOrgBuildV1Manifest#image}
   */
   readonly image?: string;
   /**
   * name of the task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#name DataK8SCamelApacheOrgBuildV1Manifest#name}
   */
   readonly name?: string;
   /**
   * where to publish the final image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#registry DataK8SCamelApacheOrgBuildV1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#registry DataK8SCamelApacheOrgBuildV1Manifest#registry}
   */
   readonly registry?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksSpectrumRegistry;
 }
@@ -17944,49 +17944,49 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpecTasks {
   /**
   * a BuildahTask, for Buildah strategy Deprecated: use jib, s2i or a custom publishing strategy instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#buildah DataK8SCamelApacheOrgBuildV1Manifest#buildah}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#buildah DataK8SCamelApacheOrgBuildV1Manifest#buildah}
   */
   readonly buildah?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuildah;
   /**
   * a BuilderTask, used to generate and build the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#builder DataK8SCamelApacheOrgBuildV1Manifest#builder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#builder DataK8SCamelApacheOrgBuildV1Manifest#builder}
   */
   readonly builder?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksBuilder;
   /**
   * User customizable task execution. These are executed after the build and before the package task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#custom DataK8SCamelApacheOrgBuildV1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#custom DataK8SCamelApacheOrgBuildV1Manifest#custom}
   */
   readonly custom?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksCustom;
   /**
   * a JibTask, for Jib strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#jib DataK8SCamelApacheOrgBuildV1Manifest#jib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#jib DataK8SCamelApacheOrgBuildV1Manifest#jib}
   */
   readonly jib?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksJib;
   /**
   * a KanikoTask, for Kaniko strategy Deprecated: use jib, s2i or a custom publishing strategy instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#kaniko DataK8SCamelApacheOrgBuildV1Manifest#kaniko}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#kaniko DataK8SCamelApacheOrgBuildV1Manifest#kaniko}
   */
   readonly kaniko?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksKaniko;
   /**
   * Application pre publishing a PackageTask, used to package the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#package DataK8SCamelApacheOrgBuildV1Manifest#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#package DataK8SCamelApacheOrgBuildV1Manifest#package}
   */
   readonly package?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksPackage;
   /**
   * a S2iTask, for S2I strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#s2i DataK8SCamelApacheOrgBuildV1Manifest#s2i}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#s2i DataK8SCamelApacheOrgBuildV1Manifest#s2i}
   */
   readonly s2I?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksS2I;
   /**
   * a SpectrumTask, for Spectrum strategy Deprecated: use jib, s2i or a custom publishing strategy instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#spectrum DataK8SCamelApacheOrgBuildV1Manifest#spectrum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#spectrum DataK8SCamelApacheOrgBuildV1Manifest#spectrum}
   */
   readonly spectrum?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasksSpectrum;
 }
@@ -18307,37 +18307,37 @@ export interface DataK8SCamelApacheOrgBuildV1ManifestSpec {
   /**
   * The configuration that should be used to perform the Build. Deprecated: no longer in use in Camel K 2 - maintained for backward compatibility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#configuration DataK8SCamelApacheOrgBuildV1Manifest#configuration}
   */
   readonly configuration?: DataK8SCamelApacheOrgBuildV1ManifestSpecConfiguration;
   /**
   * the maximum amount of parallel running builds started by this operator instance Deprecated: no longer in use in Camel K 2 - maintained for backward compatibility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#max_running_builds DataK8SCamelApacheOrgBuildV1Manifest#max_running_builds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#max_running_builds DataK8SCamelApacheOrgBuildV1Manifest#max_running_builds}
   */
   readonly maxRunningBuilds?: number;
   /**
   * The namespace where to run the builder Pod (must be the same of the operator in charge of this Build reconciliation). Deprecated: no longer in use in Camel K 2 - maintained for backward compatibility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#operator_namespace DataK8SCamelApacheOrgBuildV1Manifest#operator_namespace}
   */
   readonly operatorNamespace?: string;
   /**
   * The sequence of tasks (pipeline) to be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#tasks DataK8SCamelApacheOrgBuildV1Manifest#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#tasks DataK8SCamelApacheOrgBuildV1Manifest#tasks}
   */
   readonly tasks?: DataK8SCamelApacheOrgBuildV1ManifestSpecTasks[] | cdktf.IResolvable;
   /**
   * Timeout defines the Build maximum execution duration. The Build deadline is set to the Build start time plus the Timeout duration. If the Build deadline is exceeded, the Build context is canceled, and its phase set to BuildPhaseFailed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#timeout DataK8SCamelApacheOrgBuildV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#timeout DataK8SCamelApacheOrgBuildV1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * The container image to be used to run the build. Deprecated: no longer in use in Camel K 2 - maintained for backward compatibility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#tool_image DataK8SCamelApacheOrgBuildV1Manifest#tool_image}
   */
   readonly toolImage?: string;
 }
@@ -18576,7 +18576,7 @@ export class DataK8SCamelApacheOrgBuildV1ManifestSpecOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest k8s_camel_apache_org_build_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest k8s_camel_apache_org_build_v1_manifest}
 */
 export class DataK8SCamelApacheOrgBuildV1Manifest extends cdktf.TerraformDataSource {
 
@@ -18592,7 +18592,7 @@ export class DataK8SCamelApacheOrgBuildV1Manifest extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataK8SCamelApacheOrgBuildV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCamelApacheOrgBuildV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCamelApacheOrgBuildV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCamelApacheOrgBuildV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCamelApacheOrgBuildV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -18604,7 +18604,7 @@ export class DataK8SCamelApacheOrgBuildV1Manifest extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/camel_apache_org_build_v1_manifest k8s_camel_apache_org_build_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/camel_apache_org_build_v1_manifest k8s_camel_apache_org_build_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -18615,8 +18615,8 @@ export class DataK8SCamelApacheOrgBuildV1Manifest extends cdktf.TerraformDataSou
       terraformResourceType: 'k8s_camel_apache_org_build_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#metadata DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#metadata DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestMetadata;
   /**
   * PolicyEndpointSpec defines the desired state of PolicyEndpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#spec DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#spec DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#annotations DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#annotations DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#labels DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#labels DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#name DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#name DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#namespace DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#namespace DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecEgress
   /**
   * Endport specifies the port range port to endPort port must be defined and an integer, endPort > port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#end_port DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#end_port DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#end_port}
   */
   readonly endPort?: number;
   /**
   * Port specifies the numerical port for the protocol. If empty applies to all ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#port DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#port DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Protocol specifies the transport protocol, default TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#protocol DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#protocol DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -407,19 +407,19 @@ export interface DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecEgress
   /**
   * CIDR is the network address(s) of the endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#cidr DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#cidr DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#cidr}
   */
   readonly cidr: string;
   /**
   * Except is the exceptions to the CIDR ranges mentioned above.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#except DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#except DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#except}
   */
   readonly except?: string[];
   /**
   * Ports is the list of ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#ports DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#ports DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecEgressPorts[] | cdktf.IResolvable;
 }
@@ -592,19 +592,19 @@ export interface DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecIngres
   /**
   * Endport specifies the port range port to endPort port must be defined and an integer, endPort > port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#end_port DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#end_port DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#end_port}
   */
   readonly endPort?: number;
   /**
   * Port specifies the numerical port for the protocol. If empty applies to all ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#port DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#port DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Protocol specifies the transport protocol, default TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#protocol DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#protocol DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -780,19 +780,19 @@ export interface DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecIngres
   /**
   * CIDR is the network address(s) of the endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#cidr DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#cidr DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#cidr}
   */
   readonly cidr: string;
   /**
   * Except is the exceptions to the CIDR ranges mentioned above.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#except DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#except DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#except}
   */
   readonly except?: string[];
   /**
   * Ports is the list of ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#ports DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#ports DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecIngressPorts[] | cdktf.IResolvable;
 }
@@ -965,19 +965,19 @@ export interface DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecPodSel
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#key DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#key DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#operator DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#operator DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#values DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#values DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1147,13 +1147,13 @@ export interface DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecPodSel
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#match_expressions DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#match_expressions DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#match_labels DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#match_labels DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1278,25 +1278,25 @@ export interface DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecPodSel
   /**
   * HostIP is the IP address of the host the pod is currently running on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#host_ip DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#host_ip DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#host_ip}
   */
   readonly hostIp: string;
   /**
   * Name is the pod name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#name DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#name DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the pod namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#namespace DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#namespace DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
   /**
   * PodIP is the IP address of the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#pod_ip DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#pod_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#pod_ip DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#pod_ip}
   */
   readonly podIp: string;
 }
@@ -1489,13 +1489,13 @@ export interface DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecPolicy
   /**
   * Name is the name of the Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#name DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#name DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of the Policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#namespace DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#namespace DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -1614,37 +1614,37 @@ export interface DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpec {
   /**
   * Egress is the list of egress rules containing resolved network addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#egress DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#egress DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#egress}
   */
   readonly egress?: DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecEgress[] | cdktf.IResolvable;
   /**
   * Ingress is the list of ingress rules containing resolved network addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#ingress DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#ingress DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecIngress[] | cdktf.IResolvable;
   /**
   * PodIsolation specifies whether the pod needs to be isolated for a particular traffic direction Ingress or Egress, or both. If default isolation is not specified, and there are no ingress/egress rules, then the pod is not isolated from the point of view of this policy. This follows the NetworkPolicy spec.PolicyTypes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#pod_isolation DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#pod_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#pod_isolation DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#pod_isolation}
   */
   readonly podIsolation?: string[];
   /**
   * PodSelector is the podSelector from the policy resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#pod_selector DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#pod_selector DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecPodSelector;
   /**
   * PodSelectorEndpoints contains information about the pods matching the podSelector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#pod_selector_endpoints DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#pod_selector_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#pod_selector_endpoints DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#pod_selector_endpoints}
   */
   readonly podSelectorEndpoints?: DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecPodSelectorEndpoints[] | cdktf.IResolvable;
   /**
   * PolicyRef is a reference to the Kubernetes NetworkPolicy resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#policy_ref DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#policy_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#policy_ref DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest#policy_ref}
   */
   readonly policyRef: DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecPolicyRef;
 }
@@ -1880,7 +1880,7 @@ export class DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest k8s_networking_k8s_aws_policy_endpoint_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest k8s_networking_k8s_aws_policy_endpoint_v1alpha1_manifest}
 */
 export class DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1896,7 +1896,7 @@ export class DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1908,7 +1908,7 @@ export class DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest k8s_networking_k8s_aws_policy_endpoint_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_k8s_aws_policy_endpoint_v1alpha1_manifest k8s_networking_k8s_aws_policy_endpoint_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1919,8 +1919,8 @@ export class DataK8SNetworkingK8SAwsPolicyEndpointV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_networking_k8s_aws_policy_endpoint_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

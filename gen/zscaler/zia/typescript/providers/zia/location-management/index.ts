@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management
+// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,281 +10,281 @@ export interface LocationManagementConfig extends cdktf.TerraformMetaArguments {
   /**
   * For First Time AUP Behavior, Block Internet Access. When set, all internet access (including non-HTTP traffic) is disabled until the user accepts the AUP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#aup_block_internet_until_accepted LocationManagement#aup_block_internet_until_accepted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#aup_block_internet_until_accepted LocationManagement#aup_block_internet_until_accepted}
   */
   readonly aupBlockInternetUntilAccepted?: boolean | cdktf.IResolvable;
   /**
   * Enable AUP. When set to true, AUP is enabled for the location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#aup_enabled LocationManagement#aup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#aup_enabled LocationManagement#aup_enabled}
   */
   readonly aupEnabled?: boolean | cdktf.IResolvable;
   /**
   * For First Time AUP Behavior, Force SSL Inspection. When set, Zscaler will force SSL Inspection in order to enforce AUP for HTTPS traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#aup_force_ssl_inspection LocationManagement#aup_force_ssl_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#aup_force_ssl_inspection LocationManagement#aup_force_ssl_inspection}
   */
   readonly aupForceSslInspection?: boolean | cdktf.IResolvable;
   /**
   * Custom AUP Frequency. Refresh time (in days) to re-validate the AUP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#aup_timeout_in_days LocationManagement#aup_timeout_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#aup_timeout_in_days LocationManagement#aup_timeout_in_days}
   */
   readonly aupTimeoutInDays?: number;
   /**
   * Enforce Authentication. Required when ports are enabled, IP Surrogate is enabled, or Kerberos Authentication is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#auth_required LocationManagement#auth_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#auth_required LocationManagement#auth_required}
   */
   readonly authRequired?: boolean | cdktf.IResolvable;
   /**
   * Enable Basic Authentication at the location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#basic_auth_enabled LocationManagement#basic_auth_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#basic_auth_enabled LocationManagement#basic_auth_enabled}
   */
   readonly basicAuthEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable Caution. When set to true, a caution notifcation is enabled for the location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#caution_enabled LocationManagement#caution_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#caution_enabled LocationManagement#caution_enabled}
   */
   readonly cautionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#cookies_and_proxy LocationManagement#cookies_and_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#cookies_and_proxy LocationManagement#cookies_and_proxy}
   */
   readonly cookiesAndProxy?: boolean | cdktf.IResolvable;
   /**
   * Supported Countries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#country LocationManagement#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#country LocationManagement#country}
   */
   readonly country?: string;
   /**
   * Indicates that the DNS server configuration used in the extranet is the designated default DNS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#default_extranet_dns LocationManagement#default_extranet_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#default_extranet_dns LocationManagement#default_extranet_dns}
   */
   readonly defaultExtranetDns?: boolean | cdktf.IResolvable;
   /**
   * Indicates that the traffic selector specified in the extranet is the designated default traffic selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#default_extranet_ts_pool LocationManagement#default_extranet_ts_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#default_extranet_ts_pool LocationManagement#default_extranet_ts_pool}
   */
   readonly defaultExtranetTsPool?: boolean | cdktf.IResolvable;
   /**
   * Additional notes or information regarding the location or sub-location. The description cannot exceed 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#description LocationManagement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#description LocationManagement#description}
   */
   readonly description?: string;
   /**
   * Enable Digest Authentication at the location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#digest_auth_enabled LocationManagement#digest_auth_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#digest_auth_enabled LocationManagement#digest_auth_enabled}
   */
   readonly digestAuthEnabled?: boolean | cdktf.IResolvable;
   /**
   * Display Time Unit. The time unit to display for IP Surrogate idle time to disassociation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#display_time_unit LocationManagement#display_time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#display_time_unit LocationManagement#display_time_unit}
   */
   readonly displayTimeUnit?: string;
   /**
   * Download bandwidth in bytes. The value 0 implies no Bandwidth Control enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#dn_bandwidth LocationManagement#dn_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#dn_bandwidth LocationManagement#dn_bandwidth}
   */
   readonly dnBandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#exclude_from_dynamic_groups LocationManagement#exclude_from_dynamic_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#exclude_from_dynamic_groups LocationManagement#exclude_from_dynamic_groups}
   */
   readonly excludeFromDynamicGroups?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#exclude_from_manual_groups LocationManagement#exclude_from_manual_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#exclude_from_manual_groups LocationManagement#exclude_from_manual_groups}
   */
   readonly excludeFromManualGroups?: boolean | cdktf.IResolvable;
   /**
   * Idle Time to Disassociation. The user mapping idle time (in minutes) is required if a Surrogate IP is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#idle_time_in_minutes LocationManagement#idle_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#idle_time_in_minutes LocationManagement#idle_time_in_minutes}
   */
   readonly idleTimeInMinutes?: number;
   /**
   * Enable IOT Discovery at the location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#iot_discovery_enabled LocationManagement#iot_discovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#iot_discovery_enabled LocationManagement#iot_discovery_enabled}
   */
   readonly iotDiscoveryEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#iot_enforce_policy_set LocationManagement#iot_enforce_policy_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#iot_enforce_policy_set LocationManagement#iot_enforce_policy_set}
   */
   readonly iotEnforcePolicySet?: boolean | cdktf.IResolvable;
   /**
   * For locations: IP addresses of the egress points that are provisioned in the Zscaler Cloud. Each entry is a single IP address (e.g., 238.10.33.9).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#ip_addresses LocationManagement#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#ip_addresses LocationManagement#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
   * Enable IPS Control. When set to true, IPS Control is enabled for the location if Firewall is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#ips_control LocationManagement#ips_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#ips_control LocationManagement#ips_control}
   */
   readonly ipsControl?: boolean | cdktf.IResolvable;
   /**
   * (Optional) Name-ID pair of the NAT64 prefix configured as the DNS64 prefix for the location. If specified, the DNS64 prefix is used for the IP addresses that reside in this location. If not specified, a prefix is selected from the set of supported prefixes. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#ipv6_dns_64prefix LocationManagement#ipv6_dns_64prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#ipv6_dns_64prefix LocationManagement#ipv6_dns_64prefix}
   */
   readonly ipv6Dns64Prefix?: boolean | cdktf.IResolvable;
   /**
   * If set to true, IPv6 is enabled for the location and IPv6 traffic from the location can be forwarded to the Zscaler service to enforce security policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#ipv6_enabled LocationManagement#ipv6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#ipv6_enabled LocationManagement#ipv6_enabled}
   */
   readonly ipv6Enabled?: boolean | cdktf.IResolvable;
   /**
   * Enable Kerberos Authentication at the location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#kerberos_auth LocationManagement#kerberos_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#kerberos_auth LocationManagement#kerberos_auth}
   */
   readonly kerberosAuth?: boolean | cdktf.IResolvable;
   /**
   * Location Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#name LocationManagement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#name LocationManagement#name}
   */
   readonly name: string;
   /**
   * Enable Firewall. When set to true, Firewall is enabled for the location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#ofw_enabled LocationManagement#ofw_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#ofw_enabled LocationManagement#ofw_enabled}
   */
   readonly ofwEnabled?: boolean | cdktf.IResolvable;
   /**
   * If set to true, indicates that this is a default sub-location created by the Zscaler service to accommodate IPv6 addresses that are not part of any user-defined sub-locations. The default sub-location is created with the name Other6 and it can be renamed, if required. This field is applicable only if ipv6Enabled is set is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#other6_sub_location LocationManagement#other6_sub_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#other6_sub_location LocationManagement#other6_sub_location}
   */
   readonly other6SubLocation?: boolean | cdktf.IResolvable;
   /**
   * If set to true, indicates that this is a default sub-location created by the Zscaler service to accommodate IPv4 addresses that are not part of any user-defined sub-locations. The default sub-location is created with the name Other and it can be renamed, if required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#other_sub_location LocationManagement#other_sub_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#other_sub_location LocationManagement#other_sub_location}
   */
   readonly otherSubLocation?: boolean | cdktf.IResolvable;
   /**
   * Parent Location ID. If this ID does not exist or is 0, it is implied that it is a parent location. Otherwise, it is a sub-location whose parent has this ID. x-applicableTo: SUB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#parent_id LocationManagement#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#parent_id LocationManagement#parent_id}
   */
   readonly parentId?: number;
   /**
   * IP ports that are associated with the location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#ports LocationManagement#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#ports LocationManagement#ports}
   */
   readonly ports?: number[];
   /**
   * Profile tag that specifies the location traffic type. If not specified, this tag defaults to `Unassigned`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#profile LocationManagement#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#profile LocationManagement#profile}
   */
   readonly profile?: string;
   /**
   * Enable SSL Inspection. Set to true in order to apply your SSL Inspection policy to HTTPS traffic in the location and inspect HTTPS transactions for data leakage, malicious content, and viruses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#ssl_scan_enabled LocationManagement#ssl_scan_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#ssl_scan_enabled LocationManagement#ssl_scan_enabled}
   */
   readonly sslScanEnabled?: boolean | cdktf.IResolvable;
   /**
   * IP ports that are associated with the location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#state LocationManagement#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#state LocationManagement#state}
   */
   readonly state?: string;
   /**
   * Enable Surrogate IP. When set to true, users are mapped to internal device IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#surrogate_ip LocationManagement#surrogate_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#surrogate_ip LocationManagement#surrogate_ip}
   */
   readonly surrogateIp?: boolean | cdktf.IResolvable;
   /**
   * Enforce Surrogate IP for Known Browsers. When set to true, IP Surrogate is enforced for all known browsers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#surrogate_ip_enforced_for_known_browsers LocationManagement#surrogate_ip_enforced_for_known_browsers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#surrogate_ip_enforced_for_known_browsers LocationManagement#surrogate_ip_enforced_for_known_browsers}
   */
   readonly surrogateIpEnforcedForKnownBrowsers?: boolean | cdktf.IResolvable;
   /**
   * Refresh Time for re-validation of Surrogacy. The surrogate refresh time (in minutes) to re-validate the IP surrogates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#surrogate_refresh_time_in_minutes LocationManagement#surrogate_refresh_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#surrogate_refresh_time_in_minutes LocationManagement#surrogate_refresh_time_in_minutes}
   */
   readonly surrogateRefreshTimeInMinutes?: number;
   /**
   * Display Refresh Time Unit. The time unit to display for refresh time for re-validation of surrogacy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#surrogate_refresh_time_unit LocationManagement#surrogate_refresh_time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#surrogate_refresh_time_unit LocationManagement#surrogate_refresh_time_unit}
   */
   readonly surrogateRefreshTimeUnit?: string;
   /**
   * Timezone of the location. If not specified, it defaults to GMT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#tz LocationManagement#tz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#tz LocationManagement#tz}
   */
   readonly tz?: string;
   /**
   * Upload bandwidth in bytes. The value 0 implies no Bandwidth Control enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#up_bandwidth LocationManagement#up_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#up_bandwidth LocationManagement#up_bandwidth}
   */
   readonly upBandwidth?: number;
   /**
   * Enable XFF Forwarding. When set to true, traffic is passed to Zscaler Cloud via the X-Forwarded-For (XFF) header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#xff_forward_enabled LocationManagement#xff_forward_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#xff_forward_enabled LocationManagement#xff_forward_enabled}
   */
   readonly xffForwardEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable Zscaler App SSL Setting. When set to true, the Zscaler App SSL Scan Setting will take effect, irrespective of the SSL policy that is configured for the location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#zapp_ssl_scan_enabled LocationManagement#zapp_ssl_scan_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#zapp_ssl_scan_enabled LocationManagement#zapp_ssl_scan_enabled}
   */
   readonly zappSslScanEnabled?: boolean | cdktf.IResolvable;
   /**
   * extranet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#extranet LocationManagement#extranet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#extranet LocationManagement#extranet}
   */
   readonly extranet?: LocationManagementExtranet[] | cdktf.IResolvable;
   /**
   * extranet_dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#extranet_dns LocationManagement#extranet_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#extranet_dns LocationManagement#extranet_dns}
   */
   readonly extranetDns?: LocationManagementExtranetDns[] | cdktf.IResolvable;
   /**
   * extranet_ip_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#extranet_ip_pool LocationManagement#extranet_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#extranet_ip_pool LocationManagement#extranet_ip_pool}
   */
   readonly extranetIpPool?: LocationManagementExtranetIpPool[] | cdktf.IResolvable;
   /**
   * static_location_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#static_location_groups LocationManagement#static_location_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#static_location_groups LocationManagement#static_location_groups}
   */
   readonly staticLocationGroups?: LocationManagementStaticLocationGroups;
   /**
   * vpn_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#vpn_credentials LocationManagement#vpn_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#vpn_credentials LocationManagement#vpn_credentials}
   */
   readonly vpnCredentials?: LocationManagementVpnCredentials[] | cdktf.IResolvable;
 }
 export interface LocationManagementExtranet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#id LocationManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#id LocationManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -403,7 +403,7 @@ export class LocationManagementExtranetList extends cdktf.ComplexList {
 }
 export interface LocationManagementExtranetDns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#id LocationManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#id LocationManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -522,7 +522,7 @@ export class LocationManagementExtranetDnsList extends cdktf.ComplexList {
 }
 export interface LocationManagementExtranetIpPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#id LocationManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#id LocationManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -641,7 +641,7 @@ export class LocationManagementExtranetIpPoolList extends cdktf.ComplexList {
 }
 export interface LocationManagementStaticLocationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#id LocationManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#id LocationManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -728,26 +728,26 @@ export class LocationManagementStaticLocationGroupsOutputReference extends cdktf
 }
 export interface LocationManagementVpnCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#fqdn LocationManagement#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#fqdn LocationManagement#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#id LocationManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#id LocationManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#ip_address LocationManagement#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#ip_address LocationManagement#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#pre_shared_key LocationManagement#pre_shared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#pre_shared_key LocationManagement#pre_shared_key}
   */
   readonly preSharedKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#type LocationManagement#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#type LocationManagement#type}
   */
   readonly type?: string;
 }
@@ -979,7 +979,7 @@ export class LocationManagementVpnCredentialsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management zia_location_management}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management zia_location_management}
 */
 export class LocationManagement extends cdktf.TerraformResource {
 
@@ -995,7 +995,7 @@ export class LocationManagement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LocationManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LocationManagement to import
-  * @param importFromId The id of the existing LocationManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LocationManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LocationManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1007,7 +1007,7 @@ export class LocationManagement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/location_management zia_location_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/location_management zia_location_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1018,8 +1018,8 @@ export class LocationManagement extends cdktf.TerraformResource {
       terraformResourceType: 'zia_location_management',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.2',
-        providerVersionConstraint: '4.6.2'
+        providerVersion: '4.6.3',
+        providerVersionConstraint: '4.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

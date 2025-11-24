@@ -13,11 +13,11 @@ dataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateEntityOperato
 DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateEntityOperatorRoleOutputReference } from './structs0'
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodHostAliases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#hostnames DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#hostnames DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#ip DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#ip DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#ip}
   */
   readonly ip?: string;
 }
@@ -162,7 +162,7 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
 }
@@ -280,13 +280,13 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemp
   /**
   * Annotations added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -409,11 +409,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -536,19 +536,19 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#level DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#level DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#role DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#role DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user}
   */
   readonly user?: string;
 }
@@ -729,11 +729,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -856,11 +856,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodSecurityContextSysctls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -1005,19 +1005,19 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#host_process DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#host_process DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -1198,47 +1198,47 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#app_armor_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#app_armor_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#fs_group DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#fs_group DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#fs_group_change_policy DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#fs_group_change_policy DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_group DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_group DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_non_root DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_non_root DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#se_linux_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#se_linux_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#seccomp_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#seccomp_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#supplemental_groups DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#supplemental_groups DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sysctls DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sysctls DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sysctls}
   */
   readonly sysctls?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#windows_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#windows_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodSecurityContextWindowsOptions;
 }
@@ -1622,23 +1622,23 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#effect DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#effect DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#toleration_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#toleration_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -1870,15 +1870,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodTopologySpreadConstraintsLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2052,11 +2052,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodTopologySpreadConstraintsLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2179,35 +2179,35 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodTopologySpreadConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodTopologySpreadConstraintsLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#max_skew DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#max_skew DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#max_skew}
   */
   readonly maxSkew?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#min_domains DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#min_domains DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#node_affinity_policy DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#node_affinity_policy DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#node_taints_policy DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#node_taints_policy DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topology_key}
   */
   readonly topologyKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#when_unsatisfiable DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#when_unsatisfiable DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable?: string;
 }
@@ -2526,15 +2526,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodVolumesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mode DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mode DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#path}
   */
   readonly path?: string;
 }
@@ -2708,19 +2708,19 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodVolumesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#default_mode DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#default_mode DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#items DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#items DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#items}
   */
   readonly items?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2901,11 +2901,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodVolumesEmptyDirSizeLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#amount DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#amount DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#amount}
   */
   readonly amount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#format DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#format DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#format}
   */
   readonly format?: string;
 }
@@ -3028,11 +3028,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodVolumesEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#medium DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#medium DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#size_limit DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#size_limit DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#size_limit}
   */
   readonly sizeLimit?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodVolumesEmptyDirSizeLimit;
 }
@@ -3155,11 +3155,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodVolumesPersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#claim_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#claim_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#claim_name}
   */
   readonly claimName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -3282,15 +3282,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodVolumesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mode DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mode DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#path}
   */
   readonly path?: string;
 }
@@ -3464,19 +3464,19 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodVolumesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#default_mode DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#default_mode DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#items DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#items DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#items}
   */
   readonly items?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodVolumesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#secret_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -3659,31 +3659,31 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemp
   /**
   * ConfigMap to use to populate the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#config_map DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#config_map DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#config_map}
   */
   readonly configMap?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodVolumesConfigMap;
   /**
   * EmptyDir to use to populate the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#empty_dir DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#empty_dir DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodVolumesEmptyDir;
   /**
   * Name to use for the volume. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * PersistentVolumeClaim object to use to populate the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#persistent_volume_claim DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#persistent_volume_claim DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodVolumesPersistentVolumeClaim;
   /**
   * Secret to use populate the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#secret DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#secret DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#secret}
   */
   readonly secret?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodVolumesSecret;
 }
@@ -3917,79 +3917,79 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemp
   /**
   * The pod's affinity rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#affinity DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#affinity DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#affinity}
   */
   readonly affinity?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodAffinity;
   /**
   * Indicates whether information about services should be injected into Pod's environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#enable_service_links DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#enable_service_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#enable_service_links DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#enable_service_links}
   */
   readonly enableServiceLinks?: boolean | cdktf.IResolvable;
   /**
   * The pod's HostAliases. HostAliases is an optional list of hosts and IPs that will be injected into the Pod's hosts file if specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#host_aliases DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#host_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#host_aliases DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#host_aliases}
   */
   readonly hostAliases?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodHostAliases[] | cdktf.IResolvable;
   /**
   * List of references to secrets in the same namespace to use for pulling any of the images used by this Pod. When the 'STRIMZI_IMAGE_PULL_SECRETS' environment variable in Cluster Operator and the 'imagePullSecrets' option are specified, only the 'imagePullSecrets' variable is used and the 'STRIMZI_IMAGE_PULL_SECRETS' variable is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#image_pull_secrets DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#image_pull_secrets DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Metadata applied to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#metadata}
   */
   readonly metadata?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodMetadata;
   /**
   * The name of the priority class used to assign priority to the pods. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#priority_class_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#priority_class_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * The name of the scheduler used to dispatch this 'Pod'. If not specified, the default scheduler will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#scheduler_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#scheduler_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
   * Configures pod-level security attributes and common container settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#security_context DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#security_context DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#security_context}
   */
   readonly securityContext?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodSecurityContext;
   /**
   * The grace period is the duration in seconds after the processes running in the pod are sent a termination signal, and the time when the processes are forcibly halted with a kill signal. Set this value to longer than the expected cleanup time for your process. Value must be a non-negative integer. A zero value indicates delete immediately. You might need to increase the grace period for very large Kafka clusters, so that the Kafka brokers have enough time to transfer their work to another broker before they are terminated. Defaults to 30 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#termination_grace_period_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#termination_grace_period_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Defines the total amount of pod memory allocated for the temporary 'EmptyDir' volume '/tmp'. Specify the allocation in memory units, for example, '100Mi' for 100 mebibytes. Default value is '5Mi'. The '/tmp' volume is backed by pod memory, not disk storage, so avoid setting a high value as it consumes pod memory resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#tmp_dir_size_limit DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#tmp_dir_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#tmp_dir_size_limit DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#tmp_dir_size_limit}
   */
   readonly tmpDirSizeLimit?: string;
   /**
   * The pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#tolerations DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#tolerations DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#tolerations}
   */
   readonly tolerations?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodTolerations[] | cdktf.IResolvable;
   /**
   * The pod's topology spread constraints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topology_spread_constraints DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topology_spread_constraints DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodTopologySpreadConstraints[] | cdktf.IResolvable;
   /**
   * Additional volumes that can be mounted to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#volumes DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#volumes DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#volumes}
   */
   readonly volumes?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePodVolumes[] | cdktf.IResolvable;
 }
@@ -4433,13 +4433,13 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemp
   /**
   * Annotations added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -4564,7 +4564,7 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemp
   /**
   * Metadata applied to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#metadata}
   */
   readonly metadata?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateServiceAccountMetadata;
 }
@@ -4660,13 +4660,13 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemp
   /**
   * The environment variable key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * The environment variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -4811,11 +4811,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTlsSidecarContainerSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -4938,11 +4938,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTlsSidecarContainerSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#add DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#add DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#drop DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#drop DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -5065,19 +5065,19 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTlsSidecarContainerSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#level DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#level DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#role DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#role DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user}
   */
   readonly user?: string;
 }
@@ -5258,11 +5258,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTlsSidecarContainerSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -5385,19 +5385,19 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTlsSidecarContainerSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#host_process DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#host_process DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -5578,51 +5578,51 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTlsSidecarContainerSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#allow_privilege_escalation DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#allow_privilege_escalation DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#app_armor_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#app_armor_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTlsSidecarContainerSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#capabilities DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#capabilities DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#capabilities}
   */
   readonly capabilities?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTlsSidecarContainerSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#privileged DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#privileged DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#proc_mount DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#proc_mount DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only_root_filesystem DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only_root_filesystem DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_group DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_group DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_non_root DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_non_root DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#se_linux_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#se_linux_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTlsSidecarContainerSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#seccomp_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#seccomp_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTlsSidecarContainerSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#windows_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#windows_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTlsSidecarContainerSecurityContextWindowsOptions;
 }
@@ -6035,31 +6035,31 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTlsSidecarContainerVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mount_path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mount_path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mount_propagation DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mount_propagation DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#recursive_read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#recursive_read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sub_path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sub_path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sub_path_expr DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sub_path_expr DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -6351,19 +6351,19 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemp
   /**
   * Environment variables which should be applied to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#env DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#env DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#env}
   */
   readonly env?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTlsSidecarContainerEnv[] | cdktf.IResolvable;
   /**
   * Security context for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#security_context DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#security_context DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#security_context}
   */
   readonly securityContext?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTlsSidecarContainerSecurityContext;
   /**
   * Additional volume mounts which should be applied to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#volume_mounts DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#volume_mounts DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTlsSidecarContainerVolumeMounts[] | cdktf.IResolvable;
 }
@@ -6517,13 +6517,13 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemp
   /**
   * The environment variable key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * The environment variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -6668,11 +6668,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorContainerSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -6795,11 +6795,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorContainerSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#add DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#add DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#drop DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#drop DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -6922,19 +6922,19 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorContainerSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#level DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#level DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#role DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#role DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user}
   */
   readonly user?: string;
 }
@@ -7115,11 +7115,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorContainerSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -7242,19 +7242,19 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorContainerSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#host_process DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#host_process DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -7435,51 +7435,51 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorContainerSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#allow_privilege_escalation DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#allow_privilege_escalation DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#app_armor_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#app_armor_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorContainerSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#capabilities DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#capabilities DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#capabilities}
   */
   readonly capabilities?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorContainerSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#privileged DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#privileged DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#proc_mount DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#proc_mount DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only_root_filesystem DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only_root_filesystem DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_group DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_group DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_non_root DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_non_root DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#se_linux_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#se_linux_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorContainerSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#seccomp_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#seccomp_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorContainerSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#windows_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#windows_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorContainerSecurityContextWindowsOptions;
 }
@@ -7892,31 +7892,31 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorContainerVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mount_path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mount_path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mount_propagation DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mount_propagation DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#recursive_read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#recursive_read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sub_path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sub_path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sub_path_expr DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sub_path_expr DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -8208,19 +8208,19 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemp
   /**
   * Environment variables which should be applied to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#env DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#env DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#env}
   */
   readonly env?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorContainerEnv[] | cdktf.IResolvable;
   /**
   * Security context for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#security_context DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#security_context DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#security_context}
   */
   readonly securityContext?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorContainerSecurityContext;
   /**
   * Additional volume mounts which should be applied to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#volume_mounts DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#volume_mounts DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorContainerVolumeMounts[] | cdktf.IResolvable;
 }
@@ -8374,13 +8374,13 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemp
   /**
   * Annotations added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -8505,7 +8505,7 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemp
   /**
   * Metadata applied to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#metadata}
   */
   readonly metadata?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorRoleBindingMetadata;
 }
@@ -8601,13 +8601,13 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemp
   /**
   * The environment variable key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * The environment variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -8752,11 +8752,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorContainerSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -8879,11 +8879,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorContainerSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#add DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#add DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#drop DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#drop DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -9006,19 +9006,19 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorContainerSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#level DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#level DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#role DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#role DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user}
   */
   readonly user?: string;
 }
@@ -9199,11 +9199,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorContainerSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -9326,19 +9326,19 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorContainerSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#host_process DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#host_process DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -9519,51 +9519,51 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorContainerSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#allow_privilege_escalation DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#allow_privilege_escalation DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#app_armor_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#app_armor_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorContainerSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#capabilities DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#capabilities DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#capabilities}
   */
   readonly capabilities?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorContainerSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#privileged DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#privileged DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#proc_mount DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#proc_mount DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only_root_filesystem DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only_root_filesystem DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_group DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_group DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_non_root DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_non_root DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#se_linux_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#se_linux_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorContainerSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#seccomp_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#seccomp_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorContainerSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#windows_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#windows_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorContainerSecurityContextWindowsOptions;
 }
@@ -9976,31 +9976,31 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorContainerVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mount_path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mount_path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mount_propagation DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mount_propagation DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#recursive_read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#recursive_read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sub_path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sub_path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sub_path_expr DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sub_path_expr DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -10292,19 +10292,19 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemp
   /**
   * Environment variables which should be applied to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#env DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#env DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#env}
   */
   readonly env?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorContainerEnv[] | cdktf.IResolvable;
   /**
   * Security context for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#security_context DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#security_context DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#security_context}
   */
   readonly securityContext?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorContainerSecurityContext;
   /**
   * Additional volume mounts which should be applied to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#volume_mounts DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#volume_mounts DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorContainerVolumeMounts[] | cdktf.IResolvable;
 }
@@ -10458,13 +10458,13 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemp
   /**
   * Annotations added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -10589,7 +10589,7 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemp
   /**
   * Metadata applied to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#metadata}
   */
   readonly metadata?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorRoleBindingMetadata;
 }
@@ -10685,55 +10685,55 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemp
   /**
   * Template for Entity Operator 'Deployment'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#deployment DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#deployment DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#deployment}
   */
   readonly deployment?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateDeployment;
   /**
   * Template for the Entity Operator Role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#entity_operator_role DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#entity_operator_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#entity_operator_role DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#entity_operator_role}
   */
   readonly entityOperatorRole?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateEntityOperatorRole;
   /**
   * Template for Entity Operator 'Pods'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#pod DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#pod DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#pod}
   */
   readonly pod?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplatePod;
   /**
   * Template for the Entity Operator service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#service_account DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#service_account DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateServiceAccount;
   /**
   * Template for the Entity Operator TLS sidecar container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#tls_sidecar_container DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#tls_sidecar_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#tls_sidecar_container DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#tls_sidecar_container}
   */
   readonly tlsSidecarContainer?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTlsSidecarContainer;
   /**
   * Template for the Entity Topic Operator container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topic_operator_container DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topic_operator_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topic_operator_container DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topic_operator_container}
   */
   readonly topicOperatorContainer?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorContainer;
   /**
   * Template for the Entity Topic Operator RoleBinding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topic_operator_role_binding DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topic_operator_role_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topic_operator_role_binding DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topic_operator_role_binding}
   */
   readonly topicOperatorRoleBinding?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateTopicOperatorRoleBinding;
   /**
   * Template for the Entity User Operator container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user_operator_container DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user_operator_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user_operator_container DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user_operator_container}
   */
   readonly userOperatorContainer?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorContainer;
   /**
   * Template for the Entity Topic Operator RoleBinding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user_operator_role_binding DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user_operator_role_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user_operator_role_binding DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user_operator_role_binding}
   */
   readonly userOperatorRoleBinding?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplateUserOperatorRoleBinding;
 }
@@ -11061,31 +11061,31 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTlsS
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The initial delay before first the health is first checked. Default to 15 seconds. Minimum value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * The timeout for each attempted health check. Default to 5 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -11297,31 +11297,31 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTlsS
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The initial delay before first the health is first checked. Default to 15 seconds. Minimum value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * The timeout for each attempted health check. Default to 5 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -11531,7 +11531,7 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTlsSidec
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTlsSidecarResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
 }
@@ -11647,15 +11647,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTlsSidec
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTlsSidecarResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#claims DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#claims DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#claims}
   */
   readonly claims?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTlsSidecarResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#limits DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#limits DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#requests DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#requests DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -11809,31 +11809,31 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTlsS
   /**
   * The docker image for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#image DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#image DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#image}
   */
   readonly image?: string;
   /**
   * Pod liveness checking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#liveness_probe DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#liveness_probe DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTlsSidecarLivenessProbe;
   /**
   * The log level for the TLS sidecar. Default value is 'notice'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#log_level DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#log_level DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * Pod readiness checking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#readiness_probe DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#readiness_probe DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTlsSidecarReadinessProbe;
   /**
   * CPU and memory resources to reserve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#resources DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#resources DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#resources}
   */
   readonly resources?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTlsSidecarResources;
 }
@@ -12045,13 +12045,13 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopi
   /**
   * The system property name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * The system property value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -12198,31 +12198,31 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopi
   /**
   * Specifies whether the Garbage Collection logging is enabled. The default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gc_logging_enabled DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gc_logging_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gc_logging_enabled DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gc_logging_enabled}
   */
   readonly gcLoggingEnabled?: boolean | cdktf.IResolvable;
   /**
   * A map of additional system properties which will be passed using the '-D' option to the JVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#java_system_properties DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#java_system_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#java_system_properties DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#java_system_properties}
   */
   readonly javaSystemProperties?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOperatorJvmOptionsJavaSystemProperties[] | cdktf.IResolvable;
   /**
   * -Xms option to to the JVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#xms DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#xms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#xms DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#xms}
   */
   readonly xms?: string;
   /**
   * -Xmx option to to the JVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#xmx DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#xmx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#xmx DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#xmx}
   */
   readonly xmx?: string;
   /**
   * A map of -XX options to the JVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#xx DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#xx DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#xx}
   */
   readonly xx?: { [key: string]: string };
 }
@@ -12434,31 +12434,31 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopi
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The initial delay before first the health is first checked. Default to 15 seconds. Minimum value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * The timeout for each attempted health check. Default to 5 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -12668,15 +12668,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOpe
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOperatorLoggingValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12830,7 +12830,7 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopi
   /**
   * Reference to the key in the ConfigMap containing the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#config_map_key_ref DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#config_map_key_ref DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOperatorLoggingValueFromConfigMapKeyRef;
 }
@@ -12926,19 +12926,19 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopi
   /**
   * A Map from logger name to logger level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#loggers DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#loggers DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#loggers}
   */
   readonly loggers?: { [key: string]: string };
   /**
   * Logging type, must be either 'inline' or 'external'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type: string;
   /**
   * 'ConfigMap' entry where the logging configuration is stored. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value_from DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value_from DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value_from}
   */
   readonly valueFrom?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOperatorLoggingValueFrom;
 }
@@ -13089,31 +13089,31 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopi
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The initial delay before first the health is first checked. Default to 15 seconds. Minimum value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * The timeout for each attempted health check. Default to 5 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -13323,7 +13323,7 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOpe
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOperatorResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
 }
@@ -13439,15 +13439,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOpe
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOperatorResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#claims DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#claims DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#claims}
   */
   readonly claims?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOperatorResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#limits DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#limits DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#requests DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#requests DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -13601,31 +13601,31 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopi
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The initial delay before first the health is first checked. Default to 15 seconds. Minimum value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * The timeout for each attempted health check. Default to 5 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -13837,73 +13837,73 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopi
   /**
   * The image to use for the Topic Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#image DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#image DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#image}
   */
   readonly image?: string;
   /**
   * JVM Options for pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#jvm_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#jvm_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#jvm_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#jvm_options}
   */
   readonly jvmOptions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOperatorJvmOptions;
   /**
   * Pod liveness checking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#liveness_probe DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#liveness_probe DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOperatorLivenessProbe;
   /**
   * Logging configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#logging DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#logging DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#logging}
   */
   readonly logging?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOperatorLogging;
   /**
   * Pod readiness checking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#readiness_probe DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#readiness_probe DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOperatorReadinessProbe;
   /**
   * Interval between periodic reconciliations in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#reconciliation_interval_ms DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#reconciliation_interval_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#reconciliation_interval_ms DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#reconciliation_interval_ms}
   */
   readonly reconciliationIntervalMs?: number;
   /**
   * Interval between periodic reconciliations in seconds. Ignored if reconciliationIntervalMs is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#reconciliation_interval_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#reconciliation_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#reconciliation_interval_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#reconciliation_interval_seconds}
   */
   readonly reconciliationIntervalSeconds?: number;
   /**
   * CPU and memory resources to reserve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#resources DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#resources DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#resources}
   */
   readonly resources?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOperatorResources;
   /**
   * Pod startup checking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#startup_probe DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#startup_probe DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOperatorStartupProbe;
   /**
   * The number of attempts at getting topic metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topic_metadata_max_attempts DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topic_metadata_max_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topic_metadata_max_attempts DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topic_metadata_max_attempts}
   */
   readonly topicMetadataMaxAttempts?: number;
   /**
   * The namespace the Topic Operator should watch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#watched_namespace DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#watched_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#watched_namespace DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#watched_namespace}
   */
   readonly watchedNamespace?: string;
   /**
   * Timeout for the ZooKeeper session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#zookeeper_session_timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#zookeeper_session_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#zookeeper_session_timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#zookeeper_session_timeout_seconds}
   */
   readonly zookeeperSessionTimeoutSeconds?: number;
 }
@@ -14318,13 +14318,13 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUser
   /**
   * The system property name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * The system property value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -14471,31 +14471,31 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUser
   /**
   * Specifies whether the Garbage Collection logging is enabled. The default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gc_logging_enabled DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gc_logging_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gc_logging_enabled DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gc_logging_enabled}
   */
   readonly gcLoggingEnabled?: boolean | cdktf.IResolvable;
   /**
   * A map of additional system properties which will be passed using the '-D' option to the JVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#java_system_properties DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#java_system_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#java_system_properties DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#java_system_properties}
   */
   readonly javaSystemProperties?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUserOperatorJvmOptionsJavaSystemProperties[] | cdktf.IResolvable;
   /**
   * -Xms option to to the JVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#xms DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#xms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#xms DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#xms}
   */
   readonly xms?: string;
   /**
   * -Xmx option to to the JVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#xmx DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#xmx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#xmx DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#xmx}
   */
   readonly xmx?: string;
   /**
   * A map of -XX options to the JVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#xx DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#xx DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#xx}
   */
   readonly xx?: { [key: string]: string };
 }
@@ -14707,31 +14707,31 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUser
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The initial delay before first the health is first checked. Default to 15 seconds. Minimum value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * The timeout for each attempted health check. Default to 5 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -14941,15 +14941,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUserOper
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUserOperatorLoggingValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15103,7 +15103,7 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUser
   /**
   * Reference to the key in the ConfigMap containing the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#config_map_key_ref DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#config_map_key_ref DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUserOperatorLoggingValueFromConfigMapKeyRef;
 }
@@ -15199,19 +15199,19 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUser
   /**
   * A Map from logger name to logger level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#loggers DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#loggers DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#loggers}
   */
   readonly loggers?: { [key: string]: string };
   /**
   * Logging type, must be either 'inline' or 'external'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type: string;
   /**
   * 'ConfigMap' entry where the logging configuration is stored. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value_from DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value_from DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value_from}
   */
   readonly valueFrom?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUserOperatorLoggingValueFrom;
 }
@@ -15362,31 +15362,31 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUser
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#failure_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The initial delay before first the health is first checked. Default to 15 seconds. Minimum value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#initial_delay_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#period_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#success_threshold DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * The timeout for each attempted health check. Default to 5 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -15596,7 +15596,7 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUserOper
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUserOperatorResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
 }
@@ -15712,15 +15712,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUserOper
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUserOperatorResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#claims DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#claims DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#claims}
   */
   readonly claims?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUserOperatorResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#limits DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#limits DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#requests DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#requests DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -15874,67 +15874,67 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUser
   /**
   * The image to use for the User Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#image DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#image DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#image}
   */
   readonly image?: string;
   /**
   * JVM Options for pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#jvm_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#jvm_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#jvm_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#jvm_options}
   */
   readonly jvmOptions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUserOperatorJvmOptions;
   /**
   * Pod liveness checking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#liveness_probe DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#liveness_probe DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUserOperatorLivenessProbe;
   /**
   * Logging configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#logging DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#logging DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#logging}
   */
   readonly logging?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUserOperatorLogging;
   /**
   * Pod readiness checking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#readiness_probe DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#readiness_probe DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUserOperatorReadinessProbe;
   /**
   * Interval between periodic reconciliations in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#reconciliation_interval_ms DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#reconciliation_interval_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#reconciliation_interval_ms DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#reconciliation_interval_ms}
   */
   readonly reconciliationIntervalMs?: number;
   /**
   * Interval between periodic reconciliations in seconds. Ignored if reconciliationIntervalMs is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#reconciliation_interval_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#reconciliation_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#reconciliation_interval_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#reconciliation_interval_seconds}
   */
   readonly reconciliationIntervalSeconds?: number;
   /**
   * CPU and memory resources to reserve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#resources DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#resources DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#resources}
   */
   readonly resources?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUserOperatorResources;
   /**
   * The prefix that will be added to the KafkaUser name to be used as the Secret name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#secret_prefix DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#secret_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#secret_prefix DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#secret_prefix}
   */
   readonly secretPrefix?: string;
   /**
   * The namespace the User Operator should watch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#watched_namespace DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#watched_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#watched_namespace DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#watched_namespace}
   */
   readonly watchedNamespace?: string;
   /**
   * Timeout for the ZooKeeper session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#zookeeper_session_timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#zookeeper_session_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#zookeeper_session_timeout_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#zookeeper_session_timeout_seconds}
   */
   readonly zookeeperSessionTimeoutSeconds?: number;
 }
@@ -16320,25 +16320,25 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperator {
   /**
   * Template for Entity Operator resources. The template allows users to specify how a 'Deployment' and 'Pod' is generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#template DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#template DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#template}
   */
   readonly template?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTemplate;
   /**
   * TLS sidecar configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#tls_sidecar DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#tls_sidecar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#tls_sidecar DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#tls_sidecar}
   */
   readonly tlsSidecar?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTlsSidecar;
   /**
   * Configuration of the Topic Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topic_operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topic_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topic_operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topic_operator}
   */
   readonly topicOperator?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorTopicOperator;
   /**
   * Configuration of the User Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user_operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user_operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user_operator}
   */
   readonly userOperator?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecEntityOperatorUserOperator;
 }
@@ -16521,19 +16521,19 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransKafkaQueri
   /**
   * Determine which attributes of the targeted MBean should be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#attributes DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#attributes DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#attributes}
   */
   readonly attributes: string[];
   /**
   * List of the names of output definitions specified in the spec.kafka.jmxTrans.outputDefinitions that have defined where JMX metrics are pushed to, and in which data format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#outputs DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#outputs DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#outputs}
   */
   readonly outputs: string[];
   /**
   * If using wildcards instead of a specific MBean then the data is gathered from multiple MBeans. Otherwise if specifying an MBean then data is gathered from that specified MBean.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#target_m_bean DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#target_m_bean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#target_m_bean DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#target_m_bean}
   */
   readonly targetMBean: string;
 }
@@ -16700,37 +16700,37 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransOutputDefi
   /**
   * How many seconds the JmxTrans waits before pushing a new set of data out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#flush_delay_in_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#flush_delay_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#flush_delay_in_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#flush_delay_in_seconds}
   */
   readonly flushDelayInSeconds?: number;
   /**
   * The DNS/hostname of the remote host that the data is pushed to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#host DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#host DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#host}
   */
   readonly host?: string;
   /**
   * Template for setting the name of the output definition. This is used to identify where to send the results of queries should be sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Template for setting the format of the data that will be pushed.For more information see https://github.com/jmxtrans/jmxtrans/wiki/OutputWriters[JmxTrans OutputWriters].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#output_type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#output_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#output_type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#output_type}
   */
   readonly outputType: string;
   /**
   * The port of the remote host that the data is pushed to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#port DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#port DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * Template for filtering data to be included in response to a wildcard query. For more information see https://github.com/jmxtrans/jmxtrans/wiki/Queries[JmxTrans queries].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type_names DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type_names DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type_names}
   */
   readonly typeNames?: string[];
 }
@@ -16985,7 +16985,7 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransOutputDefiniti
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
 }
@@ -17101,15 +17101,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransResourcesClaim
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#claims DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#claims DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#claims}
   */
   readonly claims?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#limits DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#limits DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#requests DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#requests DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -17263,13 +17263,13 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateCo
   /**
   * The environment variable key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * The environment variable value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -17414,11 +17414,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContai
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContainerSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -17541,11 +17541,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContai
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContainerSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#add DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#add DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#drop DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#drop DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -17668,19 +17668,19 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContai
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContainerSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#level DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#level DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#role DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#role DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user}
   */
   readonly user?: string;
 }
@@ -17861,11 +17861,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContai
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContainerSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -17988,19 +17988,19 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContai
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContainerSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#host_process DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#host_process DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -18181,51 +18181,51 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContai
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContainerSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#allow_privilege_escalation DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#allow_privilege_escalation DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#app_armor_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#app_armor_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContainerSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#capabilities DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#capabilities DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#capabilities}
   */
   readonly capabilities?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContainerSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#privileged DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#privileged DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#proc_mount DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#proc_mount DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only_root_filesystem DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only_root_filesystem DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_group DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_group DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_non_root DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_non_root DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#se_linux_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#se_linux_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContainerSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#seccomp_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#seccomp_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContainerSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#windows_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#windows_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContainerSecurityContextWindowsOptions;
 }
@@ -18638,31 +18638,31 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContai
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContainerVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mount_path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mount_path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mount_propagation DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mount_propagation DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#recursive_read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#recursive_read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sub_path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sub_path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sub_path_expr DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sub_path_expr DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -18954,19 +18954,19 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateCo
   /**
   * Environment variables which should be applied to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#env DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#env DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#env}
   */
   readonly env?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContainerEnv[] | cdktf.IResolvable;
   /**
   * Security context for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#security_context DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#security_context DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#security_context}
   */
   readonly securityContext?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContainerSecurityContext;
   /**
   * Additional volume mounts which should be applied to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#volume_mounts DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#volume_mounts DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateContainerVolumeMounts[] | cdktf.IResolvable;
 }
@@ -19120,13 +19120,13 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateDe
   /**
   * Annotations added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -19251,13 +19251,13 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateDe
   /**
   * Pod replacement strategy for deployment configuration changes. Valid values are 'RollingUpdate' and 'Recreate'. Defaults to 'RollingUpdate'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#deployment_strategy DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#deployment_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#deployment_strategy DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#deployment_strategy}
   */
   readonly deploymentStrategy?: string;
   /**
   * Metadata applied to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#metadata}
   */
   readonly metadata?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateDeploymentMetadata;
 }
@@ -19380,15 +19380,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplateDeploy
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19562,15 +19562,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19744,11 +19744,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_fields DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_fields DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_fields}
   */
   readonly matchFields?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -19871,11 +19871,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#preference DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#preference DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#preference}
   */
   readonly preference?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#weight DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#weight DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -20020,15 +20020,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20202,15 +20202,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20384,11 +20384,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_fields DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_fields DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_fields}
   */
   readonly matchFields?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -20533,7 +20533,7 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#node_selector_terms DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#node_selector_terms DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -20627,11 +20627,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -20754,15 +20754,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20936,11 +20936,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21063,15 +21063,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21245,11 +21245,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21372,27 +21372,27 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mismatch_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mismatch_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#namespace_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#namespace_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#namespaces DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#namespaces DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topology_key}
   */
   readonly topologyKey?: string;
 }
@@ -21631,11 +21631,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#pod_affinity_term DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#pod_affinity_term DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#weight DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#weight DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -21780,15 +21780,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21962,11 +21962,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22089,15 +22089,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22271,11 +22271,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22398,27 +22398,27 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mismatch_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mismatch_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#namespace_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#namespace_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#namespaces DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#namespaces DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topology_key}
   */
   readonly topologyKey?: string;
 }
@@ -22679,11 +22679,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -22806,15 +22806,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22988,11 +22988,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -23115,15 +23115,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23297,11 +23297,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -23424,27 +23424,27 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mismatch_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mismatch_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#namespace_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#namespace_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#namespaces DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#namespaces DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topology_key}
   */
   readonly topologyKey?: string;
 }
@@ -23683,11 +23683,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#pod_affinity_term DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#pod_affinity_term DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#weight DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#weight DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -23832,15 +23832,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24014,11 +24014,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -24141,15 +24141,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24323,11 +24323,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -24450,27 +24450,27 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mismatch_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mismatch_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#namespace_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#namespace_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#namespaces DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#namespaces DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topology_key}
   */
   readonly topologyKey?: string;
 }
@@ -24731,11 +24731,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -24858,15 +24858,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#node_affinity DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#node_affinity DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#pod_affinity DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#pod_affinity DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#pod_anti_affinity DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#pod_anti_affinity DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAffinityPodAntiAffinity;
 }
@@ -25018,11 +25018,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodAff
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodHostAliases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#hostnames DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#hostnames DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#ip DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#ip DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#ip}
   */
   readonly ip?: string;
 }
@@ -25167,7 +25167,7 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodHos
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
 }
@@ -25285,13 +25285,13 @@ export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePo
   /**
   * Annotations added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels added to the Kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -25414,11 +25414,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodMet
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -25541,19 +25541,19 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSec
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#level DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#level DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#role DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#role DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#user}
   */
   readonly user?: string;
 }
@@ -25734,11 +25734,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSec
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#localhost_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#type DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -25861,11 +25861,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSec
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSecurityContextSysctls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -26010,19 +26010,19 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSec
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#gmsa_credential_spec_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#host_process DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#host_process DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -26203,47 +26203,47 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSec
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#app_armor_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#app_armor_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#fs_group DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#fs_group DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#fs_group_change_policy DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#fs_group_change_policy DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_group DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_group DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_non_root DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_non_root DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#run_as_user DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#se_linux_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#se_linux_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#seccomp_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#seccomp_profile DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#supplemental_groups DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#supplemental_groups DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sysctls DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#sysctls DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#sysctls}
   */
   readonly sysctls?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#windows_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#windows_options DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSecurityContextWindowsOptions;
 }
@@ -26627,23 +26627,23 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodSec
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#effect DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#effect DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#toleration_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#toleration_seconds DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#value DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -26875,15 +26875,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodTol
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodTopologySpreadConstraintsLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#operator DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#values DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -27057,11 +27057,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodTop
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodTopologySpreadConstraintsLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_expressions DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_labels DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -27184,35 +27184,35 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodTop
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodTopologySpreadConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#label_selector DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodTopologySpreadConstraintsLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#match_label_keys DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#max_skew DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#max_skew DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#max_skew}
   */
   readonly maxSkew?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#min_domains DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#min_domains DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#node_affinity_policy DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#node_affinity_policy DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#node_taints_policy DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#node_taints_policy DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#topology_key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#topology_key}
   */
   readonly topologyKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#when_unsatisfiable DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#when_unsatisfiable DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable?: string;
 }
@@ -27531,15 +27531,15 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodTop
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodVolumesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#key DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mode DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#mode DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#path DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#path}
   */
   readonly path?: string;
 }
@@ -27713,19 +27713,19 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodVol
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodVolumesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#default_mode DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#default_mode DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#items DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#items DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#items}
   */
   readonly items?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#optional DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -27906,11 +27906,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodVol
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodVolumesEmptyDirSizeLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#amount DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#amount DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#amount}
   */
   readonly amount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#format DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#format DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#format}
   */
   readonly format?: string;
 }
@@ -28033,11 +28033,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodVol
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodVolumesEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#medium DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#medium DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#size_limit DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#size_limit DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#size_limit}
   */
   readonly sizeLimit?: DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodVolumesEmptyDirSizeLimit;
 }
@@ -28160,11 +28160,11 @@ export class DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodVol
 }
 export interface DataK8SKafkaStrimziIoKafkaV1Beta2ManifestSpecJmxTransTemplatePodVolumesPersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#claim_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#claim_name DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#claim_name}
   */
   readonly claimName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kafka_strimzi_io_kafka_v1beta2_manifest#read_only DataK8SKafkaStrimziIoKafkaV1Beta2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }

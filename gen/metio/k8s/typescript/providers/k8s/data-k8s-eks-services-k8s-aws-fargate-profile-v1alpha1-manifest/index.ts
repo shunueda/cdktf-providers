@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#metadata DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#metadata DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestMetadata;
   /**
   * FargateProfileSpec defines the desired state of FargateProfile. An object representing an Fargate profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#spec DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#spec DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#annotations DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#annotations DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#labels DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#labels DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#name DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#name DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestMetadataOutpu
 }
 export interface DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecClusterRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#name DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#name DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -346,7 +346,7 @@ export interface DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecClust
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#from DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#from DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecClusterRefFrom;
 }
@@ -440,11 +440,11 @@ export class DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecClusterRe
 }
 export interface DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecPodExecutionRoleRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#name DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#name DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -569,7 +569,7 @@ export interface DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecPodEx
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#from DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#from DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecPodExecutionRoleRefFrom;
 }
@@ -663,11 +663,11 @@ export class DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecPodExecut
 }
 export interface DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecSelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#labels DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#labels DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -812,11 +812,11 @@ export class DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecSelectors
 }
 export interface DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecSubnetRefsFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#name DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#name DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -941,7 +941,7 @@ export interface DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecSubne
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#from DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#from DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecSubnetRefsFrom;
 }
@@ -1059,59 +1059,59 @@ export interface DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpec {
   /**
   * A unique, case-sensitive identifier that you provide to ensure the idempotency of the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#client_request_token DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#client_request_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#client_request_token DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#client_request_token}
   */
   readonly clientRequestToken?: string;
   /**
   * The name of your cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#cluster_name DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#cluster_name DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#cluster_ref DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#cluster_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#cluster_ref DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#cluster_ref}
   */
   readonly clusterRef?: DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecClusterRef;
   /**
   * The name of the Fargate profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#name DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#name DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The Amazon Resource Name (ARN) of the Pod execution role to use for a Pod that matches the selectors in the Fargate profile. The Pod execution role allows Fargate infrastructure to register with your cluster as a node, and it provides read access to Amazon ECR image repositories. For more information, see Pod execution role (https://docs.aws.amazon.com/eks/latest/userguide/pod-execution-role.html) in the Amazon EKS User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#pod_execution_role_arn DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#pod_execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#pod_execution_role_arn DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#pod_execution_role_arn}
   */
   readonly podExecutionRoleArn?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#pod_execution_role_ref DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#pod_execution_role_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#pod_execution_role_ref DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#pod_execution_role_ref}
   */
   readonly podExecutionRoleRef?: DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecPodExecutionRoleRef;
   /**
   * The selectors to match for a Pod to use this Fargate profile. Each selector must have an associated Kubernetes namespace. Optionally, you can also specify labels for a namespace. You may specify up to five selectors in a Fargate profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#selectors DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#selectors DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#selectors}
   */
   readonly selectors?: DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecSelectors[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#subnet_refs DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#subnet_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#subnet_refs DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#subnet_refs}
   */
   readonly subnetRefs?: DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecSubnetRefs[] | cdktf.IResolvable;
   /**
   * The IDs of subnets to launch a Pod into. A Pod running on Fargate isn't assigned a public IP address, so only private subnets (with no direct route to an Internet Gateway) are accepted for this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#subnets DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#subnets DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#subnets}
   */
   readonly subnets?: string[];
   /**
   * Metadata that assists with categorization and organization. Each tag consists of a key and an optional value. You define both. Tags don't propagate to any other cluster or Amazon Web Services resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#tags DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#tags DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1463,7 +1463,7 @@ export class DataK8SEksServicesK8SAwsFargateProfileV1Alpha1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest k8s_eks_services_k8s_aws_fargate_profile_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest k8s_eks_services_k8s_aws_fargate_profile_v1alpha1_manifest}
 */
 export class DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1479,7 +1479,7 @@ export class DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1491,7 +1491,7 @@ export class DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest k8s_eks_services_k8s_aws_fargate_profile_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_fargate_profile_v1alpha1_manifest k8s_eks_services_k8s_aws_fargate_profile_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1502,8 +1502,8 @@ export class DataK8SEksServicesK8SAwsFargateProfileV1Alpha1Manifest extends cdkt
       terraformResourceType: 'k8s_eks_services_k8s_aws_fargate_profile_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

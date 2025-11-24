@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SK8SMariadbComConnectionV1Alpha1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#metadata DataK8SK8SMariadbComConnectionV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#metadata DataK8SK8SMariadbComConnectionV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SK8SMariadbComConnectionV1Alpha1ManifestMetadata;
   /**
   * ConnectionSpec defines the desired state of Connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#spec DataK8SK8SMariadbComConnectionV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#spec DataK8SK8SMariadbComConnectionV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SK8SMariadbComConnectionV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#annotations DataK8SK8SMariadbComConnectionV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#annotations DataK8SK8SMariadbComConnectionV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#labels DataK8SK8SMariadbComConnectionV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#labels DataK8SK8SMariadbComConnectionV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#name DataK8SK8SMariadbComConnectionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#name DataK8SK8SMariadbComConnectionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#namespace DataK8SK8SMariadbComConnectionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#namespace DataK8SK8SMariadbComConnectionV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpecHealthCheck {
   /**
   * Interval used to perform health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#interval DataK8SK8SMariadbComConnectionV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#interval DataK8SK8SMariadbComConnectionV1Alpha1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * RetryInterval is the interval used to perform health check retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#retry_interval DataK8SK8SMariadbComConnectionV1Alpha1Manifest#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#retry_interval DataK8SK8SMariadbComConnectionV1Alpha1Manifest#retry_interval}
   */
   readonly retryInterval?: string;
 }
@@ -348,17 +348,17 @@ export class DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpecHealthCheckOutput
 }
 export interface DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpecMariaDbRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#name DataK8SK8SMariadbComConnectionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#name DataK8SK8SMariadbComConnectionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#namespace DataK8SK8SMariadbComConnectionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#namespace DataK8SK8SMariadbComConnectionV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * WaitForIt indicates whether the controller using this reference should wait for MariaDB to be ready.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#wait_for_it DataK8SK8SMariadbComConnectionV1Alpha1Manifest#wait_for_it}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#wait_for_it DataK8SK8SMariadbComConnectionV1Alpha1Manifest#wait_for_it}
   */
   readonly waitForIt?: boolean | cdktf.IResolvable;
 }
@@ -510,11 +510,11 @@ export class DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpecMariaDbRefOutputR
 }
 export interface DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpecMaxScaleRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#name DataK8SK8SMariadbComConnectionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#name DataK8SK8SMariadbComConnectionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#namespace DataK8SK8SMariadbComConnectionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#namespace DataK8SK8SMariadbComConnectionV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -637,11 +637,11 @@ export class DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpecMaxScaleRefOutput
 }
 export interface DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpecPasswordSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#key DataK8SK8SMariadbComConnectionV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#key DataK8SK8SMariadbComConnectionV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#name DataK8SK8SMariadbComConnectionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#name DataK8SK8SMariadbComConnectionV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -763,13 +763,13 @@ export interface DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpecSecretTemplat
   /**
   * Annotations to be added to children resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#annotations DataK8SK8SMariadbComConnectionV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#annotations DataK8SK8SMariadbComConnectionV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels to be added to children resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#labels DataK8SK8SMariadbComConnectionV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#labels DataK8SK8SMariadbComConnectionV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -894,49 +894,49 @@ export interface DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpecSecretTemplat
   /**
   * DatabaseKey to be used in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#database_key DataK8SK8SMariadbComConnectionV1Alpha1Manifest#database_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#database_key DataK8SK8SMariadbComConnectionV1Alpha1Manifest#database_key}
   */
   readonly databaseKey?: string;
   /**
   * Format to be used in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#format DataK8SK8SMariadbComConnectionV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#format DataK8SK8SMariadbComConnectionV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * HostKey to be used in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#host_key DataK8SK8SMariadbComConnectionV1Alpha1Manifest#host_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#host_key DataK8SK8SMariadbComConnectionV1Alpha1Manifest#host_key}
   */
   readonly hostKey?: string;
   /**
   * Key to be used in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#key DataK8SK8SMariadbComConnectionV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#key DataK8SK8SMariadbComConnectionV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Metadata to be added to the Secret object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#metadata DataK8SK8SMariadbComConnectionV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#metadata DataK8SK8SMariadbComConnectionV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpecSecretTemplateMetadata;
   /**
   * PasswordKey to be used in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#password_key DataK8SK8SMariadbComConnectionV1Alpha1Manifest#password_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#password_key DataK8SK8SMariadbComConnectionV1Alpha1Manifest#password_key}
   */
   readonly passwordKey?: string;
   /**
   * PortKey to be used in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#port_key DataK8SK8SMariadbComConnectionV1Alpha1Manifest#port_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#port_key DataK8SK8SMariadbComConnectionV1Alpha1Manifest#port_key}
   */
   readonly portKey?: string;
   /**
   * UsernameKey to be used in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#username_key DataK8SK8SMariadbComConnectionV1Alpha1Manifest#username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#username_key DataK8SK8SMariadbComConnectionV1Alpha1Manifest#username_key}
   */
   readonly usernameKey?: string;
 }
@@ -1235,73 +1235,73 @@ export interface DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpec {
   /**
   * Database to use when configuring the Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#database DataK8SK8SMariadbComConnectionV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#database DataK8SK8SMariadbComConnectionV1Alpha1Manifest#database}
   */
   readonly database?: string;
   /**
   * HealthCheck to be used in the Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#health_check DataK8SK8SMariadbComConnectionV1Alpha1Manifest#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#health_check DataK8SK8SMariadbComConnectionV1Alpha1Manifest#health_check}
   */
   readonly healthCheck?: DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpecHealthCheck;
   /**
   * Host to connect to. If not provided, it defaults to the MariaDB host or to the MaxScale host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#host DataK8SK8SMariadbComConnectionV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#host DataK8SK8SMariadbComConnectionV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * MariaDBRef is a reference to the MariaDB to connect to. Either MariaDBRef or MaxScaleRef must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#maria_db_ref DataK8SK8SMariadbComConnectionV1Alpha1Manifest#maria_db_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#maria_db_ref DataK8SK8SMariadbComConnectionV1Alpha1Manifest#maria_db_ref}
   */
   readonly mariaDbRef?: DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpecMariaDbRef;
   /**
   * MaxScaleRef is a reference to the MaxScale to connect to. Either MariaDBRef or MaxScaleRef must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#max_scale_ref DataK8SK8SMariadbComConnectionV1Alpha1Manifest#max_scale_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#max_scale_ref DataK8SK8SMariadbComConnectionV1Alpha1Manifest#max_scale_ref}
   */
   readonly maxScaleRef?: DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpecMaxScaleRef;
   /**
   * Params to be used in the Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#params DataK8SK8SMariadbComConnectionV1Alpha1Manifest#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#params DataK8SK8SMariadbComConnectionV1Alpha1Manifest#params}
   */
   readonly params?: { [key: string]: string };
   /**
   * PasswordSecretKeyRef is a reference to the password to use for configuring the Connection. If the referred Secret is labeled with 'k8s.mariadb.com/watch', updates may be performed to the Secret in order to update the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#password_secret_key_ref DataK8SK8SMariadbComConnectionV1Alpha1Manifest#password_secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#password_secret_key_ref DataK8SK8SMariadbComConnectionV1Alpha1Manifest#password_secret_key_ref}
   */
   readonly passwordSecretKeyRef: DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpecPasswordSecretKeyRef;
   /**
   * Port to connect to. If not provided, it defaults to the MariaDB port or to the first MaxScale listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#port DataK8SK8SMariadbComConnectionV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#port DataK8SK8SMariadbComConnectionV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * SecretName to be used in the Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#secret_name DataK8SK8SMariadbComConnectionV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#secret_name DataK8SK8SMariadbComConnectionV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
   * SecretTemplate to be used in the Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#secret_template DataK8SK8SMariadbComConnectionV1Alpha1Manifest#secret_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#secret_template DataK8SK8SMariadbComConnectionV1Alpha1Manifest#secret_template}
   */
   readonly secretTemplate?: DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpecSecretTemplate;
   /**
   * ServiceName to be used in the Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#service_name DataK8SK8SMariadbComConnectionV1Alpha1Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#service_name DataK8SK8SMariadbComConnectionV1Alpha1Manifest#service_name}
   */
   readonly serviceName?: string;
   /**
   * Username to use for configuring the Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#username DataK8SK8SMariadbComConnectionV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#username DataK8SK8SMariadbComConnectionV1Alpha1Manifest#username}
   */
   readonly username: string;
 }
@@ -1708,7 +1708,7 @@ export class DataK8SK8SMariadbComConnectionV1Alpha1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest k8s_k8s_mariadb_com_connection_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest k8s_k8s_mariadb_com_connection_v1alpha1_manifest}
 */
 export class DataK8SK8SMariadbComConnectionV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1724,7 +1724,7 @@ export class DataK8SK8SMariadbComConnectionV1Alpha1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SK8SMariadbComConnectionV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SK8SMariadbComConnectionV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SK8SMariadbComConnectionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SK8SMariadbComConnectionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SK8SMariadbComConnectionV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1736,7 +1736,7 @@ export class DataK8SK8SMariadbComConnectionV1Alpha1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest k8s_k8s_mariadb_com_connection_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_mariadb_com_connection_v1alpha1_manifest k8s_k8s_mariadb_com_connection_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1747,8 +1747,8 @@ export class DataK8SK8SMariadbComConnectionV1Alpha1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_k8s_mariadb_com_connection_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

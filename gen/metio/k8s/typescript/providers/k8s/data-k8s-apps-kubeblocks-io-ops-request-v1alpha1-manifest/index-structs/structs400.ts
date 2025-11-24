@@ -51,19 +51,19 @@ export interface DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecUpgradeCom
   /**
   * Specifies the name of the ComponentDefinition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#component_definition_name DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#component_definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#component_definition_name DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#component_definition_name}
   */
   readonly componentDefinitionName?: string;
   /**
   * Specifies the name of the Component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#component_name DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#component_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#component_name DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#component_name}
   */
   readonly componentName: string;
   /**
   * Specifies the version of the Service expected to be provisioned by this Component. Referring to the ServiceVersion defined by the ComponentDefinition and ComponentVersion. And ServiceVersion in ClusterComponentSpec is optional, when no version is specified, use the latest available version in ComponentVersion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#service_version DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#service_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#service_version DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#service_version}
   */
   readonly serviceVersion?: string;
 }
@@ -236,13 +236,13 @@ export interface DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecUpgrade {
   /**
   * Deprecated: since v0.9 because ClusterVersion is deprecated. Specifies the name of the target ClusterVersion for the upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#cluster_version_ref DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#cluster_version_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#cluster_version_ref DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#cluster_version_ref}
   */
   readonly clusterVersionRef?: string;
   /**
   * Lists components to be upgrade based on desired ComponentDefinition and ServiceVersion. From the perspective of cluster API, the reasonable combinations should be: 1. (comp-def, service-ver) - upgrade to the specified service version and component definition, the user takes the responsibility to ensure that they are compatible. 2. ('', service-ver) - upgrade to the specified service version, let the operator choose the latest compatible component definition. 3. (comp-def, '') - upgrade to the specified component definition, let the operator choose the latest compatible service version. 4. ('', '') - upgrade to the latest service version and component definition, the operator will ensure the compatibility between the selected versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#components DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#components DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#components}
   */
   readonly components?: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecUpgradeComponents[] | cdktf.IResolvable;
 }
@@ -367,13 +367,13 @@ export interface DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecVolumeExpa
   /**
   * Specify the name of the volumeClaimTemplate in the Component. The specified name must match one of the volumeClaimTemplates defined in the 'clusterComponentSpec.volumeClaimTemplates' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#name DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#name DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Specifies the desired storage size for the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#storage DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#storage DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#storage}
   */
   readonly storage: string;
 }
@@ -514,13 +514,13 @@ export interface DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecVolumeExpa
   /**
   * Refer to the instance template name of the component or sharding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#name DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#name DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * volumeClaimTemplates specifies the storage size and volumeClaimTemplate name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#volume_claim_templates DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#volume_claim_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#volume_claim_templates DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#volume_claim_templates}
   */
   readonly volumeClaimTemplates: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecVolumeExpansionInstancesVolumeClaimTemplates[] | cdktf.IResolvable;
 }
@@ -661,13 +661,13 @@ export interface DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecVolumeExpa
   /**
   * Specify the name of the volumeClaimTemplate in the Component. The specified name must match one of the volumeClaimTemplates defined in the 'clusterComponentSpec.volumeClaimTemplates' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#name DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#name DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Specifies the desired storage size for the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#storage DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#storage DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#storage}
   */
   readonly storage: string;
 }
@@ -808,19 +808,19 @@ export interface DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecVolumeExpa
   /**
   * Specifies the name of the Component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#component_name DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#component_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#component_name DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#component_name}
   */
   readonly componentName: string;
   /**
   * Specifies the desired storage size of the instance template that need to volume expand.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#instances DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#instances DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#instances}
   */
   readonly instances?: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecVolumeExpansionInstances[] | cdktf.IResolvable;
   /**
   * Specifies a list of OpsRequestVolumeClaimTemplate objects, defining the volumeClaimTemplates that are used to expand the storage and the desired storage size for each one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#volume_claim_templates DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#volume_claim_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#volume_claim_templates DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#volume_claim_templates}
   */
   readonly volumeClaimTemplates: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecVolumeExpansionVolumeClaimTemplates[] | cdktf.IResolvable;
 }
@@ -990,151 +990,151 @@ export interface DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpec {
   /**
   * Specifies the parameters to backup a Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#backup DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#backup DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#backup}
   */
   readonly backup?: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecBackup;
   /**
   * Deprecated: since v0.9, use backup instead. Specifies the parameters to backup a Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#backup_spec DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#backup_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#backup_spec DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#backup_spec}
   */
   readonly backupSpec?: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecBackupSpec;
   /**
   * Indicates whether the current operation should be canceled and terminated gracefully if it's in the 'Pending', 'Creating', or 'Running' state. This field applies only to 'VerticalScaling' and 'HorizontalScaling' opsRequests. Note: Setting 'cancel' to true is irreversible; further modifications to this field are ineffective.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#cancel DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#cancel DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#cancel}
   */
   readonly cancel?: boolean | cdktf.IResolvable;
   /**
   * Specifies the name of the Cluster resource that this operation is targeting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#cluster_name DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#cluster_name DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Deprecated: since v0.9, use clusterName instead. Specifies the name of the Cluster resource that this operation is targeting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#cluster_ref DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#cluster_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#cluster_ref DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#cluster_ref}
   */
   readonly clusterRef?: string;
   /**
   * Specifies a custom operation defined by OpsDefinition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#custom DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#custom DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecCustom;
   /**
   * Indicates whether opsRequest should continue to queue when 'force' is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#enqueue_on_force DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#enqueue_on_force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#enqueue_on_force DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#enqueue_on_force}
   */
   readonly enqueueOnForce?: boolean | cdktf.IResolvable;
   /**
   * Lists Expose objects, each specifying a Component and its services to be exposed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#expose DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#expose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#expose DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#expose}
   */
   readonly expose?: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecExpose[] | cdktf.IResolvable;
   /**
   * Instructs the system to bypass pre-checks (including cluster state checks and customized pre-conditions hooks) and immediately execute the opsRequest, except for the opsRequest of 'Start' type, which will still undergo pre-checks even if 'force' is true. This is useful for concurrent execution of 'VerticalScaling' and 'HorizontalScaling' opsRequests. By setting 'force' to true, you can bypass the default checks and demand these opsRequests to run simultaneously. Note: Once set, the 'force' field is immutable and cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#force DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#force DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * Lists HorizontalScaling objects, each specifying scaling requirements for a Component, including desired replica changes, configurations for new instances, modifications for existing instances, and take offline/online the specified instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#horizontal_scaling DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#horizontal_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#horizontal_scaling DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#horizontal_scaling}
   */
   readonly horizontalScaling?: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecHorizontalScaling[] | cdktf.IResolvable;
   /**
   * Specifies the maximum time in seconds that the OpsRequest will wait for its pre-conditions to be met before it aborts the operation. If set to 0 (default), pre-conditions must be satisfied immediately for the OpsRequest to proceed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#pre_condition_deadline_seconds DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#pre_condition_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#pre_condition_deadline_seconds DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#pre_condition_deadline_seconds}
   */
   readonly preConditionDeadlineSeconds?: number;
   /**
   * Specifies the parameters to rebuild some instances. Rebuilding an instance involves restoring its data from a backup or another database replica. The instances being rebuilt usually serve as standby in the cluster. Hence rebuilding instances is often also referred to as 'standby reconstruction'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#rebuild_from DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#rebuild_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#rebuild_from DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#rebuild_from}
   */
   readonly rebuildFrom?: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecRebuildFrom[] | cdktf.IResolvable;
   /**
   * Specifies a component and its configuration updates. This field is deprecated and replaced by 'reconfigures'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#reconfigure DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#reconfigure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#reconfigure DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#reconfigure}
   */
   readonly reconfigure?: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecReconfigure;
   /**
   * Lists Reconfigure objects, each specifying a Component and its configuration updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#reconfigures DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#reconfigures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#reconfigures DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#reconfigures}
   */
   readonly reconfigures?: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecReconfigures[] | cdktf.IResolvable;
   /**
   * Lists Components to be restarted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#restart DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#restart DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#restart}
   */
   readonly restart?: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecRestart[] | cdktf.IResolvable;
   /**
   * Specifies the parameters to restore a Cluster. Note that this restore operation will roll back cluster services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#restore DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#restore DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#restore}
   */
   readonly restore?: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecRestore;
   /**
   * Deprecated: since v0.9, use restore instead. Specifies the parameters to restore a Cluster. Note that this restore operation will roll back cluster services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#restore_spec DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#restore_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#restore_spec DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#restore_spec}
   */
   readonly restoreSpec?: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecRestoreSpec;
   /**
   * Lists Switchover objects, each specifying a Component to perform the switchover operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#switchover DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#switchover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#switchover DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#switchover}
   */
   readonly switchover?: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecSwitchover[] | cdktf.IResolvable;
   /**
   * Specifies the maximum duration (in seconds) that an opsRequest is allowed to run. If the opsRequest runs longer than this duration, its phase will be marked as Aborted. If this value is not set or set to 0, the timeout will be ignored and the opsRequest will run indefinitely.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#timeout_seconds DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#timeout_seconds DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * Specifies the duration in seconds that an OpsRequest will remain in the system after successfully completing (when 'opsRequest.status.phase' is 'Succeed') before automatic deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#ttl_seconds_after_succeed DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#ttl_seconds_after_succeed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#ttl_seconds_after_succeed DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#ttl_seconds_after_succeed}
   */
   readonly ttlSecondsAfterSucceed?: number;
   /**
   * Specifies the duration in seconds that an OpsRequest will remain in the system after completion for any phase other than 'Succeed' (e.g., 'Failed', 'Cancelled', 'Aborted') before automatic deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#ttl_seconds_after_unsuccessful_completion DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#ttl_seconds_after_unsuccessful_completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#ttl_seconds_after_unsuccessful_completion DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#ttl_seconds_after_unsuccessful_completion}
   */
   readonly ttlSecondsAfterUnsuccessfulCompletion?: number;
   /**
   * Specifies the type of this operation. Supported types include 'Start', 'Stop', 'Restart', 'Switchover', 'VerticalScaling', 'HorizontalScaling', 'VolumeExpansion', 'Reconfiguring', 'Upgrade', 'Backup', 'Restore', 'Expose', 'RebuildInstance', 'Custom'. Note: This field is immutable once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#type DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#type DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * Specifies the desired new version of the Cluster. Note: This field is immutable once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#upgrade DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#upgrade DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#upgrade}
   */
   readonly upgrade?: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecUpgrade;
   /**
   * Lists VerticalScaling objects, each specifying a component and its desired compute resources for vertical scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#vertical_scaling DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#vertical_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#vertical_scaling DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#vertical_scaling}
   */
   readonly verticalScaling?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * Lists VolumeExpansion objects, each specifying a component and its corresponding volumeClaimTemplates that requires storage expansion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#volume_expansion DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#volume_expansion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_ops_request_v1alpha1_manifest#volume_expansion DataK8SAppsKubeblocksIoOpsRequestV1Alpha1Manifest#volume_expansion}
   */
   readonly volumeExpansion?: DataK8SAppsKubeblocksIoOpsRequestV1Alpha1ManifestSpecVolumeExpansion[] | cdktf.IResolvable;
 }

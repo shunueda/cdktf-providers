@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface PolarisProviderConfig {
   /**
   * The service account credentials, service account credentials file name or local user account name to use when accessing RSC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs#credentials PolarisProvider#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs#credentials PolarisProvider#credentials}
   */
   readonly credentials?: string;
   /**
   * Enable or disable the token cache. The token cache is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs#token_cache PolarisProvider#token_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs#token_cache PolarisProvider#token_cache}
   */
   readonly tokenCache?: boolean | cdktf.IResolvable;
   /**
   * The directory where cached authentication tokens are stored. The OS directory for temporary files is used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs#token_cache_dir PolarisProvider#token_cache_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs#token_cache_dir PolarisProvider#token_cache_dir}
   */
   readonly tokenCacheDir?: string;
   /**
   * The secret used as input when generating an encryption key for the authentication token. The encryption key is derived from the RSC account information by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs#token_cache_secret PolarisProvider#token_cache_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs#token_cache_secret PolarisProvider#token_cache_secret}
   */
   readonly tokenCacheSecret?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs#alias PolarisProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs#alias PolarisProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs polaris}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs polaris}
 */
 export class PolarisProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class PolarisProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a PolarisProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolarisProvider to import
-  * @param importFromId The id of the existing PolarisProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolarisProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolarisProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class PolarisProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs polaris} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs polaris} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class PolarisProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'polaris',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       terraformProviderSource: 'rubrikinc/polaris'
     });

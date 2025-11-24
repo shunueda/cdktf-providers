@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_user
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlatformUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The email of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_user#email PlatformUser#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_user#email PlatformUser#email}
   */
   readonly email: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_user#id PlatformUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_user#id PlatformUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface PlatformUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Organization identifier of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_user#org_id PlatformUser#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_user#org_id PlatformUser#org_id}
   */
   readonly orgId?: string;
   /**
   * Project identifier of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_user#project_id PlatformUser#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_user#project_id PlatformUser#project_id}
   */
   readonly projectId?: string;
   /**
   * The user group of the user. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_user#user_groups PlatformUser#user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_user#user_groups PlatformUser#user_groups}
   */
   readonly userGroups: string[];
   /**
   * role_bindings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_user#role_bindings PlatformUser#role_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_user#role_bindings PlatformUser#role_bindings}
   */
   readonly roleBindings?: PlatformUserRoleBindings[] | cdktf.IResolvable;
 }
@@ -49,31 +49,31 @@ export interface PlatformUserRoleBindings {
   /**
   * Managed Role of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_user#managed_role PlatformUser#managed_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_user#managed_role PlatformUser#managed_role}
   */
   readonly managedRole?: boolean | cdktf.IResolvable;
   /**
   * Resource Group Identifier of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_user#resource_group_identifier PlatformUser#resource_group_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_user#resource_group_identifier PlatformUser#resource_group_identifier}
   */
   readonly resourceGroupIdentifier?: string;
   /**
   * Resource Group Name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_user#resource_group_name PlatformUser#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_user#resource_group_name PlatformUser#resource_group_name}
   */
   readonly resourceGroupName?: string;
   /**
   * Role Identifier of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_user#role_identifier PlatformUser#role_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_user#role_identifier PlatformUser#role_identifier}
   */
   readonly roleIdentifier?: string;
   /**
   * Role Name Identifier of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_user#role_name PlatformUser#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_user#role_name PlatformUser#role_name}
   */
   readonly roleName?: string;
 }
@@ -305,7 +305,7 @@ export class PlatformUserRoleBindingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_user harness_platform_user}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_user harness_platform_user}
 */
 export class PlatformUser extends cdktf.TerraformResource {
 
@@ -321,7 +321,7 @@ export class PlatformUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformUser to import
-  * @param importFromId The id of the existing PlatformUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -333,7 +333,7 @@ export class PlatformUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_user harness_platform_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_user harness_platform_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -344,8 +344,8 @@ export class PlatformUser extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_user',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

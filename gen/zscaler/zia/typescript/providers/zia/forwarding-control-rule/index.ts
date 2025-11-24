@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule
+// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,211 +10,211 @@ export interface ForwardingControlRuleConfig extends cdktf.TerraformMetaArgument
   /**
   * Additional information about the forwarding rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#description ForwardingControlRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#description ForwardingControlRule#description}
   */
   readonly description?: string;
   /**
   * List of destination IP addresses or FQDNs for which the rule is applicable. CIDR notation can be used for destination IP addresses. If not set, the rule is not restricted to a specific destination addresses unless specified by destCountries, destIpGroups, or destIpCategories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#dest_addresses ForwardingControlRule#dest_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#dest_addresses ForwardingControlRule#dest_addresses}
   */
   readonly destAddresses?: string[];
   /**
   * Destination countries for which the rule is applicable. If not set, the rule is not restricted to specific destination countries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#dest_countries ForwardingControlRule#dest_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#dest_countries ForwardingControlRule#dest_countries}
   */
   readonly destCountries?: string[];
   /**
   * List of destination IP categories to which the rule applies. If not set, the rule is not restricted to specific destination IP categories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#dest_ip_categories ForwardingControlRule#dest_ip_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#dest_ip_categories ForwardingControlRule#dest_ip_categories}
   */
   readonly destIpCategories?: string[];
   /**
   * The type of traffic forwarding method selected from the available options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#forward_method ForwardingControlRule#forward_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#forward_method ForwardingControlRule#forward_method}
   */
   readonly forwardMethod: string;
   /**
   * The name of the forwarding rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#name ForwardingControlRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#name ForwardingControlRule#name}
   */
   readonly name?: string;
   /**
   * The order of execution for the forwarding rule order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#order ForwardingControlRule#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#order ForwardingControlRule#order}
   */
   readonly order: number;
   /**
   * Admin rank assigned to the forwarding rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#rank ForwardingControlRule#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#rank ForwardingControlRule#rank}
   */
   readonly rank?: number;
   /**
   * List of destination domain categories to which the rule applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#res_categories ForwardingControlRule#res_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#res_categories ForwardingControlRule#res_categories}
   */
   readonly resCategories?: string[];
   /**
   * User-defined source IP addresses for which the rule is applicable. If not set, the rule is not restricted to a specific source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#src_ips ForwardingControlRule#src_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#src_ips ForwardingControlRule#src_ips}
   */
   readonly srcIps?: string[];
   /**
   * Determines whether the Firewall Filtering policy rule is enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#state ForwardingControlRule#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#state ForwardingControlRule#state}
   */
   readonly state?: string;
   /**
   * The rule type selected from the available options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#type ForwardingControlRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#type ForwardingControlRule#type}
   */
   readonly type?: string;
   /**
   * app_service_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#app_service_groups ForwardingControlRule#app_service_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#app_service_groups ForwardingControlRule#app_service_groups}
   */
   readonly appServiceGroups?: ForwardingControlRuleAppServiceGroups;
   /**
   * departments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#departments ForwardingControlRule#departments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#departments ForwardingControlRule#departments}
   */
   readonly departments?: ForwardingControlRuleDepartments;
   /**
   * dest_ip_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#dest_ip_groups ForwardingControlRule#dest_ip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#dest_ip_groups ForwardingControlRule#dest_ip_groups}
   */
   readonly destIpGroups?: ForwardingControlRuleDestIpGroups;
   /**
   * dest_ipv6_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#dest_ipv6_groups ForwardingControlRule#dest_ipv6_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#dest_ipv6_groups ForwardingControlRule#dest_ipv6_groups}
   */
   readonly destIpv6Groups?: ForwardingControlRuleDestIpv6Groups;
   /**
   * device_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#device_groups ForwardingControlRule#device_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#device_groups ForwardingControlRule#device_groups}
   */
   readonly deviceGroups?: ForwardingControlRuleDeviceGroups;
   /**
   * ec_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#ec_groups ForwardingControlRule#ec_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#ec_groups ForwardingControlRule#ec_groups}
   */
   readonly ecGroups?: ForwardingControlRuleEcGroups;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#groups ForwardingControlRule#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#groups ForwardingControlRule#groups}
   */
   readonly groups?: ForwardingControlRuleGroups;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#labels ForwardingControlRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#labels ForwardingControlRule#labels}
   */
   readonly labels?: ForwardingControlRuleLabels;
   /**
   * location_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#location_groups ForwardingControlRule#location_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#location_groups ForwardingControlRule#location_groups}
   */
   readonly locationGroups?: ForwardingControlRuleLocationGroups;
   /**
   * locations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#locations ForwardingControlRule#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#locations ForwardingControlRule#locations}
   */
   readonly locations?: ForwardingControlRuleLocations;
   /**
   * nw_application_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#nw_application_groups ForwardingControlRule#nw_application_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#nw_application_groups ForwardingControlRule#nw_application_groups}
   */
   readonly nwApplicationGroups?: ForwardingControlRuleNwApplicationGroups;
   /**
   * nw_service_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#nw_service_groups ForwardingControlRule#nw_service_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#nw_service_groups ForwardingControlRule#nw_service_groups}
   */
   readonly nwServiceGroups?: ForwardingControlRuleNwServiceGroups;
   /**
   * nw_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#nw_services ForwardingControlRule#nw_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#nw_services ForwardingControlRule#nw_services}
   */
   readonly nwServices?: ForwardingControlRuleNwServices;
   /**
   * proxy_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#proxy_gateway ForwardingControlRule#proxy_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#proxy_gateway ForwardingControlRule#proxy_gateway}
   */
   readonly proxyGateway?: ForwardingControlRuleProxyGateway;
   /**
   * src_ip_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#src_ip_groups ForwardingControlRule#src_ip_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#src_ip_groups ForwardingControlRule#src_ip_groups}
   */
   readonly srcIpGroups?: ForwardingControlRuleSrcIpGroups;
   /**
   * src_ipv6_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#src_ipv6_groups ForwardingControlRule#src_ipv6_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#src_ipv6_groups ForwardingControlRule#src_ipv6_groups}
   */
   readonly srcIpv6Groups?: ForwardingControlRuleSrcIpv6Groups;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#timeouts ForwardingControlRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#timeouts ForwardingControlRule#timeouts}
   */
   readonly timeouts?: ForwardingControlRuleTimeouts;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#users ForwardingControlRule#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#users ForwardingControlRule#users}
   */
   readonly users?: ForwardingControlRuleUsers;
   /**
   * zpa_app_segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#zpa_app_segments ForwardingControlRule#zpa_app_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#zpa_app_segments ForwardingControlRule#zpa_app_segments}
   */
   readonly zpaAppSegments?: ForwardingControlRuleZpaAppSegments[] | cdktf.IResolvable;
   /**
   * zpa_application_segment_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#zpa_application_segment_groups ForwardingControlRule#zpa_application_segment_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#zpa_application_segment_groups ForwardingControlRule#zpa_application_segment_groups}
   */
   readonly zpaApplicationSegmentGroups?: ForwardingControlRuleZpaApplicationSegmentGroups;
   /**
   * zpa_application_segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#zpa_application_segments ForwardingControlRule#zpa_application_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#zpa_application_segments ForwardingControlRule#zpa_application_segments}
   */
   readonly zpaApplicationSegments?: ForwardingControlRuleZpaApplicationSegments;
   /**
   * zpa_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#zpa_gateway ForwardingControlRule#zpa_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#zpa_gateway ForwardingControlRule#zpa_gateway}
   */
   readonly zpaGateway?: ForwardingControlRuleZpaGateway;
 }
 export interface ForwardingControlRuleAppServiceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -301,7 +301,7 @@ export class ForwardingControlRuleAppServiceGroupsOutputReference extends cdktf.
 }
 export interface ForwardingControlRuleDepartments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -388,7 +388,7 @@ export class ForwardingControlRuleDepartmentsOutputReference extends cdktf.Compl
 }
 export interface ForwardingControlRuleDestIpGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -475,7 +475,7 @@ export class ForwardingControlRuleDestIpGroupsOutputReference extends cdktf.Comp
 }
 export interface ForwardingControlRuleDestIpv6Groups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -562,7 +562,7 @@ export class ForwardingControlRuleDestIpv6GroupsOutputReference extends cdktf.Co
 }
 export interface ForwardingControlRuleDeviceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -649,7 +649,7 @@ export class ForwardingControlRuleDeviceGroupsOutputReference extends cdktf.Comp
 }
 export interface ForwardingControlRuleEcGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -736,7 +736,7 @@ export class ForwardingControlRuleEcGroupsOutputReference extends cdktf.ComplexO
 }
 export interface ForwardingControlRuleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -823,7 +823,7 @@ export class ForwardingControlRuleGroupsOutputReference extends cdktf.ComplexObj
 }
 export interface ForwardingControlRuleLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -910,7 +910,7 @@ export class ForwardingControlRuleLabelsOutputReference extends cdktf.ComplexObj
 }
 export interface ForwardingControlRuleLocationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -997,7 +997,7 @@ export class ForwardingControlRuleLocationGroupsOutputReference extends cdktf.Co
 }
 export interface ForwardingControlRuleLocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1084,7 +1084,7 @@ export class ForwardingControlRuleLocationsOutputReference extends cdktf.Complex
 }
 export interface ForwardingControlRuleNwApplicationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1171,7 +1171,7 @@ export class ForwardingControlRuleNwApplicationGroupsOutputReference extends cdk
 }
 export interface ForwardingControlRuleNwServiceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1258,7 +1258,7 @@ export class ForwardingControlRuleNwServiceGroupsOutputReference extends cdktf.C
 }
 export interface ForwardingControlRuleNwServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1347,7 +1347,7 @@ export interface ForwardingControlRuleProxyGateway {
   /**
   * The unique identifier for the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1356,7 +1356,7 @@ export interface ForwardingControlRuleProxyGateway {
   /**
   * The name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#name ForwardingControlRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#name ForwardingControlRule#name}
   */
   readonly name?: string;
 }
@@ -1466,7 +1466,7 @@ export class ForwardingControlRuleProxyGatewayOutputReference extends cdktf.Comp
 }
 export interface ForwardingControlRuleSrcIpGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1553,7 +1553,7 @@ export class ForwardingControlRuleSrcIpGroupsOutputReference extends cdktf.Compl
 }
 export interface ForwardingControlRuleSrcIpv6Groups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1640,11 +1640,11 @@ export class ForwardingControlRuleSrcIpv6GroupsOutputReference extends cdktf.Com
 }
 export interface ForwardingControlRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#create ForwardingControlRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#create ForwardingControlRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#update ForwardingControlRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#update ForwardingControlRule#update}
   */
   readonly update?: string;
 }
@@ -1767,7 +1767,7 @@ export class ForwardingControlRuleTimeoutsOutputReference extends cdktf.ComplexO
 }
 export interface ForwardingControlRuleUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1856,13 +1856,13 @@ export interface ForwardingControlRuleZpaAppSegments {
   /**
   * External ID of the application segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#external_id ForwardingControlRule#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#external_id ForwardingControlRule#external_id}
   */
   readonly externalId: string;
   /**
   * Name of the application segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#name ForwardingControlRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#name ForwardingControlRule#name}
   */
   readonly name: string;
 }
@@ -2001,7 +2001,7 @@ export class ForwardingControlRuleZpaAppSegmentsList extends cdktf.ComplexList {
 }
 export interface ForwardingControlRuleZpaApplicationSegmentGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2088,7 +2088,7 @@ export class ForwardingControlRuleZpaApplicationSegmentGroupsOutputReference ext
 }
 export interface ForwardingControlRuleZpaApplicationSegments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2177,7 +2177,7 @@ export interface ForwardingControlRuleZpaGateway {
   /**
   * The unique identifier for the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#id ForwardingControlRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2186,7 +2186,7 @@ export interface ForwardingControlRuleZpaGateway {
   /**
   * The name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#name ForwardingControlRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#name ForwardingControlRule#name}
   */
   readonly name?: string;
 }
@@ -2296,7 +2296,7 @@ export class ForwardingControlRuleZpaGatewayOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule zia_forwarding_control_rule}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule zia_forwarding_control_rule}
 */
 export class ForwardingControlRule extends cdktf.TerraformResource {
 
@@ -2312,7 +2312,7 @@ export class ForwardingControlRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ForwardingControlRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ForwardingControlRule to import
-  * @param importFromId The id of the existing ForwardingControlRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ForwardingControlRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ForwardingControlRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2324,7 +2324,7 @@ export class ForwardingControlRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/forwarding_control_rule zia_forwarding_control_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/forwarding_control_rule zia_forwarding_control_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2335,8 +2335,8 @@ export class ForwardingControlRule extends cdktf.TerraformResource {
       terraformResourceType: 'zia_forwarding_control_rule',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.2',
-        providerVersionConstraint: '4.6.2'
+        providerVersion: '4.6.3',
+        providerVersionConstraint: '4.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

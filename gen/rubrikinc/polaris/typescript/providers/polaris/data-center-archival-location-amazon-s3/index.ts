@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface DataCenterArchivalLocationAmazonS3Config extends cdktf.Terrafor
   /**
   * AWS bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#bucket_name DataCenterArchivalLocationAmazonS3#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#bucket_name DataCenterArchivalLocationAmazonS3#bucket_name}
   */
   readonly bucketName: string;
   /**
   * RSC data center cloud account ID (UUID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#cloud_account_id DataCenterArchivalLocationAmazonS3#cloud_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#cloud_account_id DataCenterArchivalLocationAmazonS3#cloud_account_id}
   */
   readonly cloudAccountId: string;
   /**
   * Rubrik cluster ID (UUID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#cluster_id DataCenterArchivalLocationAmazonS3#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#cluster_id DataCenterArchivalLocationAmazonS3#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Encryption password. Password encryption is available only for immutable archival locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#encryption_password DataCenterArchivalLocationAmazonS3#encryption_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#encryption_password DataCenterArchivalLocationAmazonS3#encryption_password}
   */
   readonly encryptionPassword?: string;
   /**
   * AWS KMS master key ID. Cannot be used with immutable archival locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#kms_master_key DataCenterArchivalLocationAmazonS3#kms_master_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#kms_master_key DataCenterArchivalLocationAmazonS3#kms_master_key}
   */
   readonly kmsMasterKey?: string;
   /**
   * Data center archival location name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#name DataCenterArchivalLocationAmazonS3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#name DataCenterArchivalLocationAmazonS3#name}
   */
   readonly name: string;
   /**
   * AWS region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#region DataCenterArchivalLocationAmazonS3#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#region DataCenterArchivalLocationAmazonS3#region}
   */
   readonly region: string;
   /**
   * AWS bucket retrieval tier. Determines the speed and cost of retrieving data from the Glacier and Glacier Flexible Retrieval storage classes. Possible values are `BULK_TIER`, `EXPEDITED_TIER` and `STANDARD_TIER`. Default value is `STANDARD_TIER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#retrieval_tier DataCenterArchivalLocationAmazonS3#retrieval_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#retrieval_tier DataCenterArchivalLocationAmazonS3#retrieval_tier}
   */
   readonly retrievalTier?: string;
   /**
   * PEM encoded private RSA key. Cannot be used with immutable archival locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#rsa_key DataCenterArchivalLocationAmazonS3#rsa_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#rsa_key DataCenterArchivalLocationAmazonS3#rsa_key}
   */
   readonly rsaKey?: string;
   /**
   * AWS bucket storage class. Possible values are `STANDARD`, `STANDARD_IA` and `ONEZONE_IA`. Default value is `STANDARD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#storage_class DataCenterArchivalLocationAmazonS3#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#storage_class DataCenterArchivalLocationAmazonS3#storage_class}
   */
   readonly storageClass?: string;
   /**
   * archival_proxy_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#archival_proxy_settings DataCenterArchivalLocationAmazonS3#archival_proxy_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#archival_proxy_settings DataCenterArchivalLocationAmazonS3#archival_proxy_settings}
   */
   readonly archivalProxySettings?: DataCenterArchivalLocationAmazonS3ArchivalProxySettings;
   /**
   * cloud_compute_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#cloud_compute_settings DataCenterArchivalLocationAmazonS3#cloud_compute_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#cloud_compute_settings DataCenterArchivalLocationAmazonS3#cloud_compute_settings}
   */
   readonly cloudComputeSettings?: DataCenterArchivalLocationAmazonS3CloudComputeSettings;
   /**
   * compute_proxy_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#compute_proxy_settings DataCenterArchivalLocationAmazonS3#compute_proxy_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#compute_proxy_settings DataCenterArchivalLocationAmazonS3#compute_proxy_settings}
   */
   readonly computeProxySettings?: DataCenterArchivalLocationAmazonS3ComputeProxySettings;
   /**
   * endpoint_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#endpoint_settings DataCenterArchivalLocationAmazonS3#endpoint_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#endpoint_settings DataCenterArchivalLocationAmazonS3#endpoint_settings}
   */
   readonly endpointSettings?: DataCenterArchivalLocationAmazonS3EndpointSettings;
   /**
   * immutability_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#immutability_settings DataCenterArchivalLocationAmazonS3#immutability_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#immutability_settings DataCenterArchivalLocationAmazonS3#immutability_settings}
   */
   readonly immutabilitySettings?: DataCenterArchivalLocationAmazonS3ImmutabilitySettings;
 }
@@ -102,37 +102,37 @@ export interface DataCenterArchivalLocationAmazonS3ArchivalProxySettings {
   /**
   * When true, the system proxy will not be used to route the archival requests and data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#bypass_proxy DataCenterArchivalLocationAmazonS3#bypass_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#bypass_proxy DataCenterArchivalLocationAmazonS3#bypass_proxy}
   */
   readonly bypassProxy?: boolean | cdktf.IResolvable;
   /**
   * Proxy password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#password DataCenterArchivalLocationAmazonS3#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#password DataCenterArchivalLocationAmazonS3#password}
   */
   readonly password?: string;
   /**
   * Proxy port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#port_number DataCenterArchivalLocationAmazonS3#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#port_number DataCenterArchivalLocationAmazonS3#port_number}
   */
   readonly portNumber?: number;
   /**
   * Proxy protocol. Possible values are `HTTP`, `HTTPS` and `SOCKS5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#protocol DataCenterArchivalLocationAmazonS3#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#protocol DataCenterArchivalLocationAmazonS3#protocol}
   */
   readonly protocol?: string;
   /**
   * Proxy server IP address or FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#proxy_server DataCenterArchivalLocationAmazonS3#proxy_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#proxy_server DataCenterArchivalLocationAmazonS3#proxy_server}
   */
   readonly proxyServer?: string;
   /**
   * Proxy username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#username DataCenterArchivalLocationAmazonS3#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#username DataCenterArchivalLocationAmazonS3#username}
   */
   readonly username?: string;
 }
@@ -363,25 +363,25 @@ export interface DataCenterArchivalLocationAmazonS3CloudComputeSettings {
   /**
   * When true, archival consolidation is enabled. Archival consolidation frees up storage. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#archival_consolidation DataCenterArchivalLocationAmazonS3#archival_consolidation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#archival_consolidation DataCenterArchivalLocationAmazonS3#archival_consolidation}
   */
   readonly archivalConsolidation?: boolean | cdktf.IResolvable;
   /**
   * AWS security group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#security_group_id DataCenterArchivalLocationAmazonS3#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#security_group_id DataCenterArchivalLocationAmazonS3#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * AWS subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#subnet_id DataCenterArchivalLocationAmazonS3#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#subnet_id DataCenterArchivalLocationAmazonS3#subnet_id}
   */
   readonly subnetId: string;
   /**
   * AWS VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#vpc_id DataCenterArchivalLocationAmazonS3#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#vpc_id DataCenterArchivalLocationAmazonS3#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -545,31 +545,31 @@ export interface DataCenterArchivalLocationAmazonS3ComputeProxySettings {
   /**
   * Proxy password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#password DataCenterArchivalLocationAmazonS3#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#password DataCenterArchivalLocationAmazonS3#password}
   */
   readonly password?: string;
   /**
   * Proxy port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#port_number DataCenterArchivalLocationAmazonS3#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#port_number DataCenterArchivalLocationAmazonS3#port_number}
   */
   readonly portNumber: number;
   /**
   * Proxy protocol. Possible values are `HTTP`, `HTTPS` and `SOCKS5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#protocol DataCenterArchivalLocationAmazonS3#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#protocol DataCenterArchivalLocationAmazonS3#protocol}
   */
   readonly protocol: string;
   /**
   * Proxy server IP address or FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#proxy_server DataCenterArchivalLocationAmazonS3#proxy_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#proxy_server DataCenterArchivalLocationAmazonS3#proxy_server}
   */
   readonly proxyServer: string;
   /**
   * Proxy username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#username DataCenterArchivalLocationAmazonS3#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#username DataCenterArchivalLocationAmazonS3#username}
   */
   readonly username?: string;
 }
@@ -762,13 +762,13 @@ export interface DataCenterArchivalLocationAmazonS3EndpointSettings {
   /**
   * AWS KMS endpoint. A KMS endpoint can only be specified when a KMS key is used for encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#kms_endpoint DataCenterArchivalLocationAmazonS3#kms_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#kms_endpoint DataCenterArchivalLocationAmazonS3#kms_endpoint}
   */
   readonly kmsEndpoint?: string;
   /**
   * AWS S3 endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#s3_endpoint DataCenterArchivalLocationAmazonS3#s3_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#s3_endpoint DataCenterArchivalLocationAmazonS3#s3_endpoint}
   */
   readonly s3Endpoint?: string;
 }
@@ -883,7 +883,7 @@ export interface DataCenterArchivalLocationAmazonS3ImmutabilitySettings {
   /**
   * Immutability lock period (days).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#lock_period DataCenterArchivalLocationAmazonS3#lock_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#lock_period DataCenterArchivalLocationAmazonS3#lock_period}
   */
   readonly lockPeriod: number;
 }
@@ -964,7 +964,7 @@ export class DataCenterArchivalLocationAmazonS3ImmutabilitySettingsOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3 polaris_data_center_archival_location_amazon_s3}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3 polaris_data_center_archival_location_amazon_s3}
 */
 export class DataCenterArchivalLocationAmazonS3 extends cdktf.TerraformResource {
 
@@ -980,7 +980,7 @@ export class DataCenterArchivalLocationAmazonS3 extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a DataCenterArchivalLocationAmazonS3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCenterArchivalLocationAmazonS3 to import
-  * @param importFromId The id of the existing DataCenterArchivalLocationAmazonS3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCenterArchivalLocationAmazonS3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCenterArchivalLocationAmazonS3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -992,7 +992,7 @@ export class DataCenterArchivalLocationAmazonS3 extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/data_center_archival_location_amazon_s3 polaris_data_center_archival_location_amazon_s3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/data_center_archival_location_amazon_s3 polaris_data_center_archival_location_amazon_s3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1003,8 +1003,8 @@ export class DataCenterArchivalLocationAmazonS3 extends cdktf.TerraformResource 
       terraformResourceType: 'polaris_data_center_archival_location_amazon_s3',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

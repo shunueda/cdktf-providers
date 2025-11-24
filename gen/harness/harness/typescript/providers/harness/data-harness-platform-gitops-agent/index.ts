@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_agent
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataHarnessPlatformGitopsAgentConfig extends cdktf.TerraformMet
   /**
   * Account identifier of the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_agent#account_id DataHarnessPlatformGitopsAgent#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent#account_id DataHarnessPlatformGitopsAgent#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_agent#id DataHarnessPlatformGitopsAgent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent#id DataHarnessPlatformGitopsAgent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataHarnessPlatformGitopsAgentConfig extends cdktf.TerraformMet
   /**
   * Identifier of the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_agent#identifier DataHarnessPlatformGitopsAgent#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent#identifier DataHarnessPlatformGitopsAgent#identifier}
   */
   readonly identifier: string;
   /**
   * Organization identifier of the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_agent#org_id DataHarnessPlatformGitopsAgent#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent#org_id DataHarnessPlatformGitopsAgent#org_id}
   */
   readonly orgId?: string;
   /**
   * Project identifier of the GitOps agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_agent#project_id DataHarnessPlatformGitopsAgent#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent#project_id DataHarnessPlatformGitopsAgent#project_id}
   */
   readonly projectId?: string;
   /**
   * Specify whether to retrieve the gitops agent's token. (The field agent_token will be populated only if the agent has never connected to Harness before). For retrieval of this information, the user associated to the token being used must have Gitops Agent Edit permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_agent#with_credentials DataHarnessPlatformGitopsAgent#with_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent#with_credentials DataHarnessPlatformGitopsAgent#with_credentials}
   */
   readonly withCredentials?: boolean | cdktf.IResolvable;
 }
@@ -132,7 +132,7 @@ export class DataHarnessPlatformGitopsAgentMetadataList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_agent harness_platform_gitops_agent}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent harness_platform_gitops_agent}
 */
 export class DataHarnessPlatformGitopsAgent extends cdktf.TerraformDataSource {
 
@@ -148,7 +148,7 @@ export class DataHarnessPlatformGitopsAgent extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessPlatformGitopsAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformGitopsAgent to import
-  * @param importFromId The id of the existing DataHarnessPlatformGitopsAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformGitopsAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformGitopsAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -160,7 +160,7 @@ export class DataHarnessPlatformGitopsAgent extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_agent harness_platform_gitops_agent} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_gitops_agent harness_platform_gitops_agent} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -171,8 +171,8 @@ export class DataHarnessPlatformGitopsAgent extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_platform_gitops_agent',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

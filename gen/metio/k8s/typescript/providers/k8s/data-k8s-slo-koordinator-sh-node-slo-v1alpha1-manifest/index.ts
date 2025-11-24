@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#metadata DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#metadata DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestMetadata;
   /**
   * NodeSLOSpec defines the desired state of NodeSLO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#spec DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#spec DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#annotations DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#annotations DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#labels DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#labels DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#name DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#name DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,29 +187,29 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecCpuBurstStrat
   /**
   * pod cfs quota scale up ceil percentage, default = 300 (300%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cfs_quota_burst_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cfs_quota_burst_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cfs_quota_burst_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cfs_quota_burst_percent}
   */
   readonly cfsQuotaBurstPercent?: number;
   /**
   * specifies a period of time for pod can use at burst, default = -1 (unlimited)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cfs_quota_burst_period_seconds DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cfs_quota_burst_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cfs_quota_burst_period_seconds DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cfs_quota_burst_period_seconds}
   */
   readonly cfsQuotaBurstPeriodSeconds?: number;
   /**
   * cpu burst percentage for setting cpu.cfs_burst_us, legal range: [0, 10000], default as 1000 (1000%)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_burst_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_burst_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_burst_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_burst_percent}
   */
   readonly cpuBurstPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#policy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#policy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#policy}
   */
   readonly policy?: string;
   /**
   * scale down cfs quota if node cpu overload, default = 50
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#share_pool_threshold_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#share_pool_threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#share_pool_threshold_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#share_pool_threshold_percent}
   */
   readonly sharePoolThresholdPercent?: number;
 }
@@ -421,19 +421,19 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecHostApplicati
   /**
   * cgroup base dir, the format is various across cgroup drivers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#base DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#base DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#base}
   */
   readonly base?: string;
   /**
   * cgroup parent path under base dir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#parent_dir DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#parent_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#parent_dir DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#parent_dir}
   */
   readonly parentDir?: string;
   /**
   * cgroup relative path under parent dir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#relative_path DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#relative_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#relative_path DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#relative_path}
   */
   readonly relativePath?: string;
 }
@@ -587,29 +587,29 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecHostApplicati
   /**
   * Optional, defines the host cgroup configuration, use default if not specified according to priority and qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cgroup_path DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cgroup_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cgroup_path DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cgroup_path}
   */
   readonly cgroupPath?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecHostApplicationsCgroupPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#name DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#name DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Priority class of the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority}
   */
   readonly priority?: string;
   /**
   * QoS class of the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#qos}
   */
   readonly qos?: string;
   /**
   * QoS Strategy of host application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#strategy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#strategy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#strategy}
   */
   readonly strategy?: { [key: string]: string };
 }
@@ -843,93 +843,93 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * configure the cost model of blkio-cost manually whether the user model is enabled. Default value: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable_user_model DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable_user_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable_user_model DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable_user_model}
   */
   readonly enableUserModel?: boolean | cdktf.IResolvable;
   /**
   * This field is used to set the weight of a sub-group. Default value: 100. Valid values: 1 to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_weight_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_weight_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_weight_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_weight_percent}
   */
   readonly ioWeightPercent?: number;
   /**
   * the read BPS of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_bps}
   */
   readonly modelReadBps?: number;
   /**
   * the random read iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_rand_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_rand_iops}
   */
   readonly modelReadRandIops?: number;
   /**
   * the sequential read iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_seq_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_seq_iops}
   */
   readonly modelReadSeqIops?: number;
   /**
   * the write BPS of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_bps}
   */
   readonly modelWriteBps?: number;
   /**
   * the random write iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_rand_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_rand_iops}
   */
   readonly modelWriteRandIops?: number;
   /**
   * the sequential write iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_seq_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_seq_iops}
   */
   readonly modelWriteSeqIops?: number;
   /**
   * Throttling of throughput The value is set to 0, which indicates that the feature is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_bps}
   */
   readonly readBps?: number;
   /**
   * Throttling of IOPS The value is set to 0, which indicates that the feature is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_iops}
   */
   readonly readIops?: number;
   /**
   * Configure the weight-based throttling feature of blk-iocost Only used for RootClass After blk-iocost is enabled, the kernel calculates the proportion of requests that exceed the read or write latency threshold out of all requests. When the proportion is greater than the read or write latency percentile (95%), the kernel considers the disk to be saturated and reduces the rate at which requests are sent to the disk. the read latency threshold. Unit: microseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency}
   */
   readonly readLatency?: number;
   /**
   * the read latency percentile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency_percent}
   */
   readonly readLatencyPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_bps}
   */
   readonly writeBps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_iops}
   */
   readonly writeIops?: number;
   /**
   * the write latency threshold. Unit: microseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency}
   */
   readonly writeLatency?: number;
   /**
   * the write latency percentile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency_percent}
   */
   readonly writeLatencyPercent?: number;
 }
@@ -1458,15 +1458,15 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrate
 }
 export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyBeClassBlkioQosBlocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_cfg DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_cfg DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_cfg}
   */
   readonly ioCfg?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyBeClassBlkioQosBlocksIoCfg;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#name DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#name DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#type DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#type DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1640,11 +1640,11 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrate
 }
 export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyBeClassBlkioQos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blocks DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blocks DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blocks}
   */
   readonly blocks?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyBeClassBlkioQosBlocks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -1769,25 +1769,25 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * whether pods of the QoS class can expel the cgroup idle pods at the SMT-level. default = false If set to true, pods of this QoS will use a dedicated core sched group for noise clean with the SchedIdle pods. NOTE: It takes effect if cpuPolicy = 'coreSched'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#core_expeller DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#core_expeller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#core_expeller DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#core_expeller}
   */
   readonly coreExpeller?: boolean | cdktf.IResolvable;
   /**
   * Enable indicates whether the cpu qos is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * group identity value for pods, default = 0 NOTE: It takes effect if cpuPolicy = 'groupIdentity'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#group_identity DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#group_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#group_identity DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#group_identity}
   */
   readonly groupIdentity?: number;
   /**
   * cpu.idle value for pods, default = 0. '1' means using SCHED_IDLE. CGroup Idle (introduced since mainline Linux 5.15): https://lore.kernel.org/lkml/162971078674.25758.15464079371945307825.tip-bot2@tip-bot2/#r NOTE: It takes effect if cpuPolicy = 'coreSched'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#sched_idle DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#sched_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#sched_idle DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#sched_idle}
   */
   readonly schedIdle?: number;
 }
@@ -1970,57 +1970,57 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * Enable indicates whether the memory qos is enabled (default: false). This field is used for node-level control, while pod-level configuration is done with MemoryQOS and 'Policy' instead of an 'Enable' option. Please view the differences between MemoryQOSCfg and PodMemoryQOSConfig structs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * LowLimitPercent specifies the lowLimitFactor percentage to calculate 'memory.low', which TRIES BEST protecting memory from global reclamation when memory usage does not exceed the low limit unless no unprotected memcg can be reclaimed. NOTE: 'memory.low' should be larger than 'memory.min'. If spec.requests.memory == spec.limits.memory, pod 'memory.low' and 'memory.high' become invalid, while 'memory.wmark_ratio' is still in effect. Close: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#low_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#low_limit_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#low_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#low_limit_percent}
   */
   readonly lowLimitPercent?: number;
   /**
   * memcg qos If enabled, memcg qos will be set by the agent, where some fields are implicitly calculated from pod spec. 1. 'memory.min' := spec.requests.memory * minLimitFactor / 100 (use 0 if requests.memory is not set) 2. 'memory.low' := spec.requests.memory * lowLimitFactor / 100 (use 0 if requests.memory is not set) 3. 'memory.limit_in_bytes' := spec.limits.memory (set $node.allocatable.memory if limits.memory is not set) 4. 'memory.high' := floor[(spec.requests.memory + throttlingFactor / 100 * (memory.limit_in_bytes or node allocatable memory - spec.requests.memory))/pageSize] * pageSize MinLimitPercent specifies the minLimitFactor percentage to calculate 'memory.min', which protects memory from global reclamation when memory usage does not exceed the min limit. Close: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#min_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#min_limit_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#min_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#min_limit_percent}
   */
   readonly minLimitPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#oom_kill_group DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#oom_kill_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#oom_kill_group DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#oom_kill_group}
   */
   readonly oomKillGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * TODO: enhance the usages of oom priority and oom kill group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority_enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority_enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority_enable}
   */
   readonly priorityEnable?: number;
   /**
   * ThrottlingPercent specifies the throttlingFactor percentage to calculate 'memory.high' with pod memory.limits or node allocatable memory, which triggers memcg direct reclamation when memory usage exceeds. Lower the factor brings more heavier reclaim pressure. Close: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#throttling_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#throttling_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#throttling_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#throttling_percent}
   */
   readonly throttlingPercent?: number;
   /**
   * wmark_min_adj (Anolis OS required) WmarkMinAdj specifies 'memory.wmark_min_adj' which adjusts per-memcg threshold for global memory reclamation. Lower the factor brings later reclamation. The adjustment uses different formula for different value range. [-25, 0)：global_wmark_min' = global_wmark_min + (global_wmark_min - 0) * wmarkMinAdj (0, 50]：global_wmark_min' = global_wmark_min + (global_wmark_low - global_wmark_min) * wmarkMinAdj Close: [LSR:0, LS:0, BE:0]. Recommended: [LSR:-25, LS:-25, BE:50].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_min_adj DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_min_adj}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_min_adj DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_min_adj}
   */
   readonly wmarkMinAdj?: number;
   /**
   * wmark_ratio (Anolis OS required) Async memory reclamation is triggered when cgroup memory usage exceeds 'memory.wmark_high' and the reclamation stops when usage is below 'memory.wmark_low'. Basically, 'memory.wmark_high' := min(memory.high, memory.limit_in_bytes) * memory.memory.wmark_ratio 'memory.wmark_low' := min(memory.high, memory.limit_in_bytes) * (memory.wmark_ratio - memory.wmark_scale_factor) WmarkRatio specifies 'memory.wmark_ratio' that help calculate 'memory.wmark_high', which triggers async memory reclamation when memory usage exceeds. Close: 0. Recommended: 95.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_ratio DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_ratio DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_ratio}
   */
   readonly wmarkRatio?: number;
   /**
   * WmarkScalePermill specifies 'memory.wmark_scale_factor' that helps calculate 'memory.wmark_low', which stops async memory reclamation when memory usage belows. Close: 50. Recommended: 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_scale_permill DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_scale_permill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_scale_permill DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_scale_permill}
   */
   readonly wmarkScalePermill?: number;
 }
@@ -2377,29 +2377,29 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * EgressLimit describes the maximum network bandwidth can be used in the egress direction, unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_limit}
   */
   readonly egressLimit?: string;
   /**
   * EgressRequest describes the minimum network bandwidth guaranteed in the egress direction. unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_request}
   */
   readonly egressRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * IngressLimit describes the maximum network bandwidth can be used in the ingress direction, unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_limit}
   */
   readonly ingressLimit?: string;
   /**
   * IngressRequest describes the minimum network bandwidth guaranteed in the ingress direction. unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_request}
   */
   readonly ingressRequest?: string;
 }
@@ -2611,25 +2611,25 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * LLC available range end for pods by percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_end_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_end_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_end_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_end_percent}
   */
   readonly catRangeEndPercent?: number;
   /**
   * LLC available range start for pods by percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_start_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_start_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_start_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_start_percent}
   */
   readonly catRangeStartPercent?: number;
   /**
   * Enable indicates whether the resctrl qos is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * MBA percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#mba_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#mba_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#mba_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#mba_percent}
   */
   readonly mbaPercent?: number;
 }
@@ -2810,29 +2810,29 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrate
 }
 export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyBeClass {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blkio_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blkio_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blkio_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blkio_qos}
   */
   readonly blkioQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyBeClassBlkioQos;
   /**
   * CPUQOSCfg stores node-level config of cpu qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_qos}
   */
   readonly cpuQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyBeClassCpuQos;
   /**
   * MemoryQOSCfg stores node-level config of memory qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#memory_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#memory_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#memory_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#memory_qos}
   */
   readonly memoryQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyBeClassMemoryQos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#network_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#network_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#network_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#network_qos}
   */
   readonly networkQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyBeClassNetworkQos;
   /**
   * ResctrlQOSCfg stores node-level config of resctrl qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#resctrl_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#resctrl_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#resctrl_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#resctrl_qos}
   */
   readonly resctrlQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyBeClassResctrlQos;
 }
@@ -3044,93 +3044,93 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * configure the cost model of blkio-cost manually whether the user model is enabled. Default value: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable_user_model DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable_user_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable_user_model DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable_user_model}
   */
   readonly enableUserModel?: boolean | cdktf.IResolvable;
   /**
   * This field is used to set the weight of a sub-group. Default value: 100. Valid values: 1 to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_weight_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_weight_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_weight_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_weight_percent}
   */
   readonly ioWeightPercent?: number;
   /**
   * the read BPS of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_bps}
   */
   readonly modelReadBps?: number;
   /**
   * the random read iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_rand_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_rand_iops}
   */
   readonly modelReadRandIops?: number;
   /**
   * the sequential read iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_seq_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_seq_iops}
   */
   readonly modelReadSeqIops?: number;
   /**
   * the write BPS of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_bps}
   */
   readonly modelWriteBps?: number;
   /**
   * the random write iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_rand_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_rand_iops}
   */
   readonly modelWriteRandIops?: number;
   /**
   * the sequential write iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_seq_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_seq_iops}
   */
   readonly modelWriteSeqIops?: number;
   /**
   * Throttling of throughput The value is set to 0, which indicates that the feature is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_bps}
   */
   readonly readBps?: number;
   /**
   * Throttling of IOPS The value is set to 0, which indicates that the feature is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_iops}
   */
   readonly readIops?: number;
   /**
   * Configure the weight-based throttling feature of blk-iocost Only used for RootClass After blk-iocost is enabled, the kernel calculates the proportion of requests that exceed the read or write latency threshold out of all requests. When the proportion is greater than the read or write latency percentile (95%), the kernel considers the disk to be saturated and reduces the rate at which requests are sent to the disk. the read latency threshold. Unit: microseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency}
   */
   readonly readLatency?: number;
   /**
   * the read latency percentile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency_percent}
   */
   readonly readLatencyPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_bps}
   */
   readonly writeBps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_iops}
   */
   readonly writeIops?: number;
   /**
   * the write latency threshold. Unit: microseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency}
   */
   readonly writeLatency?: number;
   /**
   * the write latency percentile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency_percent}
   */
   readonly writeLatencyPercent?: number;
 }
@@ -3659,15 +3659,15 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrate
 }
 export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyCgroupRootBlkioQosBlocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_cfg DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_cfg DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_cfg}
   */
   readonly ioCfg?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyCgroupRootBlkioQosBlocksIoCfg;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#name DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#name DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#type DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#type DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -3841,11 +3841,11 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrate
 }
 export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyCgroupRootBlkioQos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blocks DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blocks DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blocks}
   */
   readonly blocks?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyCgroupRootBlkioQosBlocks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -3970,25 +3970,25 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * whether pods of the QoS class can expel the cgroup idle pods at the SMT-level. default = false If set to true, pods of this QoS will use a dedicated core sched group for noise clean with the SchedIdle pods. NOTE: It takes effect if cpuPolicy = 'coreSched'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#core_expeller DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#core_expeller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#core_expeller DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#core_expeller}
   */
   readonly coreExpeller?: boolean | cdktf.IResolvable;
   /**
   * Enable indicates whether the cpu qos is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * group identity value for pods, default = 0 NOTE: It takes effect if cpuPolicy = 'groupIdentity'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#group_identity DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#group_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#group_identity DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#group_identity}
   */
   readonly groupIdentity?: number;
   /**
   * cpu.idle value for pods, default = 0. '1' means using SCHED_IDLE. CGroup Idle (introduced since mainline Linux 5.15): https://lore.kernel.org/lkml/162971078674.25758.15464079371945307825.tip-bot2@tip-bot2/#r NOTE: It takes effect if cpuPolicy = 'coreSched'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#sched_idle DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#sched_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#sched_idle DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#sched_idle}
   */
   readonly schedIdle?: number;
 }
@@ -4171,57 +4171,57 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * Enable indicates whether the memory qos is enabled (default: false). This field is used for node-level control, while pod-level configuration is done with MemoryQOS and 'Policy' instead of an 'Enable' option. Please view the differences between MemoryQOSCfg and PodMemoryQOSConfig structs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * LowLimitPercent specifies the lowLimitFactor percentage to calculate 'memory.low', which TRIES BEST protecting memory from global reclamation when memory usage does not exceed the low limit unless no unprotected memcg can be reclaimed. NOTE: 'memory.low' should be larger than 'memory.min'. If spec.requests.memory == spec.limits.memory, pod 'memory.low' and 'memory.high' become invalid, while 'memory.wmark_ratio' is still in effect. Close: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#low_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#low_limit_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#low_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#low_limit_percent}
   */
   readonly lowLimitPercent?: number;
   /**
   * memcg qos If enabled, memcg qos will be set by the agent, where some fields are implicitly calculated from pod spec. 1. 'memory.min' := spec.requests.memory * minLimitFactor / 100 (use 0 if requests.memory is not set) 2. 'memory.low' := spec.requests.memory * lowLimitFactor / 100 (use 0 if requests.memory is not set) 3. 'memory.limit_in_bytes' := spec.limits.memory (set $node.allocatable.memory if limits.memory is not set) 4. 'memory.high' := floor[(spec.requests.memory + throttlingFactor / 100 * (memory.limit_in_bytes or node allocatable memory - spec.requests.memory))/pageSize] * pageSize MinLimitPercent specifies the minLimitFactor percentage to calculate 'memory.min', which protects memory from global reclamation when memory usage does not exceed the min limit. Close: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#min_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#min_limit_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#min_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#min_limit_percent}
   */
   readonly minLimitPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#oom_kill_group DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#oom_kill_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#oom_kill_group DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#oom_kill_group}
   */
   readonly oomKillGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * TODO: enhance the usages of oom priority and oom kill group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority_enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority_enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority_enable}
   */
   readonly priorityEnable?: number;
   /**
   * ThrottlingPercent specifies the throttlingFactor percentage to calculate 'memory.high' with pod memory.limits or node allocatable memory, which triggers memcg direct reclamation when memory usage exceeds. Lower the factor brings more heavier reclaim pressure. Close: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#throttling_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#throttling_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#throttling_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#throttling_percent}
   */
   readonly throttlingPercent?: number;
   /**
   * wmark_min_adj (Anolis OS required) WmarkMinAdj specifies 'memory.wmark_min_adj' which adjusts per-memcg threshold for global memory reclamation. Lower the factor brings later reclamation. The adjustment uses different formula for different value range. [-25, 0)：global_wmark_min' = global_wmark_min + (global_wmark_min - 0) * wmarkMinAdj (0, 50]：global_wmark_min' = global_wmark_min + (global_wmark_low - global_wmark_min) * wmarkMinAdj Close: [LSR:0, LS:0, BE:0]. Recommended: [LSR:-25, LS:-25, BE:50].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_min_adj DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_min_adj}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_min_adj DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_min_adj}
   */
   readonly wmarkMinAdj?: number;
   /**
   * wmark_ratio (Anolis OS required) Async memory reclamation is triggered when cgroup memory usage exceeds 'memory.wmark_high' and the reclamation stops when usage is below 'memory.wmark_low'. Basically, 'memory.wmark_high' := min(memory.high, memory.limit_in_bytes) * memory.memory.wmark_ratio 'memory.wmark_low' := min(memory.high, memory.limit_in_bytes) * (memory.wmark_ratio - memory.wmark_scale_factor) WmarkRatio specifies 'memory.wmark_ratio' that help calculate 'memory.wmark_high', which triggers async memory reclamation when memory usage exceeds. Close: 0. Recommended: 95.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_ratio DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_ratio DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_ratio}
   */
   readonly wmarkRatio?: number;
   /**
   * WmarkScalePermill specifies 'memory.wmark_scale_factor' that helps calculate 'memory.wmark_low', which stops async memory reclamation when memory usage belows. Close: 50. Recommended: 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_scale_permill DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_scale_permill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_scale_permill DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_scale_permill}
   */
   readonly wmarkScalePermill?: number;
 }
@@ -4578,29 +4578,29 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * EgressLimit describes the maximum network bandwidth can be used in the egress direction, unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_limit}
   */
   readonly egressLimit?: string;
   /**
   * EgressRequest describes the minimum network bandwidth guaranteed in the egress direction. unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_request}
   */
   readonly egressRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * IngressLimit describes the maximum network bandwidth can be used in the ingress direction, unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_limit}
   */
   readonly ingressLimit?: string;
   /**
   * IngressRequest describes the minimum network bandwidth guaranteed in the ingress direction. unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_request}
   */
   readonly ingressRequest?: string;
 }
@@ -4812,25 +4812,25 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * LLC available range end for pods by percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_end_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_end_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_end_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_end_percent}
   */
   readonly catRangeEndPercent?: number;
   /**
   * LLC available range start for pods by percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_start_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_start_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_start_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_start_percent}
   */
   readonly catRangeStartPercent?: number;
   /**
   * Enable indicates whether the resctrl qos is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * MBA percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#mba_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#mba_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#mba_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#mba_percent}
   */
   readonly mbaPercent?: number;
 }
@@ -5011,29 +5011,29 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrate
 }
 export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyCgroupRoot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blkio_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blkio_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blkio_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blkio_qos}
   */
   readonly blkioQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyCgroupRootBlkioQos;
   /**
   * CPUQOSCfg stores node-level config of cpu qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_qos}
   */
   readonly cpuQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyCgroupRootCpuQos;
   /**
   * MemoryQOSCfg stores node-level config of memory qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#memory_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#memory_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#memory_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#memory_qos}
   */
   readonly memoryQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyCgroupRootMemoryQos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#network_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#network_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#network_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#network_qos}
   */
   readonly networkQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyCgroupRootNetworkQos;
   /**
   * ResctrlQOSCfg stores node-level config of resctrl qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#resctrl_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#resctrl_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#resctrl_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#resctrl_qos}
   */
   readonly resctrlQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyCgroupRootResctrlQos;
 }
@@ -5245,93 +5245,93 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * configure the cost model of blkio-cost manually whether the user model is enabled. Default value: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable_user_model DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable_user_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable_user_model DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable_user_model}
   */
   readonly enableUserModel?: boolean | cdktf.IResolvable;
   /**
   * This field is used to set the weight of a sub-group. Default value: 100. Valid values: 1 to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_weight_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_weight_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_weight_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_weight_percent}
   */
   readonly ioWeightPercent?: number;
   /**
   * the read BPS of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_bps}
   */
   readonly modelReadBps?: number;
   /**
   * the random read iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_rand_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_rand_iops}
   */
   readonly modelReadRandIops?: number;
   /**
   * the sequential read iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_seq_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_seq_iops}
   */
   readonly modelReadSeqIops?: number;
   /**
   * the write BPS of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_bps}
   */
   readonly modelWriteBps?: number;
   /**
   * the random write iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_rand_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_rand_iops}
   */
   readonly modelWriteRandIops?: number;
   /**
   * the sequential write iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_seq_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_seq_iops}
   */
   readonly modelWriteSeqIops?: number;
   /**
   * Throttling of throughput The value is set to 0, which indicates that the feature is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_bps}
   */
   readonly readBps?: number;
   /**
   * Throttling of IOPS The value is set to 0, which indicates that the feature is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_iops}
   */
   readonly readIops?: number;
   /**
   * Configure the weight-based throttling feature of blk-iocost Only used for RootClass After blk-iocost is enabled, the kernel calculates the proportion of requests that exceed the read or write latency threshold out of all requests. When the proportion is greater than the read or write latency percentile (95%), the kernel considers the disk to be saturated and reduces the rate at which requests are sent to the disk. the read latency threshold. Unit: microseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency}
   */
   readonly readLatency?: number;
   /**
   * the read latency percentile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency_percent}
   */
   readonly readLatencyPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_bps}
   */
   readonly writeBps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_iops}
   */
   readonly writeIops?: number;
   /**
   * the write latency threshold. Unit: microseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency}
   */
   readonly writeLatency?: number;
   /**
   * the write latency percentile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency_percent}
   */
   readonly writeLatencyPercent?: number;
 }
@@ -5860,15 +5860,15 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrate
 }
 export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsClassBlkioQosBlocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_cfg DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_cfg DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_cfg}
   */
   readonly ioCfg?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsClassBlkioQosBlocksIoCfg;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#name DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#name DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#type DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#type DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -6042,11 +6042,11 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrate
 }
 export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsClassBlkioQos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blocks DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blocks DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blocks}
   */
   readonly blocks?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsClassBlkioQosBlocks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -6171,25 +6171,25 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * whether pods of the QoS class can expel the cgroup idle pods at the SMT-level. default = false If set to true, pods of this QoS will use a dedicated core sched group for noise clean with the SchedIdle pods. NOTE: It takes effect if cpuPolicy = 'coreSched'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#core_expeller DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#core_expeller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#core_expeller DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#core_expeller}
   */
   readonly coreExpeller?: boolean | cdktf.IResolvable;
   /**
   * Enable indicates whether the cpu qos is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * group identity value for pods, default = 0 NOTE: It takes effect if cpuPolicy = 'groupIdentity'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#group_identity DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#group_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#group_identity DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#group_identity}
   */
   readonly groupIdentity?: number;
   /**
   * cpu.idle value for pods, default = 0. '1' means using SCHED_IDLE. CGroup Idle (introduced since mainline Linux 5.15): https://lore.kernel.org/lkml/162971078674.25758.15464079371945307825.tip-bot2@tip-bot2/#r NOTE: It takes effect if cpuPolicy = 'coreSched'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#sched_idle DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#sched_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#sched_idle DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#sched_idle}
   */
   readonly schedIdle?: number;
 }
@@ -6372,57 +6372,57 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * Enable indicates whether the memory qos is enabled (default: false). This field is used for node-level control, while pod-level configuration is done with MemoryQOS and 'Policy' instead of an 'Enable' option. Please view the differences between MemoryQOSCfg and PodMemoryQOSConfig structs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * LowLimitPercent specifies the lowLimitFactor percentage to calculate 'memory.low', which TRIES BEST protecting memory from global reclamation when memory usage does not exceed the low limit unless no unprotected memcg can be reclaimed. NOTE: 'memory.low' should be larger than 'memory.min'. If spec.requests.memory == spec.limits.memory, pod 'memory.low' and 'memory.high' become invalid, while 'memory.wmark_ratio' is still in effect. Close: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#low_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#low_limit_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#low_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#low_limit_percent}
   */
   readonly lowLimitPercent?: number;
   /**
   * memcg qos If enabled, memcg qos will be set by the agent, where some fields are implicitly calculated from pod spec. 1. 'memory.min' := spec.requests.memory * minLimitFactor / 100 (use 0 if requests.memory is not set) 2. 'memory.low' := spec.requests.memory * lowLimitFactor / 100 (use 0 if requests.memory is not set) 3. 'memory.limit_in_bytes' := spec.limits.memory (set $node.allocatable.memory if limits.memory is not set) 4. 'memory.high' := floor[(spec.requests.memory + throttlingFactor / 100 * (memory.limit_in_bytes or node allocatable memory - spec.requests.memory))/pageSize] * pageSize MinLimitPercent specifies the minLimitFactor percentage to calculate 'memory.min', which protects memory from global reclamation when memory usage does not exceed the min limit. Close: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#min_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#min_limit_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#min_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#min_limit_percent}
   */
   readonly minLimitPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#oom_kill_group DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#oom_kill_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#oom_kill_group DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#oom_kill_group}
   */
   readonly oomKillGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * TODO: enhance the usages of oom priority and oom kill group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority_enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority_enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority_enable}
   */
   readonly priorityEnable?: number;
   /**
   * ThrottlingPercent specifies the throttlingFactor percentage to calculate 'memory.high' with pod memory.limits or node allocatable memory, which triggers memcg direct reclamation when memory usage exceeds. Lower the factor brings more heavier reclaim pressure. Close: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#throttling_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#throttling_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#throttling_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#throttling_percent}
   */
   readonly throttlingPercent?: number;
   /**
   * wmark_min_adj (Anolis OS required) WmarkMinAdj specifies 'memory.wmark_min_adj' which adjusts per-memcg threshold for global memory reclamation. Lower the factor brings later reclamation. The adjustment uses different formula for different value range. [-25, 0)：global_wmark_min' = global_wmark_min + (global_wmark_min - 0) * wmarkMinAdj (0, 50]：global_wmark_min' = global_wmark_min + (global_wmark_low - global_wmark_min) * wmarkMinAdj Close: [LSR:0, LS:0, BE:0]. Recommended: [LSR:-25, LS:-25, BE:50].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_min_adj DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_min_adj}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_min_adj DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_min_adj}
   */
   readonly wmarkMinAdj?: number;
   /**
   * wmark_ratio (Anolis OS required) Async memory reclamation is triggered when cgroup memory usage exceeds 'memory.wmark_high' and the reclamation stops when usage is below 'memory.wmark_low'. Basically, 'memory.wmark_high' := min(memory.high, memory.limit_in_bytes) * memory.memory.wmark_ratio 'memory.wmark_low' := min(memory.high, memory.limit_in_bytes) * (memory.wmark_ratio - memory.wmark_scale_factor) WmarkRatio specifies 'memory.wmark_ratio' that help calculate 'memory.wmark_high', which triggers async memory reclamation when memory usage exceeds. Close: 0. Recommended: 95.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_ratio DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_ratio DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_ratio}
   */
   readonly wmarkRatio?: number;
   /**
   * WmarkScalePermill specifies 'memory.wmark_scale_factor' that helps calculate 'memory.wmark_low', which stops async memory reclamation when memory usage belows. Close: 50. Recommended: 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_scale_permill DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_scale_permill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_scale_permill DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_scale_permill}
   */
   readonly wmarkScalePermill?: number;
 }
@@ -6779,29 +6779,29 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * EgressLimit describes the maximum network bandwidth can be used in the egress direction, unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_limit}
   */
   readonly egressLimit?: string;
   /**
   * EgressRequest describes the minimum network bandwidth guaranteed in the egress direction. unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_request}
   */
   readonly egressRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * IngressLimit describes the maximum network bandwidth can be used in the ingress direction, unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_limit}
   */
   readonly ingressLimit?: string;
   /**
   * IngressRequest describes the minimum network bandwidth guaranteed in the ingress direction. unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_request}
   */
   readonly ingressRequest?: string;
 }
@@ -7013,25 +7013,25 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * LLC available range end for pods by percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_end_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_end_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_end_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_end_percent}
   */
   readonly catRangeEndPercent?: number;
   /**
   * LLC available range start for pods by percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_start_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_start_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_start_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_start_percent}
   */
   readonly catRangeStartPercent?: number;
   /**
   * Enable indicates whether the resctrl qos is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * MBA percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#mba_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#mba_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#mba_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#mba_percent}
   */
   readonly mbaPercent?: number;
 }
@@ -7212,29 +7212,29 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrate
 }
 export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsClass {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blkio_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blkio_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blkio_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blkio_qos}
   */
   readonly blkioQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsClassBlkioQos;
   /**
   * CPUQOSCfg stores node-level config of cpu qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_qos}
   */
   readonly cpuQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsClassCpuQos;
   /**
   * MemoryQOSCfg stores node-level config of memory qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#memory_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#memory_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#memory_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#memory_qos}
   */
   readonly memoryQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsClassMemoryQos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#network_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#network_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#network_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#network_qos}
   */
   readonly networkQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsClassNetworkQos;
   /**
   * ResctrlQOSCfg stores node-level config of resctrl qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#resctrl_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#resctrl_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#resctrl_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#resctrl_qos}
   */
   readonly resctrlQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsClassResctrlQos;
 }
@@ -7446,93 +7446,93 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * configure the cost model of blkio-cost manually whether the user model is enabled. Default value: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable_user_model DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable_user_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable_user_model DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable_user_model}
   */
   readonly enableUserModel?: boolean | cdktf.IResolvable;
   /**
   * This field is used to set the weight of a sub-group. Default value: 100. Valid values: 1 to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_weight_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_weight_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_weight_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_weight_percent}
   */
   readonly ioWeightPercent?: number;
   /**
   * the read BPS of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_bps}
   */
   readonly modelReadBps?: number;
   /**
   * the random read iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_rand_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_rand_iops}
   */
   readonly modelReadRandIops?: number;
   /**
   * the sequential read iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_seq_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_seq_iops}
   */
   readonly modelReadSeqIops?: number;
   /**
   * the write BPS of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_bps}
   */
   readonly modelWriteBps?: number;
   /**
   * the random write iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_rand_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_rand_iops}
   */
   readonly modelWriteRandIops?: number;
   /**
   * the sequential write iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_seq_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_seq_iops}
   */
   readonly modelWriteSeqIops?: number;
   /**
   * Throttling of throughput The value is set to 0, which indicates that the feature is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_bps}
   */
   readonly readBps?: number;
   /**
   * Throttling of IOPS The value is set to 0, which indicates that the feature is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_iops}
   */
   readonly readIops?: number;
   /**
   * Configure the weight-based throttling feature of blk-iocost Only used for RootClass After blk-iocost is enabled, the kernel calculates the proportion of requests that exceed the read or write latency threshold out of all requests. When the proportion is greater than the read or write latency percentile (95%), the kernel considers the disk to be saturated and reduces the rate at which requests are sent to the disk. the read latency threshold. Unit: microseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency}
   */
   readonly readLatency?: number;
   /**
   * the read latency percentile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency_percent}
   */
   readonly readLatencyPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_bps}
   */
   readonly writeBps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_iops}
   */
   readonly writeIops?: number;
   /**
   * the write latency threshold. Unit: microseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency}
   */
   readonly writeLatency?: number;
   /**
   * the write latency percentile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency_percent}
   */
   readonly writeLatencyPercent?: number;
 }
@@ -8061,15 +8061,15 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrate
 }
 export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsrClassBlkioQosBlocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_cfg DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_cfg DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_cfg}
   */
   readonly ioCfg?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsrClassBlkioQosBlocksIoCfg;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#name DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#name DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#type DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#type DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -8243,11 +8243,11 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrate
 }
 export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsrClassBlkioQos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blocks DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blocks DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blocks}
   */
   readonly blocks?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsrClassBlkioQosBlocks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -8372,25 +8372,25 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * whether pods of the QoS class can expel the cgroup idle pods at the SMT-level. default = false If set to true, pods of this QoS will use a dedicated core sched group for noise clean with the SchedIdle pods. NOTE: It takes effect if cpuPolicy = 'coreSched'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#core_expeller DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#core_expeller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#core_expeller DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#core_expeller}
   */
   readonly coreExpeller?: boolean | cdktf.IResolvable;
   /**
   * Enable indicates whether the cpu qos is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * group identity value for pods, default = 0 NOTE: It takes effect if cpuPolicy = 'groupIdentity'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#group_identity DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#group_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#group_identity DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#group_identity}
   */
   readonly groupIdentity?: number;
   /**
   * cpu.idle value for pods, default = 0. '1' means using SCHED_IDLE. CGroup Idle (introduced since mainline Linux 5.15): https://lore.kernel.org/lkml/162971078674.25758.15464079371945307825.tip-bot2@tip-bot2/#r NOTE: It takes effect if cpuPolicy = 'coreSched'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#sched_idle DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#sched_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#sched_idle DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#sched_idle}
   */
   readonly schedIdle?: number;
 }
@@ -8573,57 +8573,57 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * Enable indicates whether the memory qos is enabled (default: false). This field is used for node-level control, while pod-level configuration is done with MemoryQOS and 'Policy' instead of an 'Enable' option. Please view the differences between MemoryQOSCfg and PodMemoryQOSConfig structs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * LowLimitPercent specifies the lowLimitFactor percentage to calculate 'memory.low', which TRIES BEST protecting memory from global reclamation when memory usage does not exceed the low limit unless no unprotected memcg can be reclaimed. NOTE: 'memory.low' should be larger than 'memory.min'. If spec.requests.memory == spec.limits.memory, pod 'memory.low' and 'memory.high' become invalid, while 'memory.wmark_ratio' is still in effect. Close: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#low_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#low_limit_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#low_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#low_limit_percent}
   */
   readonly lowLimitPercent?: number;
   /**
   * memcg qos If enabled, memcg qos will be set by the agent, where some fields are implicitly calculated from pod spec. 1. 'memory.min' := spec.requests.memory * minLimitFactor / 100 (use 0 if requests.memory is not set) 2. 'memory.low' := spec.requests.memory * lowLimitFactor / 100 (use 0 if requests.memory is not set) 3. 'memory.limit_in_bytes' := spec.limits.memory (set $node.allocatable.memory if limits.memory is not set) 4. 'memory.high' := floor[(spec.requests.memory + throttlingFactor / 100 * (memory.limit_in_bytes or node allocatable memory - spec.requests.memory))/pageSize] * pageSize MinLimitPercent specifies the minLimitFactor percentage to calculate 'memory.min', which protects memory from global reclamation when memory usage does not exceed the min limit. Close: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#min_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#min_limit_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#min_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#min_limit_percent}
   */
   readonly minLimitPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#oom_kill_group DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#oom_kill_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#oom_kill_group DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#oom_kill_group}
   */
   readonly oomKillGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * TODO: enhance the usages of oom priority and oom kill group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority_enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority_enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority_enable}
   */
   readonly priorityEnable?: number;
   /**
   * ThrottlingPercent specifies the throttlingFactor percentage to calculate 'memory.high' with pod memory.limits or node allocatable memory, which triggers memcg direct reclamation when memory usage exceeds. Lower the factor brings more heavier reclaim pressure. Close: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#throttling_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#throttling_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#throttling_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#throttling_percent}
   */
   readonly throttlingPercent?: number;
   /**
   * wmark_min_adj (Anolis OS required) WmarkMinAdj specifies 'memory.wmark_min_adj' which adjusts per-memcg threshold for global memory reclamation. Lower the factor brings later reclamation. The adjustment uses different formula for different value range. [-25, 0)：global_wmark_min' = global_wmark_min + (global_wmark_min - 0) * wmarkMinAdj (0, 50]：global_wmark_min' = global_wmark_min + (global_wmark_low - global_wmark_min) * wmarkMinAdj Close: [LSR:0, LS:0, BE:0]. Recommended: [LSR:-25, LS:-25, BE:50].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_min_adj DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_min_adj}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_min_adj DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_min_adj}
   */
   readonly wmarkMinAdj?: number;
   /**
   * wmark_ratio (Anolis OS required) Async memory reclamation is triggered when cgroup memory usage exceeds 'memory.wmark_high' and the reclamation stops when usage is below 'memory.wmark_low'. Basically, 'memory.wmark_high' := min(memory.high, memory.limit_in_bytes) * memory.memory.wmark_ratio 'memory.wmark_low' := min(memory.high, memory.limit_in_bytes) * (memory.wmark_ratio - memory.wmark_scale_factor) WmarkRatio specifies 'memory.wmark_ratio' that help calculate 'memory.wmark_high', which triggers async memory reclamation when memory usage exceeds. Close: 0. Recommended: 95.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_ratio DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_ratio DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_ratio}
   */
   readonly wmarkRatio?: number;
   /**
   * WmarkScalePermill specifies 'memory.wmark_scale_factor' that helps calculate 'memory.wmark_low', which stops async memory reclamation when memory usage belows. Close: 50. Recommended: 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_scale_permill DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_scale_permill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_scale_permill DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_scale_permill}
   */
   readonly wmarkScalePermill?: number;
 }
@@ -8980,29 +8980,29 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * EgressLimit describes the maximum network bandwidth can be used in the egress direction, unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_limit}
   */
   readonly egressLimit?: string;
   /**
   * EgressRequest describes the minimum network bandwidth guaranteed in the egress direction. unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_request}
   */
   readonly egressRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * IngressLimit describes the maximum network bandwidth can be used in the ingress direction, unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_limit}
   */
   readonly ingressLimit?: string;
   /**
   * IngressRequest describes the minimum network bandwidth guaranteed in the ingress direction. unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_request}
   */
   readonly ingressRequest?: string;
 }
@@ -9214,25 +9214,25 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * LLC available range end for pods by percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_end_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_end_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_end_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_end_percent}
   */
   readonly catRangeEndPercent?: number;
   /**
   * LLC available range start for pods by percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_start_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_start_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_start_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_start_percent}
   */
   readonly catRangeStartPercent?: number;
   /**
   * Enable indicates whether the resctrl qos is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * MBA percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#mba_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#mba_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#mba_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#mba_percent}
   */
   readonly mbaPercent?: number;
 }
@@ -9413,29 +9413,29 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrate
 }
 export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsrClass {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blkio_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blkio_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blkio_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blkio_qos}
   */
   readonly blkioQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsrClassBlkioQos;
   /**
   * CPUQOSCfg stores node-level config of cpu qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_qos}
   */
   readonly cpuQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsrClassCpuQos;
   /**
   * MemoryQOSCfg stores node-level config of memory qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#memory_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#memory_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#memory_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#memory_qos}
   */
   readonly memoryQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsrClassMemoryQos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#network_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#network_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#network_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#network_qos}
   */
   readonly networkQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsrClassNetworkQos;
   /**
   * ResctrlQOSCfg stores node-level config of resctrl qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#resctrl_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#resctrl_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#resctrl_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#resctrl_qos}
   */
   readonly resctrlQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsrClassResctrlQos;
 }
@@ -9647,13 +9647,13 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * applied policy for the CPU QoS, default = 'groupIdentity'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_policy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_policy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_policy}
   */
   readonly cpuPolicy?: string;
   /**
   * applied policy for the Net QoS, default = 'tc'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#net_qos_policy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#net_qos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#net_qos_policy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#net_qos_policy}
   */
   readonly netQosPolicy?: string;
 }
@@ -9778,93 +9778,93 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * configure the cost model of blkio-cost manually whether the user model is enabled. Default value: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable_user_model DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable_user_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable_user_model DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable_user_model}
   */
   readonly enableUserModel?: boolean | cdktf.IResolvable;
   /**
   * This field is used to set the weight of a sub-group. Default value: 100. Valid values: 1 to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_weight_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_weight_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_weight_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_weight_percent}
   */
   readonly ioWeightPercent?: number;
   /**
   * the read BPS of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_bps}
   */
   readonly modelReadBps?: number;
   /**
   * the random read iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_rand_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_rand_iops}
   */
   readonly modelReadRandIops?: number;
   /**
   * the sequential read iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_seq_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_read_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_read_seq_iops}
   */
   readonly modelReadSeqIops?: number;
   /**
   * the write BPS of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_bps}
   */
   readonly modelWriteBps?: number;
   /**
   * the random write iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_rand_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_rand_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_rand_iops}
   */
   readonly modelWriteRandIops?: number;
   /**
   * the sequential write iops of user model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_seq_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#model_write_seq_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#model_write_seq_iops}
   */
   readonly modelWriteSeqIops?: number;
   /**
   * Throttling of throughput The value is set to 0, which indicates that the feature is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_bps}
   */
   readonly readBps?: number;
   /**
   * Throttling of IOPS The value is set to 0, which indicates that the feature is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_iops}
   */
   readonly readIops?: number;
   /**
   * Configure the weight-based throttling feature of blk-iocost Only used for RootClass After blk-iocost is enabled, the kernel calculates the proportion of requests that exceed the read or write latency threshold out of all requests. When the proportion is greater than the read or write latency percentile (95%), the kernel considers the disk to be saturated and reduces the rate at which requests are sent to the disk. the read latency threshold. Unit: microseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency}
   */
   readonly readLatency?: number;
   /**
   * the read latency percentile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#read_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#read_latency_percent}
   */
   readonly readLatencyPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_bps DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_bps}
   */
   readonly writeBps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_iops DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_iops}
   */
   readonly writeIops?: number;
   /**
   * the write latency threshold. Unit: microseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency}
   */
   readonly writeLatency?: number;
   /**
   * the write latency percentile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#write_latency_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#write_latency_percent}
   */
   readonly writeLatencyPercent?: number;
 }
@@ -10393,15 +10393,15 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrate
 }
 export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategySystemClassBlkioQosBlocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_cfg DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#io_cfg DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#io_cfg}
   */
   readonly ioCfg?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategySystemClassBlkioQosBlocksIoCfg;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#name DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#name DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#type DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#type DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -10575,11 +10575,11 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrate
 }
 export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategySystemClassBlkioQos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blocks DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blocks DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blocks}
   */
   readonly blocks?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategySystemClassBlkioQosBlocks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -10704,25 +10704,25 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * whether pods of the QoS class can expel the cgroup idle pods at the SMT-level. default = false If set to true, pods of this QoS will use a dedicated core sched group for noise clean with the SchedIdle pods. NOTE: It takes effect if cpuPolicy = 'coreSched'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#core_expeller DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#core_expeller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#core_expeller DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#core_expeller}
   */
   readonly coreExpeller?: boolean | cdktf.IResolvable;
   /**
   * Enable indicates whether the cpu qos is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * group identity value for pods, default = 0 NOTE: It takes effect if cpuPolicy = 'groupIdentity'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#group_identity DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#group_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#group_identity DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#group_identity}
   */
   readonly groupIdentity?: number;
   /**
   * cpu.idle value for pods, default = 0. '1' means using SCHED_IDLE. CGroup Idle (introduced since mainline Linux 5.15): https://lore.kernel.org/lkml/162971078674.25758.15464079371945307825.tip-bot2@tip-bot2/#r NOTE: It takes effect if cpuPolicy = 'coreSched'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#sched_idle DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#sched_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#sched_idle DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#sched_idle}
   */
   readonly schedIdle?: number;
 }
@@ -10905,57 +10905,57 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * Enable indicates whether the memory qos is enabled (default: false). This field is used for node-level control, while pod-level configuration is done with MemoryQOS and 'Policy' instead of an 'Enable' option. Please view the differences between MemoryQOSCfg and PodMemoryQOSConfig structs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * LowLimitPercent specifies the lowLimitFactor percentage to calculate 'memory.low', which TRIES BEST protecting memory from global reclamation when memory usage does not exceed the low limit unless no unprotected memcg can be reclaimed. NOTE: 'memory.low' should be larger than 'memory.min'. If spec.requests.memory == spec.limits.memory, pod 'memory.low' and 'memory.high' become invalid, while 'memory.wmark_ratio' is still in effect. Close: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#low_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#low_limit_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#low_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#low_limit_percent}
   */
   readonly lowLimitPercent?: number;
   /**
   * memcg qos If enabled, memcg qos will be set by the agent, where some fields are implicitly calculated from pod spec. 1. 'memory.min' := spec.requests.memory * minLimitFactor / 100 (use 0 if requests.memory is not set) 2. 'memory.low' := spec.requests.memory * lowLimitFactor / 100 (use 0 if requests.memory is not set) 3. 'memory.limit_in_bytes' := spec.limits.memory (set $node.allocatable.memory if limits.memory is not set) 4. 'memory.high' := floor[(spec.requests.memory + throttlingFactor / 100 * (memory.limit_in_bytes or node allocatable memory - spec.requests.memory))/pageSize] * pageSize MinLimitPercent specifies the minLimitFactor percentage to calculate 'memory.min', which protects memory from global reclamation when memory usage does not exceed the min limit. Close: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#min_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#min_limit_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#min_limit_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#min_limit_percent}
   */
   readonly minLimitPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#oom_kill_group DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#oom_kill_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#oom_kill_group DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#oom_kill_group}
   */
   readonly oomKillGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * TODO: enhance the usages of oom priority and oom kill group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority_enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#priority_enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#priority_enable}
   */
   readonly priorityEnable?: number;
   /**
   * ThrottlingPercent specifies the throttlingFactor percentage to calculate 'memory.high' with pod memory.limits or node allocatable memory, which triggers memcg direct reclamation when memory usage exceeds. Lower the factor brings more heavier reclaim pressure. Close: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#throttling_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#throttling_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#throttling_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#throttling_percent}
   */
   readonly throttlingPercent?: number;
   /**
   * wmark_min_adj (Anolis OS required) WmarkMinAdj specifies 'memory.wmark_min_adj' which adjusts per-memcg threshold for global memory reclamation. Lower the factor brings later reclamation. The adjustment uses different formula for different value range. [-25, 0)：global_wmark_min' = global_wmark_min + (global_wmark_min - 0) * wmarkMinAdj (0, 50]：global_wmark_min' = global_wmark_min + (global_wmark_low - global_wmark_min) * wmarkMinAdj Close: [LSR:0, LS:0, BE:0]. Recommended: [LSR:-25, LS:-25, BE:50].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_min_adj DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_min_adj}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_min_adj DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_min_adj}
   */
   readonly wmarkMinAdj?: number;
   /**
   * wmark_ratio (Anolis OS required) Async memory reclamation is triggered when cgroup memory usage exceeds 'memory.wmark_high' and the reclamation stops when usage is below 'memory.wmark_low'. Basically, 'memory.wmark_high' := min(memory.high, memory.limit_in_bytes) * memory.memory.wmark_ratio 'memory.wmark_low' := min(memory.high, memory.limit_in_bytes) * (memory.wmark_ratio - memory.wmark_scale_factor) WmarkRatio specifies 'memory.wmark_ratio' that help calculate 'memory.wmark_high', which triggers async memory reclamation when memory usage exceeds. Close: 0. Recommended: 95.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_ratio DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_ratio DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_ratio}
   */
   readonly wmarkRatio?: number;
   /**
   * WmarkScalePermill specifies 'memory.wmark_scale_factor' that helps calculate 'memory.wmark_low', which stops async memory reclamation when memory usage belows. Close: 50. Recommended: 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_scale_permill DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_scale_permill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#wmark_scale_permill DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#wmark_scale_permill}
   */
   readonly wmarkScalePermill?: number;
 }
@@ -11312,29 +11312,29 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * EgressLimit describes the maximum network bandwidth can be used in the egress direction, unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_limit}
   */
   readonly egressLimit?: string;
   /**
   * EgressRequest describes the minimum network bandwidth guaranteed in the egress direction. unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#egress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#egress_request}
   */
   readonly egressRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * IngressLimit describes the maximum network bandwidth can be used in the ingress direction, unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_limit DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_limit}
   */
   readonly ingressLimit?: string;
   /**
   * IngressRequest describes the minimum network bandwidth guaranteed in the ingress direction. unit: bps(bytes per second), two expressions are supported，int and string, int: percentage based on total bandwidth，valid in 0-100 string: a specific network bandwidth value, eg: 50M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ingress_request DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ingress_request}
   */
   readonly ingressRequest?: string;
 }
@@ -11546,25 +11546,25 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * LLC available range end for pods by percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_end_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_end_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_end_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_end_percent}
   */
   readonly catRangeEndPercent?: number;
   /**
   * LLC available range start for pods by percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_start_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_start_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cat_range_start_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cat_range_start_percent}
   */
   readonly catRangeStartPercent?: number;
   /**
   * Enable indicates whether the resctrl qos is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * MBA percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#mba_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#mba_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#mba_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#mba_percent}
   */
   readonly mbaPercent?: number;
 }
@@ -11745,29 +11745,29 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrate
 }
 export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategySystemClass {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blkio_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blkio_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#blkio_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#blkio_qos}
   */
   readonly blkioQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategySystemClassBlkioQos;
   /**
   * CPUQOSCfg stores node-level config of cpu qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_qos}
   */
   readonly cpuQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategySystemClassCpuQos;
   /**
   * MemoryQOSCfg stores node-level config of memory qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#memory_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#memory_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#memory_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#memory_qos}
   */
   readonly memoryQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategySystemClassMemoryQos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#network_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#network_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#network_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#network_qos}
   */
   readonly networkQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategySystemClassNetworkQos;
   /**
   * ResctrlQOSCfg stores node-level config of resctrl qos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#resctrl_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#resctrl_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#resctrl_qos DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#resctrl_qos}
   */
   readonly resctrlQos?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategySystemClassResctrlQos;
 }
@@ -11979,37 +11979,37 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosSt
   /**
   * ResourceQOS for BE pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#be_class DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#be_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#be_class DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#be_class}
   */
   readonly beClass?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyBeClass;
   /**
   * ResourceQOS for root cgroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cgroup_root DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cgroup_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cgroup_root DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cgroup_root}
   */
   readonly cgroupRoot?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyCgroupRoot;
   /**
   * ResourceQOS for LS pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ls_class DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ls_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#ls_class DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#ls_class}
   */
   readonly lsClass?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsClass;
   /**
   * ResourceQOS for LSR pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#lsr_class DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#lsr_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#lsr_class DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#lsr_class}
   */
   readonly lsrClass?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyLsrClass;
   /**
   * Policies of pod QoS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#policies DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#policies DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#policies}
   */
   readonly policies?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategyPolicies;
   /**
   * ResourceQOS for system pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#system_class DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#system_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#system_class DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#system_class}
   */
   readonly systemClass?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategySystemClass;
 }
@@ -12250,61 +12250,61 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceUsedT
   /**
   * be.satisfactionRate = be.CPURealLimit/be.CPURequest; be.cpuUsage = be.CPUUsed/be.CPURealLimit if be.satisfactionRate < CPUEvictBESatisfactionLowerPercent/100 && be.usage >= CPUEvictBEUsageThresholdPercent/100, then start to evict pod, and will evict to ${CPUEvictBESatisfactionUpperPercent}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_evict_be_satisfaction_lower_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_evict_be_satisfaction_lower_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_evict_be_satisfaction_lower_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_evict_be_satisfaction_lower_percent}
   */
   readonly cpuEvictBeSatisfactionLowerPercent?: number;
   /**
   * be.satisfactionRate = be.CPURealLimit/be.CPURequest if be.satisfactionRate > CPUEvictBESatisfactionUpperPercent/100, then stop to evict.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_evict_be_satisfaction_upper_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_evict_be_satisfaction_upper_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_evict_be_satisfaction_upper_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_evict_be_satisfaction_upper_percent}
   */
   readonly cpuEvictBeSatisfactionUpperPercent?: number;
   /**
   * if be.cpuUsage >= CPUEvictBEUsageThresholdPercent/100, then start to calculate the resources need to be released.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_evict_be_usage_threshold_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_evict_be_usage_threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_evict_be_usage_threshold_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_evict_be_usage_threshold_percent}
   */
   readonly cpuEvictBeUsageThresholdPercent?: number;
   /**
   * CPUEvictPolicy defines the policy for the BECPUEvict feature. Default: 'evictByRealLimit'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_evict_policy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_evict_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_evict_policy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_evict_policy}
   */
   readonly cpuEvictPolicy?: string;
   /**
   * when avg(cpuusage) > CPUEvictThresholdPercent, will start to evict pod by cpu, and avg(cpuusage) is calculated based on the most recent CPUEvictTimeWindowSeconds data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_evict_time_window_seconds DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_evict_time_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_evict_time_window_seconds DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_evict_time_window_seconds}
   */
   readonly cpuEvictTimeWindowSeconds?: number;
   /**
   * CPUSuppressPolicy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_suppress_policy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_suppress_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_suppress_policy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_suppress_policy}
   */
   readonly cpuSuppressPolicy?: string;
   /**
   * cpu suppress threshold percentage (0,100), default = 65
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_suppress_threshold_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_suppress_threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_suppress_threshold_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_suppress_threshold_percent}
   */
   readonly cpuSuppressThresholdPercent?: number;
   /**
   * whether the strategy is enabled, default = false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#enable DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * lower: memory release util usage under MemoryEvictLowerPercent, default = MemoryEvictThresholdPercent - 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#memory_evict_lower_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#memory_evict_lower_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#memory_evict_lower_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#memory_evict_lower_percent}
   */
   readonly memoryEvictLowerPercent?: number;
   /**
   * upper: memory evict threshold percentage (0,100), default = 70
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#memory_evict_threshold_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#memory_evict_threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#memory_evict_threshold_percent DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#memory_evict_threshold_percent}
   */
   readonly memoryEvictThresholdPercent?: number;
 }
@@ -12661,25 +12661,25 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecSystemStrateg
   /**
   * /sys/kernel/mm/memcg_reaper/reap_background
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#memcg_reap_back_ground DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#memcg_reap_back_ground}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#memcg_reap_back_ground DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#memcg_reap_back_ground}
   */
   readonly memcgReapBackGround?: number;
   /**
   * for /proc/sys/vm/min_free_kbytes, min_free_kbytes = minFreeKbytesFactor * nodeTotalMemory /10000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#min_free_kbytes_factor DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#min_free_kbytes_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#min_free_kbytes_factor DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#min_free_kbytes_factor}
   */
   readonly minFreeKbytesFactor?: number;
   /**
   * TotalNetworkBandwidth indicates the overall network bandwidth, cluster manager can set this field, and default value taken from /sys/class/net/${NIC_NAME}/speed, unit: Mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#total_network_bandwidth DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#total_network_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#total_network_bandwidth DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#total_network_bandwidth}
   */
   readonly totalNetworkBandwidth?: string;
   /**
   * /proc/sys/vm/watermark_scale_factor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#watermark_scale_factor DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#watermark_scale_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#watermark_scale_factor DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#watermark_scale_factor}
   */
   readonly watermarkScaleFactor?: number;
 }
@@ -12862,37 +12862,37 @@ export interface DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpec {
   /**
   * CPU Burst Strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_burst_strategy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_burst_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#cpu_burst_strategy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#cpu_burst_strategy}
   */
   readonly cpuBurstStrategy?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecCpuBurstStrategy;
   /**
   * Third party extensions for NodeSLO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#extensions DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#extensions DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#extensions}
   */
   readonly extensions?: { [key: string]: string };
   /**
   * QoS management for out-of-band applications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#host_applications DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#host_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#host_applications DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#host_applications}
   */
   readonly hostApplications?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecHostApplications[] | cdktf.IResolvable;
   /**
   * QoS config strategy for pods of different qos-class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#resource_qos_strategy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#resource_qos_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#resource_qos_strategy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#resource_qos_strategy}
   */
   readonly resourceQosStrategy?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceQosStrategy;
   /**
   * BE pods will be limited if node resource usage overload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#resource_used_threshold_with_be DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#resource_used_threshold_with_be}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#resource_used_threshold_with_be DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#resource_used_threshold_with_be}
   */
   readonly resourceUsedThresholdWithBe?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecResourceUsedThresholdWithBe;
   /**
   * node global system config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#system_strategy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#system_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#system_strategy DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest#system_strategy}
   */
   readonly systemStrategy?: DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecSystemStrategy;
 }
@@ -13131,7 +13131,7 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest k8s_slo_koordinator_sh_node_slo_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest k8s_slo_koordinator_sh_node_slo_v1alpha1_manifest}
 */
 export class DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -13147,7 +13147,7 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -13159,7 +13159,7 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest k8s_slo_koordinator_sh_node_slo_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/slo_koordinator_sh_node_slo_v1alpha1_manifest k8s_slo_koordinator_sh_node_slo_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -13170,8 +13170,8 @@ export class DataK8SSloKoordinatorShNodeSloV1Alpha1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_slo_koordinator_sh_node_slo_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

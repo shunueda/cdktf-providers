@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_schedule
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHarnessAutostoppingScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_schedule#id DataHarnessAutostoppingSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_schedule#id DataHarnessAutostoppingSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataHarnessAutostoppingScheduleConfig extends cdktf.TerraformMe
   /**
   * Type of the schedule. Valid values are `uptime` and `downtime`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_schedule#schedule_type DataHarnessAutostoppingSchedule#schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_schedule#schedule_type DataHarnessAutostoppingSchedule#schedule_type}
   */
   readonly scheduleType: string;
 }
@@ -108,7 +108,7 @@ export class DataHarnessAutostoppingScheduleRepeatsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_schedule harness_autostopping_schedule}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_schedule harness_autostopping_schedule}
 */
 export class DataHarnessAutostoppingSchedule extends cdktf.TerraformDataSource {
 
@@ -124,7 +124,7 @@ export class DataHarnessAutostoppingSchedule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessAutostoppingSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessAutostoppingSchedule to import
-  * @param importFromId The id of the existing DataHarnessAutostoppingSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessAutostoppingSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessAutostoppingSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -136,7 +136,7 @@ export class DataHarnessAutostoppingSchedule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_schedule harness_autostopping_schedule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_schedule harness_autostopping_schedule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -147,8 +147,8 @@ export class DataHarnessAutostoppingSchedule extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_autostopping_schedule',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

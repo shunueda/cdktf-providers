@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/custom_file_types
+// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/custom_file_types
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CustomFileTypesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Additional information about the custom file type, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/custom_file_types#description CustomFileTypes#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/custom_file_types#description CustomFileTypes#description}
   */
   readonly description?: string;
   /**
   * The file type extension. The maximum extension length is 10 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/custom_file_types#extension CustomFileTypes#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/custom_file_types#extension CustomFileTypes#extension}
   */
   readonly extension?: string;
   /**
   * The name of the custom file type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/custom_file_types#name CustomFileTypes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/custom_file_types#name CustomFileTypes#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/custom_file_types zia_custom_file_types}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/custom_file_types zia_custom_file_types}
 */
 export class CustomFileTypes extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class CustomFileTypes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomFileTypes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomFileTypes to import
-  * @param importFromId The id of the existing CustomFileTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/custom_file_types#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomFileTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/custom_file_types#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomFileTypes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class CustomFileTypes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/custom_file_types zia_custom_file_types} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/custom_file_types zia_custom_file_types} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class CustomFileTypes extends cdktf.TerraformResource {
       terraformResourceType: 'zia_custom_file_types',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.2',
-        providerVersionConstraint: '4.6.2'
+        providerVersion: '4.6.3',
+        providerVersionConstraint: '4.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

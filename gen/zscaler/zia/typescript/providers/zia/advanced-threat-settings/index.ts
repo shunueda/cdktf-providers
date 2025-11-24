@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings
+// https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,167 +10,167 @@ export interface AdvancedThreatSettingsConfig extends cdktf.TerraformMetaArgumen
   /**
   * A Boolean value specifying whether sites are allowed or blocked from accessing vulnerable ActiveX controls that are known to have been exploited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#activex_blocked AdvancedThreatSettings#activex_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#activex_blocked AdvancedThreatSettings#activex_blocked}
   */
   readonly activexBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for ActiveX controls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#activex_capture AdvancedThreatSettings#activex_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#activex_capture AdvancedThreatSettings#activex_capture}
   */
   readonly activexCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether to allow or block websites known to contain adware or spyware that displays malicious advertisements that can collect users' information without their knowledge
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#ad_spyware_sites_blocked AdvancedThreatSettings#ad_spyware_sites_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#ad_spyware_sites_blocked AdvancedThreatSettings#ad_spyware_sites_blocked}
   */
   readonly adSpywareSitesBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for adware and spyware sites
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#ad_spyware_sites_capture AdvancedThreatSettings#ad_spyware_sites_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#ad_spyware_sites_capture AdvancedThreatSettings#ad_spyware_sites_capture}
   */
   readonly adSpywareSitesCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether to send alerts upon detecting unknown or suspicious C2 traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#alert_for_unknown_suspicious_c2_traffic AdvancedThreatSettings#alert_for_unknown_suspicious_c2_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#alert_for_unknown_suspicious_c2_traffic AdvancedThreatSettings#alert_for_unknown_suspicious_c2_traffic}
   */
   readonly alertForUnknownSuspiciousC2Traffic?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether to allow or block applications and methods used to obscure the destination and the content accessed by the user, therefore blocking traffic to anonymizing web proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#anonymizer_blocked AdvancedThreatSettings#anonymizer_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#anonymizer_blocked AdvancedThreatSettings#anonymizer_blocked}
   */
   readonly anonymizerBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for anonymizers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#anonymizer_capture AdvancedThreatSettings#anonymizer_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#anonymizer_capture AdvancedThreatSettings#anonymizer_capture}
   */
   readonly anonymizerCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for blocked countries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#bit_torrent_blocked AdvancedThreatSettings#bit_torrent_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#bit_torrent_blocked AdvancedThreatSettings#bit_torrent_blocked}
   */
   readonly bitTorrentBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for BitTorrent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#bit_torrent_capture AdvancedThreatSettings#bit_torrent_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#bit_torrent_capture AdvancedThreatSettings#bit_torrent_capture}
   */
   readonly bitTorrentCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for blocked countries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#block_countries_capture AdvancedThreatSettings#block_countries_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#block_countries_capture AdvancedThreatSettings#block_countries_capture}
   */
   readonly blockCountriesCapture?: boolean | cdktf.IResolvable;
   /**
   * Destination countries for which the rule is applicable. If not set, the rule is not restricted to specific destination countries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#blocked_countries AdvancedThreatSettings#blocked_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#blocked_countries AdvancedThreatSettings#blocked_countries}
   */
   readonly blockedCountries?: string[];
   /**
   * A Boolean value specifying whether known web browser vulnerabilities prone to exploitation are allowed or blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#browser_exploits_blocked AdvancedThreatSettings#browser_exploits_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#browser_exploits_blocked AdvancedThreatSettings#browser_exploits_blocked}
   */
   readonly browserExploitsBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for browser exploits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#browser_exploits_capture AdvancedThreatSettings#browser_exploits_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#browser_exploits_capture AdvancedThreatSettings#browser_exploits_capture}
   */
   readonly browserExploitsCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether connections to known Command & Control (C2) Servers are allowed or blocked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#cmd_ctl_server_blocked AdvancedThreatSettings#cmd_ctl_server_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#cmd_ctl_server_blocked AdvancedThreatSettings#cmd_ctl_server_blocked}
   */
   readonly cmdCtlServerBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for connections to known C2 servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#cmd_ctl_server_capture AdvancedThreatSettings#cmd_ctl_server_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#cmd_ctl_server_capture AdvancedThreatSettings#cmd_ctl_server_capture}
   */
   readonly cmdCtlServerCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether botnets are allowed or blocked from sending or receiving commands to unknown servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#cmd_ctl_traffic_blocked AdvancedThreatSettings#cmd_ctl_traffic_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#cmd_ctl_traffic_blocked AdvancedThreatSettings#cmd_ctl_traffic_blocked}
   */
   readonly cmdCtlTrafficBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for botnets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#cmd_ctl_traffic_capture AdvancedThreatSettings#cmd_ctl_traffic_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#cmd_ctl_traffic_capture AdvancedThreatSettings#cmd_ctl_traffic_capture}
   */
   readonly cmdCtlTrafficCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether to allow or block third-party websites that gather cookie information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#cookie_stealing_blocked AdvancedThreatSettings#cookie_stealing_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#cookie_stealing_blocked AdvancedThreatSettings#cookie_stealing_blocked}
   */
   readonly cookieStealingBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for cookie stealing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#cookie_stealing_pcap_enabled AdvancedThreatSettings#cookie_stealing_pcap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#cookie_stealing_pcap_enabled AdvancedThreatSettings#cookie_stealing_pcap_enabled}
   */
   readonly cookieStealingPcapEnabled?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether to allow or block cryptocurrency mining network traffic and script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#crypto_mining_blocked AdvancedThreatSettings#crypto_mining_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#crypto_mining_blocked AdvancedThreatSettings#crypto_mining_blocked}
   */
   readonly cryptoMiningBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for cryptomining
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#crypto_mining_capture AdvancedThreatSettings#crypto_mining_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#crypto_mining_capture AdvancedThreatSettings#crypto_mining_capture}
   */
   readonly cryptoMiningCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether to allow or block domains that are suspected to be generated using domain generation algorithms (DGA)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#dga_domains_blocked AdvancedThreatSettings#dga_domains_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#dga_domains_blocked AdvancedThreatSettings#dga_domains_blocked}
   */
   readonly dgaDomainsBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for DGA domains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#dga_domains_capture AdvancedThreatSettings#dga_domains_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#dga_domains_capture AdvancedThreatSettings#dga_domains_capture}
   */
   readonly dgaDomainsCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether known file format vulnerabilities and suspicious or malicious content in Microsoft Office or PDF documents are allowed or blocked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#file_format_vunerabilites_blocked AdvancedThreatSettings#file_format_vunerabilites_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#file_format_vunerabilites_blocked AdvancedThreatSettings#file_format_vunerabilites_blocked}
   */
   readonly fileFormatVunerabilitesBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for file format vulnerabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#file_format_vunerabilites_capture AdvancedThreatSettings#file_format_vunerabilites_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#file_format_vunerabilites_capture AdvancedThreatSettings#file_format_vunerabilites_capture}
   */
   readonly fileFormatVunerabilitesCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether to allow or block access to Google Hangouts, a popular P2P VoIP application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#google_talk_blocked AdvancedThreatSettings#google_talk_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#google_talk_blocked AdvancedThreatSettings#google_talk_blocked}
   */
   readonly googleTalkBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for Google Hangouts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#google_talk_capture AdvancedThreatSettings#google_talk_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#google_talk_capture AdvancedThreatSettings#google_talk_capture}
   */
   readonly googleTalkCapture?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#id AdvancedThreatSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#id AdvancedThreatSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -179,133 +179,133 @@ export interface AdvancedThreatSettingsConfig extends cdktf.TerraformMetaArgumen
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for web spam
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#irc_tunnelling_blocked AdvancedThreatSettings#irc_tunnelling_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#irc_tunnelling_blocked AdvancedThreatSettings#irc_tunnelling_blocked}
   */
   readonly ircTunnellingBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for IRC tunnels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#irc_tunnelling_capture AdvancedThreatSettings#irc_tunnelling_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#irc_tunnelling_capture AdvancedThreatSettings#irc_tunnelling_capture}
   */
   readonly ircTunnellingCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether known phishing sites are allowed or blocked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#known_phishing_sites_blocked AdvancedThreatSettings#known_phishing_sites_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#known_phishing_sites_blocked AdvancedThreatSettings#known_phishing_sites_blocked}
   */
   readonly knownPhishingSitesBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for known phishing sites
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#known_phishing_sites_capture AdvancedThreatSettings#known_phishing_sites_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#known_phishing_sites_capture AdvancedThreatSettings#known_phishing_sites_capture}
   */
   readonly knownPhishingSitesCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for malicious URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#malicious_urls_capture AdvancedThreatSettings#malicious_urls_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#malicious_urls_capture AdvancedThreatSettings#malicious_urls_capture}
   */
   readonly maliciousUrlsCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether known malicious sites and content are allowed or blocked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#malware_sites_blocked AdvancedThreatSettings#malware_sites_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#malware_sites_blocked AdvancedThreatSettings#malware_sites_blocked}
   */
   readonly malwareSitesBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for malicious sites
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#malware_sites_capture AdvancedThreatSettings#malware_sites_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#malware_sites_capture AdvancedThreatSettings#malware_sites_capture}
   */
   readonly malwareSitesCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether to allow or block this type of cross-site scripting (XSS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#potential_malicious_requests_blocked AdvancedThreatSettings#potential_malicious_requests_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#potential_malicious_requests_blocked AdvancedThreatSettings#potential_malicious_requests_blocked}
   */
   readonly potentialMaliciousRequestsBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for (XSS) attacks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#potential_malicious_requests_capture AdvancedThreatSettings#potential_malicious_requests_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#potential_malicious_requests_capture AdvancedThreatSettings#potential_malicious_requests_capture}
   */
   readonly potentialMaliciousRequestsCapture?: boolean | cdktf.IResolvable;
   /**
   * The Page Risk tolerance index set between 0 and 100 (100 being the highest risk).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#risk_tolerance AdvancedThreatSettings#risk_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#risk_tolerance AdvancedThreatSettings#risk_tolerance}
   */
   readonly riskTolerance?: number;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for suspicious web pages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#risk_tolerance_capture AdvancedThreatSettings#risk_tolerance_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#risk_tolerance_capture AdvancedThreatSettings#risk_tolerance_capture}
   */
   readonly riskToleranceCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether to allow or block SSH traffic being tunneled over HTTP/Ss
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#ssh_tunnelling_blocked AdvancedThreatSettings#ssh_tunnelling_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#ssh_tunnelling_blocked AdvancedThreatSettings#ssh_tunnelling_blocked}
   */
   readonly sshTunnellingBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for SSH tunnels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#ssh_tunnelling_capture AdvancedThreatSettings#ssh_tunnelling_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#ssh_tunnelling_capture AdvancedThreatSettings#ssh_tunnelling_capture}
   */
   readonly sshTunnellingCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether to allow or block any detections of communication and callback traffic associated with spyware agents and data transmission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#suspect_adware_spyware_sites_blocked AdvancedThreatSettings#suspect_adware_spyware_sites_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#suspect_adware_spyware_sites_blocked AdvancedThreatSettings#suspect_adware_spyware_sites_blocked}
   */
   readonly suspectAdwareSpywareSitesBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for suspected adware and spyware sites
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#suspect_adware_spyware_sites_capture AdvancedThreatSettings#suspect_adware_spyware_sites_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#suspect_adware_spyware_sites_capture AdvancedThreatSettings#suspect_adware_spyware_sites_capture}
   */
   readonly suspectAdwareSpywareSitesCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether to allow or block suspected phishing sites identified through heuristic detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#suspected_phishing_sites_blocked AdvancedThreatSettings#suspected_phishing_sites_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#suspected_phishing_sites_blocked AdvancedThreatSettings#suspected_phishing_sites_blocked}
   */
   readonly suspectedPhishingSitesBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for suspected phishing sites
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#suspected_phishing_sites_capture AdvancedThreatSettings#suspected_phishing_sites_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#suspected_phishing_sites_capture AdvancedThreatSettings#suspected_phishing_sites_capture}
   */
   readonly suspectedPhishingSitesCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether to allow or block the usage of Tor, a popular P2P anonymizer protocol with support for encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#tor_blocked AdvancedThreatSettings#tor_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#tor_blocked AdvancedThreatSettings#tor_blocked}
   */
   readonly torBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for Tor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#tor_capture AdvancedThreatSettings#tor_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#tor_capture AdvancedThreatSettings#tor_capture}
   */
   readonly torCapture?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether to allow or block web pages that pretend to contain useful information, to get higher ranking in search engine results or drive traffic to phishing, adware, or spyware distribution sites.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#web_spam_blocked AdvancedThreatSettings#web_spam_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#web_spam_blocked AdvancedThreatSettings#web_spam_blocked}
   */
   readonly webSpamBlocked?: boolean | cdktf.IResolvable;
   /**
   * A Boolean value specifying whether packet capture (PCAP) is enabled or not for web spam
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#web_spam_capture AdvancedThreatSettings#web_spam_capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#web_spam_capture AdvancedThreatSettings#web_spam_capture}
   */
   readonly webSpamCapture?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings zia_advanced_threat_settings}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings zia_advanced_threat_settings}
 */
 export class AdvancedThreatSettings extends cdktf.TerraformResource {
 
@@ -321,7 +321,7 @@ export class AdvancedThreatSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdvancedThreatSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdvancedThreatSettings to import
-  * @param importFromId The id of the existing AdvancedThreatSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdvancedThreatSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdvancedThreatSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -333,7 +333,7 @@ export class AdvancedThreatSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.2/docs/resources/advanced_threat_settings zia_advanced_threat_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zia/4.6.3/docs/resources/advanced_threat_settings zia_advanced_threat_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -344,8 +344,8 @@ export class AdvancedThreatSettings extends cdktf.TerraformResource {
       terraformResourceType: 'zia_advanced_threat_settings',
       terraformGeneratorMetadata: {
         providerName: 'zia',
-        providerVersion: '4.6.2',
-        providerVersionConstraint: '4.6.2'
+        providerVersion: '4.6.3',
+        providerVersionConstraint: '4.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

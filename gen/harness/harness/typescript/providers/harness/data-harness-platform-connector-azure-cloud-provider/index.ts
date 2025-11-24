@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_cloud_provider
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_azure_cloud_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHarnessPlatformConnectorAzureCloudProviderConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_cloud_provider#id DataHarnessPlatformConnectorAzureCloudProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_azure_cloud_provider#id DataHarnessPlatformConnectorAzureCloudProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataHarnessPlatformConnectorAzureCloudProviderConfig extends cd
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_cloud_provider#identifier DataHarnessPlatformConnectorAzureCloudProvider#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_azure_cloud_provider#identifier DataHarnessPlatformConnectorAzureCloudProvider#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_cloud_provider#name DataHarnessPlatformConnectorAzureCloudProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_azure_cloud_provider#name DataHarnessPlatformConnectorAzureCloudProvider#name}
   */
   readonly name?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_cloud_provider#org_id DataHarnessPlatformConnectorAzureCloudProvider#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_azure_cloud_provider#org_id DataHarnessPlatformConnectorAzureCloudProvider#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_cloud_provider#project_id DataHarnessPlatformConnectorAzureCloudProvider#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_azure_cloud_provider#project_id DataHarnessPlatformConnectorAzureCloudProvider#project_id}
   */
   readonly projectId?: string;
 }
@@ -774,7 +774,7 @@ export class DataHarnessPlatformConnectorAzureCloudProviderCredentialsList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_cloud_provider harness_platform_connector_azure_cloud_provider}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_azure_cloud_provider harness_platform_connector_azure_cloud_provider}
 */
 export class DataHarnessPlatformConnectorAzureCloudProvider extends cdktf.TerraformDataSource {
 
@@ -790,7 +790,7 @@ export class DataHarnessPlatformConnectorAzureCloudProvider extends cdktf.Terraf
   * Generates CDKTF code for importing a DataHarnessPlatformConnectorAzureCloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformConnectorAzureCloudProvider to import
-  * @param importFromId The id of the existing DataHarnessPlatformConnectorAzureCloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_cloud_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformConnectorAzureCloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_azure_cloud_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformConnectorAzureCloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -802,7 +802,7 @@ export class DataHarnessPlatformConnectorAzureCloudProvider extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_cloud_provider harness_platform_connector_azure_cloud_provider} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/platform_connector_azure_cloud_provider harness_platform_connector_azure_cloud_provider} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -813,8 +813,8 @@ export class DataHarnessPlatformConnectorAzureCloudProvider extends cdktf.Terraf
       terraformResourceType: 'harness_platform_connector_azure_cloud_provider',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

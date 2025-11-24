@@ -43,13 +43,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -174,37 +174,37 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -442,13 +442,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_affinity_term DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_affinity_term DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#weight DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#weight DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -589,19 +589,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -771,13 +771,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -902,19 +902,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1084,13 +1084,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1215,37 +1215,37 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -1505,13 +1505,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -1636,19 +1636,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#node_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#node_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_anti_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_anti_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreAffinityPodAntiAffinity;
 }
@@ -1802,7 +1802,7 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -1917,19 +1917,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#claims DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#claims DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#limits DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#limits DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#requests DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#requests DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2083,31 +2083,31 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#effect DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#effect DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#toleration_seconds DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#toleration_seconds DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#value DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#value DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2341,55 +2341,55 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Scheduling constraints of the pgBackRest restore Job. More info: https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#affinity}
   */
   readonly affinity?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreAffinity;
   /**
   * The name of an existing PostgresCluster to use as the data source for the new PostgresCluster. Defaults to the name of the PostgresCluster being created if not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#cluster_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#cluster_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * The namespace of the cluster specified as the data source using the clusterName field. Defaults to the namespace of the PostgresCluster being created if not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#cluster_namespace DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#cluster_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#cluster_namespace DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#cluster_namespace}
   */
   readonly clusterNamespace?: string;
   /**
   * Whether or not in-place pgBackRest restores are enabled for this PostgresCluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#enabled DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#enabled DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Command line options to include when running the pgBackRest restore command. https://pgbackrest.org/command.html#command-restore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#options DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#options DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#options}
   */
   readonly options?: string[];
   /**
   * Priority class name for the pgBackRest restore Job pod. Changing this value causes PostgreSQL to restart. More info: https://kubernetes.io/docs/concepts/scheduling-eviction/pod-priority-preemption/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#priority_class_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#priority_class_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * The name of the pgBackRest repo within the source PostgresCluster that contains the backups that should be utilized to perform a pgBackRest restore when initializing the data source for the new PostgresCluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#repo_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#repo_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#repo_name}
   */
   readonly repoName: string;
   /**
   * Resource requirements for the pgBackRest restore Job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resources DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resources DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreResources;
   /**
   * Tolerations of the pgBackRest restore Job. More info: https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#tolerations DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#tolerations DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestoreTolerations[] | cdktf.IResolvable;
 }
@@ -2711,7 +2711,7 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -2826,19 +2826,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#claims DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#claims DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestSidecarsPgbackrestResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#limits DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#limits DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#requests DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#requests DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2992,7 +2992,7 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Resource requirements for a sidecar container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resources DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resources DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestSidecarsPgbackrestResources;
 }
@@ -3088,7 +3088,7 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -3203,19 +3203,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#claims DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#claims DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestSidecarsPgbackrestConfigResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#limits DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#limits DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#requests DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#requests DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -3369,7 +3369,7 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Resource requirements for a sidecar container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resources DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resources DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestSidecarsPgbackrestConfigResources;
 }
@@ -3465,13 +3465,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Defines the configuration for the pgBackRest sidecar container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pgbackrest DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pgbackrest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pgbackrest DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pgbackrest}
   */
   readonly pgbackrest?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestSidecarsPgbackrest;
   /**
   * Defines the configuration for the pgBackRest config sidecar container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pgbackrest_config DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pgbackrest_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pgbackrest_config DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pgbackrest_config}
   */
   readonly pgbackrestConfig?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestSidecarsPgbackrestConfig;
 }
@@ -3596,61 +3596,61 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Projected volumes containing custom pgBackRest configuration. These files are mounted under '/etc/pgbackrest/conf.d' alongside any pgBackRest configuration generated by the PostgreSQL Operator: https://pgbackrest.org/configuration.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#configuration DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#configuration DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#configuration}
   */
   readonly configuration?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestConfiguration[] | cdktf.IResolvable;
   /**
   * Global pgBackRest configuration settings. These settings are included in the 'global' section of the pgBackRest configuration generated by the PostgreSQL Operator, and then mounted under '/etc/pgbackrest/conf.d': https://pgbackrest.org/configuration.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#global DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#global DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#global}
   */
   readonly global?: { [key: string]: string };
   /**
   * The image name to use for pgBackRest containers. Utilized to run pgBackRest repository hosts and backups. The image may also be set using the RELATED_IMAGE_PGBACKREST environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#image DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#image DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * Jobs field allows configuration for all backup jobs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#jobs DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#jobs DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#jobs}
   */
   readonly jobs?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestJobs;
   /**
   * Defines details for manual pgBackRest backup Jobs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#manual DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#manual DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#manual}
   */
   readonly manual?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestManual;
   /**
   * Metadata contains metadata for custom resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#metadata DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#metadata DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestMetadata;
   /**
   * Defines configuration for a pgBackRest dedicated repository host. This section is only applicable if at least one 'volume' (i.e. PVC-based) repository is defined in the 'repos' section, therefore enabling a dedicated repository host Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#repo_host DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#repo_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#repo_host DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#repo_host}
   */
   readonly repoHost?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRepoHost;
   /**
   * Defines a pgBackRest repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#repos DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#repos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#repos DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#repos}
   */
   readonly repos: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRepos[] | cdktf.IResolvable;
   /**
   * Defines details for performing an in-place restore using pgBackRest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#restore DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#restore DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#restore}
   */
   readonly restore?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestRestore;
   /**
   * Configuration for pgBackRest sidecar containers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#sidecars DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#sidecars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#sidecars DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#sidecars}
   */
   readonly sidecars?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrestSidecars;
 }
@@ -4004,7 +4004,7 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Name of the VolumeSnapshotClass that should be used by VolumeSnapshots
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#volume_snapshot_class_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#volume_snapshot_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#volume_snapshot_class_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#volume_snapshot_class_name}
   */
   readonly volumeSnapshotClassName: string;
 }
@@ -4097,13 +4097,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * pgBackRest archive configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pgbackrest DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pgbackrest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pgbackrest DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pgbackrest}
   */
   readonly pgbackrest?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsPgbackrest;
   /**
   * VolumeSnapshot configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#snapshots DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#snapshots DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#snapshots}
   */
   readonly snapshots?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecBackupsSnapshots;
 }
@@ -4228,19 +4228,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4410,13 +4410,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecConfigFilesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4541,31 +4541,31 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Select all ClusterTrustBundles that match this label selector. Only has effect if signerName is set. Mutually-exclusive with name. If unset, interpreted as 'match nothing'. If set but empty, interpreted as 'match everything'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecConfigFilesClusterTrustBundleLabelSelector;
   /**
   * Select a single ClusterTrustBundle by object name. Mutually-exclusive with signerName and labelSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * If true, don't block pod startup if the referenced ClusterTrustBundle(s) aren't available. If using name, then the named ClusterTrustBundle is allowed not to exist. If using signerName, then the combination of signerName and labelSelector is allowed to match zero ClusterTrustBundles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#optional DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#optional DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * Relative path from the volume root to write the bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * Select all ClusterTrustBundles that match this signer name. Mutually-exclusive with name. The contents of all selected ClusterTrustBundles will be unified and deduplicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#signer_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#signer_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -4774,19 +4774,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -4956,19 +4956,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#items DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#items DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#items}
   */
   readonly items?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecConfigFilesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#optional DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#optional DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5122,13 +5122,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#api_version DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#api_version DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#field_path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#field_path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -5250,19 +5250,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#container_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#container_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#divisor DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#divisor DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resource DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resource DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -5413,25 +5413,25 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#field_ref DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#field_ref DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecConfigFilesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resource_field_ref DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resource_field_ref DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecConfigFilesDownwardApiItemsResourceFieldRef;
 }
@@ -5633,7 +5633,7 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Items is a list of DownwardAPIVolume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#items DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#items DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#items}
   */
   readonly items?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecConfigFilesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -5729,19 +5729,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -5911,19 +5911,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#items DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#items DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#items}
   */
   readonly items?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecConfigFilesSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#optional DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#optional DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6077,19 +6077,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#audience DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#audience DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#expiration_seconds DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#expiration_seconds DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -6240,31 +6240,31 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * ClusterTrustBundle allows a pod to access the '.spec.trustBundle' field of ClusterTrustBundle objects in an auto-updating file. Alpha, gated by the ClusterTrustBundleProjection feature gate. ClusterTrustBundle objects can either be selected by name, or by the combination of signer name and a label selector. Kubelet performs aggressive normalization of the PEM contents written into the pod filesystem. Esoteric PEM features such as inter-block comments and block headers are stripped. Certificates are deduplicated. The ordering of certificates within the file is arbitrary, and Kubelet may change the order over time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#cluster_trust_bundle DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#cluster_trust_bundle DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecConfigFilesClusterTrustBundle;
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#config_map DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#config_map DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecConfigFilesConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#downward_api DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#downward_api DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecConfigFilesDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#secret DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#secret DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecConfigFilesSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#service_account_token DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#service_account_token DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecConfigFilesServiceAccountToken;
 }
@@ -6496,7 +6496,7 @@ export class DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest
 }
 export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#files DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#files DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#files}
   */
   readonly files?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecConfigFiles[] | cdktf.IResolvable;
 }
@@ -6592,19 +6592,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -6774,19 +6774,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#items DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#items DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#items}
   */
   readonly items?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecCustomReplicationTlsSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#optional DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#optional DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6940,19 +6940,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -7122,19 +7122,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#items DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#items DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#items}
   */
   readonly items?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecCustomTlsSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#optional DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#optional DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7288,19 +7288,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7470,19 +7470,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7652,13 +7652,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_fields DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_fields DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -7783,13 +7783,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preference DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preference DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preference}
   */
   readonly preference: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#weight DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#weight DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -7930,19 +7930,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8112,19 +8112,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8294,13 +8294,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_fields DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_fields DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -8447,7 +8447,7 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#node_selector_terms DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#node_selector_terms DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -8540,13 +8540,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -8671,19 +8671,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8853,13 +8853,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8984,19 +8984,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9166,13 +9166,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9297,37 +9297,37 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -9565,13 +9565,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_affinity_term DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_affinity_term DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#weight DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#weight DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -9712,19 +9712,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9894,13 +9894,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10025,19 +10025,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10207,13 +10207,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10338,37 +10338,37 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -10628,13 +10628,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -10759,19 +10759,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10941,13 +10941,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11072,19 +11072,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11254,13 +11254,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11385,37 +11385,37 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -11653,13 +11653,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_affinity_term DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_affinity_term DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#weight DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#weight DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -11800,19 +11800,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11982,13 +11982,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12113,19 +12113,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12295,13 +12295,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12426,37 +12426,37 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -12716,13 +12716,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -12847,19 +12847,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#node_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#node_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_anti_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_anti_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinityPodAntiAffinity;
 }
@@ -13013,19 +13013,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13195,13 +13195,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestConfigurationClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13326,31 +13326,31 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Select all ClusterTrustBundles that match this label selector. Only has effect if signerName is set. Mutually-exclusive with name. If unset, interpreted as 'match nothing'. If set but empty, interpreted as 'match everything'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestConfigurationClusterTrustBundleLabelSelector;
   /**
   * Select a single ClusterTrustBundle by object name. Mutually-exclusive with signerName and labelSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * If true, don't block pod startup if the referenced ClusterTrustBundle(s) aren't available. If using name, then the named ClusterTrustBundle is allowed not to exist. If using signerName, then the combination of signerName and labelSelector is allowed to match zero ClusterTrustBundles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#optional DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#optional DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * Relative path from the volume root to write the bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * Select all ClusterTrustBundles that match this signer name. Mutually-exclusive with name. The contents of all selected ClusterTrustBundles will be unified and deduplicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#signer_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#signer_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -13559,19 +13559,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -13741,19 +13741,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#items DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#items DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#items}
   */
   readonly items?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestConfigurationConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#optional DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#optional DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13907,13 +13907,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#api_version DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#api_version DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#field_path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#field_path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -14035,19 +14035,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#container_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#container_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#divisor DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#divisor DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resource DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resource DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -14198,25 +14198,25 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#field_ref DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#field_ref DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestConfigurationDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resource_field_ref DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resource_field_ref DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestConfigurationDownwardApiItemsResourceFieldRef;
 }
@@ -14418,7 +14418,7 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Items is a list of DownwardAPIVolume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#items DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#items DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#items}
   */
   readonly items?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestConfigurationDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -14514,19 +14514,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -14696,19 +14696,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#items DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#items DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#items}
   */
   readonly items?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestConfigurationSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#optional DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#optional DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14862,19 +14862,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#audience DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#audience DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#expiration_seconds DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#expiration_seconds DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#path DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -15025,31 +15025,31 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * ClusterTrustBundle allows a pod to access the '.spec.trustBundle' field of ClusterTrustBundle objects in an auto-updating file. Alpha, gated by the ClusterTrustBundleProjection feature gate. ClusterTrustBundle objects can either be selected by name, or by the combination of signer name and a label selector. Kubelet performs aggressive normalization of the PEM contents written into the pod filesystem. Esoteric PEM features such as inter-block comments and block headers are stripped. Certificates are deduplicated. The ordering of certificates within the file is arbitrary, and Kubelet may change the order over time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#cluster_trust_bundle DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#cluster_trust_bundle DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestConfigurationClusterTrustBundle;
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#config_map DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#config_map DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestConfigurationConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#downward_api DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#downward_api DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestConfigurationDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#secret DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#secret DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestConfigurationSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#service_account_token DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#service_account_token DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestConfigurationServiceAccountToken;
 }
@@ -15283,7 +15283,7 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The Azure container utilized for the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#container DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#container DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#container}
   */
   readonly container: string;
 }
@@ -15376,7 +15376,7 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The GCS bucket utilized for the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#bucket DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#bucket DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#bucket}
   */
   readonly bucket: string;
 }
@@ -15469,19 +15469,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The S3 bucket utilized for the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#bucket DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#bucket DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#bucket}
   */
   readonly bucket: string;
   /**
   * A valid endpoint corresponding to the specified region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#endpoint DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#endpoint DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#endpoint}
   */
   readonly endpoint: string;
   /**
   * The region corresponding to the S3 bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#region DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#region DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#region}
   */
   readonly region: string;
 }
@@ -15626,19 +15626,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Defines the Cron schedule for a differential pgBackRest backup. Follows the standard Cron schedule syntax: https://k8s.io/docs/concepts/workloads/controllers/cron-jobs/#cron-schedule-syntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#differential DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#differential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#differential DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#differential}
   */
   readonly differential?: string;
   /**
   * Defines the Cron schedule for a full pgBackRest backup. Follows the standard Cron schedule syntax: https://k8s.io/docs/concepts/workloads/controllers/cron-jobs/#cron-schedule-syntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#full DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#full DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#full}
   */
   readonly full?: string;
   /**
   * Defines the Cron schedule for an incremental pgBackRest backup. Follows the standard Cron schedule syntax: https://k8s.io/docs/concepts/workloads/controllers/cron-jobs/#cron-schedule-syntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#incremental DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#incremental}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#incremental DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#incremental}
   */
   readonly incremental?: string;
 }
@@ -15792,19 +15792,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#api_group DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#api_group DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#kind DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#kind DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -15952,25 +15952,25 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#api_group DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#api_group DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#kind DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#kind DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -16147,13 +16147,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#limits DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#limits DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#requests DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#requests DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -16278,19 +16278,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16460,13 +16460,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestRepoVolumeVolumeClaimSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -16591,55 +16591,55 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#access_modes DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#access_modes DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#data_source DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#data_source DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#data_source}
   */
   readonly dataSource?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestRepoVolumeVolumeClaimSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#data_source_ref DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#data_source_ref DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestRepoVolumeVolumeClaimSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resources DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resources DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestRepoVolumeVolumeClaimSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#selector}
   */
   readonly selector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestRepoVolumeVolumeClaimSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#storage_class_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#storage_class_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Alpha) Using this field requires the VolumeAttributesClass feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#volume_attributes_class_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#volume_attributes_class_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#volume_mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#volume_mode DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#volume_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#volume_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -16967,7 +16967,7 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Defines a PersistentVolumeClaim spec used to create and/or bind a volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#volume_claim_spec DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#volume_claim_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#volume_claim_spec DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#volume_claim_spec}
   */
   readonly volumeClaimSpec: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestRepoVolumeVolumeClaimSpec;
 }
@@ -17060,37 +17060,37 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Represents a pgBackRest repository that is created using Azure storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#azure DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#azure DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#azure}
   */
   readonly azure?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestRepoAzure;
   /**
   * Represents a pgBackRest repository that is created using Google Cloud Storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#gcs DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#gcs DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#gcs}
   */
   readonly gcs?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestRepoGcs;
   /**
   * The name of the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * RepoS3 represents a pgBackRest repository that is created using AWS S3 (or S3-compatible) storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#s3 DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#s3 DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#s3}
   */
   readonly s3?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestRepoS3;
   /**
   * Defines the schedules for the pgBackRest backups Full, Differential and Incremental backup types are supported: https://pgbackrest.org/user-guide.html#concept/backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#schedules DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#schedules DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#schedules}
   */
   readonly schedules?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestRepoSchedules;
   /**
   * Represents a pgBackRest repository that is created using a PersistentVolumeClaim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#volume DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#volume DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#volume}
   */
   readonly volume?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestRepoVolume;
 }
@@ -17328,7 +17328,7 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -17443,19 +17443,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#claims DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#claims DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#limits DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#limits DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#requests DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#requests DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -17609,31 +17609,31 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#effect DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#effect DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#toleration_seconds DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#toleration_seconds DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#value DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#value DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -17867,55 +17867,55 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Scheduling constraints of the pgBackRest restore Job. More info: https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#affinity}
   */
   readonly affinity?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestAffinity;
   /**
   * Projected volumes containing custom pgBackRest configuration. These files are mounted under '/etc/pgbackrest/conf.d' alongside any pgBackRest configuration generated by the PostgreSQL Operator: https://pgbackrest.org/configuration.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#configuration DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#configuration DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#configuration}
   */
   readonly configuration?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestConfiguration[] | cdktf.IResolvable;
   /**
   * Global pgBackRest configuration settings. These settings are included in the 'global' section of the pgBackRest configuration generated by the PostgreSQL Operator, and then mounted under '/etc/pgbackrest/conf.d': https://pgbackrest.org/configuration.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#global DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#global DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#global}
   */
   readonly global?: { [key: string]: string };
   /**
   * Command line options to include when running the pgBackRest restore command. https://pgbackrest.org/command.html#command-restore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#options DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#options DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#options}
   */
   readonly options?: string[];
   /**
   * Priority class name for the pgBackRest restore Job pod. Changing this value causes PostgreSQL to restart. More info: https://kubernetes.io/docs/concepts/scheduling-eviction/pod-priority-preemption/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#priority_class_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#priority_class_name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * Defines a pgBackRest repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#repo DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#repo DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#repo}
   */
   readonly repo: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestRepo;
   /**
   * Resource requirements for the pgBackRest restore Job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resources DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#resources DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestResources;
   /**
   * The name of an existing pgBackRest stanza to use as the data source for the new PostgresCluster. Defaults to 'db' if not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#stanza DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#stanza}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#stanza DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#stanza}
   */
   readonly stanza: string;
   /**
   * Tolerations of the pgBackRest restore Job. More info: https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#tolerations DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#tolerations DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePgbackrestTolerations[] | cdktf.IResolvable;
 }
@@ -18237,19 +18237,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18419,19 +18419,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18601,13 +18601,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_fields DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_fields DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -18732,13 +18732,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preference DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preference DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preference}
   */
   readonly preference: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#weight DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#weight DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -18879,19 +18879,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19061,19 +19061,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19243,13 +19243,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_fields DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_fields DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -19396,7 +19396,7 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#node_selector_terms DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#node_selector_terms DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -19489,13 +19489,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -19620,19 +19620,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19802,13 +19802,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19933,19 +19933,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20115,13 +20115,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20246,37 +20246,37 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -20514,13 +20514,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_affinity_term DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_affinity_term DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#weight DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#weight DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -20661,19 +20661,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20843,13 +20843,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20974,19 +20974,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21156,13 +21156,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21287,37 +21287,37 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -21577,13 +21577,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -21708,19 +21708,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21890,13 +21890,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22021,19 +22021,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22203,13 +22203,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22334,37 +22334,37 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -22602,13 +22602,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_affinity_term DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_affinity_term DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#weight DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#weight DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -22749,19 +22749,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22931,13 +22931,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -23062,19 +23062,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#operator DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#values DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23244,13 +23244,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_expressions DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_labels DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -23375,37 +23375,37 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#label_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#match_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#mismatch_label_keys DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespace_selector DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#namespaces DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#topology_key DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -23665,13 +23665,13 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -23796,19 +23796,19 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#node_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#node_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_anti_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#pod_anti_affinity DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1ManifestSpecDataSourcePostgresClusterAffinityPodAntiAffinity;
 }
@@ -23962,7 +23962,7 @@ export interface DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Mani
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgres_operator_crunchydata_com_postgres_cluster_v1beta1_manifest#name DataK8SPostgresOperatorCrunchydataComPostgresClusterV1Beta1Manifest#name}
   */
   readonly name: string;
 }

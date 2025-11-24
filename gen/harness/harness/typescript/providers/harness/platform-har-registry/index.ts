@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PlatformHarRegistryConfig extends cdktf.TerraformMetaArguments 
   /**
   * Allowed artifact patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#allowed_pattern PlatformHarRegistry#allowed_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#allowed_pattern PlatformHarRegistry#allowed_pattern}
   */
   readonly allowedPattern?: string[];
   /**
   * Blocked artifact patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#blocked_pattern PlatformHarRegistry#blocked_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#blocked_pattern PlatformHarRegistry#blocked_pattern}
   */
   readonly blockedPattern?: string[];
   /**
   * Description of the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#description PlatformHarRegistry#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#description PlatformHarRegistry#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#id PlatformHarRegistry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#id PlatformHarRegistry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,77 +35,77 @@ export interface PlatformHarRegistryConfig extends cdktf.TerraformMetaArguments 
   /**
   * Unique identifier of the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#identifier PlatformHarRegistry#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#identifier PlatformHarRegistry#identifier}
   */
   readonly identifier: string;
   /**
   * Type of package (DOCKER, HELM, MAVEN, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#package_type PlatformHarRegistry#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#package_type PlatformHarRegistry#package_type}
   */
   readonly packageType: string;
   /**
   * Parent reference for the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#parent_ref PlatformHarRegistry#parent_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#parent_ref PlatformHarRegistry#parent_ref}
   */
   readonly parentRef?: string;
   /**
   * Space reference for the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#space_ref PlatformHarRegistry#space_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#space_ref PlatformHarRegistry#space_ref}
   */
   readonly spaceRef?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#config PlatformHarRegistry#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#config PlatformHarRegistry#config}
   */
   readonly config?: PlatformHarRegistryConfigA;
 }
 export interface PlatformHarRegistryConfigAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#access_key PlatformHarRegistry#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#access_key PlatformHarRegistry#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#access_key_identifier PlatformHarRegistry#access_key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#access_key_identifier PlatformHarRegistry#access_key_identifier}
   */
   readonly accessKeyIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#access_key_secret_path PlatformHarRegistry#access_key_secret_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#access_key_secret_path PlatformHarRegistry#access_key_secret_path}
   */
   readonly accessKeySecretPath?: string;
   /**
   * Type of authentication (UserPassword, Anonymous)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#auth_type PlatformHarRegistry#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#auth_type PlatformHarRegistry#auth_type}
   */
   readonly authType: string;
   /**
   * Secret identifier for UserPassword auth type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#secret_identifier PlatformHarRegistry#secret_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#secret_identifier PlatformHarRegistry#secret_identifier}
   */
   readonly secretIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#secret_key_identifier PlatformHarRegistry#secret_key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#secret_key_identifier PlatformHarRegistry#secret_key_identifier}
   */
   readonly secretKeyIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#secret_key_secret_path PlatformHarRegistry#secret_key_secret_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#secret_key_secret_path PlatformHarRegistry#secret_key_secret_path}
   */
   readonly secretKeySecretPath?: string;
   /**
   * Secret space path for UserPassword auth type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#secret_space_path PlatformHarRegistry#secret_space_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#secret_space_path PlatformHarRegistry#secret_space_path}
   */
   readonly secretSpacePath?: string;
   /**
   * User name for UserPassword auth type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#user_name PlatformHarRegistry#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#user_name PlatformHarRegistry#user_name}
   */
   readonly userName?: string;
 }
@@ -420,37 +420,37 @@ export interface PlatformHarRegistryConfigA {
   /**
   * Type of authentication for UPSTREAM registry type (UserPassword, Anonymous)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#auth_type PlatformHarRegistry#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#auth_type PlatformHarRegistry#auth_type}
   */
   readonly authType?: string;
   /**
   * Upstream source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#source PlatformHarRegistry#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#source PlatformHarRegistry#source}
   */
   readonly source?: string;
   /**
   * Type of registry (VIRTUAL or UPSTREAM)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#type PlatformHarRegistry#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#type PlatformHarRegistry#type}
   */
   readonly type: string;
   /**
   * List of upstream proxies for VIRTUAL registry type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#upstream_proxies PlatformHarRegistry#upstream_proxies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#upstream_proxies PlatformHarRegistry#upstream_proxies}
   */
   readonly upstreamProxies?: string[];
   /**
   * URL of the upstream (required if type=UPSTREAM & package_type=HELM)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#url PlatformHarRegistry#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#url PlatformHarRegistry#url}
   */
   readonly url?: string;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#auth PlatformHarRegistry#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#auth PlatformHarRegistry#auth}
   */
   readonly auth?: PlatformHarRegistryConfigAuth;
 }
@@ -676,7 +676,7 @@ export class PlatformHarRegistryConfigAOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry harness_platform_har_registry}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry harness_platform_har_registry}
 */
 export class PlatformHarRegistry extends cdktf.TerraformResource {
 
@@ -692,7 +692,7 @@ export class PlatformHarRegistry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformHarRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformHarRegistry to import
-  * @param importFromId The id of the existing PlatformHarRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformHarRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformHarRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -704,7 +704,7 @@ export class PlatformHarRegistry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_har_registry harness_platform_har_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_har_registry harness_platform_har_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -715,8 +715,8 @@ export class PlatformHarRegistry extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_har_registry',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

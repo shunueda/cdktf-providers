@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect
+// https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,23 +15,23 @@ export interface TokenIntrospectConfig extends cdktf.TerraformMetaArguments {
   *     Key specifies the new name and also the name of the property in IKG.
   *     Value specifies which claim to map and how.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#claims_mapping TokenIntrospect#claims_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#claims_mapping TokenIntrospect#claims_mapping}
   */
   readonly claimsMapping?: { [key: string]: string };
   /**
   * Your own description of the resource. Must be less than or equal to 256 UTF-8 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#description TokenIntrospect#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#description TokenIntrospect#description}
   */
   readonly description?: string;
   /**
   * The display name for the instance. Can be updated without creating a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#display_name TokenIntrospect#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#display_name TokenIntrospect#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#id TokenIntrospect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#id TokenIntrospect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,62 +40,62 @@ export interface TokenIntrospectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Node type in IKG to which we will try to match sub claim with DT external_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#ikg_node_type TokenIntrospect#ikg_node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#ikg_node_type TokenIntrospect#ikg_node_type}
   */
   readonly ikgNodeType: string;
   /**
   * Identifier of Location, where to create resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#location TokenIntrospect#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#location TokenIntrospect#location}
   */
   readonly location: string;
   /**
   * Unique client assigned immutable identifier. Can not be updated without creating a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#name TokenIntrospect#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#name TokenIntrospect#name}
   */
   readonly name: string;
   /**
   * Perform Upsert specify, if we should create and/or update DigitalTwin in IKG if it doesn't exist with.
   * 	In future this will perform upsert also on properties that are derived from token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#perform_upsert TokenIntrospect#perform_upsert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#perform_upsert TokenIntrospect#perform_upsert}
   */
   readonly performUpsert?: boolean | cdktf.IResolvable;
   /**
   * Sub claim is used to match DigitalTwin with external_id. If not specified, standard 'sub' claim will be used. Either 'sub' or specified claim will then also be mapped to 'external_id' claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#sub_claim TokenIntrospect#sub_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#sub_claim TokenIntrospect#sub_claim}
   */
   readonly subClaim?: string;
   /**
   * jwt_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#jwt_matcher TokenIntrospect#jwt_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#jwt_matcher TokenIntrospect#jwt_matcher}
   */
   readonly jwtMatcher?: TokenIntrospectJwtMatcher;
   /**
   * offline_validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#offline_validation TokenIntrospect#offline_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#offline_validation TokenIntrospect#offline_validation}
   */
   readonly offlineValidation?: TokenIntrospectOfflineValidation;
   /**
   * online_validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#online_validation TokenIntrospect#online_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#online_validation TokenIntrospect#online_validation}
   */
   readonly onlineValidation?: TokenIntrospectOnlineValidation;
   /**
   * opaque_matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#opaque_matcher TokenIntrospect#opaque_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#opaque_matcher TokenIntrospect#opaque_matcher}
   */
   readonly opaqueMatcher?: TokenIntrospectOpaqueMatcher;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#timeouts TokenIntrospect#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#timeouts TokenIntrospect#timeouts}
   */
   readonly timeouts?: TokenIntrospectTimeouts;
 }
@@ -103,13 +103,13 @@ export interface TokenIntrospectJwtMatcher {
   /**
   * Audience is used to exact match based on `aud` claim in JWT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#audience TokenIntrospect#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#audience TokenIntrospect#audience}
   */
   readonly audience: string;
   /**
   * Issuer is used to exact match based on `iss` claim in JWT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#issuer TokenIntrospect#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#issuer TokenIntrospect#issuer}
   */
   readonly issuer: string;
 }
@@ -218,7 +218,7 @@ export interface TokenIntrospectOfflineValidation {
   /**
   * Public JWKs to validate signature of JWT. If there are no public keys specified, they will be fetched and cached from jwks_uri at https://jwt-issuer.tld/.well-known/openid-configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#public_jwks TokenIntrospect#public_jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#public_jwks TokenIntrospect#public_jwks}
   */
   readonly publicJwks?: string[];
 }
@@ -309,7 +309,7 @@ export interface TokenIntrospectOnlineValidation {
   *     However, token validity will be checked first if possible (JWT tokens).
   *     If token is expired, userinfo endpoint will not be called, nor cache checked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#cache_ttl TokenIntrospect#cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#cache_ttl TokenIntrospect#cache_ttl}
   */
   readonly cacheTtl?: number;
   /**
@@ -319,7 +319,7 @@ export interface TokenIntrospectOnlineValidation {
   *     It can remain empty, if JWT token matcher is used.
   *     Then the URI under "userinfo_endpoint" in .well-known/openid-configuration endpoint is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#user_info_endpoint TokenIntrospect#user_info_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#user_info_endpoint TokenIntrospect#user_info_endpoint}
   */
   readonly userInfoEndpoint?: string;
 }
@@ -434,7 +434,7 @@ export interface TokenIntrospectOpaqueMatcher {
   /**
   * To differentiate between multiple opaque tokens configurations, hint must be provided. Hint is case sensitive plain text, that is expected to be provided in token introspect request, if there are multiple opaque tokens configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#hint TokenIntrospect#hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#hint TokenIntrospect#hint}
   */
   readonly hint: string;
 }
@@ -515,23 +515,23 @@ export class TokenIntrospectOpaqueMatcherOutputReference extends cdktf.ComplexOb
 }
 export interface TokenIntrospectTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#create TokenIntrospect#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#create TokenIntrospect#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#default TokenIntrospect#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#default TokenIntrospect#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#delete TokenIntrospect#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#delete TokenIntrospect#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#read TokenIntrospect#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#read TokenIntrospect#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#update TokenIntrospect#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#update TokenIntrospect#update}
   */
   readonly update?: string;
 }
@@ -741,7 +741,7 @@ export class TokenIntrospectTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect indykite_token_introspect}
+* Represents a {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect indykite_token_introspect}
 */
 export class TokenIntrospect extends cdktf.TerraformResource {
 
@@ -757,7 +757,7 @@ export class TokenIntrospect extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TokenIntrospect resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TokenIntrospect to import
-  * @param importFromId The id of the existing TokenIntrospect that should be imported. Refer to the {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TokenIntrospect that should be imported. Refer to the {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TokenIntrospect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -769,7 +769,7 @@ export class TokenIntrospect extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/token_introspect indykite_token_introspect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/token_introspect indykite_token_introspect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -780,8 +780,8 @@ export class TokenIntrospect extends cdktf.TerraformResource {
       terraformResourceType: 'indykite_token_introspect',
       terraformGeneratorMetadata: {
         providerName: 'indykite',
-        providerVersion: '0.27.0',
-        providerVersionConstraint: '0.27.0'
+        providerVersion: '0.28.0',
+        providerVersionConstraint: '0.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -835,6 +835,11 @@ export class TokenIntrospect extends cdktf.TerraformResource {
   // create_time - computed: true, optional: false, required: false
   public get createTime() {
     return this.getStringAttribute('create_time');
+  }
+
+  // created_by - computed: true, optional: false, required: false
+  public get createdBy() {
+    return this.getStringAttribute('created_by');
   }
 
   // customer_id - computed: true, optional: false, required: false
@@ -964,6 +969,11 @@ export class TokenIntrospect extends cdktf.TerraformResource {
   // update_time - computed: true, optional: false, required: false
   public get updateTime() {
     return this.getStringAttribute('update_time');
+  }
+
+  // updated_by - computed: true, optional: false, required: false
+  public get updatedBy() {
+    return this.getStringAttribute('updated_by');
   }
 
   // jwt_matcher - computed: false, optional: true, required: false

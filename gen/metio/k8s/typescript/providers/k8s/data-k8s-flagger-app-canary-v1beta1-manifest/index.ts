@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestConfig extends cdktf.Terr
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#metadata DataK8SFlaggerAppCanaryV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#metadata DataK8SFlaggerAppCanaryV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SFlaggerAppCanaryV1Beta1ManifestMetadata;
   /**
   * CanarySpec defines the desired state of a Canary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#spec DataK8SFlaggerAppCanaryV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#spec DataK8SFlaggerAppCanaryV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#annotations DataK8SFlaggerAppCanaryV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#annotations DataK8SFlaggerAppCanaryV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#labels DataK8SFlaggerAppCanaryV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#labels DataK8SFlaggerAppCanaryV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#namespace DataK8SFlaggerAppCanaryV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#namespace DataK8SFlaggerAppCanaryV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisAlertsProvide
   /**
   * Name of the alert provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the alert provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#namespace DataK8SFlaggerAppCanaryV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#namespace DataK8SFlaggerAppCanaryV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -347,19 +347,19 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisAlerts {
   /**
   * Name of the this alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Alert provider reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#provider_ref DataK8SFlaggerAppCanaryV1Beta1Manifest#provider_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#provider_ref DataK8SFlaggerAppCanaryV1Beta1Manifest#provider_ref}
   */
   readonly providerRef: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisAlertsProviderRef;
   /**
   * Severity level can be info, warn, error (default info)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#severity DataK8SFlaggerAppCanaryV1Beta1Manifest#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#severity DataK8SFlaggerAppCanaryV1Beta1Manifest#severity}
   */
   readonly severity?: string;
 }
@@ -527,21 +527,21 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisAlertsList extend
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisMatchHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * RE2 style regex-based match (https://github.com/google/re2/wiki/Syntax)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
   */
   readonly regex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#suffix DataK8SFlaggerAppCanaryV1Beta1Manifest#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#suffix DataK8SFlaggerAppCanaryV1Beta1Manifest#suffix}
   */
   readonly suffix?: string;
 }
@@ -722,17 +722,17 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisMatchHeadersOutpu
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisMatchQueryParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * RE2 style regex-based match (https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -884,19 +884,19 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisMatchQueryParamsO
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#headers DataK8SFlaggerAppCanaryV1Beta1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#headers DataK8SFlaggerAppCanaryV1Beta1Manifest#headers}
   */
   readonly headers?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisMatchHeaders;
   /**
   * Query parameters for matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#query_params DataK8SFlaggerAppCanaryV1Beta1Manifest#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#query_params DataK8SFlaggerAppCanaryV1Beta1Manifest#query_params}
   */
   readonly queryParams?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisMatchQueryParams;
   /**
   * Applicable only when the 'mesh' gateway is included in the service.gateways list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#source_labels DataK8SFlaggerAppCanaryV1Beta1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#source_labels DataK8SFlaggerAppCanaryV1Beta1Manifest#source_labels}
   */
   readonly sourceLabels?: { [key: string]: string };
 }
@@ -1072,13 +1072,13 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisMetricsTempla
   /**
   * Name of this metric template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of this metric template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#namespace DataK8SFlaggerAppCanaryV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#namespace DataK8SFlaggerAppCanaryV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1200,13 +1200,13 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisMetricsThresh
   /**
   * Max value accepted for this metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#max DataK8SFlaggerAppCanaryV1Beta1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#max DataK8SFlaggerAppCanaryV1Beta1Manifest#max}
   */
   readonly max?: number;
   /**
   * Min value accepted for this metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#min DataK8SFlaggerAppCanaryV1Beta1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#min DataK8SFlaggerAppCanaryV1Beta1Manifest#min}
   */
   readonly min?: number;
 }
@@ -1331,43 +1331,43 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisMetrics {
   /**
   * Interval of the query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#interval DataK8SFlaggerAppCanaryV1Beta1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#interval DataK8SFlaggerAppCanaryV1Beta1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Name of the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Prometheus query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#query DataK8SFlaggerAppCanaryV1Beta1Manifest#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#query DataK8SFlaggerAppCanaryV1Beta1Manifest#query}
   */
   readonly query?: string;
   /**
   * Metric template reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#template_ref DataK8SFlaggerAppCanaryV1Beta1Manifest#template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#template_ref DataK8SFlaggerAppCanaryV1Beta1Manifest#template_ref}
   */
   readonly templateRef?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisMetricsTemplateRef;
   /**
   * Additional variables to be used in the metrics query (key-value pairs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#template_variables DataK8SFlaggerAppCanaryV1Beta1Manifest#template_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#template_variables DataK8SFlaggerAppCanaryV1Beta1Manifest#template_variables}
   */
   readonly templateVariables?: { [key: string]: string };
   /**
   * Max value accepted for this metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#threshold DataK8SFlaggerAppCanaryV1Beta1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#threshold DataK8SFlaggerAppCanaryV1Beta1Manifest#threshold}
   */
   readonly threshold?: number;
   /**
   * Range accepted for this metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#threshold_range DataK8SFlaggerAppCanaryV1Beta1Manifest#threshold_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#threshold_range DataK8SFlaggerAppCanaryV1Beta1Manifest#threshold_range}
   */
   readonly thresholdRange?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisMetricsThresholdRange;
 }
@@ -1656,13 +1656,13 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisSessionAffini
   /**
   * CookieName is the key that will be used for the session affinity cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#cookie_name DataK8SFlaggerAppCanaryV1Beta1Manifest#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#cookie_name DataK8SFlaggerAppCanaryV1Beta1Manifest#cookie_name}
   */
   readonly cookieName: string;
   /**
   * MaxAge indicates the number of seconds until the session affinity cookie will expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#max_age DataK8SFlaggerAppCanaryV1Beta1Manifest#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#max_age DataK8SFlaggerAppCanaryV1Beta1Manifest#max_age}
   */
   readonly maxAge?: number;
 }
@@ -1784,43 +1784,43 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisWebhooks {
   /**
   * Metadata (key-value pairs) for this webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#metadata DataK8SFlaggerAppCanaryV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#metadata DataK8SFlaggerAppCanaryV1Beta1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Mute all alerts for the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#mute_alert DataK8SFlaggerAppCanaryV1Beta1Manifest#mute_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#mute_alert DataK8SFlaggerAppCanaryV1Beta1Manifest#mute_alert}
   */
   readonly muteAlert?: boolean | cdktf.IResolvable;
   /**
   * Name of the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Number of retries for this webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#retries DataK8SFlaggerAppCanaryV1Beta1Manifest#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#retries DataK8SFlaggerAppCanaryV1Beta1Manifest#retries}
   */
   readonly retries?: number;
   /**
   * Request timeout for this webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#timeout DataK8SFlaggerAppCanaryV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#timeout DataK8SFlaggerAppCanaryV1Beta1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * Type of the webhook pre, post or during rollout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#type DataK8SFlaggerAppCanaryV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#type DataK8SFlaggerAppCanaryV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
   * URL address of this webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#url DataK8SFlaggerAppCanaryV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#url DataK8SFlaggerAppCanaryV1Beta1Manifest#url}
   */
   readonly url: string;
 }
@@ -2106,97 +2106,97 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysis {
   /**
   * Alert list for this canary analysis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#alerts DataK8SFlaggerAppCanaryV1Beta1Manifest#alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#alerts DataK8SFlaggerAppCanaryV1Beta1Manifest#alerts}
   */
   readonly alerts?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisAlerts[] | cdktf.IResolvable;
   /**
   * Percentage of pods that need to be available to consider canary as ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#canary_ready_threshold DataK8SFlaggerAppCanaryV1Beta1Manifest#canary_ready_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#canary_ready_threshold DataK8SFlaggerAppCanaryV1Beta1Manifest#canary_ready_threshold}
   */
   readonly canaryReadyThreshold?: number;
   /**
   * Schedule interval for this canary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#interval DataK8SFlaggerAppCanaryV1Beta1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#interval DataK8SFlaggerAppCanaryV1Beta1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Number of checks to run for A/B Testing and Blue/Green
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#iterations DataK8SFlaggerAppCanaryV1Beta1Manifest#iterations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#iterations DataK8SFlaggerAppCanaryV1Beta1Manifest#iterations}
   */
   readonly iterations?: number;
   /**
   * A/B testing match conditions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#match DataK8SFlaggerAppCanaryV1Beta1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#match DataK8SFlaggerAppCanaryV1Beta1Manifest#match}
   */
   readonly match?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisMatch[] | cdktf.IResolvable;
   /**
   * Max traffic weight routed to canary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#max_weight DataK8SFlaggerAppCanaryV1Beta1Manifest#max_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#max_weight DataK8SFlaggerAppCanaryV1Beta1Manifest#max_weight}
   */
   readonly maxWeight?: number;
   /**
   * Metric check list for this canary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#metrics DataK8SFlaggerAppCanaryV1Beta1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#metrics DataK8SFlaggerAppCanaryV1Beta1Manifest#metrics}
   */
   readonly metrics?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisMetrics[] | cdktf.IResolvable;
   /**
   * Mirror traffic to canary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#mirror DataK8SFlaggerAppCanaryV1Beta1Manifest#mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#mirror DataK8SFlaggerAppCanaryV1Beta1Manifest#mirror}
   */
   readonly mirror?: boolean | cdktf.IResolvable;
   /**
   * Weight of traffic to be mirrored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#mirror_weight DataK8SFlaggerAppCanaryV1Beta1Manifest#mirror_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#mirror_weight DataK8SFlaggerAppCanaryV1Beta1Manifest#mirror_weight}
   */
   readonly mirrorWeight?: number;
   /**
   * Percentage of pods that need to be available to consider primary as ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#primary_ready_threshold DataK8SFlaggerAppCanaryV1Beta1Manifest#primary_ready_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#primary_ready_threshold DataK8SFlaggerAppCanaryV1Beta1Manifest#primary_ready_threshold}
   */
   readonly primaryReadyThreshold?: number;
   /**
   * SessionAffinity represents the session affinity settings for a canary run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#session_affinity DataK8SFlaggerAppCanaryV1Beta1Manifest#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#session_affinity DataK8SFlaggerAppCanaryV1Beta1Manifest#session_affinity}
   */
   readonly sessionAffinity?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisSessionAffinity;
   /**
   * Incremental traffic step weight for the analysis phase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#step_weight DataK8SFlaggerAppCanaryV1Beta1Manifest#step_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#step_weight DataK8SFlaggerAppCanaryV1Beta1Manifest#step_weight}
   */
   readonly stepWeight?: number;
   /**
   * Incremental traffic step weight for the promotion phase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#step_weight_promotion DataK8SFlaggerAppCanaryV1Beta1Manifest#step_weight_promotion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#step_weight_promotion DataK8SFlaggerAppCanaryV1Beta1Manifest#step_weight_promotion}
   */
   readonly stepWeightPromotion?: number;
   /**
   * Incremental traffic step weights for the analysis phase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#step_weights DataK8SFlaggerAppCanaryV1Beta1Manifest#step_weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#step_weights DataK8SFlaggerAppCanaryV1Beta1Manifest#step_weights}
   */
   readonly stepWeights?: string[];
   /**
   * Max number of failed checks before rollback
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#threshold DataK8SFlaggerAppCanaryV1Beta1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#threshold DataK8SFlaggerAppCanaryV1Beta1Manifest#threshold}
   */
   readonly threshold?: number;
   /**
   * Webhook list for this canary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#webhooks DataK8SFlaggerAppCanaryV1Beta1Manifest#webhooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#webhooks DataK8SFlaggerAppCanaryV1Beta1Manifest#webhooks}
   */
   readonly webhooks?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisWebhooks[] | cdktf.IResolvable;
 }
@@ -2725,11 +2725,11 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysisOutputReference e
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAutoscalerRefPrimaryScalerReplicas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#max_replicas DataK8SFlaggerAppCanaryV1Beta1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#max_replicas DataK8SFlaggerAppCanaryV1Beta1Manifest#max_replicas}
   */
   readonly maxReplicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#min_replicas DataK8SFlaggerAppCanaryV1Beta1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#min_replicas DataK8SFlaggerAppCanaryV1Beta1Manifest#min_replicas}
   */
   readonly minReplicas?: number;
 }
@@ -2852,23 +2852,23 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAutoscalerRefPrimaryScale
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAutoscalerRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#api_version DataK8SFlaggerAppCanaryV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#api_version DataK8SFlaggerAppCanaryV1Beta1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#kind DataK8SFlaggerAppCanaryV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#kind DataK8SFlaggerAppCanaryV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#primary_scaler_queries DataK8SFlaggerAppCanaryV1Beta1Manifest#primary_scaler_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#primary_scaler_queries DataK8SFlaggerAppCanaryV1Beta1Manifest#primary_scaler_queries}
   */
   readonly primaryScalerQueries?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#primary_scaler_replicas DataK8SFlaggerAppCanaryV1Beta1Manifest#primary_scaler_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#primary_scaler_replicas DataK8SFlaggerAppCanaryV1Beta1Manifest#primary_scaler_replicas}
   */
   readonly primaryScalerReplicas?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAutoscalerRefPrimaryScalerReplicas;
 }
@@ -3069,15 +3069,15 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAutoscalerRefOutputRefere
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecIngressRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#api_version DataK8SFlaggerAppCanaryV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#api_version DataK8SFlaggerAppCanaryV1Beta1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#kind DataK8SFlaggerAppCanaryV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#kind DataK8SFlaggerAppCanaryV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -3220,15 +3220,15 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecIngressRefOutputReference
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecRouteRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#api_version DataK8SFlaggerAppCanaryV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#api_version DataK8SFlaggerAppCanaryV1Beta1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#kind DataK8SFlaggerAppCanaryV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#kind DataK8SFlaggerAppCanaryV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -3371,11 +3371,11 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecRouteRefOutputReference e
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceApex {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#annotations DataK8SFlaggerAppCanaryV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#annotations DataK8SFlaggerAppCanaryV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#labels DataK8SFlaggerAppCanaryV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#labels DataK8SFlaggerAppCanaryV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -3498,11 +3498,11 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceApexOutputReferenc
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceCanary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#annotations DataK8SFlaggerAppCanaryV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#annotations DataK8SFlaggerAppCanaryV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#labels DataK8SFlaggerAppCanaryV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#labels DataK8SFlaggerAppCanaryV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -3625,15 +3625,15 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceCanaryOutputRefere
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceCorsPolicyAllowOrigins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -3807,37 +3807,37 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceCorsPolicyAllowOri
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceCorsPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#allow_credentials DataK8SFlaggerAppCanaryV1Beta1Manifest#allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#allow_credentials DataK8SFlaggerAppCanaryV1Beta1Manifest#allow_credentials}
   */
   readonly allowCredentials?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#allow_headers DataK8SFlaggerAppCanaryV1Beta1Manifest#allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#allow_headers DataK8SFlaggerAppCanaryV1Beta1Manifest#allow_headers}
   */
   readonly allowHeaders?: string[];
   /**
   * List of HTTP methods allowed to access the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#allow_methods DataK8SFlaggerAppCanaryV1Beta1Manifest#allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#allow_methods DataK8SFlaggerAppCanaryV1Beta1Manifest#allow_methods}
   */
   readonly allowMethods?: string[];
   /**
   * The list of origins that are allowed to perform CORS requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#allow_origin DataK8SFlaggerAppCanaryV1Beta1Manifest#allow_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#allow_origin DataK8SFlaggerAppCanaryV1Beta1Manifest#allow_origin}
   */
   readonly allowOrigin?: string[];
   /**
   * String patterns that match allowed origins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#allow_origins DataK8SFlaggerAppCanaryV1Beta1Manifest#allow_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#allow_origins DataK8SFlaggerAppCanaryV1Beta1Manifest#allow_origins}
   */
   readonly allowOrigins?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceCorsPolicyAllowOrigins[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#expose_headers DataK8SFlaggerAppCanaryV1Beta1Manifest#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#expose_headers DataK8SFlaggerAppCanaryV1Beta1Manifest#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#max_age DataK8SFlaggerAppCanaryV1Beta1Manifest#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#max_age DataK8SFlaggerAppCanaryV1Beta1Manifest#max_age}
   */
   readonly maxAge?: string;
 }
@@ -4105,27 +4105,27 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceCorsPolicyOutputRe
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceGatewayRefs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#group DataK8SFlaggerAppCanaryV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#group DataK8SFlaggerAppCanaryV1Beta1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#kind DataK8SFlaggerAppCanaryV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#kind DataK8SFlaggerAppCanaryV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#namespace DataK8SFlaggerAppCanaryV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#namespace DataK8SFlaggerAppCanaryV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#port DataK8SFlaggerAppCanaryV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#port DataK8SFlaggerAppCanaryV1Beta1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#section_name DataK8SFlaggerAppCanaryV1Beta1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#section_name DataK8SFlaggerAppCanaryV1Beta1Manifest#section_name}
   */
   readonly sectionName?: string;
 }
@@ -4383,15 +4383,15 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceGatewayRefsList ex
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceHeadersRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#add DataK8SFlaggerAppCanaryV1Beta1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#add DataK8SFlaggerAppCanaryV1Beta1Manifest#add}
   */
   readonly add?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#remove DataK8SFlaggerAppCanaryV1Beta1Manifest#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#remove DataK8SFlaggerAppCanaryV1Beta1Manifest#remove}
   */
   readonly remove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#set DataK8SFlaggerAppCanaryV1Beta1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#set DataK8SFlaggerAppCanaryV1Beta1Manifest#set}
   */
   readonly set?: { [key: string]: string };
 }
@@ -4543,15 +4543,15 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceHeadersRequestOutp
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceHeadersResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#add DataK8SFlaggerAppCanaryV1Beta1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#add DataK8SFlaggerAppCanaryV1Beta1Manifest#add}
   */
   readonly add?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#remove DataK8SFlaggerAppCanaryV1Beta1Manifest#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#remove DataK8SFlaggerAppCanaryV1Beta1Manifest#remove}
   */
   readonly remove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#set DataK8SFlaggerAppCanaryV1Beta1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#set DataK8SFlaggerAppCanaryV1Beta1Manifest#set}
   */
   readonly set?: { [key: string]: string };
 }
@@ -4703,11 +4703,11 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceHeadersResponseOut
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#request DataK8SFlaggerAppCanaryV1Beta1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#request DataK8SFlaggerAppCanaryV1Beta1Manifest#request}
   */
   readonly request?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceHeadersRequest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#response DataK8SFlaggerAppCanaryV1Beta1Manifest#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#response DataK8SFlaggerAppCanaryV1Beta1Manifest#response}
   */
   readonly response?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceHeadersResponse;
 }
@@ -4830,17 +4830,17 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceHeadersOutputRefer
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchAuthority {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * RE2 style regex-based match (https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -4992,17 +4992,17 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchAuthorityOutp
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * RE2 style regex-based match (https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -5154,17 +5154,17 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchHeadersOutput
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * RE2 style regex-based match (https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -5316,17 +5316,17 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchMethodOutputR
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchQueryParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * RE2 style regex-based match (https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -5478,17 +5478,17 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchQueryParamsOu
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchScheme {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * RE2 style regex-based match (https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -5640,17 +5640,17 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchSchemeOutputR
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchUri {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * RE2 style regex-based match (https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -5802,17 +5802,17 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchUriOutputRefe
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchWithoutHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#exact DataK8SFlaggerAppCanaryV1Beta1Manifest#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#prefix DataK8SFlaggerAppCanaryV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * RE2 style regex-based match (https://github.com/google/re2/wiki/Syntax).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#regex DataK8SFlaggerAppCanaryV1Beta1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -5964,69 +5964,69 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchWithoutHeader
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#authority DataK8SFlaggerAppCanaryV1Beta1Manifest#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#authority DataK8SFlaggerAppCanaryV1Beta1Manifest#authority}
   */
   readonly authority?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchAuthority;
   /**
   * Names of gateways where the rule should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#gateways DataK8SFlaggerAppCanaryV1Beta1Manifest#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#gateways DataK8SFlaggerAppCanaryV1Beta1Manifest#gateways}
   */
   readonly gateways?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#headers DataK8SFlaggerAppCanaryV1Beta1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#headers DataK8SFlaggerAppCanaryV1Beta1Manifest#headers}
   */
   readonly headers?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchHeaders;
   /**
   * Flag to specify whether the URI matching should be case-insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#ignore_uri_case DataK8SFlaggerAppCanaryV1Beta1Manifest#ignore_uri_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#ignore_uri_case DataK8SFlaggerAppCanaryV1Beta1Manifest#ignore_uri_case}
   */
   readonly ignoreUriCase?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#method DataK8SFlaggerAppCanaryV1Beta1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#method DataK8SFlaggerAppCanaryV1Beta1Manifest#method}
   */
   readonly method?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchMethod;
   /**
   * The name assigned to a match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specifies the ports on the host that is being addressed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#port DataK8SFlaggerAppCanaryV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#port DataK8SFlaggerAppCanaryV1Beta1Manifest#port}
   */
   readonly port?: number;
   /**
   * Query parameters for matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#query_params DataK8SFlaggerAppCanaryV1Beta1Manifest#query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#query_params DataK8SFlaggerAppCanaryV1Beta1Manifest#query_params}
   */
   readonly queryParams?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchQueryParams;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#scheme DataK8SFlaggerAppCanaryV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#scheme DataK8SFlaggerAppCanaryV1Beta1Manifest#scheme}
   */
   readonly scheme?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchScheme;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#source_labels DataK8SFlaggerAppCanaryV1Beta1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#source_labels DataK8SFlaggerAppCanaryV1Beta1Manifest#source_labels}
   */
   readonly sourceLabels?: { [key: string]: string };
   /**
   * Source namespace constraining the applicability of a rule to workloads in that namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#source_namespace DataK8SFlaggerAppCanaryV1Beta1Manifest#source_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#source_namespace DataK8SFlaggerAppCanaryV1Beta1Manifest#source_namespace}
   */
   readonly sourceNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#uri DataK8SFlaggerAppCanaryV1Beta1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#uri DataK8SFlaggerAppCanaryV1Beta1Manifest#uri}
   */
   readonly uri?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchUri;
   /**
   * withoutHeader has the same syntax with the header, but has opposite meaning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#without_headers DataK8SFlaggerAppCanaryV1Beta1Manifest#without_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#without_headers DataK8SFlaggerAppCanaryV1Beta1Manifest#without_headers}
   */
   readonly withoutHeaders?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchWithoutHeaders;
 }
@@ -6490,23 +6490,23 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatchList extends 
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMirrorBackendRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#group DataK8SFlaggerAppCanaryV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#group DataK8SFlaggerAppCanaryV1Beta1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#kind DataK8SFlaggerAppCanaryV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#kind DataK8SFlaggerAppCanaryV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#namespace DataK8SFlaggerAppCanaryV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#namespace DataK8SFlaggerAppCanaryV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#port DataK8SFlaggerAppCanaryV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#port DataK8SFlaggerAppCanaryV1Beta1Manifest#port}
   */
   readonly port?: number;
 }
@@ -6713,7 +6713,7 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMirrorBackendRefOu
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMirror {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#backend_ref DataK8SFlaggerAppCanaryV1Beta1Manifest#backend_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#backend_ref DataK8SFlaggerAppCanaryV1Beta1Manifest#backend_ref}
   */
   readonly backendRef?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMirrorBackendRef;
 }
@@ -6829,11 +6829,11 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMirrorList extends
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServicePrimary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#annotations DataK8SFlaggerAppCanaryV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#annotations DataK8SFlaggerAppCanaryV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#labels DataK8SFlaggerAppCanaryV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#labels DataK8SFlaggerAppCanaryV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -6958,19 +6958,19 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceRetries {
   /**
   * Number of retries for a given request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#attempts DataK8SFlaggerAppCanaryV1Beta1Manifest#attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#attempts DataK8SFlaggerAppCanaryV1Beta1Manifest#attempts}
   */
   readonly attempts?: number;
   /**
   * Timeout per retry attempt for a given request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#per_try_timeout DataK8SFlaggerAppCanaryV1Beta1Manifest#per_try_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#per_try_timeout DataK8SFlaggerAppCanaryV1Beta1Manifest#per_try_timeout}
   */
   readonly perTryTimeout?: string;
   /**
   * Specifies the conditions under which retry takes place
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#retry_on DataK8SFlaggerAppCanaryV1Beta1Manifest#retry_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#retry_on DataK8SFlaggerAppCanaryV1Beta1Manifest#retry_on}
   */
   readonly retryOn?: string;
 }
@@ -7122,15 +7122,15 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceRetriesOutputRefer
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceRewrite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#authority DataK8SFlaggerAppCanaryV1Beta1Manifest#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#authority DataK8SFlaggerAppCanaryV1Beta1Manifest#authority}
   */
   readonly authority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#type DataK8SFlaggerAppCanaryV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#type DataK8SFlaggerAppCanaryV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#uri DataK8SFlaggerAppCanaryV1Beta1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#uri DataK8SFlaggerAppCanaryV1Beta1Manifest#uri}
   */
   readonly uri?: string;
 }
@@ -7284,35 +7284,35 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyC
   /**
   * Specify if http1.1 connection should be upgraded to http2 for the associated destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#h2_upgrade_policy DataK8SFlaggerAppCanaryV1Beta1Manifest#h2_upgrade_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#h2_upgrade_policy DataK8SFlaggerAppCanaryV1Beta1Manifest#h2_upgrade_policy}
   */
   readonly h2UpgradePolicy?: string;
   /**
   * Maximum number of pending HTTP requests to a destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#http1_max_pending_requests DataK8SFlaggerAppCanaryV1Beta1Manifest#http1_max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#http1_max_pending_requests DataK8SFlaggerAppCanaryV1Beta1Manifest#http1_max_pending_requests}
   */
   readonly http1MaxPendingRequests?: number;
   /**
   * Maximum number of requests to a backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#http2_max_requests DataK8SFlaggerAppCanaryV1Beta1Manifest#http2_max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#http2_max_requests DataK8SFlaggerAppCanaryV1Beta1Manifest#http2_max_requests}
   */
   readonly http2MaxRequests?: number;
   /**
   * The idle timeout for upstream connection pool connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#idle_timeout DataK8SFlaggerAppCanaryV1Beta1Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#idle_timeout DataK8SFlaggerAppCanaryV1Beta1Manifest#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * Maximum number of requests per connection to a backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#max_requests_per_connection DataK8SFlaggerAppCanaryV1Beta1Manifest#max_requests_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#max_requests_per_connection DataK8SFlaggerAppCanaryV1Beta1Manifest#max_requests_per_connection}
   */
   readonly maxRequestsPerConnection?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#max_retries DataK8SFlaggerAppCanaryV1Beta1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#max_retries DataK8SFlaggerAppCanaryV1Beta1Manifest#max_retries}
   */
   readonly maxRetries?: number;
 }
@@ -7553,7 +7553,7 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyC
   /**
   * HTTP connection pool settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#http DataK8SFlaggerAppCanaryV1Beta1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#http DataK8SFlaggerAppCanaryV1Beta1Manifest#http}
   */
   readonly http?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyConnectionPoolHttp;
 }
@@ -7649,19 +7649,19 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyL
   /**
   * Name of the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Path to set for the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#path DataK8SFlaggerAppCanaryV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#path DataK8SFlaggerAppCanaryV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Lifetime of the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#ttl DataK8SFlaggerAppCanaryV1Beta1Manifest#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#ttl DataK8SFlaggerAppCanaryV1Beta1Manifest#ttl}
   */
   readonly ttl?: string;
 }
@@ -7815,29 +7815,29 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyL
   /**
   * Hash based on HTTP cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#http_cookie DataK8SFlaggerAppCanaryV1Beta1Manifest#http_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#http_cookie DataK8SFlaggerAppCanaryV1Beta1Manifest#http_cookie}
   */
   readonly httpCookie?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyLoadBalancerConsistentHashHttpCookie;
   /**
   * Hash based on a specific HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#http_header_name DataK8SFlaggerAppCanaryV1Beta1Manifest#http_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#http_header_name DataK8SFlaggerAppCanaryV1Beta1Manifest#http_header_name}
   */
   readonly httpHeaderName?: string;
   /**
   * Hash based on a specific HTTP query parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#http_query_parameter_name DataK8SFlaggerAppCanaryV1Beta1Manifest#http_query_parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#http_query_parameter_name DataK8SFlaggerAppCanaryV1Beta1Manifest#http_query_parameter_name}
   */
   readonly httpQueryParameterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#minimum_ring_size DataK8SFlaggerAppCanaryV1Beta1Manifest#minimum_ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#minimum_ring_size DataK8SFlaggerAppCanaryV1Beta1Manifest#minimum_ring_size}
   */
   readonly minimumRingSize?: number;
   /**
   * Hash based on the source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#use_source_ip DataK8SFlaggerAppCanaryV1Beta1Manifest#use_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#use_source_ip DataK8SFlaggerAppCanaryV1Beta1Manifest#use_source_ip}
   */
   readonly useSourceIp?: boolean | cdktf.IResolvable;
 }
@@ -8049,13 +8049,13 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyL
   /**
   * Originating locality, '/' separated, e.g.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#from DataK8SFlaggerAppCanaryV1Beta1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#from DataK8SFlaggerAppCanaryV1Beta1Manifest#from}
   */
   readonly from?: string;
   /**
   * Map of upstream localities to traffic distribution weights.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#to DataK8SFlaggerAppCanaryV1Beta1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#to DataK8SFlaggerAppCanaryV1Beta1Manifest#to}
   */
   readonly to?: { [key: string]: string };
 }
@@ -8202,11 +8202,11 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyL
   /**
   * Originating region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#from DataK8SFlaggerAppCanaryV1Beta1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#from DataK8SFlaggerAppCanaryV1Beta1Manifest#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#to DataK8SFlaggerAppCanaryV1Beta1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#to DataK8SFlaggerAppCanaryV1Beta1Manifest#to}
   */
   readonly to?: string;
 }
@@ -8353,19 +8353,19 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyL
   /**
   * Optional: only one of distribute or failover can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#distribute DataK8SFlaggerAppCanaryV1Beta1Manifest#distribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#distribute DataK8SFlaggerAppCanaryV1Beta1Manifest#distribute}
   */
   readonly distribute?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyLoadBalancerLocalityLbSettingDistribute[] | cdktf.IResolvable;
   /**
   * enable locality load balancing, this is DestinationRule-level and will override mesh wide settings in entirety.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#enabled DataK8SFlaggerAppCanaryV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#enabled DataK8SFlaggerAppCanaryV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Optional: only failover or distribute can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#failover DataK8SFlaggerAppCanaryV1Beta1Manifest#failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#failover DataK8SFlaggerAppCanaryV1Beta1Manifest#failover}
   */
   readonly failover?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyLoadBalancerLocalityLbSettingFailover[] | cdktf.IResolvable;
 }
@@ -8517,21 +8517,21 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyLoadB
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyLoadBalancer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#consistent_hash DataK8SFlaggerAppCanaryV1Beta1Manifest#consistent_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#consistent_hash DataK8SFlaggerAppCanaryV1Beta1Manifest#consistent_hash}
   */
   readonly consistentHash?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyLoadBalancerConsistentHash;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#locality_lb_setting DataK8SFlaggerAppCanaryV1Beta1Manifest#locality_lb_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#locality_lb_setting DataK8SFlaggerAppCanaryV1Beta1Manifest#locality_lb_setting}
   */
   readonly localityLbSetting?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyLoadBalancerLocalityLbSetting;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#simple DataK8SFlaggerAppCanaryV1Beta1Manifest#simple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#simple DataK8SFlaggerAppCanaryV1Beta1Manifest#simple}
   */
   readonly simple?: string;
   /**
   * Represents the warmup duration of Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#warmup_duration_secs DataK8SFlaggerAppCanaryV1Beta1Manifest#warmup_duration_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#warmup_duration_secs DataK8SFlaggerAppCanaryV1Beta1Manifest#warmup_duration_secs}
   */
   readonly warmupDurationSecs?: string;
 }
@@ -8714,37 +8714,37 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyO
   /**
   * Minimum ejection duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#base_ejection_time DataK8SFlaggerAppCanaryV1Beta1Manifest#base_ejection_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#base_ejection_time DataK8SFlaggerAppCanaryV1Beta1Manifest#base_ejection_time}
   */
   readonly baseEjectionTime?: string;
   /**
   * Number of 5xx errors before a host is ejected from the connection pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#consecutive5xx_errors DataK8SFlaggerAppCanaryV1Beta1Manifest#consecutive5xx_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#consecutive5xx_errors DataK8SFlaggerAppCanaryV1Beta1Manifest#consecutive5xx_errors}
   */
   readonly consecutive5XxErrors?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#consecutive_errors DataK8SFlaggerAppCanaryV1Beta1Manifest#consecutive_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#consecutive_errors DataK8SFlaggerAppCanaryV1Beta1Manifest#consecutive_errors}
   */
   readonly consecutiveErrors?: number;
   /**
   * Number of gateway errors before a host is ejected from the connection pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#consecutive_gateway_errors DataK8SFlaggerAppCanaryV1Beta1Manifest#consecutive_gateway_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#consecutive_gateway_errors DataK8SFlaggerAppCanaryV1Beta1Manifest#consecutive_gateway_errors}
   */
   readonly consecutiveGatewayErrors?: number;
   /**
   * Time interval between ejection sweep analysis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#interval DataK8SFlaggerAppCanaryV1Beta1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#interval DataK8SFlaggerAppCanaryV1Beta1Manifest#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#max_ejection_percent DataK8SFlaggerAppCanaryV1Beta1Manifest#max_ejection_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#max_ejection_percent DataK8SFlaggerAppCanaryV1Beta1Manifest#max_ejection_percent}
   */
   readonly maxEjectionPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#min_health_percent DataK8SFlaggerAppCanaryV1Beta1Manifest#min_health_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#min_health_percent DataK8SFlaggerAppCanaryV1Beta1Manifest#min_health_percent}
   */
   readonly minHealthPercent?: number;
 }
@@ -9012,33 +9012,33 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyOutli
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#ca_certificates DataK8SFlaggerAppCanaryV1Beta1Manifest#ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#ca_certificates DataK8SFlaggerAppCanaryV1Beta1Manifest#ca_certificates}
   */
   readonly caCertificates?: string;
   /**
   * REQUIRED if mode is 'MUTUAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#client_certificate DataK8SFlaggerAppCanaryV1Beta1Manifest#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#client_certificate DataK8SFlaggerAppCanaryV1Beta1Manifest#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#mode DataK8SFlaggerAppCanaryV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#mode DataK8SFlaggerAppCanaryV1Beta1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * REQUIRED if mode is 'MUTUAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#private_key DataK8SFlaggerAppCanaryV1Beta1Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#private_key DataK8SFlaggerAppCanaryV1Beta1Manifest#private_key}
   */
   readonly privateKey?: string;
   /**
   * SNI string to present to the server during TLS handshake.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#sni DataK8SFlaggerAppCanaryV1Beta1Manifest#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#sni DataK8SFlaggerAppCanaryV1Beta1Manifest#sni}
   */
   readonly sni?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#subject_alt_names DataK8SFlaggerAppCanaryV1Beta1Manifest#subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#subject_alt_names DataK8SFlaggerAppCanaryV1Beta1Manifest#subject_alt_names}
   */
   readonly subjectAltNames?: string[];
 }
@@ -9277,25 +9277,25 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyTlsOu
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#connection_pool DataK8SFlaggerAppCanaryV1Beta1Manifest#connection_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#connection_pool DataK8SFlaggerAppCanaryV1Beta1Manifest#connection_pool}
   */
   readonly connectionPool?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyConnectionPool;
   /**
   * Settings controlling the load balancer algorithms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#load_balancer DataK8SFlaggerAppCanaryV1Beta1Manifest#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#load_balancer DataK8SFlaggerAppCanaryV1Beta1Manifest#load_balancer}
   */
   readonly loadBalancer?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyLoadBalancer;
   /**
   * Settings controlling eviction of unhealthy hosts from the load balancing pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#outlier_detection DataK8SFlaggerAppCanaryV1Beta1Manifest#outlier_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#outlier_detection DataK8SFlaggerAppCanaryV1Beta1Manifest#outlier_detection}
   */
   readonly outlierDetection?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyOutlierDetection;
   /**
   * Istio TLS related settings for connections to the upstream service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#tls DataK8SFlaggerAppCanaryV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#tls DataK8SFlaggerAppCanaryV1Beta1Manifest#tls}
   */
   readonly tls?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicyTls;
 }
@@ -9478,139 +9478,139 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecService {
   /**
   * Metadata to add to the apex service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#apex DataK8SFlaggerAppCanaryV1Beta1Manifest#apex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#apex DataK8SFlaggerAppCanaryV1Beta1Manifest#apex}
   */
   readonly apex?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceApex;
   /**
   * Application protocol of the port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#app_protocol DataK8SFlaggerAppCanaryV1Beta1Manifest#app_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#app_protocol DataK8SFlaggerAppCanaryV1Beta1Manifest#app_protocol}
   */
   readonly appProtocol?: string;
   /**
   * AppMesh backend array
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#backends DataK8SFlaggerAppCanaryV1Beta1Manifest#backends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#backends DataK8SFlaggerAppCanaryV1Beta1Manifest#backends}
   */
   readonly backends?: string[];
   /**
   * Metadata to add to the canary service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#canary DataK8SFlaggerAppCanaryV1Beta1Manifest#canary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#canary DataK8SFlaggerAppCanaryV1Beta1Manifest#canary}
   */
   readonly canary?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceCanary;
   /**
   * Istio Cross-Origin Resource Sharing policy (CORS)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#cors_policy DataK8SFlaggerAppCanaryV1Beta1Manifest#cors_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#cors_policy DataK8SFlaggerAppCanaryV1Beta1Manifest#cors_policy}
   */
   readonly corsPolicy?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceCorsPolicy;
   /**
   * enable behaving as a delegate VirtualService
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#delegation DataK8SFlaggerAppCanaryV1Beta1Manifest#delegation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#delegation DataK8SFlaggerAppCanaryV1Beta1Manifest#delegation}
   */
   readonly delegation?: boolean | cdktf.IResolvable;
   /**
   * The list of parent Gateways for a HTTPRoute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#gateway_refs DataK8SFlaggerAppCanaryV1Beta1Manifest#gateway_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#gateway_refs DataK8SFlaggerAppCanaryV1Beta1Manifest#gateway_refs}
   */
   readonly gatewayRefs?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceGatewayRefs[] | cdktf.IResolvable;
   /**
   * The list of Istio gateway for this virtual service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#gateways DataK8SFlaggerAppCanaryV1Beta1Manifest#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#gateways DataK8SFlaggerAppCanaryV1Beta1Manifest#gateways}
   */
   readonly gateways?: string[];
   /**
   * Headers operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#headers DataK8SFlaggerAppCanaryV1Beta1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#headers DataK8SFlaggerAppCanaryV1Beta1Manifest#headers}
   */
   readonly headers?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceHeaders;
   /**
   * The list of host names for this service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#hosts DataK8SFlaggerAppCanaryV1Beta1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#hosts DataK8SFlaggerAppCanaryV1Beta1Manifest#hosts}
   */
   readonly hosts?: string[];
   /**
   * URI match conditions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#match DataK8SFlaggerAppCanaryV1Beta1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#match DataK8SFlaggerAppCanaryV1Beta1Manifest#match}
   */
   readonly match?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMatch[] | cdktf.IResolvable;
   /**
   * AppMesh mesh name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#mesh_name DataK8SFlaggerAppCanaryV1Beta1Manifest#mesh_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#mesh_name DataK8SFlaggerAppCanaryV1Beta1Manifest#mesh_name}
   */
   readonly meshName?: string;
   /**
   * Mirror defines a schema for a filter that mirrors requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#mirror DataK8SFlaggerAppCanaryV1Beta1Manifest#mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#mirror DataK8SFlaggerAppCanaryV1Beta1Manifest#mirror}
   */
   readonly mirror?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceMirror[] | cdktf.IResolvable;
   /**
   * Kubernetes service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Container port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#port DataK8SFlaggerAppCanaryV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#port DataK8SFlaggerAppCanaryV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Enable port dicovery
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#port_discovery DataK8SFlaggerAppCanaryV1Beta1Manifest#port_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#port_discovery DataK8SFlaggerAppCanaryV1Beta1Manifest#port_discovery}
   */
   readonly portDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Container port name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#port_name DataK8SFlaggerAppCanaryV1Beta1Manifest#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#port_name DataK8SFlaggerAppCanaryV1Beta1Manifest#port_name}
   */
   readonly portName?: string;
   /**
   * Metadata to add to the primary service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#primary DataK8SFlaggerAppCanaryV1Beta1Manifest#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#primary DataK8SFlaggerAppCanaryV1Beta1Manifest#primary}
   */
   readonly primary?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServicePrimary;
   /**
   * Retry policy for HTTP requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#retries DataK8SFlaggerAppCanaryV1Beta1Manifest#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#retries DataK8SFlaggerAppCanaryV1Beta1Manifest#retries}
   */
   readonly retries?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceRetries;
   /**
   * Rewrite HTTP URIs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#rewrite DataK8SFlaggerAppCanaryV1Beta1Manifest#rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#rewrite DataK8SFlaggerAppCanaryV1Beta1Manifest#rewrite}
   */
   readonly rewrite?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceRewrite;
   /**
   * Container target port name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#target_port DataK8SFlaggerAppCanaryV1Beta1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#target_port DataK8SFlaggerAppCanaryV1Beta1Manifest#target_port}
   */
   readonly targetPort?: string;
   /**
   * HTTP or gRPC request timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#timeout DataK8SFlaggerAppCanaryV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#timeout DataK8SFlaggerAppCanaryV1Beta1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * Istio traffic policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#traffic_policy DataK8SFlaggerAppCanaryV1Beta1Manifest#traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#traffic_policy DataK8SFlaggerAppCanaryV1Beta1Manifest#traffic_policy}
   */
   readonly trafficPolicy?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceTrafficPolicy;
 }
@@ -10339,15 +10339,15 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecServiceOutputReference ex
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecTargetRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#api_version DataK8SFlaggerAppCanaryV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#api_version DataK8SFlaggerAppCanaryV1Beta1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#kind DataK8SFlaggerAppCanaryV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#kind DataK8SFlaggerAppCanaryV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -10490,19 +10490,19 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecTargetRefOutputReference 
 }
 export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpecUpstreamRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#api_version DataK8SFlaggerAppCanaryV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#api_version DataK8SFlaggerAppCanaryV1Beta1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#kind DataK8SFlaggerAppCanaryV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#kind DataK8SFlaggerAppCanaryV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#name DataK8SFlaggerAppCanaryV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#namespace DataK8SFlaggerAppCanaryV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#namespace DataK8SFlaggerAppCanaryV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -10676,79 +10676,79 @@ export interface DataK8SFlaggerAppCanaryV1Beta1ManifestSpec {
   /**
   * Canary analysis for this canary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#analysis DataK8SFlaggerAppCanaryV1Beta1Manifest#analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#analysis DataK8SFlaggerAppCanaryV1Beta1Manifest#analysis}
   */
   readonly analysis: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAnalysis;
   /**
   * Scaler selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#autoscaler_ref DataK8SFlaggerAppCanaryV1Beta1Manifest#autoscaler_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#autoscaler_ref DataK8SFlaggerAppCanaryV1Beta1Manifest#autoscaler_ref}
   */
   readonly autoscalerRef?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecAutoscalerRef;
   /**
   * Ingress selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#ingress_ref DataK8SFlaggerAppCanaryV1Beta1Manifest#ingress_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#ingress_ref DataK8SFlaggerAppCanaryV1Beta1Manifest#ingress_ref}
   */
   readonly ingressRef?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecIngressRef;
   /**
   * Prometheus URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#metrics_server DataK8SFlaggerAppCanaryV1Beta1Manifest#metrics_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#metrics_server DataK8SFlaggerAppCanaryV1Beta1Manifest#metrics_server}
   */
   readonly metricsServer?: string;
   /**
   * Deployment progress deadline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#progress_deadline_seconds DataK8SFlaggerAppCanaryV1Beta1Manifest#progress_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#progress_deadline_seconds DataK8SFlaggerAppCanaryV1Beta1Manifest#progress_deadline_seconds}
   */
   readonly progressDeadlineSeconds?: number;
   /**
   * Traffic managent provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#provider DataK8SFlaggerAppCanaryV1Beta1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#provider DataK8SFlaggerAppCanaryV1Beta1Manifest#provider}
   */
   readonly provider?: string;
   /**
   * Revert mutated resources to original spec on deletion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#revert_on_deletion DataK8SFlaggerAppCanaryV1Beta1Manifest#revert_on_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#revert_on_deletion DataK8SFlaggerAppCanaryV1Beta1Manifest#revert_on_deletion}
   */
   readonly revertOnDeletion?: boolean | cdktf.IResolvable;
   /**
   * APISIX route selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#route_ref DataK8SFlaggerAppCanaryV1Beta1Manifest#route_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#route_ref DataK8SFlaggerAppCanaryV1Beta1Manifest#route_ref}
   */
   readonly routeRef?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecRouteRef;
   /**
   * Kubernetes Service spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#service DataK8SFlaggerAppCanaryV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#service DataK8SFlaggerAppCanaryV1Beta1Manifest#service}
   */
   readonly service: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecService;
   /**
   * Skip analysis and promote canary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#skip_analysis DataK8SFlaggerAppCanaryV1Beta1Manifest#skip_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#skip_analysis DataK8SFlaggerAppCanaryV1Beta1Manifest#skip_analysis}
   */
   readonly skipAnalysis?: boolean | cdktf.IResolvable;
   /**
   * Suspend Canary disabling/pausing all canary runs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#suspend DataK8SFlaggerAppCanaryV1Beta1Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#suspend DataK8SFlaggerAppCanaryV1Beta1Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
   /**
   * Target selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#target_ref DataK8SFlaggerAppCanaryV1Beta1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#target_ref DataK8SFlaggerAppCanaryV1Beta1Manifest#target_ref}
   */
   readonly targetRef: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecTargetRef;
   /**
   * Gloo Upstream selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#upstream_ref DataK8SFlaggerAppCanaryV1Beta1Manifest#upstream_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#upstream_ref DataK8SFlaggerAppCanaryV1Beta1Manifest#upstream_ref}
   */
   readonly upstreamRef?: DataK8SFlaggerAppCanaryV1Beta1ManifestSpecUpstreamRef;
 }
@@ -11181,7 +11181,7 @@ export class DataK8SFlaggerAppCanaryV1Beta1ManifestSpecOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest k8s_flagger_app_canary_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest k8s_flagger_app_canary_v1beta1_manifest}
 */
 export class DataK8SFlaggerAppCanaryV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -11197,7 +11197,7 @@ export class DataK8SFlaggerAppCanaryV1Beta1Manifest extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataK8SFlaggerAppCanaryV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SFlaggerAppCanaryV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SFlaggerAppCanaryV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SFlaggerAppCanaryV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SFlaggerAppCanaryV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11209,7 +11209,7 @@ export class DataK8SFlaggerAppCanaryV1Beta1Manifest extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flagger_app_canary_v1beta1_manifest k8s_flagger_app_canary_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flagger_app_canary_v1beta1_manifest k8s_flagger_app_canary_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11220,8 +11220,8 @@ export class DataK8SFlaggerAppCanaryV1Beta1Manifest extends cdktf.TerraformDataS
       terraformResourceType: 'k8s_flagger_app_canary_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

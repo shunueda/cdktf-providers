@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline
+// https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface IngestPipelineConfig extends cdktf.TerraformMetaArguments {
   /**
   * Application agent token is used to identify the application space in IndyKite APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline#app_agent_token IngestPipeline#app_agent_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline#app_agent_token IngestPipeline#app_agent_token}
   */
   readonly appAgentToken: string;
   /**
   * Your own description of the resource. Must be less than or equal to 256 UTF-8 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline#description IngestPipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline#description IngestPipeline#description}
   */
   readonly description?: string;
   /**
   * The display name for the instance. Can be updated without creating a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline#display_name IngestPipeline#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline#display_name IngestPipeline#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline#id IngestPipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline#id IngestPipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,53 +35,53 @@ export interface IngestPipelineConfig extends cdktf.TerraformMetaArguments {
   /**
   * Identifier of Location, where to create resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline#location IngestPipeline#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline#location IngestPipeline#location}
   */
   readonly location: string;
   /**
   * Unique client assigned immutable identifier. Can not be updated without creating a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline#name IngestPipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline#name IngestPipeline#name}
   */
   readonly name: string;
   /**
   * List of operations is no longer used. All previously saved values are ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline#operations IngestPipeline#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline#operations IngestPipeline#operations}
   */
   readonly operations?: string[];
   /**
   * List of sources to be used in the ingest pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline#sources IngestPipeline#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline#sources IngestPipeline#sources}
   */
   readonly sources: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline#timeouts IngestPipeline#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline#timeouts IngestPipeline#timeouts}
   */
   readonly timeouts?: IngestPipelineTimeouts;
 }
 export interface IngestPipelineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline#create IngestPipeline#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline#create IngestPipeline#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline#default IngestPipeline#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline#default IngestPipeline#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline#delete IngestPipeline#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline#delete IngestPipeline#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline#read IngestPipeline#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline#read IngestPipeline#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline#update IngestPipeline#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline#update IngestPipeline#update}
   */
   readonly update?: string;
 }
@@ -291,7 +291,7 @@ export class IngestPipelineTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline indykite_ingest_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline indykite_ingest_pipeline}
 */
 export class IngestPipeline extends cdktf.TerraformResource {
 
@@ -307,7 +307,7 @@ export class IngestPipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IngestPipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IngestPipeline to import
-  * @param importFromId The id of the existing IngestPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IngestPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IngestPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class IngestPipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/indykite/indykite/0.27.0/docs/resources/ingest_pipeline indykite_ingest_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/indykite/indykite/0.28.0/docs/resources/ingest_pipeline indykite_ingest_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class IngestPipeline extends cdktf.TerraformResource {
       terraformResourceType: 'indykite_ingest_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'indykite',
-        providerVersion: '0.27.0',
-        providerVersionConstraint: '0.27.0'
+        providerVersion: '0.28.0',
+        providerVersionConstraint: '0.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

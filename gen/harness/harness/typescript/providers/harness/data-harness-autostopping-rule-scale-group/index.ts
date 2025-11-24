@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataHarnessAutostoppingRuleScaleGroupConfig extends cdktf.Terra
   /**
   * Id of the cloud connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#cloud_connector_id DataHarnessAutostoppingRuleScaleGroup#cloud_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#cloud_connector_id DataHarnessAutostoppingRuleScaleGroup#cloud_connector_id}
   */
   readonly cloudConnectorId: string;
   /**
   * Custom URLs used to access the instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#custom_domains DataHarnessAutostoppingRuleScaleGroup#custom_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#custom_domains DataHarnessAutostoppingRuleScaleGroup#custom_domains}
   */
   readonly customDomains?: string[];
   /**
   * Boolean that indicates whether the AutoStopping rule should be created in DryRun mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#dry_run DataHarnessAutostoppingRuleScaleGroup#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#dry_run DataHarnessAutostoppingRuleScaleGroup#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#id DataHarnessAutostoppingRuleScaleGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#id DataHarnessAutostoppingRuleScaleGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface DataHarnessAutostoppingRuleScaleGroupConfig extends cdktf.Terra
   /**
   * Idle time in minutes. This is the time that the AutoStopping rule waits before stopping the idle instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#idle_time_mins DataHarnessAutostoppingRuleScaleGroup#idle_time_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#idle_time_mins DataHarnessAutostoppingRuleScaleGroup#idle_time_mins}
   */
   readonly idleTimeMins?: number;
   /**
   * Name of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#name DataHarnessAutostoppingRuleScaleGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#name DataHarnessAutostoppingRuleScaleGroup#name}
   */
   readonly name: string;
   /**
   * depends block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#depends DataHarnessAutostoppingRuleScaleGroup#depends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#depends DataHarnessAutostoppingRuleScaleGroup#depends}
   */
   readonly depends?: DataHarnessAutostoppingRuleScaleGroupDepends[] | cdktf.IResolvable;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#http DataHarnessAutostoppingRuleScaleGroup#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#http DataHarnessAutostoppingRuleScaleGroup#http}
   */
   readonly http?: DataHarnessAutostoppingRuleScaleGroupHttp[] | cdktf.IResolvable;
   /**
   * scale_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#scale_group DataHarnessAutostoppingRuleScaleGroup#scale_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#scale_group DataHarnessAutostoppingRuleScaleGroup#scale_group}
   */
   readonly scaleGroup: DataHarnessAutostoppingRuleScaleGroupScaleGroup;
 }
@@ -67,13 +67,13 @@ export interface DataHarnessAutostoppingRuleScaleGroupDepends {
   /**
   * Number of seconds the rule should wait after warming up the dependent rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#delay_in_sec DataHarnessAutostoppingRuleScaleGroup#delay_in_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#delay_in_sec DataHarnessAutostoppingRuleScaleGroup#delay_in_sec}
   */
   readonly delayInSec?: number;
   /**
   * Rule id of the dependent rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#rule_id DataHarnessAutostoppingRuleScaleGroup#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#rule_id DataHarnessAutostoppingRuleScaleGroup#rule_id}
   */
   readonly ruleId: number;
 }
@@ -217,37 +217,37 @@ export interface DataHarnessAutostoppingRuleScaleGroupHttpHealth {
   /**
   * API path to use for health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#path DataHarnessAutostoppingRuleScaleGroup#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#path DataHarnessAutostoppingRuleScaleGroup#path}
   */
   readonly path?: string;
   /**
   * Health check port on the VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#port DataHarnessAutostoppingRuleScaleGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#port DataHarnessAutostoppingRuleScaleGroup#port}
   */
   readonly port: number;
   /**
   * Protocol can be http or https
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#protocol DataHarnessAutostoppingRuleScaleGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#protocol DataHarnessAutostoppingRuleScaleGroup#protocol}
   */
   readonly protocol: string;
   /**
   * Lower limit for acceptable status code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#status_code_from DataHarnessAutostoppingRuleScaleGroup#status_code_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#status_code_from DataHarnessAutostoppingRuleScaleGroup#status_code_from}
   */
   readonly statusCodeFrom?: number;
   /**
   * Upper limit for acceptable status code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#status_code_to DataHarnessAutostoppingRuleScaleGroup#status_code_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#status_code_to DataHarnessAutostoppingRuleScaleGroup#status_code_to}
   */
   readonly statusCodeTo?: number;
   /**
   * Health check timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#timeout DataHarnessAutostoppingRuleScaleGroup#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#timeout DataHarnessAutostoppingRuleScaleGroup#timeout}
   */
   readonly timeout?: number;
 }
@@ -504,31 +504,31 @@ export interface DataHarnessAutostoppingRuleScaleGroupHttpRouting {
   /**
   * Organization Identifier for the Entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#action DataHarnessAutostoppingRuleScaleGroup#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#action DataHarnessAutostoppingRuleScaleGroup#action}
   */
   readonly action?: string;
   /**
   * Port on the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#source_port DataHarnessAutostoppingRuleScaleGroup#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#source_port DataHarnessAutostoppingRuleScaleGroup#source_port}
   */
   readonly sourcePort?: number;
   /**
   * Source protocol of the proxy can be http or https
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#source_protocol DataHarnessAutostoppingRuleScaleGroup#source_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#source_protocol DataHarnessAutostoppingRuleScaleGroup#source_protocol}
   */
   readonly sourceProtocol: string;
   /**
   * Port on the VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#target_port DataHarnessAutostoppingRuleScaleGroup#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#target_port DataHarnessAutostoppingRuleScaleGroup#target_port}
   */
   readonly targetPort?: number;
   /**
   * Target protocol of the instance can be http or https
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#target_protocol DataHarnessAutostoppingRuleScaleGroup#target_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#target_protocol DataHarnessAutostoppingRuleScaleGroup#target_protocol}
   */
   readonly targetProtocol: string;
 }
@@ -756,19 +756,19 @@ export interface DataHarnessAutostoppingRuleScaleGroupHttp {
   /**
   * Id of the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#proxy_id DataHarnessAutostoppingRuleScaleGroup#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#proxy_id DataHarnessAutostoppingRuleScaleGroup#proxy_id}
   */
   readonly proxyId: string;
   /**
   * health block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#health DataHarnessAutostoppingRuleScaleGroup#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#health DataHarnessAutostoppingRuleScaleGroup#health}
   */
   readonly health?: DataHarnessAutostoppingRuleScaleGroupHttpHealth[] | cdktf.IResolvable;
   /**
   * routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#routing DataHarnessAutostoppingRuleScaleGroup#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#routing DataHarnessAutostoppingRuleScaleGroup#routing}
   */
   readonly routing?: DataHarnessAutostoppingRuleScaleGroupHttpRouting[] | cdktf.IResolvable;
 }
@@ -941,13 +941,13 @@ export interface DataHarnessAutostoppingRuleScaleGroupScaleGroup {
   /**
   * Desired capacity of the Scaling Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#desired DataHarnessAutostoppingRuleScaleGroup#desired}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#desired DataHarnessAutostoppingRuleScaleGroup#desired}
   */
   readonly desired: number;
   /**
   * ID of the Scaling Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#id DataHarnessAutostoppingRuleScaleGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#id DataHarnessAutostoppingRuleScaleGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -956,37 +956,37 @@ export interface DataHarnessAutostoppingRuleScaleGroupScaleGroup {
   /**
   * Maximum capacity of the Scaling Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#max DataHarnessAutostoppingRuleScaleGroup#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#max DataHarnessAutostoppingRuleScaleGroup#max}
   */
   readonly max: number;
   /**
   * Minimum capacity of the Scaling Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#min DataHarnessAutostoppingRuleScaleGroup#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#min DataHarnessAutostoppingRuleScaleGroup#min}
   */
   readonly min: number;
   /**
   * Name of the Scaling Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#name DataHarnessAutostoppingRuleScaleGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#name DataHarnessAutostoppingRuleScaleGroup#name}
   */
   readonly name: string;
   /**
   * On-demand capacity of the Scaling Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#on_demand DataHarnessAutostoppingRuleScaleGroup#on_demand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#on_demand DataHarnessAutostoppingRuleScaleGroup#on_demand}
   */
   readonly onDemand: number;
   /**
   * Region of the Scaling Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#region DataHarnessAutostoppingRuleScaleGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#region DataHarnessAutostoppingRuleScaleGroup#region}
   */
   readonly region?: string;
   /**
   * Zone of the Scaling Group. Needed for GCP only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#zone DataHarnessAutostoppingRuleScaleGroup#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#zone DataHarnessAutostoppingRuleScaleGroup#zone}
   */
   readonly zone?: string;
 }
@@ -1255,7 +1255,7 @@ export class DataHarnessAutostoppingRuleScaleGroupScaleGroupOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group harness_autostopping_rule_scale_group}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group harness_autostopping_rule_scale_group}
 */
 export class DataHarnessAutostoppingRuleScaleGroup extends cdktf.TerraformDataSource {
 
@@ -1271,7 +1271,7 @@ export class DataHarnessAutostoppingRuleScaleGroup extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataHarnessAutostoppingRuleScaleGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessAutostoppingRuleScaleGroup to import
-  * @param importFromId The id of the existing DataHarnessAutostoppingRuleScaleGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessAutostoppingRuleScaleGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessAutostoppingRuleScaleGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1283,7 +1283,7 @@ export class DataHarnessAutostoppingRuleScaleGroup extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_scale_group harness_autostopping_rule_scale_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/data-sources/autostopping_rule_scale_group harness_autostopping_rule_scale_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1294,8 +1294,8 @@ export class DataHarnessAutostoppingRuleScaleGroup extends cdktf.TerraformDataSo
       terraformResourceType: 'harness_autostopping_rule_scale_group',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

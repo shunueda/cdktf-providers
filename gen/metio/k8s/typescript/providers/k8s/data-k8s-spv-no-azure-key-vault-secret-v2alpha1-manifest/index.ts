@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#metadata DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#metadata DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestMetadata;
   /**
   * AzureKeyVaultSecretSpec is the spec for a AzureKeyVaultSecret resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#spec DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#spec DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#spec}
   */
   readonly spec: DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#annotations DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#annotations DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#labels DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#labels DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#name DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#name DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#namespace DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#namespace DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestSpecOutputConfig
   /**
   * The key to use in Kubernetes ConfigMap when setting the value from Azure Key Vault object data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#data_key DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#data_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#data_key DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#data_key}
   */
   readonly dataKey: string;
   /**
   * Name for Kubernetes ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#name DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#name DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -344,25 +344,25 @@ export interface DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestSpecOutputSecret
   /**
   * By setting chainOrder to ensureserverfirst the server certificate will be moved first in the chain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#chain_order DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#chain_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#chain_order DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#chain_order}
   */
   readonly chainOrder?: string;
   /**
   * The key to use in Kubernetes secret when setting the value from Azure Key Vault object data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#data_key DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#data_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#data_key DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#data_key}
   */
   readonly dataKey?: string;
   /**
   * Name for Kubernetes secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#name DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#name DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Type of Secret in Kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#type DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#type DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -542,17 +542,17 @@ export interface DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestSpecOutput {
   /**
   * AzureKeyVaultOutputConfigMap has information needed to output a secret from Azure Key Vault to Kubernetes as a ConfigMap resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#config_map DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#config_map DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestSpecOutputConfigMap;
   /**
   * AzureKeyVaultOutputSecret has information needed to output a secret from Azure Key Vault to Kubernetes as a Secret resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#secret DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#secret DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestSpecOutputSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#transform DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#transform DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#transform}
   */
   readonly transform?: string[];
 }
@@ -706,7 +706,7 @@ export interface DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestSpecVaultAzureId
   /**
   * Name of the azureIdentity to use for Azure Key Vault authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#name DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#name DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -799,25 +799,25 @@ export interface DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestSpecVaultObject 
   /**
   * AzureKeyVaultObjectContentType defines what content type a secret contains, only used when type is multi-key-value-secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#content_type DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#content_type DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
   * The object name in Azure Key Vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#name DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#name DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * AzureKeyVaultObjectType defines which Object type to get from Azure Key Vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#type DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#type DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * The object version in Azure Key Vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#version DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#version DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -994,19 +994,19 @@ export interface DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestSpecVault {
   /**
   * AzureIdentity has information about the azure identity used for Azure Key Vault authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#azure_identity DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#azure_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#azure_identity DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#azure_identity}
   */
   readonly azureIdentity?: DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestSpecVaultAzureIdentity;
   /**
   * Name of the Azure Key Vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#name DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#name DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * AzureKeyVaultObject has information about the Azure Key Vault object to get from Azure Key Vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#object DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#object DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#object}
   */
   readonly object: DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestSpecVaultObject;
 }
@@ -1154,13 +1154,13 @@ export interface DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestSpec {
   /**
   * AzureKeyVaultOutput defines output sources, supports Secret and Configmap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#output DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#output DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#output}
   */
   readonly output?: DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestSpecOutput;
   /**
   * AzureKeyVault contains information needed to get the Azure Key Vault secret from Azure Key Vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#vault DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#vault DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest#vault}
   */
   readonly vault: DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestSpecVault;
 }
@@ -1280,7 +1280,7 @@ export class DataK8SSpvNoAzureKeyVaultSecretV2Alpha1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest k8s_spv_no_azure_key_vault_secret_v2alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest k8s_spv_no_azure_key_vault_secret_v2alpha1_manifest}
 */
 export class DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1296,7 +1296,7 @@ export class DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1308,7 +1308,7 @@ export class DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest k8s_spv_no_azure_key_vault_secret_v2alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spv_no_azure_key_vault_secret_v2alpha1_manifest k8s_spv_no_azure_key_vault_secret_v2alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1319,8 +1319,8 @@ export class DataK8SSpvNoAzureKeyVaultSecretV2Alpha1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_spv_no_azure_key_vault_secret_v2alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

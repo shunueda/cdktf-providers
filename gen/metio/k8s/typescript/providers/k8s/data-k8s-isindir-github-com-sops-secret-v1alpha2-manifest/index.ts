@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#metadata DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#metadata DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestMetadata;
   /**
   * SopsSecret metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#sops DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#sops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#sops DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#sops}
   */
   readonly sops?: DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSops;
   /**
   * SopsSecret Spec definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#spec DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#spec DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSpec;
 }
@@ -30,25 +30,25 @@ export interface DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#annotations DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#annotations DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#labels DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#labels DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#name DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#name DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#namespace DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#namespace DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -223,13 +223,13 @@ export class DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestMetadataOutputRefe
 }
 export interface DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSopsAge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#enc DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#enc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#enc DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#enc}
   */
   readonly enc?: string;
   /**
   * Recipient which private key can be used for decription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#recipient DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#recipient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#recipient DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#recipient}
   */
   readonly recipient?: string;
 }
@@ -376,25 +376,25 @@ export interface DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSopsAzureKv {
   /**
   * Object creation date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#created_at DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#created_at DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#created_at}
   */
   readonly createdAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#enc DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#enc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#enc DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#enc}
   */
   readonly enc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#name DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#name DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#name}
   */
   readonly name?: string;
   /**
   * Azure KMS vault URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#vault_url DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#vault_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#vault_url DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#vault_url}
   */
   readonly vaultUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#version DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#version DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#version}
   */
   readonly version?: string;
 }
@@ -628,15 +628,15 @@ export interface DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSopsGcpKms {
   /**
   * Object creation date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#created_at DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#created_at DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#created_at}
   */
   readonly createdAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#enc DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#enc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#enc DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#enc}
   */
   readonly enc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#resource_id DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#resource_id DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -810,23 +810,23 @@ export class DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSopsGcpKmsList ext
 }
 export interface DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSopsHcVault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#created_at DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#created_at DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#created_at}
   */
   readonly createdAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#enc DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#enc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#enc DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#enc}
   */
   readonly enc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#engine_path DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#engine_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#engine_path DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#engine_path}
   */
   readonly enginePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#key_name DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#key_name DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#vault_address DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#vault_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#vault_address DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#vault_address}
   */
   readonly vaultAddress?: string;
 }
@@ -1060,27 +1060,27 @@ export interface DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSopsKms {
   /**
   * Arn - KMS key ARN to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#arn DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#arn DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#arn}
   */
   readonly arn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#aws_profile DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#aws_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#aws_profile DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#aws_profile}
   */
   readonly awsProfile?: string;
   /**
   * Object creation date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#created_at DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#created_at DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#created_at}
   */
   readonly createdAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#enc DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#enc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#enc DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#enc}
   */
   readonly enc?: string;
   /**
   * AWS Iam Role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#role DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#role DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#role}
   */
   readonly role?: string;
 }
@@ -1314,17 +1314,17 @@ export interface DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSopsPgp {
   /**
   * Object creation date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#created_at DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#created_at DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#created_at}
   */
   readonly createdAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#enc DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#enc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#enc DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#enc}
   */
   readonly enc?: string;
   /**
   * PGP FingerPrint of the key which can be used for decryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#fp DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#fp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#fp DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#fp}
   */
   readonly fp?: string;
 }
@@ -1500,67 +1500,67 @@ export interface DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSops {
   /**
   * Age configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#age DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#age DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#age}
   */
   readonly age?: DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSopsAge[] | cdktf.IResolvable;
   /**
   * Azure KMS configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#azure_kv DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#azure_kv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#azure_kv DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#azure_kv}
   */
   readonly azureKv?: DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSopsAzureKv[] | cdktf.IResolvable;
   /**
   * Regex used to encrypt SopsSecret resource This opstion should be used with more care, as it can make resource unapplicable to the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#encrypted_regex DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#encrypted_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#encrypted_regex DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#encrypted_regex}
   */
   readonly encryptedRegex?: string;
   /**
   * Suffix used to encrypt SopsSecret resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#encrypted_suffix DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#encrypted_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#encrypted_suffix DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#encrypted_suffix}
   */
   readonly encryptedSuffix?: string;
   /**
   * Gcp KMS configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#gcp_kms DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#gcp_kms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#gcp_kms DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#gcp_kms}
   */
   readonly gcpKms?: DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSopsGcpKms[] | cdktf.IResolvable;
   /**
   * Hashicorp Vault KMS configurarion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#hc_vault DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#hc_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#hc_vault DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#hc_vault}
   */
   readonly hcVault?: DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSopsHcVault[] | cdktf.IResolvable;
   /**
   * Aws KMS configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#kms DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#kms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#kms DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#kms}
   */
   readonly kms?: DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSopsKms[] | cdktf.IResolvable;
   /**
   * LastModified date when SopsSecret was last modified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#lastmodified DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#lastmodified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#lastmodified DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#lastmodified}
   */
   readonly lastmodified?: string;
   /**
   * Mac - sops setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#mac DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#mac DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#mac}
   */
   readonly mac?: string;
   /**
   * PGP configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#pgp DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#pgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#pgp DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#pgp}
   */
   readonly pgp?: DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSopsPgp[] | cdktf.IResolvable;
   /**
   * Version of the sops tool used to encrypt SopsSecret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#version DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#version DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#version}
   */
   readonly version?: string;
 }
@@ -1946,31 +1946,31 @@ export interface DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSpecSecretTemp
   /**
   * Annotations to apply to Kubernetes secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#annotations DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#annotations DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Data map to use in Kubernetes secret (equivalent to Kubernetes Secret object stringData, please see for more information: https://kubernetes.io/docs/concepts/configuration/secret/#overview-of-secrets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#data DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#data DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#data}
   */
   readonly data: { [key: string]: string };
   /**
   * Labels to apply to Kubernetes secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#labels DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#labels DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the Kubernetes secret to create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#name DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#name DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Kubernetes secret type. Default: Opauqe. Possible values: Opauqe, kubernetes.io/service-account-token, kubernetes.io/dockercfg, kubernetes.io/dockerconfigjson, kubernetes.io/basic-auth, kubernetes.io/ssh-auth, kubernetes.io/tls, bootstrap.kubernetes.io/token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#type DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#type DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#type}
   */
   readonly type?: string;
 }
@@ -2198,7 +2198,7 @@ export interface DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSpec {
   /**
   * Secrets template is a list of definitions to create Kubernetes Secrets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#secret_templates DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#secret_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#secret_templates DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest#secret_templates}
   */
   readonly secretTemplates: DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSpecSecretTemplates[] | cdktf.IResolvable;
 }
@@ -2289,7 +2289,7 @@ export class DataK8SIsindirGithubComSopsSecretV1Alpha2ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest k8s_isindir_github_com_sops_secret_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest k8s_isindir_github_com_sops_secret_v1alpha2_manifest}
 */
 export class DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -2305,7 +2305,7 @@ export class DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2317,7 +2317,7 @@ export class DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest k8s_isindir_github_com_sops_secret_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/isindir_github_com_sops_secret_v1alpha2_manifest k8s_isindir_github_com_sops_secret_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2328,8 +2328,8 @@ export class DataK8SIsindirGithubComSopsSecretV1Alpha2Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_isindir_github_com_sops_secret_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

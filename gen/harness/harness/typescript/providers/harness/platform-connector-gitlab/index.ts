@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PlatformConnectorGitlabConfig extends cdktf.TerraformMetaArgume
   /**
   * Whether the connection we're making is to a gitlab repository or a gitlab account. Valid values are Account, Repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#connection_type PlatformConnectorGitlab#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#connection_type PlatformConnectorGitlab#connection_type}
   */
   readonly connectionType: string;
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#delegate_selectors PlatformConnectorGitlab#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#delegate_selectors PlatformConnectorGitlab#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#description PlatformConnectorGitlab#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#description PlatformConnectorGitlab#description}
   */
   readonly description?: string;
   /**
   * Execute on delegate or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#execute_on_delegate PlatformConnectorGitlab#execute_on_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#execute_on_delegate PlatformConnectorGitlab#execute_on_delegate}
   */
   readonly executeOnDelegate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#id PlatformConnectorGitlab#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#id PlatformConnectorGitlab#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,55 +41,55 @@ export interface PlatformConnectorGitlabConfig extends cdktf.TerraformMetaArgume
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#identifier PlatformConnectorGitlab#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#identifier PlatformConnectorGitlab#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#name PlatformConnectorGitlab#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#name PlatformConnectorGitlab#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#org_id PlatformConnectorGitlab#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#org_id PlatformConnectorGitlab#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#project_id PlatformConnectorGitlab#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#project_id PlatformConnectorGitlab#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#tags PlatformConnectorGitlab#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#tags PlatformConnectorGitlab#tags}
   */
   readonly tags?: string[];
   /**
   * URL of the gitlab repository or account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#url PlatformConnectorGitlab#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#url PlatformConnectorGitlab#url}
   */
   readonly url: string;
   /**
   * Repository to test the connection with. This is only used when `connection_type` is `Account`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#validation_repo PlatformConnectorGitlab#validation_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#validation_repo PlatformConnectorGitlab#validation_repo}
   */
   readonly validationRepo?: string;
   /**
   * api_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#api_authentication PlatformConnectorGitlab#api_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#api_authentication PlatformConnectorGitlab#api_authentication}
   */
   readonly apiAuthentication?: PlatformConnectorGitlabApiAuthentication;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#credentials PlatformConnectorGitlab#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#credentials PlatformConnectorGitlab#credentials}
   */
   readonly credentials: PlatformConnectorGitlabCredentials;
 }
@@ -97,7 +97,7 @@ export interface PlatformConnectorGitlabApiAuthentication {
   /**
   * Personal access token for interacting with the gitlab api. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#token_ref PlatformConnectorGitlab#token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#token_ref PlatformConnectorGitlab#token_ref}
   */
   readonly tokenRef: string;
 }
@@ -180,25 +180,25 @@ export interface PlatformConnectorGitlabCredentialsHttp {
   /**
   * Reference to a secret containing the password to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#password_ref PlatformConnectorGitlab#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#password_ref PlatformConnectorGitlab#password_ref}
   */
   readonly passwordRef?: string;
   /**
   * Reference to a secret containing the personal access to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#token_ref PlatformConnectorGitlab#token_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#token_ref PlatformConnectorGitlab#token_ref}
   */
   readonly tokenRef?: string;
   /**
   * Username to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#username PlatformConnectorGitlab#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#username PlatformConnectorGitlab#username}
   */
   readonly username?: string;
   /**
   * Reference to a secret containing the username to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#username_ref PlatformConnectorGitlab#username_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#username_ref PlatformConnectorGitlab#username_ref}
   */
   readonly usernameRef?: string;
 }
@@ -371,7 +371,7 @@ export interface PlatformConnectorGitlabCredentialsSsh {
   /**
   * Reference to the Harness secret containing the ssh key. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#ssh_key_ref PlatformConnectorGitlab#ssh_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#ssh_key_ref PlatformConnectorGitlab#ssh_key_ref}
   */
   readonly sshKeyRef: string;
 }
@@ -454,13 +454,13 @@ export interface PlatformConnectorGitlabCredentials {
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#http PlatformConnectorGitlab#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#http PlatformConnectorGitlab#http}
   */
   readonly http?: PlatformConnectorGitlabCredentialsHttp;
   /**
   * ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#ssh PlatformConnectorGitlab#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#ssh PlatformConnectorGitlab#ssh}
   */
   readonly ssh?: PlatformConnectorGitlabCredentialsSsh;
 }
@@ -573,7 +573,7 @@ export class PlatformConnectorGitlabCredentialsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab harness_platform_connector_gitlab}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab harness_platform_connector_gitlab}
 */
 export class PlatformConnectorGitlab extends cdktf.TerraformResource {
 
@@ -589,7 +589,7 @@ export class PlatformConnectorGitlab extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorGitlab resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorGitlab to import
-  * @param importFromId The id of the existing PlatformConnectorGitlab that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorGitlab that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorGitlab to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -601,7 +601,7 @@ export class PlatformConnectorGitlab extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_gitlab harness_platform_connector_gitlab} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_gitlab harness_platform_connector_gitlab} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -612,8 +612,8 @@ export class PlatformConnectorGitlab extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_gitlab',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

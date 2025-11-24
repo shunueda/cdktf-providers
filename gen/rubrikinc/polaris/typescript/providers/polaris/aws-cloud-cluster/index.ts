@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster
+// https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface AwsCloudClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * RSC cloud account ID (UUID).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#cloud_account_id AwsCloudCluster#cloud_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#cloud_account_id AwsCloudCluster#cloud_account_id}
   */
   readonly cloudAccountId: string;
   /**
   * AWS region to deploy the cluster in. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#region AwsCloudCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#region AwsCloudCluster#region}
   */
   readonly region: string;
   /**
   * Whether to use placement groups for the cluster. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#use_placement_groups AwsCloudCluster#use_placement_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#use_placement_groups AwsCloudCluster#use_placement_groups}
   */
   readonly usePlacementGroups?: boolean | cdktf.IResolvable;
   /**
   * cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#cluster_config AwsCloudCluster#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#cluster_config AwsCloudCluster#cluster_config}
   */
   readonly clusterConfig: AwsCloudClusterClusterConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#timeouts AwsCloudCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#timeouts AwsCloudCluster#timeouts}
   */
   readonly timeouts?: AwsCloudClusterTimeouts;
   /**
   * vm_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#vm_config AwsCloudCluster#vm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#vm_config AwsCloudCluster#vm_config}
   */
   readonly vmConfig: AwsCloudClusterVmConfig;
 }
@@ -48,61 +48,61 @@ export interface AwsCloudClusterClusterConfig {
   /**
   * Email address for the cluster admin user. Changing this value will have no effect on the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#admin_email AwsCloudCluster#admin_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#admin_email AwsCloudCluster#admin_email}
   */
   readonly adminEmail: string;
   /**
   * Password for the cluster admin user. Changing this value will have no effect on the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#admin_password AwsCloudCluster#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#admin_password AwsCloudCluster#admin_password}
   */
   readonly adminPassword: string;
   /**
   * Name of the S3 bucket to use for the cluster. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#bucket_name AwsCloudCluster#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#bucket_name AwsCloudCluster#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Unique name to assign to the cloud cluster. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#cluster_name AwsCloudCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#cluster_name AwsCloudCluster#cluster_name}
   */
   readonly clusterName: string;
   /**
   * DNS name servers for the cluster. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#dns_name_servers AwsCloudCluster#dns_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#dns_name_servers AwsCloudCluster#dns_name_servers}
   */
   readonly dnsNameServers: string[];
   /**
   * DNS search domains for the cluster. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#dns_search_domains AwsCloudCluster#dns_search_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#dns_search_domains AwsCloudCluster#dns_search_domains}
   */
   readonly dnsSearchDomains?: string[];
   /**
   * Whether to enable immutability and object lock for the S3 bucket. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#enable_immutability AwsCloudCluster#enable_immutability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#enable_immutability AwsCloudCluster#enable_immutability}
   */
   readonly enableImmutability: boolean | cdktf.IResolvable;
   /**
   * Whether to keep the cluster on failure (can be useful for troubleshooting). Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#keep_cluster_on_failure AwsCloudCluster#keep_cluster_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#keep_cluster_on_failure AwsCloudCluster#keep_cluster_on_failure}
   */
   readonly keepClusterOnFailure: boolean | cdktf.IResolvable;
   /**
   * NTP servers for the cluster. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#ntp_servers AwsCloudCluster#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#ntp_servers AwsCloudCluster#ntp_servers}
   */
   readonly ntpServers: string[];
   /**
   * Number of nodes in the cluster. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#num_nodes AwsCloudCluster#num_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#num_nodes AwsCloudCluster#num_nodes}
   */
   readonly numNodes: number;
 }
@@ -420,15 +420,15 @@ export class AwsCloudClusterClusterConfigOutputReference extends cdktf.ComplexOb
 }
 export interface AwsCloudClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#create AwsCloudCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#create AwsCloudCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#default AwsCloudCluster#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#default AwsCloudCluster#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#read AwsCloudCluster#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#read AwsCloudCluster#read}
   */
   readonly read?: string;
 }
@@ -582,43 +582,43 @@ export interface AwsCloudClusterVmConfig {
   /**
   * CDM version to use. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#cdm_version AwsCloudCluster#cdm_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#cdm_version AwsCloudCluster#cdm_version}
   */
   readonly cdmVersion: string;
   /**
   * AWS instance profile name for the cluster nodes. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#instance_profile_name AwsCloudCluster#instance_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#instance_profile_name AwsCloudCluster#instance_profile_name}
   */
   readonly instanceProfileName: string;
   /**
   * AWS instance type for the cluster nodes. Changing this forces a new resource to be created. Supported values are `M5_4XLARGE`, `M6I_2XLARGE`, `M6I_4XLARGE`, `M6I_8XLARGE`, `R6I_4XLARGE`, `M6A_2XLARGE`, `M6A_4XLARGE`, `M6A_8XLARGE` and `R6A_4XLARGE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#instance_type AwsCloudCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#instance_type AwsCloudCluster#instance_type}
   */
   readonly instanceType: string;
   /**
   * AWS security group IDs for the cluster nodes. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#security_group_ids AwsCloudCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#security_group_ids AwsCloudCluster#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
   * AWS subnet ID where the cluster nodes will be deployed. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#subnet_id AwsCloudCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#subnet_id AwsCloudCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VM type for the cluster. Changing this forces a new resource to be created. Possible values are `STANDARD`, `DENSE` and `EXTRA_DENSE`. `DENSE` is recommended for CCES.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#vm_type AwsCloudCluster#vm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#vm_type AwsCloudCluster#vm_type}
   */
   readonly vmType?: string;
   /**
   * AWS VPC ID where the cluster will be deployed. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#vpc_id AwsCloudCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#vpc_id AwsCloudCluster#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -863,7 +863,7 @@ export class AwsCloudClusterVmConfigOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster polaris_aws_cloud_cluster}
+* Represents a {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster polaris_aws_cloud_cluster}
 */
 export class AwsCloudCluster extends cdktf.TerraformResource {
 
@@ -879,7 +879,7 @@ export class AwsCloudCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsCloudCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsCloudCluster to import
-  * @param importFromId The id of the existing AwsCloudCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsCloudCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsCloudCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -891,7 +891,7 @@ export class AwsCloudCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.0/docs/resources/aws_cloud_cluster polaris_aws_cloud_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rubrikinc/polaris/1.3.1/docs/resources/aws_cloud_cluster polaris_aws_cloud_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -902,8 +902,8 @@ export class AwsCloudCluster extends cdktf.TerraformResource {
       terraformResourceType: 'polaris_aws_cloud_cluster',
       terraformGeneratorMetadata: {
         providerName: 'polaris',
-        providerVersion: '1.3.0',
-        providerVersionConstraint: '1.3.0'
+        providerVersion: '1.3.1',
+        providerVersionConstraint: '1.3.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

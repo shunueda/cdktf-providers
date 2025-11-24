@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestC
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#metadata DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#metadata DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestMetadata;
   /**
   * EnvoyDeploymentSpec defines the desired state of EnvoyDeployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#spec DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#spec DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestM
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#annotations DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#annotations DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespace DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespace DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,19 +401,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -583,13 +583,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_fields DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_fields DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -714,13 +714,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#preference DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#preference DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#weight DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#weight DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -861,19 +861,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1043,19 +1043,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1225,13 +1225,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_fields DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_fields DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1378,7 +1378,7 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#node_selector_terms DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#node_selector_terms DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1471,13 +1471,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1602,19 +1602,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1784,13 +1784,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1915,19 +1915,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2097,13 +2097,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2228,37 +2228,37 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#label_selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#label_selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_label_keys DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_label_keys DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#mismatch_label_keys DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#mismatch_label_keys DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespace_selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespace_selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespaces DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespaces DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#topology_key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#topology_key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2496,13 +2496,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#pod_affinity_term DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#pod_affinity_term DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#weight DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#weight DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2643,19 +2643,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2825,13 +2825,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2956,19 +2956,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3138,13 +3138,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3269,37 +3269,37 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#label_selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#label_selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_label_keys DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_label_keys DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#mismatch_label_keys DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#mismatch_label_keys DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespace_selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespace_selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespaces DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespaces DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#topology_key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#topology_key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3559,13 +3559,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3690,19 +3690,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3872,13 +3872,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4003,19 +4003,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4185,13 +4185,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4316,37 +4316,37 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#label_selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#label_selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_label_keys DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_label_keys DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#mismatch_label_keys DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#mismatch_label_keys DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespace_selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespace_selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespaces DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespaces DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#topology_key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#topology_key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4584,13 +4584,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#pod_affinity_term DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#pod_affinity_term DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#weight DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#weight DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4731,19 +4731,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4913,13 +4913,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5044,19 +5044,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5226,13 +5226,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5357,37 +5357,37 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#label_selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#label_selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_label_keys DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_label_keys DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#mismatch_label_keys DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#mismatch_label_keys DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespace_selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespace_selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespaces DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#namespaces DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#topology_key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#topology_key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5647,13 +5647,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5778,19 +5778,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#node_affinity DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#node_affinity DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#pod_affinity DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#pod_affinity DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#pod_anti_affinity DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#pod_anti_affinity DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinityPodAntiAffinity;
 }
@@ -5944,7 +5944,7 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * Image is the init manager image and tag to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#image DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#image DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#image}
   */
   readonly image?: string;
 }
@@ -6040,31 +6040,31 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#failure_threshold DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#failure_threshold DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold: number;
   /**
   * Number of seconds after the container has started before liveness probes are initiated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#initial_delay_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#initial_delay_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds: number;
   /**
   * How often (in seconds) to perform the probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#period_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#period_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#success_threshold DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#success_threshold DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold: number;
   /**
   * Number of seconds after which the probe times out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#timeout_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#timeout_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds: number;
 }
@@ -6261,13 +6261,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * An eviction is allowed if at most 'maxUnavailable' pods selected by 'selector' are unavailable after the eviction, i.e. even in absence of the evicted pod. For example, one can prevent all voluntary evictions by specifying 0. This is a mutually exclusive setting with 'minAvailable'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#max_unavailable DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#max_unavailable DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
   /**
   * An eviction is allowed if at least 'minAvailable' pods selected by 'selector' will still be available after the eviction, i.e. even in the absence of the evicted pod. So for example you can prevent all voluntary evictions by specifying '100%'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#min_available DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#min_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#min_available DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#min_available}
   */
   readonly minAvailable?: string;
 }
@@ -6392,19 +6392,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * Port name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Port value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#port DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#port DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Protocol. Defaults to TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#protocol DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#protocol DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -6574,31 +6574,31 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#failure_threshold DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#failure_threshold DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold: number;
   /**
   * Number of seconds after the container has started before liveness probes are initiated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#initial_delay_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#initial_delay_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds: number;
   /**
   * How often (in seconds) to perform the probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#period_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#period_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#success_threshold DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#success_threshold DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold: number;
   /**
   * Number of seconds after which the probe times out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#timeout_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#timeout_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds: number;
 }
@@ -6795,19 +6795,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * periodSeconds specifies the window of time for which the policy should hold true. PeriodSeconds must be greater than zero and less than or equal to 1800 (30 min).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#period_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#period_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds: number;
   /**
   * type is used to specify the scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value contains the amount of change which is permitted by the policy. It must be greater than zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#value}
   */
   readonly value: number;
 }
@@ -6974,19 +6974,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * policies is a list of potential scaling polices which can be used during scaling. At least one policy must be specified, otherwise the HPAScalingRules will be discarded as invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#policies DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#policies DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#policies}
   */
   readonly policies?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicBehaviorScaleDownPolicies[] | cdktf.IResolvable;
   /**
   * selectPolicy is used to specify which policy should be used. If not set, the default value Max is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#select_policy DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#select_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#select_policy DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#select_policy}
   */
   readonly selectPolicy?: string;
   /**
   * stabilizationWindowSeconds is the number of seconds for which past recommendations should be considered while scaling up or scaling down. StabilizationWindowSeconds must be greater than or equal to zero and less than or equal to 3600 (one hour). If not set, use the default values: - For scale up: 0 (i.e. no stabilization is done). - For scale down: 300 (i.e. the stabilization window is 300 seconds long).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#stabilization_window_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#stabilization_window_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#stabilization_window_seconds}
   */
   readonly stabilizationWindowSeconds?: number;
 }
@@ -7140,19 +7140,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * periodSeconds specifies the window of time for which the policy should hold true. PeriodSeconds must be greater than zero and less than or equal to 1800 (30 min).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#period_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#period_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds: number;
   /**
   * type is used to specify the scaling policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value contains the amount of change which is permitted by the policy. It must be greater than zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#value}
   */
   readonly value: number;
 }
@@ -7319,19 +7319,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * policies is a list of potential scaling polices which can be used during scaling. At least one policy must be specified, otherwise the HPAScalingRules will be discarded as invalid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#policies DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#policies DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#policies}
   */
   readonly policies?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicBehaviorScaleUpPolicies[] | cdktf.IResolvable;
   /**
   * selectPolicy is used to specify which policy should be used. If not set, the default value Max is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#select_policy DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#select_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#select_policy DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#select_policy}
   */
   readonly selectPolicy?: string;
   /**
   * stabilizationWindowSeconds is the number of seconds for which past recommendations should be considered while scaling up or scaling down. StabilizationWindowSeconds must be greater than or equal to zero and less than or equal to 3600 (one hour). If not set, use the default values: - For scale up: 0 (i.e. no stabilization is done). - For scale down: 300 (i.e. the stabilization window is 300 seconds long).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#stabilization_window_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#stabilization_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#stabilization_window_seconds DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#stabilization_window_seconds}
   */
   readonly stabilizationWindowSeconds?: number;
 }
@@ -7485,13 +7485,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * scaleDown is scaling policy for scaling Down. If not set, the default value is to allow to scale down to minReplicas pods, with a 300 second stabilization window (i.e., the highest recommendation for the last 300sec is used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#scale_down DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#scale_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#scale_down DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#scale_down}
   */
   readonly scaleDown?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicBehaviorScaleDown;
   /**
   * scaleUp is scaling policy for scaling Up. If not set, the default value is the higher of: * increase no more than 4 pods per 60 seconds * double the number of pods per 60 seconds No stabilization is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#scale_up DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#scale_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#scale_up DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#scale_up}
   */
   readonly scaleUp?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicBehaviorScaleUp;
 }
@@ -7616,25 +7616,25 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_utilization DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_utilization DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -7814,19 +7814,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * container is the name of the container in the pods of the scaling target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#container DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#container DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#container}
   */
   readonly container: string;
   /**
   * name is the name of the resource in question.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#target DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#target DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#target}
   */
   readonly target: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsContainerResourceTarget;
 }
@@ -7971,19 +7971,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8153,13 +8153,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsExternalMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8284,13 +8284,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * selector is the string-encoded form of a standard kubernetes label selector for the given metric When set, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsExternalMetricSelector;
 }
@@ -8412,25 +8412,25 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_utilization DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_utilization DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -8610,13 +8610,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * metric identifies the target metric by name and selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#metric DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#metric DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#metric}
   */
   readonly metric: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsExternalMetric;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#target DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#target DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#target}
   */
   readonly target: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsExternalTarget;
 }
@@ -8735,19 +8735,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * apiVersion is the API version of the referent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#api_version DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#api_version DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * kind is the kind of the referent; More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#kind DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#kind DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the referent; More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -8895,19 +8895,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9077,13 +9077,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsObjectMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9208,13 +9208,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * selector is the string-encoded form of a standard kubernetes label selector for the given metric When set, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsObjectMetricSelector;
 }
@@ -9336,25 +9336,25 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_utilization DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_utilization DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -9534,19 +9534,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * describedObject specifies the descriptions of a object,such as kind,name apiVersion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#described_object DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#described_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#described_object DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#described_object}
   */
   readonly describedObject: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsObjectDescribedObject;
   /**
   * metric identifies the target metric by name and selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#metric DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#metric DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#metric}
   */
   readonly metric: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsObjectMetric;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#target DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#target DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#target}
   */
   readonly target: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsObjectTarget;
 }
@@ -9691,19 +9691,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#key DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#operator DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#values DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9873,13 +9873,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_expressions DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsPodsMetricSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#match_labels DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10004,13 +10004,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * name is the name of the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * selector is the string-encoded form of a standard kubernetes label selector for the given metric When set, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#selector DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsPodsMetricSelector;
 }
@@ -10132,25 +10132,25 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_utilization DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_utilization DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -10330,13 +10330,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * metric identifies the target metric by name and selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#metric DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#metric DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#metric}
   */
   readonly metric: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsPodsMetric;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#target DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#target DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#target}
   */
   readonly target: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsPodsTarget;
 }
@@ -10455,25 +10455,25 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_utilization DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_utilization DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_utilization}
   */
   readonly averageUtilization?: number;
   /**
   * averageValue is the target value of the average of the metric across all relevant pods (as a quantity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#average_value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#average_value}
   */
   readonly averageValue?: string;
   /**
   * type represents whether the metric type is Utilization, Value, or AverageValue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * value is the target value of the metric (as a quantity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#value DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -10653,13 +10653,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * name is the name of the resource in question.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * target specifies the target value for the given metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#target DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#target DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#target}
   */
   readonly target: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsResourceTarget;
 }
@@ -10778,37 +10778,37 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * containerResource refers to a resource metric (such as those specified in requests and limits) known to Kubernetes describing a single container in each pod of the current scale target (e.g. CPU or memory). Such metrics are built in to Kubernetes, and have special scaling options on top of those available to normal per-pod metrics using the 'pods' source. This is an alpha feature and can be enabled by the HPAContainerMetrics feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#container_resource DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#container_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#container_resource DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#container_resource}
   */
   readonly containerResource?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsContainerResource;
   /**
   * external refers to a global metric that is not associated with any Kubernetes object. It allows autoscaling based on information coming from components running outside of cluster (for example length of queue in cloud messaging service, or QPS from loadbalancer running outside of cluster).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#external DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#external DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#external}
   */
   readonly external?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsExternal;
   /**
   * object refers to a metric describing a single kubernetes object (for example, hits-per-second on an Ingress object).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#object DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#object DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#object}
   */
   readonly object?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsObject;
   /**
   * pods refers to a metric describing each pod in the current scale target (for example, transactions-processed-per-second). The values will be averaged together before being compared to the target value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#pods DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#pods DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#pods}
   */
   readonly pods?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsPods;
   /**
   * resource refers to a resource metric (such as those specified in requests and limits) known to Kubernetes describing each pod in the current scale target (e.g. CPU or memory). Such metrics are built in to Kubernetes, and have special scaling options on top of those available to normal per-pod metrics using the 'pods' source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#resource DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#resource DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#resource}
   */
   readonly resource?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetricsResource;
   /**
   * type is the type of metric source. It should be one of 'ContainerResource', 'External', 'Object', 'Pods' or 'Resource', each mapping to a matching field in the object. Note: 'ContainerResource' type is available on when the feature-gate HPAContainerMetrics is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -11068,25 +11068,25 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * behavior configures the scaling behavior of the target in both Up and Down directions (scaleUp and scaleDown fields respectively). If not set, the default HPAScalingRules for scale up and scale down are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#behavior DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#behavior DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#behavior}
   */
   readonly behavior?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicBehavior;
   /**
   * maxReplicas is the upper limit for the number of replicas to which the autoscaler can scale up. It cannot be less that minReplicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#max_replicas DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#max_replicas DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#max_replicas}
   */
   readonly maxReplicas: number;
   /**
   * metrics contains the specifications for which to use to calculate the desired replica count (the maximum replica count across all metrics will be used). The desired replica count is calculated multiplying the ratio between the target value and the current value by the current number of pods. Ergo, metrics used must decrease as the pod count is increased, and vice-versa. See the individual metric source types for more information about how each type of metric must respond. If not set, the default metric will be set to 80% average CPU utilization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#metrics DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#metrics DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamicMetrics[] | cdktf.IResolvable;
   /**
   * minReplicas is the lower limit for the number of replicas to which the autoscaler can scale down. It defaults to 1 pod. minReplicas is allowed to be 0 if the alpha feature gate HPAScaleToZero is enabled and at least one Object or External metric is configured. Scaling is active as long as at least one metric value is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#min_replicas DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#min_replicas DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#min_replicas}
   */
   readonly minReplicas?: number;
 }
@@ -11266,13 +11266,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * Configure a min and max value for the number of pods to autoscale dynamically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#dynamic DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#dynamic DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#dynamic}
   */
   readonly dynamic?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicasDynamic;
   /**
   * Configure a static number of replicas. Defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#static DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#static DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#static}
   */
   readonly static?: number;
 }
@@ -11397,7 +11397,7 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -11512,19 +11512,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#claims DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#claims DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#limits DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#limits DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#requests DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#requests DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -11678,25 +11678,25 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * The drain strategy for the graceful shutdown. It also affects drain when listeners are modified or removed via LDS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#drain_strategy DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#drain_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#drain_strategy DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#drain_strategy}
   */
   readonly drainStrategy?: string;
   /**
   * The time in seconds that Envoy will drain connections during shutdown. It also affects drain behaviour when listeners are modified or removed via LDS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#drain_time DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#drain_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#drain_time DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#drain_time}
   */
   readonly drainTime?: number;
   /**
   * Image is the shutdown manager image and tag to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#image DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#image DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Configures the sutdown manager's server port. Defaults to 8090.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#server_port DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#server_port DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#server_port}
   */
   readonly serverPort?: number;
 }
@@ -11879,103 +11879,103 @@ export interface DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestS
   /**
   * Configures envoy's admin access log path. Defaults to /dev/null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#admin_access_log_path DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#admin_access_log_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#admin_access_log_path DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#admin_access_log_path}
   */
   readonly adminAccessLogPath?: string;
   /**
   * Configures envoy's admin port. Defaults to 9901.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#admin_port DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#admin_port DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
   * Affinity configuration for the envoy pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#affinity DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#affinity DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecAffinity;
   /**
   * Defines the local service cluster name where Envoy is running. Defaults to the NodeID in the EnvoyConfig if unset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#cluster_id DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#cluster_id DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * DiscoveryServiceRef points to a DiscoveryService in the same namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#discovery_service_ref DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#discovery_service_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#discovery_service_ref DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#discovery_service_ref}
   */
   readonly discoveryServiceRef: string;
   /**
   * Defines the duration of the client certificate that is used to authenticate with the DiscoveryService
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#duration DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#duration DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * EnvoyConfigRef points to an EnvoyConfig in the same namespace that holds the envoy resources for this Deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#envoy_config_ref DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#envoy_config_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#envoy_config_ref DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#envoy_config_ref}
   */
   readonly envoyConfigRef: string;
   /**
   * Allows the user to define extra command line arguments for the Envoy process
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#extra_args DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#extra_args DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#extra_args}
   */
   readonly extraArgs?: string[];
   /**
   * Image is the envoy image and tag to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#image DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#image DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * InitManager defines configuration for Envoy's init manager, which handles initialization for Envoy pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#init_manager DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#init_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#init_manager DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#init_manager}
   */
   readonly initManager?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecInitManager;
   /**
   * Liveness probe for the envoy pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#liveness_probe DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#liveness_probe DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecLivenessProbe;
   /**
   * Configures PodDisruptionBudget for the envoy Pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#pod_disruption_budget DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#pod_disruption_budget DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecPodDisruptionBudget;
   /**
   * Ports exposed by the Envoy container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#ports DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#ports DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecPorts[] | cdktf.IResolvable;
   /**
   * Readiness probe for the envoy pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#readiness_probe DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#readiness_probe DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReadinessProbe;
   /**
   * Replicas configures the number of replicas in the Deployment. One of 'static', 'dynamic' can be set. If both are set, static has precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#replicas DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#replicas DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#replicas}
   */
   readonly replicas?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecReplicas;
   /**
   * Resources holds the resource requirements to use for the Envoy Deployment. Defaults to no resource requests nor limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#resources DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#resources DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecResources;
   /**
   * ShutdownManager defines configuration for Envoy's shutdown manager, which handles graceful termination of Envoy pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#shutdown_manager DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#shutdown_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#shutdown_manager DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest#shutdown_manager}
   */
   readonly shutdownManager?: DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecShutdownManager;
 }
@@ -12527,7 +12527,7 @@ export class DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1ManifestSpecO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest k8s_operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest k8s_operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest}
 */
 export class DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -12543,7 +12543,7 @@ export class DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest exte
   * Generates CDKTF code for importing a DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12555,7 +12555,7 @@ export class DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest exte
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest k8s_operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest k8s_operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12566,8 +12566,8 @@ export class DataK8SOperatorMarin3R3ScaleNetEnvoyDeploymentV1Alpha1Manifest exte
       terraformResourceType: 'k8s_operator_marin3r_3scale_net_envoy_deployment_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

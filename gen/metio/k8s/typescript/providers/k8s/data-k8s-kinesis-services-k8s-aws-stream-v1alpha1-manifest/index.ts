@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKinesisServicesK8SAwsStreamV1Alpha1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#metadata DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#metadata DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKinesisServicesK8SAwsStreamV1Alpha1ManifestMetadata;
   /**
   * StreamSpec defines the desired state of Stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#spec DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#spec DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKinesisServicesK8SAwsStreamV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKinesisServicesK8SAwsStreamV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#annotations DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#annotations DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#labels DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#labels DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#name DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#name DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#namespace DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#namespace DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SKinesisServicesK8SAwsStreamV1Alpha1ManifestMetadataOutputRef
 }
 export interface DataK8SKinesisServicesK8SAwsStreamV1Alpha1ManifestSpecStreamModeDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#stream_mode DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#stream_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#stream_mode DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#stream_mode}
   */
   readonly streamMode?: string;
 }
@@ -313,19 +313,19 @@ export interface DataK8SKinesisServicesK8SAwsStreamV1Alpha1ManifestSpec {
   /**
   * A name to identify the stream. The stream name is scoped to the Amazon Web Services account used by the application that creates the stream. It is also scoped by Amazon Web Services Region. That is, two streams in two different Amazon Web Services accounts can have the same name. Two streams in the same Amazon Web Services account but in two different Regions can also have the same name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#name DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#name DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The number of shards that the stream will use. The throughput of the stream is a function of the number of shards; more shards are required for greater provisioned throughput.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#shard_count DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#shard_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#shard_count DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#shard_count}
   */
   readonly shardCount?: number;
   /**
   * Indicates the capacity mode of the data stream. Currently, in Kinesis Data Streams, you can choose between an on-demand capacity mode and a provisioned capacity mode for your data streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#stream_mode_details DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#stream_mode_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#stream_mode_details DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest#stream_mode_details}
   */
   readonly streamModeDetails?: DataK8SKinesisServicesK8SAwsStreamV1Alpha1ManifestSpecStreamModeDetails;
 }
@@ -474,7 +474,7 @@ export class DataK8SKinesisServicesK8SAwsStreamV1Alpha1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest k8s_kinesis_services_k8s_aws_stream_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest k8s_kinesis_services_k8s_aws_stream_v1alpha1_manifest}
 */
 export class DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -490,7 +490,7 @@ export class DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -502,7 +502,7 @@ export class DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest k8s_kinesis_services_k8s_aws_stream_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kinesis_services_k8s_aws_stream_v1alpha1_manifest k8s_kinesis_services_k8s_aws_stream_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -513,8 +513,8 @@ export class DataK8SKinesisServicesK8SAwsStreamV1Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_kinesis_services_k8s_aws_stream_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms
+// https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface PlatformConnectorAwskmsConfig extends cdktf.TerraformMetaArgume
   /**
   * A reference to the Harness secret containing the ARN of the AWS KMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#arn_plaintext PlatformConnectorAwskms#arn_plaintext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#arn_plaintext PlatformConnectorAwskms#arn_plaintext}
   */
   readonly arnPlaintext?: string;
   /**
   * A reference to the Harness secret containing the ARN of the AWS KMS. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#arn_ref PlatformConnectorAwskms#arn_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#arn_ref PlatformConnectorAwskms#arn_ref}
   */
   readonly arnRef?: string;
   /**
   * Set this connector as the default for all the services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#default PlatformConnectorAwskms#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#default PlatformConnectorAwskms#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#delegate_selectors PlatformConnectorAwskms#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#delegate_selectors PlatformConnectorAwskms#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#description PlatformConnectorAwskms#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#description PlatformConnectorAwskms#description}
   */
   readonly description?: string;
   /**
   * Execute the command on the delegate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#execute_on_delegate PlatformConnectorAwskms#execute_on_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#execute_on_delegate PlatformConnectorAwskms#execute_on_delegate}
   */
   readonly executeOnDelegate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#id PlatformConnectorAwskms#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#id PlatformConnectorAwskms#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,43 +53,43 @@ export interface PlatformConnectorAwskmsConfig extends cdktf.TerraformMetaArgume
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#identifier PlatformConnectorAwskms#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#identifier PlatformConnectorAwskms#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#name PlatformConnectorAwskms#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#name PlatformConnectorAwskms#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#org_id PlatformConnectorAwskms#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#org_id PlatformConnectorAwskms#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#project_id PlatformConnectorAwskms#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#project_id PlatformConnectorAwskms#project_id}
   */
   readonly projectId?: string;
   /**
   * The AWS region where the AWS Secret Manager is.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#region PlatformConnectorAwskms#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#region PlatformConnectorAwskms#region}
   */
   readonly region: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#tags PlatformConnectorAwskms#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#tags PlatformConnectorAwskms#tags}
   */
   readonly tags?: string[];
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#credentials PlatformConnectorAwskms#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#credentials PlatformConnectorAwskms#credentials}
   */
   readonly credentials: PlatformConnectorAwskmsCredentials;
 }
@@ -97,19 +97,19 @@ export interface PlatformConnectorAwskmsCredentialsAssumeRole {
   /**
   * The duration, in seconds, of the role session. The value can range from 900 seconds (15 minutes) to 3600 seconds (1 hour). By default, the value is set to 3600 seconds. An expiration can also be specified in the client request body. The minimum value is 1 hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#duration PlatformConnectorAwskms#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#duration PlatformConnectorAwskms#duration}
   */
   readonly duration: number;
   /**
   * If the administrator of the account to which the role belongs provided you with an external ID, then enter that value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#external_id PlatformConnectorAwskms#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#external_id PlatformConnectorAwskms#external_id}
   */
   readonly externalId?: string;
   /**
   * The ARN of the role to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#role_arn PlatformConnectorAwskms#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#role_arn PlatformConnectorAwskms#role_arn}
   */
   readonly roleArn: string;
 }
@@ -247,13 +247,13 @@ export interface PlatformConnectorAwskmsCredentialsManual {
   /**
   * The reference to the Harness secret containing the AWS access key. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#access_key_ref PlatformConnectorAwskms#access_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#access_key_ref PlatformConnectorAwskms#access_key_ref}
   */
   readonly accessKeyRef: string;
   /**
   * The reference to the Harness secret containing the AWS secret key. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#secret_key_ref PlatformConnectorAwskms#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#secret_key_ref PlatformConnectorAwskms#secret_key_ref}
   */
   readonly secretKeyRef: string;
 }
@@ -362,7 +362,7 @@ export interface PlatformConnectorAwskmsCredentialsOidcAuthentication {
   /**
   * The ARN of the IAM role to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#iam_role_arn PlatformConnectorAwskms#iam_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#iam_role_arn PlatformConnectorAwskms#iam_role_arn}
   */
   readonly iamRoleArn: string;
 }
@@ -445,25 +445,25 @@ export interface PlatformConnectorAwskmsCredentials {
   /**
   * Inherit the credentials from from the delegate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#inherit_from_delegate PlatformConnectorAwskms#inherit_from_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#inherit_from_delegate PlatformConnectorAwskms#inherit_from_delegate}
   */
   readonly inheritFromDelegate?: boolean | cdktf.IResolvable;
   /**
   * assume_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#assume_role PlatformConnectorAwskms#assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#assume_role PlatformConnectorAwskms#assume_role}
   */
   readonly assumeRole?: PlatformConnectorAwskmsCredentialsAssumeRole;
   /**
   * manual block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#manual PlatformConnectorAwskms#manual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#manual PlatformConnectorAwskms#manual}
   */
   readonly manual?: PlatformConnectorAwskmsCredentialsManual;
   /**
   * oidc_authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#oidc_authentication PlatformConnectorAwskms#oidc_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#oidc_authentication PlatformConnectorAwskms#oidc_authentication}
   */
   readonly oidcAuthentication?: PlatformConnectorAwskmsCredentialsOidcAuthentication;
 }
@@ -634,7 +634,7 @@ export class PlatformConnectorAwskmsCredentialsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms harness_platform_connector_awskms}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms harness_platform_connector_awskms}
 */
 export class PlatformConnectorAwskms extends cdktf.TerraformResource {
 
@@ -650,7 +650,7 @@ export class PlatformConnectorAwskms extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorAwskms resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorAwskms to import
-  * @param importFromId The id of the existing PlatformConnectorAwskms that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorAwskms that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorAwskms to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -662,7 +662,7 @@ export class PlatformConnectorAwskms extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_awskms harness_platform_connector_awskms} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_connector_awskms harness_platform_connector_awskms} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -673,8 +673,8 @@ export class PlatformConnectorAwskms extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_awskms',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.2',
-        providerVersionConstraint: '0.39.2'
+        providerVersion: '0.39.3',
+        providerVersionConstraint: '0.39.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestConfig ex
   /**
   * Configuration is an optional field which can be used to specify a contract between PolicyReport generators and consumers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#configuration DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#configuration DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#configuration}
   */
   readonly configuration?: DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestConfiguration;
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#metadata DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#metadata DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestMetadata;
   /**
   * PolicyReportResult provides result details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#results DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#results DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#results}
   */
   readonly results?: DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestResults[] | cdktf.IResolvable;
   /**
   * Scope is an optional reference to the report scope (e.g. a Deployment, Namespace, or Node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#scope DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#scope DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#scope}
   */
   readonly scope?: DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestScope;
   /**
   * ScopeSelector is an optional selector for multiple scopes (e.g. Pods). Either one of, or none of, but not both of, Scope or ScopeSelector should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#scope_selector DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#scope_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#scope_selector DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#scope_selector}
   */
   readonly scopeSelector?: DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestScopeSelector;
   /**
   * Source is an identifier for the source e.g. a policy engine that manages this report. Use this field if all the results are produced by a single policy engine. If the results are produced by multiple sources e.g. different engines or scanners, then use the Source field at the PolicyReportResult level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#source DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#source DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#source}
   */
   readonly source?: string;
   /**
   * PolicyReportSummary provides a summary of results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#summary DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#summary DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#summary}
   */
   readonly summary?: DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestSummary;
 }
@@ -54,13 +54,13 @@ export interface DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestConfigura
   /**
   * MaxResults is the maximum number of results contained in the report
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#max_results DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#max_results DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#max_results}
   */
   readonly maxResults?: number;
   /**
   * StatusFilter indicates that the PolicyReport contains only those reports with statuses specified in this list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#status_filter DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#status_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#status_filter DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#status_filter}
   */
   readonly statusFilter?: string[];
 }
@@ -183,7 +183,7 @@ export class DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestConfiguration
 }
 export interface DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#limits DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#limits DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#limits}
   */
   readonly limits: DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestConfigurationLimits;
 }
@@ -276,19 +276,19 @@ export interface DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#annotations DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#annotations DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#labels DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#labels DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#name DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#name DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -439,19 +439,19 @@ export interface DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestResultsRe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#key DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#key DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#operator DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#operator DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#values DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#values DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -621,13 +621,13 @@ export interface DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestResultsRe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#match_expressions DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#match_expressions DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestResultsResourceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#match_labels DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#match_labels DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -752,43 +752,43 @@ export interface DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestResultsRe
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#api_version DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#api_version DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#field_path DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#field_path DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#kind DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#kind DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#name DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#name DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#namespace DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#namespace DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#resource_version DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#resource_version DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#uid DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#uid DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1080,13 +1080,13 @@ export interface DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestResultsTi
   /**
   * Non-negative fractions of a second at nanosecond resolution. Negative second values with fractions must still have non-negative nanos values that count forward in time. Must be from 0 to 999,999,999 inclusive. This field may be limited in precision depending on context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#nanos DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#nanos DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#nanos}
   */
   readonly nanos: number;
   /**
   * Represents seconds of UTC time since Unix epoch 1970-01-01T00:00:00Z. Must be from 0001-01-01T00:00:00Z to 9999-12-31T23:59:59Z inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#seconds DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#seconds DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -1205,73 +1205,73 @@ export interface DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestResults {
   /**
   * Category indicates policy category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#category DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#category DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#category}
   */
   readonly category?: string;
   /**
   * Description is a short user friendly message for the policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#message DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#message DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#message}
   */
   readonly message?: string;
   /**
   * Policy is the name or identifier of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#policy DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#policy DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#policy}
   */
   readonly policy: string;
   /**
   * Properties provides additional information for the policy rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#properties DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#properties DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * ResourceSelector is an optional label selector for checked Kubernetes resources. For example, a policy result may apply to all pods that match a label. Either a Subject or a ResourceSelector can be specified. If neither are provided, the result is assumed to be for the policy report scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#resource_selector DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#resource_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#resource_selector DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#resource_selector}
   */
   readonly resourceSelector?: DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestResultsResourceSelector;
   /**
   * Subjects is an optional reference to the checked Kubernetes resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#resources DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#resources DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestResultsResources[] | cdktf.IResolvable;
   /**
   * Result indicates the outcome of the policy rule execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#result DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#result DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#result}
   */
   readonly result?: string;
   /**
   * Rule is the name or identifier of the rule within the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#rule DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#rule DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#rule}
   */
   readonly rule?: string;
   /**
   * Scored indicates if this result is scored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#scored DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#scored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#scored DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#scored}
   */
   readonly scored?: boolean | cdktf.IResolvable;
   /**
   * Severity indicates policy check result criticality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#severity DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#severity DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#severity}
   */
   readonly severity?: string;
   /**
   * Source is an identifier for the policy engine that manages this report If the Source is specified at this level, it will override the Source field set at the PolicyReport level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#source DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#source DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#source}
   */
   readonly source?: string;
   /**
   * Timestamp indicates the time the result was found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#timestamp DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#timestamp DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#timestamp}
   */
   readonly timestamp?: DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestResultsTimestamp;
 }
@@ -1705,43 +1705,43 @@ export interface DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestScope {
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#api_version DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#api_version DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#field_path DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#field_path DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#kind DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#kind DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#name DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#name DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#namespace DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#namespace DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#resource_version DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#resource_version DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#uid DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#uid DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -2011,19 +2011,19 @@ export interface DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestScopeSele
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#key DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#key DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#operator DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#operator DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#values DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#values DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2193,13 +2193,13 @@ export interface DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestScopeSele
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#match_expressions DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#match_expressions DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestScopeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#match_labels DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#match_labels DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2324,31 +2324,31 @@ export interface DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestSummary {
   /**
   * Error provides the count of policies that could not be evaluated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#error DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#error DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#error}
   */
   readonly error?: number;
   /**
   * Fail provides the count of policies whose requirements were not met
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#fail DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#fail DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#fail}
   */
   readonly fail?: number;
   /**
   * Pass provides the count of policies whose requirements were met
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#pass DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#pass DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#pass}
   */
   readonly pass?: number;
   /**
   * Skip indicates the count of policies that were not selected for evaluation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#skip DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#skip DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#skip}
   */
   readonly skip?: number;
   /**
   * Warn provides the count of non-scored policies whose requirements were not met
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#warn DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#warn DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest#warn}
   */
   readonly warn?: number;
 }
@@ -2558,7 +2558,7 @@ export class DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1ManifestSummaryOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest k8s_wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest k8s_wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest}
 */
 export class DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -2574,7 +2574,7 @@ export class DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2586,7 +2586,7 @@ export class DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest k8s_wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest k8s_wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2597,8 +2597,8 @@ export class DataK8SWgpolicyk8SIoClusterPolicyReportV1Beta1Manifest extends cdkt
       terraformResourceType: 'k8s_wgpolicyk8s_io_cluster_policy_report_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#metadata DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#metadata DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestMetadata;
   /**
   * DistributionSpec defines the desired state of Distribution. A distribution tells CloudFront where you want content to be delivered from, and the details about how to track and manage content delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#spec DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#spec DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#annotations DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#annotations DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#labels DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#labels DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#name DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#name DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#namespace DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#namespace DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestMetadata
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigAliases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -311,7 +311,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsAllowedMethodsCachedMethods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -407,11 +407,11 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec
   /**
   * A complex type that controls whether CloudFront caches the response to requests using the specified HTTP methods. There are two choices: * CloudFront caches responses to GET and HEAD requests. * CloudFront caches responses to GET, HEAD, and OPTIONS requests. If you pick the second choice for your Amazon S3 Origin, you may need to forward Access-Control-Request-Method, Access-Control-Request-Headers, and Origin headers for the responses to be cached correctly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#cached_methods DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#cached_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#cached_methods DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#cached_methods}
   */
   readonly cachedMethods?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsAllowedMethodsCachedMethods;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -534,7 +534,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsForwardedValuesCookiesWhitelistedNames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -628,13 +628,13 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsForwardedValuesCookies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#forward DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#forward DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#forward}
   */
   readonly forward?: string;
   /**
   * Contains a list of cookie names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#whitelisted_names DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#whitelisted_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#whitelisted_names DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#whitelisted_names}
   */
   readonly whitelistedNames?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsForwardedValuesCookiesWhitelistedNames;
 }
@@ -757,7 +757,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsForwardedValuesHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -851,7 +851,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsForwardedValuesQueryStringCacheKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -947,23 +947,23 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec
   /**
   * This field is deprecated. We recommend that you use a cache policy or an origin request policy instead of this field. If you want to include cookies in the cache key, use CookiesConfig in a cache policy. See CachePolicy. If you want to send cookies to the origin but not include them in the cache key, use CookiesConfig in an origin request policy. See OriginRequestPolicy. A complex type that specifies whether you want CloudFront to forward cookies to the origin and, if so, which ones. For more information about forwarding cookies to the origin, see Caching Content Based on Cookies (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Cookies.html) in the Amazon CloudFront Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#cookies DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#cookies DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#cookies}
   */
   readonly cookies?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsForwardedValuesCookies;
   /**
   * Contains a list of HTTP header names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#headers DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#headers DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#headers}
   */
   readonly headers?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsForwardedValuesHeaders;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#query_string DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#query_string DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#query_string}
   */
   readonly queryString?: boolean | cdktf.IResolvable;
   /**
   * This field is deprecated. We recommend that you use a cache policy or an origin request policy instead of this field. If you want to include query strings in the cache key, use QueryStringsConfig in a cache policy. See CachePolicy. If you want to send query strings to the origin but not include them in the cache key, use QueryStringsConfig in an origin request policy. See OriginRequestPolicy. A complex type that contains information about the query string parameters that you want CloudFront to use for caching for a cache behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#query_string_cache_keys DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#query_string_cache_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#query_string_cache_keys DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#query_string_cache_keys}
   */
   readonly queryStringCacheKeys?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsForwardedValuesQueryStringCacheKeys;
 }
@@ -1144,11 +1144,11 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsFunctionAssociationsItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#event_type DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#event_type DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#event_type}
   */
   readonly eventType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#function_arn DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#function_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#function_arn DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#function_arn}
   */
   readonly functionArn?: string;
 }
@@ -1293,7 +1293,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsFunctionAssociations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsFunctionAssociationsItems[] | cdktf.IResolvable;
 }
@@ -1387,15 +1387,15 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsLambdaFunctionAssociationsItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#event_type DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#event_type DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#event_type}
   */
   readonly eventType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#include_body DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#include_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#include_body DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#include_body}
   */
   readonly includeBody?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#lambda_function_arn DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#lambda_function_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#lambda_function_arn DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#lambda_function_arn}
   */
   readonly lambdaFunctionArn?: string;
 }
@@ -1569,7 +1569,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsLambdaFunctionAssociations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsLambdaFunctionAssociationsItems[] | cdktf.IResolvable;
 }
@@ -1663,11 +1663,11 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsTrustedKeyGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#enabled DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#enabled DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -1790,11 +1790,11 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsTrustedSigners {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#enabled DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#enabled DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -1919,89 +1919,89 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec
   /**
   * A complex type that controls which HTTP methods CloudFront processes and forwards to your Amazon S3 bucket or your custom origin. There are three choices: * CloudFront forwards only GET and HEAD requests. * CloudFront forwards only GET, HEAD, and OPTIONS requests. * CloudFront forwards GET, HEAD, OPTIONS, PUT, PATCH, POST, and DELETE requests. If you pick the third choice, you may need to restrict access to your Amazon S3 bucket or to your custom origin so users can't perform operations that you don't want them to. For example, you might not want users to have permissions to delete objects from your origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#allowed_methods DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#allowed_methods DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#allowed_methods}
   */
   readonly allowedMethods?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsAllowedMethods;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#cache_policy_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#cache_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#cache_policy_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#cache_policy_id}
   */
   readonly cachePolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#compress DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#compress DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#default_ttl DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#default_ttl DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#default_ttl}
   */
   readonly defaultTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#field_level_encryption_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#field_level_encryption_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#field_level_encryption_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#field_level_encryption_id}
   */
   readonly fieldLevelEncryptionId?: string;
   /**
   * This field is deprecated. We recommend that you use a cache policy or an origin request policy instead of this field. If you want to include values in the cache key, use a cache policy. For more information, see Creating cache policies (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/controlling-the-cache-key.html#cache-key-create-cache-policy) in the Amazon CloudFront Developer Guide. If you want to send values to the origin but not include them in the cache key, use an origin request policy. For more information, see Creating origin request policies (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/controlling-origin-requests.html#origin-request-create-origin-request-policy) in the Amazon CloudFront Developer Guide. A complex type that specifies how CloudFront handles query strings, cookies, and HTTP headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#forwarded_values DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#forwarded_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#forwarded_values DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#forwarded_values}
   */
   readonly forwardedValues?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsForwardedValues;
   /**
   * A list of CloudFront functions that are associated with a cache behavior in a CloudFront distribution. CloudFront functions must be published to the LIVE stage to associate them with a cache behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#function_associations DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#function_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#function_associations DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#function_associations}
   */
   readonly functionAssociations?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsFunctionAssociations;
   /**
   * A complex type that specifies a list of Lambda@Edge functions associations for a cache behavior. If you want to invoke one or more Lambda@Edge functions triggered by requests that match the PathPattern of the cache behavior, specify the applicable values for Quantity and Items. Note that there can be up to 4 LambdaFunctionAssociation items in this list (one for each possible value of EventType) and each EventType can be associated with only one function. If you don't want to invoke any Lambda@Edge functions for the requests that match PathPattern, specify 0 for Quantity and omit Items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#lambda_function_associations DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#lambda_function_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#lambda_function_associations DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#lambda_function_associations}
   */
   readonly lambdaFunctionAssociations?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsLambdaFunctionAssociations;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#max_ttl DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#max_ttl DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#max_ttl}
   */
   readonly maxTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#min_ttl DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#min_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#min_ttl DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#min_ttl}
   */
   readonly minTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_request_policy_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_request_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_request_policy_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_request_policy_id}
   */
   readonly originRequestPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#path_pattern DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#path_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#path_pattern DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#path_pattern}
   */
   readonly pathPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#realtime_log_config_arn DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#realtime_log_config_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#realtime_log_config_arn DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#realtime_log_config_arn}
   */
   readonly realtimeLogConfigArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#response_headers_policy_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#response_headers_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#response_headers_policy_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#response_headers_policy_id}
   */
   readonly responseHeadersPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#smooth_streaming DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#smooth_streaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#smooth_streaming DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#smooth_streaming}
   */
   readonly smoothStreaming?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#target_origin_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#target_origin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#target_origin_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#target_origin_id}
   */
   readonly targetOriginId?: string;
   /**
   * A list of key groups whose public keys CloudFront can use to verify the signatures of signed URLs and signed cookies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#trusted_key_groups DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#trusted_key_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#trusted_key_groups DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#trusted_key_groups}
   */
   readonly trustedKeyGroups?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsTrustedKeyGroups;
   /**
   * A list of Amazon Web Services accounts whose public keys CloudFront can use to verify the signatures of signed URLs and signed cookies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#trusted_signers DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#trusted_signers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#trusted_signers DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#trusted_signers}
   */
   readonly trustedSigners?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItemsTrustedSigners;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#viewer_protocol_policy DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#viewer_protocol_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#viewer_protocol_policy DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#viewer_protocol_policy}
   */
   readonly viewerProtocolPolicy?: string;
 }
@@ -2639,7 +2639,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviorsItems[] | cdktf.IResolvable;
 }
@@ -2733,19 +2733,19 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCustomErrorResponsesItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#error_caching_min_ttl DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#error_caching_min_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#error_caching_min_ttl DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#error_caching_min_ttl}
   */
   readonly errorCachingMinTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#error_code DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#error_code DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#error_code}
   */
   readonly errorCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#response_code DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#response_code DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#response_code}
   */
   readonly responseCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#response_page_path DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#response_page_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#response_page_path DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#response_page_path}
   */
   readonly responsePagePath?: string;
 }
@@ -2948,7 +2948,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCustomErrorResponses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCustomErrorResponsesItems[] | cdktf.IResolvable;
 }
@@ -3042,7 +3042,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorAllowedMethodsCachedMethods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -3138,11 +3138,11 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec
   /**
   * A complex type that controls whether CloudFront caches the response to requests using the specified HTTP methods. There are two choices: * CloudFront caches responses to GET and HEAD requests. * CloudFront caches responses to GET, HEAD, and OPTIONS requests. If you pick the second choice for your Amazon S3 Origin, you may need to forward Access-Control-Request-Method, Access-Control-Request-Headers, and Origin headers for the responses to be cached correctly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#cached_methods DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#cached_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#cached_methods DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#cached_methods}
   */
   readonly cachedMethods?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorAllowedMethodsCachedMethods;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -3265,7 +3265,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorForwardedValuesCookiesWhitelistedNames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -3359,13 +3359,13 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorForwardedValuesCookies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#forward DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#forward DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#forward}
   */
   readonly forward?: string;
   /**
   * Contains a list of cookie names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#whitelisted_names DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#whitelisted_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#whitelisted_names DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#whitelisted_names}
   */
   readonly whitelistedNames?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorForwardedValuesCookiesWhitelistedNames;
 }
@@ -3488,7 +3488,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorForwardedValuesHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -3582,7 +3582,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorForwardedValuesQueryStringCacheKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -3678,23 +3678,23 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec
   /**
   * This field is deprecated. We recommend that you use a cache policy or an origin request policy instead of this field. If you want to include cookies in the cache key, use CookiesConfig in a cache policy. See CachePolicy. If you want to send cookies to the origin but not include them in the cache key, use CookiesConfig in an origin request policy. See OriginRequestPolicy. A complex type that specifies whether you want CloudFront to forward cookies to the origin and, if so, which ones. For more information about forwarding cookies to the origin, see Caching Content Based on Cookies (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Cookies.html) in the Amazon CloudFront Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#cookies DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#cookies DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#cookies}
   */
   readonly cookies?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorForwardedValuesCookies;
   /**
   * Contains a list of HTTP header names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#headers DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#headers DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#headers}
   */
   readonly headers?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorForwardedValuesHeaders;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#query_string DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#query_string DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#query_string}
   */
   readonly queryString?: boolean | cdktf.IResolvable;
   /**
   * This field is deprecated. We recommend that you use a cache policy or an origin request policy instead of this field. If you want to include query strings in the cache key, use QueryStringsConfig in a cache policy. See CachePolicy. If you want to send query strings to the origin but not include them in the cache key, use QueryStringsConfig in an origin request policy. See OriginRequestPolicy. A complex type that contains information about the query string parameters that you want CloudFront to use for caching for a cache behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#query_string_cache_keys DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#query_string_cache_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#query_string_cache_keys DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#query_string_cache_keys}
   */
   readonly queryStringCacheKeys?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorForwardedValuesQueryStringCacheKeys;
 }
@@ -3875,11 +3875,11 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorFunctionAssociationsItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#event_type DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#event_type DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#event_type}
   */
   readonly eventType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#function_arn DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#function_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#function_arn DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#function_arn}
   */
   readonly functionArn?: string;
 }
@@ -4024,7 +4024,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorFunctionAssociations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorFunctionAssociationsItems[] | cdktf.IResolvable;
 }
@@ -4118,15 +4118,15 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorLambdaFunctionAssociationsItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#event_type DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#event_type DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#event_type}
   */
   readonly eventType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#include_body DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#include_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#include_body DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#include_body}
   */
   readonly includeBody?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#lambda_function_arn DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#lambda_function_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#lambda_function_arn DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#lambda_function_arn}
   */
   readonly lambdaFunctionArn?: string;
 }
@@ -4300,7 +4300,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorLambdaFunctionAssociations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorLambdaFunctionAssociationsItems[] | cdktf.IResolvable;
 }
@@ -4394,11 +4394,11 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorTrustedKeyGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#enabled DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#enabled DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -4521,11 +4521,11 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorTrustedSigners {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#enabled DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#enabled DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -4650,85 +4650,85 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec
   /**
   * A complex type that controls which HTTP methods CloudFront processes and forwards to your Amazon S3 bucket or your custom origin. There are three choices: * CloudFront forwards only GET and HEAD requests. * CloudFront forwards only GET, HEAD, and OPTIONS requests. * CloudFront forwards GET, HEAD, OPTIONS, PUT, PATCH, POST, and DELETE requests. If you pick the third choice, you may need to restrict access to your Amazon S3 bucket or to your custom origin so users can't perform operations that you don't want them to. For example, you might not want users to have permissions to delete objects from your origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#allowed_methods DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#allowed_methods DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#allowed_methods}
   */
   readonly allowedMethods?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorAllowedMethods;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#cache_policy_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#cache_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#cache_policy_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#cache_policy_id}
   */
   readonly cachePolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#compress DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#compress DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#default_ttl DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#default_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#default_ttl DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#default_ttl}
   */
   readonly defaultTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#field_level_encryption_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#field_level_encryption_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#field_level_encryption_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#field_level_encryption_id}
   */
   readonly fieldLevelEncryptionId?: string;
   /**
   * This field is deprecated. We recommend that you use a cache policy or an origin request policy instead of this field. If you want to include values in the cache key, use a cache policy. For more information, see Creating cache policies (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/controlling-the-cache-key.html#cache-key-create-cache-policy) in the Amazon CloudFront Developer Guide. If you want to send values to the origin but not include them in the cache key, use an origin request policy. For more information, see Creating origin request policies (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/controlling-origin-requests.html#origin-request-create-origin-request-policy) in the Amazon CloudFront Developer Guide. A complex type that specifies how CloudFront handles query strings, cookies, and HTTP headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#forwarded_values DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#forwarded_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#forwarded_values DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#forwarded_values}
   */
   readonly forwardedValues?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorForwardedValues;
   /**
   * A list of CloudFront functions that are associated with a cache behavior in a CloudFront distribution. CloudFront functions must be published to the LIVE stage to associate them with a cache behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#function_associations DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#function_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#function_associations DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#function_associations}
   */
   readonly functionAssociations?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorFunctionAssociations;
   /**
   * A complex type that specifies a list of Lambda@Edge functions associations for a cache behavior. If you want to invoke one or more Lambda@Edge functions triggered by requests that match the PathPattern of the cache behavior, specify the applicable values for Quantity and Items. Note that there can be up to 4 LambdaFunctionAssociation items in this list (one for each possible value of EventType) and each EventType can be associated with only one function. If you don't want to invoke any Lambda@Edge functions for the requests that match PathPattern, specify 0 for Quantity and omit Items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#lambda_function_associations DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#lambda_function_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#lambda_function_associations DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#lambda_function_associations}
   */
   readonly lambdaFunctionAssociations?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorLambdaFunctionAssociations;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#max_ttl DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#max_ttl DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#max_ttl}
   */
   readonly maxTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#min_ttl DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#min_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#min_ttl DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#min_ttl}
   */
   readonly minTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_request_policy_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_request_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_request_policy_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_request_policy_id}
   */
   readonly originRequestPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#realtime_log_config_arn DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#realtime_log_config_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#realtime_log_config_arn DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#realtime_log_config_arn}
   */
   readonly realtimeLogConfigArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#response_headers_policy_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#response_headers_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#response_headers_policy_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#response_headers_policy_id}
   */
   readonly responseHeadersPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#smooth_streaming DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#smooth_streaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#smooth_streaming DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#smooth_streaming}
   */
   readonly smoothStreaming?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#target_origin_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#target_origin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#target_origin_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#target_origin_id}
   */
   readonly targetOriginId?: string;
   /**
   * A list of key groups whose public keys CloudFront can use to verify the signatures of signed URLs and signed cookies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#trusted_key_groups DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#trusted_key_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#trusted_key_groups DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#trusted_key_groups}
   */
   readonly trustedKeyGroups?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorTrustedKeyGroups;
   /**
   * A list of Amazon Web Services accounts whose public keys CloudFront can use to verify the signatures of signed URLs and signed cookies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#trusted_signers DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#trusted_signers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#trusted_signers DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#trusted_signers}
   */
   readonly trustedSigners?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehaviorTrustedSigners;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#viewer_protocol_policy DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#viewer_protocol_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#viewer_protocol_policy DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#viewer_protocol_policy}
   */
   readonly viewerProtocolPolicy?: string;
 }
@@ -5315,19 +5315,19 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigLogging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#bucket DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#bucket DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#enabled DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#enabled DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#include_cookies DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#include_cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#include_cookies DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#include_cookies}
   */
   readonly includeCookies?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#prefix DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#prefix DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
 }
@@ -5510,7 +5510,7 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec
   /**
   * List of status codes for origin failover.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -5606,7 +5606,7 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec
   /**
   * A complex data type for the status codes that you specify that, when returned by a primary origin, trigger CloudFront to failover to a second origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#status_codes DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#status_codes DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#status_codes}
   */
   readonly statusCodes?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginGroupsItemsFailoverCriteriaStatusCodes;
 }
@@ -5700,7 +5700,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginGroupsItemsMembersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_id}
   */
   readonly originId?: string;
 }
@@ -5818,7 +5818,7 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec
   /**
   * List of origins in an origin group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginGroupsItemsMembersItems[] | cdktf.IResolvable;
 }
@@ -5914,11 +5914,11 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec
   /**
   * A complex data type that includes information about the failover criteria for an origin group, including the status codes for which CloudFront will failover from the primary origin to the second origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#failover_criteria DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#failover_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#failover_criteria DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#failover_criteria}
   */
   readonly failoverCriteria?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginGroupsItemsFailoverCriteria;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5927,7 +5927,7 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec
   /**
   * A complex data type for the origins included in an origin group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#members DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#members DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#members}
   */
   readonly members?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginGroupsItemsMembers;
 }
@@ -6103,7 +6103,7 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec
   /**
   * List of origin groups for a distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginGroupsItems[] | cdktf.IResolvable;
 }
@@ -6197,11 +6197,11 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginsItemsCustomHeadersItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#header_name DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#header_name DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#header_name}
   */
   readonly headerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#header_value DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#header_value DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#header_value}
   */
   readonly headerValue?: string;
 }
@@ -6346,7 +6346,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginsItemsCustomHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginsItemsCustomHeadersItems[] | cdktf.IResolvable;
 }
@@ -6440,7 +6440,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginsItemsCustomOriginConfigOriginSslProtocols {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
 }
@@ -6534,29 +6534,29 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginsItemsCustomOriginConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#http_port DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#http_port DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#http_port}
   */
   readonly httpPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#http_s_port DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#http_s_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#http_s_port DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#http_s_port}
   */
   readonly httpSPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_keepalive_timeout DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_keepalive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_keepalive_timeout DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_keepalive_timeout}
   */
   readonly originKeepaliveTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_protocol_policy DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_protocol_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_protocol_policy DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_protocol_policy}
   */
   readonly originProtocolPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_read_timeout DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_read_timeout DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_read_timeout}
   */
   readonly originReadTimeout?: number;
   /**
   * A complex type that contains information about the SSL/TLS protocols that CloudFront can use when establishing an HTTPS connection with your origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_ssl_protocols DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_ssl_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_ssl_protocols DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_ssl_protocols}
   */
   readonly originSslProtocols?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginsItemsCustomOriginConfigOriginSslProtocols;
 }
@@ -6795,11 +6795,11 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginsItemsOriginShield {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#enabled DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#enabled DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_shield_region DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_shield_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_shield_region DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_shield_region}
   */
   readonly originShieldRegion?: string;
 }
@@ -6922,7 +6922,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginsItemsS3OriginConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_access_identity DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_access_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_access_identity DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_access_identity}
   */
   readonly originAccessIdentity?: string;
 }
@@ -7016,54 +7016,54 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginsItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#connection_attempts DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#connection_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#connection_attempts DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#connection_attempts}
   */
   readonly connectionAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#connection_timeout DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#connection_timeout DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
   * A complex type that contains the list of Custom Headers for each origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#custom_headers DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#custom_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#custom_headers DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#custom_headers}
   */
   readonly customHeaders?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginsItemsCustomHeaders;
   /**
   * A custom origin. A custom origin is any origin that is not an Amazon S3 bucket, with one exception. An Amazon S3 bucket that is configured with static website hosting (https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html) is a custom origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#custom_origin_config DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#custom_origin_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#custom_origin_config DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#custom_origin_config}
   */
   readonly customOriginConfig?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginsItemsCustomOriginConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#domain_name DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#domain_name DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_access_control_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_access_control_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_access_control_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_access_control_id}
   */
   readonly originAccessControlId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_path DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_path DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_path}
   */
   readonly originPath?: string;
   /**
   * CloudFront Origin Shield. Using Origin Shield can help reduce the load on your origin. For more information, see Using Origin Shield (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/origin-shield.html) in the Amazon CloudFront Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_shield DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_shield}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_shield DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_shield}
   */
   readonly originShield?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginsItemsOriginShield;
   /**
   * A complex type that contains information about the Amazon S3 origin. If the origin is a custom origin or an S3 bucket that is configured as a website endpoint, use the CustomOriginConfig element instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#s3_origin_config DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#s3_origin_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#s3_origin_config DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#s3_origin_config}
   */
   readonly s3OriginConfig?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginsItemsS3OriginConfig;
 }
@@ -7440,7 +7440,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOrigins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginsItems[] | cdktf.IResolvable;
 }
@@ -7534,11 +7534,11 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigRestrictionsGeoRestriction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#items DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#items}
   */
   readonly items?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#restriction_type DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#restriction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#restriction_type DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#restriction_type}
   */
   readonly restrictionType?: string;
 }
@@ -7663,7 +7663,7 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec
   /**
   * A complex type that controls the countries in which your content is distributed. CloudFront determines the location of your users using MaxMind GeoIP databases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#geo_restriction DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#geo_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#geo_restriction DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#geo_restriction}
   */
   readonly geoRestriction?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigRestrictionsGeoRestriction;
 }
@@ -7757,11 +7757,11 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigViewerCertificateAcmCertificateRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#name DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#name DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#namespace DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#namespace DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -7886,7 +7886,7 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#from DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#from DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigViewerCertificateAcmCertificateRefFrom;
 }
@@ -7980,37 +7980,37 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDist
 }
 export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigViewerCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#acm_certificate_arn DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#acm_certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#acm_certificate_arn DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#acm_certificate_arn}
   */
   readonly acmCertificateArn?: string;
   /**
   * Reference field for ACMCertificateARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#acm_certificate_ref DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#acm_certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#acm_certificate_ref DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#acm_certificate_ref}
   */
   readonly acmCertificateRef?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigViewerCertificateAcmCertificateRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#certificate DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#certificate DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#certificate_source DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#certificate_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#certificate_source DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#certificate_source}
   */
   readonly certificateSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#cloud_front_default_certificate DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#cloud_front_default_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#cloud_front_default_certificate DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#cloud_front_default_certificate}
   */
   readonly cloudFrontDefaultCertificate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#iam_certificate_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#iam_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#iam_certificate_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#iam_certificate_id}
   */
   readonly iamCertificateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#minimum_protocol_version DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#minimum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#minimum_protocol_version DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#minimum_protocol_version}
   */
   readonly minimumProtocolVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#ssl_support_method DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#ssl_support_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#ssl_support_method DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#ssl_support_method}
   */
   readonly sslSupportMethod?: string;
 }
@@ -8309,91 +8309,91 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec
   /**
   * A complex type that contains information about CNAMEs (alternate domain names), if any, for this distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#aliases DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#aliases DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#aliases}
   */
   readonly aliases?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigAliases;
   /**
   * A complex type that contains zero or more CacheBehavior elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#cache_behaviors DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#cache_behaviors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#cache_behaviors DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#cache_behaviors}
   */
   readonly cacheBehaviors?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCacheBehaviors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#comment DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#comment DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#continuous_deployment_policy_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#continuous_deployment_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#continuous_deployment_policy_id DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#continuous_deployment_policy_id}
   */
   readonly continuousDeploymentPolicyId?: string;
   /**
   * A complex type that controls: * Whether CloudFront replaces HTTP status codes in the 4xx and 5xx range with custom error messages before returning the response to the viewer. * How long CloudFront caches HTTP status codes in the 4xx and 5xx range. For more information about custom error pages, see Customizing Error Responses (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/custom-error-pages.html) in the Amazon CloudFront Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#custom_error_responses DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#custom_error_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#custom_error_responses DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#custom_error_responses}
   */
   readonly customErrorResponses?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigCustomErrorResponses;
   /**
   * A complex type that describes the default cache behavior if you don't specify a CacheBehavior element or if request URLs don't match any of the values of PathPattern in CacheBehavior elements. You must create exactly one default cache behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#default_cache_behavior DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#default_cache_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#default_cache_behavior DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#default_cache_behavior}
   */
   readonly defaultCacheBehavior?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigDefaultCacheBehavior;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#default_root_object DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#default_root_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#default_root_object DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#default_root_object}
   */
   readonly defaultRootObject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#enabled DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#enabled DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#http_version DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#http_version DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#http_version}
   */
   readonly httpVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#is_ipv6_enabled DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#is_ipv6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#is_ipv6_enabled DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#is_ipv6_enabled}
   */
   readonly isIpv6Enabled?: boolean | cdktf.IResolvable;
   /**
   * A complex type that controls whether access logs are written for the distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#logging DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#logging DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigLogging;
   /**
   * A complex data type for the origin groups specified for a distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_groups DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origin_groups DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origin_groups}
   */
   readonly originGroups?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOriginGroups;
   /**
   * Contains information about the origins for this distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origins DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#origins DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#origins}
   */
   readonly origins?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigOrigins;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#price_class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#price_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#price_class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#price_class}
   */
   readonly priceClass?: string;
   /**
   * A complex type that identifies ways in which you want to restrict distribution of your content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#restrictions DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#restrictions DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#restrictions}
   */
   readonly restrictions?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigRestrictions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#staging DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#staging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#staging DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#staging}
   */
   readonly staging?: boolean | cdktf.IResolvable;
   /**
   * A complex type that determines the distribution's SSL/TLS configuration for communicating with viewers. If the distribution doesn't use Aliases (also known as alternate domain names or CNAMEs)—that is, if the distribution uses the CloudFront domain name such as d111111abcdef8.cloudfront.net—set CloudFrontDefaultCertificate to true and leave all other fields empty. If the distribution uses Aliases (alternate domain names or CNAMEs), use the fields in this type to specify the following settings: * Which viewers the distribution accepts HTTPS connections from: only viewers that support server name indication (SNI) (https://en.wikipedia.org/wiki/Server_Name_Indication) (recommended), or all viewers including those that don't support SNI. To accept HTTPS connections from only viewers that support SNI, set SSLSupportMethod to sni-only. This is recommended. Most browsers and clients support SNI. To accept HTTPS connections from all viewers, including those that don't support SNI, set SSLSupportMethod to vip. This is not recommended, and results in additional monthly charges from CloudFront. * The minimum SSL/TLS protocol version that the distribution can use to communicate with viewers. To specify a minimum version, choose a value for MinimumProtocolVersion. For more information, see Security Policy (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-web-values-specify.html#DownloadDistValues-security-policy) in the Amazon CloudFront Developer Guide. * The location of the SSL/TLS certificate, Certificate Manager (ACM) (https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html) (recommended) or Identity and Access Management (IAM) (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_server-certs.html). You specify the location by setting a value in one of the following fields (not both): ACMCertificateArn IAMCertificateId All distributions support HTTPS connections from viewers. To require viewers to use HTTPS only, or to redirect them from HTTP to HTTPS, use ViewerProtocolPolicy in the CacheBehavior or DefaultCacheBehavior. To specify how CloudFront should use SSL/TLS to communicate with your custom origin, use CustomOriginConfig. For more information, see Using HTTPS with CloudFront (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-https.html) and Using Alternate Domain Names and HTTPS (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-https-alternate-domain-names.html) in the Amazon CloudFront Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#viewer_certificate DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#viewer_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#viewer_certificate DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#viewer_certificate}
   */
   readonly viewerCertificate?: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfigViewerCertificate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#web_aclid DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#web_aclid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#web_aclid DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#web_aclid}
   */
   readonly webAclid?: string;
 }
@@ -8982,7 +8982,7 @@ export interface DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpec
   /**
   * The distribution's configuration information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#distribution_config DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#distribution_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#distribution_config DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest#distribution_config}
   */
   readonly distributionConfig: DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecDistributionConfig;
 }
@@ -9073,7 +9073,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest k8s_cloudfront_services_k8s_aws_distribution_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest k8s_cloudfront_services_k8s_aws_distribution_v1alpha1_manifest}
 */
 export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -9089,7 +9089,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest extends
   * Generates CDKTF code for importing a DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9101,7 +9101,7 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest k8s_cloudfront_services_k8s_aws_distribution_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cloudfront_services_k8s_aws_distribution_v1alpha1_manifest k8s_cloudfront_services_k8s_aws_distribution_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9112,8 +9112,8 @@ export class DataK8SCloudfrontServicesK8SAwsDistributionV1Alpha1Manifest extends
       terraformResourceType: 'k8s_cloudfront_services_k8s_aws_distribution_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

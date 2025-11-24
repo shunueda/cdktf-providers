@@ -1,3 +1,3 @@
 # `harness_platform_ff_api_key`
 
-Refer to the Terraform Registry for docs: [`harness_platform_ff_api_key`](https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_ff_api_key).
+Refer to the Terraform Registry for docs: [`harness_platform_ff_api_key`](https://registry.terraform.io/providers/harness/harness/0.39.3/docs/resources/platform_ff_api_key).

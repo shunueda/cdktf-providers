@@ -3,25 +3,25 @@ export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#annotations DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#annotations DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespace DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespace DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -196,15 +196,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestMetadataOutputReferenc
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecServerConfigurationSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -356,15 +356,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecServerConfiguratio
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecServerConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#secret DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#secret DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecServerConfigurationSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -538,31 +538,31 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecServerConfiguratio
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateMetadataManagedFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#api_version DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#api_version DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#fields_type DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#fields_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#fields_type DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#fields_type}
   */
   readonly fieldsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#fields_v1 DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#fields_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#fields_v1 DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#fields_v1}
   */
   readonly fieldsV1?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#manager DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#manager DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#manager}
   */
   readonly manager?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operation DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operation DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#subresource DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#subresource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#subresource DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#subresource}
   */
   readonly subresource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#time DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#time DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#time}
   */
   readonly time?: string;
 }
@@ -852,27 +852,27 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateMetadataOwnerReferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#api_version DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#api_version DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#block_owner_deletion DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#block_owner_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#block_owner_deletion DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#block_owner_deletion}
   */
   readonly blockOwnerDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#controller DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#controller DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#controller}
   */
   readonly controller?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#kind DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#kind DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#uid DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#uid DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1133,67 +1133,67 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#annotations DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#annotations DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#cluster_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#cluster_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#creation_timestamp DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#creation_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#creation_timestamp DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#creation_timestamp}
   */
   readonly creationTimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#deletion_grace_period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#deletion_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#deletion_grace_period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#deletion_grace_period_seconds}
   */
   readonly deletionGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#deletion_timestamp DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#deletion_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#deletion_timestamp DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#deletion_timestamp}
   */
   readonly deletionTimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#finalizers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#finalizers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#generate_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#generate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#generate_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#generate_name}
   */
   readonly generateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#generation DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#generation DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#generation}
   */
   readonly generation?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#managed_fields DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#managed_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#managed_fields DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#managed_fields}
   */
   readonly managedFields?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateMetadataManagedFields[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespace DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespace DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#owner_references DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#owner_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#owner_references DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#owner_references}
   */
   readonly ownerReferences?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateMetadataOwnerReferences[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resource_version DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resource_version DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#self_link DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#self_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#self_link DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#self_link}
   */
   readonly selfLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#uid DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#uid DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1722,15 +1722,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1904,15 +1904,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2086,11 +2086,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_fields DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_fields DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -2213,11 +2213,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#preference DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#preference DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#preference}
   */
   readonly preference?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#weight DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#weight DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -2362,15 +2362,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2544,15 +2544,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2726,11 +2726,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_fields DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_fields DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -2875,7 +2875,7 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#node_selector_terms DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#node_selector_terms DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -2969,11 +2969,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -3096,15 +3096,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3278,11 +3278,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3405,15 +3405,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3587,11 +3587,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3714,19 +3714,19 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#label_selector DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#label_selector DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespace_selector DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespace_selector DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespaces DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespaces DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#topology_key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#topology_key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#topology_key}
   */
   readonly topologyKey?: string;
 }
@@ -3907,11 +3907,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#pod_affinity_term DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#pod_affinity_term DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#weight DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#weight DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -4056,15 +4056,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4238,11 +4238,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4365,15 +4365,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4547,11 +4547,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4674,19 +4674,19 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#label_selector DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#label_selector DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespace_selector DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespace_selector DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespaces DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespaces DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#topology_key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#topology_key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#topology_key}
   */
   readonly topologyKey?: string;
 }
@@ -4889,11 +4889,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5016,15 +5016,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5198,11 +5198,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5325,15 +5325,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5507,11 +5507,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5634,19 +5634,19 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#label_selector DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#label_selector DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespace_selector DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespace_selector DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespaces DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespaces DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#topology_key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#topology_key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#topology_key}
   */
   readonly topologyKey?: string;
 }
@@ -5827,11 +5827,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#pod_affinity_term DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#pod_affinity_term DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#weight DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#weight DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -5976,15 +5976,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6158,11 +6158,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6285,15 +6285,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#operator DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#values DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6467,11 +6467,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_expressions DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#match_labels DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6594,19 +6594,19 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#label_selector DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#label_selector DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespace_selector DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespace_selector DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespaces DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#namespaces DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#topology_key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#topology_key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#topology_key}
   */
   readonly topologyKey?: string;
 }
@@ -6809,11 +6809,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -6936,15 +6936,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#node_affinity DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#node_affinity DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#pod_affinity DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#pod_affinity DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#pod_anti_affinity DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#pod_anti_affinity DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecAffinityPodAntiAffinity;
 }
@@ -7096,15 +7096,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7256,11 +7256,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#api_version DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#api_version DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#field_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#field_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
 }
@@ -7383,15 +7383,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#container_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#container_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#divisor DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#divisor DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resource DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resource DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resource}
   */
   readonly resource?: string;
 }
@@ -7543,15 +7543,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7703,19 +7703,19 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#config_map_key_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#config_map_key_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#field_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#field_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resource_field_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resource_field_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#secret_key_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#secret_key_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnvValueFromSecretKeyRef;
 }
@@ -7896,15 +7896,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value_from DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value_from DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnvValueFrom;
 }
@@ -8078,11 +8078,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8205,11 +8205,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8332,15 +8332,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#config_map_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#config_map_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#prefix DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#prefix DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#secret_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#secret_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnvFromSecretRef;
 }
@@ -8514,7 +8514,7 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -8608,11 +8608,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -8757,23 +8757,23 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8983,11 +8983,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
 }
@@ -9110,15 +9110,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePostStartTcpSocket;
 }
@@ -9270,7 +9270,7 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -9364,11 +9364,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -9513,23 +9513,23 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -9739,11 +9739,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
 }
@@ -9866,15 +9866,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePreStopTcpSocket;
 }
@@ -10026,11 +10026,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#post_start DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#post_start DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#pre_stop DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#pre_stop DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecyclePreStop;
 }
@@ -10153,7 +10153,7 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -10247,11 +10247,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#service DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#service DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -10374,11 +10374,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -10523,23 +10523,23 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -10749,11 +10749,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
 }
@@ -10876,43 +10876,43 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#failure_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#failure_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#grpc DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#grpc DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#initial_delay_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#initial_delay_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#success_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#success_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_grace_period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_grace_period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#timeout_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#timeout_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -11267,23 +11267,23 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#container_port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#container_port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#container_port}
   */
   readonly containerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host_ip DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host_ip DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host_port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host_port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -11515,7 +11515,7 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -11609,11 +11609,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#service DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#service DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -11736,11 +11736,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -11885,23 +11885,23 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -12111,11 +12111,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
 }
@@ -12238,43 +12238,43 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#failure_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#failure_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#grpc DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#grpc DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#initial_delay_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#initial_delay_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#success_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#success_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_grace_period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_grace_period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#timeout_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#timeout_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -12629,11 +12629,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#limits DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#limits DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#requests DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#requests DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -12756,11 +12756,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#add DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#add DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#drop DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#drop DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -12883,19 +12883,19 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#level DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#level DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#role DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#role DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#user DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#user DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -13076,11 +13076,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#localhost_profile DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#localhost_profile DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -13203,19 +13203,19 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#gmsa_credential_spec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#gmsa_credential_spec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#gmsa_credential_spec_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#gmsa_credential_spec_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host_process DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host_process DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#run_as_user_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#run_as_user_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -13396,47 +13396,47 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#allow_privilege_escalation DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#allow_privilege_escalation DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#capabilities DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#capabilities DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#privileged DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#privileged DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#proc_mount DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#proc_mount DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#read_only_root_filesystem DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#read_only_root_filesystem DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#run_as_group DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#run_as_group DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#run_as_non_root DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#run_as_non_root DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#run_as_user DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#run_as_user DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#se_linux_options DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#se_linux_options DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#seccomp_profile DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#seccomp_profile DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#windows_options DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#windows_options DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersSecurityContextWindowsOptions;
 }
@@ -13820,7 +13820,7 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -13914,11 +13914,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#service DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#service DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -14041,11 +14041,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -14190,23 +14190,23 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -14416,11 +14416,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
 }
@@ -14543,43 +14543,43 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#failure_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#failure_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#grpc DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#grpc DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#initial_delay_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#initial_delay_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#success_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#success_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_grace_period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_grace_period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#timeout_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#timeout_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -14934,11 +14934,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#device_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#device_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#device_path}
   */
   readonly devicePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -15083,27 +15083,27 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#mount_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#mount_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#mount_propagation DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#mount_propagation DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#read_only DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#read_only DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#sub_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#sub_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#sub_path_expr DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#sub_path_expr DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -15364,91 +15364,91 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#args DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#args DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#env DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#env DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#env}
   */
   readonly env?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#env_from DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#env_from DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#image DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#image DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#image_pull_policy DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#image_pull_policy DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#lifecycle DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#lifecycle DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#liveness_probe DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#liveness_probe DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#ports DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#ports DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#readiness_probe DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#readiness_probe DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resources DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resources DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#security_context DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#security_context DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#startup_probe DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#startup_probe DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#stdin DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#stdin DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#stdin_once DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#stdin_once DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_message_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_message_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_message_policy DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_message_policy DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tty DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tty DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#volume_devices DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#volume_devices DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#volume_mounts DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#volume_mounts DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#working_dir DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#working_dir DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -16173,11 +16173,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecDnsConfigOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -16322,15 +16322,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecDnsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#nameservers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#nameservers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#nameservers}
   */
   readonly nameservers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#options DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#options DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#options}
   */
   readonly options?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecDnsConfigOptions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#searches DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#searches DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#searches}
   */
   readonly searches?: string[];
 }
@@ -16482,15 +16482,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16642,11 +16642,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#api_version DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#api_version DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#field_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#field_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
 }
@@ -16769,15 +16769,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#container_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#container_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#divisor DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#divisor DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resource DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resource DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resource}
   */
   readonly resource?: string;
 }
@@ -16929,15 +16929,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17089,19 +17089,19 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#config_map_key_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#config_map_key_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#field_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#field_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resource_field_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resource_field_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#secret_key_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#secret_key_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnvValueFromSecretKeyRef;
 }
@@ -17282,15 +17282,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value_from DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value_from DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnvValueFrom;
 }
@@ -17464,11 +17464,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17591,11 +17591,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17718,15 +17718,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#config_map_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#config_map_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#prefix DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#prefix DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#secret_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#secret_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnvFromSecretRef;
 }
@@ -17900,7 +17900,7 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -17994,11 +17994,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -18143,23 +18143,23 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -18369,11 +18369,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
 }
@@ -18496,15 +18496,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePostStartTcpSocket;
 }
@@ -18656,7 +18656,7 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -18750,11 +18750,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -18899,23 +18899,23 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -19125,11 +19125,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
 }
@@ -19252,15 +19252,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePreStopTcpSocket;
 }
@@ -19412,11 +19412,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#post_start DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#post_start DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#pre_stop DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#pre_stop DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecyclePreStop;
 }
@@ -19539,7 +19539,7 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -19633,11 +19633,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#service DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#service DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -19760,11 +19760,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -19909,23 +19909,23 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -20135,11 +20135,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
 }
@@ -20262,43 +20262,43 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#failure_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#failure_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#grpc DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#grpc DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#initial_delay_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#initial_delay_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#success_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#success_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_grace_period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_grace_period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#timeout_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#timeout_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -20653,23 +20653,23 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#container_port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#container_port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#container_port}
   */
   readonly containerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host_ip DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host_ip DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host_port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host_port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#protocol DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -20901,7 +20901,7 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -20995,11 +20995,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#service DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#service DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -21122,11 +21122,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -21271,23 +21271,23 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -21497,11 +21497,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
 }
@@ -21624,43 +21624,43 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#failure_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#failure_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#grpc DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#grpc DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#initial_delay_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#initial_delay_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#success_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#success_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_grace_period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_grace_period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#timeout_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#timeout_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -22015,11 +22015,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#limits DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#limits DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#requests DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#requests DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -22142,11 +22142,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#add DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#add DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#drop DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#drop DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -22269,19 +22269,19 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#level DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#level DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#role DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#role DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#user DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#user DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -22462,11 +22462,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#localhost_profile DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#localhost_profile DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#type DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -22589,19 +22589,19 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#gmsa_credential_spec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#gmsa_credential_spec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#gmsa_credential_spec_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#gmsa_credential_spec_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host_process DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host_process DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#run_as_user_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#run_as_user_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -22782,47 +22782,47 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#allow_privilege_escalation DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#allow_privilege_escalation DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#capabilities DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#capabilities DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#privileged DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#privileged DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#proc_mount DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#proc_mount DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#read_only_root_filesystem DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#read_only_root_filesystem DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#run_as_group DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#run_as_group DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#run_as_non_root DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#run_as_non_root DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#run_as_user DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#run_as_user DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#se_linux_options DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#se_linux_options DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#seccomp_profile DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#seccomp_profile DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#windows_options DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#windows_options DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersSecurityContextWindowsOptions;
 }
@@ -23206,7 +23206,7 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -23300,11 +23300,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#service DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#service DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -23427,11 +23427,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -23576,23 +23576,23 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_headers DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#scheme DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -23802,11 +23802,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#host DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#port DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#port}
   */
   readonly port?: string;
 }
@@ -23929,43 +23929,43 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#exec DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#failure_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#failure_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#grpc DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#grpc DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#http_get DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#initial_delay_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#initial_delay_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#success_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#success_threshold DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tcp_socket DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_grace_period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_grace_period_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#timeout_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#timeout_seconds DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -24320,11 +24320,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#device_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#device_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#device_path}
   */
   readonly devicePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -24469,27 +24469,27 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#mount_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#mount_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#mount_propagation DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#mount_propagation DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#read_only DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#read_only DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#sub_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#sub_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#sub_path_expr DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#sub_path_expr DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -24750,95 +24750,95 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#args DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#args DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#env DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#env DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#env}
   */
   readonly env?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#env_from DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#env_from DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#image DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#image DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#image_pull_policy DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#image_pull_policy DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#lifecycle DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#lifecycle DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#liveness_probe DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#liveness_probe DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#ports DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#ports DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#readiness_probe DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#readiness_probe DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resources DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resources DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#security_context DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#security_context DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#startup_probe DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#startup_probe DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#stdin DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#stdin DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#stdin_once DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#stdin_once DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#target_container_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#target_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#target_container_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#target_container_name}
   */
   readonly targetContainerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_message_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_message_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_message_policy DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#termination_message_policy DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tty DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#tty DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#volume_devices DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#volume_devices DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#volume_mounts DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#volume_mounts DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecEphemeralContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#working_dir DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#working_dir DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -25592,11 +25592,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecHostAliases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#hostnames DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#hostnames DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#ip DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#ip DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#ip}
   */
   readonly ip?: string;
 }
@@ -25741,7 +25741,7 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -25857,15 +25857,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26017,11 +26017,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#api_version DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#api_version DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#field_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#field_path DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
 }
@@ -26144,15 +26144,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#container_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#container_name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#divisor DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#divisor DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resource DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resource DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resource}
   */
   readonly resource?: string;
 }
@@ -26304,15 +26304,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#key DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26464,19 +26464,19 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#config_map_key_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#config_map_key_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#field_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#field_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resource_field_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#resource_field_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#secret_key_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#secret_key_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersEnvValueFromSecretKeyRef;
 }
@@ -26657,15 +26657,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value_from DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value_from DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersEnvValueFrom;
 }
@@ -26839,11 +26839,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26966,11 +26966,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#optional DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -27093,15 +27093,15 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#config_map_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#config_map_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#prefix DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#prefix DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#secret_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#secret_ref DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersEnvFromSecretRef;
 }
@@ -27275,7 +27275,7 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#command DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -27369,11 +27369,11 @@ export class DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemp
 }
 export interface DataK8SK8SKeycloakOrgKeycloakV2Alpha1ManifestSpecUnsupportedPodTemplateSpecInitContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#name DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_keycloak_org_keycloak_v2alpha1_manifest#value DataK8SK8SKeycloakOrgKeycloakV2Alpha1Manifest#value}
   */
   readonly value?: string;
 }

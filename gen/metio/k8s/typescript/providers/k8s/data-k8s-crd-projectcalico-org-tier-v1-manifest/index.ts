@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_tier_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_tier_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCrdProjectcalicoOrgTierV1ManifestConfig extends cdktf.Te
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_tier_v1_manifest#metadata DataK8SCrdProjectcalicoOrgTierV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_tier_v1_manifest#metadata DataK8SCrdProjectcalicoOrgTierV1Manifest#metadata}
   */
   readonly metadata: DataK8SCrdProjectcalicoOrgTierV1ManifestMetadata;
   /**
   * TierSpec contains the specification for a security policy tier resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_tier_v1_manifest#spec DataK8SCrdProjectcalicoOrgTierV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_tier_v1_manifest#spec DataK8SCrdProjectcalicoOrgTierV1Manifest#spec}
   */
   readonly spec?: DataK8SCrdProjectcalicoOrgTierV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SCrdProjectcalicoOrgTierV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_tier_v1_manifest#annotations DataK8SCrdProjectcalicoOrgTierV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_tier_v1_manifest#annotations DataK8SCrdProjectcalicoOrgTierV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_tier_v1_manifest#labels DataK8SCrdProjectcalicoOrgTierV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_tier_v1_manifest#labels DataK8SCrdProjectcalicoOrgTierV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_tier_v1_manifest#name DataK8SCrdProjectcalicoOrgTierV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_tier_v1_manifest#name DataK8SCrdProjectcalicoOrgTierV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SCrdProjectcalicoOrgTierV1ManifestSpec {
   /**
   * DefaultAction specifies the action applied to workloads selected by a policy in the tier, but not rule matched the workload's traffic. [Default: Deny]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_tier_v1_manifest#default_action DataK8SCrdProjectcalicoOrgTierV1Manifest#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_tier_v1_manifest#default_action DataK8SCrdProjectcalicoOrgTierV1Manifest#default_action}
   */
   readonly defaultAction?: string;
   /**
   * Order is an optional field that specifies the order in which the tier is applied. Tiers with higher 'order' are applied after those with lower order. If the order is omitted, it may be considered to be 'infinite' - i.e. the tier will be applied last. Tiers with identical order will be applied in alphanumerical order based on the Tier 'Name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_tier_v1_manifest#order DataK8SCrdProjectcalicoOrgTierV1Manifest#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_tier_v1_manifest#order DataK8SCrdProjectcalicoOrgTierV1Manifest#order}
   */
   readonly order?: number;
 }
@@ -316,7 +316,7 @@ export class DataK8SCrdProjectcalicoOrgTierV1ManifestSpecOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_tier_v1_manifest k8s_crd_projectcalico_org_tier_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_tier_v1_manifest k8s_crd_projectcalico_org_tier_v1_manifest}
 */
 export class DataK8SCrdProjectcalicoOrgTierV1Manifest extends cdktf.TerraformDataSource {
 
@@ -332,7 +332,7 @@ export class DataK8SCrdProjectcalicoOrgTierV1Manifest extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataK8SCrdProjectcalicoOrgTierV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCrdProjectcalicoOrgTierV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgTierV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_tier_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgTierV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_tier_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCrdProjectcalicoOrgTierV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -344,7 +344,7 @@ export class DataK8SCrdProjectcalicoOrgTierV1Manifest extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_tier_v1_manifest k8s_crd_projectcalico_org_tier_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_tier_v1_manifest k8s_crd_projectcalico_org_tier_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -355,8 +355,8 @@ export class DataK8SCrdProjectcalicoOrgTierV1Manifest extends cdktf.TerraformDat
       terraformResourceType: 'k8s_crd_projectcalico_org_tier_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.17',
-        providerVersionConstraint: '2025.11.17'
+        providerVersion: '2025.11.24',
+        providerVersionConstraint: '2025.11.24'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
